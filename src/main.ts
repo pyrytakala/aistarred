@@ -442,6 +442,47 @@ function renderMeta(payload: RankingsPayload): void {
   meta.textContent = `${count} talks ranked by quality`;
 }
 
+function compositeRange(videos: RankedVideo[]): { min: number; max: number } | null {
+  const scores = videos
+    .map((video) => video.composite)
+    .filter((value): value is number => value != null && !Number.isNaN(value));
+
+  if (scores.length < 2) {
+    return null;
+  }
+
+  return {
+    min: Math.min(...scores),
+    max: Math.max(...scores),
+  };
+}
+
+function thumbnailEmphasis(
+  composite: number | undefined,
+  range: { min: number; max: number } | null,
+): { grayscale: string; brightness: string; opacity: string; fadeOverlay: string } {
+  if (composite == null || range == null || range.max <= range.min) {
+    return { grayscale: "0%", brightness: "1", opacity: "1", fadeOverlay: "0" };
+  }
+
+  const normalized = (composite - range.min) / (range.max - range.min);
+  const faded = 1 - normalized;
+  return {
+    grayscale: `${faded * 100}%`,
+    brightness: String(1.2 + faded * 0.45),
+    opacity: String(0.9 + normalized * 0.1),
+    fadeOverlay: String(faded * 0.78),
+  };
+}
+
+function applyThumbnailEmphasis(thumbLink: HTMLElement, composite: number | undefined, range: ReturnType<typeof compositeRange>): void {
+  const { grayscale, brightness, opacity, fadeOverlay } = thumbnailEmphasis(composite, range);
+  thumbLink.style.setProperty("--thumb-grayscale", grayscale);
+  thumbLink.style.setProperty("--thumb-brightness", brightness);
+  thumbLink.style.setProperty("--thumb-opacity", opacity);
+  thumbLink.style.setProperty("--thumb-fade-overlay", fadeOverlay);
+}
+
 function renderCards(payload: RankingsPayload): void {
   const grid = document.getElementById("grid");
   const template = document.getElementById("card-template") as HTMLTemplateElement | null;
@@ -450,6 +491,8 @@ function renderCards(payload: RankingsPayload): void {
   }
 
   grid.replaceChildren();
+
+  const scoreRange = compositeRange(payload.rankings || []);
 
   for (const video of payload.rankings || []) {
     const node = template.content.cloneNode(true) as DocumentFragment;
@@ -483,6 +526,7 @@ function renderCards(payload: RankingsPayload): void {
     thumb.src = thumbnailUrl(video.id);
     thumb.alt = video.title;
     thumbLink.href = video.url;
+    applyThumbnailEmphasis(thumbLink, video.composite, scoreRange);
     titleLink.href = video.url;
     titleLink.title = video.title;
     titleLink.textContent = video.title;

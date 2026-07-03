@@ -1,5 +1,5 @@
 {
-  "prompt_path": "/Users/pyry/g/content-ranker/scoring_prompt.txt",
+  "prompt_path": "/Users/pyry/g/endslop/scoring_prompt.txt",
   "video_count": 60,
   "ranked_count": 59,
   "rankings": [
@@ -9,7 +9,7 @@
       "speakers": "Jacob E. Thomas, Results Gen",
       "url": "https://www.youtube.com/watch?v=IJXjTLPzvAU",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen [IJXjTLPzvAU].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen [IJXjTLPzvAU].txt",
       "summary_bullets": [
         "Current persona evals measure fluency and personality consistency, not documentary fidelity.",
         "The \"Miranda Hypothesis\": culturally dominant representations overwrite historical record in training data.",
@@ -55,7 +55,7 @@
       "speakers": "Isadora Martin-Dye, Isadora & Co",
       "url": "https://www.youtube.com/watch?v=ij-AU9dpJjc",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co [ij-AU9dpJjc].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Stop Writing Tone Instructions. Layer Them. - Isadora Martin-Dye, Isadora & Co [ij-AU9dpJjc].txt",
       "summary_bullets": [
         "Proposes four-layer prompt architecture: identity, mode, voice, veto.",
         "Argues single system prompts fail on edge cases like turn 21.",
@@ -96,7 +96,7 @@
       "speakers": "Anna Marie Benzon",
       "url": "https://www.youtube.com/watch?v=LrGCT7G_rU8",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon [LrGCT7G_rU8].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon [LrGCT7G_rU8].txt",
       "summary_bullets": [
         "Presents RL-guided system for automated remediation of ETL pipeline failures.",
         "Architecture combines deterministic rules, RL policy, and safety layer for bounded actions.",
@@ -128,7 +128,7 @@
       "speakers": "Angie Jones, Agentic AI Foundation",
       "url": "https://www.youtube.com/watch?v=ZD9-4fW2HhM",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Build Systems, Not Code - Angie Jones, Agentic AI Foundation [ZD9-4fW2HhM].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Build Systems, Not Code - Angie Jones, Agentic AI Foundation [ZD9-4fW2HhM].txt",
       "summary_bullets": [
         "Agentic system design requires systems thinking, workflow design, and decomposition.",
         "Giant prompts are a code smell; decompose into skills, sub-agents, and scripts.",
@@ -178,7 +178,7 @@
       "speakers": "Sohail Shaikh & Ankush Rastogi, Prosodica",
       "url": "https://www.youtube.com/watch?v=vh2VGuQ3zhY",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica [vh2VGuQ3zhY].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/The 100-Tool Agent Is a Trap - Sohail Shaikh & Ankush Rastogi, Prosodica [vh2VGuQ3zhY].txt",
       "summary_bullets": [
         "Fat agent accuracy drops from 78% at 10 tools to 13.6% at 741 tools.",
         "Semantic routing maintains >83% accuracy across catalog sizes.",
@@ -207,7 +207,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ObTPqBGsEbA",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks [ObTPqBGsEbA].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/The Production AI Playbook: Deploying Agents at Enterprise Scale — Sandipan Bhaumik, Databricks [ObTPqBGsEbA].txt",
       "summary_bullets": [
         "Presents a five-pillar framework for production AI: evaluation, observability, data foundation, orchestration, governance.",
         "Case study: retail banking chatbot, 20k calls/month, 60% simple queries, 85K failed POC, then 8-week success.",
@@ -240,7 +240,7 @@
       "speakers": "Apoorva Joshi, MongoDB",
       "url": "https://www.youtube.com/watch?v=T0HhO4YtTfE",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/AI System Design: From Idea to Production - Apoorva Joshi, MongoDB [T0HhO4YtTfE].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/AI System Design: From Idea to Production - Apoorva Joshi, MongoDB [T0HhO4YtTfE].txt",
       "summary_bullets": [
         "Presents a four-phase framework for AI system design: requirements, design, evaluation, optimization.",
         "Uses a health insurance claims review use case to illustrate each phase concretely.",
@@ -280,7 +280,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=c-2eEv2ou7Y",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic [c-2eEv2ou7Y].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Why MCP and ChatGPT Apps Use Double Iframes — Frédéric Barthelet, Alpic [c-2eEv2ou7Y].txt",
       "summary_bullets": [
         "Explains why ChatGPT/MCP apps use double iframes for security.",
         "Covers CSP, sandboxing, origin isolation, and proxy domain solution.",
@@ -313,7 +313,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=UNzCG3lw6O0",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Building Great Agent Skills: The Missing Manual [UNzCG3lw6O0].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Building Great Agent Skills: The Missing Manual [UNzCG3lw6O0].txt",
       "summary_bullets": [
         "Introduces \"skill hell\" and need for a rubric to evaluate agent skills.",
         "Presents a four-part checklist: trigger, structure, steering, pruning.",
@@ -342,7 +342,7 @@
       "speakers": "Varsha Shah, Independent",
       "url": "https://www.youtube.com/watch?v=Iwe_RY-fYgI",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent [Iwe_RY-fYgI].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/AI-Driven Multi-Document Correlation for Financial Compliance - Varsha Shah, Independent [Iwe_RY-fYgI].txt",
       "summary_bullets": [
         "Proposes AI framework combining graph correlation, probabilistic risk, and jurisdictional normalization.",
         "Targets hidden fraud patterns across payroll, tax, procurement, and financial documents.",
@@ -370,7 +370,7 @@
       "speakers": "Angie Jones, Agentic AI Foundation",
       "url": "https://www.youtube.com/watch?v=whue9_YquGA",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation [whue9_YquGA].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Building an Autonomous Engineering Org - Angie Jones, Agentic AI Foundation [whue9_YquGA].txt",
       "summary_bullets": [
         "Describes Block's journey to autonomous engineering using AI agents.",
         "Introduces a 5-stage maturity model for engineer-AI collaboration.",
@@ -399,7 +399,7 @@
       "speakers": "Alfonso Graziano, Nearform",
       "url": "https://www.youtube.com/watch?v=aHhB3sjGjkI",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Agents Building Agents - Alfonso Graziano, Nearform [aHhB3sjGjkI].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Agents Building Agents - Alfonso Graziano, Nearform [aHhB3sjGjkI].txt",
       "summary_bullets": [
         "Presents a method using coding agents to iteratively improve AI agent performance on evals.",
         "Introduces AutoAgent, a loop that runs evals and updates agent code autonomously.",
@@ -427,7 +427,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=TUnPNY4E2fw",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max Ryabinin, Together AI [TUnPNY4E2fw].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Road to 5 Million Tokens: Breaking Barriers in Long Context Training — Max Ryabinin, Together AI [TUnPNY4E2fw].txt",
       "summary_bullets": [
         "Describes memory bottlenecks in long-context transformer training (quadratic compute, linear memory).",
         "Applies FSDP, DeepSpeed Ulysses, activation checkpointing, and CPU offloading to reduce memory.",
@@ -456,7 +456,7 @@
       "speakers": "RL Nabors, Arize",
       "url": "https://www.youtube.com/watch?v=fWXJM-J0ZB8",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Frontier results, on device - RL Nabors, Arize [fWXJM-J0ZB8].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Frontier results, on device - RL Nabors, Arize [fWXJM-J0ZB8].txt",
       "summary_bullets": [
         "Advocates replacing large cloud LLMs with on-device small models for cost, security, latency.",
         "Presents a framework: prototype big, deploy small; test from small to large.",
@@ -490,7 +490,7 @@
       "speakers": "Tisha Chawla & Susheem Koul, Microsoft",
       "url": "https://www.youtube.com/watch?v=Lc8zRh9muoY",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft [Lc8zRh9muoY].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Your Agent Failed in Prod. Good Luck Reproducing It. - Tisha Chawla & Susheem Koul, Microsoft [Lc8zRh9muoY].txt",
       "summary_bullets": [
         "Explains why temperature zero fails to guarantee deterministic agent behavior due to GPU non-determinism and batching.",
         "Argues for replayability via recording input/output at node boundaries instead of chasing bitwise determinism.",
@@ -519,7 +519,7 @@
       "speakers": "Rajkumar Sakthivel, Tesco",
       "url": "https://www.youtube.com/watch?v=dRmWYHuIJxM",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco [dRmWYHuIJxM].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/We Cut 94% of AI Coding Tokens With a Local Code Index - Rajkumar Sakthivel, Tesco [dRmWYHuIJxM].txt",
       "summary_bullets": [
         "Problem: AI coding tools send excessive context, causing high token costs.",
         "Solution: Local code index retrieves only relevant code snippets.",
@@ -548,7 +548,7 @@
       "speakers": "Dominik Tornow, Resonate HQ",
       "url": "https://www.youtube.com/watch?v=DqtmZE6Hl0g",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/The Prompt is the Platform - Dominik Tornow, Resonate HQ [DqtmZE6Hl0g].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/The Prompt is the Platform - Dominik Tornow, Resonate HQ [DqtmZE6Hl0g].txt",
       "summary_bullets": [
         "Describes using deterministic simulation to help agents design distributed systems from abstract specs.",
         "Shows agents moving from implementation to design via simulation and concrete specs.",
@@ -585,7 +585,7 @@
       "speakers": "Abed Matini, Ogilvy",
       "url": "https://www.youtube.com/watch?v=Akm1sqvWG4A",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy [Akm1sqvWG4A].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy [Akm1sqvWG4A].txt",
       "summary_bullets": [
         "Demonstrates a framework-free hybrid RAG using Docling, PostgreSQL, and local LLMs.",
         "Covers four chunking strategies: heading-based, paragraph, fixed 512-char, sentence-based.",
@@ -614,7 +614,7 @@
       "speakers": "Ted Johnson, JoinIn AI",
       "url": "https://www.youtube.com/watch?v=hVJOnuhFmTA",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI [hVJOnuhFmTA].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI [hVJOnuhFmTA].txt",
       "summary_bullets": [
         "Argues that prompting is a batch protocol like punch cards, not truly interactive.",
         "Introduces three concepts: channel, expression, protocol to analyze AI interfaces.",
@@ -647,7 +647,7 @@
       "speakers": "Nishant Gupta, Meta Superintelligence Labs",
       "url": "https://www.youtube.com/watch?v=APh1Vx0oLmQ",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs [APh1Vx0oLmQ].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs [APh1Vx0oLmQ].txt",
       "summary_bullets": [
         "Identifies mismatch between probabilistic AI agents and deterministic cloud infrastructure.",
         "Lists failure modes: recursive loops, retry amplification, cost explosions.",
@@ -681,7 +681,7 @@
       "speakers": "Allen Pike, Forestwalk Labs",
       "url": "https://www.youtube.com/watch?v=65X0pQ6Lmbg",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs [65X0pQ6Lmbg].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs [65X0pQ6Lmbg].txt",
       "summary_bullets": [
         "Argues voice input + visual output is a promising AI interaction paradigm.",
         "Identifies latency as key challenge: <1s for visual, <200ms for voice conversation.",
@@ -715,7 +715,7 @@
       "speakers": "Gabe De Mesa, OpenGov",
       "url": "https://www.youtube.com/watch?v=4uFVSLgD2Q4",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov [4uFVSLgD2Q4].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov [4uFVSLgD2Q4].txt",
       "summary_bullets": [
         "Describes OpenGov's OG Assist AI agent for government ERP software.",
         "Explains migration from LangGraph to custom Effect-based agent loop.",
@@ -744,7 +744,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=so9l_MwS2yg",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Your Attention Is the Bottleneck, Not Your Agents — Zack Proser, WorkOS [so9l_MwS2yg].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Your Attention Is the Bottleneck, Not Your Agents — Zack Proser, WorkOS [so9l_MwS2yg].txt",
       "summary_bullets": [
         "Argues human attention, not AI agents, is the bottleneck in development.",
         "Proposes four strategies: signal layers, voice-first flows, remote control, system self-improvement.",
@@ -778,7 +778,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=zMiSRliEzv4",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog [zMiSRliEzv4].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Self Driving Products: Product Signals to Pull Requests — Joshua Snyder, PostHog [zMiSRliEzv4].txt",
       "summary_bullets": [
         "Describes a pipeline turning product signals into automated pull requests.",
         "Covers ingestion, grouping, research, actionability, and execution steps.",
@@ -811,7 +811,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=TNwJ1LMiENk",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel [TNwJ1LMiENk].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Stop Making Models Bigger, Make Them Behave — Kobie Crawford, Snorkel [TNwJ1LMiENk].txt",
       "summary_bullets": [
         "Argues smaller models with RL can outperform larger models on tool-use tasks.",
         "Snorkel and UC Berkeley used RL to train a 4B model for financial analysis tool use.",
@@ -845,7 +845,7 @@
       "speakers": "Vaidas Razgaitis, Higharc",
       "url": "https://www.youtube.com/watch?v=OXMMN-XbxwA",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc [OXMMN-XbxwA].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc [OXMMN-XbxwA].txt",
       "summary_bullets": [
         "Describes three focus areas for bridging ML research to production.",
         "Covers research legibility via taxonomy documents.",
@@ -879,7 +879,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=EcqMYoIV57A",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo [EcqMYoIV57A].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Why More Context Makes Your Agent Dumber and What to Do About It — Nupur Sharma, Qodo [EcqMYoIV57A].txt",
       "summary_bullets": [
         "Context overload causes agents to ignore middle information (U-curve attention).",
         "Solutions include context engines, hierarchical summarization, knowledge graphs, iterative retrieval.",
@@ -913,7 +913,7 @@
       "speakers": "Balázs Horváth, VisualLabs",
       "url": "https://www.youtube.com/watch?v=6bmM45jkMDY",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs [6bmM45jkMDY].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs [6bmM45jkMDY].txt",
       "summary_bullets": [
         "Argues AI makes coding cheap, shifting bottleneck to deciding what to build.",
         "Recommends story mapping, VAD framework, and four questions for requirements.",
@@ -946,7 +946,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=iUWwcG-C8OU",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS [iUWwcG-C8OU].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Why Can't Anyone Answer Questions About the Business? — Garrett Galow, WorkOS [iUWwcG-C8OU].txt",
       "summary_bullets": [
         "Describes building an internal LLM agent (Studio) to answer business questions via natural language.",
         "Agent connects to Snowflake, Linear, Notion; generates SQL queries and reusable dashboards.",
@@ -974,7 +974,7 @@
       "speakers": "Victor Savkin, Nx",
       "url": "https://www.youtube.com/watch?v=jVjt-2g8NMY",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/A Genius With Amnesia - Victor Savkin, Nx [jVjt-2g8NMY].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/A Genius With Amnesia - Victor Savkin, Nx [jVjt-2g8NMY].txt",
       "summary_bullets": [
         "Identifies two agent limitations: repo-bound scope and lack of episodic memory.",
         "Uses a multi-repo change example requiring seven re-explanations to illustrate the problem.",
@@ -1011,7 +1011,7 @@
       "speakers": "Lech Kalinowski, Callstack",
       "url": "https://www.youtube.com/watch?v=akk6KRlcwW4",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack [akk6KRlcwW4].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack [akk6KRlcwW4].txt",
       "summary_bullets": [
         "Builds a physical AI terminal with dual OLED/e-paper displays for LLM interaction.",
         "Uses ESP32 microcontroller, backend with TensorRT serving a 120B-parameter model.",
@@ -1047,7 +1047,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=UM6sFg_jdlE",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/RAG is dead, right?? — Kuba Rogut, Turbopuffer [UM6sFg_jdlE].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/RAG is dead, right?? — Kuba Rogut, Turbopuffer [UM6sFg_jdlE].txt",
       "summary_bullets": [
         "Defines RAG vs. agentic search with concrete examples.",
         "Cursor uses Merkle trees for efficient code re-indexing.",
@@ -1081,7 +1081,7 @@
       "speakers": "Justin Schroeder, StandardAgents",
       "url": "https://www.youtube.com/watch?v=spNAUEgq_A8",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents [spNAUEgq_A8].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents [spNAUEgq_A8].txt",
       "summary_bullets": [
         "Argues that monolithic agents with large context (inheritance) are flawed.",
         "Proposes composition via small, specialized domain-specific agents coordinated by a larger agent.",
@@ -1119,7 +1119,7 @@
       "speakers": "Ishaan Sehgal, Omnara",
       "url": "https://www.youtube.com/watch?v=UPwGaM2MKHY",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/The Log Is The Agent - Ishaan Sehgal, Omnara [UPwGaM2MKHY].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/The Log Is The Agent - Ishaan Sehgal, Omnara [UPwGaM2MKHY].txt",
       "summary_bullets": [
         "Argues agent identity is its append-only event log, not model or runtime.",
         "Compares to video game save files: agent is data, not execution environment.",
@@ -1157,7 +1157,7 @@
       "speakers": "Raymond Weitekamp, OpenProse",
       "url": "https://www.youtube.com/watch?v=3hXJI2q0Jz8",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Recursive Coding Agents - Raymond Weitekamp, OpenProse [3hXJI2q0Jz8].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Recursive Coding Agents - Raymond Weitekamp, OpenProse [3hXJI2q0Jz8].txt",
       "summary_bullets": [
         "Defines recursive language models (RLMs) as unifying reasoning and tool calling via a read-evaluate-print loop.",
         "Argues current AI agents are \"mismanaged geniuses\" – intelligence sufficient but orchestration/reliability missing.",
@@ -1195,7 +1195,7 @@
       "speakers": "Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI",
       "url": "https://www.youtube.com/watch?v=ZRM_TfEZcIo",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI [ZRM_TfEZcIo].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI [ZRM_TfEZcIo].txt",
       "summary_bullets": [
         "Describes a three-version AI research OS for personal knowledge management.",
         "Uses deep research algorithm with query rounds, ranking, and file-based index.",
@@ -1233,7 +1233,7 @@
       "speakers": "Erik Hanchett, AWS",
       "url": "https://www.youtube.com/watch?v=uiP88SpCi1Q",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Your Agent Is Wasting Tokens and You Don't Know It - Erik Hanchett, AWS [uiP88SpCi1Q].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Your Agent Is Wasting Tokens and You Don't Know It - Erik Hanchett, AWS [uiP88SpCi1Q].txt",
       "summary_bullets": [
         "Five practical tips to reduce token costs in agent systems.",
         "Caching system prompts, routing by difficulty, offloading tool results.",
@@ -1266,7 +1266,7 @@
       "speakers": "Luis Romero-Sevilla, Orbis",
       "url": "https://www.youtube.com/watch?v=XovaGv4f39A",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis [XovaGv4f39A].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis [XovaGv4f39A].txt",
       "summary_bullets": [
         "Proposes parallel CAG with multiple KV caches for dense, rapidly changing document collections.",
         "Contrasts simple RAG and GraphRAG limitations for fully relevant, frequently replaced documents.",
@@ -1303,7 +1303,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ghJmWQCIHRM",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google [ghJmWQCIHRM].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/The agent-ready web: Simplify user actions with WebMCP — Tara Agyemang, Google [ghJmWQCIHRM].txt",
       "summary_bullets": [
         "Introduces WebMCP, a proposed web standard for AI agents to use structured tools instead of screen scraping.",
         "Demonstrates WebMCP with a maze game and concert ticket site using Gemini AI in Chrome.",
@@ -1341,7 +1341,7 @@
       "speakers": "Cedric Clyburn, Red Hat",
       "url": "https://www.youtube.com/watch?v=-x5GEVnkuRw",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Structuring the Unstructured - Cedric Clyburn, Red Hat [-x5GEVnkuRw].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Structuring the Unstructured - Cedric Clyburn, Red Hat [-x5GEVnkuRw].txt",
       "summary_bullets": [
         "Introduces Docling, an open-source tool for converting unstructured documents (PDFs, images) to markdown/JSON.",
         "Demonstrates extraction of text, tables, images, and layout using OCR and vision models, all locally.",
@@ -1384,7 +1384,7 @@
       "speakers": "Amol Kapoor, Nori",
       "url": "https://www.youtube.com/watch?v=JRTAtZ5iBkU",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori [JRTAtZ5iBkU].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori [JRTAtZ5iBkU].txt",
       "summary_bullets": [
         "Argues agents fail at graphics due to medium mismatch, not model limits.",
         "Proposes HTML as agent-native language for layout and visuals.",
@@ -1429,7 +1429,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=gHs5ZiY80PM",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia [gHs5ZiY80PM].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/You Might Not Need 50 Diffusion Steps — Ziv Ilan, Nvidia [gHs5ZiY80PM].txt",
       "summary_bullets": [
         "Covers quantization, caching, and distillation for diffusion model acceleration.",
         "Emphasizes step distillation to reduce denoising steps (e.g., 50→4–8).",
@@ -1478,7 +1478,7 @@
       "speakers": "Kushan Raj, ARK",
       "url": "https://www.youtube.com/watch?v=JnubYCYunk8",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Browser Agents Don't Need Better Models. They Need Better Eyes. - Kushan Raj, ARK [JnubYCYunk8].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Browser Agents Don't Need Better Models. They Need Better Eyes. - Kushan Raj, ARK [JnubYCYunk8].txt",
       "summary_bullets": [
         "Speaker argues browser agents fail due to poor environment, not model capability.",
         "Demonstrates faster agent using cheaper model by compressing web pages into markdown.",
@@ -1519,7 +1519,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=4sX_He5c4sI",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive [4sX_He5c4sI].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/WF2026: Autoresearch & Keynotes ft. Anthropic, Google DeepMind, Amazon AGI, Sonar, Arena, Recursive [4sX_He5c4sI].txt",
       "summary_bullets": [
         "Anthropic introduces Fable model and field guide for working with it.",
         "Sonar discusses verification in AI coding workflows.",
@@ -1565,7 +1565,7 @@
       "speakers": "Sonam Pankaj, StarlightSearch",
       "url": "https://www.youtube.com/watch?v=Jx4ZFEAq6bY",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch [Jx4ZFEAq6bY].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch [Jx4ZFEAq6bY].txt",
       "summary_bullets": [
         "Identifies static retrieval as main cause of agent failures (73% of pipeline failures).",
         "Proposes utility score: similarity weighted by historical outcome usefulness.",
@@ -1611,7 +1611,7 @@
       "speakers": "Erik Hanchett, AWS",
       "url": "https://www.youtube.com/watch?v=IddXPepIAS4",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS [IddXPepIAS4].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS [IddXPepIAS4].txt",
       "summary_bullets": [
         "Defines spec-driven development: writing specs before code.",
         "Argues it improves AI coding assistant output quality.",
@@ -1657,7 +1657,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=htM02KMNZnk",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF [htM02KMNZnk].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/WF2026: Software Factories & Keynotes ft. Microsoft, OpenAI, OpenClaw, Z.ai (GLM), MiniMax, HF [htM02KMNZnk].txt",
       "summary_bullets": [
         "Multi-speaker session on software factories, loops, and agentic coding.",
         "Microsoft, OpenAI, Z.ai, MiniMax present platforms and models for agent development.",
@@ -1707,7 +1707,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=btxGmN8RvNU",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Your Agent's Biggest Lie: \"I Searched the Web\" — Rafael Levi, Bright Data [btxGmN8RvNU].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Your Agent's Biggest Lie: \"I Searched the Web\" — Rafael Levi, Bright Data [btxGmN8RvNU].txt",
       "summary_bullets": [
         "LLMs falsely claim to have searched the web, causing hallucinations.",
         "Web anti-bot measures (CAPTCHAs, AI labyrinth) block agents silently.",
@@ -1755,7 +1755,7 @@
       "speakers": "Benedikt Sanftl, Mutagent",
       "url": "https://www.youtube.com/watch?v=pSto5YaNGUo",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/The Agentic AI Engineer - Benedikt Sanftl, Mutagent [pSto5YaNGUo].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/The Agentic AI Engineer - Benedikt Sanftl, Mutagent [pSto5YaNGUo].txt",
       "summary_bullets": [
         "Describes an agentic loop (offline build/test/evaluate, online monitor/diagnose/optimize) for AI agent development.",
         "Advocates spec-driven development to capture agent requirements decoupled from implementation frameworks.",
@@ -1805,7 +1805,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=SS-A8sE7hkw",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind [SS-A8sE7hkw].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Sovereign Escape Velocity: Ownership w Open Models — Gus Martins, & Ian Ballantyne, Google DeepMind [SS-A8sE7hkw].txt",
       "summary_bullets": [
         "Introduces Gemma 4 model family: E2B, E4B, 26B MoE, 31B dense.",
         "Claims high intelligence per parameter, citing LM Arena ELO rankings.",
@@ -1855,7 +1855,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=I2cbIws9j10",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy [I2cbIws9j10].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/WF26: Harness Engineering & Startup Battlefield ft. Garry Tan, Mike Krieger, @t3dotgg , DSPy [I2cbIws9j10].txt",
       "summary_bullets": [
         "Multi-speaker session on AI engineering trends, harness engineering, and startup pitches.",
         "Covers survey data, network protocols, DSPy, fireside chat, and numerous short talks.",
@@ -1903,7 +1903,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=SKDJo2CopRs",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare [SKDJo2CopRs].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Why Eval++ Is the Next Great Compute Primitive — Sunil Pai & Matt Carey, Cloudflare [SKDJo2CopRs].txt",
       "summary_bullets": [
         "Introduces Cloudflare durable objects as stateful serverless for AI agents.",
         "Describes dynamic workers (eval++) for running user/LLM-generated code safely.",
@@ -1953,7 +1953,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=JsCCrBF7F1g",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize [JsCCrBF7F1g].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/LLM Observability, Evaluation, Experimentation Platform — Dat Ngo, Arize [JsCCrBF7F1g].txt",
       "summary_bullets": [
         "Covers observability via OpenTelemetry traces/spans for LLM agents.",
         "Describes five signal types: LLM-as-judge, human feedback, golden datasets, deterministic evals, business metrics.",
@@ -2003,7 +2003,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=zDGHt0LB-dA",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod [zDGHt0LB-dA].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/GPU Cloud Deployment Without Leaving Your IDE — Audry Hsu, RunPod [zDGHt0LB-dA].txt",
       "summary_bullets": [
         "Demonstrates RunPod's Flash SDK for deploying GPU functions from local IDE.",
         "Shows live demo of image generation with Stable Diffusion and multi-model pipeline.",
@@ -2052,7 +2052,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Bc6Ojl2XS1w",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind [Bc6Ojl2XS1w].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/From Transcription to Live Music: Gemini's Audio Stack — Thor Schaeff, Google DeepMind [Bc6Ojl2XS1w].txt",
       "summary_bullets": [
         "Demonstrates Gemini's audio understanding, speech generation, and real-time conversational models.",
         "Shows Echo Script for structured audio transcription with speaker ID, emotion, language.",
@@ -2102,7 +2102,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=zTZ0qunQXnM",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data [zTZ0qunQXnM].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/From MCP to Scale: Pipelines That Build Themselves — Rafael Levi, Bright Data [zTZ0qunQXnM].txt",
       "summary_bullets": [
         "Demonstrates using Bright Data MCP to give LLMs access to blocked websites.",
         "Shows LLM agents building self-healing scrapers instead of parsing HTML directly.",
@@ -2150,7 +2150,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ILdE7FaAjVA",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod [ILdE7FaAjVA].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/Under 5 minutes to a deployed LLM endpoint — Audry Hsu, RunPod [ILdE7FaAjVA].txt",
       "summary_bullets": [
         "Product pitch for RunPod cloud GPU infrastructure.",
         "Live demo deploying an LLM endpoint in under 5 minutes.",
@@ -2199,7 +2199,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=0S8xe9ftGTM",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/What's new at AI Engineer! [0S8xe9ftGTM].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/What's new at AI Engineer! [0S8xe9ftGTM].txt",
       "summary_bullets": [
         "Co-founder announces AI Engineer World's Fair 2025 is 10x larger than 2024.",
         "New tracks added: auto research, inference/post-training/pre-training, memory/continual learning, verticals (finance, healthcare, etc.).",
@@ -2249,7 +2249,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=gUMwt4-5kn0",
       "status": "ok",
-      "score_path": "/Users/pyry/g/content-ranker/scores/2026 AI Engineer Vibe Reel [gUMwt4-5kn0].txt",
+      "score_path": "/Users/pyry/g/endslop/scores/2026 AI Engineer Vibe Reel [gUMwt4-5kn0].txt",
       "summary_bullets": [
         "Repeated word \"Heat\" with music throughout.",
         "No discernible technical content or argument.",

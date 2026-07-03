@@ -1,4 +1,4 @@
-# content-ranker
+# endslop
 
 Rank conference talks by transcript quality. Fetches YouTube transcripts, scores them with Fireworks, and serves a rankings frontend.
 
@@ -46,15 +46,11 @@ The published site reads `public/data/rankings.json`. Local pipeline output (`tr
 
 ## Deployment
 
-**Live site:** https://pyrytakala.github.io/content-ranker/
+**Live site:** https://endslop.xyz (Vercel)
 
-Deployed via free GitHub Pages on push to `main` (`.github/workflows/pages.yml`).
+Deploys automatically from `main` via [Vercel](https://vercel.com/) Git integration.
 
-### Vercel (optional)
-
-The key in `.env` as `VERCEL_API_KEY` is a **Vercel AI Gateway** key (`vck_…`), not a deploy token. For CLI/Actions deploys, create a **personal access token** (`vcp_…`) at https://vercel.com/account/tokens and add it as GitHub secret `VERCEL_TOKEN` (plus `VERCEL_ORG_ID` / `VERCEL_PROJECT_ID` after `vercel link`).
-
-Alternatively, import the repo at https://vercel.com/new — no token needed, Vercel builds from GitHub directly.
+For CLI/Actions deploys, create a personal access token (`vcp_…`) at https://vercel.com/account/tokens and add GitHub secrets `VERCEL_TOKEN`, `VERCEL_ORG_ID`, and `VERCEL_PROJECT_ID` (from `vercel link`).
 
 ### GitHub secrets (optional pipeline refresh)
 
