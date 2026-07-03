@@ -85,6 +85,37 @@ function formatWeightLabel(weight: number): string {
 
 let openScoreCard: HTMLElement | null = null;
 
+function closeQualityExplainer(): void {
+  const explainer = document.getElementById("quality-explainer");
+  const trigger = document.querySelector<HTMLButtonElement>(".quality-link");
+  if (!explainer || !trigger) {
+    return;
+  }
+
+  explainer.hidden = true;
+  trigger.setAttribute("aria-expanded", "false");
+}
+
+function toggleQualityExplainer(): void {
+  const explainer = document.getElementById("quality-explainer");
+  const trigger = document.querySelector<HTMLButtonElement>(".quality-link");
+  if (!explainer || !trigger) {
+    return;
+  }
+
+  const opening = explainer.hidden;
+  explainer.hidden = !opening;
+  trigger.setAttribute("aria-expanded", opening ? "true" : "false");
+}
+
+function setupQualityLink(trigger: HTMLButtonElement): void {
+  trigger.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    toggleQualityExplainer();
+  });
+}
+
 function closeScoreBreakdown(): void {
   if (!openScoreCard) {
     return;
@@ -175,17 +206,6 @@ function renderScoreBreakdown(breakdown: HTMLElement, video: RankedVideo): void 
     breakdown.appendChild(finalRow);
   }
 
-  if (video.tags?.length) {
-    const tagsSection = document.createElement("div");
-    tagsSection.className = "score-breakdown-tags";
-
-    const tagsEl = document.createElement("div");
-    tagsEl.className = "tags";
-    renderTags(tagsEl, video.tags);
-    tagsSection.appendChild(tagsEl);
-    breakdown.appendChild(tagsSection);
-  }
-
   breakdown.hidden = true;
 }
 
@@ -214,11 +234,18 @@ document.addEventListener("click", (event) => {
   if (!target.closest(".score") && !target.closest(".score-breakdown")) {
     closeScoreBreakdown();
   }
+  if (
+    !target.closest(".quality-link") &&
+    !target.closest(".quality-explainer")
+  ) {
+    closeQualityExplainer();
+  }
 });
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
     closeScoreBreakdown();
+    closeQualityExplainer();
   }
 });
 
@@ -409,9 +436,17 @@ function renderSummary(wrap: HTMLElement, bullets: string[] | undefined): void {
   }
 }
 
-function renderTags(container: HTMLElement, tags: Tag[]): void {
+function renderTags(
+  container: HTMLElement,
+  tags: Tag[],
+  options?: { tone?: Tag["tone"] },
+): void {
+  const filtered = options?.tone
+    ? (tags || []).filter((tag) => (tag.tone || "positive") === options.tone)
+    : tags || [];
+
   container.replaceChildren();
-  for (const tag of tags || []) {
+  for (const tag of filtered) {
     const kind = TAG_ICON_KINDS[tag.label] || "substance";
     const el = document.createElement("span");
     el.className = `tag ${tag.tone || "positive"}`;
@@ -438,8 +473,22 @@ function renderMeta(payload: RankingsPayload): void {
   if (!meta) {
     return;
   }
+
   const count = payload.ranked_count ?? payload.rankings?.length ?? 0;
-  meta.textContent = `${count} talks ranked by quality`;
+  meta.replaceChildren();
+
+  const prefix = document.createElement("span");
+  prefix.textContent = `${count} talks ranked `;
+
+  const qualityLink = document.createElement("button");
+  qualityLink.type = "button";
+  qualityLink.className = "quality-link";
+  qualityLink.textContent = "by quality";
+  qualityLink.setAttribute("aria-expanded", "false");
+  qualityLink.setAttribute("aria-controls", "quality-explainer");
+  setupQualityLink(qualityLink);
+
+  meta.append(prefix, qualityLink);
 }
 
 function compositeRange(videos: RankedVideo[]): { min: number; max: number } | null {
@@ -500,6 +549,7 @@ function renderCards(payload: RankingsPayload): void {
     const rank = node.querySelector<HTMLElement>(".rank");
     const thumbLink = node.querySelector<HTMLAnchorElement>(".thumb-link");
     const thumb = node.querySelector<HTMLImageElement>(".thumb");
+    const thumbTags = node.querySelector<HTMLElement>(".thumb-tags");
     const titleLink = node.querySelector<HTMLAnchorElement>(".title-link");
     const summaryWrap = node.querySelector<HTMLElement>(".summary-wrap");
     const published = node.querySelector<HTMLTimeElement>(".published");
@@ -511,6 +561,7 @@ function renderCards(payload: RankingsPayload): void {
       !rank ||
       !thumbLink ||
       !thumb ||
+      !thumbTags ||
       !titleLink ||
       !summaryWrap ||
       !published ||
@@ -527,6 +578,7 @@ function renderCards(payload: RankingsPayload): void {
     thumb.alt = video.title;
     thumbLink.href = video.url;
     applyThumbnailEmphasis(thumbLink, video.composite, scoreRange);
+    renderTags(thumbTags, video.tags || [], { tone: "negative" });
     titleLink.href = video.url;
     titleLink.title = video.title;
     titleLink.textContent = video.title;

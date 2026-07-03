@@ -48,14 +48,13 @@ The published site reads `public/data/rankings.json`. Local pipeline output (`tr
 
 **Live site:** https://endslop.xyz (Vercel)
 
-Deploys automatically from `main` via [Vercel](https://vercel.com/) Git integration.
+Pushes to `main` on `pyrytakala/endslop` deploy automatically via Vercel Git integration (production branch: `main`). No separate deploy step is required — `git push origin main` is enough.
 
-For CLI/Actions deploys, create a personal access token (`vcp_…`) at https://vercel.com/account/tokens and add GitHub secrets `VERCEL_TOKEN`, `VERCEL_ORG_ID`, and `VERCEL_PROJECT_ID` (from `vercel link`).
+The optional `.github/workflows/pipeline.yml` workflow only refreshes `public/data/rankings.json` when API secrets are configured.
 
 ### GitHub secrets (optional pipeline refresh)
 
 - `FIREWORKS_API_KEY`, `TRANSCRIPTAPI_API_KEY`, `SUPADATA_API_KEY` — for re-scoring on merge (uses `.cache/` when available)
-- `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID` — for Vercel deploy workflow
 
 ## Project layout
 

@@ -1,15 +1,15 @@
-name: Deploy
+name: Pipeline
 
 on:
   push:
     branches: [main]
 
 concurrency:
-  group: deploy-main
+  group: pipeline-main
   cancel-in-progress: true
 
 jobs:
-  pipeline-and-deploy:
+  refresh-rankings:
     if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
     permissions:
@@ -55,12 +55,3 @@ jobs:
             git commit -m "Update published rankings [skip ci]"
             git push
           fi
-
-      - name: Deploy to Vercel
-        if: ${{ secrets.VERCEL_TOKEN != '' }}
-        uses: amondnet/vercel-action@v25
-        with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
-          vercel-args: "--prod"

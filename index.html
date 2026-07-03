@@ -8,9 +8,30 @@
   </head>
   <body>
     <header class="header">
-      <div>
+      <div class="header-copy">
         <h1>Ranked: AI Engineer talks</h1>
-        <p id="meta" class="meta">Loading…</p>
+        <div class="meta-wrap">
+          <p id="meta" class="meta">Loading…</p>
+          <div id="quality-explainer" class="quality-explainer" hidden>
+            <p class="quality-explainer-intro">
+              Conference lineups increasingly favor sponsor showcases and polished
+              narratives over hard-won lessons. Plenty of talks restate what you
+              already know, demo a product, or dress marketing up as insight. This
+              list is an attempt to float the ones that still teach something.
+            </p>
+            <p class="quality-explainer-title">How quality is scored</p>
+            <p>
+              Each transcript is read and scored by an LLM on five dimensions (0–10):
+              substance, evidence, specificity, insight density, and non-promotion.
+            </p>
+            <p>
+              The composite (0–100) is a weighted sum — substance ×3, evidence ×2,
+              specificity ×1.5, insight ×2.5, non-promotion ×1 — with a small
+              adjustment for relative like count. Click any score badge for a per-talk
+              breakdown.
+            </p>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -23,6 +44,7 @@
         <div class="score-breakdown" hidden></div>
         <a class="thumb-link" target="_blank" rel="noopener noreferrer">
           <img class="thumb" alt="" loading="lazy" />
+          <div class="thumb-tags tags" hidden></div>
         </a>
         <div class="body">
           <div class="talk-heading">
