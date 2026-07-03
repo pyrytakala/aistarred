@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch YouTube transcripts and metadata via Supadata only."""
+"""Fetch YouTube transcripts and metadata via a configurable provider."""
 
 from __future__ import annotations
 
@@ -10,12 +10,18 @@ import sys
 import time
 from pathlib import Path
 
-from supadata_client import SupadataClient, SupadataError, metadata_to_index_fields
+from transcript_providers import (
+    TranscriptProvider,
+    TranscriptProviderError,
+    default_provider_name,
+    get_provider,
+)
 
 
 DEFAULT_CHANNEL_URL = "https://www.youtube.com/@aiDotEngineer/videos"
 DEFAULT_OUTPUT_DIR = Path("transcripts")
-DEFAULT_LIMIT = 10
+DEFAULT_MONTHS = 2
+DEFAULT_PROBE_LIMIT = 500
 DEFAULT_REQUEST_DELAY = 1.0
 INVALID_FILENAME_CHARS = re.compile(r"[/\\]")
 
@@ -43,15 +49,32 @@ def save_transcript(
     return text_path
 
 
+def find_existing_transcript(output_dir: Path, title: str, video_id: str) -> Path | None:
+    candidates = [
+        output_dir / title_to_filename(title),
+        output_dir / f"{title_to_filename(title).removesuffix('.txt')} [{video_id}].txt",
+    ]
+    for path in output_dir.glob("*.txt"):
+        if f"[{video_id}]" in path.name:
+            candidates.append(path)
+
+    for path in candidates:
+        if path.is_file() and path.stat().st_size > 0:
+            return path
+    return None
+
+
 def process_video(
-    client: SupadataClient,
+    provider: TranscriptProvider,
     video_id: str,
     output_dir: Path,
     used_names: set[str],
     request_delay: float,
+    *,
+    metadata_payload: dict | None = None,
 ) -> dict:
-    metadata_payload = client.get_metadata(video_id)
-    fields = metadata_to_index_fields(metadata_payload)
+    metadata_payload = metadata_payload or provider.get_metadata(video_id)
+    fields = provider.metadata_to_index_fields(metadata_payload)
     title = fields.get("title") or video_id
 
     result = {
@@ -62,18 +85,24 @@ def process_video(
     }
 
     try:
-        transcript_text, transcript_meta = client.get_transcript(video_id)
-        text_path = save_transcript(output_dir, title, video_id, transcript_text, used_names)
+        existing_path = find_existing_transcript(output_dir, title, video_id)
+        if existing_path:
+            transcript_text = existing_path.read_text()
+            transcript_meta: dict = {"language_code": None, "available_langs": []}
+            text_path = existing_path
+        else:
+            transcript_text, transcript_meta = provider.get_transcript(video_id)
+            text_path = save_transcript(output_dir, title, video_id, transcript_text, used_names)
         result.update(
             {
                 "transcript_status": "ok",
-                "transcript_provider": "supadata",
+                "transcript_provider": provider.name,
                 "transcript_path": str(text_path),
                 "line_count": len(transcript_text.splitlines()),
                 **transcript_meta,
             }
         )
-    except SupadataError as exc:
+    except TranscriptProviderError as exc:
         result["transcript_status"] = "failed"
         result["error"] = str(exc)
 
@@ -84,7 +113,7 @@ def process_video(
 
 
 def retry_missing_transcripts(
-    client: SupadataClient,
+    provider: TranscriptProvider,
     output_dir: Path,
     request_delay: float,
     *,
@@ -99,28 +128,28 @@ def retry_missing_transcripts(
     videos = payload.get("videos") or []
     if refresh_all:
         pending = videos
-        print(f"Refreshing {len(pending)} transcripts...\n")
+        print(f"Refreshing {len(pending)} transcripts via {provider.name}...\n")
     else:
         pending = [video for video in videos if video.get("transcript_status") != "ok"]
         if not pending:
             print("All transcripts already downloaded.")
             return 0
-        print(f"Retrying {len(pending)} missing transcripts...\n")
+        print(f"Retrying {len(pending)} missing transcripts via {provider.name}...\n")
 
     for index, video in enumerate(pending, start=1):
         print(f"[{index}/{len(pending)}] {video['title']} ({video['id']})")
         try:
-            transcript_text, transcript_meta = client.get_transcript(video["id"])
+            transcript_text, transcript_meta = provider.get_transcript(video["id"])
             text_path = output_dir / title_to_filename(video["title"])
             text_path.write_text(transcript_text)
             video["transcript_status"] = "ok"
-            video["transcript_provider"] = "supadata"
+            video["transcript_provider"] = provider.name
             video["transcript_path"] = str(text_path)
             video["line_count"] = len(transcript_text.splitlines())
             video.update(transcript_meta)
             video.pop("error", None)
             print("  -> ok")
-        except SupadataError as exc:
+        except TranscriptProviderError as exc:
             video["transcript_status"] = "failed"
             video["error"] = str(exc)
             print(f"  -> failed: {exc}")
@@ -128,6 +157,7 @@ def retry_missing_transcripts(
         if request_delay > 0 and index < len(pending):
             time.sleep(request_delay)
 
+    payload["provider"] = provider.name
     index_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n")
     ok_count = sum(1 for video in videos if video.get("transcript_status") == "ok")
     print(f"\nDone. {ok_count}/{len(videos)} transcripts available in {output_dir}/")
@@ -136,7 +166,16 @@ def retry_missing_transcripts(
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Fetch YouTube transcripts and metadata via Supadata."
+        description="Fetch YouTube transcripts and metadata via a transcript provider."
+    )
+    parser.add_argument(
+        "--provider",
+        default=None,
+        help=(
+            "Transcript provider to use "
+            f"(default: {default_provider_name()} from env/available keys). "
+            "Choices: supadata, transcriptapi"
+        ),
     )
     parser.add_argument(
         "--channel-url",
@@ -144,10 +183,22 @@ def main() -> int:
         help=f"Channel videos URL (default: {DEFAULT_CHANNEL_URL})",
     )
     parser.add_argument(
+        "--months",
+        type=float,
+        default=DEFAULT_MONTHS,
+        help=f"Fetch videos published within this many months (default: {DEFAULT_MONTHS})",
+    )
+    parser.add_argument(
         "--limit",
         type=int,
-        default=DEFAULT_LIMIT,
-        help=f"Number of videos to fetch (default: {DEFAULT_LIMIT})",
+        default=None,
+        help="Optional cap on number of videos to fetch after date filtering",
+    )
+    parser.add_argument(
+        "--probe-limit",
+        type=int,
+        default=DEFAULT_PROBE_LIMIT,
+        help=f"Max channel videos to inspect when filtering by date (default: {DEFAULT_PROBE_LIMIT})",
     )
     parser.add_argument(
         "--output-dir",
@@ -169,13 +220,18 @@ def main() -> int:
     parser.add_argument(
         "--refresh-transcripts",
         action="store_true",
-        help="Re-download all transcript files from Supadata using existing index.json",
+        help="Re-download all transcript files using existing index.json",
+    )
+    parser.add_argument(
+        "--no-cache",
+        action="store_true",
+        help="Disable transcript provider API response cache",
     )
     args = parser.parse_args()
 
     try:
-        client = SupadataClient()
-    except SupadataError as exc:
+        provider = get_provider(args.provider, use_cache=not args.no_cache)
+    except TranscriptProviderError as exc:
         print(exc, file=sys.stderr)
         return 1
 
@@ -184,51 +240,63 @@ def main() -> int:
 
     if args.retry_transcripts or args.refresh_transcripts:
         return retry_missing_transcripts(
-            client,
+            provider,
             output_dir,
             args.request_delay,
             refresh_all=args.refresh_transcripts,
         )
 
-    print(f"Listing up to {args.limit} videos from {args.channel_url} via Supadata...")
+    months_label = f"{args.months:g} month{'s' if args.months != 1 else ''}"
+    print(
+        f"Listing videos from {args.channel_url} published within the past "
+        f"{months_label} via {provider.name}..."
+    )
     try:
-        video_ids = client.list_channel_videos(args.channel_url, args.limit)
-    except SupadataError as exc:
+        video_ids = provider.list_channel_videos_since(
+            args.channel_url,
+            months=args.months,
+            probe_limit=args.probe_limit,
+            max_videos=args.limit,
+            request_delay=args.request_delay,
+        )
+    except TranscriptProviderError as exc:
         print(exc, file=sys.stderr)
         return 1
 
     if not video_ids:
-        print("No videos found.", file=sys.stderr)
+        print("No videos found in the requested date window.", file=sys.stderr)
         return 1
 
-    print(f"Found {len(video_ids)} videos. Fetching metadata and transcripts...\n")
+    print(f"Found {len(video_ids)} videos in window. Fetching transcripts...\n")
 
     results: list[dict] = []
     used_names: set[str] = set()
 
-    for index, video_id in enumerate(video_ids, start=1):
+    for index, (video_id, metadata_payload) in enumerate(video_ids, start=1):
         print(f"[{index}/{len(video_ids)}] {video_id}")
         result = process_video(
-            client,
+            provider,
             video_id,
             output_dir,
             used_names,
             request_delay=args.request_delay if index < len(video_ids) else 0,
+            metadata_payload=metadata_payload,
         )
         results.append(result)
         print(
             f"  -> {result.get('title')}\n"
             f"     transcript: {result['transcript_status']}, "
             f"views: {result.get('view_count')}, "
-            f"likes: {result.get('like_count')}"
+            f"upload_date: {result.get('upload_date')}"
         )
 
     index_path = output_dir / "index.json"
     index_path.write_text(
         json.dumps(
             {
-                "source": "supadata",
+                "provider": provider.name,
                 "channel_url": args.channel_url,
+                "months": args.months,
                 "video_count": len(results),
                 "videos": results,
             },

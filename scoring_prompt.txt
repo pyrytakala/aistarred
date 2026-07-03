@@ -5,9 +5,11 @@ Inputs:
 - Speaker(s): {speakers}
 - Transcript (timestamped): {transcript}
 
-Step 1 — Central claim(s): In 2–3 sentences, state the claim(s) the talk actually asserts. If there is no real claim (topic tour, product pitch, restatement of common knowledge), say so — this should force low Substance and Evidence scores.
+Step 1 — Summary bullets: Write 3–5 bullets for someone who has not seen the talk. Each ideally under 7 words; lead with the fact — not "Shows/Presents/Proposes/Covers". Plain language; max 1–2 jargon terms (define briefly if needed). No hype.
 
-Step 2 — Score each dimension 0–10. Give one sentence of reasoning BEFORE the number. Judge substance, not delivery polish, length, or confident tone. Use the FULL range and decimals (e.g. 6.5) so talks separate cleanly — avoid clustering everything at 5–7.
+Step 2 — Central claim(s): In 2–3 sentences, state the claim(s) the talk actually asserts. If there is no real claim (topic tour, product pitch, restatement of common knowledge), say so — this should force low Substance and Evidence scores.
+
+Step 3 — Score each dimension 0–10. Give one sentence of reasoning BEFORE the number. Judge substance, not delivery polish, length, or confident tone. Use the FULL range and decimals (e.g. 6.5) so talks separate cleanly — avoid clustering everything at 5–7.
 
 1. Substance (0–10): specificity and non-triviality of the claims.
    0 = no real claim/pure promo · 5 = real but familiar/shallow · 10 = sharp, non-obvious, field-advancing
@@ -21,7 +23,7 @@ Step 2 — Score each dimension 0–10. Give one sentence of reasoning BEFORE th
 
 If the transcript is too garbled to judge a dimension, score it and flag LOW-CONFIDENCE rather than skipping (a ranking needs a number).
 
-Step 3 — Composite (0–100), computed as:
+Step 4 — Composite (0–100), computed as:
   Substance × 3.0
   + Evidence × 2.0
   + Specificity × 1.5
@@ -30,9 +32,12 @@ Step 3 — Composite (0–100), computed as:
   (max = 100)
 Show the arithmetic.
 
-Step 4 — Confidence (High/Med/Low): lower it if the talk is visual/demo-heavy (transcript understates it) or the transcript is poor. Note WHY in one phrase.
+Step 5 — Confidence (High/Med/Low): lower it if the talk is visual/demo-heavy (transcript understates it) or the transcript is poor. Note WHY in one phrase.
 
 Output exactly:
+- Summary bullets:
+  - [bullet]
+  - [bullet]
 - Central claim(s):
 - Substance: [reason] N
 - Evidence: [reason] N
@@ -42,4 +47,3 @@ Output exactly:
 - COMPOSITE: NN/100 (show arithmetic)
 - Confidence: High/Med/Low — why
 - Most substantive line (quote + timestamp):
-- Verdict: WATCH / SKIM / SKIP

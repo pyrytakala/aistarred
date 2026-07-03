@@ -1,6 +1,11 @@
 # content-ranker
 
-Rank conference talks by transcript quality. Fetches YouTube transcripts via Supadata, scores them with Fireworks, and serves a small rankings frontend.
+Rank conference talks by transcript quality. Fetches YouTube transcripts, scores them with Fireworks, and serves a small rankings frontend.
+
+Supported transcript providers:
+
+- [TranscriptAPI](https://transcriptapi.com/) (`transcriptapi`, default when `TRANSCRIPTAPI_API_KEY` is set)
+- [Supadata](https://supadata.ai/) (`supadata`)
 
 ## Setup
 
@@ -15,8 +20,12 @@ cp .env.example .env
 ## Usage
 
 ```bash
-# Fetch transcripts from a YouTube channel
+# Fetch transcripts from a YouTube channel (default: past 2 months)
 python fetch_transcripts.py
+
+# Use a specific provider
+python fetch_transcripts.py --provider transcriptapi
+python fetch_transcripts.py --provider supadata
 
 # Score transcripts and write rankings
 python score_transcripts.py

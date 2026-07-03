@@ -18,6 +18,9 @@ build/
 transcripts/
 scores/
 
+# API response cache
+.cache/
+
 # OS / editor
 .DS_Store
 .cursor/
