@@ -239,13 +239,24 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
-const TAG_ICON_KINDS: Record<string, string> = {
+const LEGACY_TAG_LABELS: Record<string, string> = {
   "Strong substance": "substance",
   "Strong evidence": "evidence",
   "Strong specificity": "specificity",
   "Strong insight": "insight",
-  "Non-promo": "neutral",
 };
+
+function tagDisplayLabel(label: string): string {
+  return LEGACY_TAG_LABELS[label] ?? label;
+}
+
+function tagIconKind(label: string): string {
+  const display = tagDisplayLabel(label);
+  if (display === "Non-promo") {
+    return "neutral";
+  }
+  return display;
+}
 
 const TAG_ICON_SVGS: Record<string, string> = {
   substance:
@@ -277,13 +288,13 @@ function renderTags(container: HTMLElement, tags: Tag[]): void {
   container.replaceChildren();
 
   for (const tag of tags) {
-    const kind = TAG_ICON_KINDS[tag.label] || "substance";
+    const kind = tagIconKind(tag.label);
     const el = document.createElement("span");
     el.className = "tag positive";
     el.appendChild(createTagIcon(kind));
     const label = document.createElement("span");
     label.className = "tag-label";
-    label.textContent = tag.label;
+    label.textContent = tagDisplayLabel(tag.label);
     el.appendChild(label);
     container.appendChild(el);
   }
@@ -306,7 +317,7 @@ function groupCardsByRow(cards: HTMLElement[]): HTMLElement[][] {
 }
 
 function balanceCardRows(): void {
-  for (const grid of document.querySelectorAll<HTMLElement>(".grid:not(.grid-excluded)")) {
+  for (const grid of document.querySelectorAll<HTMLElement>(".grid")) {
     const cards = [...grid.querySelectorAll<HTMLElement>(".card")];
     cards.forEach((card) => {
       card.style.height = "";
@@ -446,6 +457,7 @@ function populateExcludedCard(card: HTMLElement, video: RankedVideo): void {
   const thumbLink = card.querySelector<HTMLAnchorElement>(".thumb-link");
   const thumb = card.querySelector<HTMLImageElement>(".thumb");
   const titleLink = card.querySelector<HTMLAnchorElement>(".title-link");
+  const summaryWrap = card.querySelector<HTMLElement>(".summary-wrap");
   const published = card.querySelector<HTMLTimeElement>(".published");
 
   if (!thumbLink || !thumb || !duration || !titleLink || !published || !video.url) {
@@ -470,6 +482,12 @@ function populateExcludedCard(card: HTMLElement, video: RankedVideo): void {
   titleLink.href = video.url;
   titleLink.title = video.title;
   titleLink.textContent = video.title;
+
+  if (summaryWrap) {
+    renderSummary(summaryWrap, video.summary_bullets);
+    summaryWrap.hidden = !(video.summary_bullets || []).length;
+    setupSummaryInteractions(card, summaryWrap, video.id);
+  }
 
   const uploadDate = parseUploadDate(video.upload_date);
   if (uploadDate) {
@@ -548,6 +566,16 @@ function renderExcludedSection(
 
   section.appendChild(grid);
   container.appendChild(section);
+
+  requestAnimationFrame(() => {
+    requestAnimationFrame(balanceCardRows);
+  });
+
+  for (const img of grid.querySelectorAll<HTMLImageElement>(".thumb")) {
+    if (!img.complete) {
+      img.addEventListener("load", balanceCardRows, { once: true });
+    }
+  }
 }
 
 function renderExcludedSections(payload: RankingsPayload): void {
@@ -561,7 +589,13 @@ function renderExcludedSections(payload: RankingsPayload): void {
 
   const { tooLong, other } = excludedTalks(payload);
 
-  renderExcludedSection(container, "Too long talks (not scored)", tooLong, template);
+  renderExcludedSection(
+    container,
+    "Very long talks",
+    tooLong,
+    template,
+    "These talks are very long and have not been scored.",
+  );
   renderExcludedSection(
     container,
     "Other talks",
@@ -669,21 +703,12 @@ function renderMeta(payload: RankingsPayload): void {
 
   const picks = visiblePicks(payload);
   const scoredCount = payload.scored_count ?? picks.length;
-  meta.replaceChildren();
 
-  const prefix = document.createElement("span");
   if (scoredCount > picks.length) {
-    prefix.textContent = `${picks.length} top ${ITEM_LABEL} (from ${scoredCount} scored) · `;
+    meta.textContent = `${picks.length} top ${ITEM_LABEL} (from ${scoredCount} scored)`;
   } else {
-    prefix.textContent = `${picks.length} top ${ITEM_LABEL} · `;
+    meta.textContent = `${picks.length} top ${ITEM_LABEL}`;
   }
-
-  const qualityLink = document.createElement("a");
-  qualityLink.className = "quality-link";
-  qualityLink.href = "/how-it-works/";
-  qualityLink.textContent = "how it works";
-
-  meta.append(prefix, qualityLink);
 }
 
 function renderCards(payload: RankingsPayload): void {

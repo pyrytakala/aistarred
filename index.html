@@ -5,33 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>endslop</title>
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="/src/landing.css" />
   </head>
   <body>
+    <nav class="site-header">
+      <div class="site-header-inner">
+        <a class="site-logo" href="/" aria-label="endslop home">
+          <img src="/favicon.svg" alt="" width="28" height="28" />
+          <span>endslop</span>
+        </a>
+      </div>
+    </nav>
     <main class="landing">
-      <p class="landing-eyebrow">endslop</p>
-      <h1>Top video picks</h1>
-      <p class="landing-lede">
-        Curated lists of the highest-scoring conference talks and podcast episodes —
-        so you can find what's worth your time.
-      </p>
-      <ul class="landing-list">
-        <li>
-          <a class="landing-link" href="/ai-engineer-worlds-fair-2026/">
-            <span class="landing-link-title">AI Engineer World's Fair 2026</span>
-            <span class="landing-link-meta">San Francisco · top third by quality</span>
-          </a>
-        </li>
-        <li>
-          <a class="landing-link" href="/latent-space-pod-q2-2026/">
-            <span class="landing-link-title">Latent Space Pod — Q2 2026</span>
-            <span class="landing-link-meta">Apr–Jun 2026</span>
-          </a>
-        </li>
-      </ul>
-      <p class="landing-footnote">
-        <a href="/how-it-works/">How it works & disclaimer</a>
-      </p>
+      <header class="landing-header">
+        <p class="landing-lede">Top talks and episodes, as ranked by substance</p>
+      </header>
+      <ul id="source-grid" class="source-grid"></ul>
+      <footer class="landing-footer">
+        <a href="/how-it-works/">How it works</a>
+        <a href="/disclaimer/">Disclaimer</a>
+      </footer>
     </main>
+    <script type="module" src="/src/landing.ts"></script>
   </body>
 </html>

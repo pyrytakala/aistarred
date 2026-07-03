@@ -44,7 +44,8 @@ The published site reads `public/data/<source-id>/rankings.json`. Local pipeline
 **Live site:** https://endslop.xyz (Vercel)
 
 - `/` — landing page
-- `/how-it-works/` — methodology and disclaimer
+- `/how-it-works/` — methodology
+- `/disclaimer/` — disclaimer and contact
 - `/ai-engineer-worlds-fair-2026/` — AI Engineer World's Fair 2026 (live, 10-day window)
 - `/latent-space-pod-q2-2026/` — Latent Space Pod, Q2 2026
 

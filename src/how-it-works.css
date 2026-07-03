@@ -1,3 +1,5 @@
+@import "./site-header.css";
+
 :root {
   color-scheme: light;
   --bg: #f4f6fa;
@@ -25,22 +27,7 @@ body {
 .about-page {
   max-width: 38rem;
   margin: 0 auto;
-  padding: 2.5rem 1.5rem 3.5rem;
-}
-
-.back-link {
-  margin: 0 0 1.75rem;
-  font-size: 0.9rem;
-}
-
-.back-link a {
-  color: var(--muted);
-  text-decoration: none;
-}
-
-.back-link a:hover {
-  color: var(--accent);
-  text-decoration: underline;
+  padding: 2rem 1.5rem 3.5rem;
 }
 
 .about-page h1 {
@@ -115,4 +102,19 @@ body {
 
 .disclaimer-box p + p {
   margin-top: 0.5rem;
+}
+
+.about-footer-links {
+  margin: 2rem 0 0;
+  font-size: 0.9rem;
+}
+
+.about-footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.about-footer-links a:hover {
+  color: var(--accent);
+  text-decoration: underline;
 }

@@ -11,23 +11,32 @@
     data-item-label="videos"
     data-max-display-age-days="10"
   >
+    <nav class="site-header">
+      <div class="site-header-inner">
+        <a class="site-logo" href="/" aria-label="endslop home">
+          <img src="/favicon.svg" alt="" width="28" height="28" />
+          <span>endslop</span>
+        </a>
+      </div>
+    </nav>
     <header class="header">
       <div class="header-copy">
         <h1>AI Engineer World's Fair 2026 talks</h1>
-        <p id="meta" class="meta">Loading…</p>
       </div>
     </header>
 
     <div class="page-main">
       <section class="content-section">
         <h2 class="section-heading">Top talks</h2>
+        <p id="meta" class="section-meta">Loading…</p>
         <div id="grid" class="grid" aria-live="polite"></div>
       </section>
       <div id="extra-sections"></div>
     </div>
 
     <footer class="page-footer">
-      <a href="/how-it-works/">How it works & disclaimer</a>
+      <a href="/how-it-works/">How it works</a>
+      <a href="/disclaimer/">Disclaimer</a>
     </footer>
 
     <template id="excluded-card-template">
@@ -43,7 +52,14 @@
             <a class="title-link" target="_blank" rel="noopener noreferrer"></a>
             <time class="published"></time>
           </div>
+          <div class="summary-wrap">
+            <div class="summary-panel">
+              <ul class="summary"></ul>
+              <button type="button" class="summary-toggle summary-more">...more</button>
+            </div>
+          </div>
         </div>
+        <button type="button" class="summary-toggle summary-less" hidden>Show less</button>
       </article>
     </template>
 

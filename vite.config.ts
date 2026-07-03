@@ -50,6 +50,7 @@ const pageEntries = Object.fromEntries(
   [
     ["home", resolve(__dirname, "index.html")],
     ["how-it-works", resolve(__dirname, "how-it-works/index.html")],
+    ["disclaimer", resolve(__dirname, "disclaimer/index.html")],
     ...listSources().map((source) => [
       source.slug,
       resolve(__dirname, source.slug, "index.html"),

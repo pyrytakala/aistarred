@@ -8,8 +8,15 @@
     <link rel="stylesheet" href="/src/how-it-works.css" />
   </head>
   <body>
+    <nav class="site-header">
+      <div class="site-header-inner">
+        <a class="site-logo" href="/" aria-label="endslop home">
+          <img src="/favicon.svg" alt="" width="28" height="28" />
+          <span>endslop</span>
+        </a>
+      </div>
+    </nav>
     <main class="about-page">
-      <p class="back-link"><a href="/">← endslop</a></p>
       <h1>How it works</h1>
       <p class="about-lede">
         endslop surfaces the top third of videos from selected events and channels —
@@ -49,24 +56,9 @@
         </p>
       </section>
 
-      <aside class="disclaimer-box">
-        <h2>Disclaimer</h2>
-        <p>
-          Scores and summaries are generated automatically by an LLM. They reflect
-          automated, subjective estimates — not objective facts or endorsements.
-          Summaries may be inaccurate or incomplete.
-        </p>
-        <p>
-          endslop is not affiliated with any event, channel, or speaker featured
-          here. All videos link to their original pages.
-        </p>
-        <p>
-          For corrections, factual disputes, or removal requests,
-          <span data-o></span>.
-          <noscript>peter dot innovates at gmail dot com</noscript>
-        </p>
-      </aside>
+      <p class="about-footer-links">
+        <a href="/disclaimer/">Disclaimer</a>
+      </p>
     </main>
-    <script type="module" src="/src/how-it-works.ts"></script>
   </body>
 </html>

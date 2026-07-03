@@ -1,10 +1,10 @@
 import type { Tag, RankedVideo } from "./types.js";
 
 const POSITIVE_RULES: Array<[keyof RankedVideo, number, string]> = [
-  ["substance", 8.0, "Strong substance"],
-  ["evidence", 8.0, "Strong evidence"],
-  ["specificity", 8.5, "Strong specificity"],
-  ["insight_density", 8.0, "Strong insight"],
+  ["substance", 8.0, "substance"],
+  ["evidence", 8.0, "evidence"],
+  ["specificity", 8.5, "specificity"],
+  ["insight_density", 8.0, "insight"],
   ["non_promotion", 9.0, "Non-promo"],
 ];
 

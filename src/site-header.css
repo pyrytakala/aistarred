@@ -1,0 +1,32 @@
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.site-header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.8rem 1.5rem;
+}
+
+.site-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.site-logo:hover {
+  color: var(--accent);
+}
+
+.site-logo img {
+  display: block;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 6px;
+}

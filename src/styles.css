@@ -1,3 +1,5 @@
+@import "./site-header.css";
+
 :root {
   color-scheme: light;
   --bg: #f4f6fa;
@@ -25,38 +27,15 @@ body {
 }
 
 .header {
-  padding: 2rem 1.5rem 1rem;
+  padding: 1.5rem 1.5rem 1rem;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .header h1 {
-  margin: 0 0 0.35rem;
+  margin: 0;
   font-size: 1.75rem;
   font-weight: 600;
-}
-
-.meta {
-  margin: 0;
-  color: var(--muted);
-  font-size: 0.95rem;
-}
-
-.meta-wrap {
-  max-width: 36rem;
-}
-
-.quality-link {
-  color: inherit;
-  text-decoration: underline;
-  text-decoration-color: rgba(59, 111, 217, 0.45);
-  text-underline-offset: 0.18em;
-  transition: color 0.15s ease, text-decoration-color 0.15s ease;
-}
-
-.quality-link:hover {
-  color: var(--accent);
-  text-decoration-color: currentColor;
 }
 
 .page-footer {
@@ -64,6 +43,9 @@ body {
   margin: 0 auto;
   padding: 0 1.5rem 2rem;
   font-size: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
 }
 
 .page-footer a {
@@ -106,6 +88,13 @@ body {
   color: var(--muted);
 }
 
+.section-meta {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -119,8 +108,11 @@ body {
 }
 
 .card-excluded {
-  height: auto;
   opacity: 0.92;
+}
+
+.card-excluded.is-expanded {
+  z-index: 2;
 }
 
 .card-excluded:hover {
