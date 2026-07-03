@@ -1,6 +1,8 @@
 # content-ranker
 
-Rank conference talks by transcript quality. Fetches YouTube transcripts, scores them with Fireworks, and serves a small rankings frontend.
+Rank conference talks by transcript quality. Fetches YouTube transcripts, scores them with Fireworks, and serves a rankings frontend.
+
+Built with **TypeScript**, **Vite**, and deployable to **Vercel**.
 
 Supported transcript providers:
 
@@ -10,9 +12,7 @@ Supported transcript providers:
 ## Setup
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+npm install
 cp .env.example .env
 # fill in API keys in .env
 ```
@@ -21,17 +21,44 @@ cp .env.example .env
 
 ```bash
 # Fetch transcripts from a YouTube channel (default: past 2 months)
-python fetch_transcripts.py
+npm run fetch
 
-# Use a specific provider
-python fetch_transcripts.py --provider transcriptapi
-python fetch_transcripts.py --provider supadata
+# Score transcripts and write rankings (uses .cache/ to avoid repeat API calls)
+npm run score
 
-# Score transcripts and write rankings
-python score_transcripts.py
+# Rebuild rankings from existing score files without calling APIs
+npm run score -- --reparse
 
-# Serve the rankings UI
-python serve_frontend.py
+# Publish enriched rankings for the static site
+npm run publish
+
+# Full cache-first pipeline (retry transcripts + reparse + publish)
+npm run pipeline -- --reparse-only
+
+# Local dev server with live /api/rankings
+npm run dev
+
+# Production build
+npm run build
 ```
 
-The frontend reads `scores/rankings.json` and `transcripts/index.json`, which are generated locally and not committed.
+The published site reads `public/data/rankings.json`. Local pipeline output (`transcripts/`, `scores/`, `.cache/`) stays gitignored.
+
+## Deployment (Vercel)
+
+1. Create a Vercel project linked to this repo.
+2. Add GitHub secrets for the deploy workflow:
+   - `VERCEL_TOKEN`
+   - `VERCEL_ORG_ID`
+   - `VERCEL_PROJECT_ID`
+   - Optional API keys for pipeline refresh: `FIREWORKS_API_KEY`, `TRANSCRIPTAPI_API_KEY`, `SUPADATA_API_KEY`
+3. Push to `main` — GitHub Actions runs the cache-first pipeline, updates `public/data/rankings.json`, and deploys to Vercel.
+
+## Project layout
+
+```
+src/           shared TS library + frontend entry
+scripts/       CLI entrypoints (fetch, score, publish, pipeline)
+public/data/   published rankings JSON for production
+api/           optional Vercel serverless handlers
+```

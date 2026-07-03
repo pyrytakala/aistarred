@@ -3,27 +3,26 @@
 .env.*
 !.env.example
 
-# Python
+# Dependencies
+node_modules/
+
+# Legacy Python env
 .venv/
 __pycache__/
 *.py[cod]
-*.egg-info/
-dist/
-build/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
 
-# Generated data (re-fetch / re-score locally)
+# Generated pipeline data (local only)
 transcripts/
 scores/
-
-# API response cache
 .cache/
+
+# Build output
+dist/
 
 # OS / editor
 .DS_Store
 .cursor/
+.vercel
 
 # Logs
 *.log

@@ -1,0 +1,24 @@
+{
+  "name": "content-ranker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch": "tsx scripts/fetch.ts",
+    "score": "tsx scripts/score.ts",
+    "publish": "tsx scripts/publish.ts",
+    "pipeline": "tsx scripts/pipeline.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2"
+  }
+}

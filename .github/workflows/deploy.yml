@@ -1,0 +1,65 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: deploy-main
+  cancel-in-progress: true
+
+jobs:
+  pipeline-and-deploy:
+    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      API_CACHE: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Restore pipeline data cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            .cache
+            scores
+            transcripts
+          key: pipeline-data-v1-${{ hashFiles('package-lock.json', 'scoring_prompt.txt') }}
+          restore-keys: |
+            pipeline-data-v1-
+
+      - run: npm ci
+
+      - name: Run rankings pipeline (cache-first, no paid calls when cached)
+        run: npm run pipeline -- --reparse-only
+        env:
+          FIREWORKS_API_KEY: ${{ secrets.FIREWORKS_API_KEY }}
+          TRANSCRIPTAPI_API_KEY: ${{ secrets.TRANSCRIPTAPI_API_KEY }}
+          SUPADATA_API_KEY: ${{ secrets.SUPADATA_API_KEY }}
+
+      - name: Commit published rankings artifact
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/rankings.json
+          if git diff --staged --quiet; then
+            echo "No rankings changes to commit."
+          else
+            git commit -m "Update published rankings [skip ci]"
+            git push
+          fi
+
+      - name: Deploy to Vercel
+        uses: amondnet/vercel-action@v25
+        with:
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-args: "--prod"
