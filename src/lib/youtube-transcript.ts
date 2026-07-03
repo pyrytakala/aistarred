@@ -12,7 +12,7 @@ export function fetchTranscriptWithYtDlp(videoId: string): string | null {
     return null;
   }
 
-  const tempDir = mkdtempSync(join(tmpdir(), "aistarred-transcript-"));
+  const tempDir = mkdtempSync(join(tmpdir(), "ai-starred-transcript-"));
   const outputTemplate = join(tempDir, "%(id)s");
 
   try {

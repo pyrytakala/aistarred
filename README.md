@@ -1,4 +1,4 @@
-# aistarred
+# AI starred
 
 Surface the top third of conference talks and podcast episodes by automated quality scoring. Built with **TypeScript**, **Vite**, and deployable to **Vercel**.
 

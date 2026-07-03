@@ -1,4 +1,5 @@
 @import "./site-header.css";
+@import "./site-footer.css";
 
 :root {
   color-scheme: light;
@@ -36,26 +37,6 @@ body {
   margin: 0;
   font-size: 1.75rem;
   font-weight: 600;
-}
-
-.page-footer {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1.5rem 2rem;
-  font-size: 0.85rem;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem 1.25rem;
-}
-
-.page-footer a {
-  color: var(--muted);
-  text-decoration: none;
-}
-
-.page-footer a:hover {
-  color: var(--accent);
-  text-decoration: underline;
 }
 
 .page-main {

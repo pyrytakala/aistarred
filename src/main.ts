@@ -240,10 +240,14 @@ document.addEventListener("keydown", (event) => {
 });
 
 const LEGACY_TAG_LABELS: Record<string, string> = {
-  "Strong substance": "substance",
-  "Strong evidence": "evidence",
-  "Strong specificity": "specificity",
-  "Strong insight": "insight",
+  "Strong substance": "Substance",
+  "Strong evidence": "Evidence",
+  "Strong specificity": "Specificity",
+  "Strong insight": "Insight",
+  substance: "Substance",
+  evidence: "Evidence",
+  specificity: "Specificity",
+  insight: "Insight",
 };
 
 function tagDisplayLabel(label: string): string {
@@ -255,7 +259,7 @@ function tagIconKind(label: string): string {
   if (display === "Non-promo") {
     return "neutral";
   }
-  return display;
+  return display.toLowerCase();
 }
 
 const TAG_ICON_SVGS: Record<string, string> = {

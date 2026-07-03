@@ -1,5 +1,5 @@
 {
-  "name": "aistarred",
+  "name": "ai-starred",
   "private": true,
   "type": "module",
   "scripts": {
@@ -12,6 +12,7 @@
     "publish": "tsx scripts/publish.ts",
     "pipeline": "tsx scripts/pipeline.ts",
     "setup-dns": "node scripts/setup-aistarred-dns.mjs",
+    "generate-icons": "bash scripts/generate-icons.sh",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
