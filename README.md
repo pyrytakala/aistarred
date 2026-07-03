@@ -1,4 +1,4 @@
-# endslop
+# aistarred
 
 Surface the top third of conference talks and podcast episodes by automated quality scoring. Built with **TypeScript**, **Vite**, and deployable to **Vercel**.
 
@@ -41,7 +41,7 @@ The published site reads `public/data/<source-id>/rankings.json`. Local pipeline
 
 ## Deployment
 
-**Live site:** https://endslop.xyz (Vercel)
+**Live site:** https://aistarred.com (Vercel)
 
 - `/` — landing page
 - `/how-it-works/` — methodology
