@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How it works — endslop</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/src/how-it-works.css" />
+  </head>
+  <body>
+    <main class="about-page">
+      <p class="back-link"><a href="/">← endslop</a></p>
+      <h1>How it works</h1>
+      <p class="about-lede">
+        endslop surfaces the top third of videos from selected events and channels —
+        the ones most likely to be worth your time.
+      </p>
+
+      <section class="about-section">
+        <h2>What you see</h2>
+        <p>
+          Each list shows only the highest-scoring third of videos we evaluated.
+          Lower-scoring videos are not listed. Rankings, scores, and summary bullets
+          are shown for the picks only.
+        </p>
+      </section>
+
+      <section class="about-section">
+        <h2>How quality is scored</h2>
+        <p>
+          Each video is scored by an LLM on five dimensions (0–10): substance,
+          evidence, specificity, insight density, and non-promotion.
+        </p>
+        <p>
+          The composite (0–100) is a weighted sum — substance ×3, evidence ×2,
+          specificity ×1.5, insight ×2.5, non-promotion ×1 — with a small
+          adjustment for relative like count. Click any score badge on a listing
+          page for a per-video breakdown.
+        </p>
+      </section>
+
+      <section class="about-section">
+        <h2>Why this exists</h2>
+        <p>
+          Conferences and podcasts publish a lot of great material, but lineups also
+          include sponsor showcases, recap filler, and content that restates common
+          knowledge. This site tries to highlight the videos that are most likely to
+          repay your attention.
+        </p>
+      </section>
+
+      <aside class="disclaimer-box">
+        <h2>Disclaimer</h2>
+        <p>
+          Scores and summaries are generated automatically by an LLM. They reflect
+          automated, subjective estimates — not objective facts or endorsements.
+          Summaries may be inaccurate or incomplete.
+        </p>
+        <p>
+          endslop is not affiliated with any event, channel, or speaker featured
+          here. All videos link to their original pages.
+        </p>
+        <p>
+          For corrections, factual disputes, or removal requests,
+          <span data-o></span>.
+          <noscript>peter dot innovates at gmail dot com</noscript>
+        </p>
+      </aside>
+    </main>
+    <script type="module" src="/src/how-it-works.ts"></script>
+  </body>
+</html>

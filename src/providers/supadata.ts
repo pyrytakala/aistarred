@@ -8,6 +8,7 @@ import {
   uploadDateFromIso,
   sleep,
 } from "../lib/utils.js";
+import { dateFromYyyymmdd } from "../lib/date-range.js";
 import { TranscriptProviderError, type TranscriptProvider } from "./types.js";
 
 export class SupadataProvider implements TranscriptProvider {
@@ -99,6 +100,8 @@ export class SupadataProvider implements TranscriptProvider {
     options: {
       months?: number;
       days?: number;
+      since?: string;
+      until?: string;
       probeLimit?: number;
       maxVideos?: number | null;
       requestDelay?: number;
@@ -106,8 +109,12 @@ export class SupadataProvider implements TranscriptProvider {
   ): Promise<Array<[string, Record<string, unknown>]>> {
     const probeLimit = options.probeLimit ?? 500;
     const requestDelay = options.requestDelay ?? 1;
-    const cutoff =
-      options.days != null ? daysAgo(options.days) : monthsAgo(options.months ?? 2);
+    const sinceDate = options.since ? dateFromYyyymmdd(options.since) : null;
+    const cutoff = sinceDate
+      ? new Date(sinceDate.getFullYear(), sinceDate.getMonth(), sinceDate.getDate())
+      : options.days != null
+        ? daysAgo(options.days)
+        : monthsAgo(options.months ?? 2);
     const candidateIds = await this.listChannelVideos(channelUrl, probeLimit);
 
     const recent: Array<[string, Record<string, unknown>]> = [];

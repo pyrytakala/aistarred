@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Top picks: AI Engineer World's Fair 2026</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body
+    data-source-id="ai-engineer-worlds-fair-2026"
+    data-item-label="videos"
+    data-max-display-age-days="10"
+  >
+    <header class="header">
+      <div class="header-copy">
+        <h1>Top picks: AI Engineer World's Fair 2026</h1>
+        <p id="meta" class="meta">Loading…</p>
+      </div>
+    </header>
+
+    <div class="page-main">
+      <div id="grid" class="grid" aria-live="polite"></div>
+    </div>
+
+    <footer class="page-footer">
+      <a href="/how-it-works/">How it works & disclaimer</a>
+    </footer>
+
+    <template id="card-template">
+      <article class="card">
+        <div class="rank"></div>
+        <button type="button" class="score" aria-expanded="false" aria-label="Show score breakdown"></button>
+        <div class="score-breakdown" hidden></div>
+        <a class="thumb-link" target="_blank" rel="noopener noreferrer">
+          <img class="thumb" alt="" loading="lazy" />
+          <span class="duration" hidden></span>
+        </a>
+        <div class="body">
+          <div class="talk-heading">
+            <a class="title-link" target="_blank" rel="noopener noreferrer"></a>
+            <time class="published"></time>
+          </div>
+          <div class="summary-wrap">
+            <div class="summary-panel">
+              <ul class="summary"></ul>
+              <button type="button" class="summary-toggle summary-more">...more</button>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="summary-toggle summary-less" hidden>Show less</button>
+      </article>
+    </template>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

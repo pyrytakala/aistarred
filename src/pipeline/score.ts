@@ -4,13 +4,15 @@ import { join } from "node:path";
 import { AdaptiveConcurrency } from "../lib/adaptive-concurrency.js";
 import { ApiCache, fetchCachedText, fireworksCacheKey } from "../lib/api-cache.js";
 import { loadEnv } from "../lib/env.js";
-import { PROMPT_PATH, SCORES_DIR, INDEX_PATH } from "../lib/paths.js";
+import { sourcePaths } from "../lib/paths.js";
+import { getSource, promptPathForSource, resolveSourceIdFromArgv } from "../lib/sources.js";
+import { shouldDisplayVideo } from "../lib/source-filter.js";
 import { extractSpeakers, parseScoreResponse } from "../lib/parse-score.js";
 import { safeFilename, sleep } from "../lib/utils.js";
 import { finalizeRankings, loadVideos, writeRankingsPayload } from "./publish.js";
 import { formatScoringDurationLimit, isTooLongForScoring } from "../lib/scoring-limits.js";
-import { isTooOldForDisplay } from "../lib/video-age.js";
 import type { RankedVideo } from "../lib/types.js";
+import type { SourceConfig } from "../lib/sources.js";
 
 const FIREWORKS_URL = "https://api.fireworks.ai/inference/v1/chat/completions";
 const DEFAULT_MODEL = "accounts/fireworks/models/deepseek-v4-flash";
@@ -130,6 +132,7 @@ async function scoreVideoJob(options: {
   concurrency: AdaptiveConcurrency;
   useCache: boolean;
   forceRescore: boolean;
+  source: Pick<SourceConfig, "maxDisplayAgeDays" | "dateRange">;
 }): Promise<RankedVideo> {
   const { video, template, apiKey, model, outputDir, cache, concurrency, useCache, forceRescore } =
     options;
@@ -152,8 +155,11 @@ async function scoreVideoJob(options: {
     };
   }
 
-  if (isTooOldForDisplay(video.upload_date)) {
-    console.log(`  -> skipped: older than 10 day display window`);
+  if (!shouldDisplayVideo(video.upload_date, options.source)) {
+    const label = options.source.maxDisplayAgeDays != null
+      ? `older than ${options.source.maxDisplayAgeDays} day display window`
+      : "outside source date range";
+    console.log(`  -> skipped: ${label}`);
     return {
       id: videoId,
       title,
@@ -234,6 +240,7 @@ async function scoreVideoJob(options: {
 }
 
 export async function runScore(options: {
+  sourceId?: string;
   indexPath?: string;
   promptPath?: string;
   outputDir?: string;
@@ -246,14 +253,16 @@ export async function runScore(options: {
 } = {}): Promise<number> {
   loadEnv();
 
-  const indexPath = options.indexPath ?? INDEX_PATH;
-  const promptPath = options.promptPath ?? PROMPT_PATH;
-  const outputDir = options.outputDir ?? SCORES_DIR;
+  const source = getSource(options.sourceId);
+  const paths = sourcePaths(source.id);
+  const indexPath = options.indexPath ?? paths.indexPath;
+  const promptPath = options.promptPath ?? promptPathForSource(source);
+  const outputDir = options.outputDir ?? paths.scoresDir;
   const model = options.model ?? DEFAULT_MODEL;
 
   if (options.reparse) {
     const { publishRankings } = await import("./publish.js");
-    publishRankings({ reparse: true, model, promptPath: String(promptPath), indexPath });
+    publishRankings({ reparse: true, sourceId: source.id, model, promptPath: String(promptPath), indexPath });
     return 0;
   }
 
@@ -276,7 +285,8 @@ export async function runScore(options: {
   }
 
   const scorableCount = videos.filter(
-    (video) => !isTooLongForScoring(video.duration_seconds) && !isTooOldForDisplay(video.upload_date),
+    (video) =>
+      !isTooLongForScoring(video.duration_seconds) && shouldDisplayVideo(video.upload_date, source),
   ).length;
   const skippedCount = videos.length - scorableCount;
 
@@ -288,8 +298,8 @@ export async function runScore(options: {
   const useCache = options.useCache ?? true;
 
   console.log(
-    `Scoring ${scorableCount} talks with ${model} using up to ${workers} workers (adaptive 1-${maxWorkers})...` +
-      (skippedCount ? ` Skipping ${skippedCount} talks over ${formatScoringDurationLimit()}.` : "") +
+    `Scoring ${scorableCount} ${source.itemLabel} for ${source.title} with ${model} using up to ${workers} workers (adaptive 1-${maxWorkers})...` +
+      (skippedCount ? ` Skipping ${skippedCount} items outside window or over ${formatScoringDurationLimit()}.` : "") +
       "\n",
   );
 
@@ -307,6 +317,7 @@ export async function runScore(options: {
         concurrency,
         useCache,
         forceRescore: options.forceRescore ?? false,
+        source,
       }),
     ),
   );
@@ -315,6 +326,7 @@ export async function runScore(options: {
     model,
     promptPath: String(promptPath),
     indexPath,
+    source,
   });
   writeRankingsPayload(payload, join(outputDir, "rankings.json"));
 
@@ -330,5 +342,6 @@ export async function runScoreCli(argv: string[]): Promise<number> {
   const reparse = argv.includes("--reparse");
   const forceRescore = argv.includes("--force-rescore");
   const noCache = argv.includes("--no-cache");
-  return runScore({ reparse, forceRescore, useCache: !noCache });
+  const sourceId = resolveSourceIdFromArgv(argv);
+  return runScore({ sourceId, reparse, forceRescore, useCache: !noCache });
 }

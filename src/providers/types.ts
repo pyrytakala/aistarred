@@ -7,6 +7,8 @@ export interface TranscriptProvider {
     options?: {
       months?: number;
       days?: number;
+      since?: string;
+      until?: string;
       probeLimit?: number;
       maxVideos?: number | null;
       requestDelay?: number;

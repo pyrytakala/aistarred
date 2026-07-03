@@ -60,9 +60,11 @@ export interface RankedVideo {
 }
 
 export interface RankingsPayload {
+  source_id?: string;
   model?: string;
   prompt_path?: string;
   video_count?: number;
+  scored_count?: number;
   ranked_count?: number;
   rankings: RankedVideo[];
   failures?: RankedVideo[];

@@ -1,11 +1,27 @@
 import "./styles.css";
-import type { RankedVideo, RankingsPayload, Tag } from "./types";
-import { isTooLongForScoring } from "./lib/scoring-limits.js";
-import { isTooOldForDisplay, parseUploadDate } from "./lib/video-age.js";
+import type { RankedVideo, RankingsPayload } from "./types";
+import { shouldDisplayVideo } from "./lib/source-filter.js";
+import { parseUploadDate } from "./lib/video-age.js";
+import { isScoredRanking, selectTopPicks } from "./lib/top-picks.js";
+
+const SOURCE_ID = document.body.dataset.sourceId ?? "ai-engineer-worlds-fair-2026";
+const ITEM_LABEL = document.body.dataset.itemLabel ?? "videos";
+const DISPLAY_FILTER = {
+  maxDisplayAgeDays: document.body.dataset.maxDisplayAgeDays
+    ? Number(document.body.dataset.maxDisplayAgeDays)
+    : null,
+  dateRange:
+    document.body.dataset.dateSince && document.body.dataset.dateUntil
+      ? {
+          since: document.body.dataset.dateSince,
+          until: document.body.dataset.dateUntil,
+        }
+      : undefined,
+};
 
 const RANKINGS_URL = import.meta.env.DEV
-  ? "/api/rankings"
-  : `${import.meta.env.BASE_URL}data/rankings.json`;
+  ? `/api/rankings/${SOURCE_ID}`
+  : `${import.meta.env.BASE_URL}data/${SOURCE_ID}/rankings.json`;
 
 function thumbnailUrl(videoId: string): string {
   return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
@@ -62,7 +78,10 @@ const SCORE_COMPONENTS = [
 ] as const;
 
 const SCORE_WEIGHT_TOTAL = SCORE_COMPONENTS.reduce((sum, component) => sum + component.weight, 0);
-const NOT_SCORED_TAG_LABEL = "Very long talk, not scored";
+
+function shouldShowVideo(uploadDate: string | null | undefined): boolean {
+  return shouldDisplayVideo(uploadDate, DISPLAY_FILTER);
+}
 
 function formatWeightPercent(weight: number): string {
   return `${Math.round((weight / SCORE_WEIGHT_TOTAL) * 100)}%`;
@@ -90,37 +109,6 @@ function formatDuration(seconds: number | null | undefined): string | null {
 }
 
 let openScoreCard: HTMLElement | null = null;
-
-function closeQualityExplainer(): void {
-  const explainer = document.getElementById("quality-explainer");
-  const trigger = document.querySelector<HTMLButtonElement>(".quality-link");
-  if (!explainer || !trigger) {
-    return;
-  }
-
-  explainer.hidden = true;
-  trigger.setAttribute("aria-expanded", "false");
-}
-
-function toggleQualityExplainer(): void {
-  const explainer = document.getElementById("quality-explainer");
-  const trigger = document.querySelector<HTMLButtonElement>(".quality-link");
-  if (!explainer || !trigger) {
-    return;
-  }
-
-  const opening = explainer.hidden;
-  explainer.hidden = !opening;
-  trigger.setAttribute("aria-expanded", opening ? "true" : "false");
-}
-
-function setupQualityLink(trigger: HTMLButtonElement): void {
-  trigger.addEventListener("click", (event) => {
-    event.preventDefault();
-    event.stopPropagation();
-    toggleQualityExplainer();
-  });
-}
 
 function closeScoreBreakdown(): void {
   if (!openScoreCard) {
@@ -240,60 +228,13 @@ document.addEventListener("click", (event) => {
   if (!target.closest(".score") && !target.closest(".score-breakdown")) {
     closeScoreBreakdown();
   }
-  if (
-    !target.closest(".quality-link") &&
-    !target.closest(".quality-explainer")
-  ) {
-    closeQualityExplainer();
-  }
 });
 
 document.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
     closeScoreBreakdown();
-    closeQualityExplainer();
   }
 });
-
-const TAG_ICON_KINDS: Record<string, string> = {
-  "Very strong substance": "substance",
-  "Strong evidence": "evidence",
-  "Very specific": "specificity",
-  "High insight density": "insight",
-  "Not promotional": "neutral",
-  "Weak substance": "weak",
-  "Weak evidence": "weak",
-  "Hand-wavy": "vague",
-  "Low insight density": "sparse",
-  "High promo": "promo",
-};
-
-const TAG_ICON_SVGS: Record<string, string> = {
-  substance:
-    '<path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/>',
-  evidence: '<path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/>',
-  specificity:
-    '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>',
-  insight:
-    '<path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13.5 11H20a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 10.5 14z"/>',
-  neutral:
-    '<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/>',
-  weak: '<circle cx="12" cy="12" r="10"/><path d="M8 12h8"/>',
-  vague:
-    '<path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/>',
-  sparse: '<circle cx="5" cy="12" r="1"/><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/>',
-  promo:
-    '<path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/>',
-};
-
-function createTagIcon(kind: string): SVGSVGElement {
-  const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-  svg.setAttribute("viewBox", "0 0 24 24");
-  svg.setAttribute("aria-hidden", "true");
-  svg.classList.add("tag-icon");
-  svg.innerHTML = TAG_ICON_SVGS[kind] || TAG_ICON_SVGS.substance;
-  return svg;
-}
 
 function groupCardsByRow(cards: HTMLElement[]): HTMLElement[][] {
   const rows: HTMLElement[][] = [];
@@ -442,56 +383,17 @@ function renderSummary(wrap: HTMLElement, bullets: string[] | undefined): void {
   }
 }
 
-function renderNotScoredTag(container: HTMLElement): void {
-  container.replaceChildren();
-
-  const el = document.createElement("span");
-  el.className = "tag not-scored";
-  el.appendChild(createTagIcon("substance"));
-  const label = document.createElement("span");
-  label.className = "tag-label";
-  label.textContent = NOT_SCORED_TAG_LABEL;
-  el.appendChild(label);
-  container.appendChild(el);
-  container.hidden = false;
-}
-
-function isTooLongForScoringVideo(video: RankedVideo): boolean {
-  return isTooLongForScoring(video.duration_seconds);
-}
-
-function splitRankings(rankings: RankedVideo[]): {
-  scored: RankedVideo[];
-  notScored: RankedVideo[];
-} {
-  const scored: RankedVideo[] = [];
-  const notScored: RankedVideo[] = [];
-
-  for (const video of rankings) {
-    if (isTooLongForScoringVideo(video)) {
-      notScored.push(video);
-    } else {
-      scored.push(video);
-    }
-  }
-
-  return { scored, notScored };
-}
-
 function populateCard(
   card: HTMLElement,
   video: RankedVideo,
   options: {
     rank?: number;
-    notScored?: boolean;
-    scoreRange?: ReturnType<typeof compositeRange>;
   },
 ): void {
   const rank = card.querySelector<HTMLElement>(".rank");
   const duration = card.querySelector<HTMLElement>(".duration");
   const thumbLink = card.querySelector<HTMLAnchorElement>(".thumb-link");
   const thumb = card.querySelector<HTMLImageElement>(".thumb");
-  const thumbTags = card.querySelector<HTMLElement>(".thumb-tags");
   const titleLink = card.querySelector<HTMLAnchorElement>(".title-link");
   const summaryWrap = card.querySelector<HTMLElement>(".summary-wrap");
   const published = card.querySelector<HTMLTimeElement>(".published");
@@ -503,7 +405,6 @@ function populateCard(
     !thumbLink ||
     !thumb ||
     !duration ||
-    !thumbTags ||
     !titleLink ||
     !summaryWrap ||
     !published ||
@@ -514,23 +415,9 @@ function populateCard(
     return;
   }
 
-  const notScored = options.notScored === true;
   card.dataset.videoId = video.id;
-  card.classList.toggle("card--not-scored", notScored);
-
-  if (notScored) {
-    rank.hidden = true;
-    score.hidden = true;
-    scoreBreakdown.hidden = true;
-    renderNotScoredTag(thumbTags);
-  } else {
-    rank.hidden = false;
-    score.hidden = false;
-    rank.textContent = `#${options.rank ?? video.rank}`;
-    applyThumbnailEmphasis(thumbLink, video.composite, options.scoreRange ?? null);
-    renderTags(thumbTags, video.tags || [], { tone: "negative" });
-    setupScoreButton(card, score, scoreBreakdown, video);
-  }
+  rank.textContent = `#${options.rank ?? video.rank}`;
+  setupScoreButton(card, score, scoreBreakdown, video);
 
   thumb.src = thumbnailUrl(video.id);
   thumb.alt = video.title;
@@ -564,30 +451,6 @@ function populateCard(
   }
 }
 
-function renderTags(
-  container: HTMLElement,
-  tags: Tag[],
-  options?: { tone?: Tag["tone"] },
-): void {
-  const filtered = options?.tone
-    ? (tags || []).filter((tag) => (tag.tone || "positive") === options.tone)
-    : tags || [];
-
-  container.replaceChildren();
-  for (const tag of filtered) {
-    const kind = TAG_ICON_KINDS[tag.label] || "substance";
-    const el = document.createElement("span");
-    el.className = `tag ${tag.tone || "positive"}`;
-    el.appendChild(createTagIcon(kind));
-    const label = document.createElement("span");
-    label.className = "tag-label";
-    label.textContent = tag.label;
-    el.appendChild(label);
-    container.appendChild(el);
-  }
-  container.hidden = container.childElementCount === 0;
-}
-
 async function loadRankings(): Promise<RankingsPayload> {
   const response = await fetch(RANKINGS_URL);
   if (!response.ok) {
@@ -596,127 +459,71 @@ async function loadRankings(): Promise<RankingsPayload> {
   return response.json() as Promise<RankingsPayload>;
 }
 
+function visiblePicks(payload: RankingsPayload): RankedVideo[] {
+  const inRange = (payload.rankings || []).filter((video) =>
+    shouldShowVideo(video.upload_date),
+  );
+  const picks = inRange.filter(isScoredRanking);
+  if (picks.length > 0) {
+    return picks;
+  }
+  return selectTopPicks(inRange);
+}
+
 function renderMeta(payload: RankingsPayload): void {
   const meta = document.getElementById("meta");
   if (!meta) {
     return;
   }
 
-  const count =
-    payload.rankings?.filter(
-      (video) => !isTooLongForScoringVideo(video) && !isTooOldForDisplay(video.upload_date),
-    ).length ?? 0;
+  const picks = visiblePicks(payload);
+  const scoredCount = payload.scored_count ?? picks.length;
   meta.replaceChildren();
 
   const prefix = document.createElement("span");
-  prefix.textContent = `${count} talks ranked `;
+  if (scoredCount > picks.length) {
+    prefix.textContent = `${picks.length} top ${ITEM_LABEL} (from ${scoredCount} scored) · `;
+  } else {
+    prefix.textContent = `${picks.length} top ${ITEM_LABEL} · `;
+  }
 
-  const qualityLink = document.createElement("button");
-  qualityLink.type = "button";
+  const qualityLink = document.createElement("a");
   qualityLink.className = "quality-link";
-  qualityLink.textContent = "by quality";
-  qualityLink.setAttribute("aria-expanded", "false");
-  qualityLink.setAttribute("aria-controls", "quality-explainer");
-  setupQualityLink(qualityLink);
+  qualityLink.href = "/how-it-works/";
+  qualityLink.textContent = "how it works";
 
   meta.append(prefix, qualityLink);
 }
 
-function compositeRange(videos: RankedVideo[]): { min: number; max: number } | null {
-  const scores = videos
-    .map((video) => video.composite)
-    .filter((value): value is number => value != null && !Number.isNaN(value));
-
-  if (scores.length < 2) {
-    return null;
-  }
-
-  return {
-    min: Math.min(...scores),
-    max: Math.max(...scores),
-  };
-}
-
-function thumbnailEmphasis(
-  composite: number | undefined,
-  range: { min: number; max: number } | null,
-): { grayscale: string; brightness: string; opacity: string; fadeOverlay: string } {
-  if (composite == null || range == null || range.max <= range.min) {
-    return { grayscale: "0%", brightness: "1", opacity: "1", fadeOverlay: "0" };
-  }
-
-  const normalized = (composite - range.min) / (range.max - range.min);
-  const faded = 1 - normalized;
-  return {
-    grayscale: `${faded * 100}%`,
-    brightness: String(1.2 + faded * 0.45),
-    opacity: String(0.9 + normalized * 0.1),
-    fadeOverlay: String(faded * 0.78),
-  };
-}
-
-function applyThumbnailEmphasis(thumbLink: HTMLElement, composite: number | undefined, range: ReturnType<typeof compositeRange>): void {
-  const { grayscale, brightness, opacity, fadeOverlay } = thumbnailEmphasis(composite, range);
-  thumbLink.style.setProperty("--thumb-grayscale", grayscale);
-  thumbLink.style.setProperty("--thumb-brightness", brightness);
-  thumbLink.style.setProperty("--thumb-opacity", opacity);
-  thumbLink.style.setProperty("--thumb-fade-overlay", fadeOverlay);
-}
-
 function renderCards(payload: RankingsPayload): void {
   const grid = document.getElementById("grid");
-  const notScoredSection = document.getElementById("not-scored-section");
-  const notScoredGrid = document.getElementById("not-scored-grid");
   const template = document.getElementById("card-template") as HTMLTemplateElement | null;
-  if (!grid || !notScoredSection || !notScoredGrid || !template) {
+  if (!grid || !template) {
     return;
   }
 
   grid.replaceChildren();
-  notScoredGrid.replaceChildren();
 
-  const { scored, notScored } = splitRankings(
-    (payload.rankings || []).filter((video) => !isTooOldForDisplay(video.upload_date)),
-  );
-  const scoreRange = compositeRange(scored);
+  const picks = visiblePicks(payload);
 
-  scored.forEach((video, index) => {
+  picks.forEach((video, index) => {
     const node = template.content.cloneNode(true) as DocumentFragment;
     const card = node.querySelector<HTMLElement>(".card");
     if (!card) {
       return;
     }
 
-    populateCard(card, video, { rank: index + 1, scoreRange });
+    populateCard(card, video, { rank: index + 1 });
     grid.appendChild(node);
   });
 
-  if (notScored.length) {
-    notScoredSection.hidden = false;
-    for (const video of notScored) {
-      const node = template.content.cloneNode(true) as DocumentFragment;
-      const card = node.querySelector<HTMLElement>(".card");
-      if (!card) {
-        continue;
-      }
-
-      populateCard(card, video, { notScored: true });
-      notScoredGrid.appendChild(node);
-    }
-  } else {
-    notScoredSection.hidden = true;
-  }
-
-  const grids = [grid, notScoredGrid];
   requestAnimationFrame(() => {
     requestAnimationFrame(balanceCardRows);
   });
 
-  for (const container of grids) {
-    for (const img of container.querySelectorAll<HTMLImageElement>(".thumb")) {
-      if (!img.complete) {
-        img.addEventListener("load", balanceCardRows, { once: true });
-      }
+  for (const img of grid.querySelectorAll<HTMLImageElement>(".thumb")) {
+    if (!img.complete) {
+      img.addEventListener("load", balanceCardRows, { once: true });
     }
   }
 }

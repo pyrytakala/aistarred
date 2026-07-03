@@ -31,24 +31,24 @@ jobs:
             .cache
             scores
             transcripts
-          key: pipeline-data-v1-${{ hashFiles('package-lock.json', 'scoring_prompt.txt') }}
+          key: pipeline-data-v2-${{ hashFiles('package-lock.json', 'scoring_prompt.txt', 'scoring_prompt_podcast.txt', 'src/lib/sources.ts') }}
           restore-keys: |
-            pipeline-data-v1-
+            pipeline-data-v2-
 
       - run: npm ci
 
       - name: Run rankings pipeline (cache-first, no paid calls when cached)
-        run: npm run pipeline -- --reparse-only
+        run: npm run pipeline -- --reparse-only --all-sources
         env:
           FIREWORKS_API_KEY: ${{ secrets.FIREWORKS_API_KEY }}
           TRANSCRIPTAPI_API_KEY: ${{ secrets.TRANSCRIPTAPI_API_KEY }}
           SUPADATA_API_KEY: ${{ secrets.SUPADATA_API_KEY }}
 
-      - name: Commit published rankings artifact
+      - name: Commit published rankings artifacts
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data/rankings.json
+          git add public/data/
           if git diff --staged --quiet; then
             echo "No rankings changes to commit."
           else

@@ -1,7 +1,26 @@
 #!/usr/bin/env node
-import { publishRankings } from "../src/pipeline/publish.js";
+import { publishAllRankings, publishRankings } from "../src/pipeline/publish.js";
+import { resolveSourceIdsFromArgv } from "../src/lib/sources.js";
 
-const reparse = process.argv.includes("--reparse");
-const payload = publishRankings({ reparse });
-console.log(`Published ${payload.ranked_count ?? 0} rankings to public/data/rankings.json`);
-process.exit(payload.ranked_count ? 0 : 1);
+const argv = process.argv.slice(2);
+const reparse = argv.includes("--reparse");
+const sourceIds = resolveSourceIdsFromArgv(argv);
+
+if (argv.includes("--all-sources")) {
+  const payloads = publishAllRankings({ reparse });
+  for (const payload of payloads) {
+    console.log(
+      `Published ${payload.ranked_count ?? 0} rankings for ${payload.source_id ?? "unknown"}`,
+    );
+  }
+  process.exit(payloads.some((payload) => payload.ranked_count) ? 0 : 1);
+}
+
+for (const sourceId of sourceIds) {
+  const payload = publishRankings({ reparse, sourceId });
+  console.log(
+    `Published ${payload.ranked_count ?? 0} rankings to public/data/${sourceId}/rankings.json`,
+  );
+}
+
+process.exit(0);
