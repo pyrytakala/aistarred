@@ -12,7 +12,7 @@ cp .env.example .env
 
 ## Usage
 
-All pipeline commands accept `--source <id>` or `--all-sources`. Sources are defined in `src/lib/sources.ts`.
+All pipeline commands accept `--source <id>` or `--all-sources`. Sources are defined in `src/lib/sources-config.ts`.
 
 ```bash
 # Fetch transcripts for a source
@@ -49,19 +49,26 @@ The published site reads `public/data/<source-id>/rankings.json`. Local pipeline
 - `/ai-engineer-worlds-fair-2026/` — AI Engineer World's Fair 2026 (live, 10-day window)
 - `/latent-space-pod-q2-2026/` — Latent Space Pod, Q2 2026
 
-Pushes to `main` on `pyrytakala/endslop` deploy automatically via Vercel Git integration (production branch: `main`). No separate deploy step is required — `git push origin main` is enough.
+Pushes to `main` deploy automatically via Vercel Git integration — `git push origin main` is enough.
 
-The optional `.github/workflows/pipeline.yml` workflow refreshes `public/data/*/rankings.json` when API secrets are configured.
+**Publishing rankings (local, for now):**
 
-### GitHub secrets (optional pipeline refresh)
+```bash
+npm run pipeline -- --reparse-only --all-sources   # or fetch/score/publish separately
+git add public/data/
+git commit -m "Update published rankings"
+git push
+```
 
-- `FIREWORKS_API_KEY`, `TRANSCRIPTAPI_API_KEY`, `SUPADATA_API_KEY` — for re-scoring on merge (uses `.cache/` when available)
+API keys live in `.env` on your machine only (`FIREWORKS_API_KEY`, `TRANSCRIPTAPI_API_KEY`, `SUPADATA_API_KEY`). They are used to fetch transcripts and run LLM scoring locally. The static site only reads committed JSON under `public/data/` — no keys on Vercel.
+
+The GitHub Actions workflow (`.github/workflows/pipeline.yml`) is **manual-only** (`workflow_dispatch`). It is not required for deploys.
 
 ## Project layout
 
 ```
 src/           shared TS library + frontend entry
-src/lib/sources.ts   source definitions (channel, date range, prompt, slug)
+src/lib/sources-config.ts   source definitions (channel, date range, prompt, slug)
 scripts/       CLI entrypoints (fetch, score, publish, pipeline)
 public/data/   published rankings JSON per source
 api/           optional Vercel serverless handlers

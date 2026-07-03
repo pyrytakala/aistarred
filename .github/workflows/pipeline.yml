@@ -1,8 +1,9 @@
+# Disabled on push — rankings are built locally and committed under public/data/.
+# Re-enable with `on: push` + GitHub secrets if you want CI to refresh rankings.
 name: Pipeline
 
 on:
-  push:
-    branches: [main]
+  workflow_dispatch:
 
 concurrency:
   group: pipeline-main
@@ -10,7 +11,6 @@ concurrency:
 
 jobs:
   refresh-rankings:
-    if: ${{ !contains(github.event.head_commit.message, '[skip ci]') }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -31,7 +31,7 @@ jobs:
             .cache
             scores
             transcripts
-          key: pipeline-data-v2-${{ hashFiles('package-lock.json', 'scoring_prompt.txt', 'scoring_prompt_podcast.txt', 'src/lib/sources.ts') }}
+          key: pipeline-data-v2-${{ hashFiles('package-lock.json', 'scoring_prompt.txt', 'scoring_prompt_podcast.txt', 'src/lib/sources-config.ts') }}
           restore-keys: |
             pipeline-data-v2-
 
