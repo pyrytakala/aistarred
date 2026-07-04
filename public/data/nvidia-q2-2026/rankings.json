@@ -1,8 +1,8 @@
 {
   "source_id": "nvidia-q2-2026",
-  "video_count": 20,
-  "scored_count": 20,
-  "ranked_count": 20,
+  "video_count": 36,
+  "scored_count": 35,
+  "ranked_count": 35,
   "rankings": [
     {
       "id": "glT-zO8B_qk",
@@ -28,15 +28,15 @@
       "upload_date": "20260513",
       "duration_seconds": 1415,
       "composite_base": 73,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "zNuOOMM20Tk",
@@ -62,15 +62,51 @@
       "upload_date": "20260520",
       "duration_seconds": 2006,
       "composite_base": 71,
+      "like_adjustment": 0,
+      "length_adjustment": -0.34,
       "rank": 2,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "JD3icYmKKfw",
+      "title": "NVIDIA GTC 2025: Accelerate the Future of Healthcare with GE HealthCare",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=JD3icYmKKfw",
+      "status": "ok",
+      "summary_bullets": [
+        "Healthcare faces aging, chronic disease, data waste.",
+        "GE HealthCare uses AI for faster MRI, X-ray.",
+        "Multi-agent AI system aids tumor board decisions.",
+        "Foundation models for 3D imaging and ultrasound.",
+        "Autonomous X-ray and ultrasound announced with NVIDIA."
       ],
+      "composite": 64.2,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "NVIDIA GTC 2025: Accelerate the Future of Healthcare with GE HealthCare",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260127",
+      "duration_seconds": 2461,
+      "composite_base": 65.3,
       "like_adjustment": 0,
-      "length_adjustment": -0.34
+      "length_adjustment": -1.1,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "Alz-bhXqyXM",
@@ -96,15 +132,51 @@
       "upload_date": "20260624",
       "duration_seconds": 2395,
       "composite_base": 62.8,
-      "rank": 3,
+      "like_adjustment": 0,
+      "length_adjustment": -0.99,
+      "rank": 4,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "7N38fD4ksnI",
+      "title": "NVIDIA GTC Automotive Special Address",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=7N38fD4ksnI",
+      "status": "ok",
+      "summary_bullets": [
+        "NVIDIA announces Drive Hyperion reference architecture for L4.",
+        "Alpamayo 1.5 open-source model released with routing.",
+        "Partnership with Uber for L4 deployment by 2028.",
+        "Drive AV stack uses hybrid end-to-end and classical.",
+        "Open-sources 7,000 hours of driving data and tools."
       ],
+      "composite": 61.46,
+      "confidence": "High",
+      "audience_level": "professional",
+      "display_title": "NVIDIA Drive Platform Update: Hyperion, Halos, Alpamayo 1.5, and L4 Roadmap",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260325",
+      "duration_seconds": 2601,
+      "composite_base": 62.8,
       "like_adjustment": 0,
-      "length_adjustment": -0.99
+      "length_adjustment": -1.34,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "HyicRmHu17w",
@@ -130,15 +202,15 @@
       "upload_date": "20260603",
       "duration_seconds": 662,
       "composite_base": 58.75,
-      "rank": 4,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 6,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "TCOU1imv09U",
@@ -164,10 +236,40 @@
       "upload_date": "20260609",
       "duration_seconds": 2459,
       "composite_base": 58,
-      "rank": 5,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.1
+      "length_adjustment": -1.1,
+      "rank": 7,
+      "tags": []
+    },
+    {
+      "id": "R01xo_S1iuk",
+      "title": "NVIDIA GTC 2025: Foundation Models in Biology",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=R01xo_S1iuk",
+      "status": "ok",
+      "summary_bullets": [
+        "Panel defines biological foundation models",
+        "Success stories: novel fluorescent protein, drug design",
+        "Debate on open vs closed source models",
+        "Future: programmable biology, AI agents in labs"
+      ],
+      "composite": 56.28,
+      "confidence": "High",
+      "audience_level": "professional",
+      "display_title": "NVIDIA GTC 2025: Foundation Models in Biology",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 6,
+      "insight_density": 5.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260127",
+      "duration_seconds": 3613,
+      "composite_base": 59.3,
+      "like_adjustment": 0,
+      "length_adjustment": -3.02,
+      "rank": 8,
+      "tags": []
     },
     {
       "id": "gsbi7FS8Q30",
@@ -193,10 +295,41 @@
       "upload_date": "20260429",
       "duration_seconds": 1385,
       "composite_base": 54.3,
-      "rank": 6,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 9,
+      "tags": []
+    },
+    {
+      "id": "XH9N1SIJ7Dg",
+      "title": "Navigating San Francisco: A Deep Dive into NVIDIA’s L2++ Autonomous Driving Stack",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=XH9N1SIJ7Dg",
+      "status": "ok",
+      "summary_bullets": [
+        "NVIDIA VP presents L2++ autonomous driving stack.",
+        "Uses cameras, radar, ultrasonics, no LiDAR or HD maps.",
+        "Two stacks: classical and end-to-end neural network.",
+        "Simulation tools: Omniverse, Cosmos, NuRec for validation.",
+        "Demonstrates driving in San Francisco with human-like behavior."
+      ],
+      "composite": 53,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "Navigating San Francisco: A Deep Dive into NVIDIA’s L2++ Autonomous Driving Stack",
+      "substance": 5.5,
+      "evidence": 3,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260105",
+      "duration_seconds": 548,
+      "composite_base": 53,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 10,
+      "tags": []
     },
     {
       "id": "uv8va8bIqus",
@@ -222,10 +355,10 @@
       "upload_date": "20260409",
       "duration_seconds": 3182,
       "composite_base": 52.5,
-      "rank": 7,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.3
+      "length_adjustment": -2.3,
+      "rank": 11,
+      "tags": []
     },
     {
       "id": "FS1l8iN7PVo",
@@ -251,10 +384,10 @@
       "upload_date": "20260415",
       "duration_seconds": 2199,
       "composite_base": 49.75,
-      "rank": 8,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.67
+      "length_adjustment": -0.67,
+      "rank": 12,
+      "tags": []
     },
     {
       "id": "mYQR-xfqOPY",
@@ -280,10 +413,10 @@
       "upload_date": "20260610",
       "duration_seconds": 1294,
       "composite_base": 49,
-      "rank": 9,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 13,
+      "tags": []
     },
     {
       "id": "9YyS1R4xZ0M",
@@ -309,10 +442,40 @@
       "upload_date": "20260422",
       "duration_seconds": 1788,
       "composite_base": 49,
-      "rank": 10,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 14,
+      "tags": []
+    },
+    {
+      "id": "6r860vTAcA8",
+      "title": "NVIDIA GTC 2025: SOPHiA GENETICS | Interpret Health Data With AI to Change the Future of Medicine",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=6r860vTAcA8",
+      "status": "ok",
+      "summary_bullets": [
+        "Cancer cases rising; rare disorders affect 6% of population.",
+        "Genomics data enables diagnosis but is noisy and complex.",
+        "AI needs biological understanding, diverse data, and algorithms.",
+        "SOPHiA platform used in 70 countries, 2 million patients.",
+        "Deep learning predicts PARP inhibitor eligibility from genomic scars."
+      ],
+      "composite": 48.72,
+      "audience_level": "general",
+      "display_title": "NVIDIA GTC 2025: SOPHiA GENETICS | Interpret Health Data With AI to Change the Future of Medicine",
+      "substance": 5.5,
+      "evidence": 4,
+      "specificity": 6.5,
+      "insight_density": 5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260127",
+      "duration_seconds": 1818,
+      "composite_base": 48.75,
+      "like_adjustment": 0,
+      "length_adjustment": -0.03,
+      "rank": 15,
+      "tags": []
     },
     {
       "id": "c-fsL0gsmo0",
@@ -338,10 +501,10 @@
       "upload_date": "20260506",
       "duration_seconds": 1495,
       "composite_base": 48.5,
-      "rank": 11,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 16,
+      "tags": []
     },
     {
       "id": "OFEY5-52ru0",
@@ -367,10 +530,40 @@
       "upload_date": "20260414",
       "duration_seconds": 1889,
       "composite_base": 47.3,
-      "rank": 12,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.15
+      "length_adjustment": -0.15,
+      "rank": 17,
+      "tags": []
+    },
+    {
+      "id": "H26xnpL-ei0",
+      "title": "NVIDIA GTC 2026 Open Models Panel Highlights with Jensen Huang",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=H26xnpL-ei0",
+      "status": "ok",
+      "summary_bullets": [
+        "Open and closed models coexist, not compete.",
+        "Compound agents combine multiple models for complex tasks.",
+        "Open models enable trust for mission-critical applications.",
+        "Post-training compute will dominate future AI development.",
+        "Open infrastructure needed for frontier open models."
+      ],
+      "composite": 47,
+      "audience_level": "practitioner",
+      "display_title": "NVIDIA GTC 2026 Open Models Panel Highlights with Jensen Huang",
+      "substance": 5.5,
+      "evidence": 4,
+      "specificity": 5,
+      "insight_density": 4,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260325",
+      "duration_seconds": 1333,
+      "composite_base": 47,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 18,
+      "tags": []
     },
     {
       "id": "BAhI87RS-DQ",
@@ -396,10 +589,41 @@
       "upload_date": "20260409",
       "duration_seconds": 2404,
       "composite_base": 48,
-      "rank": 13,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.01
+      "length_adjustment": -1.01,
+      "rank": 19,
+      "tags": []
+    },
+    {
+      "id": "ZMpDiGoU4Wg",
+      "title": "On the Road With DRIVE AV",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ZMpDiGoU4Wg",
+      "status": "ok",
+      "summary_bullets": [
+        "End-to-end AV model combined with classical safety stack.",
+        "Development iterates ~7 models per day.",
+        "Classical stack provides safety guardrails for neural model.",
+        "Lane changes are humanlike due to end-to-end learning.",
+        "Data curation uses AI to find rare scenarios."
+      ],
+      "composite": 46,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "On the Road With DRIVE AV",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 6,
+      "insight_density": 3.5,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260311",
+      "duration_seconds": 1358,
+      "composite_base": 46,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 20,
+      "tags": []
     },
     {
       "id": "C3lcadfxTio",
@@ -425,10 +649,133 @@
       "upload_date": "20260527",
       "duration_seconds": 1745,
       "composite_base": 44,
-      "rank": 14,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 21,
+      "tags": []
+    },
+    {
+      "id": "lBNHFR41GgY",
+      "title": "NVIDIA GTC Studio with Insights from Schneider Electric",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=lBNHFR41GgY",
+      "status": "ok",
+      "summary_bullets": [
+        "AI factories face energy bottlenecks.",
+        "AI can optimize cooling, saving ~10% energy.",
+        "\"Energy intelligence\" uses AI on infrastructure data.",
+        "System-level efficiency is critical for scaling."
+      ],
+      "composite": 44,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Schneider Electric Executive on AI Energy Challenges and “Energy Intelligence”",
+      "substance": 5.5,
+      "evidence": 3.5,
+      "specificity": 5,
+      "insight_density": 4,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260330",
+      "duration_seconds": 1025,
+      "composite_base": 44,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 22,
+      "tags": []
+    },
+    {
+      "id": "cxiOhp9BJTs",
+      "title": "NVIDIA GTC Telecom Special Address: The AI Grid—Intelligently Connecting AI Infrastructure",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=cxiOhp9BJTs",
+      "status": "ok",
+      "summary_bullets": [
+        "Telecoms must build \"AI grid\" infrastructure.",
+        "AI grid connects distributed compute for low latency.",
+        "6G will be AI-native, built on accelerated compute.",
+        "Telcos can monetize token-based economics (\"tokconomics\").",
+        "Partnerships with AT&T, Comcast, T-Mobile, etc."
+      ],
+      "composite": 41.9,
+      "confidence": "Med",
+      "audience_level": "professional",
+      "display_title": "NVIDIA GTC Telecom Special Address: The AI Grid—Intelligently Connecting AI Infrastructure",
+      "substance": 5.5,
+      "evidence": 4,
+      "specificity": 6,
+      "insight_density": 3.5,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260324",
+      "duration_seconds": 2457,
+      "composite_base": 43,
+      "like_adjustment": 0,
+      "length_adjustment": -1.1,
+      "rank": 23,
+      "tags": []
+    },
+    {
+      "id": "zbiEYMapsvw",
+      "title": "NVIDIA & Lilly: The AI Revolution in Drug Discovery | Jensen Huang & David Ricks",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=zbiEYMapsvw",
+      "status": "ok",
+      "summary_bullets": [
+        "NVIDIA and Lilly announce AI drug discovery partnership.",
+        "Building largest on-prem biology supercomputer in Indianapolis.",
+        "GLP-1 drugs treat obesity and chronic diseases.",
+        "AI aims to shift drug design from empirical to engineering.",
+        "Joint AI lab to be located in Bay Area."
+      ],
+      "composite": 40.87,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "NVIDIA & Lilly: The AI Revolution in Drug Discovery | Jensen Huang & David Ricks",
+      "substance": 5.5,
+      "evidence": 3,
+      "specificity": 6,
+      "insight_density": 4.5,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260202",
+      "duration_seconds": 3525,
+      "composite_base": 43.75,
+      "like_adjustment": 0,
+      "length_adjustment": -2.88,
+      "rank": 24,
+      "tags": []
+    },
+    {
+      "id": "LkjArpd1VoM",
+      "title": "NVIDIA GTC DC 2025: Agentic AI and a Patient-First Digital Health Stack",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=LkjArpd1VoM",
+      "status": "ok",
+      "summary_bullets": [
+        "Panel discusses AI adoption in healthcare.",
+        "Clinician burnout and data silos are key challenges.",
+        "Ambient AI reduces documentation time for doctors.",
+        "Trust and safety are critical for AI in healthcare.",
+        "CMS promotes data interoperability and patient access."
+      ],
+      "composite": 40.32,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "NVIDIA GTC DC 2025: Agentic AI and a Patient-First Digital Health Stack",
+      "substance": 4.5,
+      "evidence": 3,
+      "specificity": 5,
+      "insight_density": 4,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260127",
+      "duration_seconds": 2210,
+      "composite_base": 41,
+      "like_adjustment": 0,
+      "length_adjustment": -0.68,
+      "rank": 25,
+      "tags": []
     },
     {
       "id": "_BE4NSst6yA",
@@ -453,10 +800,72 @@
       "upload_date": "20260605",
       "duration_seconds": 779,
       "composite_base": 39.8,
-      "rank": 15,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 26,
+      "tags": []
+    },
+    {
+      "id": "zsqQUVYR7BY",
+      "title": "NVIDIA GTC 2025: Reimagining Healthcare — Driving Innovation From Ideation with AI",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=zsqQUVYR7BY",
+      "status": "ok",
+      "summary_bullets": [
+        "Panel discusses AI in healthcare: create, cure, care.",
+        "Startups: TherapySide (mental health), Superluminal (drug discovery), Leika (veterinary), Cauter Reason (drug development).",
+        "Key themes: data sharing, scalability, human-centric AI.",
+        "Concrete results: TherapySide saves 20 min/session, Superluminal cut process from 3 months to 24 hours.",
+        "Emphasis on collaboration and overcoming organizational barriers."
+      ],
+      "composite": 39.15,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "NVIDIA GTC 2025: Reimagining Healthcare — Driving Innovation From Ideation with AI",
+      "substance": 4.5,
+      "evidence": 3.5,
+      "specificity": 5,
+      "insight_density": 4,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260127",
+      "duration_seconds": 2311,
+      "composite_base": 40,
+      "like_adjustment": 0,
+      "length_adjustment": -0.85,
+      "rank": 27,
+      "tags": []
+    },
+    {
+      "id": "cW_POtTfJVM",
+      "title": "NVIDIA GTC DC 2025: Healthcare Special Address",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=cW_POtTfJVM",
+      "status": "ok",
+      "summary_bullets": [
+        "NVIDIA partners with Lilly on AI factory.",
+        "OpenFold 3 released as enterprise NIM.",
+        "Verily platform accelerates precision health.",
+        "Johnson & Johnson uses simulation for surgical robots.",
+        "Digital health agents address clinician shortage."
+      ],
+      "composite": 36.99,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "NVIDIA GTC DC 2025: Healthcare Special Address",
+      "substance": 4.5,
+      "evidence": 3,
+      "specificity": 6,
+      "insight_density": 3.5,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260127",
+      "duration_seconds": 2584,
+      "composite_base": 38.3,
+      "like_adjustment": 0,
+      "length_adjustment": -1.31,
+      "rank": 28,
+      "tags": []
     },
     {
       "id": "11Y3B33oCLE",
@@ -482,10 +891,41 @@
       "upload_date": "20260604",
       "duration_seconds": 1027,
       "composite_base": 33,
-      "rank": 16,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 29,
+      "tags": []
+    },
+    {
+      "id": "3e6dR82pmdU",
+      "title": "CEO Fireside Chat With Jensen Huang and Pascal Daloz at Dassault Systèmes 3DEXPERIENCE World",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=3e6dR82pmdU",
+      "status": "ok",
+      "summary_bullets": [
+        "Partnership announced between Dassault and Nvidia.",
+        "Virtual twins combined with AI and accelerated computing.",
+        "Use cases: food science, car crash simulation, factory design.",
+        "AI companions will assist engineers, not replace them.",
+        "World models must obey physics, not just language."
+      ],
+      "composite": 32.29,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "CEO Fireside Chat With Jensen Huang and Pascal Daloz at Dassault Systèmes 3DEXPERIENCE World",
+      "substance": 4.5,
+      "evidence": 2.5,
+      "specificity": 4,
+      "insight_density": 3,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260205",
+      "duration_seconds": 2224,
+      "composite_base": 33,
+      "like_adjustment": 0,
+      "length_adjustment": -0.71,
+      "rank": 30,
+      "tags": []
     },
     {
       "id": "DIIteghPGx4",
@@ -511,10 +951,10 @@
       "upload_date": "20260407",
       "duration_seconds": 2210,
       "composite_base": 32.3,
-      "rank": 17,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.68
+      "length_adjustment": -0.68,
+      "rank": 31,
+      "tags": []
     },
     {
       "id": "Pkh0dqLCsrs",
@@ -540,10 +980,41 @@
       "upload_date": "20260609",
       "duration_seconds": 1188,
       "composite_base": 23,
-      "rank": 18,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 32,
+      "tags": []
+    },
+    {
+      "id": "MyNEr7tf-WQ",
+      "title": "NVIDIA GTC Studio with Insights from Vertiv",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=MyNEr7tf-WQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Vertiv provides power and cooling for data centers.",
+        "AI workloads increase power density and cooling needs.",
+        "Vertiv and NVIDIA co-develop converged infrastructure.",
+        "Digital twins (Omniverse) speed data center design.",
+        "Vertiv aims to scale to gigawatt AI factories."
+      ],
+      "composite": 21.5,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Vertiv’s Role in AI Data Center Power and Cooling Infrastructure",
+      "substance": 2.5,
+      "evidence": 1,
+      "specificity": 4,
+      "insight_density": 2,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260330",
+      "duration_seconds": 725,
+      "composite_base": 21.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 33,
+      "tags": []
     },
     {
       "id": "D1x8ewtJAa0",
@@ -569,10 +1040,10 @@
       "upload_date": "20260429",
       "duration_seconds": 2166,
       "composite_base": 21.5,
-      "rank": 19,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.61
+      "length_adjustment": -0.61,
+      "rank": 34,
+      "tags": []
     },
     {
       "id": "GsqW5MPFajw",
@@ -598,10 +1069,10 @@
       "upload_date": "20260625",
       "duration_seconds": 1598,
       "composite_base": 17.3,
-      "rank": 20,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 35,
+      "tags": []
     }
   ],
   "too_long": [],

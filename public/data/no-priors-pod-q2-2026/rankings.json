@@ -1,8 +1,8 @@
 {
   "source_id": "no-priors-pod-q2-2026",
-  "video_count": 13,
-  "scored_count": 13,
-  "ranked_count": 13,
+  "video_count": 24,
+  "scored_count": 24,
+  "ranked_count": 24,
   "rankings": [
     {
       "id": "XAbKflCncDo",
@@ -27,6 +27,8 @@
       "upload_date": "20260501",
       "duration_seconds": 2577,
       "composite_base": 81.25,
+      "like_adjustment": 0,
+      "length_adjustment": -1.3,
       "rank": 1,
       "tags": [
         {
@@ -45,9 +47,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.3
+      ]
     },
     {
       "id": "AZrU6y3pUcU",
@@ -73,6 +73,8 @@
       "upload_date": "20260626",
       "duration_seconds": 2179,
       "composite_base": 79.5,
+      "like_adjustment": 0,
+      "length_adjustment": -0.63,
       "rank": 2,
       "tags": [
         {
@@ -87,9 +89,50 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "WSxVh5WvWZ4",
+      "title": "Who's Actually Funding the AI Buildout?",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=WSxVh5WvWZ4",
+      "status": "ok",
+      "summary_bullets": [
+        "Magnetar Capital finances AI compute with debt secured by contracts.",
+        "GPU debt payback is 2–3 years, not dependent on residual value.",
+        "Bottleneck shifting from chips to power, steel, and electricians.",
+        "Inference is more complex than training, requiring distributed clusters.",
+        "Sovereigns view compute as national security, fund differently."
       ],
+      "composite": 77.14,
+      "audience_level": "practitioner",
+      "display_title": "Who's Actually Funding the AI Buildout?",
+      "substance": 8,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260226",
+      "duration_seconds": 2165,
+      "composite_base": 77.75,
       "like_adjustment": 0,
-      "length_adjustment": -0.63
+      "length_adjustment": -0.61,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "5u7AjPardvo",
@@ -115,7 +158,9 @@
       "upload_date": "20260423",
       "duration_seconds": 2388,
       "composite_base": 78,
-      "rank": 3,
+      "like_adjustment": 0,
+      "length_adjustment": -0.98,
+      "rank": 4,
       "tags": [
         {
           "label": "Substance",
@@ -129,9 +174,174 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "1dYThQgOyZU",
+      "title": "From Note-Taking App to AI Workspace: The Simon Last Interview",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=1dYThQgOyZU",
+      "status": "ok",
+      "summary_bullets": [
+        "Notion shifted from human tool to agent management platform.",
+        "AI harness rewritten every six months to match model progress.",
+        "Custom agents learn user preferences via memory pages and approval loops.",
+        "Coding agents now write all code; humans become agent managers.",
+        "Notion designs APIs specifically for agents (markdown dialect, SQLite)."
       ],
+      "composite": 77,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "From Note-Taking App to AI Workspace: The Simon Last Interview",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260312",
+      "duration_seconds": 1743,
+      "composite_base": 77,
       "like_adjustment": 0,
-      "length_adjustment": -0.98
+      "length_adjustment": 0,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "kwSVtQ7dziU",
+      "title": "Skill Issue: Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=kwSVtQ7dziU",
+      "status": "ok",
+      "summary_bullets": [
+        "Karpathy hasn't typed code since December, uses agents.",
+        "Home automation claw \"Dobby\" controls lights, HVAC, security.",
+        "Auto research: automated hyperparameter tuning found improvements.",
+        "AI is \"jagged\": brilliant at code, terrible at jokes.",
+        "Education will shift from teaching humans to teaching agents."
+      ],
+      "composite": 75.6,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Skill Issue: Andrej Karpathy on Code Agents, AutoResearch, and the Loopy Era of AI",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260320",
+      "duration_seconds": 3992,
+      "composite_base": 79.25,
+      "like_adjustment": 0,
+      "length_adjustment": -3.65,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "efUt__S_AjY",
+      "title": "The AI Code Slop: Risk or Opportunity?",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=efUt__S_AjY",
+      "status": "ok",
+      "summary_bullets": [
+        "AI code generation raises code quality concerns.",
+        "SaaS apocalypse fears are overstated short-term.",
+        "AI labs achieve fastest revenue growth ever.",
+        "Token costs dropped 150x in 21 months.",
+        "Founders should consider exit timing strategically."
+      ],
+      "composite": 74.93,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The AI Code Slop: Risk or Opportunity?",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260219",
+      "duration_seconds": 2442,
+      "composite_base": 76,
+      "like_adjustment": 0,
+      "length_adjustment": -1.07,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "OScO1It9V5g",
+      "title": "AI, R2 and the Future of Everyday Driving | Rivian CEO RJ Scaringe",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=OScO1It9V5g",
+      "status": "ok",
+      "summary_bullets": [
+        "Autonomy will be mandatory by 2030",
+        "EV adoption limited by lack of choice",
+        "Only few companies can build neural-net autonomy",
+        "Vertical integration and data flywheel are key",
+        "Software-defined architecture essential for scale"
+      ],
+      "composite": 74.82,
+      "audience_level": "general",
+      "display_title": "AI, R2 and the Future of Everyday Driving | Rivian CEO RJ Scaringe",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260212",
+      "duration_seconds": 1907,
+      "composite_base": 75,
+      "like_adjustment": 0,
+      "length_adjustment": -0.18,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "QDsbFLEt9ro",
@@ -157,15 +367,15 @@
       "upload_date": "20260528",
       "duration_seconds": 2469,
       "composite_base": 72.75,
-      "rank": 4,
+      "like_adjustment": 0,
+      "length_adjustment": -1.12,
+      "rank": 9,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.12
+      ]
     },
     {
       "id": "jeop9wfb9jU",
@@ -191,15 +401,15 @@
       "upload_date": "20260521",
       "duration_seconds": 1834,
       "composite_base": 71,
-      "rank": 5,
+      "like_adjustment": 0,
+      "length_adjustment": -0.06,
+      "rank": 10,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.06
+      ]
     },
     {
       "id": "asCgCv2XB4s",
@@ -225,7 +435,9 @@
       "upload_date": "20260618",
       "duration_seconds": 2700,
       "composite_base": 72.25,
-      "rank": 6,
+      "like_adjustment": 0,
+      "length_adjustment": -1.5,
+      "rank": 11,
       "tags": [
         {
           "label": "Specificity",
@@ -235,9 +447,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.5
+      ]
     },
     {
       "id": "xjlYpGaxIPA",
@@ -262,15 +472,87 @@
       "upload_date": "20260514",
       "duration_seconds": 2281,
       "composite_base": 71.5,
-      "rank": 7,
+      "like_adjustment": 0,
+      "length_adjustment": -0.8,
+      "rank": 12,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "djv5UDHrg7g",
+      "title": "The Largest Untapped Market Inside U.S. Defense | Emil Michael",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=djv5UDHrg7g",
+      "status": "ok",
+      "summary_bullets": [
+        "Emil Michael is CTO of Department of War.",
+        "Department prioritizes six critical technology areas.",
+        "GenAI.mill launched to 3M employees, 1M users.",
+        "Defense industrial base needs new entrants and scaled manufacturing.",
+        "Office of Strategic Capital offers $200B in loans."
       ],
+      "composite": 70.35,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Largest Untapped Market Inside U.S. Defense | Emil Michael",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260115",
+      "duration_seconds": 2671,
+      "composite_base": 71.8,
       "like_adjustment": 0,
-      "length_adjustment": -0.8
+      "length_adjustment": -1.45,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "k-xtmISBCNE",
+      "title": "NVIDIA’s Jensen Huang on Reasoning Models, Robotics, and Refuting the “AI Bubble” Narrative",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=k-xtmISBCNE",
+      "status": "ok",
+      "summary_bullets": [
+        "AI scaling laws continue, reasoning improves.",
+        "AI creates jobs, not destroys them.",
+        "Open source AI vital for innovation.",
+        "AI bubble narrative is superficial.",
+        "Robotics and digital biology next frontiers."
+      ],
+      "composite": 68.36,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "NVIDIA’s Jensen Huang on Reasoning Models, Robotics, and Refuting the “AI Bubble” Narrative",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260108",
+      "duration_seconds": 4581,
+      "composite_base": 73,
+      "like_adjustment": 0,
+      "length_adjustment": -4.64,
+      "rank": 14,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "eyobeqMdbeI",
@@ -296,10 +578,50 @@
       "upload_date": "20260409",
       "duration_seconds": 2641,
       "composite_base": 69.3,
-      "rank": 8,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.4
+      "length_adjustment": -1.4,
+      "rank": 15,
+      "tags": []
+    },
+    {
+      "id": "5Xvbq_zvOQ4",
+      "title": "How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=5Xvbq_zvOQ4",
+      "status": "ok",
+      "summary_bullets": [
+        "Valor Atomics built first startup nuclear reactor.",
+        "Reactor uses triso fuel, helium cooling, graphite.",
+        "Company focuses on hardware iteration, not simulation.",
+        "Demonstrated passive safety by turning off all cooling.",
+        "Goal: make energy 10x cheaper via mass production."
+      ],
+      "composite": 67.85,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How Nuclear Will Unlock Energy Abundance with Valor Atomics Founder Isaiah Taylor",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260702",
+      "duration_seconds": 3687,
+      "composite_base": 71,
+      "like_adjustment": 0,
+      "length_adjustment": -3.15,
+      "rank": 16,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "RQE8OS392dU",
@@ -325,15 +647,108 @@
       "upload_date": "20260604",
       "duration_seconds": 2547,
       "composite_base": 68,
-      "rank": 9,
+      "like_adjustment": 0,
+      "length_adjustment": -1.25,
+      "rank": 17,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "qQAhK2EWw4I",
+      "title": "No Priors Live: Is the SaaS \"Bear Thesis\" Overblown? MongoDB CEO Answers",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=qQAhK2EWw4I",
+      "status": "ok",
+      "summary_bullets": [
+        "Platforms are sticky, products replaceable.",
+        "Few software companies reach $10B revenue.",
+        "AI must reaccelerate growth to prove value.",
+        "Customer intimacy drives product strategy.",
+        "SaaS bear thesis overblown, says MongoDB CEO."
       ],
+      "composite": 65.84,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "No Priors Live: Is the SaaS \"Bear Thesis\" Overblown? MongoDB CEO Answers",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7.5,
+      "insight_density": 6.5,
+      "non_promotion": 5.5,
+      "like_count": null,
+      "upload_date": "20260122",
+      "duration_seconds": 2198,
+      "composite_base": 66.5,
       "like_adjustment": 0,
-      "length_adjustment": -1.25
+      "length_adjustment": -0.66,
+      "rank": 18,
+      "tags": []
+    },
+    {
+      "id": "vvfQnO7OjWI",
+      "title": "How Until is Engineering Away Time in Organ Transplants | Laura Deming",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=vvfQnO7OjWI",
+      "status": "ok",
+      "summary_bullets": [
+        "Cryopreservation aims to freeze organs without ice damage.",
+        "Ice formation is stochastic; rapid cooling avoids it.",
+        "Embryos have been frozen for 30 years successfully.",
+        "Until's first product: preserving organs for transplant.",
+        "Engineering can reduce biological challenges."
+      ],
+      "composite": 65.72,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How Until is Engineering Away Time in Organ Transplants | Laura Deming",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260129",
+      "duration_seconds": 1848,
+      "composite_base": 65.8,
+      "like_adjustment": 0,
+      "length_adjustment": -0.08,
+      "rank": 19,
+      "tags": []
+    },
+    {
+      "id": "4K5qLoM2_ts",
+      "title": "How AI Will Transform Roblox Games into Photorealistic Worlds | CEO David Baszucki",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=4K5qLoM2_ts",
+      "status": "ok",
+      "summary_bullets": [
+        "Roblox aims for photorealistic multiplayer worlds.",
+        "AI trains NPCs on 13B hours of user data.",
+        "CEO uses problem-solving tests for hiring.",
+        "Long-term vision: “holodeck” with 10,000 users.",
+        "AI enables asset upsampling and code generation."
+      ],
+      "composite": 65.62,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How AI Will Transform Roblox Games into Photorealistic Worlds | CEO David Baszucki",
+      "substance": 7.5,
+      "evidence": 5,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260205",
+      "duration_seconds": 2625,
+      "composite_base": 67,
+      "like_adjustment": 0,
+      "length_adjustment": -1.38,
+      "rank": 20,
+      "tags": []
     },
     {
       "id": "tNNFJa5pUEg",
@@ -359,10 +774,10 @@
       "upload_date": "20260417",
       "duration_seconds": 3448,
       "composite_base": 65.75,
-      "rank": 10,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.75
+      "length_adjustment": -2.75,
+      "rank": 21,
+      "tags": []
     },
     {
       "id": "Oru2Jxr1xHU",
@@ -388,10 +803,10 @@
       "upload_date": "20260403",
       "duration_seconds": 1766,
       "composite_base": 61.3,
-      "rank": 11,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 22,
+      "tags": []
     },
     {
       "id": "u8cYwaLzN-k",
@@ -417,10 +832,10 @@
       "upload_date": "20260610",
       "duration_seconds": 3380,
       "composite_base": 57,
-      "rank": 12,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.63
+      "length_adjustment": -2.63,
+      "rank": 23,
+      "tags": []
     },
     {
       "id": "g5TWnUjbeFM",
@@ -445,10 +860,10 @@
       "upload_date": "20260511",
       "duration_seconds": 1321,
       "composite_base": 53.8,
-      "rank": 13,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 24,
+      "tags": []
     }
   ],
   "too_long": [],

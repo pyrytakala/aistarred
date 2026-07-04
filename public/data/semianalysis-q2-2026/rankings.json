@@ -1,8 +1,8 @@
 {
   "source_id": "semianalysis-q2-2026",
-  "video_count": 18,
-  "scored_count": 18,
-  "ranked_count": 18,
+  "video_count": 20,
+  "scored_count": 20,
+  "ranked_count": 20,
   "rankings": [
     {
       "id": "eda-market-primer",
@@ -266,6 +266,46 @@
       ]
     },
     {
+      "id": "ectc2026",
+      "title": "EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/ectc2026",
+      "status": "ok",
+      "summary_bullets": [
+        "Intel's EMIB-T uses TSVs for power delivery.",
+        "Marvell custom HBM reduces host ASIC footprint.",
+        "Microfluidic cooling dissipates over 5 kW.",
+        "Hybrid bonding advances toward lower temperatures.",
+        "Glass substrates show progress but still immature."
+      ],
+      "composite": 77.8,
+      "confidence": "High",
+      "audience_level": "professional",
+      "display_title": "EMIB-T Roadmap, Custom HBM, HBM4 Packaging Challenges, Microfluidic Cooling, Photonic Interconnects, and More",
+      "substance": 7.5,
+      "evidence": 8.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260702",
+      "duration_seconds": null,
+      "composite_base": 77.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
       "id": "stop-saying-half-of-2026-us-datacenter",
       "title": "Stop Saying Half of 2026 US Datacenter Capacity Is Canceled",
       "speakers": "SemiAnalysis",
@@ -292,7 +332,7 @@
       "composite_base": 77.5,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 7,
+      "rank": 8,
       "tags": [
         {
           "label": "Substance",
@@ -334,7 +374,7 @@
       "composite_base": 76.8,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 8,
+      "rank": 9,
       "tags": [
         {
           "label": "Substance",
@@ -377,7 +417,7 @@
       "composite_base": 76,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 9,
+      "rank": 10,
       "tags": [
         {
           "label": "Specificity",
@@ -412,7 +452,7 @@
       "composite_base": 75.8,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 10,
+      "rank": 11,
       "tags": [
         {
           "label": "Substance",
@@ -450,7 +490,7 @@
       "composite_base": 75.8,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 11,
+      "rank": 12,
       "tags": [
         {
           "label": "Evidence",
@@ -493,7 +533,7 @@
       "composite_base": 75.5,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 12,
+      "rank": 13,
       "tags": [
         {
           "label": "Evidence",
@@ -532,7 +572,7 @@
       "composite_base": 75,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 13,
+      "rank": 14,
       "tags": [
         {
           "label": "Substance",
@@ -574,7 +614,7 @@
       "composite_base": 73.5,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 14,
+      "rank": 15,
       "tags": [
         {
           "label": "Substance",
@@ -613,7 +653,7 @@
       "composite_base": 72.3,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 15,
+      "rank": 16,
       "tags": [
         {
           "label": "Substance",
@@ -651,7 +691,43 @@
       "composite_base": 70.8,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 16,
+      "rank": 17,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "meta-compute-everyone-wants-to-be",
+      "title": "Meta Compute: Everyone Wants To Be A Neocloud",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/meta-compute-everyone-wants-to-be",
+      "status": "ok",
+      "summary_bullets": [
+        "Meta contracted 5GW capacity in six months.",
+        "Four high-value compute use-cases identified.",
+        "SpaceX-style deals offer huge revenue per MW.",
+        "Meta in talks with Anthropic for private Claude.",
+        "RecSys scaling could drive further revenue growth."
+      ],
+      "composite": 69.5,
+      "confidence": "Med",
+      "audience_level": "professional",
+      "display_title": "Meta Compute: Everyone Wants To Be A Neocloud",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 2.5,
+      "like_count": null,
+      "upload_date": "20260702",
+      "duration_seconds": null,
+      "composite_base": 69.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 18,
       "tags": [
         {
           "label": "Specificity",
@@ -686,7 +762,7 @@
       "composite_base": 68.75,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 17,
+      "rank": 19,
       "tags": [
         {
           "label": "Evidence",
@@ -725,7 +801,7 @@
       "composite_base": 63,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 18,
+      "rank": 20,
       "tags": [
         {
           "label": "Specificity",

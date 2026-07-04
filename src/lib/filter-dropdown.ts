@@ -50,6 +50,13 @@ function openDropdownPanel(dropdown: HTMLElement): void {
   trigger.setAttribute("aria-expanded", "true");
   panel.hidden = false;
   openDropdown = dropdown;
+
+  const searchInput = panel.querySelector<HTMLInputElement>(".filter-dropdown-search-input");
+  if (searchInput) {
+    searchInput.value = "";
+    searchInput.dispatchEvent(new Event("input", { bubbles: true }));
+    window.requestAnimationFrame(() => searchInput.focus());
+  }
 }
 
 export function mountFilterDropdownInteraction(): void {
@@ -308,6 +315,7 @@ export interface GroupedMultiSelectLeaf {
   value: string;
   label: string;
   groupId: string;
+  searchText?: string;
 }
 
 function syncGroupCheckbox(
@@ -364,6 +372,82 @@ function createMultiSelectRow(
   return row;
 }
 
+function forEachGroupedSection(
+  list: HTMLElement,
+  callback: (header: HTMLElement, items: HTMLElement[]) => void,
+): void {
+  const children = [...list.children] as HTMLElement[];
+  let index = 0;
+  while (index < children.length) {
+    const child = children[index];
+    if (!child.classList.contains("filter-dropdown-option--group")) {
+      index += 1;
+      continue;
+    }
+
+    const items: HTMLElement[] = [];
+    index += 1;
+    while (
+      index < children.length &&
+      children[index].classList.contains("filter-dropdown-option--nested")
+    ) {
+      items.push(children[index]);
+      index += 1;
+    }
+    callback(child, items);
+  }
+}
+
+function applyGroupedDropdownSearch(list: HTMLElement, rawQuery: string): void {
+  const query = rawQuery.trim().toLowerCase();
+  forEachGroupedSection(list, (header, items) => {
+    const groupLabel =
+      header.querySelector(".filter-dropdown-option-label")?.textContent?.toLowerCase() ?? "";
+    const groupMatches = !query || groupLabel.includes(query);
+
+    let anyItemVisible = false;
+    for (const item of items) {
+      const label =
+        item.querySelector(".filter-dropdown-option-label")?.textContent?.toLowerCase() ?? "";
+      const value = item.dataset.filterValue?.toLowerCase() ?? "";
+      const extra = item.dataset.filterSearch?.toLowerCase() ?? "";
+      const haystack = `${label} ${value} ${extra}`;
+      const itemMatches = !query || groupMatches || haystack.includes(query);
+      item.hidden = !itemMatches;
+      if (itemMatches) {
+        anyItemVisible = true;
+      }
+    }
+
+    header.hidden = !query ? false : !(groupMatches || anyItemVisible);
+  });
+}
+
+function mountGroupedDropdownSearch(
+  panel: HTMLElement,
+  list: HTMLElement,
+  placeholder: string,
+): void {
+  const searchWrap = document.createElement("div");
+  searchWrap.className = "filter-dropdown-search";
+
+  const searchInput = document.createElement("input");
+  searchInput.type = "search";
+  searchInput.className = "filter-dropdown-search-input";
+  searchInput.placeholder = placeholder;
+  searchInput.setAttribute("aria-label", placeholder);
+  searchInput.autocomplete = "off";
+  searchInput.spellcheck = false;
+  searchInput.addEventListener("click", (event) => event.stopPropagation());
+  searchInput.addEventListener("keydown", (event) => event.stopPropagation());
+  searchInput.addEventListener("input", () => {
+    applyGroupedDropdownSearch(list, searchInput.value);
+  });
+
+  searchWrap.appendChild(searchInput);
+  panel.insertBefore(searchWrap, panel.firstChild);
+}
+
 export function mountGroupedMultiSelectDropdown(
   container: HTMLElement,
   config: {
@@ -378,6 +462,9 @@ export function mountGroupedMultiSelectDropdown(
       selectAllLabel?: string;
       clearAllLabel?: string;
     };
+    search?: {
+      placeholder?: string;
+    };
   },
 ): FilterDropdownHandle {
   let selected = new Set(config.selectedValues);
@@ -386,6 +473,14 @@ export function mountGroupedMultiSelectDropdown(
     panel.classList.add(config.panelClassName);
   }
   list.setAttribute("aria-multiselectable", "true");
+
+  if (config.search) {
+    mountGroupedDropdownSearch(
+      panel,
+      list,
+      config.search.placeholder ?? "Search…",
+    );
+  }
 
   const allValues = config.leaves.map((leaf) => leaf.value);
   const groupCheckboxes = new Map<string, HTMLInputElement>();
@@ -492,6 +587,9 @@ export function mountGroupedMultiSelectDropdown(
           applySelection(next);
         },
       );
+      if (leaf.searchText) {
+        row.dataset.filterSearch = leaf.searchText;
+      }
       list.appendChild(row);
     }
   }

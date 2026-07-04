@@ -1,6 +1,6 @@
 {
   "source_id": "ai-engineer-worlds-fair-2026",
-  "video_count": 38,
+  "video_count": 58,
   "scored_count": 35,
   "ranked_count": 35,
   "rankings": [
@@ -29,6 +29,8 @@
       "upload_date": "20260629",
       "duration_seconds": 881,
       "composite_base": 83.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -47,9 +49,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "whue9_YquGA",
@@ -76,6 +76,8 @@
       "upload_date": "20260628",
       "duration_seconds": 1056,
       "composite_base": 83.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 2,
       "tags": [
         {
@@ -94,9 +96,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "ij-AU9dpJjc",
@@ -123,6 +123,8 @@
       "upload_date": "20260626",
       "duration_seconds": 1257,
       "composite_base": 81.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 3,
       "tags": [
         {
@@ -141,9 +143,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "IJXjTLPzvAU",
@@ -170,6 +170,8 @@
       "upload_date": "20260625",
       "duration_seconds": 3497,
       "composite_base": 84,
+      "like_adjustment": 0,
+      "length_adjustment": -2.83,
       "rank": 4,
       "tags": [
         {
@@ -188,9 +190,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.83
+      ]
     },
     {
       "id": "vh2VGuQ3zhY",
@@ -217,6 +217,8 @@
       "upload_date": "20260628",
       "duration_seconds": 1707,
       "composite_base": 77.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 5,
       "tags": [
         {
@@ -227,9 +229,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "UNzCG3lw6O0",
@@ -256,6 +256,8 @@
       "upload_date": "20260629",
       "duration_seconds": 1243,
       "composite_base": 73.25,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 6,
       "tags": [
         {
@@ -270,9 +272,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "aHhB3sjGjkI",
@@ -297,15 +297,15 @@
       "upload_date": "20260628",
       "duration_seconds": 1814,
       "composite_base": 73,
+      "like_adjustment": 0,
+      "length_adjustment": -0.02,
       "rank": 7,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.02
+      ]
     },
     {
       "id": "ZD9-4fW2HhM",
@@ -332,6 +332,8 @@
       "upload_date": "20260625",
       "duration_seconds": 1179,
       "composite_base": 72.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 8,
       "tags": [
         {
@@ -346,9 +348,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "Lc8zRh9muoY",
@@ -374,6 +374,8 @@
       "upload_date": "20260629",
       "duration_seconds": 850,
       "composite_base": 72.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 9,
       "tags": [
         {
@@ -384,9 +386,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "fWXJM-J0ZB8",
@@ -412,15 +412,15 @@
       "upload_date": "20260629",
       "duration_seconds": 1852,
       "composite_base": 72.3,
+      "like_adjustment": 0,
+      "length_adjustment": -0.09,
       "rank": 10,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.09
+      ]
     },
     {
       "id": "Iwe_RY-fYgI",
@@ -447,10 +447,10 @@
       "upload_date": "20260628",
       "duration_seconds": 1140,
       "composite_base": 72,
-      "rank": 11,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 11,
+      "tags": []
     },
     {
       "id": "dRmWYHuIJxM",
@@ -476,6 +476,8 @@
       "upload_date": "20260628",
       "duration_seconds": 643,
       "composite_base": 71.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 12,
       "tags": [
         {
@@ -486,9 +488,42 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "hVJOnuhFmTA",
+      "title": "The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=hVJOnuhFmTA",
+      "status": "ok",
+      "summary_bullets": [
+        "Prompting is batch processing like punch cards.",
+        "Channel, expression, protocol define interfaces.",
+        "Expression exploded, protocol stayed batch.",
+        "AI should engage in real-time conversation."
       ],
+      "composite": 71.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 6.5,
+      "like_count": null,
+      "upload_date": "20260702",
+      "duration_seconds": 1213,
+      "composite_base": 71.5,
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "DqtmZE6Hl0g",
@@ -513,7 +548,9 @@
       "upload_date": "20260629",
       "duration_seconds": 1053,
       "composite_base": 70,
-      "rank": 13,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 14,
       "tags": [
         {
           "label": "Specificity",
@@ -523,9 +560,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "T0HhO4YtTfE",
@@ -552,7 +587,9 @@
       "upload_date": "20260628",
       "duration_seconds": 1733,
       "composite_base": 69.8,
-      "rank": 14,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 15,
       "tags": [
         {
           "label": "Insight",
@@ -562,46 +599,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
-    },
-    {
-      "id": "hVJOnuhFmTA",
-      "title": "The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=hVJOnuhFmTA",
-      "status": "ok",
-      "summary_bullets": [
-        "Argues that prompting is a batch protocol like punch cards, not truly interactive.",
-        "Introduces three concepts: channel, expression, protocol to analyze AI interfaces.",
-        "Shows examples of voice mode failures and real-time conversational AI demos.",
-        "Calls for designing AI that meets humans mid-thought rather than requiring pre-packaged intent."
-      ],
-      "composite": 69,
-      "confidence": "High",
-      "substance": 8,
-      "evidence": 4,
-      "specificity": 7.5,
-      "insight_density": 8,
-      "non_promotion": 6,
-      "like_count": null,
-      "upload_date": "20260702",
-      "duration_seconds": 1213,
-      "composite_base": 69,
-      "rank": 15,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "APh1Vx0oLmQ",
@@ -627,15 +625,15 @@
       "upload_date": "20260629",
       "duration_seconds": 434,
       "composite_base": 68.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 16,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "65X0pQ6Lmbg",
@@ -661,15 +659,15 @@
       "upload_date": "20260628",
       "duration_seconds": 785,
       "composite_base": 68.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 17,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "Akm1sqvWG4A",
@@ -695,6 +693,8 @@
       "upload_date": "20260628",
       "duration_seconds": 2748,
       "composite_base": 70,
+      "like_adjustment": 0,
+      "length_adjustment": -1.58,
       "rank": 18,
       "tags": [
         {
@@ -705,9 +705,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.58
+      ]
     },
     {
       "id": "4uFVSLgD2Q4",
@@ -733,10 +731,10 @@
       "upload_date": "20260626",
       "duration_seconds": 1110,
       "composite_base": 68,
-      "rank": 19,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 19,
+      "tags": []
     },
     {
       "id": "OXMMN-XbxwA",
@@ -762,15 +760,15 @@
       "upload_date": "20260628",
       "duration_seconds": 897,
       "composite_base": 64.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 20,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "6bmM45jkMDY",
@@ -795,15 +793,15 @@
       "upload_date": "20260629",
       "duration_seconds": 945,
       "composite_base": 63.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 21,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "jVjt-2g8NMY",
@@ -828,10 +826,10 @@
       "upload_date": "20260626",
       "duration_seconds": 1200,
       "composite_base": 61.5,
-      "rank": 22,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 22,
+      "tags": []
     },
     {
       "id": "akk6KRlcwW4",
@@ -856,10 +854,10 @@
       "upload_date": "20260628",
       "duration_seconds": 1476,
       "composite_base": 60,
-      "rank": 23,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 23,
+      "tags": []
     },
     {
       "id": "spNAUEgq_A8",
@@ -885,10 +883,10 @@
       "upload_date": "20260629",
       "duration_seconds": 1838,
       "composite_base": 59.3,
-      "rank": 24,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.06
+      "length_adjustment": -0.06,
+      "rank": 24,
+      "tags": []
     },
     {
       "id": "UPwGaM2MKHY",
@@ -914,10 +912,10 @@
       "upload_date": "20260625",
       "duration_seconds": 911,
       "composite_base": 58.3,
-      "rank": 25,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 25,
+      "tags": []
     },
     {
       "id": "3hXJI2q0Jz8",
@@ -943,10 +941,10 @@
       "upload_date": "20260625",
       "duration_seconds": 1428,
       "composite_base": 58.3,
-      "rank": 26,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 26,
+      "tags": []
     },
     {
       "id": "uiP88SpCi1Q",
@@ -971,10 +969,10 @@
       "upload_date": "20260628",
       "duration_seconds": 355,
       "composite_base": 56.5,
-      "rank": 27,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 27,
+      "tags": []
     },
     {
       "id": "XovaGv4f39A",
@@ -999,15 +997,15 @@
       "upload_date": "20260628",
       "duration_seconds": 352,
       "composite_base": 56.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 28,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "ZRM_TfEZcIo",
@@ -1033,15 +1031,15 @@
       "upload_date": "20260626",
       "duration_seconds": 2372,
       "composite_base": 57.25,
+      "like_adjustment": 0,
+      "length_adjustment": -0.95,
       "rank": 29,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.95
+      ]
     },
     {
       "id": "tB9RKTrU-Ig",
@@ -1066,10 +1064,10 @@
       "upload_date": "20260628",
       "duration_seconds": 888,
       "composite_base": 55,
-      "rank": 30,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 30,
+      "tags": []
     },
     {
       "id": "-x5GEVnkuRw",
@@ -1093,10 +1091,10 @@
       "upload_date": "20260628",
       "duration_seconds": 1241,
       "composite_base": 52.3,
-      "rank": 31,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 31,
+      "tags": []
     },
     {
       "id": "JRTAtZ5iBkU",
@@ -1121,10 +1119,10 @@
       "upload_date": "20260628",
       "duration_seconds": 420,
       "composite_base": 51.3,
-      "rank": 32,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 32,
+      "tags": []
     },
     {
       "id": "Jx4ZFEAq6bY",
@@ -1150,10 +1148,10 @@
       "upload_date": "20260628",
       "duration_seconds": 937,
       "composite_base": 49,
-      "rank": 33,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 33,
+      "tags": []
     },
     {
       "id": "IddXPepIAS4",
@@ -1179,10 +1177,10 @@
       "upload_date": "20260628",
       "duration_seconds": 1067,
       "composite_base": 48.5,
-      "rank": 34,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 34,
+      "tags": []
     },
     {
       "id": "pSto5YaNGUo",
@@ -1208,10 +1206,10 @@
       "upload_date": "20260629",
       "duration_seconds": 2090,
       "composite_base": 42.3,
-      "rank": 35,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.48
+      "length_adjustment": -0.48,
+      "rank": 35,
+      "tags": []
     }
   ],
   "too_long": [

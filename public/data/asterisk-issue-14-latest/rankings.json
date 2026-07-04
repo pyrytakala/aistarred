@@ -29,6 +29,8 @@
       "upload_date": "20260415",
       "duration_seconds": null,
       "composite_base": 86.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -51,9 +53,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "chinas-last-bus",
@@ -80,6 +80,8 @@
       "upload_date": "20260520",
       "duration_seconds": null,
       "composite_base": 85.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 2,
       "tags": [
         {
@@ -98,9 +100,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "we-re-all-one-crisis-away-from-taking-unlicensed-research-peptides",
@@ -127,6 +127,8 @@
       "upload_date": "20260603",
       "duration_seconds": null,
       "composite_base": 68,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 3,
       "tags": [
         {
@@ -137,9 +139,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "the-doomers-are-all-right",
@@ -166,15 +166,15 @@
       "upload_date": "20260623",
       "duration_seconds": null,
       "composite_base": 56,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 4,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "these-wild-young-people",
@@ -201,15 +201,15 @@
       "upload_date": "20260513",
       "duration_seconds": null,
       "composite_base": 47.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 5,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     }
   ],
   "too_long": [],

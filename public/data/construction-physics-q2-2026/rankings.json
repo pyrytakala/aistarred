@@ -1,8 +1,8 @@
 {
   "source_id": "construction-physics-q2-2026",
-  "video_count": 12,
-  "scored_count": 12,
-  "ranked_count": 12,
+  "video_count": 14,
+  "scored_count": 14,
+  "ranked_count": 14,
   "rankings": [
     {
       "id": "converting-coal-plants-to-natural",
@@ -29,6 +29,8 @@
       "upload_date": "20260619",
       "duration_seconds": null,
       "composite_base": 88.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -51,9 +53,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "where-are-the-economies-of-scale",
@@ -80,6 +80,8 @@
       "upload_date": "20260528",
       "duration_seconds": null,
       "composite_base": 87.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 2,
       "tags": [
         {
@@ -102,9 +104,59 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "the-fall-and-rise-of-screwworm",
+      "title": "The Fall and Rise of Screwworm",
+      "speakers": "Construction Physics",
+      "url": "https://www.construction-physics.com/p/the-fall-and-rise-of-screwworm",
+      "status": "ok",
+      "summary_bullets": [
+        "Screwworm larvae eat living flesh.",
+        "Sterile male technique eradicated screwworm.",
+        "Barrier at Panama failed recently.",
+        "Screwworm now spreading north again.",
+        "Eradication requires sustained effort."
       ],
+      "composite": 87.75,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Fall and Rise of Screwworm",
+      "substance": 8.5,
+      "evidence": 9,
+      "specificity": 9.5,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260703",
+      "duration_seconds": null,
+      "composite_base": 87.75,
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "how-long-do-we-wait-for-new-inventions",
@@ -131,7 +183,9 @@
       "upload_date": "20260507",
       "duration_seconds": null,
       "composite_base": 86.25,
-      "rank": 3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 4,
       "tags": [
         {
           "label": "Substance",
@@ -153,9 +207,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "the-rise-of-build-to-rent-housing",
@@ -182,7 +234,9 @@
       "upload_date": "20260521",
       "duration_seconds": null,
       "composite_base": 84.5,
-      "rank": 4,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 5,
       "tags": [
         {
           "label": "Substance",
@@ -204,9 +258,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "biological-evolution-and-information",
@@ -233,7 +285,9 @@
       "upload_date": "20260611",
       "duration_seconds": null,
       "composite_base": 78,
-      "rank": 5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 6,
       "tags": [
         {
           "label": "Specificity",
@@ -243,9 +297,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "how-long-does-it-take-to-plan-a-bridge",
@@ -272,7 +324,9 @@
       "upload_date": "20260604",
       "duration_seconds": null,
       "composite_base": 78,
-      "rank": 6,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 7,
       "tags": [
         {
           "label": "Specificity",
@@ -282,9 +336,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "us-subways-build-too-many-cross-passages",
@@ -311,7 +363,9 @@
       "upload_date": "20260625",
       "duration_seconds": null,
       "composite_base": 76,
-      "rank": 7,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 8,
       "tags": [
         {
           "label": "Specificity",
@@ -321,9 +375,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "how-an-oil-refinery-works",
@@ -350,7 +402,9 @@
       "upload_date": "20260430",
       "duration_seconds": null,
       "composite_base": 73.8,
-      "rank": 8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 9,
       "tags": [
         {
           "label": "Specificity",
@@ -360,9 +414,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "reading-list-062026",
@@ -389,10 +441,40 @@
       "upload_date": "20260620",
       "duration_seconds": null,
       "composite_base": 34,
-      "rank": 9,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 10,
+      "tags": []
+    },
+    {
+      "id": "reading-list-05022026",
+      "title": "Reading List 05/02/2026",
+      "speakers": "Construction Physics",
+      "url": "https://www.construction-physics.com/p/reading-list-05022026",
+      "status": "ok",
+      "summary_bullets": [
+        "War disrupts PCB resin supply, prices up 40%.",
+        "Jet fuel costs threaten Indian airlines, US airlines.",
+        "Strait of Hormuz cables risk anchor damage.",
+        "Housing bill chill stops build-to-rent projects.",
+        "Robot manufacturing could scale 5–16 month doubling."
+      ],
+      "composite": 34,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 1.5,
+      "evidence": 2,
+      "specificity": 8,
+      "insight_density": 3,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260502",
+      "duration_seconds": null,
+      "composite_base": 34,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 11,
+      "tags": []
     },
     {
       "id": "reading-list-052326",
@@ -419,10 +501,10 @@
       "upload_date": "20260523",
       "duration_seconds": null,
       "composite_base": 28,
-      "rank": 10,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 12,
+      "tags": []
     },
     {
       "id": "reading-list-062726",
@@ -449,10 +531,10 @@
       "upload_date": "20260627",
       "duration_seconds": null,
       "composite_base": 26.5,
-      "rank": 11,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 13,
+      "tags": []
     },
     {
       "id": "reading-list-05092026",
@@ -479,10 +561,10 @@
       "upload_date": "20260509",
       "duration_seconds": null,
       "composite_base": 26,
-      "rank": 12,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 14,
+      "tags": []
     }
   ],
   "too_long": [],

@@ -1,8 +1,8 @@
 {
   "source_id": "pragmatic-engineer-2026",
-  "video_count": 12,
-  "scored_count": 12,
-  "ranked_count": 12,
+  "video_count": 13,
+  "scored_count": 13,
+  "ranked_count": 13,
   "rankings": [
     {
       "id": "the-pulse-ai-load-breaks-github",
@@ -28,6 +28,8 @@
       "upload_date": "20260507",
       "duration_seconds": null,
       "composite_base": 81,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -46,9 +48,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "the-pulse-cloudflare-rewrites-next-js-as-ai-rewrites-commercial-open-source",
@@ -74,6 +74,8 @@
       "upload_date": "20260305",
       "duration_seconds": null,
       "composite_base": 80.25,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 2,
       "tags": [
         {
@@ -84,9 +86,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "coinbase-fail",
@@ -113,6 +113,8 @@
       "upload_date": "20260623",
       "duration_seconds": null,
       "composite_base": 80,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 3,
       "tags": [
         {
@@ -127,9 +129,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "the-pulse-tokenmaxxing-as-a-weird-new-trend",
@@ -156,15 +156,15 @@
       "upload_date": "20260423",
       "duration_seconds": null,
       "composite_base": 69.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 4,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "the-pulse-antigravity-2-0-takes-ide-out-of-its-new-ide",
@@ -191,15 +191,15 @@
       "upload_date": "20260611",
       "duration_seconds": null,
       "composite_base": 68.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 5,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "the-pulse-is-github-still-best-for-ai-native-development",
@@ -226,10 +226,10 @@
       "upload_date": "20260403",
       "duration_seconds": null,
       "composite_base": 66.3,
-      "rank": 6,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 6,
+      "tags": []
     },
     {
       "id": "the-pulse-forward-deployed-engineering-heats-up-again",
@@ -256,10 +256,10 @@
       "upload_date": "20260524",
       "duration_seconds": null,
       "composite_base": 65.5,
-      "rank": 7,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 7,
+      "tags": []
     },
     {
       "id": "the-pulse-token-spend-breaks-budgets-what-next",
@@ -285,15 +285,15 @@
       "upload_date": "20260430",
       "duration_seconds": null,
       "composite_base": 63.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 8,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it",
@@ -320,15 +320,15 @@
       "upload_date": "20260628",
       "duration_seconds": null,
       "composite_base": 62,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 9,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "google-cloud-deletes-australian-trading-funds-infra",
@@ -355,15 +355,15 @@
       "upload_date": "20260520",
       "duration_seconds": null,
       "composite_base": 61.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 10,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "the-pulse-did-capacity-shortages-turn-anthropic-hostile-to-devs",
@@ -390,10 +390,40 @@
       "upload_date": "20260514",
       "duration_seconds": null,
       "composite_base": 60.75,
-      "rank": 11,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 11,
+      "tags": []
+    },
+    {
+      "id": "the-pulse-a-new-trend-smart-model-routing",
+      "title": "The Pulse: a new trend, smart model routing",
+      "speakers": "The Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-a-new-trend-smart-model-routing/",
+      "status": "ok",
+      "summary_bullets": [
+        "Companies seek intelligent AI model routing.",
+        "Token prices vary 10-20x between models.",
+        "Several vendors offer routing solutions.",
+        "Demand high, especially from enterprises.",
+        "Open models sufficient for ~60% coding tasks."
+      ],
+      "composite": 57.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 6.5,
+      "evidence": 3.5,
+      "specificity": 7.5,
+      "insight_density": 5.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260702",
+      "duration_seconds": null,
+      "composite_base": 57.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 12,
+      "tags": []
     },
     {
       "id": "the-pulse-a-trend-of-trying-to-cut-back-on-ai-spend-within-eng-departments",
@@ -419,10 +449,10 @@
       "upload_date": "20260611",
       "duration_seconds": null,
       "composite_base": 55.75,
-      "rank": 12,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 13,
+      "tags": []
     }
   ],
   "too_long": [],

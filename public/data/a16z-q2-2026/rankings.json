@@ -1,8 +1,8 @@
 {
   "source_id": "a16z-q2-2026",
-  "video_count": 23,
-  "scored_count": 23,
-  "ranked_count": 23,
+  "video_count": 45,
+  "scored_count": 44,
+  "ranked_count": 44,
   "rankings": [
     {
       "id": "ktl8mNiWqMM",
@@ -28,6 +28,8 @@
       "upload_date": "20260608",
       "duration_seconds": 3633,
       "composite_base": 84,
+      "like_adjustment": 0,
+      "length_adjustment": -3.06,
       "rank": 1,
       "tags": [
         {
@@ -46,9 +48,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -3.06
+      ]
     },
     {
       "id": "krdrkl38nRw",
@@ -74,6 +74,8 @@
       "upload_date": "20260401",
       "duration_seconds": 1637,
       "composite_base": 80.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 2,
       "tags": [
         {
@@ -88,9 +90,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "AiM9mZCmVPY",
@@ -116,6 +116,8 @@
       "upload_date": "20260529",
       "duration_seconds": 1990,
       "composite_base": 80.3,
+      "like_adjustment": 0,
+      "length_adjustment": -0.32,
       "rank": 3,
       "tags": [
         {
@@ -130,9 +132,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.32
+      ]
     },
     {
       "id": "Z4i1adGvD2A",
@@ -158,6 +158,8 @@
       "upload_date": "20260505",
       "duration_seconds": 5003,
       "composite_base": 84.8,
+      "like_adjustment": 0,
+      "length_adjustment": -5.34,
       "rank": 4,
       "tags": [
         {
@@ -176,9 +178,182 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "U-TSafAIzXw",
+      "title": "Inside a16z’s Top 100 AI Apps Report with Olivia Moore",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=U-TSafAIzXw",
+      "status": "ok",
+      "summary_bullets": [
+        "ChatGPT dominates but competition heats up.",
+        "Consumer AI race shifts to platforms and agents.",
+        "Geographic adoption varies widely; US not top.",
+        "Creative tools evolve; video and voice breakout.",
+        "Memory and context create lock-in advantages."
       ],
+      "composite": 79.39,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Inside a16z’s Top 100 AI Apps Report with Olivia Moore",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260310",
+      "duration_seconds": 2313,
+      "composite_base": 80.25,
       "like_adjustment": 0,
-      "length_adjustment": -5.34
+      "length_adjustment": -0.86,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "YAyYCdCkwo4",
+      "title": "Tesla and SpaceX Alumni on Elon Musk, Decision Velocity, and the Future of Hard Tech | a16z",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=YAyYCdCkwo4",
+      "status": "ok",
+      "summary_bullets": [
+        "Flat orgs enable rapid information flow.",
+        "Aggressive milestones reveal true critical path.",
+        "Factory mindset applies to construction and mining.",
+        "Vertical integration only when company survival depends.",
+        "Deep technical hiring filters for autonomous engineers."
+      ],
+      "composite": 77.26,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Tesla and SpaceX Alumni on Elon Musk, Decision Velocity, and the Future of Hard Tech | a16z",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260327",
+      "duration_seconds": 3025,
+      "composite_base": 79.3,
+      "like_adjustment": 0,
+      "length_adjustment": -2.04,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "0lzo2tFBFy8",
+      "title": "Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=0lzo2tFBFy8",
+      "status": "ok",
+      "summary_bullets": [
+        "SaaS apocalypse overblown; three SaaS types identified.",
+        "AI agents augment, not replace, systems of record.",
+        "Pricing fairness key to SaaS survival.",
+        "Vibe coding limited by edge cases and accumulated knowledge.",
+        "Design challenges for AI trust and iteration."
+      ],
+      "composite": 77.07,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Atlassian CEO on the SaaS Apocalypse, AI Agents & What Comes Next",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 8,
+      "insight_density": 8,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260306",
+      "duration_seconds": 3259,
+      "composite_base": 79.5,
+      "like_adjustment": 0,
+      "length_adjustment": -2.43,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "tL3sXpxpCPs",
+      "title": "Emil Michael: The Department of War Is Moving Faster Than Silicon Valley on AI | The a16z Show",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=tL3sXpxpCPs",
+      "status": "ok",
+      "summary_bullets": [
+        "AI users in Pentagon surged from 80k to 1.2M.",
+        "Priority areas cut from 14 to 6.",
+        "Vendor terms could halt military operations mid-mission.",
+        "Moving from cost-plus to fixed-price contracts.",
+        "Startups must scale production, not just invent."
+      ],
+      "composite": 77,
+      "audience_level": "general",
+      "display_title": "Emil Michael: The Department of War Is Moving Faster Than Silicon Valley on AI | The a16z Show",
+      "substance": 8.5,
+      "evidence": 5.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260313",
+      "duration_seconds": 1609,
+      "composite_base": 77,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "dvVbA9OcBqs",
@@ -204,7 +379,9 @@
       "upload_date": "20260428",
       "duration_seconds": 3503,
       "composite_base": 79.5,
-      "rank": 5,
+      "like_adjustment": 0,
+      "length_adjustment": -2.84,
+      "rank": 9,
       "tags": [
         {
           "label": "Substance",
@@ -218,9 +395,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.84
+      ]
     },
     {
       "id": "IZDJ3jcO5UY",
@@ -246,7 +421,9 @@
       "upload_date": "20260414",
       "duration_seconds": 1730,
       "composite_base": 75.5,
-      "rank": 6,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 10,
       "tags": [
         {
           "label": "Substance",
@@ -256,9 +433,91 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "zwDmKsnhl08",
+      "title": "Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show",
+      "speakers": "The a16z Show",
+      "url": "https://www.youtube.com/watch?v=zwDmKsnhl08",
+      "status": "ok",
+      "summary_bullets": [
+        "LLMs perform Bayesian inference during in-context learning.",
+        "Small transformers match exact Bayesian posteriors in controlled tests.",
+        "Scale alone cannot achieve AGI; need plasticity and causation.",
+        "Current LLMs lack consciousness; they are matrix multiplication.",
+        "Einstein test: LLM trained on pre-1911 physics would not derive relativity."
       ],
+      "composite": 75.32,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Why Scale Will Not Solve AGI | Vishal Misra - The a16z Show",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260317",
+      "duration_seconds": 2809,
+      "composite_base": 77,
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": -1.68,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "xRh2sVcNXQ8",
+      "title": "Marc Andreessen's 2026 Outlook: AI Timelines, US vs. China, and The Price of AI",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=xRh2sVcNXQ8",
+      "status": "ok",
+      "summary_bullets": [
+        "AI revenue growth unprecedented",
+        "Open source models catching up fast",
+        "US-China AI race intensifies",
+        "AI pricing models still experimental",
+        "State-level regulation threatens innovation"
+      ],
+      "composite": 75.17,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Marc Andreessen's 2026 Outlook: AI Timelines, US vs. China, and The Price of AI",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260107",
+      "duration_seconds": 4878,
+      "composite_base": 80.3,
+      "like_adjustment": 0,
+      "length_adjustment": -5.13,
+      "rank": 12,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "oYK_MmZW9XI",
@@ -284,7 +543,9 @@
       "upload_date": "20260527",
       "duration_seconds": 3324,
       "composite_base": 77.3,
-      "rank": 7,
+      "like_adjustment": 0,
+      "length_adjustment": -2.54,
+      "rank": 13,
       "tags": [
         {
           "label": "Substance",
@@ -298,9 +559,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.54
+      ]
     },
     {
       "id": "fUI0CNg1hCc",
@@ -325,7 +584,9 @@
       "upload_date": "20260504",
       "duration_seconds": 1375,
       "composite_base": 73,
-      "rank": 8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 14,
       "tags": [
         {
           "label": "Insight",
@@ -335,9 +596,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "0_NGsljlo3o",
@@ -363,7 +622,9 @@
       "upload_date": "20260402",
       "duration_seconds": 2532,
       "composite_base": 73.3,
-      "rank": 9,
+      "like_adjustment": 0,
+      "length_adjustment": -1.22,
+      "rank": 15,
       "tags": [
         {
           "label": "Substance",
@@ -377,9 +638,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.22
+      ]
     },
     {
       "id": "yiJOTCRVWjc",
@@ -405,7 +664,9 @@
       "upload_date": "20260413",
       "duration_seconds": 3243,
       "composite_base": 74.25,
-      "rank": 10,
+      "like_adjustment": 0,
+      "length_adjustment": -2.4,
+      "rank": 16,
       "tags": [
         {
           "label": "Specificity",
@@ -419,9 +680,43 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "1LcH4lP9XbA",
+      "title": "Palantir CTO on The SaaS Apocalypse & Preventing The Next World War | a16z",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=1LcH4lP9XbA",
+      "status": "ok",
+      "summary_bullets": [
+        "Defense industrial base needs reform.",
+        "AI should augment workers, not replace.",
+        "Founders and heretics drive innovation.",
+        "SaaS apocalypse threatens beta software.",
+        "Storytelling can inspire national will."
       ],
+      "composite": 71.57,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Palantir CTO on The SaaS Apocalypse & Preventing The Next World War | a16z",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260320",
+      "duration_seconds": 3256,
+      "composite_base": 74,
       "like_adjustment": 0,
-      "length_adjustment": -2.4
+      "length_adjustment": -2.43,
+      "rank": 17,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "6cCWrrQp1v4",
@@ -447,15 +742,87 @@
       "upload_date": "20260506",
       "duration_seconds": 1716,
       "composite_base": 69.8,
-      "rank": 11,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 18,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "rSohMpT24SI",
+      "title": "AI Markets: Deep Dive with a16z's David George",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
+      "status": "ok",
+      "summary_bullets": [
+        "AI companies grow 2.5x faster than non-AI.",
+        "Best AI firms reach $100M revenue faster.",
+        "AI companies run leaner, higher ARR per employee.",
+        "Enterprise AI adoption slow due to change management.",
+        "Capex buildout massive but fundamentals sound."
       ],
+      "composite": 69.24,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "AI Markets: Deep Dive with a16z's David George",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260209",
+      "duration_seconds": 2853,
+      "composite_base": 71,
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": -1.76,
+      "rank": 19,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "70ec37XHGIg",
+      "title": "How Truemed Is Incentivizing Americans to Invest in Prevention",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=70ec37XHGIg",
+      "status": "ok",
+      "summary_bullets": [
+        "Crop subsidies drive unhealthy food system",
+        "1970s marked start of obesity crisis",
+        "US has 60–80k chemicals banned in EU",
+        "Truemed lets HSA/FSA pay for lifestyle interventions",
+        "GLP-1s not a full solution; need food reform"
+      ],
+      "composite": 68.94,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How Truemed Is Incentivizing Americans to Invest in Prevention",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260204",
+      "duration_seconds": 2436,
+      "composite_base": 70,
+      "like_adjustment": 0,
+      "length_adjustment": -1.06,
+      "rank": 20,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "oheUsh7VtKY",
@@ -481,15 +848,15 @@
       "upload_date": "20260407",
       "duration_seconds": 3945,
       "composite_base": 71.8,
-      "rank": 12,
+      "like_adjustment": 0,
+      "length_adjustment": -3.58,
+      "rank": 21,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -3.58
+      ]
     },
     {
       "id": "9qqLihL4AWk",
@@ -515,15 +882,82 @@
       "upload_date": "20260512",
       "duration_seconds": 4425,
       "composite_base": 72,
-      "rank": 13,
+      "like_adjustment": 0,
+      "length_adjustment": -4.38,
+      "rank": 22,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "jLVgGGz5bvk",
+      "title": "Ben Horowitz and David Solomon: The Sweetest Macro Spot in 40 Years",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=jLVgGGz5bvk",
+      "status": "ok",
+      "summary_bullets": [
+        "Goldman CEO calls macro \"sweetest spot in 40 years\"",
+        "Best time to raise money when nobody has money",
+        "AI with proprietary data and GPUs solves almost any problem",
+        "M&A and IPOs expected to surge due to regulatory shift",
+        "Goldman focuses on scale and funding diversification"
       ],
+      "composite": 66.44,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Ben Horowitz and David Solomon: The Sweetest Macro Spot in 40 Years",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260202",
+      "duration_seconds": 2135,
+      "composite_base": 67,
       "like_adjustment": 0,
-      "length_adjustment": -4.38
+      "length_adjustment": -0.56,
+      "rank": 23,
+      "tags": []
+    },
+    {
+      "id": "3XVDtPU8xKE",
+      "title": "The AI Opportunity that goes beyond Models",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=3XVDtPU8xKE",
+      "status": "ok",
+      "summary_bullets": [
+        "AI investment themes: three categories.",
+        "Software eating labor creates new markets.",
+        "Proprietary data creates defensible moats.",
+        "Incumbents can adopt AI, but greenfield opportunities exist.",
+        "Consumer AI mirrors enterprise patterns."
+      ],
+      "composite": 64.82,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The AI Opportunity that goes beyond Models",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260119",
+      "duration_seconds": 4185,
+      "composite_base": 68.8,
+      "like_adjustment": 0,
+      "length_adjustment": -3.98,
+      "rank": 24,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "FnJaDj5zUhY",
@@ -549,15 +983,15 @@
       "upload_date": "20260513",
       "duration_seconds": 1414,
       "composite_base": 64.25,
-      "rank": 14,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 25,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "XROaLetSxg0",
@@ -583,10 +1017,72 @@
       "upload_date": "20260619",
       "duration_seconds": 2512,
       "composite_base": 64.3,
-      "rank": 15,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.19
+      "length_adjustment": -1.19,
+      "rank": 26,
+      "tags": []
+    },
+    {
+      "id": "qTpCGe4A8PM",
+      "title": "Andrew Huberman: Peptides, Sleep Tech, and the End of Obesity",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=qTpCGe4A8PM",
+      "status": "ok",
+      "summary_bullets": [
+        "GLP-1 drugs could eradicate obesity.",
+        "Peptides like BPC-157 lack human data.",
+        "Sleep tech will move to body cooling.",
+        "Cortisol timing crucial for health.",
+        "Octopus intelligence may be decoded via AI."
+      ],
+      "composite": 61.41,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Andrew Huberman: Peptides, Sleep Tech, and the End of Obesity",
+      "substance": 6.5,
+      "evidence": 4.5,
+      "specificity": 8,
+      "insight_density": 6,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260309",
+      "duration_seconds": 3051,
+      "composite_base": 63.5,
+      "like_adjustment": 0,
+      "length_adjustment": -2.09,
+      "rank": 27,
+      "tags": []
+    },
+    {
+      "id": "6HxT4nQmtvc",
+      "title": "The Biggest Bottlenecks For AI: Energy & Cooling",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=6HxT4nQmtvc",
+      "status": "ok",
+      "summary_bullets": [
+        "AI infrastructure buildout is massive and accelerating.",
+        "Energy will be the next bottleneck, nuclear promising.",
+        "Input costs for AI models have dropped 99% in two years.",
+        "Consumer AI stickier than enterprise; pricing upside remains.",
+        "Private markets now host most high-growth tech companies."
+      ],
+      "composite": 60.93,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The Biggest Bottlenecks For AI: Energy & Cooling",
+      "substance": 7,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260126",
+      "duration_seconds": 3821,
+      "composite_base": 64.3,
+      "like_adjustment": 0,
+      "length_adjustment": -3.37,
+      "rank": 28,
+      "tags": []
     },
     {
       "id": "dvt_74kV-RM",
@@ -612,10 +1108,10 @@
       "upload_date": "20260408",
       "duration_seconds": 3509,
       "composite_base": 63.75,
-      "rank": 16,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.85
+      "length_adjustment": -2.85,
+      "rank": 29,
+      "tags": []
     },
     {
       "id": "pddFfZy4nZU",
@@ -641,10 +1137,10 @@
       "upload_date": "20260519",
       "duration_seconds": 722,
       "composite_base": 60.3,
-      "rank": 17,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 30,
+      "tags": []
     },
     {
       "id": "k1z0e7bGzq0",
@@ -670,10 +1166,71 @@
       "upload_date": "20260511",
       "duration_seconds": 3981,
       "composite_base": 58.75,
-      "rank": 18,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -3.64
+      "length_adjustment": -3.64,
+      "rank": 31,
+      "tags": []
+    },
+    {
+      "id": "jHECsr9GCs8",
+      "title": "Inside The $100M Bet on the Future of Space | Northwood CEO on a16z",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=jHECsr9GCs8",
+      "status": "ok",
+      "summary_bullets": [
+        "Ground infrastructure is bottleneck for satellite missions.",
+        "Northwood vertically integrates hardware, software, and site deployment.",
+        "Deploys ground stations in 3 months vs. traditional 3 years.",
+        "Won $50M Space Force contract for modernization.",
+        "CEO’s background includes acting and academia."
+      ],
+      "composite": 51.21,
+      "confidence": "Med",
+      "audience_level": "general",
+      "display_title": "Inside The $100M Bet on the Future of Space | Northwood CEO on a16z",
+      "substance": 6,
+      "evidence": 4,
+      "specificity": 7,
+      "insight_density": 5.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260323",
+      "duration_seconds": 2454,
+      "composite_base": 52.3,
+      "like_adjustment": 0,
+      "length_adjustment": -1.09,
+      "rank": 32,
+      "tags": []
+    },
+    {
+      "id": "r8_2CSpcmls",
+      "title": "Ben Horowitz on Investing in AI: AI Bubbles, Economic Impact, and VC Acceleration",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=r8_2CSpcmls",
+      "status": "ok",
+      "summary_bullets": [
+        "AI demand is unprecedented, not a bubble.",
+        "Verticalization keeps VC teams small like basketball teams.",
+        "Best investments are people best in the world at one thing.",
+        "Application complexity not fully captured by foundation models.",
+        "Firm culture de-incentivizes politics."
+      ],
+      "composite": 50.83,
+      "audience_level": "general",
+      "display_title": "Ben Horowitz on Investing in AI: AI Bubbles, Economic Impact, and VC Acceleration",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 5.5,
+      "insight_density": 5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260113",
+      "duration_seconds": 2049,
+      "composite_base": 51.25,
+      "like_adjustment": 0,
+      "length_adjustment": -0.42,
+      "rank": 33,
+      "tags": []
     },
     {
       "id": "UE8jx4dvlSQ",
@@ -699,10 +1256,10 @@
       "upload_date": "20260406",
       "duration_seconds": 1785,
       "composite_base": 49.75,
-      "rank": 19,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 34,
+      "tags": []
     },
     {
       "id": "Ie07zcmbnhM",
@@ -728,10 +1285,10 @@
       "upload_date": "20260518",
       "duration_seconds": 672,
       "composite_base": 49,
-      "rank": 20,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 35,
+      "tags": []
     },
     {
       "id": "X9k53P-2SOg",
@@ -757,10 +1314,71 @@
       "upload_date": "20260508",
       "duration_seconds": 1743,
       "composite_base": 49,
-      "rank": 21,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 36,
+      "tags": []
+    },
+    {
+      "id": "Kdql4I-NJ0M",
+      "title": "Ben & Marc: Why Everything Is About to Get 10x Bigger",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Kdql4I-NJ0M",
+      "status": "ok",
+      "summary_bullets": [
+        "AI will 10x every industry",
+        "Reputation is A16Z's core compounder",
+        "Substack proves supply-driven market theory",
+        "Zoomer founders are superior to millennials",
+        "VC is art, not science, for picking founders"
+      ],
+      "composite": 48.81,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Ben & Marc: Why Everything Is About to Get 10x Bigger",
+      "substance": 6.5,
+      "evidence": 4.5,
+      "specificity": 5.5,
+      "insight_density": 5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260115",
+      "duration_seconds": 3293,
+      "composite_base": 51.3,
+      "like_adjustment": 0,
+      "length_adjustment": -2.49,
+      "rank": 37,
+      "tags": []
+    },
+    {
+      "id": "Wj6ttdIeBnE",
+      "title": "Palantir CEO on Iran, AI Weapons and American Domination | a16z American Dynamism Summit",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Wj6ttdIeBnE",
+      "status": "ok",
+      "summary_bullets": [
+        "Military superiority requires technological advantage.",
+        "Silicon Valley must align with defense or face nationalization.",
+        "Palantir’s mission is protecting American warfighters.",
+        "Neurodivergent talent is America’s key advantage.",
+        "Recent Iran bombing demonstrates U.S. deterrent capability."
+      ],
+      "composite": 48.76,
+      "audience_level": "general",
+      "display_title": "Palantir CEO on Iran, AI Weapons and American Domination | a16z American Dynamism Summit",
+      "substance": 6.5,
+      "evidence": 3,
+      "specificity": 5,
+      "insight_density": 5.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260312",
+      "duration_seconds": 1946,
+      "composite_base": 49,
+      "like_adjustment": 0,
+      "length_adjustment": -0.24,
+      "rank": 38,
+      "tags": []
     },
     {
       "id": "Mjc7vwys1vY",
@@ -786,10 +1404,134 @@
       "upload_date": "20260416",
       "duration_seconds": 2000,
       "composite_base": 48,
-      "rank": 22,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.33
+      "length_adjustment": -0.33,
+      "rank": 39,
+      "tags": []
+    },
+    {
+      "id": "CEOiwEemiTA",
+      "title": "Marc Andreessen & Ben Horowitz on a16z’s New Media Strategy",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=CEOiwEemiTA",
+      "status": "ok",
+      "summary_bullets": [
+        "Old media defense-oriented; new media offense-oriented.",
+        "Flood the zone: more content beats controlled messaging.",
+        "Boyd loop: faster decision cycles dominate opponents.",
+        "Internet favors viral posts; long-form podcasts are written culture.",
+        "a16z builds new media team to amplify portfolio companies."
+      ],
+      "composite": 47.65,
+      "confidence": "Med",
+      "audience_level": "general",
+      "display_title": "Marc Andreessen & Ben Horowitz on a16z’s New Media Strategy",
+      "substance": 6.5,
+      "evidence": 3.5,
+      "specificity": 5.5,
+      "insight_density": 5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260318",
+      "duration_seconds": 2791,
+      "composite_base": 49.3,
+      "like_adjustment": 0,
+      "length_adjustment": -1.65,
+      "rank": 40,
+      "tags": []
+    },
+    {
+      "id": "afkFLnyrLww",
+      "title": "The Story Behind ElevenLabs | Interview with CEO Mati Staniszewski",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=afkFLnyrLww",
+      "status": "ok",
+      "summary_bullets": [
+        "ElevenLabs founded by childhood friends from Poland.",
+        "Voice AI as next human-computer interface.",
+        "Company grew from 2 to 300+ employees.",
+        "Removed titles to reduce hierarchy.",
+        "Aim to cross vocal Turing test."
+      ],
+      "composite": 46,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Story Behind ElevenLabs | Interview with CEO Mati Staniszewski",
+      "substance": 5.5,
+      "evidence": 3,
+      "specificity": 6,
+      "insight_density": 5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260206",
+      "duration_seconds": 672,
+      "composite_base": 46,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 41,
+      "tags": []
+    },
+    {
+      "id": "XwfUzW32cIA",
+      "title": "Ben Horowitz on the Global Race for Tech, Power, and Influence",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=XwfUzW32cIA",
+      "status": "ok",
+      "summary_bullets": [
+        "AI models have built-in cultural biases.",
+        "Deterrence depends on innovation pace, not just military.",
+        "Startups must go global earlier than ever.",
+        "Silicon Valley's culture is hard to replicate.",
+        "a16z expands globally to support US tech leadership."
+      ],
+      "composite": 44.76,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Ben Horowitz on the Global Race for Tech, Power, and Influence",
+      "substance": 5.5,
+      "evidence": 3,
+      "specificity": 6,
+      "insight_density": 5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260703",
+      "duration_seconds": 2545,
+      "composite_base": 46,
+      "like_adjustment": 0,
+      "length_adjustment": -1.24,
+      "rank": 42,
+      "tags": []
+    },
+    {
+      "id": "uDuQKsdYfZw",
+      "title": "Inside The Life of Silicon Valley's First Athlete Investor | Magic Johnson",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=uDuQKsdYfZw",
+      "status": "ok",
+      "summary_bullets": [
+        "Magic Johnson's business journey from athlete to investor.",
+        "Mentorship from Michael Ovitz and Jerry Buss.",
+        "Early investments in Starbucks, Pepsi, and theaters.",
+        "Investing in sports teams: Dodgers, Commanders, Sparks.",
+        "Advice: build a team, take risks, partner with others."
+      ],
+      "composite": 39,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Inside The Life of Silicon Valley's First Athlete Investor | Magic Johnson",
+      "substance": 4.5,
+      "evidence": 4,
+      "specificity": 6,
+      "insight_density": 4,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260211",
+      "duration_seconds": 3902,
+      "composite_base": 42.5,
+      "like_adjustment": 0,
+      "length_adjustment": -3.5,
+      "rank": 43,
+      "tags": []
     },
     {
       "id": "yfafpyhB-8E",
@@ -815,10 +1557,10 @@
       "upload_date": "20260622",
       "duration_seconds": 3859,
       "composite_base": 28,
-      "rank": 23,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -3.43
+      "length_adjustment": -3.43,
+      "rank": 44,
+      "tags": []
     }
   ],
   "too_long": [],

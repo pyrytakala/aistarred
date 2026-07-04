@@ -1,6 +1,6 @@
 {
   "source_id": "iltb-podcast-q2-2026",
-  "video_count": 15,
+  "video_count": 26,
   "scored_count": 15,
   "ranked_count": 15,
   "rankings": [
@@ -29,6 +29,8 @@
       "upload_date": "20260423",
       "duration_seconds": 2734,
       "composite_base": 79.8,
+      "like_adjustment": 0,
+      "length_adjustment": -1.56,
       "rank": 1,
       "tags": [
         {
@@ -43,9 +45,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.56
+      ]
     },
     {
       "id": "7-HmjiXKlvg",
@@ -71,6 +71,8 @@
       "upload_date": "20260526",
       "duration_seconds": 3072,
       "composite_base": 80,
+      "like_adjustment": 0,
+      "length_adjustment": -2.12,
       "rank": 2,
       "tags": [
         {
@@ -85,9 +87,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.12
+      ]
     },
     {
       "id": "5RnPko2HviQ",
@@ -114,6 +114,8 @@
       "upload_date": "20260408",
       "duration_seconds": 3995,
       "composite_base": 79.8,
+      "like_adjustment": 0,
+      "length_adjustment": -3.66,
       "rank": 3,
       "tags": [
         {
@@ -124,9 +126,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -3.66
+      ]
     },
     {
       "id": "QVSP8bGm2KQ",
@@ -152,6 +152,8 @@
       "upload_date": "20260421",
       "duration_seconds": 5897,
       "composite_base": 82.75,
+      "like_adjustment": 0,
+      "length_adjustment": -6.83,
       "rank": 4,
       "tags": [
         {
@@ -170,9 +172,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -6.83
+      ]
     },
     {
       "id": "wEEZPpx8qow",
@@ -199,6 +199,8 @@
       "upload_date": "20260513",
       "duration_seconds": 4924,
       "composite_base": 79.5,
+      "like_adjustment": 0,
+      "length_adjustment": -5.21,
       "rank": 5,
       "tags": [
         {
@@ -209,9 +211,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -5.21
+      ]
     },
     {
       "id": "eURcW5_uS60",
@@ -238,6 +238,8 @@
       "upload_date": "20260505",
       "duration_seconds": 5008,
       "composite_base": 79.5,
+      "like_adjustment": 0,
+      "length_adjustment": -5.35,
       "rank": 6,
       "tags": [
         {
@@ -248,9 +250,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -5.35
+      ]
     },
     {
       "id": "Mmj_G9RlW-I",
@@ -277,6 +277,8 @@
       "upload_date": "20260520",
       "duration_seconds": 4931,
       "composite_base": 78.8,
+      "like_adjustment": 0,
+      "length_adjustment": -5.22,
       "rank": 7,
       "tags": [
         {
@@ -287,9 +289,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -5.22
+      ]
     },
     {
       "id": "OxHWFmFHnoc",
@@ -316,6 +316,8 @@
       "upload_date": "20260623",
       "duration_seconds": 4589,
       "composite_base": 78,
+      "like_adjustment": 0,
+      "length_adjustment": -4.65,
       "rank": 8,
       "tags": [
         {
@@ -330,9 +332,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -4.65
+      ]
     },
     {
       "id": "m7H42MCzBCQ",
@@ -359,6 +359,8 @@
       "upload_date": "20260414",
       "duration_seconds": 5062,
       "composite_base": 75.5,
+      "like_adjustment": 0,
+      "length_adjustment": -5.44,
       "rank": 9,
       "tags": [
         {
@@ -369,9 +371,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -5.44
+      ]
     },
     {
       "id": "BagWrgPww1o",
@@ -380,24 +380,27 @@
       "url": "https://www.youtube.com/watch?v=BagWrgPww1o",
       "status": "ok",
       "summary_bullets": [
-        "Etched builds AI inference chips and racks.",
-        "Founders dropped out of Harvard to start.",
-        "Raised $800M to challenge NVIDIA.",
-        "Chip uses low voltage and cluster memory.",
-        "Claims 10x performance for inference workloads."
+        "Two Harvard dropouts founded Etched to build AI inference chips.",
+        "Raised $800M to compete with NVIDIA.",
+        "Chip uses low voltage and custom interconnect for higher throughput.",
+        "Achieved 40 days from silicon to inference.",
+        "Emphasize vertical integration and extreme velocity."
       ],
-      "composite": 65.55,
+      "composite": 68.55,
       "confidence": "High",
       "audience_level": "practitioner",
+      "display_title": "The Two Harvard Dropouts Who raised $800M to take on NVIDIA",
       "substance": 8.5,
-      "evidence": 6,
+      "evidence": 7,
       "specificity": 9,
       "insight_density": 7.5,
-      "non_promotion": 2,
+      "non_promotion": 3,
       "like_count": null,
       "upload_date": "20260630",
       "duration_seconds": 5552,
-      "composite_base": 71.8,
+      "composite_base": 74.8,
+      "like_adjustment": 0,
+      "length_adjustment": -6.25,
       "rank": 10,
       "tags": [
         {
@@ -408,9 +411,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -6.25
+      ]
     },
     {
       "id": "S31J5ACsOqU",
@@ -437,15 +438,15 @@
       "upload_date": "20260428",
       "duration_seconds": 4276,
       "composite_base": 68.25,
+      "like_adjustment": 0,
+      "length_adjustment": -4.13,
       "rank": 11,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -4.13
+      ]
     },
     {
       "id": "ThMtheE5eO0",
@@ -471,10 +472,10 @@
       "upload_date": "20260603",
       "duration_seconds": 4278,
       "composite_base": 67,
-      "rank": 12,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -4.13
+      "length_adjustment": -4.13,
+      "rank": 12,
+      "tags": []
     },
     {
       "id": "DZt1DDmMNGk",
@@ -500,15 +501,15 @@
       "upload_date": "20260609",
       "duration_seconds": 4810,
       "composite_base": 67.5,
+      "like_adjustment": 0,
+      "length_adjustment": -5.02,
       "rank": 13,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -5.02
+      ]
     },
     {
       "id": "vhTi_8QwXjg",
@@ -534,10 +535,10 @@
       "upload_date": "20260528",
       "duration_seconds": 4389,
       "composite_base": 65.75,
-      "rank": 14,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -4.32
+      "length_adjustment": -4.32,
+      "rank": 14,
+      "tags": []
     },
     {
       "id": "3bKLiUU2cb8",
@@ -563,10 +564,10 @@
       "upload_date": "20260616",
       "duration_seconds": 3611,
       "composite_base": 59.8,
-      "rank": 15,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -3.02
+      "length_adjustment": -3.02,
+      "rank": 15,
+      "tags": []
     }
   ],
   "too_long": [],

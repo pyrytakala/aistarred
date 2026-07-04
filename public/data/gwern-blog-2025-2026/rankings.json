@@ -1,7 +1,6 @@
 {
   "source_id": "gwern-blog-2025-2026",
-  "model": "accounts/fireworks/models/deepseek-v4-flash",
-  "video_count": 18,
+  "video_count": 19,
   "scored_count": 18,
   "ranked_count": 18,
   "rankings": [
@@ -11,7 +10,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/ai-cannibalism",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Old LLM outputs provide historical and proprietary data.",
         "Human-selected outputs add information beyond raw text.",
@@ -31,6 +29,8 @@
       "upload_date": "20250427",
       "duration_seconds": null,
       "composite_base": 79.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -45,9 +45,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "llms-can-be-faster",
@@ -55,7 +53,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/llms-can-be-faster",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "LLM inference can be far faster than today.",
         "Many optimization routes exist: hardware, algorithms, distillation.",
@@ -74,6 +71,8 @@
       "upload_date": "20250207",
       "duration_seconds": null,
       "composite_base": 76.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 2,
       "tags": [
         {
@@ -88,9 +87,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "good-ai-samples",
@@ -98,7 +95,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/good-ai-samples",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "AI slop lacks genuine information.",
         "Satisfying outputs require dense information.",
@@ -118,6 +114,8 @@
       "upload_date": "20250323",
       "duration_seconds": null,
       "composite_base": 75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 3,
       "tags": [
         {
@@ -128,9 +126,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "make-me-care",
@@ -138,7 +134,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2026/make-me-care",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Nonfiction must hook readers immediately.",
         "Lead with anomaly, not background.",
@@ -158,6 +153,8 @@
       "upload_date": "20260114",
       "duration_seconds": null,
       "composite_base": 73.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 4,
       "tags": [
         {
@@ -168,9 +165,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "face-training",
@@ -178,7 +173,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2026/face-training",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Proposes triplet-loss training for human face recognition.",
         "Uses neural net embeddings to select difficulty.",
@@ -198,6 +192,8 @@
       "upload_date": "20260620",
       "duration_seconds": null,
       "composite_base": 72.25,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 5,
       "tags": [
         {
@@ -212,9 +208,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "conference-size",
@@ -222,7 +216,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/conference-size",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Survey of methods to estimate conference attendance.",
         "Uses Little's law, capture-recapture, and more.",
@@ -241,6 +234,8 @@
       "upload_date": "20250706",
       "duration_seconds": null,
       "composite_base": 71.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 6,
       "tags": [
         {
@@ -255,9 +250,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "conference",
@@ -265,7 +258,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/conference",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Proposes using a virtual tabletop (VTT) map for conference organization.",
         "Attendees collaboratively drag tokens and scribble on a 2D map.",
@@ -285,6 +277,8 @@
       "upload_date": "20250528",
       "duration_seconds": null,
       "composite_base": 70.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 7,
       "tags": [
         {
@@ -299,9 +293,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "llm-retcon",
@@ -309,7 +301,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2026/llm-retcon",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Retcon planning rewrites hidden world state.",
         "LLM fiction suffers from early hardening.",
@@ -329,6 +320,8 @@
       "upload_date": "20260602",
       "duration_seconds": null,
       "composite_base": 70.25,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 8,
       "tags": [
         {
@@ -343,9 +336,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "bot-location",
@@ -353,7 +344,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/bot-location",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Catfishing bots reveal targets via location metadata.",
         "Location changes expose attack timing and tempo.",
@@ -373,6 +363,8 @@
       "upload_date": "20250604",
       "duration_seconds": null,
       "composite_base": 68.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 9,
       "tags": [
         {
@@ -383,9 +375,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "you-could-have-invented-transformers",
@@ -393,7 +383,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/you-could-have-invented-transformers",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Proposes a \"discovery fiction\" tutorial for Transformers.",
         "Traces evolution from n-grams to self-attention.",
@@ -413,6 +402,8 @@
       "upload_date": "20250525",
       "duration_seconds": null,
       "composite_base": 66.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 10,
       "tags": [
         {
@@ -427,9 +418,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "plumbing-vs-internet",
@@ -437,7 +426,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/plumbing-vs-internet",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Internet now more essential than plumbing.",
         "Author's view shifted from plumbing to internet.",
@@ -457,15 +445,15 @@
       "upload_date": "20250102",
       "duration_seconds": null,
       "composite_base": 53.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 11,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "perfume",
@@ -473,7 +461,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/perfume",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Explores avant-garde perfume samples.",
         "Bought Acqua di Sale and Kyoto Incense.",
@@ -493,15 +480,15 @@
       "upload_date": "20250705",
       "duration_seconds": null,
       "composite_base": 51.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 12,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "better-llm-writing",
@@ -509,7 +496,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/better-llm-writing",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Techniques to improve LLM creative writing",
         "Anti-examples reverse ChatGPT-style edits",
@@ -529,10 +515,10 @@
       "upload_date": "20250529",
       "duration_seconds": null,
       "composite_base": 51,
-      "rank": 13,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 13,
+      "tags": []
     },
     {
       "id": "pinball-hacking",
@@ -540,7 +526,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/pinball-hacking",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Taxonomy of pinball high-score cheating methods.",
         "Applies security mindset to reward-hacking.",
@@ -560,6 +545,8 @@
       "upload_date": "20250528",
       "duration_seconds": null,
       "composite_base": 46.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 14,
       "tags": [
         {
@@ -570,9 +557,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "area-man",
@@ -580,7 +565,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/area-man",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Satire of tech-optimist complaining about slow automation.",
         "Man rants at construction site, proposes unrealistic AI solutions.",
@@ -599,6 +583,8 @@
       "upload_date": "20250419",
       "duration_seconds": null,
       "composite_base": 40.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 15,
       "tags": [
         {
@@ -609,9 +595,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "questions-moravec",
@@ -619,7 +603,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2026/questions-moravec",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "List of interview questions for Hans Moravec",
         "Covers forecasting, robotics, morality, succession",
@@ -639,15 +622,15 @@
       "upload_date": "20260422",
       "duration_seconds": null,
       "composite_base": 38.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 16,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "rabbit",
@@ -655,7 +638,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2026/rabbit",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Author writes children's story in 30 minutes.",
         "Rabbit seeks blueberry jam, confronts dragon.",
@@ -675,15 +657,15 @@
       "upload_date": "20260309",
       "duration_seconds": null,
       "composite_base": 28.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 17,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "questions-young",
@@ -691,7 +673,6 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2026/questions-young",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "List of interview questions for geneticist Alexander Young.",
         "Biographical brief on Young's career and contributions.",
@@ -711,10 +692,10 @@
       "upload_date": "20260410",
       "duration_seconds": null,
       "composite_base": 19.5,
-      "rank": 18,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 18,
+      "tags": []
     }
   ],
   "too_long": [],

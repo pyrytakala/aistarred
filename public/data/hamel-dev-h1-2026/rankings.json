@@ -29,6 +29,8 @@
       "upload_date": "20260629",
       "duration_seconds": null,
       "composite_base": 80,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -43,9 +45,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "revenge",
@@ -71,6 +71,8 @@
       "upload_date": "20260326",
       "duration_seconds": null,
       "composite_base": 79.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 2,
       "tags": [
         {
@@ -85,9 +87,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "evals-faq",
@@ -114,6 +114,8 @@
       "upload_date": "20260115",
       "duration_seconds": null,
       "composite_base": 78,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 3,
       "tags": [
         {
@@ -128,9 +130,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "ai-stack",
@@ -157,15 +157,15 @@
       "upload_date": "20260118",
       "duration_seconds": null,
       "composite_base": 74,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 4,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     }
   ],
   "too_long": [],

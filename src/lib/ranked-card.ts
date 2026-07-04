@@ -491,6 +491,40 @@ function renderContentKindBadge(badge: HTMLElement | null, contentKind: ContentK
   badge.setAttribute("aria-label", CONTENT_KIND_LABELS[contentKind].kind);
 }
 
+function cardTitlesDiffer(original: string, display: string): boolean {
+  return display.trim().toLowerCase() !== original.trim().toLowerCase();
+}
+
+function renderCardTitle(titleLink: HTMLAnchorElement, video: RankedVideo): void {
+  const originalTitle = video.title;
+  const displayTitle = video.display_title?.trim();
+  const showBoth = displayTitle && cardTitlesDiffer(originalTitle, displayTitle);
+
+  titleLink.href = video.url ?? titleLink.href;
+  titleLink.title = showBoth ? displayTitle : originalTitle;
+  titleLink.textContent = showBoth ? displayTitle : originalTitle;
+
+  let originalEl = titleLink.parentElement?.querySelector<HTMLElement>(".original-title");
+  if (!originalEl) {
+    originalEl = document.createElement("span");
+    originalEl.className = "original-title";
+    titleLink.insertAdjacentElement("afterend", originalEl);
+  }
+
+  if (showBoth) {
+    originalEl.replaceChildren();
+    originalEl.append("Original title: ");
+    const struck = document.createElement("span");
+    struck.className = "original-title-text";
+    struck.textContent = originalTitle;
+    originalEl.append(struck);
+    originalEl.hidden = false;
+  } else {
+    originalEl.replaceChildren();
+    originalEl.hidden = true;
+  }
+}
+
 export function populateRankedCard(
   card: HTMLElement,
   video: RankedVideo,
@@ -546,8 +580,7 @@ export function populateRankedCard(
   }
 
   titleLink.href = video.url;
-  titleLink.title = video.title;
-  titleLink.textContent = video.title;
+  renderCardTitle(titleLink, video);
 
   renderSummary(summaryWrap, video.summary_bullets);
   summaryWrap.hidden = !(video.summary_bullets || []).length;
@@ -601,8 +634,7 @@ export function populateExcludedCard(
   }
 
   titleLink.href = video.url;
-  titleLink.title = video.title;
-  titleLink.textContent = video.title;
+  renderCardTitle(titleLink, video);
 
   if (summaryWrap) {
     renderSummary(summaryWrap, video.summary_bullets);

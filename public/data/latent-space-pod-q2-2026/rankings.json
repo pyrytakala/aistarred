@@ -1,9 +1,153 @@
 {
   "source_id": "latent-space-pod-q2-2026",
-  "video_count": 34,
-  "scored_count": 34,
-  "ranked_count": 34,
+  "video_count": 63,
+  "scored_count": 62,
+  "ranked_count": 62,
   "rankings": [
+    {
+      "id": "KSCCKCz2x04",
+      "title": "🔬There Is No AlphaFold for Materials — AI for Materials Discovery with Heather Kulik",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=KSCCKCz2x04",
+      "status": "ok",
+      "summary_bullets": [
+        "AI screened thousands of materials for toughness.",
+        "Active learning optimizes multiple objectives simultaneously.",
+        "LLMs struggle with precise molecular design tasks.",
+        "Machine learning potentials can fail unpredictably.",
+        "Experimental data scarcity limits materials AI."
+      ],
+      "composite": 82.97,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "There Is No AlphaFold for Materials — AI for Materials Discovery with Heather Kulik",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260324",
+      "duration_seconds": 2115,
+      "composite_base": 83.5,
+      "like_adjustment": 0,
+      "length_adjustment": -0.53,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "9QSm_mRGpN8",
+      "title": "Measuring Exponential Trends Rising (in AI) — Joel Becker, METR",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=9QSm_mRGpN8",
+      "status": "ok",
+      "summary_bullets": [
+        "METR evaluates AI capabilities and risks.",
+        "Time horizon measures task difficulty in human hours.",
+        "AI progress has been remarkably continuous so far.",
+        "Developer productivity RCTs show speedup is hard to measure.",
+        "Compute growth slowdown could delay AI milestones."
+      ],
+      "composite": 79.98,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Measuring Exponential Trends Rising (in AI) — Joel Becker, METR",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260227",
+      "duration_seconds": 3912,
+      "composite_base": 83.5,
+      "like_adjustment": 0,
+      "length_adjustment": -3.52,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "F_1oDPWxpFQ",
+      "title": "The AI Frontier: from Gemini 3 Deep Think distilling to Flash — Jeff Dean",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=F_1oDPWxpFQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Distillation compresses large models into smaller capable ones.",
+        "Hardware and model co-design drives efficiency gains.",
+        "Long context and multimodal capabilities are key frontiers.",
+        "Scaling compute and data yields consistent improvements.",
+        "Personalized models with full user context are next."
+      ],
+      "composite": 78.95,
+      "confidence": "High",
+      "audience_level": "professional",
+      "display_title": "The AI Frontier: from Gemini 3 Deep Think distilling to Flash — Jeff Dean",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260212",
+      "duration_seconds": 5011,
+      "composite_base": 84.3,
+      "like_adjustment": 0,
+      "length_adjustment": -5.35,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
     {
       "id": "T8u7wOXhDb0",
       "title": "When AI Agents Run Businesses — Lukas Petersson and Axel Backlund of Andon Labs",
@@ -28,7 +172,9 @@
       "upload_date": "20260604",
       "duration_seconds": 4677,
       "composite_base": 83.25,
-      "rank": 1,
+      "like_adjustment": 0,
+      "length_adjustment": -4.8,
+      "rank": 4,
       "tags": [
         {
           "label": "Substance",
@@ -46,9 +192,51 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "0HaUD_olwQU",
+      "title": "The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evals",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=0HaUD_olwQU",
+      "status": "ok",
+      "summary_bullets": [
+        "SWE-bench Verified is saturated and contaminated.",
+        "OpenAI stops reporting SWE-bench Verified scores.",
+        "Moving to SWE-bench Pro for harder coding tasks.",
+        "Many benchmark tests are unfair or too narrow.",
+        "Contamination found in frontier models' training data."
       ],
+      "composite": 78,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The End of SWE-Bench Verified — Mia Glaese & Olivia Watkins, OpenAI Frontier Evals",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260223",
+      "duration_seconds": 1630,
+      "composite_base": 78,
       "like_adjustment": 0,
-      "length_adjustment": -4.8
+      "length_adjustment": 0,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "knx2wrILP1M",
@@ -74,7 +262,9 @@
       "upload_date": "20260403",
       "duration_seconds": 4580,
       "composite_base": 82,
-      "rank": 2,
+      "like_adjustment": 0,
+      "length_adjustment": -4.63,
+      "rank": 6,
       "tags": [
         {
           "label": "Substance",
@@ -92,9 +282,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -4.63
+      ]
     },
     {
       "id": "9d899Ram9Bs",
@@ -120,7 +308,9 @@
       "upload_date": "20260505",
       "duration_seconds": 5511,
       "composite_base": 83.25,
-      "rank": 3,
+      "like_adjustment": 0,
+      "length_adjustment": -6.19,
+      "rank": 7,
       "tags": [
         {
           "label": "Substance",
@@ -138,9 +328,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -6.19
+      ]
     },
     {
       "id": "cFNI2FORAc0",
@@ -166,7 +354,9 @@
       "upload_date": "20260603",
       "duration_seconds": 2486,
       "composite_base": 77,
-      "rank": 4,
+      "like_adjustment": 0,
+      "length_adjustment": -1.14,
+      "rank": 8,
       "tags": [
         {
           "label": "Substance",
@@ -180,9 +370,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.14
+      ]
     },
     {
       "id": "RrkGoX3Cw7o",
@@ -208,7 +396,9 @@
       "upload_date": "20260422",
       "duration_seconds": 4469,
       "composite_base": 80.25,
-      "rank": 5,
+      "like_adjustment": 0,
+      "length_adjustment": -4.45,
+      "rank": 9,
       "tags": [
         {
           "label": "Substance",
@@ -222,9 +412,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -4.45
+      ]
     },
     {
       "id": "ATt7QJgt-2k",
@@ -250,7 +438,9 @@
       "upload_date": "20260415",
       "duration_seconds": 5137,
       "composite_base": 81,
-      "rank": 6,
+      "like_adjustment": 0,
+      "length_adjustment": -5.56,
+      "rank": 10,
       "tags": [
         {
           "label": "Substance",
@@ -264,9 +454,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -5.56
+      ]
     },
     {
       "id": "CSYWbbP_OkY",
@@ -291,7 +479,9 @@
       "upload_date": "20260502",
       "duration_seconds": 3625,
       "composite_base": 78.3,
-      "rank": 7,
+      "like_adjustment": 0,
+      "length_adjustment": -3.04,
+      "rank": 11,
       "tags": [
         {
           "label": "Substance",
@@ -305,9 +495,91 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "BKLvySNVBtM",
+      "title": "Brex’s AI Hail Mary — With CTO James Reggio (acquired for $5B by Capital One!)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=BKLvySNVBtM",
+      "status": "ok",
+      "summary_bullets": [
+        "Brex CTO details three-pillar AI strategy.",
+        "Built internal LLM gateway and agent platform.",
+        "Uses multi-agent networks for employee assistant.",
+        "Operational AI automates underwriting and KYC.",
+        "AI fluency program and adapted hiring for agentic coding."
       ],
+      "composite": 75.15,
+      "confidence": "High",
+      "audience_level": "professional",
+      "display_title": "Brex’s AI Hail Mary — With CTO James Reggio (acquired for $5B by Capital One!)",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 6.5,
+      "like_count": null,
+      "upload_date": "20260117",
+      "duration_seconds": 4407,
+      "composite_base": 79.5,
       "like_adjustment": 0,
-      "length_adjustment": -3.04
+      "length_adjustment": -4.35,
+      "rank": 12,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "CSgjaC6y6Mk",
+      "title": "⚡️ Reverse Engineering OpenAI's Training Data — Pratyush Maini, Datology",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=CSgjaC6y6Mk",
+      "status": "ok",
+      "summary_bullets": [
+        "Seahorse emoji triggers self-correction loops in GPT-5.",
+        "Reasoning traces now added to foundation model pre-training.",
+        "Almo trace confirms capability, not data regurgitation.",
+        "Synthetic data paradigm shift: rephrase web, not generate from scratch.",
+        "Frontier labs move fast: O1 traces used within 4 months."
+      ],
+      "composite": 74.8,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Reverse Engineering OpenAI's Training Data — Pratyush Maini, Datology",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260210",
+      "duration_seconds": 1622,
+      "composite_base": 74.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "jPtQlILfkhA",
@@ -333,7 +605,9 @@
       "upload_date": "20260601",
       "duration_seconds": 6282,
       "composite_base": 82,
-      "rank": 8,
+      "like_adjustment": 0,
+      "length_adjustment": -7.47,
+      "rank": 14,
       "tags": [
         {
           "label": "Substance",
@@ -351,9 +625,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -7.47
+      ]
     },
     {
       "id": "rlM_fAKxB3Q",
@@ -379,7 +651,9 @@
       "upload_date": "20260507",
       "duration_seconds": 1322,
       "composite_base": 74.3,
-      "rank": 9,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 15,
       "tags": [
         {
           "label": "Insight",
@@ -389,9 +663,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "CeOXx-XTYek",
@@ -417,7 +689,9 @@
       "upload_date": "20260407",
       "duration_seconds": 4673,
       "composite_base": 79,
-      "rank": 10,
+      "like_adjustment": 0,
+      "length_adjustment": -4.79,
+      "rank": 16,
       "tags": [
         {
           "label": "Substance",
@@ -431,9 +705,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -4.79
+      ]
     },
     {
       "id": "4-sWFytOfRw",
@@ -459,7 +731,9 @@
       "upload_date": "20260617",
       "duration_seconds": 4610,
       "composite_base": 78.5,
-      "rank": 11,
+      "like_adjustment": 0,
+      "length_adjustment": -4.68,
+      "rank": 17,
       "tags": [
         {
           "label": "Substance",
@@ -473,9 +747,46 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "XqoBSB3nsgw",
+      "title": "🔬 From Red Teaming GPT-4 to Automating Drug Discovery: The Future of AI in Science — Andrew White",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=XqoBSB3nsgw",
+      "status": "ok",
+      "summary_bullets": [
+        "Andrew White left academia for AI science startups.",
+        "AI agents automate hypothesis generation and testing.",
+        "Molecular dynamics overrated; AlphaFold succeeded via ML.",
+        "Verifiable rewards in chemistry led to reward hacking.",
+        "Future: AI augments scientists, not replaces them."
       ],
+      "composite": 73.41,
+      "audience_level": "practitioner",
+      "display_title": "From Red Teaming GPT-4 to Automating Drug Discovery: The Future of AI in Science — Andrew White",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260128",
+      "duration_seconds": 4436,
+      "composite_base": 77.8,
       "like_adjustment": 0,
-      "length_adjustment": -4.68
+      "length_adjustment": -4.39,
+      "rank": 18,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "UmCZBwsibgs",
@@ -501,7 +812,9 @@
       "upload_date": "20260518",
       "duration_seconds": 7168,
       "composite_base": 82.3,
-      "rank": 12,
+      "like_adjustment": 0,
+      "length_adjustment": -8.95,
+      "rank": 19,
       "tags": [
         {
           "label": "Substance",
@@ -515,9 +828,51 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "Io0mAsHkiRY",
+      "title": "⚡️ OpenClaw's Memory Sucks and the fix is simple — Dhravya Shah, Supermemory",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Io0mAsHkiRY",
+      "status": "ok",
+      "summary_bullets": [
+        "Supermemory evolved from consumer app to context infrastructure.",
+        "OpenClaw’s memory fails due to tool-based search and static files.",
+        "Hooks-based approach with dynamic knowledge graphs improves freshness.",
+        "Benchmarks like LongMem test retrieval but miss personalization.",
+        "Hybrid mode falls back to RAG when memories are absent."
       ],
+      "composite": 73.3,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Supermemory: Fixing OpenClaw’s Memory with Hooks and Dynamic Knowledge Graphs",
+      "substance": 8.5,
+      "evidence": 5.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260309",
+      "duration_seconds": 1630,
+      "composite_base": 73.3,
       "like_adjustment": 0,
-      "length_adjustment": -8.95
+      "length_adjustment": 0,
+      "rank": 20,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "XdevS0GSuiQ",
@@ -538,10 +893,10 @@
       "upload_date": "20260527",
       "duration_seconds": 4212,
       "composite_base": 76.5,
-      "rank": 13,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -4.02
+      "length_adjustment": -4.02,
+      "rank": 21,
+      "tags": []
     },
     {
       "id": "Yp_u1NpbkJg",
@@ -567,7 +922,9 @@
       "upload_date": "20260624",
       "duration_seconds": 4205,
       "composite_base": 75,
-      "rank": 14,
+      "like_adjustment": 0,
+      "length_adjustment": -4.01,
+      "rank": 22,
       "tags": [
         {
           "label": "Substance",
@@ -581,9 +938,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -4.01
+      ]
     },
     {
       "id": "0fgJPhYcbVk",
@@ -609,7 +964,9 @@
       "upload_date": "20260528",
       "duration_seconds": 4172,
       "composite_base": 74.25,
-      "rank": 15,
+      "like_adjustment": 0,
+      "length_adjustment": -3.95,
+      "rank": 23,
       "tags": [
         {
           "label": "Specificity",
@@ -619,9 +976,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -3.95
+      ]
     },
     {
       "id": "DcvgPEApHT8",
@@ -647,15 +1002,15 @@
       "upload_date": "20260621",
       "duration_seconds": 2038,
       "composite_base": 70,
-      "rank": 16,
+      "like_adjustment": 0,
+      "length_adjustment": -0.4,
+      "rank": 24,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.4
+      ]
     },
     {
       "id": "uqM8qjbLRHA",
@@ -681,7 +1036,9 @@
       "upload_date": "20260420",
       "duration_seconds": 5121,
       "composite_base": 74.25,
-      "rank": 17,
+      "like_adjustment": 0,
+      "length_adjustment": -5.54,
+      "rank": 25,
       "tags": [
         {
           "label": "Specificity",
@@ -691,9 +1048,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -5.54
+      ]
     },
     {
       "id": "5KnCKadxSPY",
@@ -719,15 +1074,15 @@
       "upload_date": "20260413",
       "duration_seconds": 3450,
       "composite_base": 70.8,
-      "rank": 18,
+      "like_adjustment": 0,
+      "length_adjustment": -2.75,
+      "rank": 26,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.75
+      ]
     },
     {
       "id": "yyuVR-ML9X8",
@@ -752,7 +1107,9 @@
       "upload_date": "20260418",
       "duration_seconds": 2933,
       "composite_base": 69.3,
-      "rank": 19,
+      "like_adjustment": 0,
+      "length_adjustment": -1.89,
+      "rank": 27,
       "tags": [
         {
           "label": "Specificity",
@@ -762,9 +1119,37 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "UwnqWAYOjPU",
+      "title": "Dylan Patel Explains the AI War While Cooking | In-Context Cooking",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=UwnqWAYOjPU",
+      "status": "ok",
+      "summary_bullets": [
+        "Dylan Patel discusses AI chip geopolitics while cooking.",
+        "Explains Taiwan scenarios and export controls on China.",
+        "Hyperscalers spending billions on AI infrastructure.",
+        "Nvidia’s strategy and semiconductor supply chain bottlenecks.",
+        "AI adoption accelerating, but public backlash expected."
       ],
+      "composite": 66.23,
+      "audience_level": "practitioner",
+      "display_title": "Dylan Patel Explains the AI War While Cooking | In-Context Cooking",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 5.5,
+      "non_promotion": 8.5,
+      "like_count": null,
+      "upload_date": "20260226",
+      "duration_seconds": 3313,
+      "composite_base": 68.75,
       "like_adjustment": 0,
-      "length_adjustment": -1.89
+      "length_adjustment": -2.52,
+      "rank": 28,
+      "tags": []
     },
     {
       "id": "hLUGXO5DSpo",
@@ -790,10 +1175,41 @@
       "upload_date": "20260629",
       "duration_seconds": 1395,
       "composite_base": 66,
-      "rank": 20,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 29,
+      "tags": []
+    },
+    {
+      "id": "p1k7TiAFqdE",
+      "title": "Inside AI’s $10B+ Capital Flywheel — Martin Casado & Sarah Wang of a16z",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=p1k7TiAFqdE",
+      "status": "ok",
+      "summary_bullets": [
+        "AI capital flywheel: money → compute → capability → growth → more money",
+        "Frontier models may outspend entire app ecosystem built on them",
+        "Underinvested: boring enterprise software, not just hot AI",
+        "Custom ASICs justified at billion-dollar training runs",
+        "Social media perception of AI companies often far from reality"
+      ],
+      "composite": 65.45,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Inside AI’s $10B+ Capital Flywheel — Martin Casado & Sarah Wang of a16z",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 7.5,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260219",
+      "duration_seconds": 3331,
+      "composite_base": 68,
+      "like_adjustment": 0,
+      "length_adjustment": -2.55,
+      "rank": 30,
+      "tags": []
     },
     {
       "id": "kaX43RRRUKY",
@@ -819,15 +1235,15 @@
       "upload_date": "20260521",
       "duration_seconds": 4300,
       "composite_base": 68.8,
-      "rank": 21,
+      "like_adjustment": 0,
+      "length_adjustment": -4.17,
+      "rank": 31,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -4.17
+      ]
     },
     {
       "id": "rv23_KcHt4s",
@@ -853,10 +1269,38 @@
       "upload_date": "20260427",
       "duration_seconds": 4447,
       "composite_base": 69,
-      "rank": 22,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -4.41
+      "length_adjustment": -4.41,
+      "rank": 32,
+      "tags": []
+    },
+    {
+      "id": "Iu4gEnZFQz8",
+      "title": "Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Eskildsen of Turbopuffer",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Iu4gEnZFQz8",
+      "status": "ok",
+      "composite": 64.45,
+      "audience_level": "practitioner",
+      "display_title": "Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Eskildsen of Turbopuffer",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260312",
+      "duration_seconds": 3632,
+      "composite_base": 67.5,
+      "like_adjustment": 0,
+      "length_adjustment": -3.05,
+      "rank": 33,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "Hxlayqs-IAs",
@@ -882,10 +1326,10 @@
       "upload_date": "20260524",
       "duration_seconds": 1798,
       "composite_base": 64.3,
-      "rank": 23,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 34,
+      "tags": []
     },
     {
       "id": "LEwlSyR0cXA",
@@ -911,15 +1355,15 @@
       "upload_date": "20260602",
       "duration_seconds": 5084,
       "composite_base": 69.75,
-      "rank": 24,
+      "like_adjustment": 0,
+      "length_adjustment": -5.47,
+      "rank": 35,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -5.47
+      ]
     },
     {
       "id": "LzCUYNP5UTI",
@@ -945,15 +1389,15 @@
       "upload_date": "20260520",
       "duration_seconds": 5394,
       "composite_base": 69,
-      "rank": 25,
+      "like_adjustment": 0,
+      "length_adjustment": -5.99,
+      "rank": 36,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -5.99
+      ]
     },
     {
       "id": "h5dlIPM0X18",
@@ -979,15 +1423,15 @@
       "upload_date": "20260618",
       "duration_seconds": 3637,
       "composite_base": 65.75,
-      "rank": 26,
+      "like_adjustment": 0,
+      "length_adjustment": -3.06,
+      "rank": 37,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -3.06
+      ]
     },
     {
       "id": "abYcV5LHMG4",
@@ -1013,15 +1457,45 @@
       "upload_date": "20260603",
       "duration_seconds": 5584,
       "composite_base": 68.75,
-      "rank": 27,
+      "like_adjustment": 0,
+      "length_adjustment": -6.31,
+      "rank": 38,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "SUjA25ijcNs",
+      "title": "Mistral: Voxtral TTS, Forge, Leanstral, & Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=SUjA25ijcNs",
+      "status": "ok",
+      "summary_bullets": [
+        "Mistral releases Voxtral TTS, a 3B speech generation model.",
+        "Uses novel flow-matching architecture for audio generation.",
+        "Model supports 9 languages, open weights, real-time streaming.",
+        "Also discusses Mistral’s open-source strategy and customization platform."
       ],
+      "composite": 62.4,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Mistral: Voxtral TTS, Forge, Leanstral, & Mistral 4 — w/ Pavan Kumar Reddy & Guillaume Lample",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260330",
+      "duration_seconds": 3242,
+      "composite_base": 64.8,
       "like_adjustment": 0,
-      "length_adjustment": -6.31
+      "length_adjustment": -2.4,
+      "rank": 39,
+      "tags": []
     },
     {
       "id": "vUARtyOvh5U",
@@ -1047,10 +1521,10 @@
       "upload_date": "20260514",
       "duration_seconds": 3998,
       "composite_base": 66,
-      "rank": 28,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -3.66
+      "length_adjustment": -3.66,
+      "rank": 40,
+      "tags": []
     },
     {
       "id": "-rIAVuaRjOg",
@@ -1076,15 +1550,15 @@
       "upload_date": "20260606",
       "duration_seconds": 2441,
       "composite_base": 62,
-      "rank": 29,
+      "like_adjustment": 0,
+      "length_adjustment": -1.07,
+      "rank": 41,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.07
+      ]
     },
     {
       "id": "YQWXxnkK4dw",
@@ -1093,32 +1567,65 @@
       "url": "https://www.youtube.com/watch?v=YQWXxnkK4dw",
       "status": "ok",
       "summary_bullets": [
-        "Diffusion models now used for 3D protein structures.",
-        "Genesis Pearl predicts protein-ligand binding poses.",
-        "Sub-angstrom accuracy needed for drug design.",
-        "Synthetic data and physics priors improve generalization.",
-        "Partnership with Insight enables rapid design-make-test cycles."
+        "Diffusion models now used for drug discovery",
+        "Genesis predicts protein-ligand 3D structures",
+        "One angstrom accuracy needed for drug design",
+        "Synthetic data and physics priors improve models",
+        "Partnership with Insight enables rapid lab feedback"
       ],
-      "composite": 57.63,
+      "composite": 60.13,
       "confidence": "High",
+      "audience_level": "professional",
+      "display_title": "The Most Innovative Diffusion Research Is Happening in Drug Discovery, Not Image Generation",
       "substance": 7.5,
-      "evidence": 5.5,
+      "evidence": 6,
       "specificity": 8.5,
-      "insight_density": 6.5,
+      "insight_density": 7,
       "non_promotion": 3,
       "like_count": null,
       "upload_date": "20260630",
       "duration_seconds": 6519,
-      "composite_base": 65.5,
-      "rank": 30,
+      "composite_base": 68,
+      "like_adjustment": 0,
+      "length_adjustment": -7.87,
+      "rank": 42,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "nxnQl4AcqFg",
+      "title": "⚡️Monty: the ultrafast Python interpreter by Agents for Agents — Samuel Colvin, Pydantic",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=nxnQl4AcqFg",
+      "status": "ok",
+      "summary_bullets": [
+        "Monty is a fast Python interpreter written in Rust.",
+        "Runs code in microseconds, not seconds.",
+        "Sacrifices full CPython compatibility for speed and safety.",
+        "Uses AI to implement standard library functions quickly.",
+        "Designed for agent tool calling, not full sandbox."
       ],
+      "composite": 59.6,
+      "confidence": "Med",
+      "audience_level": "professional",
+      "display_title": "Monty: A Fast Python Interpreter for AI Agents — Samuel Colvin",
+      "substance": 6.5,
+      "evidence": 4.5,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260314",
+      "duration_seconds": 2042,
+      "composite_base": 60,
       "like_adjustment": 0,
-      "length_adjustment": -7.87
+      "length_adjustment": -0.4,
+      "rank": 43,
+      "tags": []
     },
     {
       "id": "oBWRHnggscM",
@@ -1144,10 +1651,232 @@
       "upload_date": "20260402",
       "duration_seconds": 4007,
       "composite_base": 61.3,
-      "rank": 31,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -3.68
+      "length_adjustment": -3.68,
+      "rank": 44,
+      "tags": []
+    },
+    {
+      "id": "V7_Ec2WFAWs",
+      "title": "🔬Max Welling: Materials Underlie Everything",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=V7_Ec2WFAWs",
+      "status": "ok",
+      "summary_bullets": [
+        "Max Welling founded CUSAI for materials discovery.",
+        "Physics is the thread through his career.",
+        "Equivariance infuses symmetry into neural networks.",
+        "AI for science is a new exploding field.",
+        "Materials underlie everything, including LLMs."
+      ],
+      "composite": 57.33,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "🔬Max Welling: Materials Underlie Everything",
+      "substance": 7,
+      "evidence": 4.5,
+      "specificity": 6,
+      "insight_density": 5.5,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260225",
+      "duration_seconds": 2054,
+      "composite_base": 57.75,
+      "like_adjustment": 0,
+      "length_adjustment": -0.42,
+      "rank": 45,
+      "tags": []
+    },
+    {
+      "id": "mMbPEf4V_hE",
+      "title": "Why Every Agent Needs a Box — Aaron Levie, Box",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=mMbPEf4V_hE",
+      "status": "ok",
+      "summary_bullets": [
+        "Agents need governed data access.",
+        "Enterprise AI faces context engineering challenges.",
+        "Coding agents easier than knowledge work agents.",
+        "Box positions as agent file system.",
+        "Security risks from prompt injection."
+      ],
+      "composite": 56.6,
+      "confidence": "High",
+      "audience_level": "professional",
+      "display_title": "Why Every Agent Needs a Box — Aaron Levie, Box",
+      "substance": 7,
+      "evidence": 4.5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260305",
+      "duration_seconds": 4618,
+      "composite_base": 61.3,
+      "like_adjustment": 0,
+      "length_adjustment": -4.7,
+      "rank": 46,
+      "tags": []
+    },
+    {
+      "id": "obEWFoLfWD4",
+      "title": "The Stove Guy: Sam D'Amico Shows New AI Cooking Features on America's Most Powerful Stove at Impulse",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=obEWFoLfWD4",
+      "status": "ok",
+      "summary_bullets": [
+        "Impulse stove uses lithium-ion battery for extra power.",
+        "Boils water in 40 seconds with 10,000 watts.",
+        "AI features include Claude-powered recipe and temperature control.",
+        "Stove designed as software-defined hardware with OTA updates.",
+        "Partnership with Zephyr for nationwide showroom distribution."
+      ],
+      "composite": 56.09,
+      "confidence": "Med",
+      "audience_level": "general",
+      "display_title": "The Stove Guy: Sam D'Amico Shows New AI Cooking Features on America's Most Powerful Stove at Impulse",
+      "substance": 6,
+      "evidence": 4.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260331",
+      "duration_seconds": 2223,
+      "composite_base": 56.8,
+      "like_adjustment": 0,
+      "length_adjustment": -0.71,
+      "rank": 47,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "unUeI7e-iVs",
+      "title": "Captaining IMO Gold, Deep Think, On-Policy RL, Feeling the AGI in Singapore — Yi Tay",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=unUeI7e-iVs",
+      "status": "ok",
+      "summary_bullets": [
+        "On-policy RL: model learns from own generations.",
+        "IMO gold achieved with end-to-end Gemini model.",
+        "AI coding now useful for debugging ML jobs.",
+        "Data efficiency: need more flops per token.",
+        "GDM Singapore: new team for reasoning and AGI."
+      ],
+      "composite": 53.09,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "Captaining IMO Gold, Deep Think, On-Policy RL, Feeling the AGI in Singapore — Yi Tay",
+      "substance": 6.5,
+      "evidence": 4.5,
+      "specificity": 6,
+      "insight_density": 5.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260123",
+      "duration_seconds": 5525,
+      "composite_base": 59.3,
+      "like_adjustment": 0,
+      "length_adjustment": -6.21,
+      "rank": 48,
+      "tags": []
+    },
+    {
+      "id": "nP0N1kYLegc",
+      "title": "🔬Generating Molecules, Not Just Models",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=nP0N1kYLegc",
+      "status": "ok",
+      "summary_bullets": [
+        "AlphaFold 2 revolutionized protein structure prediction.",
+        "Boltz open-sourced AlphaFold 3-level model.",
+        "Protein design uses diffusion models and ranking.",
+        "Boltz Lab platform for drug design.",
+        "Validation across many targets shows success."
+      ],
+      "composite": 52.86,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Protein Structure Prediction and Design with Boltz Founders",
+      "substance": 6.5,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 5.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260212",
+      "duration_seconds": 6086,
+      "composite_base": 60,
+      "like_adjustment": 0,
+      "length_adjustment": -7.14,
+      "rank": 49,
+      "tags": []
+    },
+    {
+      "id": "ck63uv6APBA",
+      "title": "Goodfire AI’s Bet: Interpretability as the Next Frontier of Model Design — Myra Deng & Mark Bissell",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ck63uv6APBA",
+      "status": "ok",
+      "summary_bullets": [
+        "Goodfire uses interpretability to understand and design AI models.",
+        "They apply interpretability to post-training and production use cases.",
+        "Steering can modify model behavior in real-time on trillion-parameter models.",
+        "They partner with healthcare and e-commerce for safety and customization.",
+        "Interpretability methods like SAEs have limitations in real-world deployment."
+      ],
+      "composite": 52.63,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "Goodfire AI’s Bet: Interpretability as the Next Frontier of Model Design — Myra Deng & Mark Bissell",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260205",
+      "duration_seconds": 4121,
+      "composite_base": 56.5,
+      "like_adjustment": 0,
+      "length_adjustment": -3.87,
+      "rank": 50,
+      "tags": []
+    },
+    {
+      "id": "zP8P7hJXwE0",
+      "title": "⚡️Context Graphs: according to the authors — Jaya Gupta, Ashu Garg, Foundation Capital",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=zP8P7hJXwE0",
+      "status": "ok",
+      "summary_bullets": [
+        "Context graphs capture decision traces for AI agents.",
+        "They argue context graphs are a new abstraction layer.",
+        "Incumbents unlikely to build them due to path dependency.",
+        "Systems-of-agent startups are the natural builders.",
+        "Predict hundreds of context graphs in production within a year."
+      ],
+      "composite": 51.13,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Context Graphs: according to the authors — Jaya Gupta, Ashu Garg, Foundation Capital",
+      "substance": 7,
+      "evidence": 2,
+      "specificity": 5,
+      "insight_density": 6,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260204",
+      "duration_seconds": 2024,
+      "composite_base": 51.5,
+      "like_adjustment": 0,
+      "length_adjustment": -0.37,
+      "rank": 51,
+      "tags": []
     },
     {
       "id": "287Q-bs_pEU",
@@ -1172,10 +1901,10 @@
       "upload_date": "20260524",
       "duration_seconds": 887,
       "composite_base": 51,
-      "rank": 32,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 52,
+      "tags": []
     },
     {
       "id": "j8BAficRjEc",
@@ -1201,10 +1930,41 @@
       "upload_date": "20260622",
       "duration_seconds": 4050,
       "composite_base": 54.3,
-      "rank": 33,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -3.75
+      "length_adjustment": -3.75,
+      "rank": 53,
+      "tags": []
+    },
+    {
+      "id": "x9rWFiIubmc",
+      "title": "Claude Code for Finance + The Global Memory Shortage: Doug O'Laughlin, SemiAnalysis",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=x9rWFiIubmc",
+      "status": "ok",
+      "summary_bullets": [
+        "Claude Code automates complex financial analysis tasks.",
+        "HBM demand is causing a severe DRAM shortage.",
+        "Memory prices could double due to underinvestment.",
+        "Microsoft's AI strategy faces structural challenges.",
+        "Doug O'Laughlin shares his CDT thru-hike experience."
+      ],
+      "composite": 49.23,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "Claude Code for Finance + The Global Memory Shortage: Doug O'Laughlin, SemiAnalysis",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 6,
+      "insight_density": 5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260224",
+      "duration_seconds": 7660,
+      "composite_base": 59,
+      "like_adjustment": 0,
+      "length_adjustment": -9.77,
+      "rank": 54,
+      "tags": []
     },
     {
       "id": "fpAthTtha8c",
@@ -1230,10 +1990,214 @@
       "upload_date": "20260625",
       "duration_seconds": 2477,
       "composite_base": 50,
-      "rank": 34,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.13
+      "length_adjustment": -1.13,
+      "rank": 55,
+      "tags": []
+    },
+    {
+      "id": "64D6tcsPH1U",
+      "title": "Agent Inference at the \"Speed of Light\" — How NVIDIA moves like a $4.3 Trillion Startup",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=64D6tcsPH1U",
+      "status": "ok",
+      "summary_bullets": [
+        "Brev acquired by NVIDIA for developer tools.",
+        "Dynamo: data center scale inference engine.",
+        "Agent security: only allow two of three capabilities.",
+        "Prefill-decode disaggregation optimizes inference.",
+        "NVIDIA’s “speed of light” principle drives culture."
+      ],
+      "composite": 48.7,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Agent Inference at the “Speed of Light” — How NVIDIA moves like a $4.3 Trillion Startup",
+      "substance": 6.5,
+      "evidence": 4.5,
+      "specificity": 6,
+      "insight_density": 5.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260308",
+      "duration_seconds": 5160,
+      "composite_base": 54.3,
+      "like_adjustment": 0,
+      "length_adjustment": -5.6,
+      "rank": 56,
+      "tags": []
+    },
+    {
+      "id": "jTEqdoB_mmo",
+      "title": "Why Your AI Agents Don’t Work with Dex Horthy of HumanLayer | In-Context Cooking",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=jTEqdoB_mmo",
+      "status": "ok",
+      "summary_bullets": [
+        "Cooking dandan noodles while discussing AI engineering.",
+        "Dex Horthy co-founded HumanLayer, an agentic IDE.",
+        "Context engineering: tailoring prompts for reliable AI.",
+        "Difference between demo-quality and production-grade AI.",
+        "\"Dumb zone\" heuristic: keep context under 40% for beginners."
+      ],
+      "composite": 47.5,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "Why Your AI Agents Don’t Work with Dex Horthy of HumanLayer | In-Context Cooking",
+      "substance": 5.5,
+      "evidence": 3.5,
+      "specificity": 6,
+      "insight_density": 4,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260306",
+      "duration_seconds": 1499,
+      "composite_base": 47.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 57,
+      "tags": []
+    },
+    {
+      "id": "tMflcZHo2zI",
+      "title": "Cursor's Third Era: Cloud Agents — ft. Sam Whitmore, Jonas Nelle, Cursor",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=tMflcZHo2zI",
+      "status": "ok",
+      "summary_bullets": [
+        "Cloud agents run code in full VMs.",
+        "Agents test changes and record video demos.",
+        "Users can remotely control the agent's VM.",
+        "Parallel agents and sub-agents increase throughput.",
+        "Cursor sees shift from tab-completion to autonomous agents."
+      ],
+      "composite": 43.12,
+      "confidence": "Med",
+      "audience_level": "professional",
+      "display_title": "Cursor's Third Era: Cloud Agents — ft. Sam Whitmore, Jonas Nelle, Cursor",
+      "substance": 5.5,
+      "evidence": 3,
+      "specificity": 7.5,
+      "insight_density": 5,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260306",
+      "duration_seconds": 4278,
+      "composite_base": 47.25,
+      "like_adjustment": 0,
+      "length_adjustment": -4.13,
+      "rank": 58,
+      "tags": []
+    },
+    {
+      "id": "W2cBTVr8nxU",
+      "title": "⚡️ Prism: OpenAI's LaTeX \"Cursor for Scientists\" — Kevin Weil & Victor Powell, OpenAI for Science",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=W2cBTVr8nxU",
+      "status": "ok",
+      "summary_bullets": [
+        "OpenAI launches Prism, a free AI-native LaTeX editor.",
+        "Prism integrates GPT-5.2 for writing, proofreading, diagram generation.",
+        "Product acquired from founder Victor Powell via Reddit DM.",
+        "Goal: accelerate science by embedding AI into scientist workflow.",
+        "Also discusses AI for science progress and future robotic labs."
+      ],
+      "composite": 40.4,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "OpenAI Launches Prism: AI-Native LaTeX Editor for Scientists",
+      "substance": 4.5,
+      "evidence": 3,
+      "specificity": 7,
+      "insight_density": 4,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260127",
+      "duration_seconds": 2160,
+      "composite_base": 41,
+      "like_adjustment": 0,
+      "length_adjustment": -0.6,
+      "rank": 59,
+      "tags": []
+    },
+    {
+      "id": "ZpZ7lFoWaT8",
+      "title": "Anthropic’s Felix Rieseberg on AI Coworkers, Local-First Agents, and the Future of Knowledge Work",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ZpZ7lFoWaT8",
+      "status": "ok",
+      "summary_bullets": [
+        "Cloud Co-Work is a user-friendly version of Cloud Code.",
+        "Local computer is undervalued for AI agents.",
+        "Skills are portable markdown files, not proprietary.",
+        "Scaffolding may become less important as models improve.",
+        "Product is designed for knowledge work, not just coding."
+      ],
+      "composite": 40.24,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Anthropic’s Felix Rieseberg on AI Coworkers, Local-First Agents, and the Future of Knowledge Work",
+      "substance": 5.5,
+      "evidence": 3,
+      "specificity": 6,
+      "insight_density": 5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260317",
+      "duration_seconds": 5254,
+      "composite_base": 46,
+      "like_adjustment": 0,
+      "length_adjustment": -5.76,
+      "rank": 60,
+      "tags": []
+    },
+    {
+      "id": "TvmxWWfiYWI",
+      "title": "Dreamer: the Agent OS for Everyone — David Singleton",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=TvmxWWfiYWI",
+      "status": "ok",
+      "summary_bullets": [
+        "Dreamer is a platform for building and using AI agents.",
+        "Non-technical users can create agents via natural language.",
+        "Sidekick acts as a personal agent and system orchestrator.",
+        "Tool builders can monetize their contributions on the platform.",
+        "Memory uses a custom system, not simple vector databases."
+      ],
+      "composite": 34.81,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Dreamer: the Agent OS for Everyone — David Singleton",
+      "substance": 4.5,
+      "evidence": 3,
+      "specificity": 6,
+      "insight_density": 3.5,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260320",
+      "duration_seconds": 3863,
+      "composite_base": 38.25,
+      "like_adjustment": 0,
+      "length_adjustment": -3.44,
+      "rank": 61,
+      "tags": []
+    },
+    {
+      "id": "Yw-m0PI2Atk",
+      "title": "⚡️ Polsia: Solo Founder Tiny Team from 0 to 1m ARR in 1 month & the future of Self-Running Companies",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Yw-m0PI2Atk",
+      "status": "ok",
+      "composite": 26.31,
+      "audience_level": "practitioner",
+      "display_title": "Polsia: AI that builds and runs companies autonomously – demo and founder interview",
+      "like_count": null,
+      "upload_date": "20260301",
+      "duration_seconds": 2516,
+      "composite_base": 27.5,
+      "like_adjustment": 0,
+      "length_adjustment": -1.19,
+      "rank": 62,
+      "tags": []
     }
   ],
   "too_long": [],

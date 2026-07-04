@@ -9,6 +9,8 @@ const COMPOSITE_SCORE_RE = /([\d.]+)\s*\/\s*100/g;
 const CONFIDENCE_RE = /Confidence:\s*(?:\*\*)?(High|Med|Low)/i;
 const AUDIENCE_LEVEL_RE =
   /Audience level:\*{0,2}\s*(General|Practitioner|Professional|Specialist)\*{0,2}(?:\s*[—–-]\s*(.+?))?(?:\n|$)/i;
+const DISPLAY_TITLE_RE =
+  /(?:\*\*)?(?:Step\s+\d+\s*[—–-]\s*)?Display title:(?:\*\*)?\s*(.+?)(?:\n|$)/i;
 
 const DIMENSION_RES: Record<string, RegExp> = {
   substance: /^(?:-\s*)?(?:\*\*)?Substance:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
@@ -62,10 +64,17 @@ export function extractComposite(text: string): number | null {
     }
   }
 
-  const totalMatch = /Total\s*=\s*([\d.]+)\s*\/\s*100/i.exec(text);
+  const totalMatch = /Total\s*=.*?([\d.]+)\s*\/\s*100/is.exec(text);
   if (totalMatch) {
     return Number(totalMatch[1]);
   }
+
+  const stepCompositeMatch =
+    /Step\s+\d+\s*[—–-]\s*Composite[\s\S]*?=\s*(?:\*\*)?([\d.]+)\s*\/\s*100/i.exec(text);
+  if (stepCompositeMatch) {
+    return Number(stepCompositeMatch[1]);
+  }
+
   return null;
 }
 
@@ -93,6 +102,14 @@ export function parseScoreResponse(text: string): Partial<RankedVideo> & { raw_r
     const level = normalizeAudienceLevel(audienceMatch[1]);
     if (level) {
       result.audience_level = level;
+    }
+  }
+
+  const displayTitleMatch = DISPLAY_TITLE_RE.exec(text);
+  if (displayTitleMatch) {
+    const displayTitle = displayTitleMatch[1].trim();
+    if (displayTitle) {
+      result.display_title = displayTitle;
     }
   }
 

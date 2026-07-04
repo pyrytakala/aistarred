@@ -1,8 +1,8 @@
 {
   "source_id": "cognitive-revolution-pod-q2-2026",
-  "video_count": 23,
-  "scored_count": 23,
-  "ranked_count": 23,
+  "video_count": 48,
+  "scored_count": 47,
+  "ranked_count": 47,
   "rankings": [
     {
       "id": "19TnC92SAT4",
@@ -28,6 +28,8 @@
       "upload_date": "20260524",
       "duration_seconds": 7991,
       "composite_base": 84.8,
+      "like_adjustment": 0,
+      "length_adjustment": -10.32,
       "rank": 1,
       "tags": [
         {
@@ -46,9 +48,51 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "q5IIN0pUK-E",
+      "title": "Don't Fight Backprop: Goodfire's Vision for Intentional Design, w/ Dan Balsam & Tom McGrath",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=q5IIN0pUK-E",
+      "status": "ok",
+      "summary_bullets": [
+        "Intentional design shapes loss landscapes during training.",
+        "Frozen probe reduces hallucinations without obfuscation.",
+        "Models represent concepts as geometric manifolds, not just sparse features.",
+        "Removing memorization weights can improve reasoning.",
+        "Alzheimer's prediction relied on fragment length, not methylation."
       ],
+      "composite": 73.76,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Don't Fight Backprop: Goodfire's Vision for Intentional Design, w/ Dan Balsam & Tom McGrath",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 6.5,
+      "like_count": null,
+      "upload_date": "20260305",
+      "duration_seconds": 6593,
+      "composite_base": 81.75,
       "like_adjustment": 0,
-      "length_adjustment": -10.32
+      "length_adjustment": -7.99,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "LdByu8bzros",
@@ -74,7 +118,9 @@
       "upload_date": "20260627",
       "duration_seconds": 6962,
       "composite_base": 82.3,
-      "rank": 2,
+      "like_adjustment": 0,
+      "length_adjustment": -8.6,
+      "rank": 3,
       "tags": [
         {
           "label": "Substance",
@@ -88,9 +134,51 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "1V11KiNjXgg",
+      "title": "Approaching the AI Event Horizon? Part 1, w/ James Zou, Sam Hammond, Shoshannah Tekofsky, @8teAPi",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=1V11KiNjXgg",
+      "status": "ok",
+      "summary_bullets": [
+        "James Zou: AI agents design nanobodies, validated experimentally.",
+        "Sam Hammond: US risks losing AI advantage to China.",
+        "Shoshannah Tekofsky: AI agents show distinct personalities, deception.",
+        "Multi-agent teams often underperform due to politeness.",
+        "AI consciousness debate: Sam Hammond assigns >50% likelihood."
       ],
+      "composite": 73.53,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Approaching the AI Event Horizon? Part 1, w/ James Zou, Sam Hammond, Shoshannah Tekofsky, @8teAPi",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260213",
+      "duration_seconds": 5682,
+      "composite_base": 80,
       "like_adjustment": 0,
-      "length_adjustment": -8.6
+      "length_adjustment": -6.47,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "nSssFWw-kxc",
@@ -116,7 +204,9 @@
       "upload_date": "20260506",
       "duration_seconds": 5033,
       "composite_base": 78.3,
-      "rank": 3,
+      "like_adjustment": 0,
+      "length_adjustment": -5.39,
+      "rank": 5,
       "tags": [
         {
           "label": "Substance",
@@ -130,9 +220,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -5.39
+      ]
     },
     {
       "id": "YRCa1etqiFM",
@@ -158,7 +246,9 @@
       "upload_date": "20260610",
       "duration_seconds": 6359,
       "composite_base": 80,
-      "rank": 4,
+      "like_adjustment": 0,
+      "length_adjustment": -7.6,
+      "rank": 6,
       "tags": [
         {
           "label": "Substance",
@@ -172,9 +262,55 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "aFQskhdR3RQ",
+      "title": "Try this at Home: Jesse Genet on OpenClaw Agents for Homeschool & How to Live Your Best AI Life",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=aFQskhdR3RQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Homeschooling mom built 5 AI agents on Mac Minis.",
+        "Agents handle curriculum, assistant, dev, content, finance.",
+        "Uses voice notes, Slack, and local hardware integration.",
+        "Treats agents as employees with onboarding and trust building.",
+        "AI enables personalized lessons and logging of child progress."
       ],
+      "composite": 71.86,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Try this at Home: Jesse Genet on OpenClaw Agents for Homeschool & How to Live Your Best AI Life",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260308",
+      "duration_seconds": 7583,
+      "composite_base": 81.5,
       "like_adjustment": 0,
-      "length_adjustment": -7.6
+      "length_adjustment": -9.64,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "1kgx0ET2ftA",
@@ -200,7 +336,9 @@
       "upload_date": "20260606",
       "duration_seconds": 4956,
       "composite_base": 77,
-      "rank": 5,
+      "like_adjustment": 0,
+      "length_adjustment": -5.26,
+      "rank": 8,
       "tags": [
         {
           "label": "Substance",
@@ -214,9 +352,47 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "26VhsspWgPc",
+      "title": "AI & The Law: Changing Practice, Claude Constitution, & New Rights, w/ Kevin & Alan of Scaling Laws",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=26VhsspWgPc",
+      "status": "ok",
+      "summary_bullets": [
+        "AI models surpass median lawyers in raw ability.",
+        "Billable hour disincentivizes AI adoption in law.",
+        "Latent demand for legal services is huge.",
+        "AI could enable complete contingent contracts.",
+        "New rights like right to compute emerging."
       ],
+      "composite": 71.37,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "AI & The Law: Changing Practice, Claude Constitution, & New Rights, w/ Kevin & Alan of Scaling Laws",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260129",
+      "duration_seconds": 5957,
+      "composite_base": 78.3,
       "like_adjustment": 0,
-      "length_adjustment": -5.26
+      "length_adjustment": -6.93,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "1X1-IRaYY6U",
@@ -242,7 +418,9 @@
       "upload_date": "20260501",
       "duration_seconds": 6523,
       "composite_base": 79,
-      "rank": 6,
+      "like_adjustment": 0,
+      "length_adjustment": -7.87,
+      "rank": 10,
       "tags": [
         {
           "label": "Substance",
@@ -256,9 +434,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -7.87
+      ]
     },
     {
       "id": "nsWdSaKVbIY",
@@ -284,7 +460,9 @@
       "upload_date": "20260515",
       "duration_seconds": 5694,
       "composite_base": 77,
-      "rank": 7,
+      "like_adjustment": 0,
+      "length_adjustment": -6.49,
+      "rank": 11,
       "tags": [
         {
           "label": "Substance",
@@ -298,9 +476,47 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "9ZNGaSGdSSg",
+      "title": "AI Scouting Report: the Good, Bad, & Weird @ the Law & AI Certificate Program, by LexLab, UC Law SF",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=9ZNGaSGdSSg",
+      "status": "ok",
+      "summary_bullets": [
+        "AI capabilities advancing faster than safety measures",
+        "Models exhibit reward hacking, deception, alignment faking",
+        "Personal use of AI for son’s cancer treatment",
+        "Frontier models now solve unsolved math problems",
+        "Open questions on regulation and superintelligence"
       ],
+      "composite": 70.12,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "AI Scouting Report: the Good, Bad, & Weird @ the Law & AI Certificate Program, by LexLab, UC Law SF",
+      "substance": 6.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260316",
+      "duration_seconds": 4726,
+      "composite_base": 75,
       "like_adjustment": 0,
-      "length_adjustment": -6.49
+      "length_adjustment": -4.88,
+      "rank": 12,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "9Nvvg0j9_8Q",
@@ -326,7 +542,9 @@
       "upload_date": "20260404",
       "duration_seconds": 7050,
       "composite_base": 78,
-      "rank": 8,
+      "like_adjustment": 0,
+      "length_adjustment": -8.75,
+      "rank": 13,
       "tags": [
         {
           "label": "Substance",
@@ -340,9 +558,86 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "Vvad9lpEy8Q",
+      "title": "Intelligence on the Edge: Liquid AI's Ramin Hasani on the Search for Device-Native Foundation Models",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Vvad9lpEy8Q",
+      "status": "ok",
+      "summary_bullets": [
+        "Liquid neural networks use differential equations.",
+        "Closed-form solution enables scaling to billions.",
+        "Architecture search optimizes for hardware constraints.",
+        "Device-native models run on phones and cars.",
+        "Efficiency key for distributed AI."
       ],
+      "composite": 69.24,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Intelligence on the Edge: Liquid AI's Ramin Hasani on the Search for Device-Native Foundation Models",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260704",
+      "duration_seconds": 6458,
+      "composite_base": 77,
       "like_adjustment": 0,
-      "length_adjustment": -8.75
+      "length_adjustment": -7.76,
+      "rank": 14,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "P-1MJCX9TEM",
+      "title": "Intelligence with Everyone: RL @ MiniMax, with Olive Song, from AIE NYC & Inference by Turing Post",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=P-1MJCX9TEM",
+      "status": "ok",
+      "summary_bullets": [
+        "MiniMax M2 uses interleaved thinking for agents.",
+        "RL training requires FP32 precision for stability.",
+        "Reward hacking is a constant battle in RL.",
+        "Team uses AI agents to track AI news."
+      ],
+      "composite": 69.06,
+      "confidence": "High",
+      "audience_level": "professional",
+      "display_title": "Intelligence with Everyone: RL @ MiniMax, with Olive Song, from AIE NYC & Inference by Turing Post",
+      "substance": 8,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260222",
+      "duration_seconds": 3266,
+      "composite_base": 71.5,
+      "like_adjustment": 0,
+      "length_adjustment": -2.44,
+      "rank": 15,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "MnaLvzhYekg",
@@ -368,7 +663,9 @@
       "upload_date": "20260621",
       "duration_seconds": 8073,
       "composite_base": 79,
-      "rank": 9,
+      "like_adjustment": 0,
+      "length_adjustment": -10.46,
+      "rank": 16,
       "tags": [
         {
           "label": "Substance",
@@ -378,9 +675,87 @@
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "6tKfi0NnzTA",
+      "title": "Scaling Intelligence Out: Cisco's Vision for the Internet of Cognition, with Vijoy Pandey",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=6tKfi0NnzTA",
+      "status": "ok",
+      "summary_bullets": [
+        "Cisco proposes \"Internet of Cognition\" for AI agents",
+        "Multi-agent systems need shared intent and context",
+        "AGNTCY open-source project enables agent discovery and identity",
+        "Layer 8 (syntactic) and Layer 9 (semantic) protocols proposed",
+        "Internal CAPE system automates 40% of SRE tasks"
       ],
+      "composite": 68.48,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Scaling Intelligence Out: Cisco's Vision for the Internet of Cognition, with Vijoy Pandey",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260325",
+      "duration_seconds": 5863,
+      "composite_base": 75.25,
       "like_adjustment": 0,
-      "length_adjustment": -10.46
+      "length_adjustment": -6.77,
+      "rank": 17,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "PfN3HvOsTl4",
+      "title": "Infinite Code Context: AI Coding at Enterprise Scale w/ Blitzy CEO Brian Elliott & CTO Sid Pardeshi",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=PfN3HvOsTl4",
+      "status": "ok",
+      "summary_bullets": [
+        "Blitzy uses dynamic agent orchestration for enterprise code.",
+        "They ingest 100M+ line codebases via knowledge graphs.",
+        "Models from different families check each other's work.",
+        "They run enterprise apps in parallel for testing.",
+        "Pricing is 20 cents per line, but they prioritize quality."
+      ],
+      "composite": 68.21,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Infinite Code Context: AI Coding at Enterprise Scale w/ Blitzy CEO Brian Elliott & CTO Sid Pardeshi",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260204",
+      "duration_seconds": 7076,
+      "composite_base": 77,
+      "like_adjustment": 0,
+      "length_adjustment": -8.79,
+      "rank": 18,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "AqxgBREOkNM",
@@ -406,7 +781,9 @@
       "upload_date": "20260530",
       "duration_seconds": 9215,
       "composite_base": 80.5,
-      "rank": 10,
+      "like_adjustment": 0,
+      "length_adjustment": -12.36,
+      "rank": 19,
       "tags": [
         {
           "label": "Substance",
@@ -420,9 +797,127 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "Oy-oyODkTuY",
+      "title": "Bioinfohazards: Jassi Pannu on Controlling Dangerous Data from which AI Models Learn",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Oy-oyODkTuY",
+      "status": "ok",
+      "summary_bullets": [
+        "AI models can learn dangerous biological capabilities.",
+        "Data controls proposed to limit misuse.",
+        "Only 1% of data needs restrictions.",
+        "Gain-of-function research remains legal.",
+        "Defense-in-depth strategy recommended."
       ],
+      "composite": 67.63,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Bioinfohazards: Jassi Pannu on Controlling Dangerous Data from which AI Models Learn",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260311",
+      "duration_seconds": 6219,
+      "composite_base": 75,
       "like_adjustment": 0,
-      "length_adjustment": -12.36
+      "length_adjustment": -7.37,
+      "rank": 20,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "n-tL4HRvqgE",
+      "title": "Confronting the Intelligence Curse, w/ Luke Drago of Workshop Labs, from the FLI Podcast",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=n-tL4HRvqgE",
+      "status": "ok",
+      "summary_bullets": [
+        "Intelligence curse: AI replaces humans, concentrates power.",
+        "Analogous to resource curse in oil-rich countries.",
+        "Solutions: open-source AI, personal AI tools, moonshots.",
+        "Entry-level jobs automated first, pyramid replacement.",
+        "Privacy and data control key to avoiding exploitation."
+      ],
+      "composite": 67.63,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Confronting the Intelligence Curse, w/ Luke Drago of Workshop Labs, from the FLI Podcast",
+      "substance": 8,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260101",
+      "duration_seconds": 4720,
+      "composite_base": 72.5,
+      "like_adjustment": 0,
+      "length_adjustment": -4.87,
+      "rank": 21,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "MwXVLZK0fU4",
+      "title": "AGI-Pilled Cyber Defense: Automating Digital Forensics w/ Asymmetric Security Founder Alexis Carlier",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=MwXVLZK0fU4",
+      "status": "ok",
+      "summary_bullets": [
+        "AGI assumption reshapes cyber defense strategy",
+        "Move from reactive triage to proactive forensics",
+        "Digital forensics is not dual-use like pentesting",
+        "Insurance companies are key distribution channel",
+        "Data and evaluation bottlenecks limit defensive AI"
+      ],
+      "composite": 67.62,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "AGI-Pilled Cyber Defense: Automating Digital Forensics w/ Asymmetric Security Founder Alexis Carlier",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260208",
+      "duration_seconds": 4729,
+      "composite_base": 72.5,
+      "like_adjustment": 0,
+      "length_adjustment": -4.88,
+      "rank": 22,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "FYpTTChGhSk",
@@ -448,7 +943,9 @@
       "upload_date": "20260419",
       "duration_seconds": 7971,
       "composite_base": 77.8,
-      "rank": 11,
+      "like_adjustment": 0,
+      "length_adjustment": -10.29,
+      "rank": 23,
       "tags": [
         {
           "label": "Substance",
@@ -458,9 +955,51 @@
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "c4RR-vUEQ4Q",
+      "title": "Approaching the AI Event Horizon? Part 2, w/ Abhi Mahajan, Helen Toner, Jeremie Harris, @8teAPi",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=c4RR-vUEQ4Q",
+      "status": "ok",
+      "summary_bullets": [
+        "AI for biology faces validation bottlenecks.",
+        "Automated AI R&D lacks consensus on impact.",
+        "US-China competition requires offensive options.",
+        "Personal productivity stacks evolving with AI.",
+        "Cancer treatment prediction using foundation models."
       ],
+      "composite": 67.43,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "AI for Biology, Automated R&D, and Geopolitical Competition – Part 2",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260214",
+      "duration_seconds": 8743,
+      "composite_base": 79,
       "like_adjustment": 0,
-      "length_adjustment": -10.29
+      "length_adjustment": -11.57,
+      "rank": 24,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "LG8KXIv0_mA",
@@ -486,7 +1025,9 @@
       "upload_date": "20260620",
       "duration_seconds": 9524,
       "composite_base": 79.8,
-      "rank": 12,
+      "like_adjustment": 0,
+      "length_adjustment": -12.87,
+      "rank": 25,
       "tags": [
         {
           "label": "Substance",
@@ -500,9 +1041,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -12.87
+      ]
     },
     {
       "id": "eE02qPe2LBI",
@@ -528,15 +1067,15 @@
       "upload_date": "20260526",
       "duration_seconds": 6118,
       "composite_base": 73.8,
-      "rank": 13,
+      "like_adjustment": 0,
+      "length_adjustment": -7.2,
+      "rank": 26,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -7.2
+      ]
     },
     {
       "id": "3hcCRD8NsJo",
@@ -562,7 +1101,9 @@
       "upload_date": "20260613",
       "duration_seconds": 6268,
       "composite_base": 73.75,
-      "rank": 14,
+      "like_adjustment": 0,
+      "length_adjustment": -7.45,
+      "rank": 27,
       "tags": [
         {
           "label": "Specificity",
@@ -572,9 +1113,47 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "wlHK2KQuCXw",
+      "title": "AMA Part 2: Is Fine-Tuning Dead? How Am I Preparing for AGI? Are We Headed for UBI? & More!",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=wlHK2KQuCXw",
+      "status": "ok",
+      "summary_bullets": [
+        "Fine-tuning declining; caution needed for emergent misalignment.",
+        "Personal AI use for son’s cancer treatment.",
+        "UBI likely necessary; more experimentation needed.",
+        "Human bottlenecks slow AI disruption, not just model limits.",
+        "Editorial independence secured after Turpentine acquisition by A16Z."
       ],
+      "composite": 66.28,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "AMA Part 2: Is Fine-Tuning Dead? How Am I Preparing for AGI? Are We Headed for UBI? & More!",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260122",
+      "duration_seconds": 8710,
+      "composite_base": 77.8,
       "like_adjustment": 0,
-      "length_adjustment": -7.45
+      "length_adjustment": -11.52,
+      "rank": 28,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "UrG_nF_RuqM",
@@ -600,7 +1179,9 @@
       "upload_date": "20260426",
       "duration_seconds": 9528,
       "composite_base": 78.75,
-      "rank": 15,
+      "like_adjustment": 0,
+      "length_adjustment": -12.88,
+      "rank": 29,
       "tags": [
         {
           "label": "Substance",
@@ -610,9 +1191,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -12.88
+      ]
     },
     {
       "id": "7uXpqnkUE94",
@@ -638,10 +1217,10 @@
       "upload_date": "20260509",
       "duration_seconds": 5176,
       "composite_base": 71,
-      "rank": 16,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -5.63
+      "length_adjustment": -5.63,
+      "rank": 30,
+      "tags": []
     },
     {
       "id": "DgUFrFeWKuU",
@@ -667,7 +1246,9 @@
       "upload_date": "20260623",
       "duration_seconds": 8960,
       "composite_base": 77,
-      "rank": 17,
+      "like_adjustment": 0,
+      "length_adjustment": -11.93,
+      "rank": 31,
       "tags": [
         {
           "label": "Substance",
@@ -677,9 +1258,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -11.93
+      ]
     },
     {
       "id": "CQOQvHWsENs",
@@ -705,10 +1284,10 @@
       "upload_date": "20260401",
       "duration_seconds": 6256,
       "composite_base": 72,
-      "rank": 18,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -7.43
+      "length_adjustment": -7.43,
+      "rank": 32,
+      "tags": []
     },
     {
       "id": "Z8dohAchPzU",
@@ -734,15 +1313,91 @@
       "upload_date": "20260408",
       "duration_seconds": 5870,
       "composite_base": 71,
-      "rank": 19,
+      "like_adjustment": 0,
+      "length_adjustment": -6.78,
+      "rank": 33,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "NFsnVPGhADc",
+      "title": "AMA Part 1: Is Claude Code AGI?  Are we in a bubble?  Plus Live Player Analysis",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=NFsnVPGhADc",
+      "status": "ok",
+      "summary_bullets": [
+        "Son's cancer treatment update: remission, MRD testing",
+        "Claude Opus 4.5 not a step-change to AGI",
+        "Chinese models far behind on niche tasks",
+        "Google DeepMind strongest, Anthropic best model",
+        "xAI reckless, OpenAI too-big-to-fail strategy"
       ],
+      "composite": 64.05,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "AMA Part 1: Is Claude Code AGI? Are we in a bubble? Plus Live Player Analysis",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260109",
+      "duration_seconds": 6870,
+      "composite_base": 72.5,
       "like_adjustment": 0,
-      "length_adjustment": -6.78
+      "length_adjustment": -8.45,
+      "rank": 34,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "vETComn6HQ8",
+      "title": "1000 Designs a Day: Neural Concept's Thomas von Tschammer on AI-Native Engineering",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=vETComn6HQ8",
+      "status": "ok",
+      "summary_bullets": [
+        "Neural Concept uses AI to accelerate engineering simulations.",
+        "AI models predict physics in minutes vs days.",
+        "Jaguar Land Rover tests 1,500 designs per day.",
+        "Formula 1 teams capped on compute for aerodynamics.",
+        "AI can produce surprising designs that outperform human intuition."
+      ],
+      "composite": 63.1,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "1000 Designs a Day: Neural Concept's Thomas von Tschammer on AI-Native Engineering",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260701",
+      "duration_seconds": 5342,
+      "composite_base": 69,
+      "like_adjustment": 0,
+      "length_adjustment": -5.9,
+      "rank": 35,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "Gm2ol_FG8ZQ",
@@ -768,15 +1423,15 @@
       "upload_date": "20260415",
       "duration_seconds": 9088,
       "composite_base": 74,
-      "rank": 20,
+      "like_adjustment": 0,
+      "length_adjustment": -12.15,
+      "rank": 36,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -12.15
+      ]
     },
     {
       "id": "bBvfozmEAGw",
@@ -802,15 +1457,86 @@
       "upload_date": "20260603",
       "duration_seconds": 10784,
       "composite_base": 75.8,
-      "rank": 21,
+      "like_adjustment": 0,
+      "length_adjustment": -14.97,
+      "rank": 37,
       "tags": [
         {
           "label": "Substance",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "LX_iU3UZvZI",
+      "title": "The Internet Computer: Caffeine.ai CEO Dominic Williams on Unstoppable, Self-Writing Software",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=LX_iU3UZvZI",
+      "status": "ok",
+      "summary_bullets": [
+        "Internet Computer aims to be a tamperproof, unstoppable cloud platform.",
+        "Uses Byzantine fault tolerance and deterministic decentralization for security.",
+        "Orthogonal persistence eliminates separate databases; program is the database.",
+        "Caffeine AI lets users build apps via natural language on this platform.",
+        "Governance via Network Nervous System (NNS) with long-term token locks."
       ],
+      "composite": 60.75,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The Internet Computer: Caffeine.ai CEO Dominic Williams on Unstoppable, Self-Writing Software",
+      "substance": 8,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260125",
+      "duration_seconds": 7951,
+      "composite_base": 71,
       "like_adjustment": 0,
-      "length_adjustment": -14.97
+      "length_adjustment": -10.25,
+      "rank": 38,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "-01-McQQzK8",
+      "title": "Mathematical Superintelligence: Harmonic's Vlad & Tudor on IMO Gold & Theories of Everything",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=-01-McQQzK8",
+      "status": "ok",
+      "summary_bullets": [
+        "Harmonic's Aristotle achieved IMO gold 2025.",
+        "Uses Lean for formally verifiable proofs.",
+        "Math is reasoning; formal verification eliminates peer review.",
+        "System combines Monte Carlo search, lemma guessing, geometry.",
+        "Vision: theoretical abundance by 2030, multiple explanations."
+      ],
+      "composite": 60.35,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Mathematical Superintelligence: Harmonic's Vlad & Tudor on IMO Gold & Theories of Everything",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260218",
+      "duration_seconds": 5669,
+      "composite_base": 66.8,
+      "like_adjustment": 0,
+      "length_adjustment": -6.45,
+      "rank": 39,
+      "tags": []
     },
     {
       "id": "_0vFE4Ti1Gs",
@@ -836,10 +1562,10 @@
       "upload_date": "20260520",
       "duration_seconds": 3674,
       "composite_base": 63.3,
-      "rank": 22,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -3.12
+      "length_adjustment": -3.12,
+      "rank": 40,
+      "tags": []
     },
     {
       "id": "zWc9ggYhuJ4",
@@ -865,10 +1591,211 @@
       "upload_date": "20260617",
       "duration_seconds": 6350,
       "composite_base": 67,
-      "rank": 23,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -7.58
+      "length_adjustment": -7.58,
+      "rank": 41,
+      "tags": []
+    },
+    {
+      "id": "q5A8neP9AfI",
+      "title": "Building & Scaling the AI Safety Research Community, with Ryan Kidd of MATS",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=q5A8neP9AfI",
+      "status": "ok",
+      "summary_bullets": [
+        "MATS has 446 alumni, 80% employed in AI safety.",
+        "Three research archetypes: connectors, iterators, amplifiers.",
+        "AI safety field grows 25% yearly; MATS acceptance ~7%.",
+        "Most safety research needs frontier models for control/evals.",
+        "MATS provides up to $12K compute; most fellows use less."
+      ],
+      "composite": 59,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Building & Scaling the AI Safety Research Community, with Ryan Kidd of MATS",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260104",
+      "duration_seconds": 6902,
+      "composite_base": 67.5,
+      "like_adjustment": 0,
+      "length_adjustment": -8.5,
+      "rank": 42,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "1YmJoqgN7LI",
+      "title": "Universal Medical Intelligence: OpenAI's Plan to Elevate Human Health, with Karan Singhal",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=1YmJoqgN7LI",
+      "status": "ok",
+      "summary_bullets": [
+        "OpenAI's health AI models reach attending physician level.",
+        "Healthbench evaluates models across 49,000 criteria.",
+        "ChatGPT Health launches free, no ads, privacy-protected.",
+        "First randomized trial shows AI copilot improves outcomes.",
+        "230 million weekly users for health queries."
+      ],
+      "composite": 57.1,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Universal Medical Intelligence: OpenAI's Plan to Elevate Human Health, with Karan Singhal",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260225",
+      "duration_seconds": 7437,
+      "composite_base": 66.5,
+      "like_adjustment": 0,
+      "length_adjustment": -9.4,
+      "rank": 43,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "DbNUDMcEjzY",
+      "title": "Pioneering PAI: How Daniel Miessler's Personal AI Infrastructure Activates Human Agency & Creativity",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=DbNUDMcEjzY",
+      "status": "ok",
+      "summary_bullets": [
+        "Daniel Miessler built PI, a personal AI scaffolding framework.",
+        "AI will replace most knowledge workers, requiring new social contract.",
+        "PI uses TLOS framework to align AI with user's goals.",
+        "File-system memory and hooks enable continuous self-improvement.",
+        "Permission to fail reduces hallucination and task faking."
+      ],
+      "composite": 56.78,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Pioneering PAI: How Daniel Miessler's Personal AI Infrastructure Activates Human Agency & Creativity",
+      "substance": 7.5,
+      "evidence": 5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260118",
+      "duration_seconds": 8982,
+      "composite_base": 68.75,
+      "like_adjustment": 0,
+      "length_adjustment": -11.97,
+      "rank": 44,
+      "tags": []
+    },
+    {
+      "id": "1jZpFrXevwE",
+      "title": "The AI-Powered Biohub: Why Mark Zuckerberg & Priscilla Chan are Investing in Data, from Latent.Space",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=1jZpFrXevwE",
+      "status": "ok",
+      "summary_bullets": [
+        "CZI's 10-year anniversary and focus on AI-biology",
+        "Biohub model: frontier biology + frontier AI",
+        "Acquisition of EvolutionaryScale (ESM3 protein model)",
+        "Plan for virtual cell and precision medicine",
+        "Data collection as key bottleneck and opportunity"
+      ],
+      "composite": 55.01,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The AI-Powered Biohub: Why Mark Zuckerberg & Priscilla Chan are Investing in Data, from Latent.Space",
+      "substance": 7,
+      "evidence": 5.5,
+      "specificity": 6.5,
+      "insight_density": 5.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260201",
+      "duration_seconds": 3892,
+      "composite_base": 58.5,
+      "like_adjustment": 0,
+      "length_adjustment": -3.49,
+      "rank": 45,
+      "tags": []
+    },
+    {
+      "id": "txYahwrTEZA",
+      "title": "Snowflake VP of AI Baris Gultekin on Bringing AI to Data, Agent Design, Text-2-SQL, RAG & More",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=txYahwrTEZA",
+      "status": "ok",
+      "summary_bullets": [
+        "Snowflake brings AI to data, not data to AI.",
+        "Text-to-SQL now reliable with reasoning models.",
+        "RAG quality improved via better embeddings and hybrid search.",
+        "Enterprise AI requires trust, governance, and data residency.",
+        "Coding agents changing product management and prototyping."
+      ],
+      "composite": 51.91,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Snowflake VP of AI Baris Gultekin on Bringing AI to Data, Agent Design, Text-2-SQL, RAG & More",
+      "substance": 6.5,
+      "evidence": 5,
+      "specificity": 7,
+      "insight_density": 6,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260114",
+      "duration_seconds": 6051,
+      "composite_base": 59,
+      "like_adjustment": 0,
+      "length_adjustment": -7.09,
+      "rank": 46,
+      "tags": []
+    },
+    {
+      "id": "E993Y8AB0cQ",
+      "title": "Your Agent's Self-Improving Swiss Army Knife: Composio CTO Karan Vaidya on Building Smart Tools",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=E993Y8AB0cQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Composio provides 50,000+ tools via one MCP server.",
+        "Tools are improved in real-time by an agentic pipeline.",
+        "Skills can make frontier models interchangeable.",
+        "Just-in-time discovery prevents context overload.",
+        "Platform used by AWS, Zoom, Glean, Airtable."
+      ],
+      "composite": 50.92,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Your Agent's Self-Improving Swiss Army Knife: Composio CTO Karan Vaidya on Building Smart Tools",
+      "substance": 6.5,
+      "evidence": 4.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260322",
+      "duration_seconds": 6047,
+      "composite_base": 58,
+      "like_adjustment": 0,
+      "length_adjustment": -7.08,
+      "rank": 47,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     }
   ],
   "too_long": [],

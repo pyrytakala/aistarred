@@ -29,6 +29,8 @@
       "upload_date": "20260625",
       "duration_seconds": null,
       "composite_base": 77,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -43,9 +45,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     }
   ],
   "too_long": [],

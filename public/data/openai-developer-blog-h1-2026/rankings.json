@@ -29,6 +29,8 @@
       "upload_date": "20260204",
       "duration_seconds": null,
       "composite_base": 76,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -43,9 +45,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "realtime-perplexity-computer",
@@ -72,6 +72,8 @@
       "upload_date": "20260325",
       "duration_seconds": null,
       "composite_base": 74.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 2,
       "tags": [
         {
@@ -82,9 +84,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "skills-agents-sdk",
@@ -111,6 +111,8 @@
       "upload_date": "20260309",
       "duration_seconds": null,
       "composite_base": 72.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 3,
       "tags": [
         {
@@ -121,9 +123,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "eval-skills",
@@ -150,15 +150,15 @@
       "upload_date": "20260122",
       "duration_seconds": null,
       "composite_base": 69.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 4,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "skills-shell-tips",
@@ -184,15 +184,15 @@
       "upload_date": "20260211",
       "duration_seconds": null,
       "composite_base": 68,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 5,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "mastering-codex-remote-for-engineering",
@@ -219,15 +219,15 @@
       "upload_date": "20260623",
       "duration_seconds": null,
       "composite_base": 57.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 6,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "connect-private-mcp-servers-to-openai-products",
@@ -254,10 +254,10 @@
       "upload_date": "20260626",
       "duration_seconds": null,
       "composite_base": 57.75,
-      "rank": 7,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 7,
+      "tags": []
     },
     {
       "id": "run-long-horizon-tasks-with-codex",
@@ -284,15 +284,15 @@
       "upload_date": "20260223",
       "duration_seconds": null,
       "composite_base": 57,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 8,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "skyscanner-codex-jetbrains-mcp",
@@ -318,10 +318,10 @@
       "upload_date": "20260111",
       "duration_seconds": null,
       "composite_base": 56.75,
-      "rank": 9,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 9,
+      "tags": []
     },
     {
       "id": "designing-delightful-frontends-with-gpt-5-4",
@@ -347,15 +347,15 @@
       "upload_date": "20260320",
       "duration_seconds": null,
       "composite_base": 55.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 10,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "building-frontend-uis-with-codex-and-figma",
@@ -382,10 +382,10 @@
       "upload_date": "20260226",
       "duration_seconds": null,
       "composite_base": 40.75,
-      "rank": 11,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 11,
+      "tags": []
     },
     {
       "id": "one-year-of-responses",
@@ -412,10 +412,10 @@
       "upload_date": "20260311",
       "duration_seconds": null,
       "composite_base": 27,
-      "rank": 12,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 12,
+      "tags": []
     }
   ],
   "too_long": [],

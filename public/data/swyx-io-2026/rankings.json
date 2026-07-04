@@ -29,6 +29,8 @@
       "upload_date": "20260314",
       "duration_seconds": null,
       "composite_base": 70.25,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -39,9 +41,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "shorter",
@@ -68,15 +68,15 @@
       "upload_date": "20260216",
       "duration_seconds": null,
       "composite_base": 63,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 2,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "decade",
@@ -103,15 +103,15 @@
       "upload_date": "20260422",
       "duration_seconds": null,
       "composite_base": 51.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 3,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     }
   ],
   "too_long": [],

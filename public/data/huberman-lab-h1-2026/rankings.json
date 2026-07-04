@@ -1,8 +1,8 @@
 {
   "source_id": "huberman-lab-h1-2026",
-  "video_count": 49,
-  "scored_count": 49,
-  "ranked_count": 49,
+  "video_count": 50,
+  "scored_count": 50,
+  "ranked_count": 50,
   "rankings": [
     {
       "id": "xZ4I2aE8zQA",
@@ -28,6 +28,8 @@
       "upload_date": "20260409",
       "duration_seconds": 2048,
       "composite_base": 90.8,
+      "like_adjustment": 0,
+      "length_adjustment": -0.41,
       "rank": 1,
       "tags": [
         {
@@ -50,9 +52,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.41
+      ]
     },
     {
       "id": "WWe4up63hb4",
@@ -78,6 +78,8 @@
       "upload_date": "20260625",
       "duration_seconds": 1922,
       "composite_base": 90.3,
+      "like_adjustment": 0,
+      "length_adjustment": -0.2,
       "rank": 2,
       "tags": [
         {
@@ -100,9 +102,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.2
+      ]
     },
     {
       "id": "iuPQmw4Ax00",
@@ -128,6 +128,8 @@
       "upload_date": "20260312",
       "duration_seconds": 2360,
       "composite_base": 90.25,
+      "like_adjustment": 0,
+      "length_adjustment": -0.93,
       "rank": 3,
       "tags": [
         {
@@ -150,9 +152,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.93
+      ]
     },
     {
       "id": "cru_4P6qVYQ",
@@ -178,6 +178,8 @@
       "upload_date": "20260305",
       "duration_seconds": 1853,
       "composite_base": 87.8,
+      "like_adjustment": 0,
+      "length_adjustment": -0.09,
       "rank": 4,
       "tags": [
         {
@@ -200,9 +202,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.09
+      ]
     },
     {
       "id": "3bnLgOxHMB8",
@@ -228,6 +228,8 @@
       "upload_date": "20260423",
       "duration_seconds": 2128,
       "composite_base": 87.5,
+      "like_adjustment": 0,
+      "length_adjustment": -0.55,
       "rank": 5,
       "tags": [
         {
@@ -250,9 +252,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.55
+      ]
     },
     {
       "id": "syJYZm5OZhE",
@@ -278,6 +278,8 @@
       "upload_date": "20260618",
       "duration_seconds": 1936,
       "composite_base": 87,
+      "like_adjustment": 0,
+      "length_adjustment": -0.23,
       "rank": 6,
       "tags": [
         {
@@ -300,9 +302,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.23
+      ]
     },
     {
       "id": "916vhhUsmgE",
@@ -328,6 +328,8 @@
       "upload_date": "20260514",
       "duration_seconds": 1999,
       "composite_base": 86.8,
+      "like_adjustment": 0,
+      "length_adjustment": -0.33,
       "rank": 7,
       "tags": [
         {
@@ -350,9 +352,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.33
+      ]
     },
     {
       "id": "7UeojKTzeHE",
@@ -378,6 +378,8 @@
       "upload_date": "20260226",
       "duration_seconds": 2309,
       "composite_base": 87.3,
+      "like_adjustment": 0,
+      "length_adjustment": -0.85,
       "rank": 8,
       "tags": [
         {
@@ -400,9 +402,55 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "O-groYMqrQw",
+      "title": "Essentials: Tools for Hormone Optimization in Males | Dr. Kyle Gillett",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=O-groYMqrQw",
+      "status": "ok",
+      "summary_bullets": [
+        "Diet, exercise, sleep pillars for hormones.",
+        "Supplements: creatine, L-carnitine, tongkat ali.",
+        "Testosterone therapy risks and monitoring.",
+        "SHBG and free testosterone explained.",
+        "Hair loss drugs: topical vs systemic."
       ],
+      "composite": 85.67,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Essentials: Tools for Hormone Optimization in Males | Dr. Kyle Gillett",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9.5,
+      "insight_density": 9,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260702",
+      "duration_seconds": 2178,
+      "composite_base": 86.3,
       "like_adjustment": 0,
-      "length_adjustment": -0.85
+      "length_adjustment": -0.63,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "qUUfucHC7tU",
@@ -427,7 +475,9 @@
       "upload_date": "20260430",
       "duration_seconds": 1779,
       "composite_base": 85.5,
-      "rank": 9,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 10,
       "tags": [
         {
           "label": "Substance",
@@ -445,9 +495,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "RmwbNdyrilk",
@@ -473,7 +521,9 @@
       "upload_date": "20260115",
       "duration_seconds": 2212,
       "composite_base": 85.8,
-      "rank": 10,
+      "like_adjustment": 0,
+      "length_adjustment": -0.69,
+      "rank": 11,
       "tags": [
         {
           "label": "Substance",
@@ -495,9 +545,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.69
+      ]
     },
     {
       "id": "MOPqSEK6GvA",
@@ -523,7 +571,9 @@
       "upload_date": "20260521",
       "duration_seconds": 1713,
       "composite_base": 84.75,
-      "rank": 11,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 12,
       "tags": [
         {
           "label": "Substance",
@@ -541,9 +591,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "0VSOoMuStvg",
@@ -569,7 +617,9 @@
       "upload_date": "20260402",
       "duration_seconds": 2066,
       "composite_base": 85,
-      "rank": 12,
+      "like_adjustment": 0,
+      "length_adjustment": -0.44,
+      "rank": 13,
       "tags": [
         {
           "label": "Substance",
@@ -587,9 +637,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.44
+      ]
     },
     {
       "id": "fh2dBmLN-ZM",
@@ -615,7 +663,9 @@
       "upload_date": "20260101",
       "duration_seconds": 2137,
       "composite_base": 84.75,
-      "rank": 13,
+      "like_adjustment": 0,
+      "length_adjustment": -0.56,
+      "rank": 14,
       "tags": [
         {
           "label": "Substance",
@@ -633,9 +683,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.56
+      ]
     },
     {
       "id": "RECLTp_YxSU",
@@ -661,7 +709,9 @@
       "upload_date": "20260319",
       "duration_seconds": 1922,
       "composite_base": 83,
-      "rank": 14,
+      "like_adjustment": 0,
+      "length_adjustment": -0.2,
+      "rank": 15,
       "tags": [
         {
           "label": "Evidence",
@@ -679,9 +729,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.2
+      ]
     },
     {
       "id": "GkG1hMhIQ_Q",
@@ -706,7 +754,9 @@
       "upload_date": "20260604",
       "duration_seconds": 2204,
       "composite_base": 83.3,
-      "rank": 15,
+      "like_adjustment": 0,
+      "length_adjustment": -0.67,
+      "rank": 16,
       "tags": [
         {
           "label": "Substance",
@@ -724,9 +774,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.67
+      ]
     },
     {
       "id": "hnzrPKvRBD8",
@@ -752,7 +800,9 @@
       "upload_date": "20260326",
       "duration_seconds": 2034,
       "composite_base": 80.25,
-      "rank": 16,
+      "like_adjustment": 0,
+      "length_adjustment": -0.39,
+      "rank": 17,
       "tags": [
         {
           "label": "Specificity",
@@ -766,9 +816,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.39
+      ]
     },
     {
       "id": "jjaFnKtytqI",
@@ -794,7 +842,9 @@
       "upload_date": "20260608",
       "duration_seconds": 7025,
       "composite_base": 88.5,
-      "rank": 17,
+      "like_adjustment": 0,
+      "length_adjustment": -8.71,
+      "rank": 18,
       "tags": [
         {
           "label": "Substance",
@@ -816,9 +866,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -8.71
+      ]
     },
     {
       "id": "RTgJSQtvo88",
@@ -844,7 +892,9 @@
       "upload_date": "20260611",
       "duration_seconds": 2099,
       "composite_base": 79.8,
-      "rank": 18,
+      "like_adjustment": 0,
+      "length_adjustment": -0.5,
+      "rank": 19,
       "tags": [
         {
           "label": "Specificity",
@@ -858,9 +908,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.5
+      ]
     },
     {
       "id": "PlQyGIIAGNo",
@@ -885,7 +933,9 @@
       "upload_date": "20260528",
       "duration_seconds": 2111,
       "composite_base": 79.25,
-      "rank": 19,
+      "like_adjustment": 0,
+      "length_adjustment": -0.52,
+      "rank": 20,
       "tags": [
         {
           "label": "Specificity",
@@ -899,9 +949,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.52
+      ]
     },
     {
       "id": "NEkUNahduWY",
@@ -927,7 +975,9 @@
       "upload_date": "20260212",
       "duration_seconds": 2149,
       "composite_base": 79.3,
-      "rank": 20,
+      "like_adjustment": 0,
+      "length_adjustment": -0.58,
+      "rank": 21,
       "tags": [
         {
           "label": "Specificity",
@@ -941,9 +991,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.58
+      ]
     },
     {
       "id": "23t_ynq2tmk",
@@ -969,7 +1017,9 @@
       "upload_date": "20260108",
       "duration_seconds": 1812,
       "composite_base": 77.5,
-      "rank": 21,
+      "like_adjustment": 0,
+      "length_adjustment": -0.02,
+      "rank": 22,
       "tags": [
         {
           "label": "Specificity",
@@ -983,9 +1033,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.02
+      ]
     },
     {
       "id": "VPi_eWiaqdg",
@@ -1011,7 +1059,9 @@
       "upload_date": "20260202",
       "duration_seconds": 9685,
       "composite_base": 89.3,
-      "rank": 22,
+      "like_adjustment": 0,
+      "length_adjustment": -13.14,
+      "rank": 23,
       "tags": [
         {
           "label": "Substance",
@@ -1033,9 +1083,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -13.14
+      ]
     },
     {
       "id": "U6dnOVth7-I",
@@ -1061,7 +1109,9 @@
       "upload_date": "20260416",
       "duration_seconds": 2150,
       "composite_base": 76.3,
-      "rank": 23,
+      "like_adjustment": 0,
+      "length_adjustment": -0.58,
+      "rank": 24,
       "tags": [
         {
           "label": "Specificity",
@@ -1071,9 +1121,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.58
+      ]
     },
     {
       "id": "u4VTFb4awrQ",
@@ -1099,7 +1147,9 @@
       "upload_date": "20260309",
       "duration_seconds": 8833,
       "composite_base": 87.3,
-      "rank": 24,
+      "like_adjustment": 0,
+      "length_adjustment": -11.72,
+      "rank": 25,
       "tags": [
         {
           "label": "Substance",
@@ -1121,9 +1171,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -11.72
+      ]
     },
     {
       "id": "6-mEiwe2NhE",
@@ -1149,7 +1197,9 @@
       "upload_date": "20260330",
       "duration_seconds": 7878,
       "composite_base": 84.5,
-      "rank": 25,
+      "like_adjustment": 0,
+      "length_adjustment": -10.13,
+      "rank": 26,
       "tags": [
         {
           "label": "Substance",
@@ -1171,9 +1221,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -10.13
+      ]
     },
     {
       "id": "BRG4_KfTxbs",
@@ -1199,15 +1247,15 @@
       "upload_date": "20260129",
       "duration_seconds": 1909,
       "composite_base": 73.5,
-      "rank": 26,
+      "like_adjustment": 0,
+      "length_adjustment": -0.18,
+      "rank": 27,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.18
+      ]
     },
     {
       "id": "rAbJC-Qaw7Q",
@@ -1233,7 +1281,9 @@
       "upload_date": "20260209",
       "duration_seconds": 9723,
       "composite_base": 86,
-      "rank": 27,
+      "like_adjustment": 0,
+      "length_adjustment": -13.21,
+      "rank": 28,
       "tags": [
         {
           "label": "Substance",
@@ -1255,9 +1305,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -13.21
+      ]
     },
     {
       "id": "Tmw2dW0a9DY",
@@ -1283,7 +1331,9 @@
       "upload_date": "20260406",
       "duration_seconds": 8420,
       "composite_base": 82.8,
-      "rank": 28,
+      "like_adjustment": 0,
+      "length_adjustment": -11.03,
+      "rank": 29,
       "tags": [
         {
           "label": "Substance",
@@ -1301,9 +1351,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -11.03
+      ]
     },
     {
       "id": "Ew0-Lg_Evj0",
@@ -1329,7 +1377,9 @@
       "upload_date": "20260223",
       "duration_seconds": 7154,
       "composite_base": 80.5,
-      "rank": 29,
+      "like_adjustment": 0,
+      "length_adjustment": -8.92,
+      "rank": 30,
       "tags": [
         {
           "label": "Substance",
@@ -1343,9 +1393,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -8.92
+      ]
     },
     {
       "id": "hlOA8ObQJXo",
@@ -1371,7 +1419,9 @@
       "upload_date": "20260316",
       "duration_seconds": 9825,
       "composite_base": 84.8,
-      "rank": 30,
+      "like_adjustment": 0,
+      "length_adjustment": -13.38,
+      "rank": 31,
       "tags": [
         {
           "label": "Substance",
@@ -1389,9 +1439,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -13.38
+      ]
     },
     {
       "id": "_Q4XT82yd-Q",
@@ -1417,7 +1465,9 @@
       "upload_date": "20260216",
       "duration_seconds": 9118,
       "composite_base": 82.8,
-      "rank": 31,
+      "like_adjustment": 0,
+      "length_adjustment": -12.2,
+      "rank": 32,
       "tags": [
         {
           "label": "Substance",
@@ -1435,9 +1485,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -12.2
+      ]
     },
     {
       "id": "sQcS6f2qYoQ",
@@ -1463,7 +1511,9 @@
       "upload_date": "20260427",
       "duration_seconds": 9352,
       "composite_base": 83,
-      "rank": 32,
+      "like_adjustment": 0,
+      "length_adjustment": -12.59,
+      "rank": 33,
       "tags": [
         {
           "label": "Substance",
@@ -1481,9 +1531,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -12.59
+      ]
     },
     {
       "id": "RTPNJgHeZBI",
@@ -1509,7 +1557,9 @@
       "upload_date": "20260413",
       "duration_seconds": 9363,
       "composite_base": 83,
-      "rank": 33,
+      "like_adjustment": 0,
+      "length_adjustment": -12.61,
+      "rank": 34,
       "tags": [
         {
           "label": "Substance",
@@ -1527,9 +1577,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -12.61
+      ]
     },
     {
       "id": "iNL_BFlHYZ8",
@@ -1555,15 +1603,15 @@
       "upload_date": "20260122",
       "duration_seconds": 2004,
       "composite_base": 70.5,
-      "rank": 34,
+      "like_adjustment": 0,
+      "length_adjustment": -0.34,
+      "rank": 35,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.34
+      ]
     },
     {
       "id": "Q2hOryHdgAk",
@@ -1589,7 +1637,9 @@
       "upload_date": "20260518",
       "duration_seconds": 9025,
       "composite_base": 82,
-      "rank": 35,
+      "like_adjustment": 0,
+      "length_adjustment": -12.04,
+      "rank": 36,
       "tags": [
         {
           "label": "Substance",
@@ -1607,9 +1657,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -12.04
+      ]
     },
     {
       "id": "e89rVf4Pf0k",
@@ -1635,7 +1683,9 @@
       "upload_date": "20260511",
       "duration_seconds": 8870,
       "composite_base": 81,
-      "rank": 36,
+      "like_adjustment": 0,
+      "length_adjustment": -11.78,
+      "rank": 37,
       "tags": [
         {
           "label": "Substance",
@@ -1649,9 +1699,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -11.78
+      ]
     },
     {
       "id": "lEULFeUVYf0",
@@ -1677,7 +1725,9 @@
       "upload_date": "20260126",
       "duration_seconds": 8652,
       "composite_base": 80.3,
-      "rank": 37,
+      "like_adjustment": 0,
+      "length_adjustment": -11.42,
+      "rank": 38,
       "tags": [
         {
           "label": "Substance",
@@ -1695,9 +1745,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -11.42
+      ]
     },
     {
       "id": "_DfqnpSbMfE",
@@ -1723,7 +1771,9 @@
       "upload_date": "20260601",
       "duration_seconds": 10103,
       "composite_base": 82.5,
-      "rank": 38,
+      "like_adjustment": 0,
+      "length_adjustment": -13.84,
+      "rank": 39,
       "tags": [
         {
           "label": "Substance",
@@ -1741,9 +1791,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -13.84
+      ]
     },
     {
       "id": "aKDzF_fMMrc",
@@ -1769,15 +1817,15 @@
       "upload_date": "20260507",
       "duration_seconds": 2020,
       "composite_base": 69,
-      "rank": 39,
+      "like_adjustment": 0,
+      "length_adjustment": -0.37,
+      "rank": 40,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.37
+      ]
     },
     {
       "id": "bdsc3Spm6Sw",
@@ -1803,7 +1851,9 @@
       "upload_date": "20260105",
       "duration_seconds": 9319,
       "composite_base": 81,
-      "rank": 40,
+      "like_adjustment": 0,
+      "length_adjustment": -12.53,
+      "rank": 41,
       "tags": [
         {
           "label": "Substance",
@@ -1817,9 +1867,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -12.53
+      ]
     },
     {
       "id": "9GzlbLIU5dU",
@@ -1845,7 +1893,9 @@
       "upload_date": "20260219",
       "duration_seconds": 2091,
       "composite_base": 68,
-      "rank": 41,
+      "like_adjustment": 0,
+      "length_adjustment": -0.49,
+      "rank": 42,
       "tags": [
         {
           "label": "Specificity",
@@ -1855,9 +1905,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.49
+      ]
     },
     {
       "id": "s95KFJ2efm4",
@@ -1883,7 +1931,9 @@
       "upload_date": "20260525",
       "duration_seconds": 8210,
       "composite_base": 77.8,
-      "rank": 42,
+      "like_adjustment": 0,
+      "length_adjustment": -10.68,
+      "rank": 43,
       "tags": [
         {
           "label": "Substance",
@@ -1893,9 +1943,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -10.68
+      ]
     },
     {
       "id": "CV0GtUlJ6NM",
@@ -1921,7 +1969,9 @@
       "upload_date": "20260622",
       "duration_seconds": 10216,
       "composite_base": 80,
-      "rank": 43,
+      "like_adjustment": 0,
+      "length_adjustment": -14.03,
+      "rank": 44,
       "tags": [
         {
           "label": "Substance",
@@ -1931,9 +1981,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -14.03
+      ]
     },
     {
       "id": "FBgM7jndkLQ",
@@ -1959,15 +2007,15 @@
       "upload_date": "20260420",
       "duration_seconds": 8858,
       "composite_base": 77,
-      "rank": 44,
+      "like_adjustment": 0,
+      "length_adjustment": -11.76,
+      "rank": 45,
       "tags": [
         {
           "label": "Substance",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -11.76
+      ]
     },
     {
       "id": "Zz8chJwh3S4",
@@ -1993,7 +2041,9 @@
       "upload_date": "20260629",
       "duration_seconds": 10789,
       "composite_base": 79.8,
-      "rank": 45,
+      "like_adjustment": 0,
+      "length_adjustment": -14.98,
+      "rank": 46,
       "tags": [
         {
           "label": "Substance",
@@ -2007,9 +2057,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -14.98
+      ]
     },
     {
       "id": "qzXU390N3vs",
@@ -2035,15 +2083,15 @@
       "upload_date": "20260119",
       "duration_seconds": 10044,
       "composite_base": 72,
-      "rank": 46,
+      "like_adjustment": 0,
+      "length_adjustment": -13.74,
+      "rank": 47,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -13.74
+      ]
     },
     {
       "id": "JsICN9ZiSjA",
@@ -2069,15 +2117,15 @@
       "upload_date": "20260205",
       "duration_seconds": 2170,
       "composite_base": 56.75,
-      "rank": 47,
+      "like_adjustment": 0,
+      "length_adjustment": -0.62,
+      "rank": 48,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.62
+      ]
     },
     {
       "id": "cWCs7dxrt-A",
@@ -2103,10 +2151,10 @@
       "upload_date": "20260504",
       "duration_seconds": 7803,
       "composite_base": 62,
-      "rank": 48,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -10.01
+      "length_adjustment": -10.01,
+      "rank": 49,
+      "tags": []
     },
     {
       "id": "baecUt1GaPk",
@@ -2132,15 +2180,15 @@
       "upload_date": "20260615",
       "duration_seconds": 10511,
       "composite_base": 65.75,
-      "rank": 49,
+      "like_adjustment": 0,
+      "length_adjustment": -14.52,
+      "rank": 50,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -14.52
+      ]
     }
   ],
   "too_long": [],

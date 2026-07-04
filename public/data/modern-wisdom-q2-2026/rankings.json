@@ -1,9 +1,8 @@
 {
   "source_id": "modern-wisdom-q2-2026",
-  "model": "accounts/fireworks/models/deepseek-v4-flash",
-  "video_count": 29,
-  "scored_count": 29,
-  "ranked_count": 29,
+  "video_count": 179,
+  "scored_count": 30,
+  "ranked_count": 30,
   "rankings": [
     {
       "id": "J_W5X-tlmU8",
@@ -11,7 +10,6 @@
       "speakers": "Sonja Lyubomirsky",
       "url": "https://www.youtube.com/watch?v=J_W5X-tlmU8",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Happiness interventions work by increasing connection.",
         "Feeling loved requires being known, not admired.",
@@ -31,10 +29,10 @@
       "upload_date": "20260625",
       "duration_seconds": 4315,
       "composite_base": 74,
-      "rank": 1,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -4.19
+      "length_adjustment": -4.19,
+      "rank": 1,
+      "tags": []
     },
     {
       "id": "VuUvxCmSVf4",
@@ -42,7 +40,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=VuUvxCmSVf4",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Nearly died from staph infection causing necrotizing pneumonia.",
         "Received double lung transplant after 37-day coma.",
@@ -61,15 +58,15 @@
       "upload_date": "20260627",
       "duration_seconds": 3948,
       "composite_base": 71.75,
+      "like_adjustment": 0,
+      "length_adjustment": -3.58,
       "rank": 2,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -3.58
+      ]
     },
     {
       "id": "L9vdtbSZLDU",
@@ -77,7 +74,6 @@
       "speakers": "Arthur Brooks",
       "url": "https://www.youtube.com/watch?v=L9vdtbSZLDU",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Meaning has three components: coherence, purpose, significance.",
         "Coherence answers “why are things happening?”",
@@ -96,10 +92,41 @@
       "upload_date": "20260624",
       "duration_seconds": 620,
       "composite_base": 68,
-      "rank": 3,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 3,
+      "tags": []
+    },
+    {
+      "id": "Cm1so_eZQ74",
+      "title": "“75% Of Men Said Yes. 0% Of Women Did.”",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Cm1so_eZQ74",
+      "status": "ok",
+      "summary_bullets": [
+        "Clark Hatfield study: men vs women casual sex offers.",
+        "Sperm donor preferences reveal mate selection.",
+        "Women refuse rudely due to risk and insult.",
+        "Men flattered by rare female approach.",
+        "Physical safety explains part of gender gap."
+      ],
+      "composite": 65.25,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Sex Differences in Casual Sex Acceptance: Clark Hatfield Study",
+      "substance": 6.5,
+      "evidence": 6,
+      "specificity": 7,
+      "insight_density": 6.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260630",
+      "duration_seconds": 510,
+      "composite_base": 65.25,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 4,
+      "tags": []
     },
     {
       "id": "Pz66L2aw9MU",
@@ -107,7 +134,6 @@
       "speakers": "Arthur Brooks",
       "url": "https://www.youtube.com/watch?v=Pz66L2aw9MU",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Recipe for a meaningless life.",
         "Boredom vs. boring life paradox.",
@@ -127,15 +153,15 @@
       "upload_date": "20260609",
       "duration_seconds": 709,
       "composite_base": 64.25,
-      "rank": 4,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 5,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "IY-UW2gmnVI",
@@ -143,7 +169,6 @@
       "speakers": "Arthur Brooks",
       "url": "https://www.youtube.com/watch?v=IY-UW2gmnVI",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Modern life is simulated via algorithms.",
         "Left brain dominance causes meaning crisis.",
@@ -163,10 +188,10 @@
       "upload_date": "20260611",
       "duration_seconds": 6841,
       "composite_base": 72.3,
-      "rank": 5,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -8.4
+      "length_adjustment": -8.4,
+      "rank": 6,
+      "tags": []
     },
     {
       "id": "stQwaNt802U",
@@ -174,7 +199,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=stQwaNt802U",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Democrats tweet “Shut up, you ugly” at Steven Miller.",
         "Political discourse degraded by algorithmic media.",
@@ -193,10 +217,10 @@
       "upload_date": "20260619",
       "duration_seconds": 734,
       "composite_base": 62.75,
-      "rank": 6,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 7,
+      "tags": []
     },
     {
       "id": "8BI0tgKT7To",
@@ -204,7 +228,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=8BI0tgKT7To",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Monk mode: temporary isolation for self-improvement.",
         "Dark side: can become addictive, prevent reintegration.",
@@ -224,10 +247,10 @@
       "upload_date": "20260617",
       "duration_seconds": 469,
       "composite_base": 61.75,
-      "rank": 7,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 8,
+      "tags": []
     },
     {
       "id": "0VPdzXBbASM",
@@ -235,7 +258,6 @@
       "speakers": "Chase Hughes",
       "url": "https://www.youtube.com/watch?v=0VPdzXBbASM",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Insecurity triggers protective body postures",
         "Lip compression signals withholding information",
@@ -255,45 +277,15 @@
       "upload_date": "20260603",
       "duration_seconds": 579,
       "composite_base": 61.5,
-      "rank": 8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 9,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
-    },
-    {
-      "id": "Cm1so_eZQ74",
-      "title": "“75% Of Men Said Yes. 0% Of Women Did.”",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=Cm1so_eZQ74",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Sperm donor study reveals mate preferences.",
-        "Clark Hatfield: 75% men yes, 0% women.",
-        "Men flattered; women insulted by approach.",
-        "Physical risk and mate value disparity discussed."
-      ],
-      "composite": 56.5,
-      "confidence": "High",
-      "audience_level": "general",
-      "substance": 5.5,
-      "evidence": 5.5,
-      "specificity": 6,
-      "insight_density": 5,
-      "non_promotion": 7.5,
-      "like_count": null,
-      "upload_date": "20260630",
-      "duration_seconds": 510,
-      "composite_base": 56.5,
-      "rank": 9,
-      "tags": [],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "KlVIhWasIC8",
@@ -301,7 +293,6 @@
       "speakers": "Alex Hormozi",
       "url": "https://www.youtube.com/watch?v=KlVIhWasIC8",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "20 hours yields competence in any skill.",
         "Most people delay starting for years.",
@@ -321,10 +312,10 @@
       "upload_date": "20260626",
       "duration_seconds": 734,
       "composite_base": 56.5,
-      "rank": 10,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 10,
+      "tags": []
     },
     {
       "id": "b9qpMIuHIYQ",
@@ -332,7 +323,6 @@
       "speakers": "Arthur Brooks",
       "url": "https://www.youtube.com/watch?v=b9qpMIuHIYQ",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Phone addiction has three behavioral steps to break.",
         "First step: get angry enough to rebel.",
@@ -352,10 +342,10 @@
       "upload_date": "20260614",
       "duration_seconds": 531,
       "composite_base": 54.25,
-      "rank": 11,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 11,
+      "tags": []
     },
     {
       "id": "u_CBFa4BXq4",
@@ -363,7 +353,6 @@
       "speakers": "Suzanne Venker",
       "url": "https://www.youtube.com/watch?v=u_CBFa4BXq4",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Women misled to prioritize career over family.",
         "Around 30, many feel stuck wanting family.",
@@ -383,10 +372,10 @@
       "upload_date": "20260620",
       "duration_seconds": 7040,
       "composite_base": 61.3,
-      "rank": 12,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -8.73
+      "length_adjustment": -8.73,
+      "rank": 12,
+      "tags": []
     },
     {
       "id": "Qefc9vNyxHU",
@@ -394,7 +383,6 @@
       "speakers": "Ezra Klein",
       "url": "https://www.youtube.com/watch?v=Qefc9vNyxHU",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Attention as a public good",
         "Algorithmic media degrades political discourse",
@@ -408,10 +396,10 @@
       "upload_date": "20260622",
       "duration_seconds": 7737,
       "composite_base": 62,
-      "rank": 13,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -9.9
+      "length_adjustment": -9.9,
+      "rank": 13,
+      "tags": []
     },
     {
       "id": "7q9g3khJdAE",
@@ -419,7 +407,6 @@
       "speakers": "Quinlan Walther",
       "url": "https://www.youtube.com/watch?v=7q9g3khJdAE",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Partner choice reveals self-worth through your reaction",
         "Selfrust framework: curiosity, capacity, compassion, commitment",
@@ -438,10 +425,10 @@
       "upload_date": "20260613",
       "duration_seconds": 5600,
       "composite_base": 58,
-      "rank": 14,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -6.33
+      "length_adjustment": -6.33,
+      "rank": 14,
+      "tags": []
     },
     {
       "id": "CHj7FSfjJjc",
@@ -449,7 +436,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=CHj7FSfjJjc",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Self-awareness can inhibit action.",
         "Hamlet's \"conscience\" means consciousness.",
@@ -469,10 +455,10 @@
       "upload_date": "20260621",
       "duration_seconds": 682,
       "composite_base": 50.8,
-      "rank": 15,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 15,
+      "tags": []
     },
     {
       "id": "QbV2d4lfY7s",
@@ -480,7 +466,6 @@
       "speakers": "Navy SEAL",
       "url": "https://www.youtube.com/watch?v=QbV2d4lfY7s",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Navy SEAL describes 5-MeO-DMT experience.",
         "Medicine helped him confront guilt and trauma.",
@@ -500,10 +485,10 @@
       "upload_date": "20260616",
       "duration_seconds": 1256,
       "composite_base": 50.8,
-      "rank": 16,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 16,
+      "tags": []
     },
     {
       "id": "Nn1ezadJrxo",
@@ -511,7 +496,6 @@
       "speakers": "Mark Manson",
       "url": "https://www.youtube.com/watch?v=Nn1ezadJrxo",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Pain as fuel, not crutch.",
         "Victimhood Olympics criticized.",
@@ -530,10 +514,10 @@
       "upload_date": "20260607",
       "duration_seconds": 678,
       "composite_base": 50.5,
-      "rank": 17,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 17,
+      "tags": []
     },
     {
       "id": "10xFyuBmUrs",
@@ -541,7 +525,6 @@
       "speakers": "Navy SEAL",
       "url": "https://www.youtube.com/watch?v=10xFyuBmUrs",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "War prolonged to avoid brutal reality.",
         "Clearing Fallujah meant killing all males.",
@@ -561,10 +544,10 @@
       "upload_date": "20260612",
       "duration_seconds": 680,
       "composite_base": 50,
-      "rank": 18,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 18,
+      "tags": []
     },
     {
       "id": "QrImqwxUVrk",
@@ -572,7 +555,6 @@
       "speakers": "How Alex Hormozi Changed His Life",
       "url": "https://www.youtube.com/watch?v=QrImqwxUVrk",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Fear can be used as motivator.",
         "Sacrifice old identity for growth.",
@@ -592,10 +574,10 @@
       "upload_date": "20260623",
       "duration_seconds": 860,
       "composite_base": 48,
-      "rank": 19,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 19,
+      "tags": []
     },
     {
       "id": "JR2vbnw32ro",
@@ -603,7 +585,6 @@
       "speakers": "Zach Braff",
       "url": "https://www.youtube.com/watch?v=JR2vbnw32ro",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Obsessive attention to detail drives career success.",
         "Same trait harms personal relationships and rest.",
@@ -623,10 +604,10 @@
       "upload_date": "20260606",
       "duration_seconds": 4710,
       "composite_base": 51,
-      "rank": 20,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -4.85
+      "length_adjustment": -4.85,
+      "rank": 20,
+      "tags": []
     },
     {
       "id": "kBNCFocQ_dM",
@@ -634,7 +615,6 @@
       "speakers": "Isabel Brown",
       "url": "https://www.youtube.com/watch?v=kBNCFocQ_dM",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Female looksmaxing targets teenage girls.",
         "SSRI overprescription causes permanent sexual dysfunction.",
@@ -654,10 +634,10 @@
       "upload_date": "20260604",
       "duration_seconds": 6763,
       "composite_base": 47.5,
-      "rank": 21,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -8.27
+      "length_adjustment": -8.27,
+      "rank": 21,
+      "tags": []
     },
     {
       "id": "oVe38uG4CKU",
@@ -665,7 +645,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=oVe38uG4CKU",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Family provides liberation similar to financial independence.",
         "Fathers report changed priorities and less anxiety.",
@@ -683,10 +662,10 @@
       "upload_date": "20260610",
       "duration_seconds": 373,
       "composite_base": 37,
-      "rank": 22,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 22,
+      "tags": []
     },
     {
       "id": "r5lmWhX5wBk",
@@ -694,7 +673,6 @@
       "speakers": "Settling Down, Being A Feminist & Sleeping With An Ex",
       "url": "https://www.youtube.com/watch?v=r5lmWhX5wBk",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Host explains new group episode format",
         "Advice on sleeping with an ex",
@@ -713,10 +691,10 @@
       "upload_date": "20260530",
       "duration_seconds": 5202,
       "composite_base": 42.5,
-      "rank": 23,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -5.67
+      "length_adjustment": -5.67,
+      "rank": 23,
+      "tags": []
     },
     {
       "id": "c7WfTprQ58U",
@@ -724,7 +702,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=c7WfTprQ58U",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Kenki Kids uses X payout for handjob parlors.",
         "Cultural isolation vs. internet homogenization.",
@@ -743,10 +720,10 @@
       "upload_date": "20260628",
       "duration_seconds": 422,
       "composite_base": 34,
-      "rank": 24,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 24,
+      "tags": []
     },
     {
       "id": "6uGTzZlVlns",
@@ -754,7 +731,6 @@
       "speakers": "Joe Santagato",
       "url": "https://www.youtube.com/watch?v=6uGTzZlVlns",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Nonchalance as insecurity, not confidence.",
         "Trying hard is valuable despite social stigma.",
@@ -773,10 +749,26 @@
       "upload_date": "20260605",
       "duration_seconds": 356,
       "composite_base": 33.8,
-      "rank": 25,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 25,
+      "tags": []
+    },
+    {
+      "id": "E9DbCs0ZmBA",
+      "title": "The Art of Unstoppable Self-Belief - Joe Santagato",
+      "speakers": "Joe Santagato",
+      "url": "https://www.youtube.com/watch?v=E9DbCs0ZmBA",
+      "status": "ok",
+      "composite": 32.64,
+      "like_count": null,
+      "upload_date": "20260608",
+      "duration_seconds": 9818,
+      "composite_base": 46,
+      "like_adjustment": 0,
+      "length_adjustment": -13.36,
+      "rank": 26,
+      "tags": []
     },
     {
       "id": "-7E5B7th8eU",
@@ -784,7 +776,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=-7E5B7th8eU",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "AI versions of exes trained on chats and photos.",
         "Hosts debate whether this is healthy coping.",
@@ -804,10 +795,10 @@
       "upload_date": "20260531",
       "duration_seconds": 461,
       "composite_base": 22.25,
-      "rank": 26,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 27,
+      "tags": []
     },
     {
       "id": "1P7m6xrC8T0",
@@ -815,7 +806,6 @@
       "speakers": "George Mack",
       "url": "https://www.youtube.com/watch?v=1P7m6xrC8T0",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Listening to music at 2x speed for workouts",
         "British vs American introversion/extroversion stereotypes",
@@ -834,10 +824,10 @@
       "upload_date": "20260615",
       "duration_seconds": 4601,
       "composite_base": 24.5,
-      "rank": 27,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -4.67
+      "length_adjustment": -4.67,
+      "rank": 28,
+      "tags": []
     },
     {
       "id": "3sK49MecCCY",
@@ -845,7 +835,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=3sK49MecCCY",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "WhatsApp adoption differs due to SMS history",
         "Etymology of \"soon\" shifted from \"now\"",
@@ -865,10 +854,10 @@
       "upload_date": "20260601",
       "duration_seconds": 8890,
       "composite_base": 31,
-      "rank": 28,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -11.82
+      "length_adjustment": -11.82,
+      "rank": 29,
+      "tags": []
     },
     {
       "id": "tiTF2w9arDs",
@@ -876,7 +865,6 @@
       "speakers": "Joe Santagato",
       "url": "https://www.youtube.com/watch?v=tiTF2w9arDs",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Single guys act strangely after 7pm.",
         "Friend does headstands and sneezes 15 times.",
@@ -895,10 +883,10 @@
       "upload_date": "20260602",
       "duration_seconds": 542,
       "composite_base": 16.75,
-      "rank": 29,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 30,
+      "tags": []
     }
   ],
   "too_long": [],

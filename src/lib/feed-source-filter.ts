@@ -138,6 +138,7 @@ function buildGroupedOptions(sources: PublicSource[]): {
         value: source.slug,
         label: sourceOptionLabel(source),
         groupId: category.id,
+        searchText: `${source.title} ${source.slug} ${category.label}`,
       });
     }
   }
@@ -165,6 +166,7 @@ export function mountFeedSourceFilter(
     leaves,
     selectedValues: new Set(selected),
     bulkActions: {},
+    search: { placeholder: "Search sources…" },
     onChange: (next) => {
       const selected = new Set([...next].filter((slug) => sorted.some((source) => source.slug === slug)));
       writeFeedSourceFilter(selected, sorted);

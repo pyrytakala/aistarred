@@ -1,8 +1,8 @@
 {
   "source_id": "bens-bites-q2-2026",
-  "video_count": 19,
-  "scored_count": 19,
-  "ranked_count": 19,
+  "video_count": 20,
+  "scored_count": 20,
+  "ranked_count": 20,
   "rankings": [
     {
       "id": "bens-builds-3-an-email-app",
@@ -29,10 +29,10 @@
       "upload_date": "20260509",
       "duration_seconds": null,
       "composite_base": 42.8,
-      "rank": 1,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 1,
+      "tags": []
     },
     {
       "id": "bye-bye-fable",
@@ -58,10 +58,10 @@
       "upload_date": "20260616",
       "duration_seconds": null,
       "composite_base": 37,
-      "rank": 2,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 2,
+      "tags": []
     },
     {
       "id": "new-claude-model-fable",
@@ -88,10 +88,10 @@
       "upload_date": "20260611",
       "duration_seconds": null,
       "composite_base": 28,
-      "rank": 3,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 3,
+      "tags": []
     },
     {
       "id": "is-saas-dead",
@@ -117,10 +117,10 @@
       "upload_date": "20260526",
       "duration_seconds": null,
       "composite_base": 25.5,
-      "rank": 4,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 4,
+      "tags": []
     },
     {
       "id": "agents-feedback-tip",
@@ -146,10 +146,10 @@
       "upload_date": "20260514",
       "duration_seconds": null,
       "composite_base": 24.5,
-      "rank": 5,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 5,
+      "tags": []
     },
     {
       "id": "opus-48",
@@ -176,10 +176,10 @@
       "upload_date": "20260602",
       "duration_seconds": null,
       "composite_base": 24,
-      "rank": 6,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 6,
+      "tags": []
     },
     {
       "id": "can-i-get-my-agents-on-the-phone",
@@ -206,10 +206,10 @@
       "upload_date": "20260519",
       "duration_seconds": null,
       "composite_base": 23,
-      "rank": 7,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 7,
+      "tags": []
     },
     {
       "id": "the-first-big-exit-in-ai",
@@ -236,10 +236,10 @@
       "upload_date": "20260618",
       "duration_seconds": null,
       "composite_base": 22.5,
-      "rank": 8,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 8,
+      "tags": []
     },
     {
       "id": "hey-siri-meet-ai",
@@ -266,39 +266,41 @@
       "upload_date": "20260609",
       "duration_seconds": null,
       "composite_base": 22.5,
-      "rank": 9,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 9,
+      "tags": []
     },
     {
-      "id": "gpt-56-is-here-but",
-      "title": "GPT-5.6 is here*",
+      "id": "fable-is-back",
+      "title": "Fable is back",
       "speakers": "Ben's Bites",
-      "url": "https://www.bensbites.com/p/gpt-56-is-here-but",
+      "url": "https://www.bensbites.com/p/fable-is-back",
       "status": "ok",
       "summary_bullets": [
-        "Etched builds inference hardware, raised $800M.",
-        "OpenAI releases GPT-5.6 Sol, Terra, Luna.",
-        "Codex adoption growing, 5M weekly users.",
-        "Various AI tools and updates announced.",
-        "Newsletter includes sponsored content and promotion."
+        "AI agent booked taxi using context and tools.",
+        "Fable 5 model re-released for paid users.",
+        "Claude Sonnet 5 launched, expensive and slow.",
+        "Two new Gemini models for images and video.",
+        "List of AI product announcements and links."
       ],
-      "composite": 22.25,
+      "composite": 22,
+      "confidence": "High",
       "audience_level": "practitioner",
-      "substance": 2.5,
+      "display_title": "AI news roundup: Fable 5, Claude Sonnet 5, Gemini models, and agent workflow tips",
+      "substance": 2,
       "evidence": 2,
       "specificity": 4,
-      "insight_density": 1.5,
+      "insight_density": 2,
       "non_promotion": 1,
       "like_count": null,
-      "upload_date": "20260630",
+      "upload_date": "20260702",
       "duration_seconds": null,
-      "composite_base": 22.25,
-      "rank": 10,
-      "tags": [],
+      "composite_base": 22,
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 10,
+      "tags": []
     },
     {
       "id": "googles-take-on-openclaw",
@@ -325,10 +327,41 @@
       "upload_date": "20260521",
       "duration_seconds": null,
       "composite_base": 21.5,
-      "rank": 11,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 11,
+      "tags": []
+    },
+    {
+      "id": "gpt-56-is-here-but",
+      "title": "GPT-5.6 is here*",
+      "speakers": "Ben's Bites",
+      "url": "https://www.bensbites.com/p/gpt-56-is-here-but",
+      "status": "ok",
+      "summary_bullets": [
+        "Etched inference hardware startup coming out of stealth.",
+        "OpenAI releases GPT-5.6 Sol, Terra, Luna models.",
+        "Codex adoption growing, 5M weekly active users.",
+        "Various AI tools and product updates listed.",
+        "Author personally invested in Etched."
+      ],
+      "composite": 20.75,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "AI inference startup Etched and OpenAI GPT-5.6 updates — a promotional newsletter",
+      "substance": 1.5,
+      "evidence": 2,
+      "specificity": 4.5,
+      "insight_density": 2,
+      "non_promotion": 0.5,
+      "like_count": null,
+      "upload_date": "20260630",
+      "duration_seconds": null,
+      "composite_base": 20.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 12,
+      "tags": []
     },
     {
       "id": "learn-the-system",
@@ -355,10 +388,10 @@
       "upload_date": "20260512",
       "duration_seconds": null,
       "composite_base": 20,
-      "rank": 12,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 13,
+      "tags": []
     },
     {
       "id": "elon-doubled-limits",
@@ -385,10 +418,10 @@
       "upload_date": "20260507",
       "duration_seconds": null,
       "composite_base": 19,
-      "rank": 13,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 14,
+      "tags": []
     },
     {
       "id": "building-gets-easier",
@@ -415,10 +448,10 @@
       "upload_date": "20260430",
       "duration_seconds": null,
       "composite_base": 18.25,
-      "rank": 14,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 15,
+      "tags": []
     },
     {
       "id": "record-a-skill",
@@ -445,10 +478,10 @@
       "upload_date": "20260623",
       "duration_seconds": null,
       "composite_base": 16,
-      "rank": 15,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 16,
+      "tags": []
     },
     {
       "id": "i-signed-up-for-another-saas",
@@ -474,10 +507,10 @@
       "upload_date": "20260528",
       "duration_seconds": null,
       "composite_base": 15.5,
-      "rank": 16,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 17,
+      "tags": []
     },
     {
       "id": "build-tools-to-build-more",
@@ -504,10 +537,10 @@
       "upload_date": "20260604",
       "duration_seconds": null,
       "composite_base": 13.25,
-      "rank": 17,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 18,
+      "tags": []
     },
     {
       "id": "claude-code-in-slack",
@@ -534,10 +567,10 @@
       "upload_date": "20260625",
       "duration_seconds": null,
       "composite_base": 12,
-      "rank": 18,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 19,
+      "tags": []
     },
     {
       "id": "codex-is-gaining-steam",
@@ -563,10 +596,10 @@
       "upload_date": "20260505",
       "duration_seconds": null,
       "composite_base": 10.5,
-      "rank": 19,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 20,
+      "tags": []
     }
   ],
   "too_long": [],

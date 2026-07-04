@@ -14,7 +14,7 @@ import { getSource, loadScoringPromptForSource, promptPathForSource, resolveSour
 import { shouldDisplayVideo } from "../lib/source-filter.js";
 import { extractSpeakers, parseScoreResponse } from "../lib/parse-score.js";
 import { safeFilename, sleep } from "../lib/utils.js";
-import { finalizeRankings, loadVideos, writeRankingsPayload } from "./publish.js";
+import { finalizeRankings, buildRankingsFromScoreFiles, loadVideos, writeRankingsPayload } from "./publish.js";
 import {
   appliesDurationLimits,
   formatMinimumScoringDuration,
@@ -313,6 +313,7 @@ export async function runScore(options: {
   useCache?: boolean;
   forceRescore?: boolean;
   reparse?: boolean;
+  videoIds?: Set<string>;
 } = {}): Promise<number> {
   loadEnv();
 
@@ -341,9 +342,12 @@ export async function runScore(options: {
   }
 
   const template = loadScoringPromptForSource(source);
-  const videos = loadVideos(indexPath);
+  const allVideos = loadVideos(indexPath);
+  const videos = options.videoIds?.size
+    ? allVideos.filter((video) => options.videoIds!.has(video.id))
+    : allVideos;
   if (!videos.length) {
-    console.error("No scored transcripts found in index.");
+    console.error(options.videoIds?.size ? "No matching videos found in index." : "No scored transcripts found in index.");
     return 1;
   }
 
@@ -388,7 +392,11 @@ export async function runScore(options: {
     ),
   );
 
-  const payload = finalizeRankings(results, {
+  const rankingResults = options.videoIds?.size
+    ? buildRankingsFromScoreFiles(indexPath, outputDir, source)
+    : results;
+
+  const payload = finalizeRankings(rankingResults, {
     model,
     promptPath: String(promptPath),
     indexPath,
@@ -409,6 +417,10 @@ export async function runScoreCli(argv: string[]): Promise<number> {
   const forceRescore = argv.includes("--force-rescore");
   const noCache = argv.includes("--no-cache");
   const sourceId = resolveSourceIdFromArgv(argv);
+  const videoIdsArg = argv.find((arg, index) => argv[index - 1] === "--video-ids");
+  const videoIds = videoIdsArg
+    ? new Set(videoIdsArg.split(",").map((id) => id.trim()).filter(Boolean))
+    : undefined;
   const workersArg = argv.find((arg, index) => argv[index - 1] === "--workers");
   const maxWorkersArg = argv.find((arg, index) => argv[index - 1] === "--max-workers");
   const workers = workersArg ? Number(workersArg) : undefined;
@@ -418,6 +430,7 @@ export async function runScoreCli(argv: string[]): Promise<number> {
     reparse,
     forceRescore,
     useCache: !noCache,
+    videoIds,
     workers: Number.isFinite(workers) ? workers : undefined,
     maxWorkers: Number.isFinite(maxWorkers) ? maxWorkers : undefined,
   });

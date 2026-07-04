@@ -28,15 +28,15 @@
       "upload_date": "20260630",
       "duration_seconds": null,
       "composite_base": 62.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     }
   ],
   "too_long": [],

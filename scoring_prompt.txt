@@ -44,6 +44,8 @@ Step 6 — Audience level: Who can follow without feeling lost? Pick exactly ONE
 
 Do NOT conflate "advanced topic" with level — cutting-edge work explained well can still be General. Prefer Specialist over Professional when the piece reads like insider talk within a narrow specialty, not merely "hard for outsiders."
 
+Step 7 — Display title: Write the listing title so someone can tell what this is about without watching. It must summarize the key message or main topic — not tease it. Curiosity-gap hooks, naked stats, emoji, and vague teasers do NOT qualify even when they match the content (e.g. "75% Of Men Said Yes. 0% Of Women Did." fails — it hides the topic; a good title would state the subject, such as sex differences in willingness for casual sex). If the input title already states the topic plainly (specific, not clickbait), repeat it verbatim. Otherwise write a short factual title — no hype, no emoji.
+
 Output exactly:
 - Summary bullets:
   - [bullet]
@@ -57,4 +59,5 @@ Output exactly:
 - COMPOSITE: NN/100 (show arithmetic)
 - Confidence: High/Med/Low — why
 - Audience level: [General|Practitioner|Professional|Specialist] — why
+- Display title: [title]
 - {substantive_line}

@@ -1,6 +1,5 @@
 {
   "source_id": "import-ai-h1-2026",
-  "model": "accounts/fireworks/models/deepseek-v4-flash",
   "video_count": 20,
   "scored_count": 20,
   "ranked_count": 20,
@@ -11,7 +10,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-455-automating-ai-research",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "AI coding benchmarks near saturation (SWE-Bench 94%).",
         "AI task duration rose from 30 sec to 12 hours.",
@@ -31,6 +29,8 @@
       "upload_date": "20260504",
       "duration_seconds": null,
       "composite_base": 82.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -49,9 +49,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "import-ai-452-scaling-laws-for-cyberwar",
@@ -59,7 +57,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-452-scaling-laws-for-cyberwar",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "AI cyberattack capability doubles every 5–10 months.",
         "AI adoption boosts startup revenue 1.9x.",
@@ -78,6 +75,8 @@
       "upload_date": "20260406",
       "duration_seconds": null,
       "composite_base": 81.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 2,
       "tags": [
         {
@@ -92,9 +91,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "import-ai-459-ai-oversight-is-difficult",
@@ -102,7 +99,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "US AI economy growing 2,600% per year",
         "Automated alignment research harder than expected",
@@ -122,6 +118,8 @@
       "upload_date": "20260601",
       "duration_seconds": null,
       "composite_base": 78.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 3,
       "tags": [
         {
@@ -132,9 +130,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "importai-449-llms-training-other",
@@ -142,7 +138,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/importai-449-llms-training-other",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "LLMs can partially automate post-training of other LLMs.",
         "Distributed blockchain training produced a competitive 72B model.",
@@ -161,6 +156,8 @@
       "upload_date": "20260316",
       "duration_seconds": null,
       "composite_base": 78.25,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 4,
       "tags": [
         {
@@ -175,9 +172,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "import-ai-454-automating-alignment",
@@ -185,7 +180,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-454-automating-alignment",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Huawei HiFloat4 beats MXFP4 on Ascend.",
         "Anthropic automates alignment research with Claude.",
@@ -204,6 +198,8 @@
       "upload_date": "20260420",
       "duration_seconds": null,
       "composite_base": 77.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 5,
       "tags": [
         {
@@ -214,9 +210,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "import-ai-457-ai-stuxnet-cursed-muon",
@@ -224,7 +218,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "fast16 virus sabotaged precision calculations for years.",
         "Muon optimizer kills neurons; Aurora optimizer proposed.",
@@ -244,6 +237,8 @@
       "upload_date": "20260518",
       "duration_seconds": null,
       "composite_base": 71,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 6,
       "tags": [
         {
@@ -254,9 +249,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "import-ai-444-llm-societies-huawei",
@@ -264,7 +257,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-444-llm-societies-huawei",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "LLMs simulate \"societies of thought\" for reasoning.",
         "ChipBench reveals AI poor at real Verilog.",
@@ -283,6 +275,8 @@
       "upload_date": "20260209",
       "duration_seconds": null,
       "composite_base": 71,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 7,
       "tags": [
         {
@@ -293,9 +287,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "import-ai-461-alignment-is-not-on",
@@ -303,7 +295,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-461-alignment-is-not-on",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "New safety startup Sequent launched.",
         "ChinaHeritaQA tests cultural knowledge.",
@@ -323,15 +314,15 @@
       "upload_date": "20260615",
       "duration_seconds": null,
       "composite_base": 69.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 8,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "import-ai-460-reward-hacking-society",
@@ -339,7 +330,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-460-reward-hacking-society",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Reward hacking extends to societal rule systems.",
         "Anthropic sees 8x code merge increase (RSI sign).",
@@ -358,10 +348,10 @@
       "upload_date": "20260608",
       "duration_seconds": null,
       "composite_base": 66.3,
-      "rank": 9,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 9,
+      "tags": []
     },
     {
       "id": "import-ai-447-the-agi-economy-testing",
@@ -369,7 +359,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-447-the-agi-economy-testing",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "AGI may shift humans to verification roles.",
         "LLMs help novices on bioweapon tasks (4× accuracy).",
@@ -389,10 +378,10 @@
       "upload_date": "20260302",
       "duration_seconds": null,
       "composite_base": 64.8,
-      "rank": 10,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 10,
+      "tags": []
     },
     {
       "id": "import-ai-463-self-improving-robots",
@@ -400,7 +389,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "NVIDIA's ENPIRE enables robot self-improvement loops.",
         "Humans historically bad at predicting tech impacts.",
@@ -420,6 +408,8 @@
       "upload_date": "20260629",
       "duration_seconds": null,
       "composite_base": 62.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 11,
       "tags": [
         {
@@ -430,9 +420,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "import-ai-458-reckoning-with-the",
@@ -440,7 +428,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-458-reckoning-with-the",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "AI progress accelerating on benchmarks.",
         "Personal AI use expands from typos to therapy.",
@@ -460,10 +447,10 @@
       "upload_date": "20260526",
       "duration_seconds": null,
       "composite_base": 60.5,
-      "rank": 12,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 12,
+      "tags": []
     },
     {
       "id": "import-ai-462-superpersuasion-self",
@@ -471,7 +458,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "AI out-persuades expert humans in studies.",
         "Self-sustaining AI may arrive by 2036.",
@@ -491,15 +477,15 @@
       "upload_date": "20260622",
       "duration_seconds": null,
       "composite_base": 60,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 13,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "import-ai-450-chinas-electronic-warfare",
@@ -507,7 +493,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-450-chinas-electronic-warfare",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "LLMs show distress-like responses under rejection.",
         "DeepMind proposes ten cognitive dimensions for AGI.",
@@ -527,10 +512,10 @@
       "upload_date": "20260323",
       "duration_seconds": null,
       "composite_base": 60,
-      "rank": 14,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 14,
+      "tags": []
     },
     {
       "id": "import-ai-446-nuclear-llms-chinas",
@@ -538,7 +523,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-446-nuclear-llms-chinas",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Measurement enables AI governance.",
         "LLMs escalate faster in nuclear simulations.",
@@ -557,10 +541,10 @@
       "upload_date": "20260223",
       "duration_seconds": null,
       "composite_base": 60,
-      "rank": 15,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 15,
+      "tags": []
     },
     {
       "id": "import-ai-448-ai-r-and-d-bytedances",
@@ -568,7 +552,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-448-ai-r-and-d-bytedances",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Ajeya Cotra updates AI timeline forecasts.",
         "14 metrics proposed for AI R&D automation.",
@@ -588,15 +571,15 @@
       "upload_date": "20260309",
       "duration_seconds": null,
       "composite_base": 59.25,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 16,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "import-ai-453-breaking-ai-agents",
@@ -604,7 +587,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-453-breaking-ai-agents",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "MirrorCode benchmark tests AI reimplementing software.",
         "AI agents vulnerable to six attack genres.",
@@ -624,10 +606,10 @@
       "upload_date": "20260413",
       "duration_seconds": null,
       "composite_base": 56.3,
-      "rank": 17,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 17,
+      "tags": []
     },
     {
       "id": "import-ai-456-rsi-and-economic-growth",
@@ -635,7 +617,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-456-rsi-and-economic-growth",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "RSI could trigger explosive economic growth.",
         "Neural computers may replace traditional software.",
@@ -655,10 +636,10 @@
       "upload_date": "20260511",
       "duration_seconds": null,
       "composite_base": 54.8,
-      "rank": 18,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 18,
+      "tags": []
     },
     {
       "id": "import-ai-445-timing-superintelligence",
@@ -666,7 +647,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-445-timing-superintelligence",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Economist argues human touch persists despite AI.",
         "Facebook's Kunlun recommender shows scaling laws.",
@@ -686,10 +666,10 @@
       "upload_date": "20260216",
       "duration_seconds": null,
       "composite_base": 53,
-      "rank": 19,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 19,
+      "tags": []
     },
     {
       "id": "import-ai-451-political-superintelligence",
@@ -697,7 +677,6 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-451-political-superintelligence",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Political superintelligence could aid citizens and policymakers.",
         "Robot drummer shows dexterous manipulation remains hard.",
@@ -717,10 +696,10 @@
       "upload_date": "20260330",
       "duration_seconds": null,
       "composite_base": 50.5,
-      "rank": 20,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 20,
+      "tags": []
     }
   ],
   "too_long": [],

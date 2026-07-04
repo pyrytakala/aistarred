@@ -38,6 +38,7 @@ export interface IndexPayload {
 export interface RankedVideo {
   id: string;
   title: string;
+  display_title?: string;
   url?: string;
   speakers?: string;
   status?: string;

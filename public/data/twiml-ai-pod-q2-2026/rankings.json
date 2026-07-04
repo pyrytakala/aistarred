@@ -1,9 +1,8 @@
 {
   "source_id": "twiml-ai-pod-q2-2026",
-  "model": "accounts/fireworks/models/deepseek-v4-flash",
-  "video_count": 8,
-  "scored_count": 8,
-  "ranked_count": 8,
+  "video_count": 14,
+  "scored_count": 14,
+  "ranked_count": 14,
   "rankings": [
     {
       "id": "qeKJhlmBKFw",
@@ -11,7 +10,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=qeKJhlmBKFw",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Tests Rubik Pi as AI agent server.",
         "Compares Rubik Pi to VPS performance.",
@@ -30,6 +28,8 @@
       "upload_date": "20260622",
       "duration_seconds": 505,
       "composite_base": 78.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -44,9 +44,99 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "346Enb7CUfQ",
+      "title": "Intelligent Robots in 2026: Are We There Yet? [Nikita Rudin] - 760",
+      "speakers": "760",
+      "url": "https://www.youtube.com/watch?v=346Enb7CUfQ",
+      "status": "ok",
+      "summary_bullets": [
+        "No humanoid robot currently generates real value.",
+        "Locomotion not solved until robots match human terrain.",
+        "Modular approach beats end-to-end for now.",
+        "Sim-to-real gap requires deep hardware understanding.",
+        "Predicts value-generating humanoids by late 2026."
       ],
+      "composite": 78.39,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Intelligent Robots in 2026: Are We There Yet? [Nikita Rudin]",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260108",
+      "duration_seconds": 3968,
+      "composite_base": 82,
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": -3.61,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "-_x7lhhZK7M",
+      "title": "The Evolution of Reasoning in Small Language Models [Yejin Choi] - 761",
+      "speakers": "761",
+      "url": "https://www.youtube.com/watch?v=-_x7lhhZK7M",
+      "status": "ok",
+      "summary_bullets": [
+        "Yejin Choi on making small models reason better.",
+        "Synthetic data diversity via gradient-based filtering.",
+        "Mode collapse: LLMs produce homogeneous outputs.",
+        "Pre-training with RL improves reasoning.",
+        "Pluralistic alignment for diverse values."
+      ],
+      "composite": 77.16,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The Evolution of Reasoning in Small Language Models [Yejin Choi]",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260129",
+      "duration_seconds": 3952,
+      "composite_base": 80.75,
+      "like_adjustment": 0,
+      "length_adjustment": -3.59,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "k_tn-e6FWsU",
@@ -54,7 +144,6 @@
       "speakers": "766",
       "url": "https://www.youtube.com/watch?v=k_tn-e6FWsU",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Inference timeline from research to production is hours.",
         "GPU generations have surprising long-term staying power.",
@@ -73,7 +162,9 @@
       "upload_date": "20260430",
       "duration_seconds": 3262,
       "composite_base": 73,
-      "rank": 2,
+      "like_adjustment": 0,
+      "length_adjustment": -2.44,
+      "rank": 4,
       "tags": [
         {
           "label": "Substance",
@@ -87,9 +178,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.44
+      ]
     },
     {
       "id": "tfa4XaNiT5U",
@@ -97,7 +186,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=tfa4XaNiT5U",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Sphere uses RAG for sales tax compliance.",
         "Retrieval accuracy critical for legal citations.",
@@ -116,15 +204,15 @@
       "upload_date": "20260609",
       "duration_seconds": 3063,
       "composite_base": 71,
-      "rank": 3,
+      "like_adjustment": 0,
+      "length_adjustment": -2.11,
+      "rank": 5,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.11
+      ]
     },
     {
       "id": "SUE1L3XugiQ",
@@ -132,7 +220,6 @@
       "speakers": "765",
       "url": "https://www.youtube.com/watch?v=SUE1L3XugiQ",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Capital One built multi-agent platform for auto dealer chat.",
         "Chat Concierge uses specialized agents for car buying.",
@@ -151,10 +238,41 @@
       "upload_date": "20260416",
       "duration_seconds": 3228,
       "composite_base": 70.25,
-      "rank": 4,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.38
+      "length_adjustment": -2.38,
+      "rank": 6,
+      "tags": []
+    },
+    {
+      "id": "T6bOwti145w",
+      "title": "AI Factories Explained: What’s Actually New?",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=T6bOwti145w",
+      "status": "ok",
+      "summary_bullets": [
+        "AI factory defined as five-layer model (energy, chips, infra, models, apps).",
+        "Enterprise AI ROI rose from 5% to ~30% in one year.",
+        "Sovereign AI drives local models, talent, and economic value.",
+        "Hybrid (on-prem + cloud) seen as inevitable, not either/or.",
+        "Predictions: liquid cooling standard, agentic AI everyday, physical AI next."
+      ],
+      "composite": 64.3,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "AI Factories Explained: What’s Actually New?",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 6.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260702",
+      "duration_seconds": 925,
+      "composite_base": 64.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 7,
+      "tags": []
     },
     {
       "id": "5qJA8lWLo2A",
@@ -162,7 +280,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=5qJA8lWLo2A",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Static guardrails fail against creative agents.",
         "Human approval too slow for agent speed.",
@@ -181,15 +298,15 @@
       "upload_date": "20260616",
       "duration_seconds": 3349,
       "composite_base": 66.8,
-      "rank": 5,
+      "like_adjustment": 0,
+      "length_adjustment": -2.58,
+      "rank": 8,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.58
+      ]
     },
     {
       "id": "khSSuUyvqno",
@@ -197,7 +314,6 @@
       "speakers": "768",
       "url": "https://www.youtube.com/watch?v=khSSuUyvqno",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Relational foundation model predicts on any database without training.",
         "Graph neural networks learn directly on multi-table relational data.",
@@ -215,10 +331,77 @@
       "upload_date": "20260521",
       "duration_seconds": 3954,
       "composite_base": 66,
-      "rank": 6,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -3.59
+      "length_adjustment": -3.59,
+      "rank": 9,
+      "tags": []
+    },
+    {
+      "id": "f9jwTSfIPuM",
+      "title": "AI Trends 2026: OpenClaw Agents, Reasoning LLMs, and More [Sebastian Raschka] - 762",
+      "speakers": "762",
+      "url": "https://www.youtube.com/watch?v=f9jwTSfIPuM",
+      "status": "ok",
+      "summary_bullets": [
+        "Reasoning models and post-training focus for 2026.",
+        "Inference scaling techniques: self-consistency, self-refinement.",
+        "Agentic loops like OpenClaw (Moldbot) are emerging.",
+        "No fundamental architecture change; tweaks like multi-head latent attention.",
+        "Sebastian's new book on building reasoning models from scratch."
+      ],
+      "composite": 60.49,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "AI Trends 2026: OpenClaw Agents, Reasoning LLMs, and More [Sebastian Raschka]",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 6.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260226",
+      "duration_seconds": 4685,
+      "composite_base": 65.3,
+      "like_adjustment": 0,
+      "length_adjustment": -4.81,
+      "rank": 10,
+      "tags": []
+    },
+    {
+      "id": "0AKQm4zow_E",
+      "title": "From Code Generation to Full System Autonomy: Blitzy's Approach",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=0AKQm4zow_E",
+      "status": "ok",
+      "summary_bullets": [
+        "Blitzy uses swarms of agents for code generation.",
+        "Context and agent engineering overcome context-window limits.",
+        "Graph database anchors agents across million-line codebases.",
+        "Effective context window hasn’t improved in two years.",
+        "Eval leaderboards don’t reflect real-world model performance."
+      ],
+      "composite": 56.92,
+      "confidence": "High",
+      "audience_level": "professional",
+      "display_title": "From Code Generation to Full System Autonomy: Blitzy's Approach",
+      "substance": 7.5,
+      "evidence": 4,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260310",
+      "duration_seconds": 4545,
+      "composite_base": 61.5,
+      "like_adjustment": 0,
+      "length_adjustment": -4.58,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "ZqehXrVlDqs",
@@ -226,7 +409,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ZqehXrVlDqs",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Observability has three layers: telemetry, monitoring, analytics.",
         "Analytics finds unknown unknowns via unsupervised learning on traces.",
@@ -244,10 +426,41 @@
       "upload_date": "20260507",
       "duration_seconds": 3170,
       "composite_base": 53.75,
-      "rank": 7,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.28
+      "length_adjustment": -2.28,
+      "rank": 12,
+      "tags": []
+    },
+    {
+      "id": "UDNDOf5hT-A",
+      "title": "The Race to Production-Grade Diffusion LLMs [Stefano Ermon] - 764",
+      "speakers": "764",
+      "url": "https://www.youtube.com/watch?v=UDNDOf5hT-A",
+      "status": "ok",
+      "summary_bullets": [
+        "Diffusion models for text are now production-ready.",
+        "5-10x faster than autoregressive LLMs.",
+        "Key challenge: discrete tokens vs continuous pixels.",
+        "Inception's Mercury 2 matches speed-optimized models.",
+        "Enables controllable generation and inference scaling."
+      ],
+      "composite": 51.02,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "The Race to Production-Grade Diffusion LLMs [Stefano Ermon] - 764",
+      "substance": 6.5,
+      "evidence": 5,
+      "specificity": 6,
+      "insight_density": 5.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260326",
+      "duration_seconds": 3769,
+      "composite_base": 54.3,
+      "like_adjustment": 0,
+      "length_adjustment": -3.28,
+      "rank": 13,
+      "tags": []
     },
     {
       "id": "acddqHIwEpI",
@@ -255,7 +468,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=acddqHIwEpI",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Google Cloud Next AI stack announcements overview.",
         "Gemini Enterprise Agent Platform replaces Vertex AI.",
@@ -274,10 +486,10 @@
       "upload_date": "20260424",
       "duration_seconds": 1200,
       "composite_base": 25,
-      "rank": 8,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 14,
+      "tags": []
     }
   ],
   "too_long": [],
