@@ -3,6 +3,7 @@ import { join } from "node:path";
 
 import { AdaptiveConcurrency } from "../lib/adaptive-concurrency.js";
 import { ApiCache, fetchCachedText, fireworksCacheKey } from "../lib/api-cache.js";
+import { pipelineLog, withPipelineTiming } from "../lib/pipeline-log.js";
 import { loadEnv } from "../lib/env.js";
 import { sourcePaths } from "../lib/paths.js";
 import { getSource, promptPathForSource, resolveSourceIdFromArgv } from "../lib/sources.js";
@@ -10,7 +11,12 @@ import { shouldDisplayVideo } from "../lib/source-filter.js";
 import { extractSpeakers, parseScoreResponse } from "../lib/parse-score.js";
 import { safeFilename, sleep } from "../lib/utils.js";
 import { finalizeRankings, loadVideos, writeRankingsPayload } from "./publish.js";
-import { formatScoringDurationLimit, isTooLongForScoring } from "../lib/scoring-limits.js";
+import {
+  formatMinimumScoringDuration,
+  formatScoringDurationLimit,
+  isTooLongForScoring,
+  isTooShortForScoring,
+} from "../lib/scoring-limits.js";
 import type { RankedVideo } from "../lib/types.js";
 import type { SourceConfig } from "../lib/sources.js";
 
@@ -41,20 +47,22 @@ async function fetchFireworksCompletion(
   maxTokens = 4096,
   temperature = 0.2,
 ): Promise<Response> {
-  return fetch(FIREWORKS_URL, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${apiKey}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      model,
-      messages: [{ role: "user", content: prompt }],
-      max_tokens: maxTokens,
-      temperature,
+  return withPipelineTiming("ai-score", "fireworks-request", { model, promptChars: prompt.length }, () =>
+    fetch(FIREWORKS_URL, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        model,
+        messages: [{ role: "user", content: prompt }],
+        max_tokens: maxTokens,
+        temperature,
+      }),
+      signal: AbortSignal.timeout(300_000),
     }),
-    signal: AbortSignal.timeout(300_000),
-  });
+  );
 }
 
 async function scoreTranscript(
@@ -132,7 +140,7 @@ async function scoreVideoJob(options: {
   concurrency: AdaptiveConcurrency;
   useCache: boolean;
   forceRescore: boolean;
-  source: Pick<SourceConfig, "maxDisplayAgeDays" | "dateRange">;
+  source: Pick<SourceConfig, "id" | "maxDisplayAgeDays" | "dateRange">;
 }): Promise<RankedVideo> {
   const { video, template, apiKey, model, outputDir, cache, concurrency, useCache, forceRescore } =
     options;
@@ -142,6 +150,18 @@ async function scoreVideoJob(options: {
   const scorePath = join(outputDir, `${safeFilename(title, videoId)}.txt`);
 
   console.log(`[${options.index}/${options.total}] ${title}`);
+
+  if (isTooShortForScoring(video.duration_seconds)) {
+    console.log(`  -> skipped: ${formatMinimumScoringDuration()} or shorter`);
+    return {
+      id: videoId,
+      title,
+      url: video.url,
+      duration_seconds: video.duration_seconds ?? null,
+      status: "skipped",
+      error: "below minimum scoring duration",
+    };
+  }
 
   if (isTooLongForScoring(video.duration_seconds)) {
     console.log(`  -> skipped: longer than ${formatScoringDurationLimit()} scoring limit`);
@@ -216,6 +236,12 @@ async function scoreVideoJob(options: {
     const { raw_response: _raw, ...fields } = parsed;
     const composite = fields.composite;
     console.log(`  -> ${cacheHit ? "cache" : "api"} | ${composite ?? "?"}`);
+    pipelineLog("ai-score", "score-video", {
+      sourceId: options.source.id,
+      videoId,
+      cacheHit,
+      composite: composite ?? null,
+    });
     return {
       id: videoId,
       title,
@@ -286,7 +312,9 @@ export async function runScore(options: {
 
   const scorableCount = videos.filter(
     (video) =>
-      !isTooLongForScoring(video.duration_seconds) && shouldDisplayVideo(video.upload_date, source),
+      !isTooShortForScoring(video.duration_seconds) &&
+      !isTooLongForScoring(video.duration_seconds) &&
+      shouldDisplayVideo(video.upload_date, source),
   ).length;
   const skippedCount = videos.length - scorableCount;
 
@@ -299,7 +327,7 @@ export async function runScore(options: {
 
   console.log(
     `Scoring ${scorableCount} ${source.itemLabel} for ${source.title} with ${model} using up to ${workers} workers (adaptive 1-${maxWorkers})...` +
-      (skippedCount ? ` Skipping ${skippedCount} items outside window or over ${formatScoringDurationLimit()}.` : "") +
+      (skippedCount ? ` Skipping ${skippedCount} items outside window, under ${formatMinimumScoringDuration()}, or over ${formatScoringDurationLimit()}.` : "") +
       "\n",
   );
 

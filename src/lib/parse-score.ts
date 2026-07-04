@@ -1,20 +1,20 @@
 import type { RankedVideo } from "./types.js";
 
 const SUMMARY_BULLETS_SECTION_RE =
-  /^-\s*(?:\*\*)?Summary bullets:(?:\*\*)?\s*\n([\s\S]*?)(?=\n-\s*(?:\*\*)?Central claim)/im;
+  /^(?:-\s*)?(?:\*\*)?Summary bullets:(?:\*\*)?\s*\n([\s\S]*?)(?=\n(?:-\s*)?(?:\*\*)?Central claim)/im;
 const SUMMARY_BULLET_LINE_RE = /^\s*-\s+(.+)$/gm;
-const COMPOSITE_LINE_RE = /^-\s*(?:\*\*)?COMPOSITE/im;
+const COMPOSITE_LINE_RE = /^(?:-\s*)?(?:\*\*)?COMPOSITE/im;
 const COMPOSITE_SCORE_RE = /([\d.]+)\s*\/\s*100/g;
 const CONFIDENCE_RE = /Confidence:\s*(?:\*\*)?(High|Med|Low)/i;
 
 const DIMENSION_RES: Record<string, RegExp> = {
-  substance: /^-\s*(?:\*\*)?Substance:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
-  evidence: /^-\s*(?:\*\*)?Evidence:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
-  specificity: /^-\s*(?:\*\*)?Specificity:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
+  substance: /^(?:-\s*)?(?:\*\*)?Substance:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
+  evidence: /^(?:-\s*)?(?:\*\*)?Evidence:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
+  specificity: /^(?:-\s*)?(?:\*\*)?Specificity:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
   insight_density:
-    /^-\s*(?:\*\*)?Insight density:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
+    /^(?:-\s*)?(?:\*\*)?Insight density:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
   non_promotion:
-    /^-\s*(?:\*\*)?Non-promotion:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
+    /^(?:-\s*)?(?:\*\*)?Non-promotion:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
 };
 
 export function extractSpeakers(title: string, description?: string | null): string {

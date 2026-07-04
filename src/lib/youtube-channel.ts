@@ -4,6 +4,8 @@ import { resolve } from "node:path";
 
 import type { DateRange } from "./sources.js";
 import { isWithinDateRange } from "./date-range.js";
+import { isEligibleForScoring, MIN_SCORED_DURATION_SECONDS } from "./scoring-limits.js";
+import { pipelineLogSync } from "./pipeline-log.js";
 
 function resolveYtDlpCommand(): string[] | null {
   return resolveYtDlpCommandFrom();
@@ -43,6 +45,27 @@ export function listChannelVideosWithYtDlp(
   options: {
     dateRange?: DateRange;
     maxVideos?: number | null;
+    sourceId?: string;
+  } = {},
+): Array<[string, Record<string, unknown>]> {
+  return pipelineLogSync(
+    "yt-fetch",
+    "list-channel",
+    {
+      sourceId: options.sourceId ?? null,
+      channelUrl,
+      dateRange: options.dateRange ?? null,
+    },
+    () => listChannelVideosWithYtDlpInner(channelUrl, options),
+  );
+}
+
+function listChannelVideosWithYtDlpInner(
+  channelUrl: string,
+  options: {
+    dateRange?: DateRange;
+    maxVideos?: number | null;
+    sourceId?: string;
   } = {},
 ): Array<[string, Record<string, unknown>]> {
   const ytDlp = resolveYtDlpCommand();
@@ -63,7 +86,14 @@ export function listChannelVideosWithYtDlp(
       args.length - 1,
       0,
       "--match-filter",
-      `upload_date >= ${options.dateRange.since} & upload_date <= ${options.dateRange.until}`,
+      `upload_date >= ${options.dateRange.since} & upload_date <= ${options.dateRange.until} & duration > ${MIN_SCORED_DURATION_SECONDS}`,
+    );
+  } else {
+    args.splice(
+      args.length - 1,
+      0,
+      "--match-filter",
+      `duration > ${MIN_SCORED_DURATION_SECONDS}`,
     );
   }
 
@@ -92,6 +122,10 @@ export function listChannelVideosWithYtDlp(
     }
 
     const durationSeconds = Number(durationText);
+    if (!isEligibleForScoring(Number.isFinite(durationSeconds) ? durationSeconds : null)) {
+      continue;
+    }
+
     videos.push([
       videoId,
       {

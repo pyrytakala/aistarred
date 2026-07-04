@@ -1,0 +1,444 @@
+{
+  "source_id": "no-priors-pod-q2-2026",
+  "video_count": 13,
+  "scored_count": 13,
+  "ranked_count": 5,
+  "rankings": [
+    {
+      "id": "XAbKflCncDo",
+      "title": "Baseten CEO Tuhin Srivastava on Custom Models, and Building the Inference Cloud",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=XAbKflCncDo",
+      "status": "ok",
+      "summary_bullets": [
+        "Inference cloud grew 30x in a year.",
+        "95% of tokens are from custom models.",
+        "Capacity crunch is worse than perceived.",
+        "Software layer makes inference sticky."
+      ],
+      "composite": 81.25,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260501",
+      "duration_seconds": 2577,
+      "composite_base": 81.25,
+      "like_adjustment": 0,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "AZrU6y3pUcU",
+      "title": "Really Big Test-Time Compute in AI Changes Benchmarks, Safety and Research with OpenAI's Noam Brown",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=AZrU6y3pUcU",
+      "status": "ok",
+      "summary_bullets": [
+        "Test-time compute scaling changes model evaluation.",
+        "Benchmarks don’t account for compute budget.",
+        "Models improve with weeks of thinking.",
+        "Safety policies ignore inference budget.",
+        "Advocate plotting performance vs. compute."
+      ],
+      "composite": 79.5,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 8,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260626",
+      "duration_seconds": 2179,
+      "composite_base": 79.5,
+      "like_adjustment": 0,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "5u7AjPardvo",
+      "title": "SAP: Bringing the ‘Operating System’ of a Company into the AI Era with CTO Philipp Herzig",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=5u7AjPardvo",
+      "status": "ok",
+      "summary_bullets": [
+        "SAP's AI strategy focuses on enterprise scale.",
+        "LLMs insufficient for predictive analytics; need RPT1.",
+        "AI adoption faces data integration and security challenges.",
+        "SAP moving from seat-based to consumption pricing.",
+        "Agentic coding requires writing evals, not just code."
+      ],
+      "composite": 78,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260423",
+      "duration_seconds": 2388,
+      "composite_base": 78,
+      "like_adjustment": 0,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "QDsbFLEt9ro",
+      "title": "Building an AI Guardian for Enterprise with Onyx Security CEO Maxim Bar Kogan",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=QDsbFLEt9ro",
+      "status": "ok",
+      "summary_bullets": [
+        "AI agents cause unintended actions in enterprises.",
+        "Onyx trains small models to oversee agents.",
+        "Enterprises rapidly adopt autonomous coding agents.",
+        "Existing security tools lack agent-intent context.",
+        "Israeli ecosystem combines cyber and AI talent."
+      ],
+      "composite": 72.75,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 8.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260528",
+      "duration_seconds": 2469,
+      "composite_base": 72.75,
+      "like_adjustment": 0,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "asCgCv2XB4s",
+      "title": "Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=asCgCv2XB4s",
+      "status": "ok",
+      "summary_bullets": [
+        "Intel CEO Lip Bu Tan discusses turnaround plan.",
+        "US government becomes major shareholder in Intel.",
+        "AI demand boosts CPU importance, not just GPU.",
+        "Foundry business requires trust, yield, and IP.",
+        "Venture investing focuses on bottlenecks and applications."
+      ],
+      "composite": 72.25,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260618",
+      "duration_seconds": 2700,
+      "composite_base": 72.25,
+      "like_adjustment": 0,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    }
+  ],
+  "too_long": [],
+  "other": [
+    {
+      "id": "xjlYpGaxIPA",
+      "title": "Pax Silica: Inside the Trump Administration’s Tech Strategy with Jacob Helberg",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=xjlYpGaxIPA",
+      "status": "ok",
+      "summary_bullets": [
+        "Pax Silica coalition secures AI supply chain with allies.",
+        "Philippines grants 4,000 acres for industrial base.",
+        "Contrasts with China’s Belt and Road debt-trap model.",
+        "Focus on private-sector-led, commercially viable platforms.",
+        "Covers rare earths, robotics, and semiconductor supply chains."
+      ],
+      "composite": 71.5,
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 6.5,
+      "like_count": null,
+      "upload_date": "20260514",
+      "duration_seconds": 2281,
+      "composite_base": 71.5,
+      "like_adjustment": 0,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "jeop9wfb9jU",
+      "title": "The Story Behind Cerebras’ $63 Billion IPO with Founder and CEO Andrew Feldman",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=jeop9wfb9jU",
+      "status": "ok",
+      "summary_bullets": [
+        "Cerebras CEO on $63B IPO journey",
+        "Wafer-scale chips 15-20x faster than GPUs",
+        "Speed matters only when AI is widely used",
+        "Persevered through years of market indifference",
+        "Signed $20B+ deal with OpenAI in 2025"
+      ],
+      "composite": 71,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260521",
+      "duration_seconds": 1834,
+      "composite_base": 71,
+      "like_adjustment": 0,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "eyobeqMdbeI",
+      "title": "How AI Agents Will Transform the Financial System with Circle Co-Founder and CEO Jeremy Allaire",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=eyobeqMdbeI",
+      "status": "ok",
+      "summary_bullets": [
+        "Stablecoins as full-reserve digital dollars backed by Treasuries.",
+        "Circle’s ARC blockchain designed for real economy and AI agents.",
+        "Transaction costs now sub-cent, enabling micro-payments for AI.",
+        "Tokenization of stocks and treasuries is already happening.",
+        "AI diffusion will force new social and economic contracts."
+      ],
+      "composite": 69.3,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260409",
+      "duration_seconds": 2641,
+      "composite_base": 69.3,
+      "like_adjustment": 0,
+      "rank": 8,
+      "tags": []
+    },
+    {
+      "id": "RQE8OS392dU",
+      "title": "We Need An Ecosystem in AI, And Every Company Can Win A Place In It",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=RQE8OS392dU",
+      "status": "ok",
+      "summary_bullets": [
+        "AI ecosystem enables every company to participate.",
+        "Private evals and harnesses are key IP.",
+        "Shift from per-user to consumption pricing.",
+        "Need tangible community benefits for AI.",
+        "Agentic systems reconceptualize work."
+      ],
+      "composite": 68,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 8,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260604",
+      "duration_seconds": 2547,
+      "composite_base": 68,
+      "like_adjustment": 0,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "tNNFJa5pUEg",
+      "title": "Scaling Global Organizations in the Age of AI with ServiceNow Chairman and CEO Bill McDermott",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=tNNFJa5pUEg",
+      "status": "ok",
+      "summary_bullets": [
+        "Bill McDermott bought a deli at 16.",
+        "ServiceNow is an AI control tower for enterprises.",
+        "Enterprise platforms are 10x cheaper than replicating with LLMs.",
+        "AI agents will reduce headcount growth.",
+        "Software must be deterministic; humans forgive mistakes, software not."
+      ],
+      "composite": 65.75,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260417",
+      "duration_seconds": 3448,
+      "composite_base": 65.75,
+      "like_adjustment": 0,
+      "rank": 10,
+      "tags": []
+    },
+    {
+      "id": "Oru2Jxr1xHU",
+      "title": "AI for Atoms: How Periodic Labs is Revolutionizing Materials Engineering with Co-Founder Liam Fedus",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Oru2Jxr1xHU",
+      "status": "ok",
+      "summary_bullets": [
+        "Liam Fedus co-created ChatGPT, now building Periodic Labs.",
+        "Periodic Labs applies AI to materials science and chemistry.",
+        "AI systems need closed-loop experiments for physical world.",
+        "Language models orchestrate specialized atomic neural nets.",
+        "Materials AI requires high-quality experimental data, not just literature."
+      ],
+      "composite": 61.3,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 3,
+      "specificity": 6,
+      "insight_density": 7.5,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260403",
+      "duration_seconds": 1766,
+      "composite_base": 61.3,
+      "like_adjustment": 0,
+      "rank": 11,
+      "tags": []
+    },
+    {
+      "id": "u8cYwaLzN-k",
+      "title": "“Curing All Disease by next century is too conservative\" - Mark Zuckerberg",
+      "speakers": "Mark Zuckerberg",
+      "url": "https://www.youtube.com/watch?v=u8cYwaLzN-k",
+      "status": "ok",
+      "summary_bullets": [
+        "Biohub uses AI to accelerate biology research.",
+        "Open-source protein folding model ESM Fold released.",
+        "Goal: hierarchical world models from proteins to cells.",
+        "Treat individuals by understanding genetics and mechanisms.",
+        "AI aims to turn biology into engineering science."
+      ],
+      "composite": 57,
+      "confidence": "High",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 6,
+      "insight_density": 5.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260610",
+      "duration_seconds": 3380,
+      "composite_base": 57,
+      "like_adjustment": 0,
+      "rank": 12,
+      "tags": []
+    },
+    {
+      "id": "g5TWnUjbeFM",
+      "title": "Amex Global Business Travel: The World’s First AI Take Private with Long Lake CEO Alexander Taubman",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=g5TWnUjbeFM",
+      "status": "ok",
+      "summary_bullets": [
+        "Long Lake acquires Amex GBT for $6.3B.",
+        "Uses AI platform Nexus to transform companies.",
+        "Focuses on growth, not cost-cutting.",
+        "Claims AI makes employees more productive.",
+        "Long-term ownership model like Berkshire."
+      ],
+      "composite": 53.8,
+      "substance": 6.5,
+      "evidence": 4.5,
+      "specificity": 5.5,
+      "insight_density": 6,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260511",
+      "duration_seconds": 1321,
+      "composite_base": 53.8,
+      "like_adjustment": 0,
+      "rank": 13,
+      "tags": []
+    }
+  ]
+}

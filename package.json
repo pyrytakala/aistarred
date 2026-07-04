@@ -3,9 +3,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "dev:clean": "rm -rf node_modules/.vite && vite",
-    "build": "vite build",
+    "sync-pages": "tsx scripts/sync-listing-pages.ts",
+    "dev": "npm run sync-pages && vite",
+    "dev:clean": "rm -rf node_modules/.vite && npm run sync-pages && vite",
+    "build": "npm run sync-pages && vite build",
     "preview": "vite preview",
     "fetch": "tsx scripts/fetch.ts",
     "score": "tsx scripts/score.ts",

@@ -2,6 +2,9 @@ import { mkdirSync, readFileSync, writeFileSync, existsSync, readdirSync } from 
 import { join } from "node:path";
 
 import { isWithinDateRange } from "../lib/date-range.js";
+import { halfYearDateRange, shouldExpandToHalfYear } from "../lib/half-year.js";
+import { pipelineLog, withPipelineTiming } from "../lib/pipeline-log.js";
+import { isEligibleForScoring } from "../lib/scoring-limits.js";
 import { loadEnv } from "../lib/env.js";
 import { sourcePaths } from "../lib/paths.js";
 import {
@@ -197,14 +200,14 @@ function filterVideosBySource(
   provider: TranscriptProvider,
   source: SourceConfig,
 ): Array<[string, Record<string, unknown>]> {
-  if (!source.dateRange) {
-    return videoIds;
-  }
-
-  return videoIds.filter(([videoId, metadata]) => {
+  return videoIds.filter(([_videoId, metadata]) => {
     const fields = provider.metadataToIndexFields(metadata);
     const uploadDate = (fields.upload_date as string | null) ?? null;
-    return isWithinDateRange(uploadDate, source.dateRange!);
+    const durationSeconds = (fields.duration_seconds as number | null) ?? null;
+    if (source.dateRange && !isWithinDateRange(uploadDate, source.dateRange)) {
+      return false;
+    }
+    return isEligibleForScoring(durationSeconds);
   });
 }
 
@@ -317,13 +320,38 @@ export async function runFetch(argv: string[]): Promise<number> {
     `Listing videos from ${channelUrl} for ${source.title} (${windowLabel}) via ${provider.name}...`,
   );
 
+  let effectiveDateRange = source.dateRange;
   let videoIds: Array<[string, Record<string, unknown>]>;
   try {
     if (source.dateRange) {
       videoIds = listChannelVideosWithYtDlp(channelUrl, {
         dateRange: source.dateRange,
         maxVideos,
+        sourceId: source.id,
       });
+      videoIds = filterVideosBySource(videoIds, provider, source);
+
+      if (shouldExpandToHalfYear(videoIds.length, source.dateRange)) {
+        const h1Range = halfYearDateRange(Number(source.dateRange.since.slice(0, 4)));
+        console.log(
+          `Only ${videoIds.length} videos in Q2 — expanding to H1 (${h1Range.since}–${h1Range.until}).`,
+        );
+        pipelineLog("yt-fetch", "expand-to-half-year", {
+          sourceId: source.id,
+          q2Count: videoIds.length,
+          dateRange: h1Range,
+        });
+        effectiveDateRange = h1Range;
+        videoIds = listChannelVideosWithYtDlp(channelUrl, {
+          dateRange: h1Range,
+          maxVideos,
+          sourceId: source.id,
+        });
+        videoIds = filterVideosBySource(videoIds, provider, {
+          ...source,
+          dateRange: h1Range,
+        });
+      }
     } else {
       videoIds = await provider.listChannelVideosSince(channelUrl, {
         ...listWindow,
@@ -331,14 +359,11 @@ export async function runFetch(argv: string[]): Promise<number> {
         maxVideos,
         requestDelay,
       });
+      videoIds = filterVideosBySource(videoIds, provider, source);
     }
   } catch (error) {
     console.error(error instanceof Error ? error.message : error);
     return 1;
-  }
-
-  if (source.dateRange) {
-    videoIds = filterVideosBySource(videoIds, provider, source);
   }
 
   if (!videoIds.length) {
@@ -353,13 +378,19 @@ export async function runFetch(argv: string[]): Promise<number> {
 
   for (const [index, [videoId, metadataPayload]] of videoIds.entries()) {
     console.log(`[${index + 1}/${videoIds.length}] ${videoId}`);
-    const result = await processVideo(
-      provider,
-      videoId,
-      outputDir,
-      usedNames,
-      requestDelay > 0 && index < videoIds.length - 1 ? requestDelay : 0,
-      metadataPayload,
+    const result = await withPipelineTiming(
+      "yt-fetch",
+      "transcript",
+      { sourceId: source.id, videoId, index: index + 1, total: videoIds.length },
+      () =>
+        processVideo(
+          provider,
+          videoId,
+          outputDir,
+          usedNames,
+          requestDelay > 0 && index < videoIds.length - 1 ? requestDelay : 0,
+          metadataPayload,
+        ),
     );
     results.push(result);
     console.log(
@@ -375,6 +406,7 @@ export async function runFetch(argv: string[]): Promise<number> {
         source_id: source.id,
         provider: provider.name,
         channel_url: channelUrl,
+        date_range: effectiveDateRange ?? source.dateRange ?? null,
         ...listWindow,
         video_count: results.length,
         videos: results,
@@ -384,6 +416,13 @@ export async function runFetch(argv: string[]): Promise<number> {
     )}\n`,
     "utf8",
   );
+
+  pipelineLog("yt-fetch", "fetch-complete", {
+    sourceId: source.id,
+    videoCount: results.length,
+    okCount: results.filter((result) => result.transcript_status === "ok").length,
+    dateRange: effectiveDateRange ?? source.dateRange ?? null,
+  });
 
   const okCount = results.filter((result) => result.transcript_status === "ok").length;
   console.log(`\nDone. Saved ${okCount}/${results.length} transcripts to ${outputDir}/`);

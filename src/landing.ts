@@ -1,15 +1,6 @@
 import "./landing.css";
+import { CONTENT_KIND_LABELS } from "./lib/content-kind.js";
 import { listSources, type SourceConfig } from "./lib/sources-config.js";
-
-const KIND_LABELS: Record<SourceConfig["contentKind"], string> = {
-  conference: "Conference",
-  podcast: "Podcast",
-};
-
-const TOP_PICK_LABELS: Record<SourceConfig["contentKind"], string> = {
-  conference: "Top talks",
-  podcast: "Top episodes",
-};
 
 function sourceSubtitle(source: SourceConfig): string {
   const parts: string[] = [];
@@ -34,7 +25,7 @@ function renderCover(source: SourceConfig): HTMLElement {
 
   const kind = document.createElement("span");
   kind.className = "source-card-kind";
-  kind.textContent = KIND_LABELS[source.contentKind];
+  kind.textContent = CONTENT_KIND_LABELS[source.contentKind].kind;
   cover.appendChild(kind);
 
   return cover;
@@ -53,7 +44,7 @@ function renderCard(source: SourceConfig): HTMLLIElement {
 
   const eyebrow = document.createElement("span");
   eyebrow.className = "source-card-eyebrow";
-  eyebrow.textContent = TOP_PICK_LABELS[source.contentKind];
+  eyebrow.textContent = CONTENT_KIND_LABELS[source.contentKind].topPicks;
   body.appendChild(eyebrow);
 
   const title = document.createElement("span");

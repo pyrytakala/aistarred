@@ -4,7 +4,7 @@ import { join } from "node:path";
 import { applyLikeRankAdjustment, indexVideosById } from "../lib/ranking-adjustments.js";
 import { positiveDimensionTags } from "../lib/dimension-tags.js";
 import { isScoredRanking, selectTopPicks } from "../lib/top-picks.js";
-import { isTooLongForScoring } from "../lib/scoring-limits.js";
+import { isTooLongForScoring, isTooShortForScoring } from "../lib/scoring-limits.js";
 import { shouldDisplayVideo } from "../lib/source-filter.js";
 import { sourcePaths } from "../lib/paths.js";
 import { getSource, listSources, promptPathForSource, type SourceConfig } from "../lib/sources.js";
@@ -25,6 +25,10 @@ export function buildRankingsFromScoreFiles(
   const results: RankedVideo[] = [];
 
   for (const video of videos) {
+    if (isTooShortForScoring(video.duration_seconds)) {
+      continue;
+    }
+
     if (isTooLongForScoring(video.duration_seconds)) {
       results.push({
         id: video.id,
@@ -88,6 +92,10 @@ export function finalizeRankings(
     const uploadDate = metadata.upload_date ?? result.upload_date ?? null;
 
     if (!shouldDisplayVideo(uploadDate, options.source)) {
+      continue;
+    }
+
+    if (isTooShortForScoring(durationSeconds)) {
       continue;
     }
 

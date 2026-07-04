@@ -1,0 +1,399 @@
+{
+  "source_id": "ml-street-talk-q2-2026",
+  "video_count": 11,
+  "scored_count": 10,
+  "ranked_count": 4,
+  "rankings": [
+    {
+      "id": "M2iX6HQOoLg",
+      "title": "What If Intelligence Didn't Evolve? It \"Was There\" From the Start! - Blaise Agüera y Arcas",
+      "speakers": "Blaise Agüera y Arcas",
+      "url": "https://www.youtube.com/watch?v=M2iX6HQOoLg",
+      "status": "ok",
+      "summary_bullets": [
+        "Life is embodied autopoietic computation.",
+        "Random code evolves self-replicating programs.",
+        "Symbioenesis drives complexity without mutation.",
+        "Phase transition from non-life to life observed.",
+        "Intelligence is inherent in life's computation."
+      ],
+      "composite": 88.75,
+      "confidence": "High",
+      "substance": 9,
+      "evidence": 8.5,
+      "specificity": 9.5,
+      "insight_density": 9,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260216",
+      "duration_seconds": 3348,
+      "composite_base": 88.75,
+      "like_adjustment": 0,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "TpyS50ifmX4",
+      "title": "The Ex-Pentagon Chief Sounding the Alarm on AI Weapons — Brad Carson",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=TpyS50ifmX4",
+      "status": "ok",
+      "summary_bullets": [
+        "Former Pentagon official warns on AI weapons.",
+        "AI in war creates opaque, probabilistic targeting.",
+        "Congress has only 17 minutes daily for learning.",
+        "US can control AI via chip supply chain.",
+        "Anthropomorphizing AI is dangerous for regulation."
+      ],
+      "composite": 82.5,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260531",
+      "duration_seconds": 4852,
+      "composite_base": 82.5,
+      "like_adjustment": 0,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "e3gBwLWAerw",
+      "title": "He won a Nobel here for AlphaFold. Then he left. - John Jumper",
+      "speakers": "John Jumper",
+      "url": "https://www.youtube.com/watch?v=e3gBwLWAerw",
+      "status": "ok",
+      "summary_bullets": [
+        "AlphaFold solved protein structure prediction.",
+        "Jumper critiques the \"bitter lesson\" in AI.",
+        "Specialized architectures outperformed generic ones.",
+        "Equivariance contributed only ~2.5 of 30 points.",
+        "Departure to Anthropic announced."
+      ],
+      "composite": 82,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260622",
+      "duration_seconds": 3186,
+      "composite_base": 82,
+      "like_adjustment": 0,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "dHBEQ-Ryo24",
+      "title": "The Dangerous Illusion of AI Coding? - Jeremy Howard",
+      "speakers": "Jeremy Howard",
+      "url": "https://www.youtube.com/watch?v=dHBEQ-Ryo24",
+      "status": "ok",
+      "summary_bullets": [
+        "AI coding tools create illusion of control.",
+        "Interactive notebooks beat terminal-based AI coding.",
+        "ULM fit pioneered transfer learning for NLP.",
+        "Software engineering ≠ typing code; AI fails at novel design.",
+        "Centralizing AI power risks societal harm."
+      ],
+      "composite": 82,
+      "confidence": "High",
+      "like_count": null,
+      "upload_date": "20260303",
+      "duration_seconds": 5200,
+      "composite_base": 82,
+      "like_adjustment": 0,
+      "rank": 4,
+      "tags": []
+    }
+  ],
+  "too_long": [],
+  "other": [
+    {
+      "id": "EInEmGaMRLc",
+      "title": "When AI Discovers the Next Transformer — Robert Lange",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=EInEmGaMRLc",
+      "status": "ok",
+      "summary_bullets": [
+        "Evolutionary LLM search for scientific discovery",
+        "Shinka Evolve achieves sample-efficient program optimization",
+        "Co-evolution of problems and solutions needed",
+        "AI Scientist v2 passes workshop acceptance threshold",
+        "Open-endedness key to future AI research"
+      ],
+      "composite": 81.5,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 7.5,
+      "like_count": null,
+      "upload_date": "20260313",
+      "duration_seconds": 4687,
+      "composite_base": 81.5,
+      "like_adjustment": 0,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "AREWYbVtX64",
+      "title": "Intelligence is collective, not artificial — Prof. Michael I. Jordan (UC Berkeley / Inria)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=AREWYbVtX64",
+      "status": "ok",
+      "summary_bullets": [
+        "Critiques AI hype as demoralizing to young researchers.",
+        "Advocates for economic and statistical thinking in AI.",
+        "Proposes three-layer data market model with incentives.",
+        "Distinguishes machine learning from AI/AGI buzzwords.",
+        "Emphasizes uncertainty quantification and collective intelligence."
+      ],
+      "composite": 81,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260520",
+      "duration_seconds": 4630,
+      "composite_base": 81,
+      "like_adjustment": 0,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "yq318DIwPqw",
+      "title": "Why AI Has a Plato Problem — Mazviita Chirimuuta",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=yq318DIwPqw",
+      "status": "ok",
+      "summary_bullets": [
+        "Abstraction in science ignores messy reality.",
+        "Reflex theory as historical oversimplification case.",
+        "Brain-as-computer metaphor is ontologically suspect.",
+        "Knowledge is interactive, not passive observation.",
+        "AI’s Plato problem: assuming neat underlying forms."
+      ],
+      "composite": 79,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 7.5,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260123",
+      "duration_seconds": 3218,
+      "composite_base": 79,
+      "like_adjustment": 0,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "pO0WZsN8Oiw",
+      "title": "Why Every Brain Metaphor in History Has Been Wrong [SPECIAL EDITION]",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=pO0WZsN8Oiw",
+      "status": "ok",
+      "summary_bullets": [
+        "Brain metaphors mirror era's advanced tech.",
+        "Free energy principle is elegant but limited.",
+        "Knowledge requires embodiment and perspective.",
+        "Models are useful fictions, not literal truth.",
+        "Mistaking abstraction for reality is common error."
+      ],
+      "composite": 74.8,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 8.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260118",
+      "duration_seconds": 2524,
+      "composite_base": 74.8,
+      "like_adjustment": 0,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Ucqfb33GJJ4",
+      "title": "The Brain Is Just Specialized Agents Talking To Each Other — Dr. Jeff Beck",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Ucqfb33GJJ4",
+      "status": "ok",
+      "summary_bullets": [
+        "Geometric deep learning exploits physical symmetries.",
+        "Agency is a continuum of policy sophistication.",
+        "Energy-based models apply cost to internal states.",
+        "Non-contrastive learning prevents representation collapse.",
+        "AI safety requires careful reward specification."
+      ],
+      "composite": 74,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260125",
+      "duration_seconds": 2817,
+      "composite_base": 74,
+      "like_adjustment": 0,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "5pieVHmlbyk",
+      "title": "The Thermodynamic AI Chip · Thomas Ahle",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=5pieVHmlbyk",
+      "status": "ok",
+      "summary_bullets": [
+        "Thermodynamic chip uses noise for computation.",
+        "AI agents generated 500k lines of Verilog.",
+        "Formal verification critical for chip correctness.",
+        "Autoformalization converts specs to formal proofs.",
+        "AI code risks “understanding debt” and spaghetti."
+      ],
+      "composite": 72.75,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 8.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 3779,
+      "composite_base": 72.75,
+      "like_adjustment": 0,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    }
+  ]
+}

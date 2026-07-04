@@ -1,5 +1,6 @@
 import "./styles.css";
 import type { RankedVideo, RankingsPayload, Tag } from "./types";
+import { CONTENT_KIND_LABELS, type ContentKind } from "./lib/content-kind.js";
 import { shouldDisplayVideo } from "./lib/source-filter.js";
 import { parseUploadDate } from "./lib/video-age.js";
 import { isScoredRanking, selectTopPicks } from "./lib/top-picks.js";
@@ -7,6 +8,8 @@ import { isTooLongForScoring } from "./lib/scoring-limits.js";
 import { positiveDimensionTags } from "./lib/dimension-tags.js";
 
 const SOURCE_ID = document.body.dataset.sourceId ?? "ai-engineer-worlds-fair-2026";
+const CONTENT_KIND = (document.body.dataset.contentKind ?? "conference") as ContentKind;
+const CONTENT_LABELS = CONTENT_KIND_LABELS[CONTENT_KIND];
 const ITEM_LABEL = document.body.dataset.itemLabel ?? "videos";
 const DISPLAY_FILTER = {
   maxDisplayAgeDays: document.body.dataset.maxDisplayAgeDays
@@ -598,17 +601,17 @@ function renderExcludedSections(payload: RankingsPayload): void {
 
   renderExcludedSection(
     container,
-    "Very long talks",
+    CONTENT_LABELS.veryLong,
     tooLong,
     template,
-    "These talks are very long and have not been scored.",
+    `These ${CONTENT_LABELS.veryLong.toLowerCase()} have not been scored.`,
   );
   renderExcludedSection(
     container,
-    "Other talks",
+    CONTENT_LABELS.other,
     other,
     template,
-    "These talks are part of the same group and can be strong too—they just didn't make the top picks this time.",
+    CONTENT_LABELS.otherLede,
   );
 }
 
