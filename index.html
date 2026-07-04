@@ -23,7 +23,15 @@
     <main class="feed">
       <header class="feed-header">
         <p class="feed-lede">Find top content, curated by a friendly LLM</p>
-        <p id="feed-meta" class="feed-meta">Loading…</p>
+        <div class="list-toolbar">
+          <p id="feed-meta" class="feed-meta">Loading…</p>
+          <div class="page-filters">
+            <div id="sort-filters"></div>
+            <div id="content-kind-filters"></div>
+            <div id="time-filters"></div>
+            <div id="score-filters"></div>
+          </div>
+        </div>
       </header>
       <div id="feed-list" class="feed-list" aria-live="polite"></div>
     </main>
@@ -32,10 +40,11 @@
       <a href="/disclaimer/">Disclaimer</a>
     </footer>
 
-    <template id="feed-card-template">
+    <template id="card-template">
       <article class="card">
         <a class="thumb-link" target="_blank" rel="noopener noreferrer">
           <img class="thumb" alt="" loading="lazy" />
+          <span class="card-kind" hidden></span>
           <span class="duration" hidden></span>
         </a>
         <div class="body">
@@ -43,15 +52,17 @@
             <div class="talk-heading">
               <a class="title-link" target="_blank" rel="noopener noreferrer"></a>
               <div class="talk-meta">
-                <a class="feed-source-link"></a>
+                <a class="feed-source-link" hidden></a>
                 <time class="published"></time>
                 <span class="audience-level-wrap" hidden>
-                  <span class="audience-level"></span>
+                  <span class="audience-level" tabindex="0"></span>
                 </span>
+                <div class="card-tags tags" hidden></div>
               </div>
             </div>
             <div class="score-wrap">
-              <span class="score" aria-label="Score"></span>
+              <button type="button" class="score" aria-expanded="false" aria-label="Show score breakdown"></button>
+              <div class="score-breakdown" hidden></div>
             </div>
           </div>
           <div class="summary-wrap">

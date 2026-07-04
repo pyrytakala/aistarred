@@ -28,8 +28,15 @@
 
     <div class="page-main">
       <section class="content-section">
-        <p id="meta" class="section-meta">Loading…</p>
-        <div id="ranked-sections" aria-live="polite"></div>
+        <div class="list-toolbar">
+          <p id="meta" class="section-meta">Loading…</p>
+          <div class="page-filters">
+            <div id="sort-filters"></div>
+            <div id="time-filters"></div>
+            <div id="score-filters"></div>
+          </div>
+        </div>
+        <div id="ranked-sections" class="card-list" aria-live="polite"></div>
       </section>
       <div id="extra-sections"></div>
     </div>
@@ -43,6 +50,7 @@
       <article class="card card-excluded">
         <a class="thumb-link" target="_blank" rel="noopener noreferrer">
           <img class="thumb" alt="" loading="lazy" />
+          <span class="card-kind" hidden></span>
           <span class="duration" hidden></span>
         </a>
         <div class="body">
@@ -66,6 +74,7 @@
       <article class="card">
         <a class="thumb-link" target="_blank" rel="noopener noreferrer">
           <img class="thumb" alt="" loading="lazy" />
+          <span class="card-kind" hidden></span>
           <span class="duration" hidden></span>
         </a>
         <div class="body">
@@ -73,6 +82,7 @@
             <div class="talk-heading">
               <a class="title-link" target="_blank" rel="noopener noreferrer"></a>
               <div class="talk-meta">
+                <a class="feed-source-link" hidden></a>
                 <time class="published"></time>
                 <span class="audience-level-wrap" hidden>
                   <span class="audience-level" tabindex="0"></span>
