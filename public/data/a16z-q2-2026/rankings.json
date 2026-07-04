@@ -10,6 +10,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ktl8mNiWqMM",
       "status": "ok",
+      "word_count": 13362,
       "summary_bullets": [
         "Foundation models likely become commodities.",
         "Coding is only clear product-market fit.",
@@ -56,6 +57,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=krdrkl38nRw",
       "status": "ok",
+      "word_count": 5414,
       "summary_bullets": [
         "Block cut 40% workforce due to AI productivity gains.",
         "AI tools made engineers 10–100x more productive.",
@@ -98,6 +100,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=AiM9mZCmVPY",
       "status": "ok",
+      "word_count": 7047,
       "summary_bullets": [
         "AI companies outgrowing hyperscalers in revenue addition",
         "Top 1% exit threshold 10x’d to $32B in 24 months",
@@ -140,6 +143,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Z4i1adGvD2A",
       "status": "ok",
+      "word_count": 15843,
       "summary_bullets": [
         "Tony James built DLJ from near-zero.",
         "Led Costco's Series A investment.",
@@ -186,6 +190,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=U-TSafAIzXw",
       "status": "ok",
+      "word_count": 7543,
       "summary_bullets": [
         "ChatGPT dominates but competition heats up.",
         "Consumer AI race shifts to platforms and agents.",
@@ -230,6 +235,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=YAyYCdCkwo4",
       "status": "ok",
+      "word_count": 11358,
       "summary_bullets": [
         "Flat orgs enable rapid information flow.",
         "Aggressive milestones reveal true critical path.",
@@ -278,6 +284,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=0lzo2tFBFy8",
       "status": "ok",
+      "word_count": 11485,
       "summary_bullets": [
         "SaaS apocalypse overblown; three SaaS types identified.",
         "AI agents augment, not replace, systems of record.",
@@ -318,6 +325,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=tL3sXpxpCPs",
       "status": "ok",
+      "word_count": 4964,
       "summary_bullets": [
         "AI users in Pentagon surged from 80k to 1.2M.",
         "Priority areas cut from 14 to 6.",
@@ -361,6 +369,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=dvVbA9OcBqs",
       "status": "ok",
+      "word_count": 12324,
       "summary_bullets": [
         "Enterprise AI adoption faces integration barriers.",
         "Agents should be treated like human employees.",
@@ -403,6 +412,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=IZDJ3jcO5UY",
       "status": "ok",
+      "word_count": 5671,
       "summary_bullets": [
         "Old software axioms broken by AI",
         "Infrastructure bottlenecks: electricity, chips, memory",
@@ -441,6 +451,7 @@
       "speakers": "The a16z Show",
       "url": "https://www.youtube.com/watch?v=zwDmKsnhl08",
       "status": "ok",
+      "word_count": 8028,
       "summary_bullets": [
         "LLMs perform Bayesian inference during in-context learning.",
         "Small transformers match exact Bayesian posteriors in controlled tests.",
@@ -481,6 +492,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=xRh2sVcNXQ8",
       "status": "ok",
+      "word_count": 20351,
       "summary_bullets": [
         "AI revenue growth unprecedented",
         "Open source models catching up fast",
@@ -525,6 +537,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=oYK_MmZW9XI",
       "status": "ok",
+      "word_count": 10142,
       "summary_bullets": [
         "10 stocks make 50% of S&P.",
         "Private markets offer only diversification.",
@@ -567,6 +580,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=fUI0CNg1hCc",
       "status": "ok",
+      "word_count": 4357,
       "summary_bullets": [
         "US public diplomacy focuses on free speech abroad",
         "EU regulation threatens American free speech principles",
@@ -604,6 +618,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=0_NGsljlo3o",
       "status": "ok",
+      "word_count": 8312,
       "summary_bullets": [
         "Proving humanity online is increasingly hard.",
         "AI agents can mimic humans perfectly.",
@@ -646,6 +661,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=yiJOTCRVWjc",
       "status": "ok",
+      "word_count": 11665,
       "summary_bullets": [
         "Homeschooling mom builds 11 AI agents.",
         "Agents automate lesson logging and ordering.",
@@ -688,6 +704,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=1LcH4lP9XbA",
       "status": "ok",
+      "word_count": 11420,
       "summary_bullets": [
         "Defense industrial base needs reform.",
         "AI should augment workers, not replace.",
@@ -724,6 +741,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=6cCWrrQp1v4",
       "status": "ok",
+      "word_count": 5822,
       "summary_bullets": [
         "NASA restructuring Artemis for faster moon launches.",
         "Rebuilding core competencies, reducing contractor reliance.",
@@ -758,6 +776,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=rSohMpT24SI",
       "status": "ok",
+      "word_count": 8928,
       "summary_bullets": [
         "AI companies grow 2.5x faster than non-AI.",
         "Best AI firms reach $100M revenue faster.",
@@ -794,6 +813,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=70ec37XHGIg",
       "status": "ok",
+      "word_count": 8493,
       "summary_bullets": [
         "Crop subsidies drive unhealthy food system",
         "1970s marked start of obesity crisis",
@@ -830,6 +850,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=oheUsh7VtKY",
       "status": "ok",
+      "word_count": 12400,
       "summary_bullets": [
         "AI cuts generation cost, raises verification cost.",
         "Humans sense, AI acts – human-machine synthesis.",
@@ -864,6 +885,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=9qqLihL4AWk",
       "status": "ok",
+      "word_count": 15880,
       "summary_bullets": [
         "Risk management is contingency planning, not prediction.",
         "Goldman's partnership culture shaped long-term thinking.",
@@ -898,6 +920,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=jLVgGGz5bvk",
       "status": "ok",
+      "word_count": 6845,
       "summary_bullets": [
         "Goldman CEO calls macro \"sweetest spot in 40 years\"",
         "Best time to raise money when nobody has money",
@@ -929,6 +952,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=3XVDtPU8xKE",
       "status": "ok",
+      "word_count": 15573,
       "summary_bullets": [
         "AI investment themes: three categories.",
         "Software eating labor creates new markets.",
@@ -965,6 +989,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=FnJaDj5zUhY",
       "status": "ok",
+      "word_count": 4449,
       "summary_bullets": [
         "US 50 years behind on critical minerals.",
         "Tesla alumni build mining and grid startups.",
@@ -999,6 +1024,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=XROaLetSxg0",
       "status": "ok",
+      "word_count": 9733,
       "summary_bullets": [
         "Old media defensive, new media offensive.",
         "Brand is now the person, not company.",
@@ -1028,6 +1054,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=qTpCGe4A8PM",
       "status": "ok",
+      "word_count": 9610,
       "summary_bullets": [
         "GLP-1 drugs could eradicate obesity.",
         "Peptides like BPC-157 lack human data.",
@@ -1059,6 +1086,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=6HxT4nQmtvc",
       "status": "ok",
+      "word_count": 12058,
       "summary_bullets": [
         "AI infrastructure buildout is massive and accelerating.",
         "Energy will be the next bottleneck, nuclear promising.",
@@ -1090,6 +1118,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=dvt_74kV-RM",
       "status": "ok",
+      "word_count": 12941,
       "summary_bullets": [
         "AI capability diffusion slower than Silicon Valley expects.",
         "Agents will outnumber humans 100:1, requiring software built for agents.",
@@ -1119,6 +1148,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=pddFfZy4nZU",
       "status": "ok",
+      "word_count": 1967,
       "summary_bullets": [
         "Autonomy can slash shipbuilding labor hours drastically.",
         "Commercial market key to defense industrial base resilience.",
@@ -1148,6 +1178,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=k1z0e7bGzq0",
       "status": "ok",
+      "word_count": 16101,
       "summary_bullets": [
         "AI coding boosts programmer productivity dramatically.",
         "SPLC allegedly funded hate groups it fought.",
@@ -1177,6 +1208,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=jHECsr9GCs8",
       "status": "ok",
+      "word_count": 7525,
       "summary_bullets": [
         "Ground infrastructure is bottleneck for satellite missions.",
         "Northwood vertically integrates hardware, software, and site deployment.",
@@ -1208,6 +1240,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=r8_2CSpcmls",
       "status": "ok",
+      "word_count": 5977,
       "summary_bullets": [
         "AI demand is unprecedented, not a bubble.",
         "Verticalization keeps VC teams small like basketball teams.",
@@ -1238,6 +1271,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=UE8jx4dvlSQ",
       "status": "ok",
+      "word_count": 7668,
       "summary_bullets": [
         "Coding agents will replace knowledge work.",
         "OpenClaw enables personal AI assistant.",
@@ -1267,6 +1301,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Ie07zcmbnhM",
       "status": "ok",
+      "word_count": 2368,
       "summary_bullets": [
         "Drones and AI inevitable in policing.",
         "Body cameras aid officer mental health.",
@@ -1296,6 +1331,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=X9k53P-2SOg",
       "status": "ok",
+      "word_count": 5380,
       "summary_bullets": [
         "China 70% optimistic about AI vs US <30%",
         "Largest US bet on tech dominance ever",
@@ -1325,6 +1361,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Kdql4I-NJ0M",
       "status": "ok",
+      "word_count": 12587,
       "summary_bullets": [
         "AI will 10x every industry",
         "Reputation is A16Z's core compounder",
@@ -1356,6 +1393,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Wj6ttdIeBnE",
       "status": "ok",
+      "word_count": 5652,
       "summary_bullets": [
         "Military superiority requires technological advantage.",
         "Silicon Valley must align with defense or face nationalization.",
@@ -1386,6 +1424,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Mjc7vwys1vY",
       "status": "ok",
+      "word_count": 6371,
       "summary_bullets": [
         "AI models developing personality is unprecedented.",
         "Most people use AI only for basic tasks.",
@@ -1415,6 +1454,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=CEOiwEemiTA",
       "status": "ok",
+      "word_count": 10616,
       "summary_bullets": [
         "Old media defense-oriented; new media offense-oriented.",
         "Flood the zone: more content beats controlled messaging.",
@@ -1446,6 +1486,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=afkFLnyrLww",
       "status": "ok",
+      "word_count": 2176,
       "summary_bullets": [
         "ElevenLabs founded by childhood friends from Poland.",
         "Voice AI as next human-computer interface.",
@@ -1477,6 +1518,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=XwfUzW32cIA",
       "status": "ok",
+      "word_count": 7451,
       "summary_bullets": [
         "AI models have built-in cultural biases.",
         "Deterrence depends on innovation pace, not just military.",
@@ -1508,6 +1550,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=uDuQKsdYfZw",
       "status": "ok",
+      "word_count": 11810,
       "summary_bullets": [
         "Magic Johnson's business journey from athlete to investor.",
         "Mentorship from Michael Ovitz and Jerry Buss.",
@@ -1539,6 +1582,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=yfafpyhB-8E",
       "status": "ok",
+      "word_count": 11637,
       "summary_bullets": [
         "Jake Paul and Jeff announce oversubscribed growth fund.",
         "Attention as competitive advantage discussed.",

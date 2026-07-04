@@ -15,6 +15,22 @@ export function countWords(text: string): number {
   return text.trim().split(/\s+/).filter(Boolean).length;
 }
 
+export function resolveWordCount(
+  entry: Pick<VideoIndexEntry, "word_count" | "transcript_path">,
+  sourceId?: string,
+): number | null {
+  if (entry.word_count != null && entry.word_count > 0) {
+    return entry.word_count;
+  }
+
+  const text = resolveTranscriptText(entry, sourceId);
+  if (!text) {
+    return null;
+  }
+
+  return countWords(text);
+}
+
 export function isContentLongEnough(text: string | null | undefined): boolean {
   if (!text?.trim()) {
     return false;

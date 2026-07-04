@@ -10,6 +10,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/ai-cannibalism",
       "status": "ok",
+      "word_count": 1686,
       "summary_bullets": [
         "Old LLM outputs provide historical and proprietary data.",
         "Human-selected outputs add information beyond raw text.",
@@ -53,6 +54,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/llms-can-be-faster",
       "status": "ok",
+      "word_count": 1218,
       "summary_bullets": [
         "LLM inference can be far faster than today.",
         "Many optimization routes exist: hardware, algorithms, distillation.",
@@ -95,6 +97,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/good-ai-samples",
       "status": "ok",
+      "word_count": 2561,
       "summary_bullets": [
         "AI slop lacks genuine information.",
         "Satisfying outputs require dense information.",
@@ -134,6 +137,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2026/make-me-care",
       "status": "ok",
+      "word_count": 1610,
       "summary_bullets": [
         "Nonfiction must hook readers immediately.",
         "Lead with anomaly, not background.",
@@ -173,6 +177,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2026/face-training",
       "status": "ok",
+      "word_count": 1362,
       "summary_bullets": [
         "Proposes triplet-loss training for human face recognition.",
         "Uses neural net embeddings to select difficulty.",
@@ -216,6 +221,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/conference-size",
       "status": "ok",
+      "word_count": 1528,
       "summary_bullets": [
         "Survey of methods to estimate conference attendance.",
         "Uses Little's law, capture-recapture, and more.",
@@ -258,6 +264,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/conference",
       "status": "ok",
+      "word_count": 2134,
       "summary_bullets": [
         "Proposes using a virtual tabletop (VTT) map for conference organization.",
         "Attendees collaboratively drag tokens and scribble on a 2D map.",
@@ -301,6 +308,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2026/llm-retcon",
       "status": "ok",
+      "word_count": 1215,
       "summary_bullets": [
         "Retcon planning rewrites hidden world state.",
         "LLM fiction suffers from early hardening.",
@@ -344,6 +352,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/bot-location",
       "status": "ok",
+      "word_count": 934,
       "summary_bullets": [
         "Catfishing bots reveal targets via location metadata.",
         "Location changes expose attack timing and tempo.",
@@ -383,6 +392,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/you-could-have-invented-transformers",
       "status": "ok",
+      "word_count": 1673,
       "summary_bullets": [
         "Proposes a \"discovery fiction\" tutorial for Transformers.",
         "Traces evolution from n-grams to self-attention.",
@@ -426,6 +436,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/plumbing-vs-internet",
       "status": "ok",
+      "word_count": 1207,
       "summary_bullets": [
         "Internet now more essential than plumbing.",
         "Author's view shifted from plumbing to internet.",
@@ -461,6 +472,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/perfume",
       "status": "ok",
+      "word_count": 2341,
       "summary_bullets": [
         "Explores avant-garde perfume samples.",
         "Bought Acqua di Sale and Kyoto Incense.",
@@ -496,6 +508,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/better-llm-writing",
       "status": "ok",
+      "word_count": 1033,
       "summary_bullets": [
         "Techniques to improve LLM creative writing",
         "Anti-examples reverse ChatGPT-style edits",
@@ -526,6 +539,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/pinball-hacking",
       "status": "ok",
+      "word_count": 1089,
       "summary_bullets": [
         "Taxonomy of pinball high-score cheating methods.",
         "Applies security mindset to reward-hacking.",
@@ -565,6 +579,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/area-man",
       "status": "ok",
+      "word_count": 813,
       "summary_bullets": [
         "Satire of tech-optimist complaining about slow automation.",
         "Man rants at construction site, proposes unrealistic AI solutions.",
@@ -603,6 +618,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2026/questions-moravec",
       "status": "ok",
+      "word_count": 1521,
       "summary_bullets": [
         "List of interview questions for Hans Moravec",
         "Covers forecasting, robotics, morality, succession",
@@ -638,6 +654,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2026/rabbit",
       "status": "ok",
+      "word_count": 2819,
       "summary_bullets": [
         "Author writes children's story in 30 minutes.",
         "Rabbit seeks blueberry jam, confronts dragon.",
@@ -673,6 +690,7 @@
       "speakers": "Gwern",
       "url": "https://gwern.net/blog/2026/questions-young",
       "status": "ok",
+      "word_count": 1952,
       "summary_bullets": [
         "List of interview questions for geneticist Alexander Young.",
         "Biographical brief on Young's career and contributions.",

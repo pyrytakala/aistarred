@@ -1,8 +1,9 @@
 #!/usr/bin/env node
-import { mkdirSync, writeFileSync } from "node:fs";
+import { createWriteStream, mkdirSync } from "node:fs";
 import { join } from "node:path";
 
 import { listSources } from "../src/lib/sources.js";
+import { StageTimer, stageLog } from "../src/lib/stage-log.js";
 import { runFetch } from "../src/pipeline/fetch.js";
 
 const requestDelay = process.argv.includes("--request-delay")
@@ -31,27 +32,51 @@ if (fromSource) {
   }
   sources = sources.slice(startIndex);
 }
+
+const batchTimer = new StageTimer("fetch-all", `${sources.length} sources`);
 const summary: Array<{ id: string; code: number }> = [];
 
 for (const source of sources) {
-  const started = new Date().toISOString();
-  console.log(`\n========== FETCH ${source.id} (${started}) ==========\n`);
+  const sourceTimer = new StageTimer("fetch-all", source.id);
   const logPath = join(logDir, `${source.id}.log`);
-  const logLines: string[] = [`=== START ${source.id} ${started} ===`];
+  const logStream = createWriteStream(logPath, { flags: "w" });
+  const writeLog = (chunk: string) => {
+    logStream.write(chunk);
+  };
 
-  const code = await runFetch(["--source", source.id, "--request-delay", requestDelay]);
+  const originalLog = console.log;
+  const originalError = console.error;
+  console.log = (...args: unknown[]) => {
+    const line = `${args.map(String).join(" ")}\n`;
+    writeLog(line);
+    originalLog(...args);
+  };
+  console.error = (...args: unknown[]) => {
+    const line = `${args.map(String).join(" ")}\n`;
+    writeLog(line);
+    originalError(...args);
+  };
+
+  let code = 1;
+  try {
+    code = await runFetch(["--source", source.id, "--request-delay", requestDelay]);
+  } finally {
+    console.log = originalLog;
+    console.error = originalError;
+    logStream.end();
+  }
+
   summary.push({ id: source.id, code });
-  logLines.push(`=== DONE ${source.id} exit=${code} ${new Date().toISOString()} ===`);
-  writeFileSync(logPath, `${logLines.join("\n")}\n`, "utf8");
+  sourceTimer.done(source.id, { exit: code, logPath });
 }
 
 const failed = summary.filter((entry) => entry.code !== 0);
-console.log(`\nFetch complete: ${summary.length - failed.length}/${summary.length} succeeded`);
-if (failed.length) {
-  console.log("Failed sources:");
-  for (const entry of failed) {
-    console.log(`  - ${entry.id} (exit ${entry.code})`);
-  }
-}
+batchTimer.done("fetch-all", {
+  succeeded: summary.length - failed.length,
+  failed: failed.length,
+});
 
-process.exit(failed.length ? 1 : 0);
+if (failed.length) {
+  stageLog("fetch-all", "failed sources", { sources: failed.map((entry) => entry.id) });
+  process.exit(1);
+}

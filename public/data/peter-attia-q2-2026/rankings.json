@@ -1,17 +1,65 @@
 {
   "source_id": "peter-attia-q2-2026",
-  "model": "accounts/fireworks/models/deepseek-v4-flash",
-  "video_count": 3,
-  "scored_count": 3,
-  "ranked_count": 3,
+  "video_count": 11,
+  "scored_count": 11,
+  "ranked_count": 11,
   "rankings": [
+    {
+      "id": "Tsqzx3L6UWs",
+      "title": "Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Tsqzx3L6UWs",
+      "status": "ok",
+      "word_count": 1386,
+      "summary_bullets": [
+        "Hexane used to extract seed oils.",
+        "Residual hexane levels under 1 ppm.",
+        "Toxicity requires consuming 11,340 kg oil.",
+        "Processing removes some impurities.",
+        "Linoleic acid intake rose from 3% to 10%."
+      ],
+      "composite": 83.3,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.",
+      "substance": 7.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260123",
+      "duration_seconds": 530,
+      "composite_base": 83.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
     {
       "id": "IxHRYDM64dQ",
       "title": "397 - Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging, & emerging treatments",
       "speakers": "Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging, & emerging treatments",
       "url": "https://www.youtube.com/watch?v=IxHRYDM64dQ",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 17559,
       "summary_bullets": [
         "Endometriosis affects 10% of reproductive women.",
         "Diagnosis delay averages 5–12 years.",
@@ -31,7 +79,9 @@
       "upload_date": "20260622",
       "duration_seconds": 7226,
       "composite_base": 90.8,
-      "rank": 1,
+      "like_adjustment": 0,
+      "length_adjustment": -9.04,
+      "rank": 2,
       "tags": [
         {
           "label": "Substance",
@@ -53,9 +103,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -9.04
+      ]
     },
     {
       "id": "KWNgAyurXFY",
@@ -63,7 +111,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=KWNgAyurXFY",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 16685,
       "summary_bullets": [
         "Brain cholesterol is independent from blood cholesterol.",
         "APOE4 impairs cholesterol transport in brain.",
@@ -83,7 +131,9 @@
       "upload_date": "20260609",
       "duration_seconds": 6250,
       "composite_base": 87.5,
-      "rank": 2,
+      "like_adjustment": 0,
+      "length_adjustment": -7.42,
+      "rank": 3,
       "tags": [
         {
           "label": "Substance",
@@ -101,9 +151,277 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "yisfGtcV5xk",
+      "title": "A guide to cardiorespiratory training at any fitness level to improve longevity (AMA 79 sneak peek)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=yisfGtcV5xk",
+      "status": "ok",
+      "word_count": 6431,
+      "summary_bullets": [
+        "Cardiorespiratory fitness is strongest predictor of longevity.",
+        "Zone 2 training builds base for sustained endurance.",
+        "V2 max declines ~10% per decade with age.",
+        "High intensity per minute gives more adaptation, but zone 2 allows more volume.",
+        "Lactate thresholds define training zones."
       ],
+      "composite": 76.16,
+      "audience_level": "general",
+      "display_title": "A guide to cardiorespiratory training at any fitness level to improve longevity (AMA 79 sneak peek)",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260112",
+      "duration_seconds": 2302,
+      "composite_base": 77,
       "like_adjustment": 0,
-      "length_adjustment": -7.42
+      "length_adjustment": -0.84,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "CDsH60jt34o",
+      "title": "378 ‒ Women’s health & performance: how training, nutrition, & hormones interact across life stages",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=CDsH60jt34o",
+      "status": "ok",
+      "word_count": 26619,
+      "summary_bullets": [
+        "Bone density peaks by age 19 in women.",
+        "Menstrual cycle phases affect training and recovery.",
+        "Perimenopause is a critical window for muscle quality.",
+        "GLP-1 drugs require deliberate nutrition and resistance training.",
+        "High-intensity intervals are efficient for time-constrained women."
+      ],
+      "composite": 74.86,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "378 ‒ Women’s health & performance: how training, nutrition, & hormones interact across life stages",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260105",
+      "duration_seconds": 8661,
+      "composite_base": 86.3,
+      "like_adjustment": 0,
+      "length_adjustment": -11.44,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "iB49uq-t1UM",
+      "title": "380 ‒ The seed oil debate: are they uniquely harmful relative to other dietary fats?",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=iB49uq-t1UM",
+      "status": "ok",
+      "word_count": 23342,
+      "summary_bullets": [
+        "Examines seed oil health evidence",
+        "Reviews RCTs and mechanistic data",
+        "Concludes seed oils not uniquely harmful",
+        "Focus on overall diet quality"
+      ],
+      "composite": 74.7,
+      "audience_level": "general",
+      "display_title": "380 ‒ The seed oil debate: are they uniquely harmful relative to other dietary fats?",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260119",
+      "duration_seconds": 8759,
+      "composite_base": 86.3,
+      "like_adjustment": 0,
+      "length_adjustment": -11.6,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "9Rxp2a0m8wM",
+      "title": "How Busy Moms Can Build Strength and Cardio Fitness | Abbie Smith-Ryan, Ph.D.",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=9Rxp2a0m8wM",
+      "status": "ok",
+      "word_count": 1365,
+      "summary_bullets": [
+        "Prioritize resistance training 2 days/week, 30 min each.",
+        "High-intensity intervals: 1 min on, 1 min off, up to 10 rounds.",
+        "Use perceived effort or power, not heart rate, for intervals.",
+        "Low-intensity movement fills remaining time.",
+        "Resistance: 6–8 reps at 60–80% 1RM, 30 sec rest."
+      ],
+      "composite": 73,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How Busy Moms Can Build Strength and Cardio Fitness | Abbie Smith-Ryan, Ph.D.",
+      "substance": 6.5,
+      "evidence": 5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260107",
+      "duration_seconds": 417,
+      "composite_base": 73,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "bsw0pKcWf5c",
+      "title": "How Early Training Choices Shape Women’s Health for Life | Abbie Smith-Ryan, Ph.D.",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=bsw0pKcWf5c",
+      "status": "ok",
+      "word_count": 1205,
+      "summary_bullets": [
+        "Osteoporosis starts in childhood bone development.",
+        "Early exercise builds lifelong fitness base.",
+        "Menstruation often causes girls to leave sports.",
+        "Resistance training prevents injury in young athletes.",
+        "Asymmetric sports can cause spinal curvature."
+      ],
+      "composite": 70,
+      "confidence": "Low",
+      "audience_level": "general",
+      "display_title": "How Early Training Choices Shape Women’s Health for Life | Abbie Smith-Ryan, Ph.D.",
+      "substance": 6.5,
+      "evidence": 5,
+      "specificity": 7,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260109",
+      "duration_seconds": 407,
+      "composite_base": 70,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "6F-DnF37n_E",
+      "title": "How to Actually Start a Habit | James Clear",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=6F-DnF37n_E",
+      "status": "ok",
+      "word_count": 1564,
+      "summary_bullets": [
+        "Make habits tiny (one push-up, five minutes).",
+        "Redesign environment to reduce friction.",
+        "Praise good behaviors, ignore bad ones.",
+        "Use momentum from one habit to start another.",
+        "Environment changes need only brief motivation."
+      ],
+      "composite": 68.8,
+      "audience_level": "general",
+      "display_title": "How to Actually Start a Habit | James Clear",
+      "substance": 6.5,
+      "evidence": 3,
+      "specificity": 8,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260102",
+      "duration_seconds": 463,
+      "composite_base": 68.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "_9mBlZXA1Lk",
@@ -111,7 +429,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=_9mBlZXA1Lk",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 7579,
       "summary_bullets": [
         "Breast cancer kills 42,000 US women yearly.",
         "Screening reduces mortality up to 40%.",
@@ -131,15 +449,52 @@
       "upload_date": "20260615",
       "duration_seconds": 3044,
       "composite_base": 70.3,
-      "rank": 3,
+      "like_adjustment": 0,
+      "length_adjustment": -2.07,
+      "rank": 10,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "7_cbaDXAWYM",
+      "title": "Cooking with Lard vs Seed Oils | Layne Norton, Ph.D.",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=7_cbaDXAWYM",
+      "status": "ok",
+      "word_count": 2080,
+      "summary_bullets": [
+        "Seed oils not inherently toxic.",
+        "Both lard and seed oils bad for frying.",
+        "Focus on overall diet, not just oil.",
+        "Oxidation risk higher in thin-layer frying.",
+        "Saturated fat reduction more important than oil type."
       ],
+      "composite": 65.8,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Cooking with Lard vs Seed Oils | Layne Norton, Ph.D.",
+      "substance": 7,
+      "evidence": 5.5,
+      "specificity": 6.5,
+      "insight_density": 6,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260121",
+      "duration_seconds": 734,
+      "composite_base": 65.8,
       "like_adjustment": 0,
-      "length_adjustment": -2.07
+      "length_adjustment": 0,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     }
   ],
   "too_long": [],

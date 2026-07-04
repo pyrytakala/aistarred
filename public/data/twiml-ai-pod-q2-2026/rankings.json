@@ -10,6 +10,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=qeKJhlmBKFw",
       "status": "ok",
+      "word_count": 1509,
       "summary_bullets": [
         "Tests Rubik Pi as AI agent server.",
         "Compares Rubik Pi to VPS performance.",
@@ -52,6 +53,7 @@
       "speakers": "760",
       "url": "https://www.youtube.com/watch?v=346Enb7CUfQ",
       "status": "ok",
+      "word_count": 11422,
       "summary_bullets": [
         "No humanoid robot currently generates real value.",
         "Locomotion not solved until robots match human terrain.",
@@ -100,6 +102,7 @@
       "speakers": "761",
       "url": "https://www.youtube.com/watch?v=-_x7lhhZK7M",
       "status": "ok",
+      "word_count": 9041,
       "summary_bullets": [
         "Yejin Choi on making small models reason better.",
         "Synthetic data diversity via gradient-based filtering.",
@@ -144,6 +147,7 @@
       "speakers": "766",
       "url": "https://www.youtube.com/watch?v=k_tn-e6FWsU",
       "status": "ok",
+      "word_count": 8736,
       "summary_bullets": [
         "Inference timeline from research to production is hours.",
         "GPU generations have surprising long-term staying power.",
@@ -186,6 +190,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=tfa4XaNiT5U",
       "status": "ok",
+      "word_count": 8866,
       "summary_bullets": [
         "Sphere uses RAG for sales tax compliance.",
         "Retrieval accuracy critical for legal citations.",
@@ -220,6 +225,7 @@
       "speakers": "765",
       "url": "https://www.youtube.com/watch?v=SUE1L3XugiQ",
       "status": "ok",
+      "word_count": 8403,
       "summary_bullets": [
         "Capital One built multi-agent platform for auto dealer chat.",
         "Chat Concierge uses specialized agents for car buying.",
@@ -249,6 +255,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=T6bOwti145w",
       "status": "ok",
+      "word_count": 2607,
       "summary_bullets": [
         "AI factory defined as five-layer model (energy, chips, infra, models, apps).",
         "Enterprise AI ROI rose from 5% to ~30% in one year.",
@@ -280,6 +287,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=5qJA8lWLo2A",
       "status": "ok",
+      "word_count": 11480,
       "summary_bullets": [
         "Static guardrails fail against creative agents.",
         "Human approval too slow for agent speed.",
@@ -314,6 +322,7 @@
       "speakers": "768",
       "url": "https://www.youtube.com/watch?v=khSSuUyvqno",
       "status": "ok",
+      "word_count": 10842,
       "summary_bullets": [
         "Relational foundation model predicts on any database without training.",
         "Graph neural networks learn directly on multi-table relational data.",
@@ -342,6 +351,7 @@
       "speakers": "762",
       "url": "https://www.youtube.com/watch?v=f9jwTSfIPuM",
       "status": "ok",
+      "word_count": 13840,
       "summary_bullets": [
         "Reasoning models and post-training focus for 2026.",
         "Inference scaling techniques: self-consistency, self-refinement.",
@@ -373,6 +383,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=0AKQm4zow_E",
       "status": "ok",
+      "word_count": 14037,
       "summary_bullets": [
         "Blitzy uses swarms of agents for code generation.",
         "Context and agent engineering overcome context-window limits.",
@@ -409,6 +420,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ZqehXrVlDqs",
       "status": "ok",
+      "word_count": 9473,
       "summary_bullets": [
         "Observability has three layers: telemetry, monitoring, analytics.",
         "Analytics finds unknown unknowns via unsupervised learning on traces.",
@@ -437,6 +449,7 @@
       "speakers": "764",
       "url": "https://www.youtube.com/watch?v=UDNDOf5hT-A",
       "status": "ok",
+      "word_count": 11424,
       "summary_bullets": [
         "Diffusion models for text are now production-ready.",
         "5-10x faster than autoregressive LLMs.",
@@ -468,6 +481,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=acddqHIwEpI",
       "status": "ok",
+      "word_count": 3860,
       "summary_bullets": [
         "Google Cloud Next AI stack announcements overview.",
         "Gemini Enterprise Agent Platform replaces Vertex AI.",

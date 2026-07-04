@@ -1,17 +1,57 @@
 {
   "source_id": "greg-isenberg-q2-2026",
-  "model": "accounts/fireworks/models/deepseek-v4-flash",
-  "video_count": 22,
-  "scored_count": 22,
-  "ranked_count": 22,
+  "video_count": 53,
+  "scored_count": 52,
+  "ranked_count": 52,
   "rankings": [
+    {
+      "id": "I_wbc5ND79o",
+      "title": "Claude Code built me a $273/Day online directory",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=I_wbc5ND79o",
+      "status": "ok",
+      "word_count": 8947,
+      "summary_bullets": [
+        "Build niche directories with Claude Code",
+        "Data cleaning is the hardest part",
+        "Use Crawl4AI for automated enrichment",
+        "Directory built in 4 days for $250",
+        "SEO takes 6+ months to pay off"
+      ],
+      "composite": 75.23,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Claude Code built me a $273/Day online directory",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260216",
+      "duration_seconds": 3341,
+      "composite_base": 77.8,
+      "like_adjustment": 0,
+      "length_adjustment": -2.57,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
     {
       "id": "S_oN3vlzpMw",
       "title": "How AI agents & Claude skills work (Clearly Explained)",
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=S_oN3vlzpMw",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 6972,
       "summary_bullets": [
         "Models are already very good.",
         "Context matters more than model quality.",
@@ -31,15 +71,129 @@
       "upload_date": "20260408",
       "duration_seconds": 2126,
       "composite_base": 70.5,
-      "rank": 1,
+      "like_adjustment": 0,
+      "length_adjustment": -0.54,
+      "rank": 2,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "83fWzQSWB10",
+      "title": "AI Agents are the new SaaS",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=83fWzQSWB10",
+      "status": "ok",
+      "word_count": 4196,
+      "summary_bullets": [
+        "Agents sell work, not software tools.",
+        "Pick workflows with attached paychecks.",
+        "Shadow humans before building agents.",
+        "Start with minimal useful agent (draft/approve).",
+        "Sell pilots, then productize repeated parts."
       ],
+      "composite": 69.8,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "AI Agents are the new SaaS",
+      "substance": 7.5,
+      "evidence": 3,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260701",
+      "duration_seconds": 1564,
+      "composite_base": 69.8,
       "like_adjustment": 0,
-      "length_adjustment": -0.54
+      "length_adjustment": 0,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "gmSnQPzoYHA",
+      "title": "Claude Opus 4.6 vs GPT-5.3 Codex",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=gmSnQPzoYHA",
+      "status": "ok",
+      "word_count": 8486,
+      "summary_bullets": [
+        "Compares Claude Opus 4.6 vs GPT-5.3 Codex philosophies",
+        "Live head-to-head build of Polymarket competitor",
+        "Opus 4.6 uses multi-agent teams; Codex is interactive collaborator",
+        "Opus produced more polished UI and 96 tests vs Codex’s 10",
+        "Codex built 20x faster but with less refinement"
+      ],
+      "composite": 68.91,
+      "confidence": "High",
+      "audience_level": "professional",
+      "display_title": "Claude Opus 4.6 vs GPT-5.3 Codex",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260206",
+      "duration_seconds": 2935,
+      "composite_base": 70.8,
+      "like_adjustment": 0,
+      "length_adjustment": -1.89,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "fd4k16REDOU",
+      "title": "I fixed OpenClaw so it actually works (full setup)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=fd4k16REDOU",
+      "status": "ok",
+      "word_count": 9986,
+      "summary_bullets": [
+        "10-step guide to optimize OpenClaw setup.",
+        "Use OOTH method to run via ChatGPT subscription.",
+        "Configure memory, heartbeat, and security basics.",
+        "Build automated content and CRM systems."
+      ],
+      "composite": 67.83,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "I fixed OpenClaw so it actually works (full setup)",
+      "substance": 7,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260319",
+      "duration_seconds": 3882,
+      "composite_base": 71.3,
+      "like_adjustment": 0,
+      "length_adjustment": -3.47,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "65IAqRUxg3c",
@@ -47,7 +201,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=65IAqRUxg3c",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 8685,
       "summary_bullets": [
         "Uses OpenClaw agents to automate business tasks.",
         "Built a personality test app with vibe coding.",
@@ -67,15 +221,15 @@
       "upload_date": "20260504",
       "duration_seconds": 2822,
       "composite_base": 69,
-      "rank": 2,
+      "like_adjustment": 0,
+      "length_adjustment": -1.7,
+      "rank": 6,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.7
+      ]
     },
     {
       "id": "7clJ8IH784Q",
@@ -83,7 +237,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=7clJ8IH784Q",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 4220,
       "summary_bullets": [
         "Agent loops automate AI feedback without human.",
         "Human-in-the-loop is superior for app development.",
@@ -103,15 +257,52 @@
       "upload_date": "20260609",
       "duration_seconds": 1352,
       "composite_base": 66,
-      "rank": 3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 7,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "OV5eK91YY68",
+      "title": "I gave OpenClaw one job: go viral (it worked?)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=OV5eK91YY68",
+      "status": "ok",
+      "word_count": 7860,
+      "summary_bullets": [
+        "OpenClaw agent automates TikTok slideshow creation.",
+        "Iterative process: test hooks, images, CTAs.",
+        "Agent learns from analytics to improve content.",
+        "Key lesson: let agent run, mistakes can go viral.",
+        "Free \"Larry skill\" available for others to replicate."
       ],
+      "composite": 62.67,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "I gave OpenClaw one job: go viral (it worked?)",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 5.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260309",
+      "duration_seconds": 2600,
+      "composite_base": 64,
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": -1.33,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "BI-MNjm1tTQ",
@@ -119,7 +310,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=BI-MNjm1tTQ",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 8210,
       "summary_bullets": [
         "Charge $5k/month for unlimited agents.",
         "Target legacy industries: law, insurance, real estate.",
@@ -139,15 +330,52 @@
       "upload_date": "20260512",
       "duration_seconds": 2875,
       "composite_base": 64.3,
-      "rank": 4,
+      "like_adjustment": 0,
+      "length_adjustment": -1.79,
+      "rank": 9,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "YeoGehNsrLc",
+      "title": "Stop Vibe Coding. Start Getting Customers.",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=YeoGehNsrLc",
+      "status": "ok",
+      "word_count": 4953,
+      "summary_bullets": [
+        "Distribution beats coding for success.",
+        "Seven customer acquisition strategies.",
+        "MCP servers sell for you 24/7.",
+        "Programmatic SEO: 10,000 pages in weekend.",
+        "Free tools as marketing funnel."
       ],
+      "composite": 62.3,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Stop Vibe Coding. Start Getting Customers.",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260330",
+      "duration_seconds": 1639,
+      "composite_base": 62.3,
       "like_adjustment": 0,
-      "length_adjustment": -1.79
+      "length_adjustment": 0,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "MlptIfpoLlw",
@@ -155,7 +383,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=MlptIfpoLlw",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 2282,
       "summary_bullets": [
         "AI agents becoming internet customers.",
         "Old web for humans, new web for agents.",
@@ -174,10 +402,10 @@
       "upload_date": "20260602",
       "duration_seconds": 840,
       "composite_base": 61.5,
-      "rank": 5,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 11,
+      "tags": []
     },
     {
       "id": "jJIOA4GroBw",
@@ -185,7 +413,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=jJIOA4GroBw",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 5017,
       "summary_bullets": [
         "Six skills for AI era.",
         "Agents, distribution, robotics, curation, builder-distributor, IRL community.",
@@ -204,7 +432,9 @@
       "upload_date": "20260625",
       "duration_seconds": 1794,
       "composite_base": 61.25,
-      "rank": 6,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 12,
       "tags": [
         {
           "label": "Specificity",
@@ -214,9 +444,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "bdhUBBACglw",
@@ -224,7 +452,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=bdhUBBACglw",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 4021,
       "summary_bullets": [
         "Local models run entirely on your own computer.",
         "Fable 5 ban shows cloud model fragility.",
@@ -243,15 +471,15 @@
       "upload_date": "20260613",
       "duration_seconds": 1496,
       "composite_base": 60.8,
-      "rank": 7,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 13,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "LYomocq6Dpo",
@@ -259,7 +487,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=LYomocq6Dpo",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 9375,
       "summary_bullets": [
         "19-year-old built wrestling app to $200k revenue.",
         "Uses AI (vibe coding) without coding skills.",
@@ -279,15 +507,88 @@
       "upload_date": "20260615",
       "duration_seconds": 2890,
       "composite_base": 62.3,
-      "rank": 8,
+      "like_adjustment": 0,
+      "length_adjustment": -1.82,
+      "rank": 14,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "fVUlrpaWNxg",
+      "title": "AI marketing Masterclass: From beginner to expert in 60 minutes",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=fVUlrpaWNxg",
+      "status": "ok",
+      "word_count": 10385,
+      "summary_bullets": [
+        "Uses Claude Code for marketing asset creation",
+        "Combines MCPs (Perplexity, Playwright) with custom skills",
+        "Builds landing page, lead magnet, and video ad in one session",
+        "Demonstrates research-first approach to avoid AI slop",
+        "Shows how to stack skills for better outputs"
       ],
+      "composite": 59.43,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "AI marketing Masterclass: From beginner to expert in 60 minutes",
+      "substance": 6.5,
+      "evidence": 5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260209",
+      "duration_seconds": 3522,
+      "composite_base": 62.3,
       "like_adjustment": 0,
-      "length_adjustment": -1.82
+      "length_adjustment": -2.87,
+      "rank": 15,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "9OnN4O4uapI",
+      "title": "Stop Shipping AI Slop. Design with Weavy AI, Claude etc.",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=9OnN4O4uapI",
+      "status": "ok",
+      "word_count": 9408,
+      "summary_bullets": [
+        "Workflow: vibe code prototype → brand guidelines → mood board → AI asset generation → Figma compositing.",
+        "Uses Weavy AI (node-based) with Flux 2 Pro and Ideogram for colors, buttons, cassette tapes, logo.",
+        "Compares final design to one-shot AI Studio output; Figma version judged better.",
+        "Guest is a designer who sold her company to Snap; tutorial is live build."
+      ],
+      "composite": 56.58,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "AI-Powered App Design Workflow: Using Weavy AI, Claude, and Figma to Create Beautiful UIs",
+      "substance": 6.5,
+      "evidence": 4.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260213",
+      "duration_seconds": 3252,
+      "composite_base": 59,
+      "like_adjustment": 0,
+      "length_adjustment": -2.42,
+      "rank": 16,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "xa-9O5cDm3c",
@@ -295,7 +596,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=xa-9O5cDm3c",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 4481,
       "summary_bullets": [
         "GLM 5.2 is an open-source local AI model.",
         "It has a 1 million context window.",
@@ -315,10 +616,174 @@
       "upload_date": "20260623",
       "duration_seconds": 1365,
       "composite_base": 56.3,
-      "rank": 9,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 17,
+      "tags": []
+    },
+    {
+      "id": "eA9Zf2-qYYM",
+      "title": "Building AI Agents that actually work (Full Course)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=eA9Zf2-qYYM",
+      "status": "ok",
+      "word_count": 10800,
+      "summary_bullets": [
+        "Agent loop: observe, think, act repeatedly.",
+        "Context files (agents.md) replace chat memory.",
+        "MCPs connect agents to tools like Gmail.",
+        "Skills package processes as reusable markdown files.",
+        "Scheduled tasks automate daily briefs."
+      ],
+      "composite": 56.11,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Building AI Agents that actually work (Full Course)",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260317",
+      "duration_seconds": 3536,
+      "composite_base": 59,
+      "like_adjustment": 0,
+      "length_adjustment": -2.89,
+      "rank": 18,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "RpvQH0r0ecM",
+      "title": "\"Ralph Wiggum\" AI Agent will 10x Claude Code/Amp",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=RpvQH0r0ecM",
+      "status": "ok",
+      "word_count": 5193,
+      "summary_bullets": [
+        "Ralph is an autonomous coding loop for AI agents.",
+        "Breaks features into small user stories with acceptance criteria.",
+        "Agent picks a story, implements, tests, commits, then repeats.",
+        "Uses progress logs and agents.md for learning.",
+        "Costs ~$30 per full feature run."
+      ],
+      "composite": 55.3,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "How the Ralph AI Agent Loop Works: Autonomous Feature Building with Claude Opus 4.5",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 8,
+      "insight_density": 5.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260108",
+      "duration_seconds": 1726,
+      "composite_base": 55.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 19,
+      "tags": []
+    },
+    {
+      "id": "QPAy9R9V1rA",
+      "title": "Screensharing Kevin Rose's AI Workflow/New App",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=QPAy9R9V1rA",
+      "status": "ok",
+      "word_count": 11209,
+      "summary_bullets": [
+        "Kevin Rose demos his AI news aggregator \"Nylon\"",
+        "Uses RSS, vector embeddings, clustering algorithms",
+        "Shows real-time blurred video blog prototype",
+        "Discusses vibe coding and personal software era",
+        "Offers free coworking space in LA"
+      ],
+      "composite": 54.36,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Screensharing Kevin Rose's AI Workflow/New App",
+      "substance": 6,
+      "evidence": 4,
+      "specificity": 8,
+      "insight_density": 6,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260202",
+      "duration_seconds": 3385,
+      "composite_base": 57,
+      "like_adjustment": 0,
+      "length_adjustment": -2.64,
+      "rank": 20,
+      "tags": []
+    },
+    {
+      "id": "RB_M2mKiOcY",
+      "title": "Claude Code & MCPs built my $145K marketing machine",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=RB_M2mKiOcY",
+      "status": "ok",
+      "word_count": 10384,
+      "summary_bullets": [
+        "Uses Claude Code and MCPs to automate marketing workflows.",
+        "Builds Facebook ad generator, LinkedIn scraper, cold email pipeline.",
+        "Deploys agents on Railway for 24/7 background operation.",
+        "Emphasizes API quality over UI for agent integration.",
+        "Domain expertise amplifies agent output quality."
+      ],
+      "composite": 52.34,
+      "audience_level": "professional",
+      "display_title": "Claude Code & MCPs built my $145K marketing machine",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 7,
+      "insight_density": 5.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260302",
+      "duration_seconds": 3247,
+      "composite_base": 54.75,
+      "like_adjustment": 0,
+      "length_adjustment": -2.41,
+      "rank": 21,
+      "tags": []
+    },
+    {
+      "id": "6MBq1paspVU",
+      "title": "How I Use Obsidian + Claude Code to Run My Life",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=6MBq1paspVU",
+      "status": "ok",
+      "word_count": 10724,
+      "summary_bullets": [
+        "Obsidian vault stores interlinked markdown notes.",
+        "Claude Code reads vault to gain rich context.",
+        "Custom commands automate context loading and idea generation.",
+        "AI surfaces patterns and connections invisible to the user.",
+        "Workflow moves from reflection to actionable building."
+      ],
+      "composite": 51.1,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "How I Use Obsidian + Claude Code to Run My Life",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 7.5,
+      "insight_density": 5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260223",
+      "duration_seconds": 3537,
+      "composite_base": 54,
+      "like_adjustment": 0,
+      "length_adjustment": -2.9,
+      "rank": 22,
+      "tags": []
     },
     {
       "id": "lyqk7zxbCKs",
@@ -326,7 +791,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=lyqk7zxbCKs",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 5454,
       "summary_bullets": [
         "One-hour company stack via vibe coding",
         "Ambient businesses with zero daily input",
@@ -345,10 +810,106 @@
       "upload_date": "20260401",
       "duration_seconds": 1897,
       "composite_base": 51.25,
-      "rank": 10,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.16
+      "length_adjustment": -0.16,
+      "rank": 23,
+      "tags": []
+    },
+    {
+      "id": "5uCDHmr0xdE",
+      "title": "I Spent $289 So AI Could Build My Business",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=5uCDHmr0xdE",
+      "status": "ok",
+      "word_count": 7374,
+      "summary_bullets": [
+        "Builds AI-generated ebook in under an hour.",
+        "Uses ChatGPT, Shopify, Canva, Fiverr, Invato Elements.",
+        "Runs Facebook ads to sell product direct-to-consumer.",
+        "Aims for break-even CAC vs LTV with upsells.",
+        "Replicates process across multiple niches (divorce, hummingbird food)."
+      ],
+      "composite": 50.77,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "I Spent $289 So AI Could Build My Business",
+      "substance": 5,
+      "evidence": 4,
+      "specificity": 8,
+      "insight_density": 6,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260116",
+      "duration_seconds": 2536,
+      "composite_base": 52,
+      "like_adjustment": 0,
+      "length_adjustment": -1.23,
+      "rank": 24,
+      "tags": []
+    },
+    {
+      "id": "DW4a1Cm8nG4",
+      "title": "I got a private lesson on Claude Cowork & Claude Code",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=DW4a1Cm8nG4",
+      "status": "ok",
+      "word_count": 8851,
+      "summary_bullets": [
+        "Claude Cowork is a UI-based version of Claude Code.",
+        "Demo shows file renaming, spreadsheet creation, and emailing.",
+        "Boris shares Claude Code tips: parallel tasks, Opus 4.5, Claude.md.",
+        "Plan mode and auto-verify output improve results.",
+        "Claude Code works on mobile, web, and terminal."
+      ],
+      "composite": 50.29,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "I got a private lesson on Claude Cowork & Claude Code",
+      "substance": 5.5,
+      "evidence": 4,
+      "specificity": 7.5,
+      "insight_density": 5.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260123",
+      "duration_seconds": 2528,
+      "composite_base": 51.5,
+      "like_adjustment": 0,
+      "length_adjustment": -1.21,
+      "rank": 25,
+      "tags": []
+    },
+    {
+      "id": "zxMjOqM7DFs",
+      "title": "Claude Code Clearly Explained (and how to use it)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=zxMjOqM7DFs",
+      "status": "ok",
+      "word_count": 5869,
+      "summary_bullets": [
+        "Use \"ask user question tool\" for detailed planning.",
+        "Build features one-by-one with tests before using Ralph.",
+        "Good plans prevent wasted tokens and AI slop.",
+        "Keep context under 50% to avoid deterioration.",
+        "Audacity and taste differentiate software."
+      ],
+      "composite": 50.15,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "Claude Code Clearly Explained (and how to use it)",
+      "substance": 5.5,
+      "evidence": 3,
+      "specificity": 7,
+      "insight_density": 4.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260119",
+      "duration_seconds": 1888,
+      "composite_base": 50.3,
+      "like_adjustment": 0,
+      "length_adjustment": -0.15,
+      "rank": 26,
+      "tags": []
     },
     {
       "id": "tUeSxXHmE9w",
@@ -356,7 +917,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=tUeSxXHmE9w",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 4259,
       "summary_bullets": [
         "Codex Sites enables autonomous app updates.",
         "Compares Codex Sites to Replit and Lovable.",
@@ -376,10 +937,10 @@
       "upload_date": "20260604",
       "duration_seconds": 1482,
       "composite_base": 49.5,
-      "rank": 11,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 27,
+      "tags": []
     },
     {
       "id": "LWx4FGam2aQ",
@@ -387,7 +948,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=LWx4FGam2aQ",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 12229,
       "summary_bullets": [
         "Codex unifies coding and knowledge work.",
         "Can use Claude Code inside Codex.",
@@ -407,15 +968,15 @@
       "upload_date": "20260427",
       "duration_seconds": 3881,
       "composite_base": 52,
-      "rank": 12,
+      "like_adjustment": 0,
+      "length_adjustment": -3.47,
+      "rank": 28,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -3.47
+      ]
     },
     {
       "id": "Qn2c_U-cWQs",
@@ -423,7 +984,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Qn2c_U-cWQs",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 7487,
       "summary_bullets": [
         "Hermes Agent has built-in memory using SQLite.",
         "It offers 40+ pre-installed tools and skills.",
@@ -443,10 +1004,10 @@
       "upload_date": "20260420",
       "duration_seconds": 2221,
       "composite_base": 49,
-      "rank": 13,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.7
+      "length_adjustment": -0.7,
+      "rank": 29,
+      "tags": []
     },
     {
       "id": "Ix43w_IssR8",
@@ -454,7 +1015,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Ix43w_IssR8",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 5148,
       "summary_bullets": [
         "Seven tiny AI agent business ideas given.",
         "Uses GenSpark Claw to automate them.",
@@ -474,10 +1035,10 @@
       "upload_date": "20260511",
       "duration_seconds": 1818,
       "composite_base": 46.5,
-      "rank": 14,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.03
+      "length_adjustment": -0.03,
+      "rank": 30,
+      "tags": []
     },
     {
       "id": "vjdHAWvVCP4",
@@ -485,7 +1046,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=vjdHAWvVCP4",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 5636,
       "summary_bullets": [
         "Fable 5 is a powerful AI model for productivity and money-making.",
         "Provides specific prompts for copywriting, video editing, and planning.",
@@ -505,10 +1066,200 @@
       "upload_date": "20260611",
       "duration_seconds": 1989,
       "composite_base": 46,
-      "rank": 15,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.32
+      "length_adjustment": -0.32,
+      "rank": 31,
+      "tags": []
+    },
+    {
+      "id": "YRhGtHfs1Lw",
+      "title": "How I Use Clawdbot to Run My Business and Life 24/7",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=YRhGtHfs1Lw",
+      "status": "ok",
+      "word_count": 6448,
+      "summary_bullets": [
+        "Multiple AI personas in Discord for different roles.",
+        "Self-hosted Clawdbot with shell and network access.",
+        "Email handled via chat, not direct reading.",
+        "Smart home integration with presence sensors and casting.",
+        "Automated tasks like Pi-hole setup and YouTube playlist creation."
+      ],
+      "composite": 43.65,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "Using Clawdbot for Personal and Business Automation: 10+ Use Cases and Setup Tips",
+      "substance": 5.5,
+      "evidence": 2,
+      "specificity": 7.5,
+      "insight_density": 4,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260129",
+      "duration_seconds": 1859,
+      "composite_base": 43.75,
+      "like_adjustment": 0,
+      "length_adjustment": -0.1,
+      "rank": 32,
+      "tags": []
+    },
+    {
+      "id": "oDl-A2Uez58",
+      "title": "Inside $180B Co-Founder's AI Agent System",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=oDl-A2Uez58",
+      "status": "ok",
+      "word_count": 5948,
+      "summary_bullets": [
+        "Demo of Nebula AI agent platform for automation",
+        "Agent creates slide decks and blog posts autonomously",
+        "Blog ran 15 days, 3 posts/day, ~100 daily hits",
+        "Platform connects to Slack, Google, Ghost, PostHog",
+        "Guest is co-founder of $175B company Apploven"
+      ],
+      "composite": 42.9,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "Nebula AI Agent Platform Demo: Automating Blogs and Presentations",
+      "substance": 4.5,
+      "evidence": 4,
+      "specificity": 6.5,
+      "insight_density": 4,
+      "non_promotion": 1.5,
+      "like_count": null,
+      "upload_date": "20260126",
+      "duration_seconds": 1858,
+      "composite_base": 43,
+      "like_adjustment": 0,
+      "length_adjustment": -0.1,
+      "rank": 33,
+      "tags": []
+    },
+    {
+      "id": "eH8JdttKIdA",
+      "title": "Firecrawl AI clearly explained (and how to make $$)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=eH8JdttKIdA",
+      "status": "ok",
+      "word_count": 4733,
+      "summary_bullets": [
+        "Firecrawl converts websites to clean markdown/JSON for AI.",
+        "AI needs web data; Firecrawl provides it via one API call.",
+        "Old scraping required custom code; Firecrawl handles anti-bot.",
+        "Speaker suggests niche startup ideas using Firecrawl.",
+        "Firecrawl is part of AI agent stack: eyes and hands."
+      ],
+      "composite": 41,
+      "audience_level": "practitioner",
+      "display_title": "Firecrawl AI clearly explained (and how to make $)",
+      "substance": 5.5,
+      "evidence": 2,
+      "specificity": 6.5,
+      "insight_density": 4,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260324",
+      "duration_seconds": 1648,
+      "composite_base": 41,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 34,
+      "tags": []
+    },
+    {
+      "id": "C3-4llQYT8o",
+      "title": "Paperclip: Hire AI Agents Like Employees (Live Demo)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=C3-4llQYT8o",
+      "status": "ok",
+      "word_count": 8099,
+      "summary_bullets": [
+        "Orchestrates AI agents as a company.",
+        "Demo: hiring CEO, engineer, video editor.",
+        "Bring-your-own models (Claude, OpenRouter).",
+        "Features: issues, budgets, routines, skills.",
+        "Creator discusses agent memory and quality."
+      ],
+      "composite": 40.63,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "Paperclip: Hire AI Agents Like Employees (Live Demo)",
+      "substance": 4.5,
+      "evidence": 2,
+      "specificity": 7.5,
+      "insight_density": 5,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260326",
+      "duration_seconds": 2802,
+      "composite_base": 42.3,
+      "like_adjustment": 0,
+      "length_adjustment": -1.67,
+      "rank": 35,
+      "tags": []
+    },
+    {
+      "id": "b1mjQIiH7r4",
+      "title": "Claude Code Built My $450K Marketing Campaign",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=b1mjQIiH7r4",
+      "status": "ok",
+      "word_count": 7973,
+      "summary_bullets": [
+        "CEO's primary job is promotion, not building.",
+        "Framework: traffic → holding pattern → selling event.",
+        "Uses Claude for research, content, and lead magnets.",
+        "Claude Code builds marketing landing pages quickly.",
+        "Warns against over-optimizing; scale up instead."
+      ],
+      "composite": 40.52,
+      "confidence": "Med",
+      "audience_level": "general",
+      "display_title": "Using AI Tools for Marketing: CEO Promotion Framework and Claude Code Demo",
+      "substance": 5.5,
+      "evidence": 3.5,
+      "specificity": 5,
+      "insight_density": 3.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260211",
+      "duration_seconds": 2686,
+      "composite_base": 42,
+      "like_adjustment": 0,
+      "length_adjustment": -1.48,
+      "rank": 36,
+      "tags": []
+    },
+    {
+      "id": "qb90PPbAWz4",
+      "title": "Karpathy's \"autoresearch\" broke the internet",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=qb90PPbAWz4",
+      "status": "ok",
+      "word_count": 4455,
+      "summary_bullets": [
+        "Autoresearch automates AI model experiments overnight.",
+        "Needs Nvidia GPU or cloud rental.",
+        "Use cases include niche agents, AB testing, research-as-a-service.",
+        "Speaker promotes free event and own startup ideas site."
+      ],
+      "composite": 40,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Karpathy's \"autoresearch\" broke the internet",
+      "substance": 5,
+      "evidence": 2,
+      "specificity": 6,
+      "insight_density": 4,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260311",
+      "duration_seconds": 1462,
+      "composite_base": 40,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 37,
+      "tags": []
     },
     {
       "id": "LztPaNmcWGU",
@@ -516,7 +1267,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=LztPaNmcWGU",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 10886,
       "summary_bullets": [
         "Framework: people manage agents, agents use context.",
         "Context layer gives agents 2020 vision on company.",
@@ -536,10 +1287,10 @@
       "upload_date": "20260608",
       "duration_seconds": 3404,
       "composite_base": 41,
-      "rank": 16,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.67
+      "length_adjustment": -2.67,
+      "rank": 38,
+      "tags": []
     },
     {
       "id": "EJm8Ka-gVOc",
@@ -547,7 +1298,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=EJm8Ka-gVOc",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 7652,
       "summary_bullets": [
         "Hermes Desktop app walkthrough with Alex Finn.",
         "Sessions manage context to reduce costs.",
@@ -566,10 +1317,10 @@
       "upload_date": "20260606",
       "duration_seconds": 2629,
       "composite_base": 39,
-      "rank": 17,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.38
+      "length_adjustment": -1.38,
+      "rank": 39,
+      "tags": []
     },
     {
       "id": "IFLY6L3YPGo",
@@ -577,7 +1328,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=IFLY6L3YPGo",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 11931,
       "summary_bullets": [
         "Discusses 12 startup opportunities.",
         "Covers AI, B2C, mobile, community.",
@@ -597,10 +1348,123 @@
       "upload_date": "20260518",
       "duration_seconds": 4103,
       "composite_base": 40,
-      "rank": 18,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -3.84
+      "length_adjustment": -3.84,
+      "rank": 40,
+      "tags": []
+    },
+    {
+      "id": "U8kXfk8enrY",
+      "title": "Clawdbot/OpenClaw Clearly Explained (and how to use it)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=U8kXfk8enrY",
+      "status": "ok",
+      "word_count": 6698,
+      "summary_bullets": [
+        "Clawdbot (renamed Moltbot) is an open-source AI agent.",
+        "It runs autonomously, remembers context, and self-improves.",
+        "Setup requires a local machine or cloud VPS.",
+        "Use cases include morning briefs, code PRs, and trend monitoring.",
+        "Security risks: prompt injection, account access control."
+      ],
+      "composite": 35.98,
+      "confidence": "Med",
+      "audience_level": "general",
+      "display_title": "Clawdbot/OpenClaw Clearly Explained (and how to use it)",
+      "substance": 4.5,
+      "evidence": 2.5,
+      "specificity": 5.5,
+      "insight_density": 3.5,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260127",
+      "duration_seconds": 2114,
+      "composite_base": 36.5,
+      "like_adjustment": 0,
+      "length_adjustment": -0.52,
+      "rank": 41,
+      "tags": []
+    },
+    {
+      "id": "YiitvyQGbkc",
+      "title": "My Claude Code workflow to A/B startups in seconds",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=YiitvyQGbkc",
+      "status": "ok",
+      "word_count": 7186,
+      "composite": 34.26,
+      "like_count": null,
+      "upload_date": "20260413",
+      "duration_seconds": 2123,
+      "composite_base": 34.8,
+      "like_adjustment": 0,
+      "length_adjustment": -0.54,
+      "rank": 42,
+      "tags": []
+    },
+    {
+      "id": "i13XK-uUOLQ",
+      "title": "Making $$$ with OpenClaw",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=i13XK-uUOLQ",
+      "status": "ok",
+      "word_count": 9289,
+      "summary_bullets": [
+        "OpenClaw automates business tasks.",
+        "Use Upwork to find automation jobs.",
+        "Sub-agents parallelize work for efficiency.",
+        "Start with high-value, low-effort automations.",
+        "Orgo platform hosts multiple OpenClaw instances."
+      ],
+      "composite": 32.79,
+      "confidence": "Low",
+      "audience_level": "practitioner",
+      "display_title": "Making $$ with OpenClaw",
+      "substance": 4.5,
+      "evidence": 2.5,
+      "specificity": 5,
+      "insight_density": 3,
+      "non_promotion": 1.5,
+      "like_count": null,
+      "upload_date": "20260218",
+      "duration_seconds": 3124,
+      "composite_base": 35,
+      "like_adjustment": 0,
+      "length_adjustment": -2.21,
+      "rank": 43,
+      "tags": []
+    },
+    {
+      "id": "9T1yWEq5kP0",
+      "title": "SaaS is minting millionaires again (here's how)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=9T1yWEq5kP0",
+      "status": "ok",
+      "word_count": 4467,
+      "summary_bullets": [
+        "Find subniche inside big market.",
+        "Map end-to-end workflow of target.",
+        "Identify where money changes hands.",
+        "Automate mechanical tasks with AI agents.",
+        "Price per task, not per seat."
+      ],
+      "composite": 32.3,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "30-step playbook for building an AI SaaS startup from subniche to execution layer",
+      "substance": 4.5,
+      "evidence": 1,
+      "specificity": 5.5,
+      "insight_density": 3,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260304",
+      "duration_seconds": 1536,
+      "composite_base": 32.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 44,
+      "tags": []
     },
     {
       "id": "nyO60uzTnP4",
@@ -608,7 +1472,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=nyO60uzTnP4",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 12954,
       "summary_bullets": [
         "AI agents opportunity is trillions, not just $1T.",
         "Most industries underpenetrated by current AI capabilities.",
@@ -627,10 +1491,10 @@
       "upload_date": "20260429",
       "duration_seconds": 3911,
       "composite_base": 35,
-      "rank": 19,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -3.52
+      "length_adjustment": -3.52,
+      "rank": 45,
+      "tags": []
     },
     {
       "id": "dNASCxGFoHg",
@@ -638,7 +1502,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=dNASCxGFoHg",
       "status": "ok",
-      "cache_hit": false,
+      "word_count": 6417,
       "summary_bullets": [
         "Lindy AI assistant lives in iMessage.",
         "Proactively manages calendar, email, Slack.",
@@ -658,10 +1522,124 @@
       "upload_date": "20260406",
       "duration_seconds": 1867,
       "composite_base": 31.5,
-      "rank": 20,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.11
+      "length_adjustment": -0.11,
+      "rank": 46,
+      "tags": []
+    },
+    {
+      "id": "PrP_aGVLBMI",
+      "title": "Watch me use AI to make millions in ecommerce",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=PrP_aGVLBMI",
+      "status": "ok",
+      "word_count": 4069,
+      "composite": 31.25,
+      "audience_level": "general",
+      "display_title": "Alibaba’s Axio AI Agent for E‑Commerce: Demo and Review",
+      "like_count": null,
+      "upload_date": "20260105",
+      "duration_seconds": 1531,
+      "composite_base": 31.25,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 47,
+      "tags": []
+    },
+    {
+      "id": "71ES9jzqa0Q",
+      "title": "The Claude Code Skill My Smartest Friends Use",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=71ES9jzqa0Q",
+      "status": "ok",
+      "word_count": 4264,
+      "summary_bullets": [
+        "Tool searches X and Reddit for recent trends.",
+        "Integrates with Claude Code to generate prompts.",
+        "Demo shows cold emails, growth plans, Figma prompts.",
+        "Creator Matt Van Horn is not a software engineer.",
+        "Requires Claude Code, OpenAI key, XAI key."
+      ],
+      "composite": 29,
+      "confidence": "Med",
+      "audience_level": "general",
+      "display_title": "Last 30 Days: A Claude Code Skill That Uses X and Reddit Trends",
+      "substance": 3,
+      "evidence": 2,
+      "specificity": 5,
+      "insight_density": 3,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260204",
+      "duration_seconds": 1522,
+      "composite_base": 29,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 48,
+      "tags": []
+    },
+    {
+      "id": "loNrCpi5dkw",
+      "title": "Side Hustle King: 6 $60K/Mo Businesses Nobody's Doing",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=loNrCpi5dkw",
+      "status": "ok",
+      "word_count": 10654,
+      "summary_bullets": [
+        "Facebook Marketplace has 500M monthly users, few third-party apps.",
+        "Dumb physical products can go viral via short-form video and AI.",
+        "Mobile bike wash trailer: $20/wash, 40 washes/day = $800 revenue.",
+        "Drink-cover stickers for bars: low cost, subscription model.",
+        "Buy all first-edition 1999 Pokémon cards to control supply."
+      ],
+      "composite": 28.99,
+      "confidence": "Med",
+      "audience_level": "general",
+      "display_title": "Side Hustle King: 6 $60K/Mo Businesses Nobody's Doing",
+      "substance": 3.5,
+      "evidence": 1.5,
+      "specificity": 5.5,
+      "insight_density": 2.5,
+      "non_promotion": 3.5,
+      "like_count": null,
+      "upload_date": "20260112",
+      "duration_seconds": 3308,
+      "composite_base": 31.5,
+      "like_adjustment": 0,
+      "length_adjustment": -2.51,
+      "rank": 49,
+      "tags": []
+    },
+    {
+      "id": "l-J8RodcM_A",
+      "title": "What is Perplexity Computer?",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=l-J8RodcM_A",
+      "status": "ok",
+      "word_count": 6206,
+      "summary_bullets": [
+        "Live demo of Perplexity Computer AI agent platform.",
+        "Tests cold email, competitor monitoring, investor research.",
+        "Tool automates multi-step research and outreach tasks.",
+        "Speaker shares personal impressions and use cases."
+      ],
+      "composite": 28.21,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Perplexity Computer Review: Live Demo of AI Agent Use Cases for Entrepreneurs",
+      "substance": 3,
+      "evidence": 2,
+      "specificity": 6,
+      "insight_density": 2,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260227",
+      "duration_seconds": 2276,
+      "composite_base": 29,
+      "like_adjustment": 0,
+      "length_adjustment": -0.79,
+      "rank": 50,
+      "tags": []
     },
     {
       "id": "vyLaimDeK_g",
@@ -669,7 +1647,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=vyLaimDeK_g",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 8518,
       "summary_bullets": [
         "Live demo of Claude Design for wireframing and decks.",
         "Creates wireframes for a senior brain‑training app.",
@@ -689,10 +1667,10 @@
       "upload_date": "20260418",
       "duration_seconds": 3600,
       "composite_base": 30.5,
-      "rank": 21,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -3
+      "length_adjustment": -3,
+      "rank": 51,
+      "tags": []
     },
     {
       "id": "oLu32YpiIJw",
@@ -700,7 +1678,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=oLu32YpiIJw",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 8568,
       "summary_bullets": [
         "Design.md files encode design systems as structured markdown.",
         "Attach design.md to AI prompts for consistent outputs.",
@@ -719,10 +1697,10 @@
       "upload_date": "20260506",
       "duration_seconds": 3062,
       "composite_base": 28.5,
-      "rank": 22,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.1
+      "length_adjustment": -2.1,
+      "rank": 52,
+      "tags": []
     }
   ],
   "too_long": [],

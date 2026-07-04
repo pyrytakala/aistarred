@@ -10,6 +10,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/eda-market-primer",
       "status": "ok",
+      "word_count": 6807,
       "summary_bullets": [
         "Three companies dominate EDA market.",
         "EDA revenue grows faster than semiconductor R&D.",
@@ -57,6 +58,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/cerebras-faster-tokens-please",
       "status": "ok",
+      "word_count": 8698,
       "summary_bullets": [
         "Cerebras makes wafer-scale chips for fast inference.",
         "High SRAM bandwidth, low memory capacity.",
@@ -100,6 +102,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/finding-miscompiles-for-fun-not-profit",
       "status": "ok",
+      "word_count": 1676,
       "summary_bullets": [
         "AI agents found 80+ compiler bugs in days.",
         "Fuzzing cost $200/month; code-reading cost $10,000.",
@@ -146,6 +149,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/rl-systems-mind-the-gap-matching",
       "status": "ok",
+      "word_count": 5129,
       "summary_bullets": [
         "RL efficiency requires throughput matching.",
         "Trainer-generator imbalance causes waste.",
@@ -185,6 +189,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/steel-smic-n3-teardown",
       "status": "ok",
+      "word_count": 8049,
       "summary_bullets": [
         "SMIC N+3 metal pitch is 32.5 nm.",
         "N+3 matches TSMC N6 density via DUV.",
@@ -228,6 +233,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/ai-dark-output-the-visible-cost-of",
       "status": "ok",
+      "word_count": 4434,
       "summary_bullets": [
         "GDP misses AI's economic value.",
         "AI creates invisible \"Dark Output.\"",
@@ -271,6 +277,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/ectc2026",
       "status": "ok",
+      "word_count": 6304,
       "summary_bullets": [
         "Intel's EMIB-T uses TSVs for power delivery.",
         "Marvell custom HBM reduces host ASIC footprint.",
@@ -311,6 +318,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter",
       "status": "ok",
+      "word_count": 5185,
       "summary_bullets": [
         "Claim of 50% datacenter cancellation is wrong.",
         "Flawed denominator and early-stage projects misclassified.",
@@ -354,6 +362,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw",
       "status": "ok",
+      "word_count": 5388,
       "summary_bullets": [
         "US grid headroom turns negative by 2027.",
         "Behind-the-meter (BTM) power will dominate new datacenters.",
@@ -396,6 +405,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/intel-should-raise-capital",
       "status": "ok",
+      "word_count": 1259,
       "summary_bullets": [
         "Intel should issue equity to raise capital.",
         "Current stock price is high, good for issuance.",
@@ -431,6 +441,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/inside-the-800vdc-revolution-part",
       "status": "ok",
+      "word_count": 8670,
       "summary_bullets": [
         "800VDC reduces copper and resistive losses.",
         "Transition has four phases, starting with retrofits.",
@@ -470,6 +481,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/ai-value-capture-the-shift-to-model",
       "status": "ok",
+      "word_count": 5469,
       "summary_bullets": [
         "AI labs capture value from token demand.",
         "Nvidia and TSMC underprice despite bottlenecks.",
@@ -512,6 +524,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/to-boldly-go-the-case-for-space-datacenters",
       "status": "ok",
+      "word_count": 9329,
       "summary_bullets": [
         "Space datacenters currently 4x more expensive.",
         "Terrestrial power constraints may force space.",
@@ -551,6 +564,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/anthropic-growth-and-bedrock-mix",
       "status": "ok",
+      "word_count": 3243,
       "summary_bullets": [
         "AWS margins rose via Anthropic/Bedrock spending.",
         "Bedrock's token-as-a-service model boosts margins.",
@@ -594,6 +608,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global",
       "status": "ok",
+      "word_count": 5437,
       "summary_bullets": [
         "Unitree humanoids becoming economically viable.",
         "QDD actuators cheaper, improving reliability.",
@@ -632,6 +647,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram",
       "status": "ok",
+      "word_count": 5604,
       "summary_bullets": [
         "CXMT is China's leading DRAM maker.",
         "Inherited Qimonda patents and engineers.",
@@ -671,6 +687,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/tokenbudgeting-our-conversations",
       "status": "ok",
+      "word_count": 2012,
       "summary_bullets": [
         "Tokenmaxxing hype is overstated.",
         "Enterprise AI budgets vary widely ($250–$20k/month).",
@@ -705,6 +722,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/meta-compute-everyone-wants-to-be",
       "status": "ok",
+      "word_count": 1954,
       "summary_bullets": [
         "Meta contracted 5GW capacity in six months.",
         "Four high-value compute use-cases identified.",
@@ -741,6 +759,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance",
       "status": "ok",
+      "word_count": 6220,
       "summary_bullets": [
         "DeepSeek V4 performance tracked across hardware.",
         "Day 0 results varied by chip and engine.",
@@ -780,6 +799,7 @@
       "speakers": "SemiAnalysis",
       "url": "https://newsletter.semianalysis.com/p/the-eda-primer-from-rtl-to-silicon",
       "status": "ok",
+      "word_count": 10071,
       "summary_bullets": [
         "Chip design complexity grows 50% yearly, productivity only 20%.",
         "Verification consumes up to 70% of project effort.",

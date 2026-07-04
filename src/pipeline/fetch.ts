@@ -1,7 +1,7 @@
 import { mkdirSync, readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { basename, join } from "node:path";
 
-import { applyContentLengthGate } from "../lib/content-length.js";
+import { applyContentLengthGate, countWords } from "../lib/content-length.js";
 import { isWithinDateRange } from "../lib/date-range.js";
 import { getContentFetcher, usesEssayFetch } from "../lib/content-fetchers/index.js";
 import {
@@ -9,6 +9,7 @@ import {
   mergeIndexVideos,
   shouldSkipItemFetch,
 } from "../lib/fetch-delta.js";
+import { StageTimer, stageLog } from "../lib/stage-log.js";
 import { pipelineLog, withPipelineTiming } from "../lib/pipeline-log.js";
 import { appliesDurationLimits, isEligibleForScoring } from "../lib/scoring-limits.js";
 import { loadEnv } from "../lib/env.js";
@@ -145,6 +146,7 @@ async function processVideo(
       transcript_provider: provider.name,
       transcript_path: textPath,
       line_count: transcriptText.split(/\r?\n/).length,
+      word_count: countWords(transcriptText),
       language_code: transcriptMeta.language_code ?? null,
       available_langs: transcriptMeta.available_langs ?? [],
     });
@@ -268,9 +270,11 @@ async function runEssayFetch(
   const windowLabel = source.dateRange
     ? `${source.dateRange.since}–${source.dateRange.until}`
     : "all time";
-  console.log(
-    `Listing essays from ${catalogUrl} for ${source.title} (${windowLabel}) via ${fetcher.kind}...`,
-  );
+  stageLog("fetch", `listing essays for ${source.title}`, {
+    sourceId: source.id,
+    window: windowLabel,
+    adapter: fetcher.kind,
+  });
 
   const context = {
     sourceId: source.id,
@@ -304,12 +308,13 @@ async function runEssayFetch(
 
   console.log(`Found ${items.length} essays in window. Fetching text...\n`);
 
+  const fetchTimer = new StageTimer("fetch", `essays ${source.id}`);
   const sessionUpdates: VideoIndexEntry[] = [];
   const usedNames = seedUsedNamesFromIndex(existingById.values());
   let skipped = 0;
 
   for (const [index, item] of items.entries()) {
-    console.log(`[${index + 1}/${items.length}] ${item.title} (${item.id})`);
+    stageLog("fetch", `[${index + 1}/${items.length}] ${item.title}`, { sourceId: source.id, itemId: item.id });
     const existing = existingById.get(item.id);
     if (shouldSkipItemFetch(existing, source.id, { forceRefresh })) {
       const kept = applyContentLengthGate(existing!, source.id);
@@ -340,6 +345,12 @@ async function runEssayFetch(
   }
 
   const results = mergeIndexVideos(existingById, sessionUpdates);
+  fetchTimer.done(`${source.id}`, {
+    sourceId: source.id,
+    okCount: results.filter((result) => result.transcript_status === "ok").length,
+    total: results.length,
+    skipped,
+  });
 
   pipelineLog("essay-fetch", "fetch-complete", {
     sourceId: source.id,
@@ -430,6 +441,7 @@ export async function runFetch(argv: string[]): Promise<number> {
         video.transcript_provider = provider.name;
         video.transcript_path = textPath;
         video.line_count = transcriptText.split(/\r?\n/).length;
+        video.word_count = countWords(transcriptText);
         video.language_code = (transcriptMeta.language_code as string | null) ?? null;
         video.available_langs = (transcriptMeta.available_langs as string[]) ?? [];
         delete video.error;
@@ -466,14 +478,51 @@ export async function runFetch(argv: string[]): Promise<number> {
     : "days" in listWindow && listWindow.days != null
       ? `${listWindow.days} day(s)`
       : `${listWindow.months ?? 2} month(s)`;
-  console.log(
-    `Listing videos from ${channelUrl} for ${source.title} (${windowLabel}) via ${provider.name}...`,
-  );
+  const listWithYtDlp = argv.includes("--list-with-ytdlp");
+  stageLog("fetch", `listing videos for ${source.title}`, {
+    sourceId: source.id,
+    window: windowLabel,
+    provider: provider.name,
+    method: source.dateRange && !listWithYtDlp ? "api" : "yt-dlp",
+  });
 
   let effectiveDateRange = source.dateRange;
   let videoIds: Array<[string, Record<string, unknown>]>;
+  const listTimer = new StageTimer("fetch", `list ${source.id}`);
   try {
-    if (source.dateRange) {
+    if (source.dateRange && !listWithYtDlp) {
+      try {
+        videoIds = await provider.listChannelVideosSince(channelUrl, {
+          since: source.dateRange.since,
+          until: source.dateRange.until,
+          probeLimit,
+          maxVideos,
+          requestDelay: 0,
+        });
+        videoIds = filterVideosBySource(videoIds, provider, source);
+        listTimer.done(`${source.id} via ${provider.name}`, {
+          sourceId: source.id,
+          method: "api",
+          videoCount: videoIds.length,
+        });
+      } catch (error) {
+        stageLog("fetch", `API listing failed for ${source.id}, falling back to yt-dlp`, {
+          error: error instanceof Error ? error.message : String(error),
+        });
+        videoIds = listChannelVideosWithYtDlp(channelUrl, {
+          dateRange: source.dateRange,
+          maxVideos,
+          sourceId: source.id,
+          titleIncludes: source.youtubeTitleIncludes,
+        });
+        videoIds = filterVideosBySource(videoIds, provider, source);
+        listTimer.done(`${source.id} via yt-dlp fallback`, {
+          sourceId: source.id,
+          method: "yt-dlp-fallback",
+          videoCount: videoIds.length,
+        });
+      }
+    } else if (source.dateRange) {
       videoIds = listChannelVideosWithYtDlp(channelUrl, {
         dateRange: source.dateRange,
         maxVideos,
@@ -481,6 +530,11 @@ export async function runFetch(argv: string[]): Promise<number> {
         titleIncludes: source.youtubeTitleIncludes,
       });
       videoIds = filterVideosBySource(videoIds, provider, source);
+      listTimer.done(`${source.id} via yt-dlp`, {
+        sourceId: source.id,
+        method: "yt-dlp",
+        videoCount: videoIds.length,
+      });
     } else {
       videoIds = await provider.listChannelVideosSince(channelUrl, {
         ...listWindow,
@@ -489,6 +543,11 @@ export async function runFetch(argv: string[]): Promise<number> {
         requestDelay,
       });
       videoIds = filterVideosBySource(videoIds, provider, source);
+      listTimer.done(`${source.id} via ${provider.name}`, {
+        sourceId: source.id,
+        method: "api-window",
+        videoCount: videoIds.length,
+      });
     }
   } catch (error) {
     console.error(error instanceof Error ? error.message : error);
@@ -500,7 +559,10 @@ export async function runFetch(argv: string[]): Promise<number> {
     return 1;
   }
 
-  console.log(`Found ${videoIds.length} videos in window. Fetching transcripts...\n`);
+  stageLog("fetch", `fetching transcripts for ${source.title}`, {
+    sourceId: source.id,
+    videoCount: videoIds.length,
+  });
 
   const indexPath = paths.indexPath;
   const existingById = loadExistingIndexVideos(indexPath);
@@ -508,6 +570,7 @@ export async function runFetch(argv: string[]): Promise<number> {
   const sessionUpdates: VideoIndexEntry[] = [];
   const usedNames = seedUsedNamesFromIndex(existingById.values());
   let skipped = 0;
+  const fetchTimer = new StageTimer("fetch", `transcripts ${source.id}`);
 
   const writeYoutubeIndex = () => {
     const merged = mergeIndexVideos(existingById, sessionUpdates);
@@ -523,7 +586,7 @@ export async function runFetch(argv: string[]): Promise<number> {
   };
 
   for (const [index, [videoId, metadataPayload]] of videoIds.entries()) {
-    console.log(`[${index + 1}/${videoIds.length}] ${videoId}`);
+    stageLog("fetch", `[${index + 1}/${videoIds.length}] ${videoId}`, { sourceId: source.id });
     const existing = existingById.get(videoId);
     if (shouldSkipItemFetch(existing, source.id, { forceRefresh })) {
       const kept = applyContentLengthGate(existing!, source.id);
@@ -561,6 +624,12 @@ export async function runFetch(argv: string[]): Promise<number> {
   }
 
   const results = mergeIndexVideos(existingById, sessionUpdates);
+  fetchTimer.done(`${source.id}`, {
+    sourceId: source.id,
+    okCount: results.filter((result) => result.transcript_status === "ok").length,
+    total: results.length,
+    skipped,
+  });
 
   pipelineLog("yt-fetch", "fetch-complete", {
     sourceId: source.id,

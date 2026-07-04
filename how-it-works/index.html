@@ -26,6 +26,7 @@
       <p class="about-lede">
         AI starred surfaces the top third of videos from selected events and channels —
         the ones most likely to be worth your time.
+        For most sources, we only fetch and rank content published from 2026 onward.
       </p>
 
       <section class="about-section">
@@ -40,13 +41,16 @@
       <section class="about-section">
         <h2>How quality is scored</h2>
         <p>
-          Each video is scored by an LLM on five dimensions (0–10): substance,
-          evidence, specificity, insight density, and non-promotion.
+          Each item is scored by an LLM on six dimensions (0–10): substance,
+          evidence, specificity, insight density, non-promotion, and practical
+          utility — whether a typical AI engineer or tech founder in Silicon
+          Valley could realistically apply insights to improve their work or
+          decisions.
         </p>
         <p>
-          The composite (0–100) is a weighted sum — substance ×3, evidence ×2,
-          specificity ×1.5, insight ×2.5, non-promotion ×1 — with a small
-          adjustment for relative like count. Longer videos also take a
+          The composite (0–100) is a weighted sum — substance ×2.5, evidence ×1.5,
+          specificity ×1, insight ×2, non-promotion ×0.5, utility ×2.5 — with a
+          small adjustment for relative like count. Longer videos also take a
           length penalty: 0.1 point (on the 0–10 scale) for every 10 minutes of
           runtime beyond 30 minutes, so a two-hour talk loses roughly 0.9. Click
           any score badge on a listing page for a per-video breakdown.

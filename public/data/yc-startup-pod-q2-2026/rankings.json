@@ -1,8 +1,8 @@
 {
   "source_id": "yc-startup-pod-q2-2026",
-  "video_count": 30,
-  "scored_count": 30,
-  "ranked_count": 30,
+  "video_count": 47,
+  "scored_count": 47,
+  "ranked_count": 47,
   "rankings": [
     {
       "id": "_FBivfgOvuE",
@@ -10,6 +10,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=_FBivfgOvuE",
       "status": "ok",
+      "word_count": 2952,
       "summary_bullets": [
         "First customers come from warm network.",
         "Show up in person for early sales.",
@@ -29,6 +30,8 @@
       "upload_date": "20260622",
       "duration_seconds": 827,
       "composite_base": 84.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -47,9 +50,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "DGtUUMNYLcc",
@@ -57,6 +58,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=DGtUUMNYLcc",
       "status": "ok",
+      "word_count": 7733,
       "summary_bullets": [
         "Recursion improves AI reasoning at inference time.",
         "HRM uses hierarchical recursion with three loops.",
@@ -76,6 +78,8 @@
       "upload_date": "20260501",
       "duration_seconds": 2273,
       "composite_base": 84.3,
+      "like_adjustment": 0,
+      "length_adjustment": -0.79,
       "rank": 2,
       "tags": [
         {
@@ -94,9 +98,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.79
+      ]
     },
     {
       "id": "X5bABLCuIHA",
@@ -104,6 +106,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=X5bABLCuIHA",
       "status": "ok",
+      "word_count": 7468,
       "summary_bullets": [
         "Regulatory hurdles create deep moats in fintech.",
         "Capital efficiency beat investor pressure for growth.",
@@ -123,6 +126,8 @@
       "upload_date": "20260506",
       "duration_seconds": 1895,
       "composite_base": 82,
+      "like_adjustment": 0,
+      "length_adjustment": -0.16,
       "rank": 3,
       "tags": [
         {
@@ -137,9 +142,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.16
+      ]
     },
     {
       "id": "B246K_G7mHU",
@@ -147,6 +150,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=B246K_G7mHU",
       "status": "ok",
+      "word_count": 9077,
       "summary_bullets": [
         "YC built internal agent infrastructure for all teams.",
         "Agents given read-only SQL access to unified database.",
@@ -166,6 +170,8 @@
       "upload_date": "20260527",
       "duration_seconds": 2790,
       "composite_base": 81,
+      "like_adjustment": 0,
+      "length_adjustment": -1.65,
       "rank": 4,
       "tags": [
         {
@@ -180,9 +186,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.65
+      ]
     },
     {
       "id": "7VKliOQXQ9M",
@@ -190,6 +194,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=7VKliOQXQ9M",
       "status": "ok",
+      "word_count": 11547,
       "summary_bullets": [
         "Shareholder primacy is a recent (1980s) invention, not natural law.",
         "Mission-controlled companies (e.g., PBC, industrial foundations) outperform.",
@@ -208,6 +213,8 @@
       "upload_date": "20260522",
       "duration_seconds": 3005,
       "composite_base": 81,
+      "like_adjustment": 0,
+      "length_adjustment": -2.01,
       "rank": 5,
       "tags": [
         {
@@ -222,9 +229,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.01
+      ]
     },
     {
       "id": "49L8lVe_PVo",
@@ -232,6 +237,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=49L8lVe_PVo",
       "status": "ok",
+      "word_count": 6310,
       "summary_bullets": [
         "Meesho pivoted from local shop discovery to WhatsApp reseller platform.",
         "Shifted to direct consumer app in 2021 after data costs dropped.",
@@ -250,6 +256,8 @@
       "upload_date": "20260611",
       "duration_seconds": 1821,
       "composite_base": 79,
+      "like_adjustment": 0,
+      "length_adjustment": -0.04,
       "rank": 6,
       "tags": [
         {
@@ -264,9 +272,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.04
+      ]
     },
     {
       "id": "gSNFJbgoaHI",
@@ -274,6 +280,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=gSNFJbgoaHI",
       "status": "ok",
+      "word_count": 2067,
       "summary_bullets": [
         "AI-native services replace outsourced human work.",
         "Pick markets with low trust, low judgment tasks.",
@@ -293,6 +300,8 @@
       "upload_date": "20260603",
       "duration_seconds": 682,
       "composite_base": 78.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 7,
       "tags": [
         {
@@ -307,9 +316,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "X_JsIHUfUjc",
@@ -317,6 +324,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=X_JsIHUfUjc",
       "status": "ok",
+      "word_count": 2761,
       "summary_bullets": [
         "Roman legion organization is outdated for AI era.",
         "AI enables recursive self-improving loops in companies.",
@@ -336,6 +344,8 @@
       "upload_date": "20260521",
       "duration_seconds": 809,
       "composite_base": 78.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 8,
       "tags": [
         {
@@ -350,9 +360,232 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "rWUWfj_PqmM",
+      "title": "The New Way To Build A Startup",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=rWUWfj_PqmM",
+      "status": "ok",
+      "word_count": 1295,
+      "summary_bullets": [
+        "AI automates all internal functions for lean startups.",
+        "Tiny teams beat incumbents 20x larger.",
+        "Examples: Giga ML, Legion Health, Phase Shift.",
+        "Custom agents, unified interfaces, AI teammates.",
+        "Growth without hiring new staff."
       ],
+      "composite": 78.75,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The New Way To Build A Startup",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 9,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260214",
+      "duration_seconds": 471,
+      "composite_base": 78.75,
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "PQU9o_5rHC4",
+      "title": "Inside Claude Code With Its Creator Boris Cherny",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=PQU9o_5rHC4",
+      "status": "ok",
+      "word_count": 11979,
+      "summary_bullets": [
+        "Build for model six months ahead",
+        "Latent demand drives product features",
+        "Terminal form factor proved durable",
+        "Scaffolding becomes obsolete with new models",
+        "Coding productivity up 150% at Anthropic"
+      ],
+      "composite": 78.28,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Inside Claude Code With Its Creator Boris Cherny",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260217",
+      "duration_seconds": 3011,
+      "composite_base": 80.3,
+      "like_adjustment": 0,
+      "length_adjustment": -2.02,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "dC_3ys349bU",
+      "title": "The ML Technique Every Founder Should Know",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=dC_3ys349bU",
+      "status": "ok",
+      "word_count": 5672,
+      "summary_bullets": [
+        "Diffusion learns data distributions from noise.",
+        "Flow matching simplifies to ~10 lines of code.",
+        "Used in proteins, robotics, weather, images.",
+        "Randomness and iterative refinement mimic brain.",
+        "Diffusion outperforms except in LLMs and games."
+      ],
+      "composite": 76.8,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The ML Technique Every Founder Should Know",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260122",
+      "duration_seconds": 1631,
+      "composite_base": 76.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "PCypBUVhff8",
+      "title": "Inside The Startup Reinventing The $6 Trillion Chemical Manufacturing Industry",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=PCypBUVhff8",
+      "status": "ok",
+      "word_count": 2573,
+      "summary_bullets": [
+        "Solugen uses enzymes and metal catalysts for chemicals.",
+        "Started with $10,000 PVC reactor from Home Depot.",
+        "First customers were hot tub owners in Dallas.",
+        "Now a billion-dollar company with large-scale plants.",
+        "Process uses corn syrup instead of fossil fuels."
+      ],
+      "composite": 75,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Inside The Startup Reinventing The $6 Trillion Chemical Manufacturing Industry",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260320",
+      "duration_seconds": 788,
+      "composite_base": 75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 12,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "k2ZLQC8P7dc",
+      "title": "François Chollet: Why Scaling Alone Isn’t Enough for AGI",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=k2ZLQC8P7dc",
+      "status": "ok",
+      "word_count": 10839,
+      "summary_bullets": [
+        "Scaling alone won't achieve AGI.",
+        "Proposes symbolic program synthesis as alternative.",
+        "ARC benchmark measures fluid intelligence, not knowledge.",
+        "ARC-AGI v3 tests agentic intelligence in novel environments.",
+        "AGI likely by 2030, requires new approach."
+      ],
+      "composite": 74.26,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "François Chollet: Why Scaling Alone Isn’t Enough for AGI",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260327",
+      "duration_seconds": 3444,
+      "composite_base": 77,
+      "like_adjustment": 0,
+      "length_adjustment": -2.74,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "JNyuX1zoOgU",
@@ -360,6 +593,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=JNyuX1zoOgU",
       "status": "ok",
+      "word_count": 8194,
       "summary_bullets": [
         "AGI likely by 2030, says Hassabis.",
         "Missing pieces: continual learning, long-term reasoning, memory.",
@@ -379,7 +613,9 @@
       "upload_date": "20260429",
       "duration_seconds": 2457,
       "composite_base": 75.3,
-      "rank": 9,
+      "like_adjustment": 0,
+      "length_adjustment": -1.1,
+      "rank": 14,
       "tags": [
         {
           "label": "Substance",
@@ -393,9 +629,137 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "5gspRJVp9dI",
+      "title": "The Future Of Brain-Computer Interfaces",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=5gspRJVp9dI",
+      "status": "ok",
+      "word_count": 11829,
+      "summary_bullets": [
+        "Retinal implant restores form vision.",
+        "Biohybrid BCI uses living neurons.",
+        "Brain's API is cranial nerves.",
+        "First people may live to 1000.",
+        "BCI field entering takeoff era."
       ],
+      "composite": 73.66,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Future Of Brain-Computer Interfaces",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260309",
+      "duration_seconds": 3201,
+      "composite_base": 76,
       "like_adjustment": 0,
-      "length_adjustment": -1.1
+      "length_adjustment": -2.34,
+      "rank": 15,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "qwmmWzPnhog",
+      "title": "We're All Addicted To Claude Code",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=qwmmWzPnhog",
+      "status": "ok",
+      "word_count": 10182,
+      "summary_bullets": [
+        "Claude Code uses sub-agents for context splitting.",
+        "CLI beats IDEs for coding agent freedom.",
+        "Testing dramatically improves agent speed.",
+        "Senior engineers benefit most from coding agents.",
+        "Context window management is key to agent performance."
+      ],
+      "composite": 73.65,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "We're All Addicted To Claude Code",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260206",
+      "duration_seconds": 2760,
+      "composite_base": 75.25,
+      "like_adjustment": 0,
+      "length_adjustment": -1.6,
+      "rank": 16,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "0kARDVL2nZg",
+      "title": "How To Get Your First Users",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=0kARDVL2nZg",
+      "status": "ok",
+      "word_count": 1188,
+      "summary_bullets": [
+        "First users are a search problem, not persuasion.",
+        "Charge real money early for sharper feedback.",
+        "Use targeted personal outreach, not broad ads.",
+        "Launch early to maximize surface area.",
+        "Early users steer product evolution (Tesla example)."
+      ],
+      "composite": 73.5,
+      "audience_level": "practitioner",
+      "display_title": "How To Get Your First Users",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260114",
+      "duration_seconds": 342,
+      "composite_base": 73.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 17,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "4EsUaur0nsQ",
@@ -403,6 +767,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=4EsUaur0nsQ",
       "status": "ok",
+      "word_count": 9512,
       "summary_bullets": [
         "Robotics data scarcity is being addressed.",
         "Cross-embodiment training improves robot control.",
@@ -422,15 +787,15 @@
       "upload_date": "20260416",
       "duration_seconds": 2967,
       "composite_base": 75.25,
-      "rank": 10,
+      "like_adjustment": 0,
+      "length_adjustment": -1.95,
+      "rank": 18,
       "tags": [
         {
           "label": "Substance",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.95
+      ]
     },
     {
       "id": "3rWSvrFahIY",
@@ -438,6 +803,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=3rWSvrFahIY",
       "status": "ok",
+      "word_count": 15535,
       "summary_bullets": [
         "Protein language models scale like LLMs.",
         "Selfplay for LLMs plateaus without guidance.",
@@ -457,7 +823,9 @@
       "upload_date": "20260612",
       "duration_seconds": 4615,
       "composite_base": 77.8,
-      "rank": 11,
+      "like_adjustment": 0,
+      "length_adjustment": -4.69,
+      "rank": 19,
       "tags": [
         {
           "label": "Specificity",
@@ -467,9 +835,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -4.69
+      ]
     },
     {
       "id": "YKZCU0ynEbs",
@@ -477,6 +843,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=YKZCU0ynEbs",
       "status": "ok",
+      "word_count": 6385,
       "summary_bullets": [
         "Two 17-year-olds started Zepto during pandemic.",
         "Pivoted from WhatsApp delivery to dark stores.",
@@ -491,10 +858,36 @@
       "upload_date": "20260519",
       "duration_seconds": 1738,
       "composite_base": 72.8,
-      "rank": 12,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 20,
+      "tags": []
+    },
+    {
+      "id": "DNSXlBmukck",
+      "title": "Common Mistakes With Vibe Coded Websites",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=DNSXlBmukck",
+      "status": "ok",
+      "word_count": 7663,
+      "summary_bullets": [
+        "AI tools enable flashy but often harmful effects.",
+        "Purple gradients and hover effects are overused.",
+        "Scroll jacking and fade-ins hurt usability.",
+        "Originality suffers when founders accept AI defaults.",
+        "QA and intentional design are still essential."
+      ],
+      "composite": 71.5,
+      "audience_level": "practitioner",
+      "display_title": "Common Mistakes With Vibe Coded Websites",
+      "like_count": null,
+      "upload_date": "20260306",
+      "duration_seconds": 2247,
+      "composite_base": 72.25,
+      "like_adjustment": 0,
+      "length_adjustment": -0.75,
+      "rank": 21,
+      "tags": []
     },
     {
       "id": "EN7frwQIbKc",
@@ -502,6 +895,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=EN7frwQIbKc",
       "status": "ok",
+      "word_count": 1602,
       "summary_bullets": [
         "AI should be company's operating system, not just tool.",
         "Closed-loop systems capture and improve processes.",
@@ -521,7 +915,9 @@
       "upload_date": "20260424",
       "duration_seconds": 628,
       "composite_base": 71.3,
-      "rank": 13,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 22,
       "tags": [
         {
           "label": "Specificity",
@@ -531,9 +927,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "57lDpTwiW6g",
@@ -541,6 +935,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=57lDpTwiW6g",
       "status": "ok",
+      "word_count": 8291,
       "summary_bullets": [
         "Gary Tan returned to coding after 13 years using AI agents.",
         "He built Gary's List and GStack with Claude Code.",
@@ -560,15 +955,15 @@
       "upload_date": "20260508",
       "duration_seconds": 2490,
       "composite_base": 71.75,
-      "rank": 14,
+      "like_adjustment": 0,
+      "length_adjustment": -1.15,
+      "rank": 23,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.15
+      ]
     },
     {
       "id": "wE1ZgJdt4uM",
@@ -576,6 +971,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM",
       "status": "ok",
+      "word_count": 12985,
       "summary_bullets": [
         "Five research papers presented at YC Paper Club.",
         "Speculative decoding parallelized via SSD algorithm.",
@@ -594,15 +990,15 @@
       "upload_date": "20260528",
       "duration_seconds": 4039,
       "composite_base": 73.75,
-      "rank": 15,
+      "like_adjustment": 0,
+      "length_adjustment": -3.73,
+      "rank": 24,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -3.73
+      ]
     },
     {
       "id": "ypzNhwpmOD4",
@@ -610,6 +1006,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ypzNhwpmOD4",
       "status": "ok",
+      "word_count": 9366,
       "summary_bullets": [
         "Stripe redesigned homepage after business evolved beyond old story.",
         "Used custom tool to iterate wave gradient design.",
@@ -629,7 +1026,9 @@
       "upload_date": "20260422",
       "duration_seconds": 2617,
       "composite_base": 70.25,
-      "rank": 16,
+      "like_adjustment": 0,
+      "length_adjustment": -1.36,
+      "rank": 25,
       "tags": [
         {
           "label": "Specificity",
@@ -639,9 +1038,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.36
+      ]
     },
     {
       "id": "mPAHvz8kW24",
@@ -649,6 +1046,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=mPAHvz8kW24",
       "status": "ok",
+      "word_count": 11763,
       "summary_bullets": [
         "Pedro Franceschi, Brex CEO, deeply integrates AI.",
         "Treats LLMs as cheap, not precious resources.",
@@ -667,10 +1065,10 @@
       "upload_date": "20260610",
       "duration_seconds": 3247,
       "composite_base": 71,
-      "rank": 17,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.41
+      "length_adjustment": -2.41,
+      "rank": 26,
+      "tags": []
     },
     {
       "id": "QHJkUw31YX8",
@@ -678,6 +1076,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=QHJkUw31YX8",
       "status": "ok",
+      "word_count": 3855,
       "summary_bullets": [
         "Silicon Valley is current startup center.",
         "Moving gives better peers and serendipity.",
@@ -697,10 +1096,10 @@
       "upload_date": "20260513",
       "duration_seconds": 1318,
       "composite_base": 68,
-      "rank": 18,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 27,
+      "tags": []
     },
     {
       "id": "R56RJFZBasQ",
@@ -708,6 +1107,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=R56RJFZBasQ",
       "status": "ok",
+      "word_count": 1851,
       "summary_bullets": [
         "Overthinking prevents startup commitment.",
         "Pick one idea, burn other boats.",
@@ -727,7 +1127,9 @@
       "upload_date": "20260617",
       "duration_seconds": 691,
       "composite_base": 67.75,
-      "rank": 19,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 28,
       "tags": [
         {
           "label": "Insight",
@@ -737,9 +1139,81 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "2hgjgycOU_0",
+      "title": "Inside The Startup Building Reusable Rockets",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=2hgjgycOU_0",
+      "status": "ok",
+      "word_count": 3017,
+      "summary_bullets": [
+        "Stoke Space aims for fully reusable rockets.",
+        "Second stage reusability is the key challenge.",
+        "Founders tested engines in backyard shipping container.",
+        "Raised $990 million, first launch planned this year.",
+        "Building factory and launch site at Cape Canaveral."
       ],
+      "composite": 67,
+      "confidence": "Med",
+      "audience_level": "general",
+      "display_title": "Inside The Startup Building Reusable Rockets",
+      "substance": 7.5,
+      "evidence": 5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260108",
+      "duration_seconds": 944,
+      "composite_base": 67,
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 29,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "8SVocWnDHwE",
+      "title": "AI Is Unlocking Millions Of New Builders",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=8SVocWnDHwE",
+      "status": "ok",
+      "word_count": 9498,
+      "summary_bullets": [
+        "Emergent lets non-coders build production apps with AI.",
+        "Founders pivoted from enterprise coding agents to consumer platform.",
+        "7 million apps built in 8 months, 80% non-technical users.",
+        "Platform uses multi-agent architecture and custom infra for deployment.",
+        "Internal tools built on Emergent replaced Asana, saving $3-4k/month."
+      ],
+      "composite": 66.79,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "AI Is Unlocking Millions Of New Builders",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260316",
+      "duration_seconds": 2373,
+      "composite_base": 67.75,
+      "like_adjustment": 0,
+      "length_adjustment": -0.96,
+      "rank": 30,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "kkv5rZhrLkc",
@@ -747,6 +1221,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=kkv5rZhrLkc",
       "status": "ok",
+      "word_count": 3664,
       "summary_bullets": [
         "Prenatal test for rare fetal DNA in maternal blood",
         "Uses synthetic DNA to subtract amplification noise",
@@ -765,10 +1240,83 @@
       "upload_date": "20260406",
       "duration_seconds": 1250,
       "composite_base": 65.25,
-      "rank": 20,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 31,
+      "tags": []
+    },
+    {
+      "id": "Q8wVMdwhlh4",
+      "title": "The AI Agent Economy Is Here",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Q8wVMdwhlh4",
+      "status": "ok",
+      "word_count": 4709,
+      "summary_bullets": [
+        "AI agents autonomously choose developer tools.",
+        "Documentation must be optimized for agent readability.",
+        "Agent-only social network Moltbook shows swarm intelligence.",
+        "\"Make something agents want\" becomes new motto.",
+        "Agents create parallel economy with own email/phone services."
+      ],
+      "composite": 65,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The AI Agent Economy Is Here",
+      "substance": 7.5,
+      "evidence": 4,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260221",
+      "duration_seconds": 1402,
+      "composite_base": 65,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 32,
+      "tags": []
+    },
+    {
+      "id": "4uzGDAoNOZc",
+      "title": "OpenClaw Creator: Why 80% Of Apps Will Disappear",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=4uzGDAoNOZc",
+      "status": "ok",
+      "word_count": 4316,
+      "summary_bullets": [
+        "Local AI agents more powerful than cloud.",
+        "80% of apps will disappear.",
+        "User-owned memory as markdown files.",
+        "MCP unnecessary; CLIs suffice.",
+        "Open-source models catch up yearly."
+      ],
+      "composite": 65,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "OpenClaw Creator: Why 80% Of Apps Will Disappear",
+      "substance": 7,
+      "evidence": 4,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 3.5,
+      "like_count": null,
+      "upload_date": "20260207",
+      "duration_seconds": 1356,
+      "composite_base": 65,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 33,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "2Ap1dnv-GXA",
@@ -776,6 +1324,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=2Ap1dnv-GXA",
       "status": "ok",
+      "word_count": 5192,
       "summary_bullets": [
         "IIT engineers rejected $550K quant jobs.",
         "YC partner told them to pivot from edtech.",
@@ -795,10 +1344,10 @@
       "upload_date": "20260529",
       "duration_seconds": 1470,
       "composite_base": 64.3,
-      "rank": 21,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 34,
+      "tags": []
     },
     {
       "id": "oHwUD9b9_pg",
@@ -806,6 +1355,7 @@
       "speakers": "Thats Why You Should Build It",
       "url": "https://www.youtube.com/watch?v=oHwUD9b9_pg",
       "status": "ok",
+      "word_count": 7796,
       "summary_bullets": [
         "Consumer not investable now, but opportunity great.",
         "Mark Pincus shares product playbook “Proven Better New”.",
@@ -824,10 +1374,47 @@
       "upload_date": "20260625",
       "duration_seconds": 2443,
       "composite_base": 65.25,
-      "rank": 22,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.07
+      "length_adjustment": -1.07,
+      "rank": 35,
+      "tags": []
+    },
+    {
+      "id": "leQ89XSHILw",
+      "title": "Why Your Startup Website Isn't Converting",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=leQ89XSHILw",
+      "status": "ok",
+      "word_count": 8058,
+      "summary_bullets": [
+        "Expert reviews four startup websites for design flaws.",
+        "Key advice: show product screenshots, simplify animations.",
+        "Critiques include generic copy, poor typography, overwhelming layouts.",
+        "Highlights effective use of interactive demos and immersive animations.",
+        "Common mistake: hiding key info behind tabs or fast animations."
+      ],
+      "composite": 63.95,
+      "confidence": "Med",
+      "audience_level": "general",
+      "display_title": "Why Your Startup Website Isn't Converting",
+      "substance": 7.5,
+      "evidence": 4,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260129",
+      "duration_seconds": 2427,
+      "composite_base": 65,
+      "like_adjustment": 0,
+      "length_adjustment": -1.05,
+      "rank": 36,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "yyXCQHX55N4",
@@ -835,6 +1422,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=yyXCQHX55N4",
       "status": "ok",
+      "word_count": 6749,
       "summary_bullets": [
         "Emergent lets non-coders build software via AI.",
         "Founder previously built Dunzo, a quick-commerce giant.",
@@ -854,10 +1442,10 @@
       "upload_date": "20260606",
       "duration_seconds": 1745,
       "composite_base": 62.3,
-      "rank": 23,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 37,
+      "tags": []
     },
     {
       "id": "ObBAxL2dFzw",
@@ -865,6 +1453,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ObBAxL2dFzw",
       "status": "ok",
+      "word_count": 5370,
       "summary_bullets": [
         "Groww started as robo-advisor, failed.",
         "Pivoted to transparent mutual fund platform.",
@@ -884,10 +1473,42 @@
       "upload_date": "20260615",
       "duration_seconds": 1811,
       "composite_base": 62.3,
-      "rank": 24,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.02
+      "length_adjustment": -0.02,
+      "rank": 38,
+      "tags": []
+    },
+    {
+      "id": "UPGB-hsAoVY",
+      "title": "The Powerful Alternative To Fine-Tuning",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=UPGB-hsAoVY",
+      "status": "ok",
+      "word_count": 3754,
+      "summary_bullets": [
+        "Recursive self-improvement outperforms fine-tuning on benchmarks.",
+        "Poetic’s system beat Gemini 3 Deep Think on ARC AGI v2.",
+        "Achieved 55% on Humanity’s Last Exam for under $100k.",
+        "Harnesses sit on top of LLMs, automatically generated.",
+        "Startups can sign up for early access at poetic.ai."
+      ],
+      "composite": 61,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The Powerful Alternative To Fine-Tuning",
+      "substance": 6.5,
+      "evidence": 7,
+      "specificity": 7,
+      "insight_density": 6,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260227",
+      "duration_seconds": 1186,
+      "composite_base": 61,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 39,
+      "tags": []
     },
     {
       "id": "kMYeTRqzAfc",
@@ -895,6 +1516,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=kMYeTRqzAfc",
       "status": "ok",
+      "word_count": 7400,
       "summary_bullets": [
         "Replit abstracts coding entirely via AI agents.",
         "Non-technical users build real software on Replit.",
@@ -913,10 +1535,84 @@
       "upload_date": "20260425",
       "duration_seconds": 2352,
       "composite_base": 58.75,
-      "rank": 25,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.92
+      "length_adjustment": -0.92,
+      "rank": 40,
+      "tags": []
+    },
+    {
+      "id": "K5JoLAauzq4",
+      "title": "How We Redesigned Our Website",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=K5JoLAauzq4",
+      "status": "ok",
+      "word_count": 3720,
+      "summary_bullets": [
+        "Old YC homepage was utilitarian B2B SaaS template",
+        "Redesign focuses on storytelling and founder faces",
+        "Used AI tools (Cursor, Opus 4.5) for rapid prototyping",
+        "Kept original PG copy from 13 years ago",
+        "No apply button on hero to avoid distraction"
+      ],
+      "composite": 57,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How We Redesigned Our Website",
+      "substance": 6.5,
+      "evidence": 2.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 2.5,
+      "like_count": null,
+      "upload_date": "20260130",
+      "duration_seconds": 1120,
+      "composite_base": 57,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 41,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "JF6XIixstmQ",
+      "title": "This Startup Catches Fraud at Scale",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=JF6XIixstmQ",
+      "status": "ok",
+      "word_count": 5831,
+      "summary_bullets": [
+        "Variance automates fraud and compliance reviews.",
+        "Uses AI agents to replace human analysts.",
+        "Detects fraud rings and misinformation.",
+        "Built by ex-Apple fraud engineers.",
+        "CEO survived truck accident during growth."
+      ],
+      "composite": 56.16,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "This Startup Catches Fraud at Scale",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260331",
+      "duration_seconds": 1884,
+      "composite_base": 56.3,
+      "like_adjustment": 0,
+      "length_adjustment": -0.14,
+      "rank": 42,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "fQmlML9Lay4",
@@ -924,6 +1620,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=fQmlML9Lay4",
       "status": "ok",
+      "word_count": 3481,
       "summary_bullets": [
         "Orchestrates multiple AI coding agents on Mac",
         "Uses gooseeneck mic for voice commands",
@@ -942,15 +1639,15 @@
       "upload_date": "20260604",
       "duration_seconds": 995,
       "composite_base": 54.75,
-      "rank": 26,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 43,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "Ju8LVdvuxGM",
@@ -958,6 +1655,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Ju8LVdvuxGM",
       "status": "ok",
+      "word_count": 6294,
       "summary_bullets": [
         "AI enables global companies from India.",
         "Young founders gain advantage from AI coding.",
@@ -976,10 +1674,10 @@
       "upload_date": "20260627",
       "duration_seconds": 1930,
       "composite_base": 54.75,
-      "rank": 27,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.22
+      "length_adjustment": -0.22,
+      "rank": 44,
+      "tags": []
     },
     {
       "id": "mjmswQurIU4",
@@ -987,6 +1685,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=mjmswQurIU4",
       "status": "ok",
+      "word_count": 4170,
       "summary_bullets": [
         "Legal tech startup Legora grew rapidly.",
         "Used Jude Law in ad campaign.",
@@ -1005,10 +1704,10 @@
       "upload_date": "20260605",
       "duration_seconds": 1367,
       "composite_base": 53.75,
-      "rank": 28,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": 0,
+      "rank": 45,
+      "tags": []
     },
     {
       "id": "wkv2ifxPpF8",
@@ -1016,6 +1715,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=wkv2ifxPpF8",
       "status": "ok",
+      "word_count": 3763,
       "summary_bullets": [
         "GStack wraps Claude Code into AI team.",
         "Office hours skill reframes startup ideas.",
@@ -1034,15 +1734,15 @@
       "upload_date": "20260423",
       "duration_seconds": 1310,
       "composite_base": 53,
-      "rank": 29,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 46,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "8OOuCnZB-4o",
@@ -1050,6 +1750,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=8OOuCnZB-4o",
       "status": "ok",
+      "word_count": 8297,
       "summary_bullets": [
         "Ploy rebuilds old websites into modern, AI-driven marketing platforms.",
         "Guest Bryant Chou (Webflow co-founder) demos Ploy’s design and SEO features.",
@@ -1068,10 +1769,10 @@
       "upload_date": "20260619",
       "duration_seconds": 2563,
       "composite_base": 29,
-      "rank": 30,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.27
+      "length_adjustment": -1.27,
+      "rank": 47,
+      "tags": []
     }
   ],
   "too_long": [],

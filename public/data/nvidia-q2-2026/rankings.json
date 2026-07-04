@@ -10,6 +10,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=glT-zO8B_qk",
       "status": "ok",
+      "word_count": 3816,
       "summary_bullets": [
         "Processes 10+ petabytes daily for experiments.",
         "Migrated Spark jobs to GPUs with zero code changes.",
@@ -44,6 +45,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=zNuOOMM20Tk",
       "status": "ok",
+      "word_count": 5611,
       "summary_bullets": [
         "Token value depends on intelligence and speed.",
         "Demand forecasting uses users, requests, tokens per request.",
@@ -78,6 +80,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=JD3icYmKKfw",
       "status": "ok",
+      "word_count": 7072,
       "summary_bullets": [
         "Healthcare faces aging, chronic disease, data waste.",
         "GE HealthCare uses AI for faster MRI, X-ray.",
@@ -114,6 +117,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Alz-bhXqyXM",
       "status": "ok",
+      "word_count": 7526,
       "summary_bullets": [
         "Caper Cart uses NVIDIA Jetson for edge AI.",
         "Sensor fusion combines cameras, weight, location.",
@@ -148,6 +152,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=7N38fD4ksnI",
       "status": "ok",
+      "word_count": 5078,
       "summary_bullets": [
         "NVIDIA announces Drive Hyperion reference architecture for L4.",
         "Alpamayo 1.5 open-source model released with routing.",
@@ -184,6 +189,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=HyicRmHu17w",
       "status": "ok",
+      "word_count": 1800,
       "summary_bullets": [
         "AI PC becomes personal AI assistant",
         "RTX Spark: petaflop, 128GB, 200B-parameter models",
@@ -218,6 +224,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=TCOU1imv09U",
       "status": "ok",
+      "word_count": 6369,
       "summary_bullets": [
         "AI agents and open models for healthcare.",
         "Protein design reasoning model Protina Complexa announced.",
@@ -247,6 +254,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=R01xo_S1iuk",
       "status": "ok",
+      "word_count": 12414,
       "summary_bullets": [
         "Panel defines biological foundation models",
         "Success stories: novel fluorescent protein, drug design",
@@ -277,6 +285,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=gsbi7FS8Q30",
       "status": "ok",
+      "word_count": 3030,
       "summary_bullets": [
         "AI grounded in physics, not just data.",
         "Virtual Twins serve as training gyms.",
@@ -306,6 +315,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=XH9N1SIJ7Dg",
       "status": "ok",
+      "word_count": 1397,
       "summary_bullets": [
         "NVIDIA VP presents L2++ autonomous driving stack.",
         "Uses cameras, radar, ultrasonics, no LiDAR or HD maps.",
@@ -337,6 +347,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=uv8va8bIqus",
       "status": "ok",
+      "word_count": 8334,
       "summary_bullets": [
         "AI reshaping higher education and research.",
         "Public-private partnerships for AI infrastructure.",
@@ -366,6 +377,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=FS1l8iN7PVo",
       "status": "ok",
+      "word_count": 7364,
       "summary_bullets": [
         "Cost per token measures AI factory output.",
         "Power efficiency directly affects token cost.",
@@ -395,6 +407,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=mYQR-xfqOPY",
       "status": "ok",
+      "word_count": 3371,
       "summary_bullets": [
         "Mistral co-founder and CTO interviewed",
         "Open-source frontier model with NVIDIA",
@@ -424,6 +437,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=9YyS1R4xZ0M",
       "status": "ok",
+      "word_count": 5961,
       "summary_bullets": [
         "Robotics is a data problem with scarce data.",
         "Building a universal brain for any robot form factor.",
@@ -453,6 +467,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=6r860vTAcA8",
       "status": "ok",
+      "word_count": 4553,
       "summary_bullets": [
         "Cancer cases rising; rare disorders affect 6% of population.",
         "Genomics data enables diagnosis but is noisy and complex.",
@@ -483,6 +498,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=c-fsL0gsmo0",
       "status": "ok",
+      "word_count": 5253,
       "summary_bullets": [
         "Deep Agents is a general-purpose agent harness.",
         "LangSmith provides observability and evaluation for agents.",
@@ -512,6 +528,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=OFEY5-52ru0",
       "status": "ok",
+      "word_count": 6191,
       "summary_bullets": [
         "Quantum computing uses qubits, not bits.",
         "Error correction is key challenge; AI helps decode.",
@@ -541,6 +558,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=H26xnpL-ei0",
       "status": "ok",
+      "word_count": 3741,
       "summary_bullets": [
         "Open and closed models coexist, not compete.",
         "Compound agents combine multiple models for complex tasks.",
@@ -571,6 +589,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=BAhI87RS-DQ",
       "status": "ok",
+      "word_count": 7159,
       "summary_bullets": [
         "Panel discusses AI literacy from K to career.",
         "Mississippi offers statewide no-cost AI resources.",
@@ -600,6 +619,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ZMpDiGoU4Wg",
       "status": "ok",
+      "word_count": 3505,
       "summary_bullets": [
         "End-to-end AV model combined with classical safety stack.",
         "Development iterates ~7 models per day.",
@@ -631,6 +651,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=C3lcadfxTio",
       "status": "ok",
+      "word_count": 4652,
       "summary_bullets": [
         "Seeed Studio makes open source robotics hardware",
         "$200 robot arm (SO-ARM) with Hugging Face",
@@ -660,6 +681,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=lBNHFR41GgY",
       "status": "ok",
+      "word_count": 3550,
       "summary_bullets": [
         "AI factories face energy bottlenecks.",
         "AI can optimize cooling, saving ~10% energy.",
@@ -690,6 +712,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=cxiOhp9BJTs",
       "status": "ok",
+      "word_count": 4370,
       "summary_bullets": [
         "Telecoms must build \"AI grid\" infrastructure.",
         "AI grid connects distributed compute for low latency.",
@@ -721,6 +744,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=zbiEYMapsvw",
       "status": "ok",
+      "word_count": 10304,
       "summary_bullets": [
         "NVIDIA and Lilly announce AI drug discovery partnership.",
         "Building largest on-prem biology supercomputer in Indianapolis.",
@@ -752,6 +776,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=LkjArpd1VoM",
       "status": "ok",
+      "word_count": 7105,
       "summary_bullets": [
         "Panel discusses AI adoption in healthcare.",
         "Clinician burnout and data silos are key challenges.",
@@ -783,6 +808,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=_BE4NSst6yA",
       "status": "ok",
+      "word_count": 2142,
       "summary_bullets": [
         "AI agents need 100x–1000x more compute.",
         "New CPUs optimized for token generation, not core renting.",
@@ -811,6 +837,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=zsqQUVYR7BY",
       "status": "ok",
+      "word_count": 7138,
       "summary_bullets": [
         "Panel discusses AI in healthcare: create, cure, care.",
         "Startups: TherapySide (mental health), Superluminal (drug discovery), Leika (veterinary), Cauter Reason (drug development).",
@@ -842,6 +869,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=cW_POtTfJVM",
       "status": "ok",
+      "word_count": 7476,
       "summary_bullets": [
         "NVIDIA partners with Lilly on AI factory.",
         "OpenFold 3 released as enterprise NIM.",
@@ -873,6 +901,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=11Y3B33oCLE",
       "status": "ok",
+      "word_count": 2135,
       "summary_bullets": [
         "NVIDIA and Microsoft reinvent PC for AI agents.",
         "RTX Spark chip: Blackwell GPU, Grace CPU, 128GB memory.",
@@ -902,6 +931,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=3e6dR82pmdU",
       "status": "ok",
+      "word_count": 5853,
       "summary_bullets": [
         "Partnership announced between Dassault and Nvidia.",
         "Virtual twins combined with AI and accelerated computing.",
@@ -933,6 +963,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=DIIteghPGx4",
       "status": "ok",
+      "word_count": 6077,
       "summary_bullets": [
         "DLI offers 6–8 hour instructor-led and self-paced courses.",
         "Ambassador program certifies faculty to teach workshops.",
@@ -962,6 +993,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Pkh0dqLCsrs",
       "status": "ok",
+      "word_count": 3227,
       "summary_bullets": [
         "Enterprise reference architectures (ERAs) are blueprints for AI factories.",
         "ERAs are tested end-to-end in NVIDIA labs.",
@@ -991,6 +1023,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=MyNEr7tf-WQ",
       "status": "ok",
+      "word_count": 2499,
       "summary_bullets": [
         "Vertiv provides power and cooling for data centers.",
         "AI workloads increase power density and cooling needs.",
@@ -1022,6 +1055,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=D1x8ewtJAa0",
       "status": "ok",
+      "word_count": 5789,
       "summary_bullets": [
         "25 startups using AI in physical world.",
         "Covers agriculture, disaster, environment, grid, health, science.",
@@ -1051,6 +1085,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=GsqW5MPFajw",
       "status": "ok",
+      "word_count": 4622,
       "summary_bullets": [
         "AI requires optical connectivity.",
         "Coherent expands indium phosphide fab.",

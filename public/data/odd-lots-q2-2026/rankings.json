@@ -1,34 +1,38 @@
 {
   "source_id": "odd-lots-q2-2026",
-  "video_count": 25,
-  "scored_count": 25,
-  "ranked_count": 25,
+  "video_count": 80,
+  "scored_count": 79,
+  "ranked_count": 79,
   "rankings": [
     {
-      "id": "5uimsekveCg",
-      "title": "Rory Johnston on Why His $200 Oil Prediction Didn't Turn Out Right | Odd Lots",
+      "id": "6goZNSMbs6k",
+      "title": "Here's What Could Happen to Venezuela's Messy $170 Billion of Debt | Odd Lots",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=5uimsekveCg",
+      "url": "https://www.youtube.com/watch?v=6goZNSMbs6k",
       "status": "ok",
+      "word_count": 4841,
       "summary_bullets": [
-        "China cut oil imports by 5 million bpd.",
-        "Strategic reserves and jawboning blunted price spike.",
-        "Oil market proved more resilient than expected.",
-        "13 million bpd supply loss did not hit $200.",
-        "Guest explains his own wrong prediction."
+        "Venezuela owes $150–170 billion in debt.",
+        "Odious debt doctrine is rarely applied.",
+        "Sanctions prevent restructuring talks.",
+        "Iraq debt restructuring was unique.",
+        "Oil-linked instruments may be used."
       ],
-      "composite": 91.57,
+      "composite": 85.78,
       "confidence": "High",
       "audience_level": "general",
-      "substance": 9,
-      "evidence": 9,
-      "specificity": 9.5,
-      "insight_density": 9,
+      "display_title": "Here's What Could Happen to Venezuela's Messy $170 Billion of Debt | Odd Lots",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8.5,
       "non_promotion": 10,
       "like_count": null,
-      "upload_date": "20260626",
-      "duration_seconds": 1936,
-      "composite_base": 91.8,
+      "upload_date": "20260108",
+      "duration_seconds": 2110,
+      "composite_base": 86.3,
+      "like_adjustment": 0,
+      "length_adjustment": -0.52,
       "rank": 1,
       "tags": [
         {
@@ -51,35 +55,37 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.23
+      ]
     },
     {
-      "id": "33UBffKatgg",
-      "title": "Javier Blas on Why Oil Could Go Much, Much Higher | Odd Lots",
+      "id": "QBr4vDaiz-Q",
+      "title": "Greg Grandin on How the Monroe Doctrine Became the Donroe Doctrine | Odd Lots",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=33UBffKatgg",
+      "url": "https://www.youtube.com/watch?v=QBr4vDaiz-Q",
       "status": "ok",
+      "word_count": 6423,
       "summary_bullets": [
-        "Oil crisis severe but crude price not yet spiking.",
-        "Refined products (diesel, jet fuel) show real stress.",
-        "US natural gas insulated by export bottlenecks.",
-        "Crisis impact varies east vs. west of Suez.",
-        "Food crisis risk low unless war drags on."
+        "Monroe Doctrine was vague, later expanded by presidents.",
+        "US turns to Latin America when global power wanes.",
+        "Trump’s Venezuela policy lacks moral narrative.",
+        "International law is shaped by power relations.",
+        "Historical pattern: US uses hemisphere to reassert dominance."
       ],
-      "composite": 84.69,
+      "composite": 84.75,
       "confidence": "High",
       "audience_level": "general",
+      "display_title": "Greg Grandin on How the Monroe Doctrine Became the Donroe Doctrine | Odd Lots",
       "substance": 8.5,
       "evidence": 8,
       "specificity": 9,
       "insight_density": 8.5,
       "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260401",
-      "duration_seconds": 2467,
+      "upload_date": "20260109",
+      "duration_seconds": 2432,
       "composite_base": 85.8,
+      "like_adjustment": 0,
+      "length_adjustment": -1.05,
       "rank": 2,
       "tags": [
         {
@@ -102,38 +108,44 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.11
+      ]
     },
     {
-      "id": "jmgxmNas_vQ",
-      "title": "Brad Setser on the War in Iran and the Future of the US Dollar | Odd Lots",
+      "id": "33UBffKatgg",
+      "title": "Javier Blas on Why Oil Could Go Much, Much Higher | Odd Lots",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=jmgxmNas_vQ",
+      "url": "https://www.youtube.com/watch?v=33UBffKatgg",
       "status": "ok",
+      "word_count": 7204,
       "summary_bullets": [
-        "Oil shock smaller than 1970s in price terms.",
-        "Gulf states not capturing oil windfall due to disruptions.",
-        "Dollar dominance persists despite geopolitical tensions.",
-        "Reserve portfolios underweight dollars vs equity portfolios.",
-        "China's currency management still supports dollar flows."
+        "Oil crisis severe but crude price not yet spiking.",
+        "Refined products (diesel, jet fuel) show real stress.",
+        "US natural gas insulated by export bottlenecks.",
+        "Crisis impact varies east vs. west of Suez.",
+        "Food crisis risk low unless war drags on."
       ],
-      "composite": 83.1,
-      "audience_level": "practitioner",
+      "composite": 84.69,
+      "confidence": "High",
+      "audience_level": "general",
       "substance": 8.5,
-      "evidence": 7.5,
+      "evidence": 8,
       "specificity": 9,
       "insight_density": 8.5,
-      "non_promotion": 10,
+      "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260416",
-      "duration_seconds": 3120,
-      "composite_base": 85.3,
+      "upload_date": "20260401",
+      "duration_seconds": 2467,
+      "composite_base": 85.8,
+      "like_adjustment": 0,
+      "length_adjustment": -1.11,
       "rank": 3,
       "tags": [
         {
           "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
           "tone": "positive"
         },
         {
@@ -148,59 +160,89 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.2
+      ]
     },
     {
-      "id": "lXkjNDxDhPs",
-      "title": "Ziad Daoud Explains How War with Iran Will Reshape the Gulf | Odd Lots",
+      "id": "i__iaPepixk",
+      "title": "The Utilities Analyst Who Says The Data Center Demand Story Doesn't Add Up | Odd Lots",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=lXkjNDxDhPs",
+      "url": "https://www.youtube.com/watch?v=i__iaPepixk",
       "status": "ok",
+      "word_count": 9324,
       "summary_bullets": [
-        "War reshapes Gulf energy and capital flows.",
-        "Iran controls Strait of Hormuz, punches above weight.",
-        "Gulf states face security dilemma with US.",
-        "Dubai’s attractiveness may persist despite attacks.",
-        "Petrodollar exports to global markets likely decline."
+        "Data center demand forecasts may be overblown.",
+        "Utilities committed 110GW supply vs 50GW needed.",
+        "Forward power curves don't reflect expected surge.",
+        "Private credit entering data center debt poses risk.",
+        "Existing grid capacity can handle near-term growth."
       ],
-      "composite": 82.72,
-      "audience_level": "general",
-      "like_count": null,
-      "upload_date": "20260413",
-      "duration_seconds": 2715,
-      "composite_base": 84.25,
-      "rank": 4,
-      "tags": [],
-      "like_adjustment": 0,
-      "length_adjustment": -1.53
-    },
-    {
-      "id": "04uQJJVBibc",
-      "title": "Jack McClendon on Why It's So Hard to Create a New American Oil Boom | Odd Lots",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=04uQJJVBibc",
-      "status": "ok",
-      "summary_bullets": [
-        "Small producer explains 25-30% cost increase since COVID.",
-        "Industry cautious despite price spikes due to past busts.",
-        "Capital discipline and consolidation reduce supply responsiveness.",
-        "Service costs rise fast but fall slowly with oil prices.",
-        "Regulatory changes matter less than price for drilling decisions."
-      ],
-      "composite": 81.37,
+      "composite": 84.62,
       "confidence": "High",
       "audience_level": "general",
+      "display_title": "The Utilities Analyst Who Says The Data Center Demand Story Doesn't Add Up | Odd Lots",
       "substance": 8.5,
-      "evidence": 7.5,
+      "evidence": 8,
       "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
       "like_count": null,
-      "upload_date": "20260420",
-      "duration_seconds": 2779,
-      "composite_base": 83,
+      "upload_date": "20260202",
+      "duration_seconds": 2806,
+      "composite_base": 86.3,
+      "like_adjustment": 0,
+      "length_adjustment": -1.68,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "gwMnuYYY2fY",
+      "title": "Lots More With Charlie McElligott on This Week's SaaSpocalypse | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=gwMnuYYY2fY",
+      "status": "ok",
+      "word_count": 6149,
+      "summary_bullets": [
+        "Software stocks crashed in February 2026.",
+        "Crowded trades and leverage amplified the selloff.",
+        "Multi-strat hedge funds forced de-grossing.",
+        "Bitcoin fell with software, not gold.",
+        "Silver had extreme moves due to leverage."
+      ],
+      "composite": 83.99,
+      "audience_level": "practitioner",
+      "display_title": "Lots More With Charlie McElligott on This Week's SaaSpocalypse | Odd Lots",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260209",
+      "duration_seconds": 1983,
+      "composite_base": 84.3,
+      "like_adjustment": 0,
+      "length_adjustment": -0.31,
       "rank": 5,
       "tags": [
         {
@@ -219,35 +261,37 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.63
+      ]
     },
     {
-      "id": "sVfWn4PQ7vM",
-      "title": "Understanding the Most Viral Chart in Artificial Intelligence | Odd Lots",
+      "id": "Wz2s1GPD1vw",
+      "title": "The Fight Over Fed Independence Just Got Taken To a Whole New Level | Odd Lots",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=sVfWn4PQ7vM",
+      "url": "https://www.youtube.com/watch?v=Wz2s1GPD1vw",
       "status": "ok",
+      "word_count": 5277,
       "summary_bullets": [
-        "AI time horizon chart explained",
-        "Meter measures AI task difficulty",
-        "Exponential progress every ~4 months",
-        "Human baselines and 50% vs 80% success",
-        "Tension between safety and investment"
+        "DOJ subpoenas Fed Chair Powell, threatens criminal indictment.",
+        "Powell accuses administration of retaliation over rate policy.",
+        "Guest Lev Menand calls it unprecedented escalation beyond Fed independence.",
+        "Legal battles over removal powers and chilling effect on officials.",
+        "Market reaction muted but risks of regime change discussed."
       ],
-      "composite": 80.81,
+      "composite": 83.93,
       "confidence": "High",
       "audience_level": "general",
+      "display_title": "The Fight Over Fed Independence Just Got Taken To a Whole New Level | Odd Lots",
       "substance": 8.5,
-      "evidence": 7.5,
+      "evidence": 7,
       "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 9.5,
+      "insight_density": 8.5,
+      "non_promotion": 10,
       "like_count": null,
-      "upload_date": "20260427",
-      "duration_seconds": 3414,
-      "composite_base": 83.5,
+      "upload_date": "20260113",
+      "duration_seconds": 1992,
+      "composite_base": 84.25,
+      "like_adjustment": 0,
+      "length_adjustment": -0.32,
       "rank": 6,
       "tags": [
         {
@@ -266,34 +310,37 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.69
+      ]
     },
     {
-      "id": "lxmt7rz4DLQ",
-      "title": "How Taiwan Became the World's Most Perilous Geopolitical Chokepoint | Odd Lots",
+      "id": "aAigv7Z6BqI",
+      "title": "Why Adam Posen Thinks Inflation Will Surge Back to 4% | Odd Lots",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=lxmt7rz4DLQ",
+      "url": "https://www.youtube.com/watch?v=aAigv7Z6BqI",
       "status": "ok",
+      "word_count": 9607,
       "summary_bullets": [
-        "Taiwan is unfinished civil war business for China",
-        "TSMC's chips are a critical global bottleneck",
-        "US military likely still has edge in conventional war",
-        "Economic decoupling from China is extremely difficult",
-        "China has built economic shock absorbers against sanctions"
+        "Posen predicts 4% inflation by year-end.",
+        "Tariffs and migration policy drive inflation.",
+        "Fed credibility weakened, transmission channels changed.",
+        "AI spending boosts GDP but not disinflation yet.",
+        "Europe must adapt to US unreliability."
       ],
-      "composite": 80.32,
+      "composite": 83.62,
+      "confidence": "High",
       "audience_level": "general",
+      "display_title": "Why Adam Posen Thinks Inflation Will Surge Back to 4% | Odd Lots",
       "substance": 8.5,
       "evidence": 8,
-      "specificity": 8.5,
-      "insight_density": 8,
-      "non_promotion": 9,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
       "like_count": null,
-      "upload_date": "20260501",
-      "duration_seconds": 3407,
-      "composite_base": 83,
+      "upload_date": "20260213",
+      "duration_seconds": 3409,
+      "composite_base": 86.3,
+      "like_adjustment": 0,
+      "length_adjustment": -2.68,
       "rank": 7,
       "tags": [
         {
@@ -316,9 +363,700 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "3hQiNIjp3wM",
+      "title": "War in Iran Is Redrawing the Map for Natural Gas | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=3hQiNIjp3wM",
+      "status": "ok",
+      "word_count": 8213,
+      "summary_bullets": [
+        "Iran war disrupts global gas supply.",
+        "LNG market lacks spare capacity.",
+        "US natural gas is “forgotten molecule”.",
+        "Gas markets are regional, not global.",
+        "Sulfur and aluminum also affected."
       ],
+      "composite": 83.33,
+      "audience_level": "general",
+      "display_title": "War in Iran Is Redrawing the Map for Natural Gas | Odd Lots",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260318",
+      "duration_seconds": 2684,
+      "composite_base": 84.8,
       "like_adjustment": 0,
-      "length_adjustment": -2.68
+      "length_adjustment": -1.47,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "jmgxmNas_vQ",
+      "title": "Brad Setser on the War in Iran and the Future of the US Dollar | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=jmgxmNas_vQ",
+      "status": "ok",
+      "word_count": 8843,
+      "summary_bullets": [
+        "Oil shock smaller than 1970s in price terms.",
+        "Gulf states not capturing oil windfall due to disruptions.",
+        "Dollar dominance persists despite geopolitical tensions.",
+        "Reserve portfolios underweight dollars vs equity portfolios.",
+        "China's currency management still supports dollar flows."
+      ],
+      "composite": 83.1,
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260416",
+      "duration_seconds": 3120,
+      "composite_base": 85.3,
+      "like_adjustment": 0,
+      "length_adjustment": -2.2,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "7sFCGjYinmM",
+      "title": "Lots More With Skanda Amarnath on the Risks of Kevin Warsh | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=7sFCGjYinmM",
+      "status": "ok",
+      "word_count": 5154,
+      "summary_bullets": [
+        "Kevin Warsh nominated for Fed chair.",
+        "Guest critiques Warsh’s past crisis misjudgments.",
+        "Warsh’s policy views shift with political winds.",
+        "Concerns about partisanship and lack of data focus.",
+        "Warsh may struggle to persuade FOMC colleagues."
+      ],
+      "composite": 82.8,
+      "audience_level": "practitioner",
+      "display_title": "Lots More With Skanda Amarnath on the Risks of Kevin Warsh | Odd Lots",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 8,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260202",
+      "duration_seconds": 1564,
+      "composite_base": 82.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Nie_p4igZ7Q",
+      "title": "Lots More on the Protests and Financial Crisis in Iran | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Nie_p4igZ7Q",
+      "status": "ok",
+      "word_count": 3989,
+      "summary_bullets": [
+        "Iran protests sparked by economic collapse.",
+        "Currency lost 98% value in decade.",
+        "Bank failure cost $5 billion.",
+        "Stock market valuations at 3.5 times earnings.",
+        "Guest provides on-the-ground insights."
+      ],
+      "composite": 82.8,
+      "audience_level": "general",
+      "display_title": "Lots More on the Protests and Financial Crisis in Iran | Odd Lots",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260116",
+      "duration_seconds": 1341,
+      "composite_base": 82.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "lXkjNDxDhPs",
+      "title": "Ziad Daoud Explains How War with Iran Will Reshape the Gulf | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=lXkjNDxDhPs",
+      "status": "ok",
+      "word_count": 8390,
+      "summary_bullets": [
+        "War reshapes Gulf energy and capital flows.",
+        "Iran controls Strait of Hormuz, punches above weight.",
+        "Gulf states face security dilemma with US.",
+        "Dubai’s attractiveness may persist despite attacks.",
+        "Petrodollar exports to global markets likely decline."
+      ],
+      "composite": 82.72,
+      "audience_level": "general",
+      "like_count": null,
+      "upload_date": "20260413",
+      "duration_seconds": 2715,
+      "composite_base": 84.25,
+      "like_adjustment": 0,
+      "length_adjustment": -1.53,
+      "rank": 12,
+      "tags": []
+    },
+    {
+      "id": "pYz8vkMXAHM",
+      "title": "War in Iran is Chewing Through American Missile Stockpiles | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=pYz8vkMXAHM",
+      "status": "ok",
+      "word_count": 7918,
+      "summary_bullets": [
+        "US missile stockpiles depleted in Iran war.",
+        "Production ramp-up faces bottlenecks and funding gaps.",
+        "Missile defense costs far exceed cheap drones.",
+        "Conflict strains ability to deter China.",
+        "Think tank expert explains supply chain issues."
+      ],
+      "composite": 82.49,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "War in Iran is Chewing Through American Missile Stockpiles | Odd Lots",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260316",
+      "duration_seconds": 2704,
+      "composite_base": 84,
+      "like_adjustment": 0,
+      "length_adjustment": -1.51,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "04uQJJVBibc",
+      "title": "Jack McClendon on Why It's So Hard to Create a New American Oil Boom | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=04uQJJVBibc",
+      "status": "ok",
+      "word_count": 9555,
+      "summary_bullets": [
+        "Small producer explains 25-30% cost increase since COVID.",
+        "Industry cautious despite price spikes due to past busts.",
+        "Capital discipline and consolidation reduce supply responsiveness.",
+        "Service costs rise fast but fall slowly with oil prices.",
+        "Regulatory changes matter less than price for drilling decisions."
+      ],
+      "composite": 81.37,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260420",
+      "duration_seconds": 2779,
+      "composite_base": 83,
+      "like_adjustment": 0,
+      "length_adjustment": -1.63,
+      "rank": 14,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "k0H_YsHK8IU",
+      "title": "What War in Iran Means for Teapot Oil Refineries of China | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=k0H_YsHK8IU",
+      "status": "ok",
+      "word_count": 7200,
+      "summary_bullets": [
+        "China's teapot refineries buy discounted Iranian oil.",
+        "War in Iran threatens China's oil supply.",
+        "China's strategic petroleum reserve provides cushion.",
+        "Teapots are small, risk-tolerant independent refiners.",
+        "China's energy transition reduces long-term oil dependence."
+      ],
+      "composite": 81.27,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "What War in Iran Means for Teapot Oil Refineries of China | Odd Lots",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260313",
+      "duration_seconds": 2690,
+      "composite_base": 82.75,
+      "like_adjustment": 0,
+      "length_adjustment": -1.48,
+      "rank": 15,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "BXPckuHDgUc",
+      "title": "Greg Brew on Surging Energy and the 'Strategic Trap' of the War in Iran | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=BXPckuHDgUc",
+      "status": "ok",
+      "word_count": 9877,
+      "summary_bullets": [
+        "Iran attacks GCC states to restore deterrence.",
+        "Strait of Hormuz closed, surprising US Navy.",
+        "Kharg Island is Iran's main oil export terminal.",
+        "Iran's grey oil market resilient under sanctions.",
+        "War damage to energy infrastructure will last years."
+      ],
+      "composite": 80.99,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Greg Brew on Surging Energy and the 'Strategic Trap' of the War in Iran | Odd Lots",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260320",
+      "duration_seconds": 3305,
+      "composite_base": 83.5,
+      "like_adjustment": 0,
+      "length_adjustment": -2.51,
+      "rank": 16,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "sVfWn4PQ7vM",
+      "title": "Understanding the Most Viral Chart in Artificial Intelligence | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=sVfWn4PQ7vM",
+      "status": "ok",
+      "word_count": 11901,
+      "summary_bullets": [
+        "AI time horizon chart explained",
+        "Meter measures AI task difficulty",
+        "Exponential progress every ~4 months",
+        "Human baselines and 50% vs 80% success",
+        "Tension between safety and investment"
+      ],
+      "composite": 80.81,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260427",
+      "duration_seconds": 3414,
+      "composite_base": 83.5,
+      "like_adjustment": 0,
+      "length_adjustment": -2.69,
+      "rank": 17,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "_jYFDx6B9iU",
+      "title": "Anthropic, the Pentagon, and the Future of Autonomous Weapons | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=_jYFDx6B9iU",
+      "status": "ok",
+      "word_count": 9534,
+      "summary_bullets": [
+        "Pentagon uses AI for target planning in Iran war.",
+        "Anthropic vs. DoD dispute over AI use policies.",
+        "Autonomous weapons defined as weapons choosing own targets.",
+        "Human-in-the-loop risks: rubber-stamping AI outputs.",
+        "AI safety race to bottom among companies."
+      ],
+      "composite": 80.62,
+      "audience_level": "general",
+      "display_title": "Anthropic, the Pentagon, and the Future of Autonomous Weapons | Odd Lots",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260329",
+      "duration_seconds": 3106,
+      "composite_base": 82.8,
+      "like_adjustment": 0,
+      "length_adjustment": -2.18,
+      "rank": 18,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "lxmt7rz4DLQ",
+      "title": "How Taiwan Became the World's Most Perilous Geopolitical Chokepoint | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=lxmt7rz4DLQ",
+      "status": "ok",
+      "word_count": 10278,
+      "summary_bullets": [
+        "Taiwan is unfinished civil war business for China",
+        "TSMC's chips are a critical global bottleneck",
+        "US military likely still has edge in conventional war",
+        "Economic decoupling from China is extremely difficult",
+        "China has built economic shock absorbers against sanctions"
+      ],
+      "composite": 80.32,
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260501",
+      "duration_seconds": 3407,
+      "composite_base": 83,
+      "like_adjustment": 0,
+      "length_adjustment": -2.68,
+      "rank": 19,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "exqeWjBKwx0",
+      "title": "What It Takes to Build One of The World's Biggest Banks | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=exqeWjBKwx0",
+      "status": "ok",
+      "word_count": 11514,
+      "summary_bullets": [
+        "PNC CEO on banking scale advantages.",
+        "Branch density threshold of 7% matters.",
+        "Discount window requires physical loan docs.",
+        "AI used for document reading, not underwriting.",
+        "Credit card rate cap would kill consumer credit."
+      ],
+      "composite": 80.18,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "What It Takes to Build One of The World's Biggest Banks | Odd Lots",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260126",
+      "duration_seconds": 3790,
+      "composite_base": 83.5,
+      "like_adjustment": 0,
+      "length_adjustment": -3.32,
+      "rank": 20,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "6UIx7UxJeqI",
+      "title": "How to Make Money From the Booming Demand for Energy | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=6UIx7UxJeqI",
+      "status": "ok",
+      "word_count": 10926,
+      "summary_bullets": [
+        "Global energy demand rising faster than expected.",
+        "Nuclear is only baseload clean power source.",
+        "Data centers create tension with local ratepayers.",
+        "Utility multiples compressed despite higher growth.",
+        "Government must backstop nuclear and mining capex."
+      ],
+      "composite": 80.15,
+      "audience_level": "general",
+      "display_title": "How to Make Money From the Booming Demand for Energy | Odd Lots",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260115",
+      "duration_seconds": 3208,
+      "composite_base": 82.5,
+      "like_adjustment": 0,
+      "length_adjustment": -2.35,
+      "rank": 21,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "ejPFstidmew",
+      "title": "Rory Johnston on How Oil Could Surge to Over $200 a Barrel | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ejPFstidmew",
+      "status": "ok",
+      "word_count": 7193,
+      "summary_bullets": [
+        "Strait of Hormuz closure threatens 20 million barrels/day.",
+        "Refiners preemptively cut runs, spiking jet fuel prices.",
+        "Russia becomes swing producer as sanctions ease.",
+        "Export ban could cause US shortages, not lower prices.",
+        "Oil could hit $200+ if closure persists."
+      ],
+      "composite": 79.84,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Rory Johnston on How Oil Could Surge to Over $200 a Barrel | Odd Lots",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "practical_utility": 6.5,
+      "like_count": null,
+      "upload_date": "20260310",
+      "duration_seconds": 2195,
+      "composite_base": 80.5,
+      "like_adjustment": 0,
+      "length_adjustment": -0.66,
+      "rank": 22,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "AXHRsL4-yTo",
@@ -326,6 +1064,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=AXHRsL4-yTo",
       "status": "ok",
+      "word_count": 6518,
       "summary_bullets": [
         "Hormuz closure disrupts 20% of global oil supply.",
         "Asian countries face rationing and refinery stress.",
@@ -345,7 +1084,9 @@
       "upload_date": "20260415",
       "duration_seconds": 2244,
       "composite_base": 80.25,
-      "rank": 8,
+      "like_adjustment": 0,
+      "length_adjustment": -0.74,
+      "rank": 23,
       "tags": [
         {
           "label": "Substance",
@@ -363,9 +1104,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.74
+      ]
     },
     {
       "id": "u0ACoZRmrUg",
@@ -373,6 +1112,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=u0ACoZRmrUg",
       "status": "ok",
+      "word_count": 7840,
       "summary_bullets": [
         "Thomas Peterffy favors legalizing all insider trading.",
         "IBKR launches prediction market for institutional investors.",
@@ -392,7 +1132,9 @@
       "upload_date": "20260410",
       "duration_seconds": 3227,
       "composite_base": 81.8,
-      "rank": 9,
+      "like_adjustment": 0,
+      "length_adjustment": -2.38,
+      "rank": 24,
       "tags": [
         {
           "label": "Substance",
@@ -406,9 +1148,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.38
+      ]
     },
     {
       "id": "ZfJRd2MJhyU",
@@ -416,6 +1156,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ZfJRd2MJhyU",
       "status": "ok",
+      "word_count": 7586,
       "summary_bullets": [
         "Architecture as response to constraints, not isolated design",
         "Integrated design (engineers+architects early) yields better buildings",
@@ -435,7 +1176,9 @@
       "upload_date": "20260526",
       "duration_seconds": 3256,
       "composite_base": 81.8,
-      "rank": 10,
+      "like_adjustment": 0,
+      "length_adjustment": -2.43,
+      "rank": 25,
       "tags": [
         {
           "label": "Substance",
@@ -453,9 +1196,281 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "zOSVQy3nfcY",
+      "title": "The Petrochemicals Shock That's Already Rippling Through Plastics | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=zOSVQy3nfcY",
+      "status": "ok",
+      "word_count": 10001,
+      "summary_bullets": [
+        "Strait of Hormuz closure disrupts petrochemicals.",
+        "Polyethylene supply at risk for food packaging.",
+        "Asian crackers face feedstock shortages.",
+        "US ethane exports limited in scale.",
+        "Long-term shift in global chemical production."
       ],
+      "composite": 79.16,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Petrochemicals Shock That's Already Rippling Through Plastics | Odd Lots",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260325",
+      "duration_seconds": 3204,
+      "composite_base": 81.5,
       "like_adjustment": 0,
-      "length_adjustment": -2.43
+      "length_adjustment": -2.34,
+      "rank": 26,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "jQAOfi-Hh-g",
+      "title": "A16Z's David George on How Private and Public Markets Fused Into One | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=jQAOfi-Hh-g",
+      "status": "ok",
+      "word_count": 9453,
+      "summary_bullets": [
+        "Private tech companies now worth $5 trillion, 10x in 10 years.",
+        "Public companies halved in number over 20 years.",
+        "Private markets offer liquidity via tender offers, reducing IPO urgency.",
+        "AI companies growing fastest ever, but need huge capital.",
+        "Software incumbents risk value being built on top of them."
+      ],
+      "composite": 79.15,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "A16Z's David George on How Private and Public Markets Fused Into One | Odd Lots",
+      "substance": 8,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260220",
+      "duration_seconds": 2911,
+      "composite_base": 81,
+      "like_adjustment": 0,
+      "length_adjustment": -1.85,
+      "rank": 27,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "6ctFLXrf35k",
+      "title": "Jeff Currie on the Crazy Surge in Metals, And Why The Supercycle Has Years to Run | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=6ctFLXrf35k",
+      "status": "ok",
+      "word_count": 7312,
+      "summary_bullets": [
+        "Gold, silver, copper all at record highs simultaneously.",
+        "Three D's driving metals: debasement, de-dollarization, diversity.",
+        "Supercycle expected to last another decade, not peaked.",
+        "Asset-light tech companies moving into heavy physical assets.",
+        "Capital rotation from tech to commodities is just beginning."
+      ],
+      "composite": 78.83,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Jeff Currie on the Crazy Surge in Metals, And Why The Supercycle Has Years to Run | Odd Lots",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 7.5,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260130",
+      "duration_seconds": 2380,
+      "composite_base": 79.8,
+      "like_adjustment": 0,
+      "length_adjustment": -0.97,
+      "rank": 28,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "bjc6MgUY0BE",
+      "title": "Now There's a Helium Shortage and It Affects More Than Balloons | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=bjc6MgUY0BE",
+      "status": "ok",
+      "word_count": 9383,
+      "summary_bullets": [
+        "Helium from radioactive decay, trapped underground.",
+        "Federal Helium Reserve sold for “party balloon debt.”",
+        "Qatar supplies 30% of world helium; current disruption.",
+        "Helium market opaque, no spot price.",
+        "Used in semiconductors, rockets, MRI machines."
+      ],
+      "composite": 78.73,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Now There's a Helium Shortage and It Affects More Than Balloons | Odd Lots",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260327",
+      "duration_seconds": 3160,
+      "composite_base": 81,
+      "like_adjustment": 0,
+      "length_adjustment": -2.27,
+      "rank": 29,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "paN2aYVoUkw",
+      "title": "Goldman CIO Marco Argenti on the Warp-Speed Improvements in AI | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=paN2aYVoUkw",
+      "status": "ok",
+      "word_count": 10553,
+      "summary_bullets": [
+        "AI at Goldman past experimentation phase.",
+        "Goldman terminated some third-party software contracts.",
+        "Developers now explain, delegate, supervise like managers.",
+        "Token costs are a major new budget item.",
+        "Regulators treat AI like previous neural networks."
+      ],
+      "composite": 78.31,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Goldman CIO Marco Argenti on the Warp-Speed Improvements in AI | Odd Lots",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260330",
+      "duration_seconds": 3415,
+      "composite_base": 81,
+      "like_adjustment": 0,
+      "length_adjustment": -2.69,
+      "rank": 30,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "52SW99-pnXY",
+      "title": "What It's Like to Do Big Ag Business in Venezuela and Ukraine | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=52SW99-pnXY",
+      "status": "ok",
+      "word_count": 9494,
+      "summary_bullets": [
+        "Former Cargill execs discuss Venezuela and Ukraine.",
+        "Hyperinflation made currency worthless in Venezuela.",
+        "Cargill navigated corruption without bribes.",
+        "Ukraine grain exports shifted to simpler crops.",
+        "Multinationals create secure pockets in unstable countries."
+      ],
+      "composite": 77.13,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "What It's Like to Do Big Ag Business in Venezuela and Ukraine | Odd Lots",
+      "substance": 8,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260129",
+      "duration_seconds": 3105,
+      "composite_base": 79.3,
+      "like_adjustment": 0,
+      "length_adjustment": -2.17,
+      "rank": 31,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "8dLm7VdPKKI",
@@ -463,6 +1478,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=8dLm7VdPKKI",
       "status": "ok",
+      "word_count": 3334,
       "summary_bullets": [
         "US-Iran war closed Strait of Hormuz, choking oil supply.",
         "Poorer Asian countries forced demand destruction; rich drain stockpiles.",
@@ -482,7 +1498,9 @@
       "upload_date": "20260618",
       "duration_seconds": 1205,
       "composite_base": 76.5,
-      "rank": 11,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 32,
       "tags": [
         {
           "label": "Specificity",
@@ -492,9 +1510,47 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "E9DxWacNRVE",
+      "title": "Henry Blodget on the Software Selloff Hysteria and the Problem for OpenAI | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=E9DxWacNRVE",
+      "status": "ok",
+      "word_count": 8689,
+      "summary_bullets": [
+        "AI market hysteria compared to dot-com bubble",
+        "OpenAI's $800B valuation questioned",
+        "Software selloff driven by agent fears",
+        "Media disruption and subscriber model future",
+        "Blodget's AI newsroom experiment backlash"
       ],
+      "composite": 76.49,
+      "audience_level": "general",
+      "display_title": "Henry Blodget on the Software Selloff Hysteria and the Problem for OpenAI",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 7.5,
+      "insight_density": 8,
+      "non_promotion": 8.5,
+      "like_count": null,
+      "upload_date": "20260308",
+      "duration_seconds": 2704,
+      "composite_base": 78,
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": -1.51,
+      "rank": 33,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "uxMwmaGE64Y",
@@ -502,6 +1558,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=uxMwmaGE64Y",
       "status": "ok",
+      "word_count": 8953,
       "summary_bullets": [
         "Speed of AI automation may outpace job creation.",
         "Task complementarity determines if automation helps or hurts.",
@@ -521,7 +1578,9 @@
       "upload_date": "20260418",
       "duration_seconds": 2878,
       "composite_base": 77.3,
-      "rank": 12,
+      "like_adjustment": 0,
+      "length_adjustment": -1.8,
+      "rank": 34,
       "tags": [
         {
           "label": "Substance",
@@ -531,9 +1590,138 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "KNia2t6JHg8",
+      "title": "This Is How Big Money Is Trading the War in Iran | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=KNia2t6JHg8",
+      "status": "ok",
+      "word_count": 7323,
+      "summary_bullets": [
+        "Iran headlines drive volatile markets.",
+        "Oil below $100 despite Hormuz fears.",
+        "Gold selloff from forced liquidation.",
+        "Private credit stress may tighten conditions.",
+        "Traders skeptical of ceasefire headlines."
       ],
+      "composite": 75.25,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "This Is How Big Money Is Trading the War in Iran | Odd Lots",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260326",
+      "duration_seconds": 2400,
+      "composite_base": 76.25,
       "like_adjustment": 0,
-      "length_adjustment": -1.8
+      "length_adjustment": -1,
+      "rank": 35,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "_Y5xAZKIGU0",
+      "title": "Jared Sleeper on Which Software Companies Will Survive the SaaSpocalypse | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=_Y5xAZKIGU0",
+      "status": "ok",
+      "word_count": 10031,
+      "summary_bullets": [
+        "Software stocks sell off on AI fears.",
+        "Companies have value beyond code (integration, brand).",
+        "Current financials are solid but terminal value concerns loom.",
+        "Some SaaS may pivot to reselling AI intelligence.",
+        "Stock-based compensation hides true profitability."
+      ],
+      "composite": 75.24,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Jared Sleeper on Which Software Companies Will Survive the SaaSpocalypse | Odd Lots",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260219",
+      "duration_seconds": 3037,
+      "composite_base": 77.3,
+      "like_adjustment": 0,
+      "length_adjustment": -2.06,
+      "rank": 36,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "6hO4W9AjsIc",
+      "title": "This Is What Maduro's Arrest Means for the Oil Market | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=6hO4W9AjsIc",
+      "status": "ok",
+      "word_count": 9565,
+      "summary_bullets": [
+        "US arrested Maduro, oil market barely reacted.",
+        "Venezuela's oil reserves huge but inaccessible.",
+        "Chevron may expand, other majors wary.",
+        "Geopolitical signal: US reasserting Western Hemisphere dominance.",
+        "Low oil price and OPEC strategy matter more."
+      ],
+      "composite": 74.61,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "This Is What Maduro's Arrest Means for the Oil Market | Odd Lots",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260107",
+      "duration_seconds": 3116,
+      "composite_base": 76.8,
+      "like_adjustment": 0,
+      "length_adjustment": -2.19,
+      "rank": 37,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "d2-E7ObyaJU",
@@ -541,6 +1729,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=d2-E7ObyaJU",
       "status": "ok",
+      "word_count": 11336,
       "summary_bullets": [
         "Banking grew 100x since early 1980s.",
         "Technology eliminated information asymmetry over time.",
@@ -558,7 +1747,9 @@
       "upload_date": "20260403",
       "duration_seconds": 3277,
       "composite_base": 76,
-      "rank": 13,
+      "like_adjustment": 0,
+      "length_adjustment": -2.46,
+      "rank": 38,
       "tags": [
         {
           "label": "Specificity",
@@ -568,9 +1759,57 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "KREpnKN1HtM",
+      "title": "War in Iran Is Creating a Fertilizer Crisis Like Never Before | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=KREpnKN1HtM",
+      "status": "ok",
+      "word_count": 5129,
+      "summary_bullets": [
+        "War in Iran disrupts spring fertilizer supply.",
+        "Urea prices surge 25% in a week.",
+        "45% of traded urea from Middle East.",
+        "Farmers face record-high urea-to-corn ratio.",
+        "No strategic urea reserves exist."
       ],
+      "composite": 73.22,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "War in Iran Is Creating a Fertilizer Crisis Like Never Before | Odd Lots",
+      "substance": 7.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "practical_utility": 5,
+      "like_count": null,
+      "upload_date": "20260311",
+      "duration_seconds": 1847,
+      "composite_base": 73.3,
       "like_adjustment": 0,
-      "length_adjustment": -2.46
+      "length_adjustment": -0.08,
+      "rank": 39,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "CbddjeNxOy8",
@@ -578,6 +1817,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=CbddjeNxOy8",
       "status": "ok",
+      "word_count": 7252,
       "summary_bullets": [
         "Free cash flow explains high stock valuations.",
         "Labor share fell 8 percentage points since 1980.",
@@ -597,15 +1837,56 @@
       "upload_date": "20260412",
       "duration_seconds": 2168,
       "composite_base": 73.5,
-      "rank": 14,
+      "like_adjustment": 0,
+      "length_adjustment": -0.61,
+      "rank": 40,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "pe9GlGmg2fE",
+      "title": "The Business of Butterworths, the Hottest New Restaurant in Washington DC | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=pe9GlGmg2fE",
+      "status": "ok",
+      "word_count": 11567,
+      "summary_bullets": [
+        "Fries price up 33% but margins squeezed.",
+        "Chef avoids burgers to prevent menu dominance.",
+        "Amish farmer delivers produce early morning.",
+        "Labor costs doubled for cooks and dishwashers.",
+        "Restaurant is a terrible investment but good for social capital."
       ],
+      "composite": 72.28,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Business of Butterworths, the Hottest New Restaurant in Washington DC | Odd Lots",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260102",
+      "duration_seconds": 3431,
+      "composite_base": 75,
       "like_adjustment": 0,
-      "length_adjustment": -0.61
+      "length_adjustment": -2.72,
+      "rank": 41,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "3Q1eJa_M47w",
@@ -613,6 +1894,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=3Q1eJa_M47w",
       "status": "ok",
+      "word_count": 9285,
       "summary_bullets": [
         "US-Venezuela deal with Delcy Rodríguez.",
         "Orange shift: right-wing leaders aligned with Trump.",
@@ -631,15 +1913,15 @@
       "upload_date": "20260424",
       "duration_seconds": 3001,
       "composite_base": 74,
-      "rank": 15,
+      "like_adjustment": 0,
+      "length_adjustment": -2,
+      "rank": 42,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2
+      ]
     },
     {
       "id": "vqGS7rKDXYU",
@@ -647,6 +1929,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=vqGS7rKDXYU",
       "status": "ok",
+      "word_count": 7363,
       "summary_bullets": [
         "US-Europe alliance fraying over China strategy.",
         "European industry threatened by Chinese imports.",
@@ -666,15 +1949,52 @@
       "upload_date": "20260406",
       "duration_seconds": 2855,
       "composite_base": 73.5,
-      "rank": 16,
+      "like_adjustment": 0,
+      "length_adjustment": -1.76,
+      "rank": 43,
       "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "0ONCNExQKVo",
+      "title": "Lots More on the Seaborne Chaos Around the Strait of Hormuz | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=0ONCNExQKVo",
+      "status": "ok",
+      "word_count": 5335,
+      "summary_bullets": [
+        "War risk insurance premiums spike 10-30x.",
+        "Aluminum shipments from Gulf producers disrupted.",
+        "US may offer insurance as last resort.",
+        "Longer transit routes increase costs.",
+        "Houthi threats add Red Sea uncertainty."
       ],
+      "composite": 71.45,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Lots More on the Seaborne Chaos Around the Strait of Hormuz | Odd Lots",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260306",
+      "duration_seconds": 1827,
+      "composite_base": 71.5,
       "like_adjustment": 0,
-      "length_adjustment": -1.76
+      "length_adjustment": -0.05,
+      "rank": 44,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "u9xunOw1ZBU",
@@ -682,6 +2002,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=u9xunOw1ZBU",
       "status": "ok",
+      "word_count": 10376,
       "summary_bullets": [
         "P&I clubs are nonprofit mutual insurance for ship owners.",
         "War risk insurance is separate, not actuarially stable.",
@@ -701,15 +2022,126 @@
       "upload_date": "20260410",
       "duration_seconds": 3305,
       "composite_base": 73.8,
-      "rank": 17,
+      "like_adjustment": 0,
+      "length_adjustment": -2.51,
+      "rank": 45,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "P4R2k2Lxc5w",
+      "title": "How Insurance Costs Make NYC Construction so Expensive | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=P4R2k2Lxc5w",
+      "status": "ok",
+      "word_count": 8630,
+      "summary_bullets": [
+        "NYC construction insurance costs 10% of project vs 2% elsewhere",
+        "“Scaffold law” makes employers 100% liable for worker injuries",
+        "Reform to comparative negligence could save billions",
+        "Delays and consultant fees also drive up costs",
+        "Union labor is not the main cost driver"
       ],
+      "composite": 71.07,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How Insurance Costs Make NYC Construction so Expensive | Odd Lots",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260226",
+      "duration_seconds": 2957,
+      "composite_base": 73,
       "like_adjustment": 0,
-      "length_adjustment": -2.51
+      "length_adjustment": -1.93,
+      "rank": 46,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "01Fz7FjXftQ",
+      "title": "How War in Iran Will Squeeze America's Farmers Even Further | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=01Fz7FjXftQ",
+      "status": "ok",
+      "word_count": 8766,
+      "summary_bullets": [
+        "Fertilizer prices spike from Iran tensions.",
+        "Land rents doubled, squeezing margins.",
+        "Trade wars shift investment to Brazil.",
+        "Farmers hedge using forward sales.",
+        "Productivity gains offset some inflation."
+      ],
+      "composite": 71.04,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How War in Iran Will Squeeze America's Farmers Even Further | Odd Lots",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260319",
+      "duration_seconds": 2857,
+      "composite_base": 72.8,
+      "like_adjustment": 0,
+      "length_adjustment": -1.76,
+      "rank": 47,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "zQIoQUVFh8c",
+      "title": "The Scramble Is On for Businesses to Get Their Tariff Refund Checks | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=zQIoQUVFh8c",
+      "status": "ok",
+      "word_count": 9268,
+      "summary_bullets": [
+        "Supreme Court struck down AIPA tariffs.",
+        "Refund process uncertain; DOJ previously promised refunds.",
+        "Companies can sell refund claims on secondary market.",
+        "Flexport offers free tools to calculate refunds.",
+        "New 10% tariff under Section 122 may replace old ones."
+      ],
+      "composite": 71.04,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Scramble Is On for Businesses to Get Their Tariff Refund Checks | Odd Lots",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 7,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260227",
+      "duration_seconds": 2676,
+      "composite_base": 72.5,
+      "like_adjustment": 0,
+      "length_adjustment": -1.46,
+      "rank": 48,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "BrpadR5KuMo",
@@ -717,6 +2149,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=BrpadR5KuMo",
       "status": "ok",
+      "word_count": 8556,
       "summary_bullets": [
         "Inference demand surged in late 2025",
         "CoreWeave diversifying beyond hyperscaler clients",
@@ -736,15 +2169,336 @@
       "upload_date": "20260610",
       "duration_seconds": 3050,
       "composite_base": 72.8,
-      "rank": 18,
+      "like_adjustment": 0,
+      "length_adjustment": -2.08,
+      "rank": 49,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "2m7Xak7Ka3Q",
+      "title": "Ray Wang on How AI Is Causing DRAM Prices to Surge | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=2m7Xak7Ka3Q",
+      "status": "ok",
+      "word_count": 9039,
+      "summary_bullets": [
+        "AI demand strains DRAM supply.",
+        "HBM memory uses more wafer capacity.",
+        "Commodity DRAM shortage hurts consumer electronics.",
+        "Memory supercycle may last until 2027.",
+        "Chipmakers prioritize HBM over commodity DRAM."
       ],
+      "composite": 70.3,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Ray Wang on How AI Is Causing DRAM Prices to Surge | Odd Lots",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260216",
+      "duration_seconds": 2819,
+      "composite_base": 72,
       "like_adjustment": 0,
-      "length_adjustment": -2.08
+      "length_adjustment": -1.7,
+      "rank": 50,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "ZWVJ0vwPsI8",
+      "title": "David Shor and Byrne Hobart on the Politics of a White-Collar Wipeout | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ZWVJ0vwPsI8",
+      "status": "ok",
+      "word_count": 11444,
+      "summary_bullets": [
+        "AI progress accelerating faster than expected.",
+        "Public fear of job loss is high.",
+        "Political system unprepared for rapid change.",
+        "Historical analogies: COVID, electrification.",
+        "Policy solutions: income guarantees, radical populism."
+      ],
+      "composite": 69.96,
+      "audience_level": "general",
+      "display_title": "David Shor and Byrne Hobart on the Politics of a White-Collar Wipeout | Odd Lots",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260324",
+      "duration_seconds": 3323,
+      "composite_base": 72.5,
+      "like_adjustment": 0,
+      "length_adjustment": -2.54,
+      "rank": 51,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "CqKzW75-vio",
+      "title": "Cullen Roche on the Art of Building a Perfect Portfolio | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=CqKzW75-vio",
+      "status": "ok",
+      "word_count": 10891,
+      "summary_bullets": [
+        "No truly passive investing exists; everyone is active.",
+        "60/40 portfolio originated from Great Depression Wellington Fund.",
+        "Human capital acts as a fixed-income asset.",
+        "Tech stocks face price-compression risk after big gains.",
+        "Simple portfolios often outperform complex ones."
+      ],
+      "composite": 69.78,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Cullen Roche on the Art of Building a Perfect Portfolio | Odd Lots",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260112",
+      "duration_seconds": 3310,
+      "composite_base": 72.3,
+      "like_adjustment": 0,
+      "length_adjustment": -2.52,
+      "rank": 52,
+      "tags": []
+    },
+    {
+      "id": "M4Qyhfr52C0",
+      "title": "The Surprising Similarity Between the US and Chinese Internets | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=M4Qyhfr52C0",
+      "status": "ok",
+      "word_count": 9029,
+      "summary_bullets": [
+        "Chinese internet censorship is vague and self-enforcing.",
+        "US and Chinese internets evolved similarly despite different rules.",
+        "Censorship relies on keyword databases and human moderators.",
+        "Nationalism on Chinese internet parallels US online tribalism.",
+        "Guest argues centralization of tech power is key problem."
+      ],
+      "composite": 69.18,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Surprising Similarity Between the US and Chinese Internets | Odd Lots",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 7.5,
+      "insight_density": 7,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260203",
+      "duration_seconds": 3074,
+      "composite_base": 71.3,
+      "like_adjustment": 0,
+      "length_adjustment": -2.12,
+      "rank": 53,
+      "tags": []
+    },
+    {
+      "id": "Sgtun8y8Xes",
+      "title": "Former Goldman Sachs CEO Lloyd Blankfein on Why He Doesn't Tweet | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Sgtun8y8Xes",
+      "status": "ok",
+      "word_count": 9539,
+      "summary_bullets": [
+        "Globalization cycles are natural, not permanent.",
+        "Private credit illiquidity poses systemic risk.",
+        "Technology leverage amplifies both gains and errors.",
+        "Blankfein quit Twitter before getting canceled."
+      ],
+      "composite": 68.85,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Former Goldman Sachs CEO Lloyd Blankfein on Why He Doesn't Tweet | Odd Lots",
+      "substance": 7.5,
+      "evidence": 5,
+      "specificity": 7,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260305",
+      "duration_seconds": 2940,
+      "composite_base": 70.75,
+      "like_adjustment": 0,
+      "length_adjustment": -1.9,
+      "rank": 54,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "mxkDMrWJJ3Y",
+      "title": "Ricardo Hausmann Explains How the Venezuelan Economy Collapsed | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=mxkDMrWJJ3Y",
+      "status": "ok",
+      "word_count": 7580,
+      "summary_bullets": [
+        "Oil-driven boom and bust cycle.",
+        "Human capital flight crippled oil industry.",
+        "Institutional decay worse than sanctions.",
+        "Political majority wants change but regime represses.",
+        "Recovery requires political transition first."
+      ],
+      "composite": 68.84,
+      "audience_level": "general",
+      "display_title": "Ricardo Hausmann Explains How the Venezuelan Economy Collapsed | Odd Lots",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "practical_utility": 3,
+      "like_count": null,
+      "upload_date": "20260209",
+      "duration_seconds": 2944,
+      "composite_base": 70.75,
+      "like_adjustment": 0,
+      "length_adjustment": -1.91,
+      "rank": 55,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "TXmKePGHwJQ",
+      "title": "How a Former Fed Vice-Chair Is thinking About the Next Fed Chair | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=TXmKePGHwJQ",
+      "status": "ok",
+      "word_count": 8980,
+      "summary_bullets": [
+        "Kevin Worsh nominated as Fed Chair by Trump.",
+        "Former Fed Vice Chair Richard Clarida analyzes Worsh.",
+        "Worsh's hawkish past vs. recent dovish shift.",
+        "Fed independence and relationship with Treasury.",
+        "Forward guidance and balance sheet policies debated."
+      ],
+      "composite": 68.71,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How a Former Fed Vice-Chair Is thinking About the Next Fed Chair | Odd Lots",
+      "substance": 7,
+      "evidence": 5.5,
+      "specificity": 7.5,
+      "insight_density": 7,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260209",
+      "duration_seconds": 3055,
+      "composite_base": 70.8,
+      "like_adjustment": 0,
+      "length_adjustment": -2.09,
+      "rank": 56,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "5uimsekveCg",
+      "title": "Rory Johnston on Why His $200 Oil Prediction Didn't Turn Out Right | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=5uimsekveCg",
+      "status": "ok",
+      "word_count": 6075,
+      "summary_bullets": [
+        "China cut oil imports by 5 million barrels/day.",
+        "Strategic reserves and jawboning capped prices.",
+        "Oil market more resilient than expected.",
+        "China’s stockpile draw remains mysterious.",
+        "Traders’ risk limits prevented buying despite bullish models."
+      ],
+      "composite": 67.52,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Rory Johnston on Why His $200 Oil Prediction Didn't Turn Out Right | Odd Lots",
+      "substance": 7.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "practical_utility": 3,
+      "like_count": null,
+      "upload_date": "20260626",
+      "duration_seconds": 1936,
+      "composite_base": 67.75,
+      "like_adjustment": 0,
+      "length_adjustment": -0.23,
+      "rank": 57,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "skmG8AhaH5E",
@@ -752,6 +2506,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=skmG8AhaH5E",
       "status": "ok",
+      "word_count": 7570,
       "summary_bullets": [
         "QXO acquires TopBuild for $17 billion.",
         "Insulation demand stable, data centers growing.",
@@ -770,10 +2525,264 @@
       "upload_date": "20260422",
       "duration_seconds": 2440,
       "composite_base": 68.5,
-      "rank": 19,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.07
+      "length_adjustment": -1.07,
+      "rank": 58,
+      "tags": []
+    },
+    {
+      "id": "dr3MzBoHswo",
+      "title": "This Is How The US Can Become a Player in Rare Earth Metals | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=dr3MzBoHswo",
+      "status": "ok",
+      "word_count": 7596,
+      "summary_bullets": [
+        "China dominates rare earth supply chain.",
+        "US over-reliance is a national security risk.",
+        "Innovation can leapfrog China’s chokehold.",
+        "Waste streams (e-waste, coal ash) are domestic resources.",
+        "Policy and capital gaps hinder scaling."
+      ],
+      "composite": 66.51,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "This Is How The US Can Become a Player in Rare Earth Metals | Odd Lots",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 6,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260205",
+      "duration_seconds": 2696,
+      "composite_base": 68,
+      "like_adjustment": 0,
+      "length_adjustment": -1.49,
+      "rank": 59,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "DcZWMQ_UL2o",
+      "title": "Why the Tech World Is Going Crazy for Claude Code | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=DcZWMQ_UL2o",
+      "status": "ok",
+      "word_count": 10741,
+      "summary_bullets": [
+        "Claude Code is a CLI tool for AI-assisted coding.",
+        "It gives AI access to file system and Unix commands.",
+        "AI coding tools threaten traditional SaaS businesses.",
+        "Models improve rapidly, making differentiation hard.",
+        "Vibe coding lets non-programmers create software."
+      ],
+      "composite": 66.41,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Why the Tech World Is Going Crazy for Claude Code | Odd Lots",
+      "substance": 7.5,
+      "evidence": 5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260119",
+      "duration_seconds": 3236,
+      "composite_base": 68.8,
+      "like_adjustment": 0,
+      "length_adjustment": -2.39,
+      "rank": 60,
+      "tags": []
+    },
+    {
+      "id": "NRLNO_KOh9I",
+      "title": "How the Speed of a Trade Got Down to Nearly the Speed of Light | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=NRLNO_KOh9I",
+      "status": "ok",
+      "word_count": 8481,
+      "summary_bullets": [
+        "HFT exploits market structure, not algorithms.",
+        "Speed race: from milliseconds to nanoseconds.",
+        "Microwave links beat fiber optic cables.",
+        "HFT firms are small, flat, and fast-moving.",
+        "Speed race has economic limits, diminishing returns."
+      ],
+      "composite": 65.94,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How the Speed of a Trade Got Down to Nearly the Speed of Light",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 10,
+      "practical_utility": 5,
+      "like_count": null,
+      "upload_date": "20260302",
+      "duration_seconds": 3338,
+      "composite_base": 68.5,
+      "like_adjustment": 0,
+      "length_adjustment": -2.56,
+      "rank": 61,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "YSqwOyHksJU",
+      "title": "Blackstone's Michael Zawadzki on How Private Credit Got so Big | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=YSqwOyHksJU",
+      "status": "ok",
+      "word_count": 9515,
+      "summary_bullets": [
+        "Private credit growth driven by innovation, not risk.",
+        "Blackstone's scale enables customized, speedy financing.",
+        "AI infrastructure needs $800B private credit.",
+        "Private credit losses historically 1% over 20 years.",
+        "Insurers increasingly partner with private credit managers."
+      ],
+      "composite": 65.82,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Blackstone's Michael Zawadzki on How Private Credit Got so Big | Odd Lots",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260123",
+      "duration_seconds": 3110,
+      "composite_base": 68,
+      "like_adjustment": 0,
+      "length_adjustment": -2.18,
+      "rank": 62,
+      "tags": []
+    },
+    {
+      "id": "R_z59oHRYT8",
+      "title": "What the Iran War Means for Dubai's Luxury Boom | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=R_z59oHRYT8",
+      "status": "ok",
+      "word_count": 10055,
+      "summary_bullets": [
+        "Iran strikes threaten Dubai’s safe-haven image.",
+        "Dubai attracts wealthy expats fleeing Western taxes.",
+        "UAE sovereign funds invest heavily in global assets.",
+        "Property boom fueled by ultra-luxury demand.",
+        "Conflict could disrupt capital inflows and real estate."
+      ],
+      "composite": 65.78,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "What the Iran War Means for Dubai's Luxury Boom | Odd Lots",
+      "substance": 6.5,
+      "evidence": 5,
+      "specificity": 7.5,
+      "insight_density": 7,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260323",
+      "duration_seconds": 3314,
+      "composite_base": 68.3,
+      "like_adjustment": 0,
+      "length_adjustment": -2.52,
+      "rank": 63,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "K_Q9jv088Sw",
+      "title": "New CFTC Chairman Michael Selig on How to Regulate Prediction Markets | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=K_Q9jv088Sw",
+      "status": "ok",
+      "word_count": 9549,
+      "summary_bullets": [
+        "CFTC chair explains prediction market regulation",
+        "Cardi B Super Bowl contract as example",
+        "Insider trading and market structure differences",
+        "Coordination with SEC and crypto rules",
+        "Advertising and age limits debated"
+      ],
+      "composite": 64.68,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "New CFTC Chairman Michael Selig on How to Regulate Prediction Markets | Odd Lots",
+      "substance": 6.5,
+      "evidence": 5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260212",
+      "duration_seconds": 3072,
+      "composite_base": 66.8,
+      "like_adjustment": 0,
+      "length_adjustment": -2.12,
+      "rank": 64,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "IZ17lGAUAbE",
+      "title": "Why NASA Hired a Chief Economist | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=IZ17lGAUAbE",
+      "status": "ok",
+      "word_count": 9833,
+      "summary_bullets": [
+        "NASA’s first chief economist explains his role.",
+        "Space shuttle retired due to safety and cost.",
+        "Private sector now key for space stations.",
+        "Lunar economy still far off.",
+        "Apollo-era semiconductor demand boosted industry."
+      ],
+      "composite": 64.06,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Why NASA Hired a Chief Economist | Odd Lots",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 7.5,
+      "insight_density": 6,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260331",
+      "duration_seconds": 3145,
+      "composite_base": 66.3,
+      "like_adjustment": 0,
+      "length_adjustment": -2.24,
+      "rank": 65,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "OmYH5OKcUF0",
@@ -781,6 +2790,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=OmYH5OKcUF0",
       "status": "ok",
+      "word_count": 9694,
       "summary_bullets": [
         "40% of internet pages are AI-generated.",
         "Pangram Labs detects AI text with 99%+ accuracy.",
@@ -800,15 +2810,47 @@
       "upload_date": "20260402",
       "duration_seconds": 3033,
       "composite_base": 66,
-      "rank": 20,
+      "like_adjustment": 0,
+      "length_adjustment": -2.06,
+      "rank": 66,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "rEEGzt01wts",
+      "title": "Legendary Hacker Matt Suiche on Cyberwar in the Age of AI | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=rEEGzt01wts",
+      "status": "ok",
+      "word_count": 8722,
+      "summary_bullets": [
+        "Cyberwar in Iran-Israel conflict is mostly espionage.",
+        "Drones cheaper than cyber exploits for disruption.",
+        "AI agents pose new security risks due to autonomy.",
+        "Cost of software approaching zero threatens SaaS.",
+        "Data becomes the only durable asset in AI economy."
       ],
+      "composite": 62.89,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Legendary Hacker Matt Suiche on Cyberwar in the Age of AI | Odd Lots",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 5.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260312",
+      "duration_seconds": 2944,
+      "composite_base": 64.8,
       "like_adjustment": 0,
-      "length_adjustment": -2.06
+      "length_adjustment": -1.91,
+      "rank": 67,
+      "tags": []
     },
     {
       "id": "7bWqp3oZyXg",
@@ -816,6 +2858,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=7bWqp3oZyXg",
       "status": "ok",
+      "word_count": 8791,
       "summary_bullets": [
         "Cerebras builds dinner-plate-sized chips for AI.",
         "Wafer-scale chips use fast memory for speed.",
@@ -834,15 +2877,15 @@
       "upload_date": "20260526",
       "duration_seconds": 3114,
       "composite_base": 64.75,
-      "rank": 21,
+      "like_adjustment": 0,
+      "length_adjustment": -2.19,
+      "rank": 68,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.19
+      ]
     },
     {
       "id": "OhTTEtcCdB4",
@@ -850,6 +2893,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=OhTTEtcCdB4",
       "status": "ok",
+      "word_count": 7723,
       "summary_bullets": [
         "Hay market is opaque with fragmented regional prices.",
         "Founder uses USDA data and auction calls for transparency.",
@@ -869,10 +2913,10 @@
       "upload_date": "20260612",
       "duration_seconds": 2428,
       "composite_base": 62.8,
-      "rank": 22,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.05
+      "length_adjustment": -1.05,
+      "rank": 69,
+      "tags": []
     },
     {
       "id": "kxYeeK8IxpM",
@@ -880,6 +2924,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=kxYeeK8IxpM",
       "status": "ok",
+      "word_count": 10022,
       "summary_bullets": [
         "Lenovo CFO on AI token spending challenges.",
         "Capital allocation during AI infrastructure boom.",
@@ -899,10 +2944,10 @@
       "upload_date": "20260629",
       "duration_seconds": 3373,
       "composite_base": 64.3,
-      "rank": 23,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.62
+      "length_adjustment": -2.62,
+      "rank": 70,
+      "tags": []
     },
     {
       "id": "zskgeTNJIuQ",
@@ -910,6 +2955,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=zskgeTNJIuQ",
       "status": "ok",
+      "word_count": 7922,
       "summary_bullets": [
         "Peterffy predicts prediction markets will grow large.",
         "IBKR’s ForecastTrader targets institutional investors.",
@@ -929,10 +2975,111 @@
       "upload_date": "20260409",
       "duration_seconds": 3056,
       "composite_base": 63.3,
-      "rank": 24,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.09
+      "length_adjustment": -2.09,
+      "rank": 71,
+      "tags": []
+    },
+    {
+      "id": "PjUv2rgKm4s",
+      "title": "James van Geelen on His Viral AI Doom Scenario | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=PjUv2rgKm4s",
+      "status": "ok",
+      "word_count": 8018,
+      "summary_bullets": [
+        "James van Geelen's AI doom scenario went viral.",
+        "Piece explores rapid AI capability curve.",
+        "Market reaction shows deep anxiety.",
+        "Private credit and software disruption risks.",
+        "Government unprepared for AI transition."
+      ],
+      "composite": 59.69,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "James van Geelen on His Viral AI Doom Scenario | Odd Lots",
+      "substance": 6.5,
+      "evidence": 4.5,
+      "specificity": 7,
+      "insight_density": 6,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260302",
+      "duration_seconds": 2585,
+      "composite_base": 61,
+      "like_adjustment": 0,
+      "length_adjustment": -1.31,
+      "rank": 72,
+      "tags": []
+    },
+    {
+      "id": "vu3BfCbM7wc",
+      "title": "Evolving Money: The Tokenization Tipping Point (Sponsored Content) | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=vu3BfCbM7wc",
+      "status": "ok",
+      "word_count": 3766,
+      "summary_bullets": [
+        "Tokenization represents real-world assets on blockchain.",
+        "Rick Edelman predicts tokenization will dominate in 5–10 years.",
+        "Scott Lucas from JP Morgan takes a cautious, market-driven approach.",
+        "Tokenized assets grew eightfold to $30 billion in three years.",
+        "JP Morgan executed a $50 million commercial paper tokenization."
+      ],
+      "composite": 58.75,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Evolving Money: The Tokenization Tipping Point (Sponsored Content) | Odd Lots",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 7.5,
+      "insight_density": 6,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260209",
+      "duration_seconds": 1326,
+      "composite_base": 58.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 73,
+      "tags": []
+    },
+    {
+      "id": "uLiPlMRT5pQ",
+      "title": "Alison Roman's Plan to Conquer the Tomato Sauce Market | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=uLiPlMRT5pQ",
+      "status": "ok",
+      "word_count": 11218,
+      "summary_bullets": [
+        "Alison Roman launched a tomato sauce brand.",
+        "Scaling a recipe requires trial and error.",
+        "CPG economics: high costs, low margins.",
+        "Distribution is a chicken-and-egg problem.",
+        "Celebrity status reduces marketing costs."
+      ],
+      "composite": 58.54,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Alison Roman's Plan to Conquer the Tomato Sauce Market | Odd Lots",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260223",
+      "duration_seconds": 3274,
+      "composite_base": 61,
+      "like_adjustment": 0,
+      "length_adjustment": -2.46,
+      "rank": 74,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "YhPYisGOTN0",
@@ -940,6 +3087,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=YhPYisGOTN0",
       "status": "ok",
+      "word_count": 8354,
       "summary_bullets": [
         "Raisin cartel was government-sanctioned, ended by Supreme Court.",
         "Cuties brand uses different fruit under same name.",
@@ -959,10 +3107,145 @@
       "upload_date": "20260417",
       "duration_seconds": 2407,
       "composite_base": 58.8,
-      "rank": 25,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.01
+      "length_adjustment": -1.01,
+      "rank": 75,
+      "tags": []
+    },
+    {
+      "id": "ljI_O210W3U",
+      "title": "Robinhood CEO Vlad Tenev on Tokenization and Prediction Markets for Everything | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ljI_O210W3U",
+      "status": "ok",
+      "word_count": 9712,
+      "summary_bullets": [
+        "Tokenization of private stocks backed by equity.",
+        "Robinhood launches closed-end venture fund for retail.",
+        "Prediction markets: coin toss contracts resemble gambling.",
+        "Regulatory challenges for tokenized securities and prediction markets.",
+        "Robinhood’s platinum credit card as fashion accessory."
+      ],
+      "composite": 53.56,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Robinhood CEO Vlad Tenev on Tokenization and Prediction Markets for Everything | Odd Lots",
+      "substance": 6.5,
+      "evidence": 4.5,
+      "specificity": 7,
+      "insight_density": 5.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260309",
+      "duration_seconds": 3264,
+      "composite_base": 56,
+      "like_adjustment": 0,
+      "length_adjustment": -2.44,
+      "rank": 76,
+      "tags": []
+    },
+    {
+      "id": "Po36FGqmQnE",
+      "title": "Pimco CEO Manny Roman on Japanese Bonds and the Sell America Trade | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Po36FGqmQnE",
+      "status": "ok",
+      "word_count": 8898,
+      "summary_bullets": [
+        "Market reaction to sell-off was modest.",
+        "Japan bullish due to inflation and activism.",
+        "Dollar remains reserve currency despite diversification.",
+        "Fixed income offers attractive entry points.",
+        "AI and data centers create investment opportunities."
+      ],
+      "composite": 51.39,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Pimco CEO Manny Roman on Japanese Bonds and the Sell America Trade",
+      "substance": 6,
+      "evidence": 5,
+      "specificity": 6,
+      "insight_density": 5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260122",
+      "duration_seconds": 3065,
+      "composite_base": 53.5,
+      "like_adjustment": 0,
+      "length_adjustment": -2.11,
+      "rank": 77,
+      "tags": []
+    },
+    {
+      "id": "BxYyaR8p8CY",
+      "title": "What Really Happens at a Fed Research Conference | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=BxYyaR8p8CY",
+      "status": "ok",
+      "word_count": 7260,
+      "summary_bullets": [
+        "Inside look at Boston Fed research conference",
+        "Economists present papers, face discussant critiques",
+        "Tension between policy relevance and academic publishing",
+        "Hosts observe sociology of economic research"
+      ],
+      "composite": 42.32,
+      "audience_level": "general",
+      "display_title": "What Really Happens at a Fed Research Conference | Odd Lots",
+      "substance": 3,
+      "evidence": 2,
+      "specificity": 6,
+      "insight_density": 5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260105",
+      "duration_seconds": 2507,
+      "composite_base": 43.5,
+      "like_adjustment": 0,
+      "length_adjustment": -1.18,
+      "rank": 78,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "TYcKXoqToWQ",
+      "title": "Tracy and Joe Answer All Your Questions | Odd Lots",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=TYcKXoqToWQ",
+      "status": "ok",
+      "word_count": 6173,
+      "summary_bullets": [
+        "Hosts answer listener questions on various topics.",
+        "They discuss killing episodes, book recommendations, EMH.",
+        "AI value accrual, Bitcoin narratives, inflation measurement.",
+        "Term premium debate, Magic the Gathering nostalgia.",
+        "Episode is casual Q&A with personal anecdotes."
+      ],
+      "composite": 29.03,
+      "audience_level": "general",
+      "display_title": "Tracy and Joe Answer All Your Questions | Odd Lots",
+      "substance": 2,
+      "evidence": 1,
+      "specificity": 5,
+      "insight_density": 2,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260102",
+      "duration_seconds": 2080,
+      "composite_base": 29.5,
+      "like_adjustment": 0,
+      "length_adjustment": -0.47,
+      "rank": 79,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     }
   ],
   "too_long": [],

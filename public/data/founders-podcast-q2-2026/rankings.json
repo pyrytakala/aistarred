@@ -1,17 +1,65 @@
 {
   "source_id": "founders-podcast-q2-2026",
-  "model": "accounts/fireworks/models/deepseek-v4-flash",
-  "video_count": 7,
-  "scored_count": 7,
-  "ranked_count": 7,
+  "video_count": 15,
+  "scored_count": 15,
+  "ranked_count": 15,
   "rankings": [
+    {
+      "id": "owZ6xh_gOdY",
+      "title": "How SpaceX Works",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=owZ6xh_gOdY",
+      "status": "ok",
+      "word_count": 6698,
+      "summary_bullets": [
+        "SpaceX's cost strategy: first-principles material analysis",
+        "Vertical integration captures savings from cheap atoms",
+        "Standardization enables high-volume manufacturing flywheel",
+        "Rapid iteration treats failures as data",
+        "Culture of questioning requirements and visible failure"
+      ],
+      "composite": 82.71,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "SpaceX’s Success System: First-Principles Cost, Vertical Integration, and Rapid Iteration",
+      "substance": 8.5,
+      "evidence": 9,
+      "specificity": 9.5,
+      "insight_density": 8,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260308",
+      "duration_seconds": 2452,
+      "composite_base": 83.8,
+      "like_adjustment": 0,
+      "length_adjustment": -1.09,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
     {
       "id": "CdIMFZk1OJA",
       "title": "Joseph Pulitzer: The Inventor of Mass Media",
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=CdIMFZk1OJA",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 10740,
       "summary_bullets": [
         "Pulitzer rose from homeless immigrant to media mogul.",
         "He pioneered mass-circulation journalism with sensationalism.",
@@ -30,15 +78,15 @@
       "upload_date": "20260620",
       "duration_seconds": 3145,
       "composite_base": 63.75,
-      "rank": 1,
+      "like_adjustment": 0,
+      "length_adjustment": -2.24,
+      "rank": 2,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -2.24
+      ]
     },
     {
       "id": "oA_FT515VFM",
@@ -46,7 +94,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=oA_FT515VFM",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 9507,
       "summary_bullets": [
         "Biography of Soichiro Honda’s life and philosophy",
         "Honda’s obsession with engines and improvement",
@@ -66,10 +114,42 @@
       "upload_date": "20260628",
       "duration_seconds": 2885,
       "composite_base": 62,
-      "rank": 2,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.81
+      "length_adjustment": -1.81,
+      "rank": 3,
+      "tags": []
+    },
+    {
+      "id": "d_Bv59Rxo6w",
+      "title": "Tortured Into Greatness: The Life of Andre Agassi",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=d_Bv59Rxo6w",
+      "status": "ok",
+      "word_count": 12290,
+      "summary_bullets": [
+        "Andre Agassi hated tennis despite being #1.",
+        "Father tortured him into greatness with relentless training.",
+        "Agassi’s mental struggles and self-sabotage are central.",
+        "He rebuilt his career from rank 141 after drug use.",
+        "Key lesson: helping others gives more meaning than winning."
+      ],
+      "composite": 58.64,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Tortured Into Greatness: The Life of Andre Agassi",
+      "substance": 5.5,
+      "evidence": 5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260204",
+      "duration_seconds": 3664,
+      "composite_base": 61.75,
+      "like_adjustment": 0,
+      "length_adjustment": -3.11,
+      "rank": 4,
+      "tags": []
     },
     {
       "id": "JjV1uikElgs",
@@ -77,7 +157,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=JjV1uikElgs",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 10828,
       "summary_bullets": [
         "Steve Jobs’ 12-year exile at NeXT",
         "Book chronicles his mistakes and transformation",
@@ -91,10 +171,10 @@
       "upload_date": "20260604",
       "duration_seconds": 3212,
       "composite_base": 59.25,
-      "rank": 3,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.35
+      "length_adjustment": -2.35,
+      "rank": 5,
+      "tags": []
     },
     {
       "id": "-dh-QNlX12k",
@@ -102,7 +182,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=-dh-QNlX12k",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 8819,
       "summary_bullets": [
         "Arnold discovered bodybuilding at age 15",
         "He idolized Reg Park and studied him obsessively",
@@ -121,10 +201,74 @@
       "upload_date": "20260419",
       "duration_seconds": 2609,
       "composite_base": 57.5,
-      "rank": 4,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.35
+      "length_adjustment": -1.35,
+      "rank": 6,
+      "tags": []
+    },
+    {
+      "id": "g2-duG1-Jxc",
+      "title": "How Roger Federer Works.",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=g2-duG1-Jxc",
+      "status": "ok",
+      "word_count": 9903,
+      "summary_bullets": [
+        "Federer won only 54% of points.",
+        "Mental discipline was his biggest weakness.",
+        "He built a team for long-term health.",
+        "Life outside tennis prevented burnout.",
+        "He learned to control inner rage."
+      ],
+      "composite": 52.16,
+      "confidence": "Med",
+      "audience_level": "general",
+      "display_title": "How Roger Federer Works",
+      "substance": 6,
+      "evidence": 5,
+      "specificity": 7,
+      "insight_density": 5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260219",
+      "duration_seconds": 2906,
+      "composite_base": 54,
+      "like_adjustment": 0,
+      "length_adjustment": -1.84,
+      "rank": 7,
+      "tags": []
+    },
+    {
+      "id": "wYi4emYR89I",
+      "title": "The Creative Genius of Rick Rubin",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=wYi4emYR89I",
+      "status": "ok",
+      "word_count": 8525,
+      "summary_bullets": [
+        "Host summarizes Rick Rubin's book on creativity.",
+        "Key themes: habits, intuition, patience, self-doubt.",
+        "Rubin's approach: treat art as a way of being.",
+        "Examples from John Wooden, Napoleon, Steve Jobs.",
+        "Emphasis on submerging in great works."
+      ],
+      "composite": 51.71,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Rick Rubin's 'The Creative Act' – Book Summary and Insights on Creativity",
+      "substance": 5.5,
+      "evidence": 4,
+      "specificity": 6,
+      "insight_density": 5.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260108",
+      "duration_seconds": 2573,
+      "composite_base": 53,
+      "like_adjustment": 0,
+      "length_adjustment": -1.29,
+      "rank": 8,
+      "tags": []
     },
     {
       "id": "wu5SsVzcfx0",
@@ -132,7 +276,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=wu5SsVzcfx0",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 12603,
       "summary_bullets": [
         "Phil Knight's early life and inspiration",
         "Founding Nike from a crazy idea",
@@ -152,10 +296,47 @@
       "upload_date": "20260507",
       "duration_seconds": 3781,
       "composite_base": 54,
-      "rank": 5,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -3.3
+      "length_adjustment": -3.3,
+      "rank": 9,
+      "tags": []
+    },
+    {
+      "id": "AmkAH6MzRgM",
+      "title": "How Rick Rubin Works",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=AmkAH6MzRgM",
+      "status": "ok",
+      "word_count": 17220,
+      "summary_bullets": [
+        "Minimalist \"production by reduction\" philosophy.",
+        "Left Def Jam to preserve creative vision.",
+        "Revived Johnny Cash's late career.",
+        "Prefers preparation over studio time.",
+        "Works only with self-motivated artists."
+      ],
+      "composite": 49.95,
+      "confidence": "Med",
+      "audience_level": "general",
+      "display_title": "How Rick Rubin Works",
+      "substance": 6.5,
+      "evidence": 5,
+      "specificity": 8.5,
+      "insight_density": 4,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260116",
+      "duration_seconds": 4830,
+      "composite_base": 55,
+      "like_adjustment": 0,
+      "length_adjustment": -5.05,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "mHE37R0aBUA",
@@ -163,7 +344,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=mHE37R0aBUA",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 11357,
       "summary_bullets": [
         "Chess prodigy founded DeepMind for AGI.",
         "Sold to Google to avoid fundraising distractions.",
@@ -182,10 +363,71 @@
       "upload_date": "20260401",
       "duration_seconds": 3280,
       "composite_base": 51.75,
-      "rank": 6,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.47
+      "length_adjustment": -2.47,
+      "rank": 11,
+      "tags": []
+    },
+    {
+      "id": "nqiuSshC9GA",
+      "title": "How Elon Thinks",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=nqiuSshC9GA",
+      "status": "ok",
+      "word_count": 10719,
+      "summary_bullets": [
+        "Book summary of Elon Musk’s ideas",
+        "First principles thinking explained with examples",
+        "Musk’s “algorithm” for engineering (5 steps)",
+        "Emphasis on manufacturing and making stuff",
+        "Includes sponsor ads for Ramp and Vanta"
+      ],
+      "composite": 47.88,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How Elon Thinks",
+      "substance": 5,
+      "evidence": 3,
+      "specificity": 8,
+      "insight_density": 6,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260324",
+      "duration_seconds": 3071,
+      "composite_base": 50,
+      "like_adjustment": 0,
+      "length_adjustment": -2.12,
+      "rank": 12,
+      "tags": []
+    },
+    {
+      "id": "RUKafK3xCfY",
+      "title": "Excellent Advice For Living: 79 Maxims from a Wise Old Man",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=RUKafK3xCfY",
+      "status": "ok",
+      "word_count": 7291,
+      "summary_bullets": [
+        "Host reads and comments on Kevin Kelly’s life maxims",
+        "Maxims cover kindness, habits, deadlines, and perspective",
+        "Host adds personal anecdotes and quotes from famous thinkers"
+      ],
+      "composite": 39.51,
+      "audience_level": "general",
+      "display_title": "Kevin Kelly’s Life Maxims Reviewed with Personal Anecdotes",
+      "substance": 4.5,
+      "evidence": 3,
+      "specificity": 6,
+      "insight_density": 3.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260125",
+      "duration_seconds": 2246,
+      "composite_base": 40.25,
+      "like_adjustment": 0,
+      "length_adjustment": -0.74,
+      "rank": 13,
+      "tags": []
     },
     {
       "id": "AXYbyl-5-2U",
@@ -193,7 +435,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=AXYbyl-5-2U",
       "status": "ok",
-      "cache_hit": true,
+      "word_count": 10303,
       "summary_bullets": [
         "Jony Ive’s design philosophy: simplify, remove, reduce.",
         "His father nurtured his early design curiosity.",
@@ -212,10 +454,41 @@
       "upload_date": "20260610",
       "duration_seconds": 3151,
       "composite_base": 40,
-      "rank": 7,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.25
+      "length_adjustment": -2.25,
+      "rank": 14,
+      "tags": []
+    },
+    {
+      "id": "eSZ4Xep1sJU",
+      "title": "How To Run Down A Dream",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=eSZ4Xep1sJU",
+      "status": "ok",
+      "word_count": 6924,
+      "summary_bullets": [
+        "Sam Hinkie’s journey from analyst to NBA GM",
+        "Bill Gurley’s five guidelines for dream careers",
+        "Examples: Bobby Knight, Bob Dylan, Danny Meyer",
+        "Emphasis on passion, study, mentors, peers, generosity",
+        "Host’s personal connection to the talk and book"
+      ],
+      "composite": 35.88,
+      "audience_level": "general",
+      "display_title": "Bill Gurley’s Five Guidelines for Pursuing a Dream Career (with Sam Hinkie Story)",
+      "substance": 4.5,
+      "evidence": 3,
+      "specificity": 5.5,
+      "insight_density": 2.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260303",
+      "duration_seconds": 1871,
+      "composite_base": 36,
+      "like_adjustment": 0,
+      "length_adjustment": -0.12,
+      "rank": 15,
+      "tags": []
     }
   ],
   "too_long": [],

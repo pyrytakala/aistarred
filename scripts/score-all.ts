@@ -4,6 +4,7 @@ import { join } from "node:path";
 import { spawnSync } from "node:child_process";
 
 import { listSources } from "../src/lib/sources.js";
+import { StageTimer, stageLog } from "../src/lib/stage-log.js";
 
 const logDir = join(process.cwd(), "logs", "scoring");
 mkdirSync(logDir, { recursive: true });
@@ -17,9 +18,10 @@ const maxWorkers = process.argv.includes("--max-workers")
 
 const sources = listSources();
 const failed: string[] = [];
+const batchTimer = new StageTimer("score-all", `${sources.length} sources`);
 
 for (const source of sources) {
-  console.log(`\n========== SCORE ${source.id} ==========\n`);
+  const sourceTimer = new StageTimer("score-all", source.id);
   const score = spawnSync(
     "npm",
     ["run", "score", "--", "--source", source.id, "--workers", workers, "--max-workers", maxWorkers],
@@ -27,6 +29,7 @@ for (const source of sources) {
   );
   if (score.status !== 0) {
     failed.push(source.id);
+    sourceTimer.done(source.id, { exit: score.status ?? 1, stage: "score" });
     continue;
   }
 
@@ -37,14 +40,19 @@ for (const source of sources) {
   );
   if (publish.status !== 0) {
     failed.push(source.id);
+    sourceTimer.done(source.id, { exit: publish.status ?? 1, stage: "publish" });
+    continue;
   }
+
+  sourceTimer.done(source.id, { exit: 0 });
 }
 
-console.log(`\nScoring complete: ${sources.length - failed.length}/${sources.length} succeeded`);
+batchTimer.done("score-all", {
+  succeeded: sources.length - failed.length,
+  failed: failed.length,
+});
+
 if (failed.length) {
-  console.log("Failed sources:");
-  for (const id of failed) {
-    console.log(`  - ${id}`);
-  }
+  stageLog("score-all", "failed sources", { sources: failed });
   process.exit(1);
 }

@@ -209,6 +209,120 @@ export async function listMachineTheoryJournal(context: ListingContext): Promise
   return filterListedItems(context, items, false);
 }
 
+interface AsteriskIssueArticle {
+  headline: string;
+  url: string;
+  datePublished: string;
+}
+
+function parseAsteriskIssueArticles(html: string): AsteriskIssueArticle[] {
+  const match = html.match(/<script type="application\/ld\+json">\s*([\s\S]*?)<\/script>/i);
+  if (!match) {
+    return [];
+  }
+
+  let payload: Record<string, unknown>;
+  try {
+    payload = JSON.parse(match[1]) as Record<string, unknown>;
+  } catch {
+    return [];
+  }
+
+  if (payload["@type"] !== "PublicationIssue") {
+    return [];
+  }
+
+  const parts = payload.hasPart;
+  if (!Array.isArray(parts)) {
+    return [];
+  }
+
+  const articles: AsteriskIssueArticle[] = [];
+  for (const part of parts) {
+    if (!part || typeof part !== "object") {
+      continue;
+    }
+    const article = part as Record<string, unknown>;
+    if (article["@type"] !== "Article") {
+      continue;
+    }
+    const headline = typeof article.headline === "string" ? article.headline.trim() : "";
+    const url = typeof article.url === "string" ? article.url.trim() : "";
+    const datePublished =
+      typeof article.datePublished === "string" ? article.datePublished.trim() : "";
+    if (!headline || !url || !datePublished) {
+      continue;
+    }
+    articles.push({ headline, url, datePublished });
+  }
+
+  return articles;
+}
+
+function listAsteriskIssueNumbers(issuesIndexHtml: string): string[] {
+  const seen = new Set<string>();
+  const numbers: string[] = [];
+
+  for (const match of issuesIndexHtml.matchAll(/href="https:\/\/asteriskmag\.com\/issues\/(\d+)"/g)) {
+    const issueNumber = match[1];
+    if (seen.has(issueNumber)) {
+      continue;
+    }
+    seen.add(issueNumber);
+    numbers.push(issueNumber);
+  }
+
+  return numbers.sort((a, b) => Number(b) - Number(a));
+}
+
+export async function listAsteriskIssues(context: ListingContext): Promise<ContentListItem[]> {
+  const indexHtml = await fetchText(context.sourceUrl || "https://asteriskmag.com/issues");
+  const issueNumbers = listAsteriskIssueNumbers(indexHtml);
+  const items: ContentListItem[] = [];
+  const seen = new Set<string>();
+
+  for (const [index, issueNumber] of issueNumbers.entries()) {
+    if (context.requestDelayMs > 0 && index > 0) {
+      await sleep(context.requestDelayMs);
+    }
+
+    const issueUrl = `https://asteriskmag.com/issues/${issueNumber}`;
+    const issueHtml = await fetchText(issueUrl);
+    const articles = parseAsteriskIssueArticles(issueHtml);
+
+    for (const article of articles) {
+      const uploadDate = parseFlexibleDate(article.datePublished.slice(0, 10));
+      if (!uploadDate) {
+        continue;
+      }
+
+      if (context.dateRange && !isWithinDateRange(uploadDate, context.dateRange)) {
+        continue;
+      }
+
+      const slug = new URL(article.url).pathname.split("/").filter(Boolean).pop() ?? article.url;
+      if (seen.has(slug)) {
+        continue;
+      }
+      seen.add(slug);
+
+      items.push({
+        id: slug,
+        title: article.headline,
+        url: article.url,
+        upload_date: uploadDate,
+      });
+
+      if (context.maxItems != null && context.maxItems > 0 && items.length >= context.maxItems) {
+        return items;
+      }
+    }
+  }
+
+  items.sort((a, b) => (b.upload_date ?? "").localeCompare(a.upload_date ?? ""));
+  return items;
+}
+
 export async function listSemianalysisArchives(context: ListingContext): Promise<ContentListItem[]> {
   const html = await fetchText(context.sourceUrl);
   const items: ContentListItem[] = [];
@@ -233,6 +347,39 @@ export async function listSemianalysisArchives(context: ListingContext): Promise
   }
 
   items.sort((a, b) => (b.upload_date ?? "").localeCompare(a.upload_date ?? ""));
+
+  return filterListedItems(context, items, true);
+}
+
+export async function listCollabfundAuthor(context: ListingContext): Promise<ContentListItem[]> {
+  const html = await fetchText(context.sourceUrl);
+  const items: ContentListItem[] = [];
+  const seen = new Set<string>();
+
+  for (const match of html.matchAll(/href="(\/blog\/[^"?#]+)"[^>]*>([^<]+)</g)) {
+    const path = match[1];
+    if (path.includes("/authors/") || path === "/blog/") {
+      continue;
+    }
+
+    const slug = path.replace(/\/$/, "").split("/").pop() ?? path;
+    if (seen.has(slug)) {
+      continue;
+    }
+
+    const title = match[2].trim();
+    if (!title || title === "Read more" || title === "Collab Blog") {
+      continue;
+    }
+
+    seen.add(slug);
+    items.push({
+      id: slug,
+      title,
+      url: new URL(path, "https://collabfund.com").href,
+      upload_date: uploadDateFromUrlPath(path),
+    });
+  }
 
   return filterListedItems(context, items, true);
 }

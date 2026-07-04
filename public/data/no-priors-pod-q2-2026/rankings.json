@@ -10,6 +10,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=XAbKflCncDo",
       "status": "ok",
+      "word_count": 8461,
       "summary_bullets": [
         "Inference cloud grew 30x in a year.",
         "95% of tokens are from custom models.",
@@ -55,6 +56,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=AZrU6y3pUcU",
       "status": "ok",
+      "word_count": 7765,
       "summary_bullets": [
         "Test-time compute scaling changes model evaluation.",
         "Benchmarks don’t account for compute budget.",
@@ -97,6 +99,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=WSxVh5WvWZ4",
       "status": "ok",
+      "word_count": 6922,
       "summary_bullets": [
         "Magnetar Capital finances AI compute with debt secured by contracts.",
         "GPU debt payback is 2–3 years, not dependent on residual value.",
@@ -140,6 +143,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=5u7AjPardvo",
       "status": "ok",
+      "word_count": 7691,
       "summary_bullets": [
         "SAP's AI strategy focuses on enterprise scale.",
         "LLMs insufficient for predictive analytics; need RPT1.",
@@ -182,6 +186,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=1dYThQgOyZU",
       "status": "ok",
+      "word_count": 6348,
       "summary_bullets": [
         "Notion shifted from human tool to agent management platform.",
         "AI harness rewritten every six months to match model progress.",
@@ -226,6 +231,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=kwSVtQ7dziU",
       "status": "ok",
+      "word_count": 15742,
       "summary_bullets": [
         "Karpathy hasn't typed code since December, uses agents.",
         "Home automation claw \"Dobby\" controls lights, HVAC, security.",
@@ -270,6 +276,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=efUt__S_AjY",
       "status": "ok",
+      "word_count": 8471,
       "summary_bullets": [
         "AI code generation raises code quality concerns.",
         "SaaS apocalypse fears are overstated short-term.",
@@ -306,6 +313,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=OScO1It9V5g",
       "status": "ok",
+      "word_count": 6529,
       "summary_bullets": [
         "Autonomy will be mandatory by 2030",
         "EV adoption limited by lack of choice",
@@ -349,6 +357,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=QDsbFLEt9ro",
       "status": "ok",
+      "word_count": 7259,
       "summary_bullets": [
         "AI agents cause unintended actions in enterprises.",
         "Onyx trains small models to oversee agents.",
@@ -383,6 +392,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=jeop9wfb9jU",
       "status": "ok",
+      "word_count": 5822,
       "summary_bullets": [
         "Cerebras CEO on $63B IPO journey",
         "Wafer-scale chips 15-20x faster than GPUs",
@@ -417,6 +427,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=asCgCv2XB4s",
       "status": "ok",
+      "word_count": 8555,
       "summary_bullets": [
         "Intel CEO Lip Bu Tan discusses turnaround plan.",
         "US government becomes major shareholder in Intel.",
@@ -455,6 +466,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=xjlYpGaxIPA",
       "status": "ok",
+      "word_count": 6635,
       "summary_bullets": [
         "Pax Silica coalition secures AI supply chain with allies.",
         "Philippines grants 4,000 acres for industrial base.",
@@ -488,6 +500,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=djv5UDHrg7g",
       "status": "ok",
+      "word_count": 8742,
       "summary_bullets": [
         "Emil Michael is CTO of Department of War.",
         "Department prioritizes six critical technology areas.",
@@ -524,6 +537,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=k-xtmISBCNE",
       "status": "ok",
+      "word_count": 14193,
       "summary_bullets": [
         "AI scaling laws continue, reasoning improves.",
         "AI creates jobs, not destroys them.",
@@ -560,6 +574,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=eyobeqMdbeI",
       "status": "ok",
+      "word_count": 8817,
       "summary_bullets": [
         "Stablecoins as full-reserve digital dollars backed by Treasuries.",
         "Circle’s ARC blockchain designed for real economy and AI agents.",
@@ -589,6 +604,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=5Xvbq_zvOQ4",
       "status": "ok",
+      "word_count": 12459,
       "summary_bullets": [
         "Valor Atomics built first startup nuclear reactor.",
         "Reactor uses triso fuel, helium cooling, graphite.",
@@ -629,6 +645,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=RQE8OS392dU",
       "status": "ok",
+      "word_count": 7659,
       "summary_bullets": [
         "AI ecosystem enables every company to participate.",
         "Private evals and harnesses are key IP.",
@@ -663,6 +680,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=qQAhK2EWw4I",
       "status": "ok",
+      "word_count": 6413,
       "summary_bullets": [
         "Platforms are sticky, products replaceable.",
         "Few software companies reach $10B revenue.",
@@ -694,6 +712,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=vvfQnO7OjWI",
       "status": "ok",
+      "word_count": 7087,
       "summary_bullets": [
         "Cryopreservation aims to freeze organs without ice damage.",
         "Ice formation is stochastic; rapid cooling avoids it.",
@@ -725,6 +744,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=4K5qLoM2_ts",
       "status": "ok",
+      "word_count": 7635,
       "summary_bullets": [
         "Roblox aims for photorealistic multiplayer worlds.",
         "AI trains NPCs on 13B hours of user data.",
@@ -756,6 +776,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=tNNFJa5pUEg",
       "status": "ok",
+      "word_count": 9486,
       "summary_bullets": [
         "Bill McDermott bought a deli at 16.",
         "ServiceNow is an AI control tower for enterprises.",
@@ -785,6 +806,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Oru2Jxr1xHU",
       "status": "ok",
+      "word_count": 5773,
       "summary_bullets": [
         "Liam Fedus co-created ChatGPT, now building Periodic Labs.",
         "Periodic Labs applies AI to materials science and chemistry.",
@@ -814,6 +836,7 @@
       "speakers": "Mark Zuckerberg",
       "url": "https://www.youtube.com/watch?v=u8cYwaLzN-k",
       "status": "ok",
+      "word_count": 11067,
       "summary_bullets": [
         "Biohub uses AI to accelerate biology research.",
         "Open-source protein folding model ESM Fold released.",
@@ -843,6 +866,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=g5TWnUjbeFM",
       "status": "ok",
+      "word_count": 4836,
       "summary_bullets": [
         "Long Lake acquires Amex GBT for $6.3B.",
         "Uses AI platform Nexus to transform companies.",

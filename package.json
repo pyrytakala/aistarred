@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "fetch": "tsx scripts/fetch.ts",
     "fetch-all": "tsx scripts/fetch-all-2026.ts",
+    "analyze-pipeline-log": "tsx scripts/analyze-pipeline-log.ts",
     "score": "tsx scripts/score.ts",
     "score-all": "tsx scripts/score-all.ts",
     "publish": "tsx scripts/publish.ts",

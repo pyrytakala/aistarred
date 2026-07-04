@@ -10,6 +10,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/bens-builds-3-an-email-app",
       "status": "ok",
+      "word_count": 1546,
       "summary_bullets": [
         "Built custom email client with AI agents.",
         "Gmail API used; caching fixed lag.",
@@ -40,6 +41,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/bye-bye-fable",
       "status": "ok",
+      "word_count": 1000,
       "summary_bullets": [
         "Anthropic launched Fable 5, then shut it down.",
         "US government suspended access for foreign nationals.",
@@ -69,6 +71,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/new-claude-model-fable",
       "status": "ok",
+      "word_count": 1444,
       "summary_bullets": [
         "Fable is Claude's new model, safer than Mythos.",
         "Author tests Fable for interactive kids' essays.",
@@ -99,6 +102,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/is-saas-dead",
       "status": "ok",
+      "word_count": 1032,
       "summary_bullets": [
         "SaaS tools add unwanted features over time.",
         "Users want only a sliver of functionality.",
@@ -128,6 +132,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/agents-feedback-tip",
       "status": "ok",
+      "word_count": 906,
       "summary_bullets": [
         "Screen-record feedback improves agent communication.",
         "Video converted to HTML with keyframes and GIFs.",
@@ -157,6 +162,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/opus-48",
       "status": "ok",
+      "word_count": 845,
       "summary_bullets": [
         "Claude Opus 4.8 released with dynamic workflows.",
         "Anthropic files S-1, raises $65B at $965B.",
@@ -187,6 +193,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/can-i-get-my-agents-on-the-phone",
       "status": "ok",
+      "word_count": 1197,
       "summary_bullets": [
         "Google I/O starts today",
         "Model is the product",
@@ -217,6 +224,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/the-first-big-exit-in-ai",
       "status": "ok",
+      "word_count": 1226,
       "summary_bullets": [
         "SpaceX acquires Cursor for $60B.",
         "OpenAI financials leaked: $13B revenue, $34B costs.",
@@ -247,6 +255,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/hey-siri-meet-ai",
       "status": "ok",
+      "word_count": 1201,
       "summary_bullets": [
         "Agents are loops with tasks and tools.",
         "Apple launched Siri AI with mixed models.",
@@ -277,6 +286,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/fable-is-back",
       "status": "ok",
+      "word_count": 1017,
       "summary_bullets": [
         "AI agent booked taxi using context and tools.",
         "Fable 5 model re-released for paid users.",
@@ -308,6 +318,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/googles-take-on-openclaw",
       "status": "ok",
+      "word_count": 1049,
       "summary_bullets": [
         "Author's fund returns 5x, raising Fund 3",
         "Google I/O overshadowed by Karpathy joining Anthropic",
@@ -338,6 +349,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/gpt-56-is-here-but",
       "status": "ok",
+      "word_count": 968,
       "summary_bullets": [
         "Etched inference hardware startup coming out of stealth.",
         "OpenAI releases GPT-5.6 Sol, Terra, Luna models.",
@@ -369,6 +381,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/learn-the-system",
       "status": "ok",
+      "word_count": 1244,
       "summary_bullets": [
         "Learn the system, not syntax",
         "Vibe coding vs. agentic engineering",
@@ -399,6 +412,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/elon-doubled-limits",
       "status": "ok",
+      "word_count": 1338,
       "summary_bullets": [
         "Author built custom email client with Codex in 2 hours.",
         "GPT-5.5 Instant released for free ChatGPT users.",
@@ -429,6 +443,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/building-gets-easier",
       "status": "ok",
+      "word_count": 1284,
       "summary_bullets": [
         "Author’s father retires after 43 years at law firm.",
         "Author becomes “Codex-pilled,” uses AI terminal daily.",
@@ -459,6 +474,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/record-a-skill",
       "status": "ok",
+      "word_count": 788,
       "summary_bullets": [
         "Codex turns demos into reusable skills.",
         "Claude Code adds shareable Artifacts.",
@@ -489,6 +505,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/i-signed-up-for-another-saas",
       "status": "ok",
+      "word_count": 967,
       "summary_bullets": [
         "Author signed up for Magic Path after frustrations with component design.",
         "Newsletter includes AI tool news: Claude Code security, DeepSWE leaderboard, etc.",
@@ -518,6 +535,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/build-tools-to-build-more",
       "status": "ok",
+      "word_count": 1198,
       "summary_bullets": [
         "Personal anecdote about building an agents manual.",
         "News on new AI models (Gemma 4, Ideogram 4.0, Miso One).",
@@ -548,6 +566,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/claude-code-in-slack",
       "status": "ok",
+      "word_count": 778,
       "summary_bullets": [
         "Codex can generate images for UI assets",
         "Claude Tag enables Slack-based agent collaboration",
@@ -578,6 +597,7 @@
       "speakers": "Ben's Bites",
       "url": "https://www.bensbites.com/p/codex-is-gaining-steam",
       "status": "ok",
+      "word_count": 754,
       "summary_bullets": [
         "Codex adds import from Claude Cowork and UI improvements.",
         "Grok 4.3 API launches with 1M context, cheaper than Sonnet 4.6.",

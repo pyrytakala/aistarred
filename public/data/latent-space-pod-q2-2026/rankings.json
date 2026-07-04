@@ -10,6 +10,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=KSCCKCz2x04",
       "status": "ok",
+      "word_count": 6201,
       "summary_bullets": [
         "AI screened thousands of materials for toughness.",
         "Active learning optimizes multiple objectives simultaneously.",
@@ -58,6 +59,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=9QSm_mRGpN8",
       "status": "ok",
+      "word_count": 14280,
       "summary_bullets": [
         "METR evaluates AI capabilities and risks.",
         "Time horizon measures task difficulty in human hours.",
@@ -106,6 +108,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=F_1oDPWxpFQ",
       "status": "ok",
+      "word_count": 15895,
       "summary_bullets": [
         "Distillation compresses large models into smaller capable ones.",
         "Hardware and model co-design drives efficiency gains.",
@@ -154,6 +157,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=T8u7wOXhDb0",
       "status": "ok",
+      "word_count": 15991,
       "summary_bullets": [
         "Andon Labs creates agent business benchmarks.",
         "Claude models show increasing deceptive behaviors.",
@@ -200,6 +204,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=0HaUD_olwQU",
       "status": "ok",
+      "word_count": 5388,
       "summary_bullets": [
         "SWE-bench Verified is saturated and contaminated.",
         "OpenAI stops reporting SWE-bench Verified scores.",
@@ -244,6 +249,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=knx2wrILP1M",
       "status": "ok",
+      "word_count": 20410,
       "summary_bullets": [
         "AI is an 80-year overnight success.",
         "Pi + OpenClaw create Unix-like agent architecture.",
@@ -290,6 +296,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=9d899Ram9Bs",
       "status": "ok",
+      "word_count": 16798,
       "summary_bullets": [
         "AI solved open physics problem stumping experts for a year.",
         "Single‑minus gluon amplitudes are non‑zero, have simple formula.",
@@ -336,6 +343,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=cFNI2FORAc0",
       "status": "ok",
+      "word_count": 7431,
       "summary_bullets": [
         "Ecosystem strategy over single model/platform.",
         "Private eval is key IP for companies.",
@@ -378,6 +386,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=RrkGoX3Cw7o",
       "status": "ok",
+      "word_count": 13094,
       "summary_bullets": [
         "Shopify AI tool adoption nears 100%.",
         "Token consumption grows exponentially, distribution skews.",
@@ -420,6 +429,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ATt7QJgt-2k",
       "status": "ok",
+      "word_count": 19200,
       "summary_bullets": [
         "Notion rebuilt agent harness five times.",
         "Custom agents use usage-based pricing.",
@@ -462,6 +472,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=CSYWbbP_OkY",
       "status": "ok",
+      "word_count": 12063,
       "summary_bullets": [
         "Bootstrapped Chatbase to $10M ARR",
         "Started before ChatGPT with GPT-3",
@@ -503,6 +514,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=BKLvySNVBtM",
       "status": "ok",
+      "word_count": 15391,
       "summary_bullets": [
         "Brex CTO details three-pillar AI strategy.",
         "Built internal LLM gateway and agent platform.",
@@ -547,6 +559,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=CSgjaC6y6Mk",
       "status": "ok",
+      "word_count": 5315,
       "summary_bullets": [
         "Seahorse emoji triggers self-correction loops in GPT-5.",
         "Reasoning traces now added to foundation model pre-training.",
@@ -587,6 +600,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=jPtQlILfkhA",
       "status": "ok",
+      "word_count": 17183,
       "summary_bullets": [
         "Built Grok Imagine in 3 months from scratch.",
         "Video model gains come from language models, not diffusion.",
@@ -633,6 +647,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=rlM_fAKxB3Q",
       "status": "ok",
+      "word_count": 4469,
       "summary_bullets": [
         "Code still matters in AI era.",
         "Deep modules simplify AI prompting.",
@@ -671,6 +686,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=CeOXx-XTYek",
       "status": "ok",
+      "word_count": 15508,
       "summary_bullets": [
         "Team built 1M LOC codebase with zero human-written code.",
         "Used OpenAI's Codex agents for all coding and review.",
@@ -713,6 +729,7 @@
       "speakers": "Why We Need Self-Driving Labs — Joseph Krause, Radical AI",
       "url": "https://www.youtube.com/watch?v=4-sWFytOfRw",
       "status": "ok",
+      "word_count": 16525,
       "summary_bullets": [
         "Materials science lacks simple text representations like SMILES.",
         "Self-driving labs needed for experimental data loop.",
@@ -755,6 +772,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=XqoBSB3nsgw",
       "status": "ok",
+      "word_count": 16315,
       "summary_bullets": [
         "Andrew White left academia for AI science startups.",
         "AI agents automate hypothesis generation and testing.",
@@ -794,6 +812,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=UmCZBwsibgs",
       "status": "ok",
+      "word_count": 19796,
       "summary_bullets": [
         "Ukraine produced 4 million FPV drones last year.",
         "Drones cause 70–80% of frontline casualties.",
@@ -836,6 +855,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Io0mAsHkiRY",
       "status": "ok",
+      "word_count": 5206,
       "summary_bullets": [
         "Supermemory evolved from consumer app to context infrastructure.",
         "OpenClaw’s memory fails due to tool-based search and static files.",
@@ -880,6 +900,7 @@
       "speakers": "Alex Rives, BioHub",
       "url": "https://www.youtube.com/watch?v=XdevS0GSuiQ",
       "status": "ok",
+      "word_count": 12909,
       "summary_bullets": [
         "Scaling protein language models with metagenomic data",
         "ESMC predicts structure without multiple sequence alignments",
@@ -904,6 +925,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Yp_u1NpbkJg",
       "status": "ok",
+      "word_count": 14726,
       "summary_bullets": [
         "Omnigents: open-source agent platform with unified API and security policies.",
         "L-Tap: unifies storage for OLTP and analytics, eliminating CDC pipelines.",
@@ -946,6 +968,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=0fgJPhYcbVk",
       "status": "ok",
+      "word_count": 14159,
       "summary_bullets": [
         "Background agents run autonomously in cloud VMs.",
         "Architecture choice: agent in or out of sandbox.",
@@ -984,6 +1007,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=DcvgPEApHT8",
       "status": "ok",
+      "word_count": 6900,
       "summary_bullets": [
         "Ronak Malde co-founded Trajectory after Windsurf acquisition.",
         "Continual learning lets AI improve from user corrections.",
@@ -1018,6 +1042,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=uqM8qjbLRHA",
       "status": "ok",
+      "word_count": 15368,
       "summary_bullets": [
         "95% cancer trial failure due to patient selection.",
         "Noetik builds foundation models on patient tissue data.",
@@ -1056,6 +1081,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=5KnCKadxSPY",
       "status": "ok",
+      "word_count": 12334,
       "summary_bullets": [
         "Anonymous blog grew via Hacker News and Substack.",
         "AI token budgets create new per-employee cost challenges.",
@@ -1090,6 +1116,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=yyuVR-ML9X8",
       "status": "ok",
+      "word_count": 9497,
       "summary_bullets": [
         "Graph databases improve RAG accuracy and explainability.",
         "Vector databases as standalone category is declining.",
@@ -1127,6 +1154,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=UwnqWAYOjPU",
       "status": "ok",
+      "word_count": 11385,
       "summary_bullets": [
         "Dylan Patel discusses AI chip geopolitics while cooking.",
         "Explains Taiwan scenarios and export controls on China.",
@@ -1157,6 +1185,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=hLUGXO5DSpo",
       "status": "ok",
+      "word_count": 4835,
       "summary_bullets": [
         "Singapore minister uses NanoClaw for second brain.",
         "Security: isolated containers, credential vault, human-in-loop.",
@@ -1186,6 +1215,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=p1k7TiAFqdE",
       "status": "ok",
+      "word_count": 12107,
       "summary_bullets": [
         "AI capital flywheel: money → compute → capability → growth → more money",
         "Frontier models may outspend entire app ecosystem built on them",
@@ -1217,6 +1247,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=kaX43RRRUKY",
       "status": "ok",
+      "word_count": 15709,
       "summary_bullets": [
         "Daytona provides composable computers for AI agents.",
         "Pivoted from human dev environments to agent sandboxes.",
@@ -1251,6 +1282,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=rv23_KcHt4s",
       "status": "ok",
+      "word_count": 15131,
       "summary_bullets": [
         "Physical AI for vehicles and machines",
         "Fragmented OS market like pre-Android phones",
@@ -1280,6 +1312,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Iu4gEnZFQz8",
       "status": "ok",
+      "word_count": 13801,
       "composite": 64.45,
       "audience_level": "practitioner",
       "display_title": "Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Eskildsen of Turbopuffer",
@@ -1308,6 +1341,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Hxlayqs-IAs",
       "status": "ok",
+      "word_count": 6222,
       "summary_bullets": [
         "Gemma 4 uses per-layer embedding tables for fast inference.",
         "Parameter offloading yields 2B effective parameters from 5B total.",
@@ -1337,6 +1371,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=LEwlSyR0cXA",
       "status": "ok",
+      "word_count": 17447,
       "summary_bullets": [
         "GitHub commits grow 14x year-over-year from AI agents.",
         "Kyle Daigle uses agents for retrospection and planning.",
@@ -1371,6 +1406,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=LzCUYNP5UTI",
       "status": "ok",
+      "word_count": 21811,
       "summary_bullets": [
         "Bare metal data centers pay back in 3 months vs cloud.",
         "Railway runs 35 people serving 3M users.",
@@ -1405,6 +1441,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=h5dlIPM0X18",
       "status": "ok",
+      "word_count": 12285,
       "summary_bullets": [
         "AI labs fail due to culture, not compute.",
         "Compute utilization metrics: node and MFU.",
@@ -1439,6 +1476,7 @@
       "speakers": "Carina Hong, Axiom Math",
       "url": "https://www.youtube.com/watch?v=abYcV5LHMG4",
       "status": "ok",
+      "word_count": 17573,
       "summary_bullets": [
         "Axiom Math uses formal verification for AI reasoning.",
         "Lean proof assistant enables verified math and code.",
@@ -1473,6 +1511,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=SUjA25ijcNs",
       "status": "ok",
+      "word_count": 11268,
       "summary_bullets": [
         "Mistral releases Voxtral TTS, a 3B speech generation model.",
         "Uses novel flow-matching architecture for audio generation.",
@@ -1503,6 +1542,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=vUARtyOvh5U",
       "status": "ok",
+      "word_count": 13747,
       "summary_bullets": [
         "Abridge uses AI to document doctor visits.",
         "Aims to reduce clinician burnout and save time.",
@@ -1532,6 +1572,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=-rIAVuaRjOg",
       "status": "ok",
+      "word_count": 7528,
       "summary_bullets": [
         "Tool calling errors in open models are deterministically fixable.",
         "Repair logic turns DeepSeek V4 into Opus-competitive performance.",
@@ -1566,6 +1607,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=YQWXxnkK4dw",
       "status": "ok",
+      "word_count": 18713,
       "summary_bullets": [
         "Diffusion models now used for drug discovery",
         "Genesis predicts protein-ligand 3D structures",
@@ -1602,6 +1644,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=nxnQl4AcqFg",
       "status": "ok",
+      "word_count": 7076,
       "summary_bullets": [
         "Monty is a fast Python interpreter written in Rust.",
         "Runs code in microseconds, not seconds.",
@@ -1633,6 +1676,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=oBWRHnggscM",
       "status": "ok",
+      "word_count": 12127,
       "summary_bullets": [
         "Moonlake builds reasoning-based world models.",
         "Contrasts with video generation models like Sora.",
@@ -1662,6 +1706,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=V7_Ec2WFAWs",
       "status": "ok",
+      "word_count": 6644,
       "summary_bullets": [
         "Max Welling founded CUSAI for materials discovery.",
         "Physics is the thread through his career.",
@@ -1693,6 +1738,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=mMbPEf4V_hE",
       "status": "ok",
+      "word_count": 17383,
       "summary_bullets": [
         "Agents need governed data access.",
         "Enterprise AI faces context engineering challenges.",
@@ -1724,6 +1770,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=obEWFoLfWD4",
       "status": "ok",
+      "word_count": 8571,
       "summary_bullets": [
         "Impulse stove uses lithium-ion battery for extra power.",
         "Boils water in 40 seconds with 10,000 watts.",
@@ -1760,6 +1807,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=unUeI7e-iVs",
       "status": "ok",
+      "word_count": 19514,
       "summary_bullets": [
         "On-policy RL: model learns from own generations.",
         "IMO gold achieved with end-to-end Gemini model.",
@@ -1791,6 +1839,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=nP0N1kYLegc",
       "status": "ok",
+      "word_count": 19109,
       "summary_bullets": [
         "AlphaFold 2 revolutionized protein structure prediction.",
         "Boltz open-sourced AlphaFold 3-level model.",
@@ -1822,6 +1871,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ck63uv6APBA",
       "status": "ok",
+      "word_count": 13507,
       "summary_bullets": [
         "Goodfire uses interpretability to understand and design AI models.",
         "They apply interpretability to post-training and production use cases.",
@@ -1853,6 +1903,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=zP8P7hJXwE0",
       "status": "ok",
+      "word_count": 6520,
       "summary_bullets": [
         "Context graphs capture decision traces for AI agents.",
         "They argue context graphs are a new abstraction layer.",
@@ -1884,6 +1935,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=287Q-bs_pEU",
       "status": "ok",
+      "word_count": 3048,
       "summary_bullets": [
         "Cloudflare primitives enable new AI agent architecture",
         "Slop forks and open source adversarial dynamics discussed",
@@ -1912,6 +1964,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=j8BAficRjEc",
       "status": "ok",
+      "word_count": 13669,
       "summary_bullets": [
         "Gray Swan provides AI security for agents.",
         "Automated red teaming model Shade beats humans.",
@@ -1941,6 +1994,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=x9rWFiIubmc",
       "status": "ok",
+      "word_count": 29270,
       "summary_bullets": [
         "Claude Code automates complex financial analysis tasks.",
         "HBM demand is causing a severe DRAM shortage.",
@@ -1972,6 +2026,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=fpAthTtha8c",
       "status": "ok",
+      "word_count": 8454,
       "summary_bullets": [
         "Mark Chen is OpenAI’s chief research officer.",
         "He brought soup to researchers, inspired by Zuckerberg.",
@@ -2001,6 +2056,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=64D6tcsPH1U",
       "status": "ok",
+      "word_count": 19556,
       "summary_bullets": [
         "Brev acquired by NVIDIA for developer tools.",
         "Dynamo: data center scale inference engine.",
@@ -2032,6 +2088,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=jTEqdoB_mmo",
       "status": "ok",
+      "word_count": 5598,
       "summary_bullets": [
         "Cooking dandan noodles while discussing AI engineering.",
         "Dex Horthy co-founded HumanLayer, an agentic IDE.",
@@ -2063,6 +2120,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=tMflcZHo2zI",
       "status": "ok",
+      "word_count": 15394,
       "summary_bullets": [
         "Cloud agents run code in full VMs.",
         "Agents test changes and record video demos.",
@@ -2094,6 +2152,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=W2cBTVr8nxU",
       "status": "ok",
+      "word_count": 6982,
       "summary_bullets": [
         "OpenAI launches Prism, a free AI-native LaTeX editor.",
         "Prism integrates GPT-5.2 for writing, proofreading, diagram generation.",
@@ -2125,6 +2184,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ZpZ7lFoWaT8",
       "status": "ok",
+      "word_count": 19698,
       "summary_bullets": [
         "Cloud Co-Work is a user-friendly version of Cloud Code.",
         "Local computer is undervalued for AI agents.",
@@ -2156,6 +2216,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=TvmxWWfiYWI",
       "status": "ok",
+      "word_count": 13951,
       "summary_bullets": [
         "Dreamer is a platform for building and using AI agents.",
         "Non-technical users can create agents via natural language.",
@@ -2187,6 +2248,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Yw-m0PI2Atk",
       "status": "ok",
+      "word_count": 8583,
       "composite": 26.31,
       "audience_level": "practitioner",
       "display_title": "Polsia: AI that builds and runs companies autonomously – demo and founder interview",

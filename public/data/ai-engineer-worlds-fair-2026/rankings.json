@@ -10,6 +10,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=LrGCT7G_rU8",
       "status": "ok",
+      "word_count": 1816,
       "summary_bullets": [
         "RL agent selects bounded remediation actions",
         "Safety constraints outside learned policy",
@@ -57,6 +58,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=whue9_YquGA",
       "status": "ok",
+      "word_count": 2725,
       "summary_bullets": [
         "Maturity model for agentic engineering",
         "Scaling AI via 1% champions program",
@@ -104,6 +106,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=ij-AU9dpJjc",
       "status": "ok",
+      "word_count": 3716,
       "summary_bullets": [
         "Four-layer prompt architecture for brand voice",
         "Why single system prompts fail on turn 21",
@@ -151,6 +154,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=IJXjTLPzvAU",
       "status": "ok",
+      "word_count": 7031,
       "summary_bullets": [
         "Why persona evals miss anachronistic compositing",
         "Hamilton musical distorts AI historical personas",
@@ -198,6 +202,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=vh2VGuQ3zhY",
       "status": "ok",
+      "word_count": 3468,
       "summary_bullets": [
         "Fat agent accuracy collapses beyond 50 tools.",
         "Semantic routing cuts tokens 99%.",
@@ -237,6 +242,7 @@
       "speakers": "AI Engineer and Matt Pocock",
       "url": "https://www.youtube.com/watch?v=UNzCG3lw6O0",
       "status": "ok",
+      "word_count": 4219,
       "summary_bullets": [
         "Skill hell: inability to distinguish good from bad skills.",
         "Checklist: trigger, structure, steering, pruning.",
@@ -280,6 +286,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=aHhB3sjGjkI",
       "status": "ok",
+      "word_count": 4742,
       "summary_bullets": [
         "Presents a method using coding agents to iteratively improve AI agent performance on evals.",
         "Introduces AutoAgent, a loop that runs evals and updates agent code autonomously.",
@@ -313,6 +320,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=ZD9-4fW2HhM",
       "status": "ok",
+      "word_count": 3006,
       "summary_bullets": [
         "Agentic systems need engineering discipline.",
         "Decompose giant prompts into separate components.",
@@ -356,6 +364,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=Lc8zRh9muoY",
       "status": "ok",
+      "word_count": 2387,
       "summary_bullets": [
         "Explains why temperature zero fails to guarantee deterministic agent behavior due to GPU non-determinism and batching.",
         "Argues for replayability via recording input/output at node boundaries instead of chasing bitwise determinism.",
@@ -394,6 +403,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=fWXJM-J0ZB8",
       "status": "ok",
+      "word_count": 4922,
       "summary_bullets": [
         "Advocates replacing large cloud LLMs with on-device small models for cost, security, latency.",
         "Presents a framework: prototype big, deploy small; test from small to large.",
@@ -428,6 +438,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=Iwe_RY-fYgI",
       "status": "ok",
+      "word_count": 2314,
       "summary_bullets": [
         "Fraud patterns span multiple documents.",
         "Graph engine links entities across systems.",
@@ -458,6 +469,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=dRmWYHuIJxM",
       "status": "ok",
+      "word_count": 1320,
       "summary_bullets": [
         "Problem: AI coding tools send excessive context, causing high token costs.",
         "Solution: Local code index retrieves only relevant code snippets.",
@@ -496,6 +508,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=hVJOnuhFmTA",
       "status": "ok",
+      "word_count": 3153,
       "summary_bullets": [
         "Prompting is batch processing like punch cards.",
         "Channel, expression, protocol define interfaces.",
@@ -531,6 +544,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=DqtmZE6Hl0g",
       "status": "ok",
+      "word_count": 2088,
       "summary_bullets": [
         "Describes using deterministic simulation to help agents design distributed systems from abstract specs.",
         "Shows agents moving from implementation to design via simulation and concrete specs.",
@@ -568,6 +582,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=T0HhO4YtTfE",
       "status": "ok",
+      "word_count": 4200,
       "summary_bullets": [
         "Four-phase framework for AI system design",
         "Real-world claims review case study",
@@ -607,6 +622,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=APh1Vx0oLmQ",
       "status": "ok",
+      "word_count": 1045,
       "summary_bullets": [
         "Identifies mismatch between probabilistic AI agents and deterministic cloud infrastructure.",
         "Lists failure modes: recursive loops, retry amplification, cost explosions.",
@@ -641,6 +657,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=65X0pQ6Lmbg",
       "status": "ok",
+      "word_count": 1935,
       "summary_bullets": [
         "Argues voice input + visual output is a promising AI interaction paradigm.",
         "Identifies latency as key challenge: <1s for visual, <200ms for voice conversation.",
@@ -675,6 +692,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=Akm1sqvWG4A",
       "status": "ok",
+      "word_count": 6285,
       "summary_bullets": [
         "Demonstrates a framework-free hybrid RAG using Docling, PostgreSQL, and local LLMs.",
         "Covers four chunking strategies: heading-based, paragraph, fixed 512-char, sentence-based.",
@@ -713,6 +731,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=4uFVSLgD2Q4",
       "status": "ok",
+      "word_count": 3047,
       "summary_bullets": [
         "Describes OpenGov's OG Assist AI agent for government ERP software.",
         "Explains migration from LangGraph to custom Effect-based agent loop.",
@@ -742,6 +761,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=OXMMN-XbxwA",
       "status": "ok",
+      "word_count": 2284,
       "summary_bullets": [
         "Describes three focus areas for bridging ML research to production.",
         "Covers research legibility via taxonomy documents.",
@@ -776,6 +796,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=6bmM45jkMDY",
       "status": "ok",
+      "word_count": 2339,
       "summary_bullets": [
         "Argues AI makes coding cheap, shifting bottleneck to deciding what to build.",
         "Recommends story mapping, VAD framework, and four questions for requirements.",
@@ -809,6 +830,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=jVjt-2g8NMY",
       "status": "ok",
+      "word_count": 3363,
       "summary_bullets": [
         "Identifies two agent limitations: repo-bound scope and lack of episodic memory.",
         "Uses a multi-repo change example requiring seven re-explanations to illustrate the problem.",
@@ -837,6 +859,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=akk6KRlcwW4",
       "status": "ok",
+      "word_count": 2391,
       "summary_bullets": [
         "Builds a physical AI terminal with dual OLED/e-paper displays for LLM interaction.",
         "Uses ESP32 microcontroller, backend with TensorRT serving a 120B-parameter model.",
@@ -865,6 +888,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=spNAUEgq_A8",
       "status": "ok",
+      "word_count": 5176,
       "summary_bullets": [
         "Argues that monolithic agents with large context (inheritance) are flawed.",
         "Proposes composition via small, specialized domain-specific agents coordinated by a larger agent.",
@@ -894,6 +918,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=UPwGaM2MKHY",
       "status": "ok",
+      "word_count": 2546,
       "summary_bullets": [
         "Argues agent identity is its append-only event log, not model or runtime.",
         "Compares to video game save files: agent is data, not execution environment.",
@@ -923,6 +948,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=3hXJI2q0Jz8",
       "status": "ok",
+      "word_count": 3697,
       "summary_bullets": [
         "Defines recursive language models (RLMs) as unifying reasoning and tool calling via a read-evaluate-print loop.",
         "Argues current AI agents are \"mismanaged geniuses\" – intelligence sufficient but orchestration/reliability missing.",
@@ -952,6 +978,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=uiP88SpCi1Q",
       "status": "ok",
+      "word_count": 1000,
       "summary_bullets": [
         "Five practical tips to reduce token costs in agent systems.",
         "Caching system prompts, routing by difficulty, offloading tool results.",
@@ -980,6 +1007,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=XovaGv4f39A",
       "status": "ok",
+      "word_count": 863,
       "summary_bullets": [
         "Proposes parallel CAG with multiple KV caches for dense, rapidly changing document collections.",
         "Contrasts simple RAG and GraphRAG limitations for fully relevant, frequently replaced documents.",
@@ -1013,6 +1041,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=ZRM_TfEZcIo",
       "status": "ok",
+      "word_count": 6559,
       "summary_bullets": [
         "Describes a three-version AI research OS for personal knowledge management.",
         "Uses deep research algorithm with query rounds, ranking, and file-based index.",
@@ -1047,6 +1076,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=tB9RKTrU-Ig",
       "status": "ok",
+      "word_count": 1851,
       "summary_bullets": [
         "TurboQuant compresses embeddings/KV cache to 3–4 bits, cutting memory 5×.",
         "Uses two-stage algorithm: Polar Quant + QJL to preserve search quality.",
@@ -1075,6 +1105,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=-x5GEVnkuRw",
       "status": "ok",
+      "word_count": 3937,
       "summary_bullets": [
         "Introduces Docling, an open-source tool for converting unstructured documents (PDFs, images) to markdown/JSON.",
         "Demonstrates extraction of text, tables, images, and layout using OCR and vision models, all locally.",
@@ -1102,6 +1133,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=JRTAtZ5iBkU",
       "status": "ok",
+      "word_count": 1152,
       "summary_bullets": [
         "Argues agents fail at graphics due to medium mismatch, not model limits.",
         "Proposes HTML as agent-native language for layout and visuals.",
@@ -1130,6 +1162,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=Jx4ZFEAq6bY",
       "status": "ok",
+      "word_count": 1867,
       "summary_bullets": [
         "Identifies static retrieval as main cause of agent failures (73% of pipeline failures).",
         "Proposes utility score: similarity weighted by historical outcome usefulness.",
@@ -1159,6 +1192,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=IddXPepIAS4",
       "status": "ok",
+      "word_count": 3287,
       "summary_bullets": [
         "Defines spec-driven development: writing specs before code.",
         "Argues it improves AI coding assistant output quality.",
@@ -1188,6 +1222,7 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=pSto5YaNGUo",
       "status": "ok",
+      "word_count": 4340,
       "summary_bullets": [
         "Describes an agentic loop (offline build/test/evaluate, online monitor/diagnose/optimize) for AI agent development.",
         "Advocates spec-driven development to capture agent requirements decoupled from implementation frameworks.",

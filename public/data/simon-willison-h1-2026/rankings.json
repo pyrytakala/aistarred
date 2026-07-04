@@ -10,6 +10,7 @@
       "speakers": "Simon Willison",
       "url": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
       "status": "ok",
+      "word_count": 880,
       "summary_bullets": [
         "New `shot-scraper video` command records browser demos.",
         "Uses a YAML storyboard to script interactions.",

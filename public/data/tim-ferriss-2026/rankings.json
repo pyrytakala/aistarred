@@ -1,0 +1,620 @@
+{
+  "source_id": "tim-ferriss-2026",
+  "model": "accounts/fireworks/models/deepseek-v4-flash",
+  "video_count": 14,
+  "scored_count": 14,
+  "ranked_count": 14,
+  "rankings": [
+    {
+      "id": "hmIFkwbDYE8",
+      "title": "Most AI Companies Won’t Survive (Tech Investor Explains)",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=hmIFkwbDYE8",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 2069,
+      "summary_bullets": [
+        "90–95% of AI companies will fail.",
+        "Founders should consider exiting in 12–18 months.",
+        "Durable companies embed in workflows, use proprietary data.",
+        "Exit options include labs, vertical buyers, mergers.",
+        "Historical precedent: dotcom bust saw 90%+ failure."
+      ],
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Most AI Companies Won’t Survive (Tech Investor Explains)",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "practical_utility": 8.5,
+      "composite": 82,
+      "like_count": null,
+      "upload_date": "20260509",
+      "duration_seconds": 610,
+      "composite_base": 82,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        },
+        {
+          "label": "Utility",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "HutNi2cNsCg",
+      "title": "The AI Frontier and How to Spot Billion-Dollar Companies Before Everyone Else — Elad Gil",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=HutNi2cNsCg",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 21412,
+      "summary_bullets": [
+        "AI talent \"personal IPO\" from Meta offers.",
+        "Compute constraints from memory (HBM) bottleneck.",
+        "Most AI companies will fail; sell in 12-18 months.",
+        "Market-first investing, but exceptional founders matter.",
+        "Use AI models for deep research dives."
+      ],
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The AI Frontier and How to Spot Billion-Dollar Companies Before Everyone Else — Elad Gil",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 9,
+      "practical_utility": 8.5,
+      "composite": 76.35,
+      "like_count": null,
+      "upload_date": "20260429",
+      "duration_seconds": 6089,
+      "composite_base": 83.5,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        },
+        {
+          "label": "Utility",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -7.15
+    },
+    {
+      "id": "RxWKVUWcUPM",
+      "title": "AI Sells Labor, Not Software — Legendary Investor Elad Gil",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=RxWKVUWcUPM",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 1758,
+      "summary_bullets": [
+        "AI shifts from selling software to selling labor",
+        "Harvey AI example: selling work product to law firms",
+        "Why now: regulatory, tech, or competitive shifts",
+        "Define market correctly (Coca-Cola example)",
+        "Consensus on AI is currently smart, not contrarian"
+      ],
+      "audience_level": "practitioner",
+      "display_title": "AI Sells Labor, Not Software — Legendary Investor Elad Gil",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "practical_utility": 7,
+      "composite": 72,
+      "like_count": null,
+      "upload_date": "20260528",
+      "duration_seconds": 517,
+      "composite_base": 72,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "fBujS3ACNQY",
+      "title": "The Most Incredible Transformation I’ve Ever Seen — Jerzy Gregorek on Cerebral Palsy and Coaching",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=fBujS3ACNQY",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 10367,
+      "summary_bullets": [
+        "Cerebral palsy patient transformed through weightlifting.",
+        "Micro-progressions key to physical and cognitive gains.",
+        "Math and poetry training improved brain function.",
+        "Coach used athletic mindset instead of comfort approach.",
+        "Five-year journey from lethargy to college independence."
+      ],
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Most Incredible Transformation I’ve Ever Seen — Jerzy Gregorek on Cerebral Palsy and Coaching",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 7,
+      "practical_utility": 6,
+      "composite": 70.41,
+      "like_count": null,
+      "upload_date": "20260514",
+      "duration_seconds": 4254,
+      "composite_base": 74.5,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.09
+    },
+    {
+      "id": "rCvssp4KYdw",
+      "title": "Reversing Type 2 Diabetes and Rowing 2,750 Miles — Sami Inkinen of Virta Health",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=rCvssp4KYdw",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 23379,
+      "summary_bullets": [
+        "Sami Inkinen reversed his own pre-diabetes with nutrition.",
+        "Virta Health reverses type 2 diabetes using individualized diet.",
+        "Patients achieve 13% average weight loss, 83% one-year adherence.",
+        "Sami schedules workouts and priorities every Sunday.",
+        "He rowed 2,750 miles with his wife for 45 days."
+      ],
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Reversing Type 2 Diabetes and Rowing 2,750 Miles — Sami Inkinen of Virta Health",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 5,
+      "practical_utility": 8,
+      "composite": 69.59,
+      "like_count": null,
+      "upload_date": "20260522",
+      "duration_seconds": 7899,
+      "composite_base": 79.75,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Utility",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -10.16
+    },
+    {
+      "id": "-UetKKxKqKU",
+      "title": "Inside The AI Race: DeepMind, OpenAI, Anthropic, China, and The Race to Superintelligence",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=-UetKKxKqKU",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 16975,
+      "summary_bullets": [
+        "AI safety debate with Hinton thought experiment",
+        "China open to AI safety dialogue",
+        "Chip export controls haven't delivered big advantage",
+        "Anthropic's alignment approach using moral letters",
+        "Venture capital lessons from DeepMind investment"
+      ],
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Inside The AI Race: DeepMind, OpenAI, Anthropic, China, and The Race to Superintelligence",
+      "substance": 8,
+      "evidence": 6.5,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "practical_utility": 7,
+      "composite": 66.27,
+      "like_count": null,
+      "upload_date": "20260617",
+      "duration_seconds": 5988,
+      "composite_base": 73.25,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -6.98
+    },
+    {
+      "id": "mZ-vJ6kDRD0",
+      "title": "Reimagining Biotech with Jake Becraft of Strand Therapeutics — Tim’s Founder Kitchen",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=mZ-vJ6kDRD0",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 23465,
+      "summary_bullets": [
+        "US losing clinical trial speed to China.",
+        "Strand uses mRNA to reprogram cells against cancer.",
+        "FDA red tape costs $25M and 18 months per trial.",
+        "Platform therapeutics analogy: SpaceX rockets for drug delivery.",
+        "Good drug vs. good product: cost and scalability matter."
+      ],
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Reimagining Biotech with Jake Becraft of Strand Therapeutics — Tim’s Founder Kitchen",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 5,
+      "practical_utility": 6.5,
+      "composite": 65.87,
+      "like_count": null,
+      "upload_date": "20260602",
+      "duration_seconds": 7578,
+      "composite_base": 75.5,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -9.63
+    },
+    {
+      "id": "gL48mHH6ul8",
+      "title": "The Many Benefits of Coca — The “Divine Leaf” with 8,000+ Years of Use",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=gL48mHH6ul8",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 12848,
+      "summary_bullets": [
+        "Coca leaf is not cocaine; 8,000 years of use.",
+        "Medicinal benefits: altitude sickness, GI, metabolism.",
+        "War on drugs demonized coca due to racism.",
+        "Nutrient-rich, mild stimulant, no addiction.",
+        "Legalization could help farmers and reduce deforestation."
+      ],
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Many Benefits of Coca — The “Divine Leaf” with 8,000+ Years of Use",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 8.5,
+      "practical_utility": 3,
+      "composite": 62.39,
+      "like_count": null,
+      "upload_date": "20260625",
+      "duration_seconds": 4566,
+      "composite_base": 67,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.61
+    },
+    {
+      "id": "cRGeYDrYtYk",
+      "title": "Pelted With Bricks for 5 Days as a Rookie Cop — Cathy Lanier",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=cRGeYDrYtYk",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 1419,
+      "summary_bullets": [
+        "Rookie cop in Mount Pleasant riots.",
+        "Pelted with bricks for 5 days.",
+        "Learned importance of community inclusion.",
+        "Thrived on problem-solving.",
+        "Questioned brute force approach."
+      ],
+      "confidence": "Med",
+      "audience_level": "general",
+      "display_title": "Pelted With Bricks for 5 Days as a Rookie Cop — Cathy Lanier",
+      "substance": 6.5,
+      "evidence": 3,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 10,
+      "practical_utility": 5,
+      "composite": 60.75,
+      "like_count": null,
+      "upload_date": "20260510",
+      "duration_seconds": 431,
+      "composite_base": 60.75,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "Sh6qKhDtXGc",
+      "title": "Cathy Lanier: My Story of Workplace Harassment As a Police Officer",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=Sh6qKhDtXGc",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 2110,
+      "summary_bullets": [
+        "Early 1990s police force, few women.",
+        "Filed sexual harassment complaint against lieutenant.",
+        "Witnesses (all men) told the truth.",
+        "Case dismissed due to 90-day procedural delay.",
+        "Later rose to high rank after leadership change."
+      ],
+      "audience_level": "general",
+      "display_title": "Cathy Lanier: My Story of Workplace Harassment As a Police Officer",
+      "substance": 5.5,
+      "evidence": 3,
+      "specificity": 8,
+      "insight_density": 6,
+      "non_promotion": 10,
+      "practical_utility": 2,
+      "composite": 48.25,
+      "like_count": null,
+      "upload_date": "20260519",
+      "duration_seconds": 610,
+      "composite_base": 48.25,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "FcQ3ELLLgqc",
+      "title": "PRISONER NO MORE: The True Story of Tae Jin Park",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=FcQ3ELLLgqc",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 4106,
+      "summary_bullets": [
+        "Cerebral palsy can be improved with athletic coaching.",
+        "Weightlifting built strength and independence in Tae Jin.",
+        "Coach Jersey overcame his own alcoholism through training.",
+        "Parents must shift mindset from disability to potential.",
+        "Jacob Zalooki’s foundation sponsors disabled students."
+      ],
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "PRISONER NO MORE: The True Story of Tae Jin Park",
+      "substance": 5.5,
+      "evidence": 3,
+      "specificity": 6,
+      "insight_density": 4.5,
+      "non_promotion": 7,
+      "practical_utility": 1.5,
+      "composite": 40.14,
+      "like_count": null,
+      "upload_date": "20260514",
+      "duration_seconds": 2016,
+      "composite_base": 40.5,
+      "rank": 11,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -0.36
+    },
+    {
+      "id": "uOjgVxOfxXo",
+      "title": "The Path from The Soviet Union to Building Multi-Billion Dollar Companies — Max Levchin",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=uOjgVxOfxXo",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 21147,
+      "summary_bullets": [
+        "Max Levchin co-founded PayPal and Affirm.",
+        "He advocates for transparent, no-late-fee lending.",
+        "He credits his marriage to daily effort to impress his wife.",
+        "He warns against socialism based on Soviet upbringing.",
+        "He recommends specific coffee grinders and espresso machines."
+      ],
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Path from The Soviet Union to Building Multi-Billion Dollar Companies — Max Levchin",
+      "substance": 4.5,
+      "evidence": 4,
+      "specificity": 6,
+      "insight_density": 3.5,
+      "non_promotion": 3,
+      "practical_utility": 5,
+      "composite": 36.51,
+      "like_count": null,
+      "upload_date": "20260610",
+      "duration_seconds": 6446,
+      "composite_base": 44.25,
+      "rank": 12,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -7.74
+    },
+    {
+      "id": "TmgG7WC-U4A",
+      "title": "My Current Longevity Stack",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=TmgG7WC-U4A",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 2029,
+      "summary_bullets": [
+        "Basics: sleep, exercise, eat well.",
+        "Supplements: vitamin D, creatine.",
+        "Cautious about rapamycin, ibogaine.",
+        "Interested in brain stimulation, bioelectric medicine.",
+        "Avoids risky interventions; no free lunch."
+      ],
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "My Current Longevity Stack",
+      "substance": 3.5,
+      "evidence": 2.5,
+      "specificity": 5.5,
+      "insight_density": 4,
+      "non_promotion": 9,
+      "practical_utility": 2,
+      "composite": 35.5,
+      "like_count": null,
+      "upload_date": "20260511",
+      "duration_seconds": 729,
+      "composite_base": 35.5,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "ZmFKhjbpUyA",
+      "title": "Pregnant at 14, DC's Top Cop at 39 — The Unbelievable Story of Cathy Lanier",
+      "speakers": "Tim Ferriss",
+      "url": "https://www.youtube.com/watch?v=ZmFKhjbpUyA",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 1904,
+      "summary_bullets": [
+        "Pregnant at 14, married at 15.",
+        "Earned GED with minimal margin.",
+        "Worked two jobs as teen.",
+        "Joined DC police at 23.",
+        "Rose to become police chief."
+      ],
+      "audience_level": "general",
+      "display_title": "Pregnant at 14, DC's Top Cop at 39 — The Unbelievable Story of Cathy Lanier",
+      "substance": 2,
+      "evidence": 1.5,
+      "specificity": 5,
+      "insight_density": 3.5,
+      "non_promotion": 9,
+      "practical_utility": 1.5,
+      "composite": 27.5,
+      "like_count": null,
+      "upload_date": "20260508",
+      "duration_seconds": 567,
+      "composite_base": 27.5,
+      "rank": 14,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    }
+  ],
+  "too_long": [],
+  "other": []
+}

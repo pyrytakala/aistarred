@@ -1,4 +1,5 @@
 import type { IndexPayload, RankedVideo } from "./types.js";
+import { computeCompositeFromDimensions } from "./score-composite.js";
 
 export const DEFAULT_MAX_LIKE_ADJUSTMENT = 3.0;
 
@@ -70,6 +71,13 @@ export function applyLikeRankAdjustment(
   indexById: Record<string, IndexPayload["videos"][number]>,
   maxAdjustment = DEFAULT_MAX_LIKE_ADJUSTMENT,
 ): RankedVideo[] {
+  for (const result of results) {
+    const computed = computeCompositeFromDimensions(result);
+    if (computed != null) {
+      result.composite = computed;
+    }
+  }
+
   const scorable = results.filter((result) => result.composite != null);
 
   for (const result of scorable) {
@@ -77,10 +85,9 @@ export function applyLikeRankAdjustment(
     result.like_count = metadata.like_count ?? null;
     result.upload_date = metadata.upload_date ?? null;
     result.duration_seconds = metadata.duration_seconds ?? null;
-    // Preserve the raw LLM composite as the base so re-running finalize is
-    // idempotent — otherwise each pass would re-base off an already-adjusted
-    // score and compound the like/length adjustments.
-    result.composite_base = result.composite_base ?? result.composite;
+    result.word_count = metadata.word_count ?? result.word_count ?? null;
+    const dimensionBase = computeCompositeFromDimensions(result);
+    result.composite_base = dimensionBase ?? result.composite_base ?? result.composite ?? undefined;
     delete result.like_rank;
     delete result.like_adjustment;
     delete result.length_adjustment;

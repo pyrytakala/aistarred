@@ -10,6 +10,7 @@
       "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/the-pulse-ai-load-breaks-github/",
       "status": "ok",
+      "word_count": 2326,
       "summary_bullets": [
         "GitHub suffered data integrity bug affecting 2,092 pull requests.",
         "Reliability dropped to 86% uptime; outages lasted hours daily.",
@@ -56,6 +57,7 @@
       "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/the-pulse-cloudflare-rewrites-next-js-as-ai-rewrites-commercial-open-source/",
       "status": "ok",
+      "word_count": 3698,
       "summary_bullets": [
         "Cloudflare rewrote Next.js in one week using AI.",
         "Cost only $1,100 in tokens; one engineer did it.",
@@ -94,6 +96,7 @@
       "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/coinbase-fail/",
       "status": "ok",
+      "word_count": 859,
       "summary_bullets": [
         "Coinbase outage lasted 10 hours.",
         "Single AWS availability zone dependency.",
@@ -137,6 +140,7 @@
       "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/the-pulse-tokenmaxxing-as-a-weird-new-trend/",
       "status": "ok",
+      "word_count": 1947,
       "summary_bullets": [
         "Meta employees compete on token usage leaderboard.",
         "Tokenmaxxing wastes money and encourages gaming.",
@@ -172,6 +176,7 @@
       "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/the-pulse-antigravity-2-0-takes-ide-out-of-its-new-ide/",
       "status": "ok",
+      "word_count": 1220,
       "summary_bullets": [
         "Google launches Antigravity 2.0, confusing naming.",
         "New version removes IDE, adds conversational interface.",
@@ -207,6 +212,7 @@
       "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/the-pulse-is-github-still-best-for-ai-native-development/",
       "status": "ok",
+      "word_count": 1441,
       "summary_bullets": [
         "GitHub availability dropped to 90%.",
         "AI agent load surged 6x in 3 months.",
@@ -237,6 +243,7 @@
       "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/the-pulse-forward-deployed-engineering-heats-up-again/",
       "status": "ok",
+      "word_count": 1658,
       "summary_bullets": [
         "Google simplifies FDE hiring process.",
         "OpenAI outsources FDEs to new company.",
@@ -267,6 +274,7 @@
       "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/the-pulse-token-spend-breaks-budgets-what-next/",
       "status": "ok",
+      "word_count": 2433,
       "summary_bullets": [
         "Token costs up ~10x in six months at many firms",
         "Two strategies: let rip & measure, or curb spend",
@@ -301,6 +309,7 @@
       "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/",
       "status": "ok",
+      "word_count": 907,
       "summary_bullets": [
         "Pollen collapsed after fraud and mismanagement.",
         "Bogus DMCA takedown removed article from Google.",
@@ -336,6 +345,7 @@
       "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/google-cloud-deletes-australian-trading-funds-infra/",
       "status": "ok",
+      "word_count": 751,
       "summary_bullets": [
         "Google Cloud deleted UniSuper's subscription.",
         "UniSuper avoided data loss via third-party backup.",
@@ -371,6 +381,7 @@
       "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/the-pulse-did-capacity-shortages-turn-anthropic-hostile-to-devs/",
       "status": "ok",
+      "word_count": 1111,
       "summary_bullets": [
         "Anthropic faced capacity shortages, nerfed Claude Code.",
         "SpaceX/xAI renting data center to Anthropic.",
@@ -401,6 +412,7 @@
       "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/the-pulse-a-new-trend-smart-model-routing/",
       "status": "ok",
+      "word_count": 767,
       "summary_bullets": [
         "Companies seek intelligent AI model routing.",
         "Token prices vary 10-20x between models.",
@@ -431,6 +443,7 @@
       "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/the-pulse-a-trend-of-trying-to-cut-back-on-ai-spend-within-eng-departments/",
       "status": "ok",
+      "word_count": 1027,
       "summary_bullets": [
         "Uber president questions AI productivity link.",
         "Companies blow through AI budgets early.",

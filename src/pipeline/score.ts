@@ -5,9 +5,11 @@ import { AdaptiveConcurrency } from "../lib/adaptive-concurrency.js";
 import { ApiCache, fetchCachedText, fireworksCacheKey } from "../lib/api-cache.js";
 import {
   formatMinimumContentLength,
+  countWords,
   isContentLongEnough,
 } from "../lib/content-length.js";
 import { pipelineLog, withPipelineTiming } from "../lib/pipeline-log.js";
+import { StageTimer, stageLog } from "../lib/stage-log.js";
 import { loadEnv } from "../lib/env.js";
 import { sourcePaths } from "../lib/paths.js";
 import { getSource, loadScoringPromptForSource, promptPathForSource, resolveSourceIdFromArgv } from "../lib/sources.js";
@@ -175,7 +177,7 @@ async function scoreVideoJob(options: {
   const transcriptPath = resolveTranscriptPath(video.transcript_path, options.source.id);
   const scorePath = join(outputDir, `${safeFilename(title, videoId)}.txt`);
 
-  console.log(`[${options.index}/${options.total}] ${title}`);
+  stageLog("score", `[${options.index}/${options.total}] ${title}`, { sourceId: source.id, videoId });
 
   if (isTooShortForScoring(video.duration_seconds, durationOpts)) {
     console.log(`  -> skipped: ${formatMinimumScoringDuration()} or shorter`);
@@ -228,6 +230,7 @@ async function scoreVideoJob(options: {
   }
 
   const transcript = readFileSync(transcriptPath, "utf8");
+  const wordCount = video.word_count ?? countWords(transcript);
   if (!isContentLongEnough(transcript)) {
     console.log(`  -> skipped: below ${formatMinimumContentLength()}`);
     return {
@@ -252,6 +255,7 @@ async function scoreVideoJob(options: {
       status: "ok",
       score_path: scorePath,
       cache_hit: true,
+      word_count: wordCount,
       ...fields,
     };
   }
@@ -287,6 +291,7 @@ async function scoreVideoJob(options: {
       status: "ok",
       score_path: scorePath,
       cache_hit: cacheHit,
+      word_count: wordCount,
       ...fields,
     };
   } catch (error) {
@@ -367,11 +372,14 @@ export async function runScore(options: {
   const concurrency = new AdaptiveConcurrency(1, maxWorkers, workers);
   const useCache = options.useCache ?? true;
 
-  console.log(
-    `Scoring ${scorableCount} ${source.itemLabel} for ${source.title} with ${model} using up to ${workers} workers (adaptive 1-${maxWorkers})...` +
-      (skippedCount ? ` Skipping ${skippedCount} items outside window, under ${formatMinimumScoringDuration()}, or over ${formatScoringDurationLimit()}.` : "") +
-      "\n",
-  );
+  const runTimer = new StageTimer("score", source.id);
+  stageLog("score", `scoring ${scorableCount} ${source.itemLabel}`, {
+    sourceId: source.id,
+    model,
+    workers,
+    maxWorkers,
+    skipped: skippedCount,
+  });
 
   const results = await Promise.all(
     videos.map((video, index) =>
@@ -403,6 +411,18 @@ export async function runScore(options: {
     source,
   });
   writeRankingsPayload(payload, join(outputDir, "rankings.json"));
+
+  const okCount = results.filter((result) => result.status === "ok").length;
+  const reusedCount = results.filter((result) => result.cache_hit).length;
+  const failedCount = results.filter((result) => result.status === "failed").length;
+  runTimer.done(source.id, {
+    sourceId: source.id,
+    ranked: payload.rankings.length,
+    ok: okCount,
+    reused: reusedCount,
+    failed: failedCount,
+    skipped: skippedCount,
+  });
 
   console.log("\nRankings (best first):\n");
   for (const result of payload.rankings) {

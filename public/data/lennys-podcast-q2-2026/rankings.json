@@ -1,8 +1,8 @@
 {
   "source_id": "lennys-podcast-q2-2026",
-  "video_count": 15,
-  "scored_count": 15,
-  "ranked_count": 15,
+  "video_count": 34,
+  "scored_count": 34,
+  "ranked_count": 34,
   "rankings": [
     {
       "id": "xCd9ykretlg",
@@ -10,6 +10,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=xCd9ykretlg",
       "status": "ok",
+      "word_count": 15846,
       "summary_bullets": [
         "Hiring is the most important company-building skill.",
         "\"Barrels\" drive initiatives; \"ammunition\" supports them.",
@@ -29,6 +30,8 @@
       "upload_date": "20260412",
       "duration_seconds": 4960,
       "composite_base": 82,
+      "like_adjustment": 0,
+      "length_adjustment": -5.27,
       "rank": 1,
       "tags": [
         {
@@ -47,9 +50,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -5.27
+      ]
     },
     {
       "id": "RJjl1TwyfWM",
@@ -57,6 +58,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=RJjl1TwyfWM",
       "status": "ok",
+      "word_count": 18908,
       "summary_bullets": [
         "Build from pain, not technology.",
         "Three generations to make a product succeed.",
@@ -76,6 +78,8 @@
       "upload_date": "20260607",
       "duration_seconds": 5708,
       "composite_base": 83,
+      "like_adjustment": 0,
+      "length_adjustment": -6.51,
       "rank": 2,
       "tags": [
         {
@@ -94,9 +98,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -6.51
+      ]
     },
     {
       "id": "BD3vLtWhT5A",
@@ -104,6 +106,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=BD3vLtWhT5A",
       "status": "ok",
+      "word_count": 17165,
       "summary_bullets": [
         "AI is as big as internet/mobile, not more.",
         "Job automation history shows new jobs emerge.",
@@ -123,6 +126,8 @@
       "upload_date": "20260531",
       "duration_seconds": 4791,
       "composite_base": 81.3,
+      "like_adjustment": 0,
+      "length_adjustment": -4.99,
       "rank": 3,
       "tags": [
         {
@@ -141,9 +146,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -4.99
+      ]
     },
     {
       "id": "wc8FBhQtdsA",
@@ -151,6 +154,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=wc8FBhQtdsA",
       "status": "ok",
+      "word_count": 21459,
       "summary_bullets": [
         "AI coding agents reached inflection point in Nov 2025",
         "Dark factories automate software without human code review",
@@ -170,6 +174,8 @@
       "upload_date": "20260402",
       "duration_seconds": 5991,
       "composite_base": 82.5,
+      "like_adjustment": 0,
+      "length_adjustment": -6.99,
       "rank": 4,
       "tags": [
         {
@@ -188,9 +194,138 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "1em64iUFt3U",
+      "title": "How a Meta PM ships products without ever writing code | Zevi Arnovitz",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=1em64iUFt3U",
+      "status": "ok",
+      "word_count": 15029,
+      "summary_bullets": [
+        "Non-technical PM builds apps using AI coding tools.",
+        "Workflow: issue creation, exploration, planning, execution, review.",
+        "Uses multiple AI models for code review and peer review.",
+        "Shares slash commands and prompts for listeners to copy.",
+        "Claims AI enables anyone to become a builder."
       ],
+      "composite": 75.23,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "display_title": "How a Meta PM ships products without ever writing code | Zevi Arnovitz",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9.5,
+      "insight_density": 8,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260118",
+      "duration_seconds": 4513,
+      "composite_base": 79.75,
       "like_adjustment": 0,
-      "length_adjustment": -6.99
+      "length_adjustment": -4.52,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "3UyitfSbY6c",
+      "title": "How to be a CEO when AI breaks all the old playbooks | Sequoia CEO Coach Brian Halligan",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=3UyitfSbY6c",
+      "status": "ok",
+      "word_count": 14567,
+      "summary_bullets": [
+        "CEO traits: lovable, obsessed, chip, knowledgeable, student",
+        "Hire slow, fire fast; use blind references",
+        "AI will transform go-to-market but not enterprise sales",
+        "Scale requires inspiration over perspiration",
+        "Solve for enterprise value over team value"
+      ],
+      "composite": 73.34,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "How to be a CEO when AI breaks all the old playbooks | Sequoia CEO Coach Brian Halligan",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260215",
+      "duration_seconds": 4477,
+      "composite_base": 77.8,
+      "like_adjustment": 0,
+      "length_adjustment": -4.46,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "I-R1bc1rlFs",
+      "title": "We replaced our sales team with 20 AI agents—here’s what happened next | Jason Lemkin (SaaStr)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=I-R1bc1rlFs",
+      "status": "ok",
+      "word_count": 22124,
+      "summary_bullets": [
+        "SaaStr replaced 10 human salespeople with 20 AI agents.",
+        "Business performance similar with 1.2 humans + 20 agents.",
+        "AI agents work 24/7, including weekends and holidays.",
+        "Classic SDR and BDR roles predicted extinct within a year.",
+        "Best path for salespeople: train and manage AI agents themselves."
+      ],
+      "composite": 73.28,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "We replaced our sales team with 20 AI agents—here’s what happened next | Jason Lemkin (SaaStr)",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 7.5,
+      "like_count": null,
+      "upload_date": "20260101",
+      "duration_seconds": 6131,
+      "composite_base": 80.5,
+      "like_adjustment": 0,
+      "length_adjustment": -7.22,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "mCO-D3pkviM",
@@ -198,6 +333,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=mCO-D3pkviM",
       "status": "ok",
+      "word_count": 17449,
       "summary_bullets": [
         "First 10% of projects now free with AI",
         "Agency matters more than skill gaps",
@@ -217,7 +353,9 @@
       "upload_date": "20260502",
       "duration_seconds": 5243,
       "composite_base": 79,
-      "rank": 5,
+      "like_adjustment": 0,
+      "length_adjustment": -5.74,
+      "rank": 8,
       "tags": [
         {
           "label": "Substance",
@@ -231,9 +369,7 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -5.74
+      ]
     },
     {
       "id": "G5WTgB87rYQ",
@@ -241,6 +377,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=G5WTgB87rYQ",
       "status": "ok",
+      "word_count": 19806,
       "summary_bullets": [
         "VR tech now used in robotics.",
         "Hardware design: few “compiles”, start with hardest part.",
@@ -260,7 +397,9 @@
       "upload_date": "20260517",
       "duration_seconds": 5951,
       "composite_base": 79.5,
-      "rank": 6,
+      "like_adjustment": 0,
+      "length_adjustment": -6.92,
+      "rank": 9,
       "tags": [
         {
           "label": "Substance",
@@ -274,9 +413,89 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "8xLquwfx6p0",
+      "title": "The surprising advice from a founder who built 2 unicorns | Jason Cohen (WP Engine)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=8xLquwfx6p0",
+      "status": "ok",
+      "word_count": 22364,
+      "summary_bullets": [
+        "Diagnose stalled growth with four ordered questions.",
+        "Logo churn caps total customers; fix it first.",
+        "Pricing often too low; positioning changes perceived value.",
+        "Net revenue retention must exceed 100% for growth.",
+        "Marketing channels saturate and sag; find new ones."
       ],
+      "composite": 72.19,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "How to diagnose and fix stalled growth: Jason Cohen’s four-question framework",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260125",
+      "duration_seconds": 6364,
+      "composite_base": 79.8,
       "like_adjustment": 0,
-      "length_adjustment": -6.92
+      "length_adjustment": -7.61,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "87Pm0SGTtN8",
+      "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=87Pm0SGTtN8",
+      "status": "ok",
+      "word_count": 26377,
+      "summary_bullets": [
+        "50 years of slow tech change, not rapid",
+        "AI arrives just as population declines",
+        "Super-empowered individuals will thrive",
+        "PMs, engineers, designers can all expand roles",
+        "AI is the philosopher’s stone: sand to thought"
+      ],
+      "composite": 70.84,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Marc Andreessen: The real AI boom hasn’t even started yet",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260129",
+      "duration_seconds": 6276,
+      "composite_base": 78.3,
+      "like_adjustment": 0,
+      "length_adjustment": -7.46,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "PoJ1vTdHpks",
@@ -284,6 +503,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=PoJ1vTdHpks",
       "status": "ok",
+      "word_count": 21414,
       "summary_bullets": [
         "Success often leads to company corruption, not competition.",
         "Structural governance protects mission from financial pressure.",
@@ -303,7 +523,9 @@
       "upload_date": "20260510",
       "duration_seconds": 5963,
       "composite_base": 77.75,
-      "rank": 7,
+      "like_adjustment": 0,
+      "length_adjustment": -6.94,
+      "rank": 12,
       "tags": [
         {
           "label": "Substance",
@@ -313,9 +535,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -6.94
+      ]
     },
     {
       "id": "k-H4nsOTuxU",
@@ -323,6 +543,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=k-H4nsOTuxU",
       "status": "ok",
+      "word_count": 23731,
       "summary_bullets": [
         "Anthropic grew from $1B to $19B ARR in 14 months.",
         "Growth team uses Claude to automate experimentation (CASH project).",
@@ -342,7 +563,9 @@
       "upload_date": "20260405",
       "duration_seconds": 6769,
       "composite_base": 78,
-      "rank": 8,
+      "like_adjustment": 0,
+      "length_adjustment": -8.28,
+      "rank": 13,
       "tags": [
         {
           "label": "Substance",
@@ -356,9 +579,52 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "We7BZVKbCVw",
+      "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=We7BZVKbCVw",
+      "status": "ok",
+      "word_count": 20015,
+      "summary_bullets": [
+        "100% of his code is AI-written since November.",
+        "Productivity per engineer increased 200% at Anthropic.",
+        "Coding is largely solved; next is AI generating ideas.",
+        "Software engineer title may be replaced by \"builder\".",
+        "Historical analogy: printing press democratized literacy."
       ],
+      "composite": 69.22,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260219",
+      "duration_seconds": 5265,
+      "composite_base": 75,
       "like_adjustment": 0,
-      "length_adjustment": -8.28
+      "length_adjustment": -5.78,
+      "rank": 14,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "7eh9C3TUotc",
@@ -366,6 +632,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=7eh9C3TUotc",
       "status": "ok",
+      "word_count": 16577,
       "summary_bullets": [
         "Proven Better New framework for product ideas.",
         "Instincts right 95%, ideas wrong 75%.",
@@ -385,7 +652,9 @@
       "upload_date": "20260614",
       "duration_seconds": 5963,
       "composite_base": 75,
-      "rank": 9,
+      "like_adjustment": 0,
+      "length_adjustment": -6.94,
+      "rank": 15,
       "tags": [
         {
           "label": "Substance",
@@ -399,9 +668,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -6.94
+      ]
     },
     {
       "id": "Ybrl4FYM57c",
@@ -409,6 +676,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Ybrl4FYM57c",
       "status": "ok",
+      "word_count": 21358,
       "summary_bullets": [
         "Anthropic engineers ship 8x more code per quarter.",
         "Coding is no longer bottleneck; verification is key.",
@@ -428,7 +696,9 @@
       "upload_date": "20260621",
       "duration_seconds": 5925,
       "composite_base": 74.75,
-      "rank": 10,
+      "like_adjustment": 0,
+      "length_adjustment": -6.88,
+      "rank": 16,
       "tags": [
         {
           "label": "Substance",
@@ -438,9 +708,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -6.88
+      ]
     },
     {
       "id": "yUohoaC8_Hs",
@@ -448,6 +716,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=yUohoaC8_Hs",
       "status": "ok",
+      "word_count": 17770,
       "summary_bullets": [
         "PM skills shifting from information moving to building.",
         "Half of PMs risk obsolescence if not builders.",
@@ -467,15 +736,15 @@
       "upload_date": "20260419",
       "duration_seconds": 5711,
       "composite_base": 74.3,
-      "rank": 11,
+      "like_adjustment": 0,
+      "length_adjustment": -6.52,
+      "rank": 17,
       "tags": [
         {
           "label": "Substance",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -6.52
+      ]
     },
     {
       "id": "-7Yol5vX5xw",
@@ -483,6 +752,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=-7Yol5vX5xw",
       "status": "ok",
+      "word_count": 15567,
       "summary_bullets": [
         "Software is easy to copy, not a moat.",
         "Distribution harder than product-market fit.",
@@ -501,15 +771,52 @@
       "upload_date": "20260426",
       "duration_seconds": 4225,
       "composite_base": 71.8,
-      "rank": 12,
+      "like_adjustment": 0,
+      "length_adjustment": -4.04,
+      "rank": 18,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "B26CwKm5C1k",
+      "title": "OpenAI’s head of platform engineering on the next 12-24 months of AI | Sherwin Wu",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=B26CwKm5C1k",
+      "status": "ok",
+      "word_count": 17768,
+      "summary_bullets": [
+        "95% of OpenAI engineers use Codex; 100% PRs reviewed by Codex.",
+        "Engineers become tech leads managing fleets of AI agents.",
+        "One-person billion-dollar startup will spur a B2B SaaS boom.",
+        "Many AI deployments have negative ROI due to top-down mandates.",
+        "Build for where models are going, not where they are today."
       ],
+      "composite": 67.53,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "OpenAI’s head of platform engineering on the next 12-24 months of AI | Sherwin Wu",
+      "substance": 8,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260212",
+      "duration_seconds": 4780,
+      "composite_base": 72.5,
       "like_adjustment": 0,
-      "length_adjustment": -4.04
+      "length_adjustment": -4.97,
+      "rank": 19,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "4D3hDmGhFhA",
@@ -517,6 +824,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=4D3hDmGhFhA",
       "status": "ok",
+      "word_count": 18710,
       "summary_bullets": [
         "AI job apocalypse not happening.",
         "Agents need humans; automation is a lie.",
@@ -536,15 +844,84 @@
       "upload_date": "20260524",
       "duration_seconds": 5647,
       "composite_base": 73,
-      "rank": 13,
+      "like_adjustment": 0,
+      "length_adjustment": -6.41,
+      "rank": 20,
       "tags": [
         {
           "label": "Substance",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "twzLDx9iers",
+      "title": "“I like being scared”: Molly Graham’s frameworks for rapid career growth | Molly Graham",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=twzLDx9iers",
+      "status": "ok",
+      "word_count": 18950,
+      "summary_bullets": [
+        "Give away your Legos for career growth.",
+        "J-curve vs stairs career model.",
+        "Waterline model: snorkel before scuba.",
+        "Three company goals max, one owner per goal.",
+        "Escalation is a tool, not failure."
       ],
+      "composite": 65.6,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "“I like being scared”: Molly Graham’s frameworks for rapid career growth | Molly Graham",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260104",
+      "duration_seconds": 5517,
+      "composite_base": 71.8,
       "like_adjustment": 0,
-      "length_adjustment": -6.41
+      "length_adjustment": -6.2,
+      "rank": 21,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "eh8bcBIAAFo",
+      "title": "The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=eh8bcBIAAFo",
+      "status": "ok",
+      "word_count": 16136,
+      "summary_bullets": [
+        "Traditional design process is dead.",
+        "Designers now spend less time mocking.",
+        "Engineers' speed forces design change.",
+        "Designers must help execute, not just hand off.",
+        "Three archetypes for hiring designers."
+      ],
+      "composite": 65.26,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260301",
+      "duration_seconds": 4645,
+      "composite_base": 70,
+      "like_adjustment": 0,
+      "length_adjustment": -4.74,
+      "rank": 22,
+      "tags": []
     },
     {
       "id": "P3KDebPTUrw",
@@ -552,6 +929,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=P3KDebPTUrw",
       "status": "ok",
+      "word_count": 14091,
       "summary_bullets": [
         "Implementation cost is now near zero; taste is scarce.",
         "Product teams invert: many prototypes, curation replaces planning.",
@@ -571,15 +949,15 @@
       "upload_date": "20260628",
       "duration_seconds": 4197,
       "composite_base": 69,
-      "rank": 14,
+      "like_adjustment": 0,
+      "length_adjustment": -4,
+      "rank": 23,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -4
+      ]
     },
     {
       "id": "PplmzlgE0kg",
@@ -587,6 +965,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=PplmzlgE0kg",
       "status": "ok",
+      "word_count": 16656,
       "summary_bullets": [
         "Anthropic PMs ship features in days.",
         "Product taste matters more than coding.",
@@ -606,15 +985,365 @@
       "upload_date": "20260423",
       "duration_seconds": 5135,
       "composite_base": 70,
-      "rank": 15,
+      "like_adjustment": 0,
+      "length_adjustment": -5.56,
+      "rank": 24,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "DIa0MYJzM5I",
+      "title": "From skeptic to true believer: How OpenClaw changed my life | Claire Vo",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=DIa0MYJzM5I",
+      "status": "ok",
+      "word_count": 20725,
+      "summary_bullets": [
+        "Claire Vo went from skeptic to power user.",
+        "Runs nine agents across three Mac Minis.",
+        "Key insight: use multiple specialized agents.",
+        "Setup requires separate machine and terminal install.",
+        "Agents handle sales, family scheduling, podcast prep."
       ],
+      "composite": 64.34,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "From skeptic to true believer: How OpenClaw changed my life | Claire Vo",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260329",
+      "duration_seconds": 6396,
+      "composite_base": 72,
       "like_adjustment": 0,
-      "length_adjustment": -5.56
+      "length_adjustment": -7.66,
+      "rank": 25,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "z7T1pCxgvlA",
+      "title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=z7T1pCxgvlA",
+      "status": "ok",
+      "word_count": 17131,
+      "summary_bullets": [
+        "AI products differ due to non-determinism and agency-control trade-off.",
+        "Start with high human control, low autonomy; increase gradually.",
+        "Problem-first approach beats solution-first hype.",
+        "Evals and production monitoring are complementary, not either/or.",
+        "Continuous calibration and development (CCCD) framework reduces risk."
+      ],
+      "composite": 63.36,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260111",
+      "duration_seconds": 5183,
+      "composite_base": 69,
+      "like_adjustment": 0,
+      "length_adjustment": -5.64,
+      "rank": 26,
+      "tags": []
+    },
+    {
+      "id": "RP4vJeIb7WU",
+      "title": "The art of influence: The single most important skill left that AI can’t replace | Jessica Fain",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=RP4vJeIb7WU",
+      "status": "ok",
+      "word_count": 17506,
+      "summary_bullets": [
+        "Influence is key for product leaders.",
+        "Understand executive’s context and incentives.",
+        "Go in to learn, not to convince.",
+        "Align pitch with exec’s goals.",
+        "Build trust by deprioritizing bad ideas."
+      ],
+      "composite": 61.39,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The art of influence: The single most important skill left that AI can’t replace | Jessica Fain",
+      "substance": 7.5,
+      "evidence": 5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260322",
+      "duration_seconds": 5613,
+      "composite_base": 67.75,
+      "like_adjustment": 0,
+      "length_adjustment": -6.36,
+      "rank": 27,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "pEis2CBomVA",
+      "title": "He's negotiated $1B+ in executive compensation. Here's his playbook. | Jacob Warwick",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=pEis2CBomVA",
+      "status": "ok",
+      "word_count": 22791,
+      "summary_bullets": [
+        "Negotiate in person, not over email.",
+        "Ask \"what's the chance there could be a little more?\"",
+        "Understand the value you create for the company.",
+        "Slow down the process to gather information.",
+        "Avoid splitting the difference; ask if it was a mistake."
+      ],
+      "composite": 60.81,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "He's negotiated $1B+ in executive compensation. Here's his playbook. | Jacob Warwick",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260315",
+      "duration_seconds": 6894,
+      "composite_base": 69.3,
+      "like_adjustment": 0,
+      "length_adjustment": -8.49,
+      "rank": 28,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "0XNkUdzxiZI",
+      "title": "The rise of the professional vibe coder (a new AI-era job)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=0XNkUdzxiZI",
+      "status": "ok",
+      "word_count": 19129,
+      "summary_bullets": [
+        "Vibe coding means using AI to build software without coding.",
+        "Clarity in prompts is more important than technical skill.",
+        "Build multiple prototypes in parallel to refine ideas.",
+        "Use planning documents (PRDs) to guide AI agents.",
+        "Design taste and judgment are key differentiators."
+      ],
+      "composite": 60.55,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The rise of the professional vibe coder (a new AI-era job)",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260208",
+      "duration_seconds": 6151,
+      "composite_base": 67.8,
+      "like_adjustment": 0,
+      "length_adjustment": -7.25,
+      "rank": 29,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "Auxs8ZsHRI4",
+      "title": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Auxs8ZsHRI4",
+      "status": "ok",
+      "word_count": 19457,
+      "summary_bullets": [
+        "Parenting principles apply to workplace leadership.",
+        "Repair builds trust after mistakes.",
+        "Separate behavior from identity: \"good inside\".",
+        "Sturdy leaders validate feelings but hold boundaries.",
+        "Resilience over happiness for long-term capability."
+      ],
+      "composite": 60.3,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260201",
+      "duration_seconds": 5517,
+      "composite_base": 66.5,
+      "like_adjustment": 0,
+      "length_adjustment": -6.2,
+      "rank": 30,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "_rcniEb9bLw",
+      "title": "The real AI revolution isn’t software. It’s farms, mines, and trucks. | Qasar Younis",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=_rcniEb9bLw",
+      "status": "ok",
+      "word_count": 16508,
+      "summary_bullets": [
+        "AI's biggest near-term impact is in physical industries.",
+        "Applied Intuition adds AI to vehicles; 18 of top 20 automakers are customers.",
+        "Guest advocates building quietly, focusing on product over publicity.",
+        "Fear of AI stems from misunderstanding; learn its limitations.",
+        "Reading broadly and removing emotion improves leadership decisions."
+      ],
+      "composite": 55.56,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The real AI revolution isn’t software. It’s farms, mines, and trucks.",
+      "substance": 7,
+      "evidence": 5,
+      "specificity": 7.5,
+      "insight_density": 6,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260308",
+      "duration_seconds": 5064,
+      "composite_base": 61,
+      "like_adjustment": 0,
+      "length_adjustment": -5.44,
+      "rank": 31,
+      "tags": []
+    },
+    {
+      "id": "KtKJ3A6DWTs",
+      "title": "How to show up in any room with a low heart rate: Silicon Valley’s missing etiquette playbook",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=KtKJ3A6DWTs",
+      "status": "ok",
+      "word_count": 19722,
+      "summary_bullets": [
+        "Etiquette reduces social anxiety.",
+        "Be early, don't order most expensive.",
+        "Use \"great to see you\" not \"nice to meet you\".",
+        "Dress one level up, fit over brand.",
+        "Leave conversations wanting more."
+      ],
+      "composite": 52.64,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How to show up in any room with a low heart rate: Silicon Valley’s missing etiquette playbook",
+      "substance": 6.5,
+      "evidence": 3.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260115",
+      "duration_seconds": 5196,
+      "composite_base": 58.3,
+      "like_adjustment": 0,
+      "length_adjustment": -5.66,
+      "rank": 32,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "ylNKlBlkFas",
+      "title": "AI is critical for humanity’s survival: Cisco President on the AI revolution | Jeetu Patel",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ylNKlBlkFas",
+      "status": "ok",
+      "word_count": 16663,
+      "summary_bullets": [
+        "AI is a megatrend, not hype; timing is crucial.",
+        "Cisco connects GPUs for AI infrastructure.",
+        "Stamina trumps intellect in leadership.",
+        "Don't be stingy with words; express appreciation.",
+        "Company success framework: timing, market, team, product, brand, distribution."
+      ],
+      "composite": 51.26,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "AI is critical for humanity’s survival: Cisco President on the AI revolution",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 6,
+      "insight_density": 5.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260226",
+      "duration_seconds": 5243,
+      "composite_base": 57,
+      "like_adjustment": 0,
+      "length_adjustment": -5.74,
+      "rank": 33,
+      "tags": []
+    },
+    {
+      "id": "HEqrvF7ztBE",
+      "title": "A behind-the-scenes interview with Lenny Rachitsky on building his newsletter and podcast",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=HEqrvF7ztBE",
+      "status": "ok",
+      "word_count": 14334,
+      "summary_bullets": [
+        "Newsletter started after psychedelic experience.",
+        "Grew to 1.2 million subscribers.",
+        "Lenny shares personal stress and birth story.",
+        "Michelle discusses chart-making process.",
+        "Emphasis on learning from real experience."
+      ],
+      "composite": 42.56,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "A behind-the-scenes interview with Lenny Rachitsky on building his newsletter and podcast",
+      "substance": 5.5,
+      "evidence": 4,
+      "specificity": 6.5,
+      "insight_density": 4,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260312",
+      "duration_seconds": 4014,
+      "composite_base": 46.25,
+      "like_adjustment": 0,
+      "length_adjustment": -3.69,
+      "rank": 34,
+      "tags": []
     }
   ],
   "too_long": [],

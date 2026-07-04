@@ -71,6 +71,19 @@ export const SOURCE_PRIMARY_CATEGORY: Record<string, SourceCategoryId> = {
   "modern-wisdom-q2-2026": "science-health",
   "greg-isenberg-q2-2026": "startups",
   "iltb-podcast-q2-2026": "finance",
+  "cal-newport-2026": "startups",
+  "kenji-lopez-alt-2026": "science-health",
+  "morgan-housel-2026": "finance",
+  "ramit-sethi-2026": "finance",
+  "ten-percent-happier-2026": "science-health",
+  "happiness-lab-2026": "science-health",
+  "good-inside-2026": "science-health",
+  "raising-good-humans-2026": "science-health",
+  "emily-oster-2026": "science-health",
+  "barbell-medicine-2026": "science-health",
+  "david-burns-2026": "science-health",
+  "tim-ferriss-2026": "startups",
+  "ali-abdaal-2026": "startups",
 };
 
 /** All topic tags — used when toggling a category header affects related sources. */
@@ -111,6 +124,19 @@ export const SOURCE_CATEGORY_TAGS: Record<string, SourceCategoryId[]> = {
   "modern-wisdom-q2-2026": ["science-health"],
   "greg-isenberg-q2-2026": ["startups"],
   "iltb-podcast-q2-2026": ["finance", "startups"],
+  "cal-newport-2026": ["startups"],
+  "kenji-lopez-alt-2026": ["science-health"],
+  "morgan-housel-2026": ["finance", "startups"],
+  "ramit-sethi-2026": ["finance"],
+  "ten-percent-happier-2026": ["science-health"],
+  "happiness-lab-2026": ["science-health"],
+  "good-inside-2026": ["science-health"],
+  "raising-good-humans-2026": ["science-health"],
+  "emily-oster-2026": ["science-health"],
+  "barbell-medicine-2026": ["science-health"],
+  "david-burns-2026": ["science-health"],
+  "tim-ferriss-2026": ["startups"],
+  "ali-abdaal-2026": ["startups"],
 };
 
 export function primaryCategoryForSource(sourceId: string): SourceCategoryId {

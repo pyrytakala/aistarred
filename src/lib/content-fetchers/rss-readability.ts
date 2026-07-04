@@ -5,11 +5,14 @@ import { pipelineLog, withPipelineTiming } from "../pipeline-log.js";
 import { titleToFilename } from "../utils.js";
 import type { VideoIndexEntry } from "../types.js";
 import type { EssayListingKind } from "../sources-config.js";
+import { countWords } from "../content-length.js";
 import { extractArticleFromHtml, isArticleLongEnough } from "./article-extract.js";
 import { parseFlexibleDate, uploadDateFromUrlPath, findPublicationDateInHtml } from "./dates.js";
 import { fetchText } from "./http.js";
 import {
   listAnthropicEngineering,
+  listAsteriskIssues,
+  listCollabfundAuthor,
   listFromFeed,
   listGwernIndex,
   listHamelIndex,
@@ -41,6 +44,10 @@ async function resolveListing(context: ContentFetchContext): Promise<ContentList
       return listMachineTheoryJournal(listingContext);
     case "semianalysis-archives":
       return listSemianalysisArchives(listingContext);
+    case "asterisk-issues":
+      return listAsteriskIssues(listingContext);
+    case "collabfund-author":
+      return listCollabfundAuthor(listingContext);
     case "feed":
     default:
       if (!context.feedUrl) {
@@ -136,6 +143,7 @@ export const rssReadabilityFetcher: ContentFetcher = {
       result.transcript_provider = transcriptProvider;
       result.transcript_path = textPath;
       result.line_count = articleText.split(/\r?\n/).length;
+      result.word_count = countWords(articleText);
       result.language_code = "en";
       result.available_langs = ["en"];
     } catch (error) {

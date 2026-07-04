@@ -1,5 +1,6 @@
 import type { RankedVideo } from "./types.js";
 import { normalizeAudienceLevel } from "./audience-level.js";
+import { computeCompositeFromDimensions } from "./score-composite.js";
 
 const SUMMARY_BULLETS_SECTION_RE =
   /^(?:-\s*)?(?:\*\*)?Summary bullets:(?:\*\*)?\s*\n([\s\S]*?)(?=\n(?:-\s*)?(?:\*\*)?Central claim)/im;
@@ -20,6 +21,8 @@ const DIMENSION_RES: Record<string, RegExp> = {
     /^(?:-\s*)?(?:\*\*)?Insight density:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
   non_promotion:
     /^(?:-\s*)?(?:\*\*)?Non-promotion:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
+  practical_utility:
+    /^(?:-\s*)?(?:\*\*)?Practical utility:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
 };
 
 export function extractSpeakers(title: string, description?: string | null): string {
@@ -87,9 +90,6 @@ export function parseScoreResponse(text: string): Partial<RankedVideo> & { raw_r
   }
 
   const composite = extractComposite(text);
-  if (composite != null) {
-    result.composite = composite;
-  }
 
   const confidenceMatch = CONFIDENCE_RE.exec(text);
   if (confidenceMatch) {
@@ -118,6 +118,13 @@ export function parseScoreResponse(text: string): Partial<RankedVideo> & { raw_r
     if (match) {
       (result as Record<string, number>)[name] = Number(match[1]);
     }
+  }
+
+  const computedComposite = computeCompositeFromDimensions(result);
+  if (computedComposite != null) {
+    result.composite = computedComposite;
+  } else if (composite != null) {
+    result.composite = composite;
   }
 
   const claimMatch =

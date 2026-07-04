@@ -164,6 +164,10 @@ export class TranscriptApiProvider implements TranscriptProvider {
     const probeLimit = options.probeLimit ?? 500;
     const requestDelay = options.requestDelay ?? 1;
     const sinceDate = options.since ? dateFromYyyymmdd(options.since) : null;
+    const untilDate = options.until ? dateFromYyyymmdd(options.until) : null;
+    if (untilDate) {
+      untilDate.setHours(23, 59, 59, 999);
+    }
     const cutoff = sinceDate
       ? new Date(sinceDate.getFullYear(), sinceDate.getMonth(), sinceDate.getDate())
       : options.days != null
@@ -206,6 +210,9 @@ export class TranscriptApiProvider implements TranscriptProvider {
           stop = true;
           break;
         }
+        if (published && untilDate && published > untilDate) {
+          continue;
+        }
 
         ordered.push([videoId, metadata]);
         seen.add(videoId);
@@ -242,7 +249,7 @@ export class TranscriptApiProvider implements TranscriptProvider {
       const [videoId, metadata] = entry;
       const published = parseIsoDatetime(metadata.published as string | undefined);
       if (published) {
-        if (published >= cutoff) {
+        if (published >= cutoff && (!untilDate || published <= untilDate)) {
           filtered.push([videoId, metadata]);
         }
         continue;

@@ -1,8 +1,8 @@
 {
   "source_id": "asterisk-issue-14-latest",
-  "video_count": 5,
-  "scored_count": 5,
-  "ranked_count": 5,
+  "video_count": 22,
+  "scored_count": 22,
+  "ranked_count": 22,
   "rankings": [
     {
       "id": "the-mystery-in-the-medicine-cabinet",
@@ -10,6 +10,7 @@
       "speakers": "Asterisk",
       "url": "https://asteriskmag.com/issues/14/the-mystery-in-the-medicine-cabinet",
       "status": "ok",
+      "word_count": 3544,
       "summary_bullets": [
         "Acetaminophen safer than ibuprofen if used correctly.",
         "Ibuprofen risks: stomach, heart, kidneys.",
@@ -56,11 +57,70 @@
       ]
     },
     {
+      "id": "seeing-like-a-sedan",
+      "title": "Seeing Like a Sedan",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/13/seeing-like-a-sedan",
+      "status": "ok",
+      "word_count": 5894,
+      "summary_bullets": [
+        "Waymo uses lidar+radar+cameras; Tesla uses only cameras.",
+        "Tesla’s vision-only approach has blind spots (glare, darkness, depth).",
+        "Sensor fusion outperforms vision-only in safety metrics.",
+        "Tesla quietly added radar back; approaches are converging.",
+        "Real question: what safety standard do we accept?"
+      ],
+      "composite": 86.25,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Sensor Fusion vs. Vision-Only in Autonomous Vehicles",
+      "substance": 8.5,
+      "evidence": 9,
+      "specificity": 9.5,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "practical_utility": 8,
+      "like_count": null,
+      "upload_date": "20260202",
+      "duration_seconds": null,
+      "composite_base": 86.25,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        },
+        {
+          "label": "Utility",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
       "id": "chinas-last-bus",
       "title": "Boarding China’s Last Bus",
       "speakers": "Asterisk",
       "url": "https://asteriskmag.com/issues/14/chinas-last-bus",
       "status": "ok",
+      "word_count": 4538,
       "summary_bullets": [
         "Chinese AI \"enthusiasm\" masks fear of being left behind.",
         "1990s state layoffs (xiagang) created a \"last bus\" mentality.",
@@ -82,7 +142,7 @@
       "composite_base": 85.3,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 2,
+      "rank": 3,
       "tags": [
         {
           "label": "Substance",
@@ -103,11 +163,445 @@
       ]
     },
     {
+      "id": "are-prediction-markets-good-for-anything",
+      "title": "Are Prediction Markets Good for Anything?",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/14/are-prediction-markets-good-for-anything",
+      "status": "ok",
+      "word_count": 4774,
+      "summary_bullets": [
+        "Prediction markets mostly used for sports/crypto gambling.",
+        "High volume doesn't guarantee accuracy for short-term markets.",
+        "Useful markets (risk monitoring, policy) are rare and declining.",
+        "AI chatbots may replace prediction markets for forecasting."
+      ],
+      "composite": 82.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Are Prediction Markets Good for Anything?",
+      "substance": 8.5,
+      "evidence": 9,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 8,
+      "practical_utility": 7.5,
+      "like_count": null,
+      "upload_date": "20260429",
+      "duration_seconds": null,
+      "composite_base": 82.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "the-institute-behind-taiwan-s-chip-dominance",
+      "title": "The Institute Behind Taiwan’s  Chip Dominance",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/13/the-institute-behind-taiwan-s-chip-dominance",
+      "status": "ok",
+      "word_count": 4055,
+      "summary_bullets": [
+        "ITRI spun off TSMC and UMC.",
+        "Started with RCA technology for watches.",
+        "Built human capital via Hsinchu Science Park.",
+        "Aligned incentives with incumbent firms.",
+        "Three lessons: start small, build talent, align incentives."
+      ],
+      "composite": 80,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Institute Behind Taiwan’s Chip Dominance",
+      "substance": 8,
+      "evidence": 8.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "practical_utility": 6.5,
+      "like_count": null,
+      "upload_date": "20260316",
+      "duration_seconds": null,
+      "composite_base": 80,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "in-praise-of-observational-evidence",
+      "title": "In Praise of Observational Evidence",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/14/in-praise-of-observational-evidence",
+      "status": "ok",
+      "word_count": 4626,
+      "summary_bullets": [
+        "RCTs are not always feasible or ethical.",
+        "Observational data can emulate RCTs with modern methods.",
+        "Target trial emulation reduces bias in observational studies.",
+        "Large datasets enable causal inference without experiments.",
+        "Public health in low-income countries needs observational evidence."
+      ],
+      "composite": 78,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "In Praise of Observational Evidence",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "practical_utility": 7.5,
+      "like_count": null,
+      "upload_date": "20260630",
+      "duration_seconds": null,
+      "composite_base": 78,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "the-fight-for-slow-and-boring-research",
+      "title": "The Fight For Slow And Boring Research",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/13/the-fight-for-slow-and-boring-research",
+      "status": "ok",
+      "word_count": 3812,
+      "summary_bullets": [
+        "Federal research funding is declining.",
+        "Scientists seek nonfederal funding sources.",
+        "Communication skills become crucial for funding.",
+        "Alternative research organizations model legibility.",
+        "Universities need communication infrastructure."
+      ],
+      "composite": 78,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Fight For Slow And Boring Research",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "practical_utility": 6,
+      "like_count": null,
+      "upload_date": "20260119",
+      "duration_seconds": null,
+      "composite_base": 78,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "how-long-until-ai-doesn-t-need-humans",
+      "title": "How Long Until AI Doesn’t Need Humans?",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/14/how-long-until-ai-doesn-t-need-humans",
+      "status": "ok",
+      "word_count": 4816,
+      "summary_bullets": [
+        "Debate on self-sufficient AI timeline.",
+        "Cotra predicts within 10 years.",
+        "Lee says 50 years or never.",
+        "Humanoid robots and tacit knowledge challenges.",
+        "Need for physical automation and cognition."
+      ],
+      "composite": 76.5,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How Long Until AI Doesn’t Need Humans?",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 10,
+      "practical_utility": 7,
+      "like_count": null,
+      "upload_date": "20260422",
+      "duration_seconds": null,
+      "composite_base": 76.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "engineering-peace",
+      "title": "Engineering Peace",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/14/engineering-peace",
+      "status": "ok",
+      "word_count": 2366,
+      "summary_bullets": [
+        "War is not inevitable in development.",
+        "Empirical research improves peacebuilding tools.",
+        "Cognitive behavioral therapy reduces violence.",
+        "Cost of prevention may be lower than cleanup.",
+        "Need large-scale trials for war prevention."
+      ],
+      "composite": 73,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Engineering Peace",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "practical_utility": 6,
+      "like_count": null,
+      "upload_date": "20260616",
+      "duration_seconds": null,
+      "composite_base": 73,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "the-sweet-lesson-of-neuroscience",
+      "title": "The Sweet Lesson of Neuroscience",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/13/the-sweet-lesson-of-neuroscience",
+      "status": "ok",
+      "word_count": 4310,
+      "summary_bullets": [
+        "Brain has learning and steering subsystems.",
+        "Steering subsystem provides innate reward signals.",
+        "Thought Assessors link learned concepts to instincts.",
+        "Understanding internal teaching could aid AI alignment.",
+        "Songbirds show self-teaching via reward signals."
+      ],
+      "composite": 72,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The Sweet Lesson of Neuroscience",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "practical_utility": 5.5,
+      "like_count": null,
+      "upload_date": "20260216",
+      "duration_seconds": null,
+      "composite_base": 72,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "merchants-of-certainty",
+      "title": "Merchants of Certainty",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/13/merchants-of-certainty",
+      "status": "ok",
+      "word_count": 4134,
+      "summary_bullets": [
+        "Climate science shifted from uncertainty to false certainty.",
+        "Arbitrary targets (350ppm, 2°C) replaced risk-based action.",
+        "Extreme weather attribution used for lawsuits, not science.",
+        "This strategy narrowed solutions and failed to cut emissions.",
+        "Embracing uncertainty again could restore trust and effectiveness."
+      ],
+      "composite": 70.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Climate movement’s shift from uncertainty to certainty has been counterproductive",
+      "substance": 8,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "practical_utility": 3,
+      "like_count": null,
+      "upload_date": "20260325",
+      "duration_seconds": null,
+      "composite_base": 70.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "a-brief-history-of-the-history-of-science",
+      "title": "A Brief History of the History of Science",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/13/a-brief-history-of-the-history-of-science",
+      "status": "ok",
+      "word_count": 5570,
+      "summary_bullets": [
+        "History of science evolved from naive to critical.",
+        "Conant used history to educate citizens.",
+        "Kuhn’s paradigm shift changed the field.",
+        "Science Wars pitted physicists against sociologists.",
+        "Current history aims to bridge academics and practitioners."
+      ],
+      "composite": 68.25,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "A Brief History of the History of Science",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "practical_utility": 4,
+      "like_count": null,
+      "upload_date": "20260223",
+      "duration_seconds": null,
+      "composite_base": 68.25,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 12,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
       "id": "we-re-all-one-crisis-away-from-taking-unlicensed-research-peptides",
       "title": "We’re All One Crisis Away From Taking Unlicensed Research Peptides",
       "speakers": "Asterisk",
       "url": "https://asteriskmag.com/issues/14/we-re-all-one-crisis-away-from-taking-unlicensed-research-peptides",
       "status": "ok",
+      "word_count": 3861,
       "summary_bullets": [
         "Health hackers self-experiment when medicine fails.",
         "Diabetics built their own closed-loop insulin system.",
@@ -129,7 +623,7 @@
       "composite_base": 68,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 3,
+      "rank": 13,
       "tags": [
         {
           "label": "Specificity",
@@ -142,11 +636,241 @@
       ]
     },
     {
+      "id": "ai-after-drug-development",
+      "title": "AI After Drug Development",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/13/ai-after-drug-development",
+      "status": "ok",
+      "word_count": 4716,
+      "summary_bullets": [
+        "Clinical stage ML is underfunded.",
+        "BindCraft compresses workload, not new capabilities.",
+        "Human data is hardest to gather.",
+        "Patient stratification could cut cancer drug failure rate."
+      ],
+      "composite": 67.8,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "AI in Drug Development: Clinical Stage Bottlenecks and Data Challenges",
+      "substance": 7.5,
+      "evidence": 5,
+      "specificity": 7,
+      "insight_density": 6.5,
+      "non_promotion": 8,
+      "practical_utility": 7,
+      "like_count": null,
+      "upload_date": "20260126",
+      "duration_seconds": null,
+      "composite_base": 67.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 14,
+      "tags": []
+    },
+    {
+      "id": "selling-abstraction",
+      "title": "Selling Abstraction",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/14/selling-abstraction",
+      "status": "ok",
+      "word_count": 4625,
+      "summary_bullets": [
+        "Finance parallels fantasy and necromancy.",
+        "Abstraction enables value creation and risk.",
+        "Middlemen provide opacity as a service.",
+        "Healthy markets need tight feedback loops.",
+        "Meme stocks and crypto lack real value."
+      ],
+      "composite": 67.25,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Selling Abstraction",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 7,
+      "insight_density": 7.5,
+      "non_promotion": 10,
+      "practical_utility": 5,
+      "like_count": null,
+      "upload_date": "20260527",
+      "duration_seconds": null,
+      "composite_base": 67.25,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 15,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "rust-in-numbers",
+      "title": "Rust in Numbers",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/14/rust-in-numbers",
+      "status": "ok",
+      "word_count": 4147,
+      "summary_bullets": [
+        "Engineers used life tables for machines",
+        "Depreciation disputes drove data collection",
+        "Survivor curves predicted machine lifespans",
+        "Regulation forced railroads to track equipment",
+        "Actuarial methods applied to inanimate objects"
+      ],
+      "composite": 63,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Rust in Numbers",
+      "substance": 6.5,
+      "evidence": 8.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 10,
+      "practical_utility": 2,
+      "like_count": null,
+      "upload_date": "20260506",
+      "duration_seconds": null,
+      "composite_base": 63,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 16,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "rethinking-high-school-science-fairs",
+      "title": "Rethinking High-School Science Fairs",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/13/rethinking-high-school-science-fairs",
+      "status": "ok",
+      "word_count": 3032,
+      "summary_bullets": [
+        "Science fairs prioritize competition over genuine inquiry.",
+        "Students often work in labs without intellectual ownership.",
+        "Author proposes alternative fair divisions for real learning.",
+        "Early fairs focused on observation and curiosity.",
+        "Modern fairs serve college applications, not scientific thinking."
+      ],
+      "composite": 61.5,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Rethinking High-School Science Fairs",
+      "substance": 7.5,
+      "evidence": 4.5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 10,
+      "practical_utility": 4,
+      "like_count": null,
+      "upload_date": "20260209",
+      "duration_seconds": null,
+      "composite_base": 61.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 17,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "language-birth",
+      "title": "Language Birth",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/13/language-birth",
+      "status": "ok",
+      "word_count": 4340,
+      "summary_bullets": [
+        "Hundreds of languages lost since 1960.",
+        "Thousands of new words created in tech.",
+        "Constructed languages like Toki Pona emerge.",
+        "Jargon and slang parallel traditional lexical diversity.",
+        "Conlangs offer unique cognitive tools."
+      ],
+      "composite": 59,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Language Birth",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 10,
+      "practical_utility": 2,
+      "like_count": null,
+      "upload_date": "20260309",
+      "duration_seconds": null,
+      "composite_base": 59,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 18,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "factory-logic",
+      "title": "Factory Logic",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/13/factory-logic",
+      "status": "ok",
+      "word_count": 6237,
+      "summary_bullets": [
+        "Chinese factory logic struggles in Ethiopia",
+        "Industrialization requires supporting ecosystem",
+        "Worker culture needed for factory logic",
+        "Debt trap narrative is overblown",
+        "Western and Chinese aid differ in approach"
+      ],
+      "composite": 59,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Factory Logic",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 7,
+      "practical_utility": 3,
+      "like_count": null,
+      "upload_date": "20260302",
+      "duration_seconds": null,
+      "composite_base": 59,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 19,
+      "tags": []
+    },
+    {
       "id": "the-doomers-are-all-right",
       "title": "The Doomers Are All Right",
       "speakers": "Asterisk",
       "url": "https://asteriskmag.com/issues/14/the-doomers-are-all-right",
       "status": "ok",
+      "word_count": 2366,
       "summary_bullets": [
         "AI doomers expect extinction within 5–20 years.",
         "They cope by focusing on controllable actions.",
@@ -168,7 +892,7 @@
       "composite_base": 56,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 4,
+      "rank": 20,
       "tags": [
         {
           "label": "Non-promo",
@@ -182,6 +906,7 @@
       "speakers": "Asterisk",
       "url": "https://asteriskmag.com/issues/14/these-wild-young-people",
       "status": "ok",
+      "word_count": 3368,
       "summary_bullets": [
         "Gen Z risk attitudes explored via interviews",
         "Contrasts risk-averse and risk-seeking youth",
@@ -203,7 +928,45 @@
       "composite_base": 47.3,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 5,
+      "rank": 21,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "shall-we-play-a-game",
+      "title": "Shall We Play a Game?",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/14/shall-we-play-a-game",
+      "status": "ok",
+      "word_count": 3859,
+      "summary_bullets": [
+        "Wargames evolved from chess to Kriegsspiel.",
+        "Prussian military used wargames for training.",
+        "Dice and umpires introduced in 1824.",
+        "D&D emerged from wargame hobbyists.",
+        "Core debates on rules vs. roleplay persist."
+      ],
+      "composite": 47,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "History of wargames from chess to Dungeons & Dragons",
+      "substance": 5,
+      "evidence": 5,
+      "specificity": 7,
+      "insight_density": 5,
+      "non_promotion": 10,
+      "practical_utility": 2,
+      "like_count": null,
+      "upload_date": "20260422",
+      "duration_seconds": null,
+      "composite_base": 47,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 22,
       "tags": [
         {
           "label": "Non-promo",

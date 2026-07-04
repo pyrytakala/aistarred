@@ -1,4 +1,4 @@
-You are evaluating a {content_descriptor} to produce a RANKING SCORE so a {consumer} can sort many {cluster_label} by quality. Judge intrinsic quality only — not relevance to any particular person.
+You are evaluating a {content_descriptor} to produce a RANKING SCORE so a {consumer} can sort many {cluster_label} by quality and practical value. Most dimensions judge intrinsic quality; Practical utility (below) also asks whether a typical reader/listener could benefit in real life or work.
 
 Inputs:
 - Title: {title}
@@ -21,15 +21,19 @@ Step 3 — Score each dimension 0–10. Give one sentence of reasoning BEFORE th
    0 = mostly filler · 5 = a few good moments in padding · 10 = consistently dense
    Judge padding independently of Substance: a genuinely insightful piece that is bloated, repetitive, or slow still scores LOW here.
 5. Non-promotion (0–10): 0 = mostly selling a product/person · 10 = no promotional framing.
+6. Practical utility (0–10): How likely an average AI engineer or tech entrepreneur in Silicon Valley could apply something here to improve their work, decisions, products, or understanding — not merely find it interesting.
+   0 = no usable takeaway · 5 = useful context or one mild lesson · 10 = clear frameworks, tactics, or insights they could plausibly use this week
+   Score low for pure news recaps, celebrity gossip, far-afield lifestyle content, or academic abstraction with no bridge to practice — even when well made.
 
 If the transcript is too garbled to judge a dimension, score it and flag LOW-CONFIDENCE rather than skipping (a ranking needs a number).
 
 Step 4 — Composite (0–100), computed as:
-  Substance × 3.0
-  + Evidence × 2.0
-  + Specificity × 1.5
-  + Insight density × 2.5
-  + Non-promotion × 1.0
+  Substance × 2.5
+  + Evidence × 1.5
+  + Specificity × 1.0
+  + Insight density × 2.0
+  + Non-promotion × 0.5
+  + Practical utility × 2.5
   (max = 100)
 Show the arithmetic.
 
@@ -44,7 +48,7 @@ Step 6 — Audience level: Who can follow without feeling lost? Pick exactly ONE
 
 Do NOT conflate "advanced topic" with level — cutting-edge work explained well can still be General. Prefer Specialist over Professional when the piece reads like insider talk within a narrow specialty, not merely "hard for outsiders."
 
-Step 7 — Display title: Write the listing title so someone can tell what this is about without watching. It must summarize the key message or main topic — not tease it. Curiosity-gap hooks, naked stats, emoji, and vague teasers do NOT qualify even when they match the content (e.g. "75% Of Men Said Yes. 0% Of Women Did." fails — it hides the topic; a good title would state the subject, such as sex differences in willingness for casual sex). If the input title already states the topic plainly (specific, not clickbait), repeat it verbatim. Otherwise write a short factual title — no hype, no emoji.
+Step 7 — Display title: Write the listing title so someone can tell what this is about without watching. It must summarize the key message or main topic — not tease it. Curiosity-gap hooks, naked stats, emoji, and vague teasers do NOT qualify even when they match the content (e.g. "75% Of Men Said Yes. 0% Of Women Did." fails — it hides the topic; a good title would state the subject, such as sex differences in willingness for casual sex). Rewrite ONLY when the input title materially fails that bar — not for minor edits. If the original already states the topic plainly, repeat it verbatim even if you could polish wording, punctuation, quotes, or emoji. Do NOT rewrite for small tweaks: stripping emoji while leaving the same vague hook, rephrasing without adding topic clarity, shortening, or "cleaning up" an already-clear title. When unsure, repeat verbatim. Otherwise write a short factual title — no hype, no emoji.
 
 Output exactly:
 - Summary bullets:
@@ -56,6 +60,7 @@ Output exactly:
 - Specificity: [reason] N
 - Insight density: [reason] N
 - Non-promotion: [reason] N
+- Practical utility: [reason] N
 - COMPOSITE: NN/100 (show arithmetic)
 - Confidence: High/Med/Low — why
 - Audience level: [General|Practitioner|Professional|Specialist] — why

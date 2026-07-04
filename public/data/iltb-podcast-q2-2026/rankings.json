@@ -1,15 +1,65 @@
 {
   "source_id": "iltb-podcast-q2-2026",
   "video_count": 26,
-  "scored_count": 15,
-  "ranked_count": 15,
+  "scored_count": 26,
+  "ranked_count": 26,
   "rankings": [
+    {
+      "id": "DcLy_VJHpy0",
+      "title": "How Ladder Became #1 Strength Training App",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=DcLy_VJHpy0",
+      "status": "ok",
+      "word_count": 16895,
+      "summary_bullets": [
+        "Ladder pivoted from marketplace to group programming",
+        "TikTok growth engine built from scratch",
+        "Nutrition feature launched based on member surveys",
+        "CEO learned performance marketing by doing",
+        "Company reached $100M ARR with 300k members"
+      ],
+      "composite": 78.43,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How Ladder Became #1 Strength Training App",
+      "substance": 8.5,
+      "evidence": 9,
+      "specificity": 9.5,
+      "insight_density": 8.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260113",
+      "duration_seconds": 4541,
+      "composite_base": 83,
+      "like_adjustment": 0,
+      "length_adjustment": -4.57,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
     {
       "id": "LF3aUIM57uw",
       "title": "The Supply and Demand of AI Tokens | Dylan Patel Interview",
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=LF3aUIM57uw",
       "status": "ok",
+      "word_count": 9662,
       "summary_bullets": [
         "SemiAnalysis token spend rose to $7M/year.",
         "AI model capability jumped from L4 to L6 engineer.",
@@ -31,7 +81,7 @@
       "composite_base": 79.8,
       "like_adjustment": 0,
       "length_adjustment": -1.56,
-      "rank": 1,
+      "rank": 2,
       "tags": [
         {
           "label": "Substance",
@@ -53,6 +103,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=7-HmjiXKlvg",
       "status": "ok",
+      "word_count": 8844,
       "summary_bullets": [
         "Dictators are both strong and weak due to illegitimacy.",
         "Winning is politically defined, not purely military.",
@@ -73,7 +124,236 @@
       "composite_base": 80,
       "like_adjustment": 0,
       "length_adjustment": -2.12,
-      "rank": 2,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "YyBQMiiSnY8",
+      "title": "The Secretive PE Firm Behind Burger King, Tim Hortons, Skechers and Hunter Douglas (3G Capital)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=YyBQMiiSnY8",
+      "status": "ok",
+      "word_count": 16047,
+      "summary_bullets": [
+        "3G invests one deal per fund.",
+        "Operator background drives their edge.",
+        "Long-term relationships with family businesses.",
+        "Zero-based budgeting is secondary to quality.",
+        "They bet on young talent early."
+      ],
+      "composite": 77.25,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "The Secretive PE Firm Behind Burger King, Tim Hortons, Skechers and Hunter Douglas (3G Capital)",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260210",
+      "duration_seconds": 5432,
+      "composite_base": 83.3,
+      "like_adjustment": 0,
+      "length_adjustment": -6.05,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "SmZzcV0a2CY",
+      "title": "The Netflix Culture Code That Changed Entertainment Forever | Reed Hastings Interview",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=SmZzcV0a2CY",
+      "status": "ok",
+      "word_count": 11287,
+      "summary_bullets": [
+        "Talent density and simple ideas drive Netflix.",
+        "Keeper test: would you fight to keep them?",
+        "Quickster mistake: ignored collective doubt.",
+        "Board role: insurance layer, not advisor.",
+        "AI will transform education, not storytelling soon."
+      ],
+      "composite": 76.6,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Netflix Culture Code That Changed Entertainment Forever | Reed Hastings Interview",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260106",
+      "duration_seconds": 3692,
+      "composite_base": 79.75,
+      "like_adjustment": 0,
+      "length_adjustment": -3.15,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "mBtmTmCC0ZM",
+      "title": "Inside Dan Sundheim's Bets on Anthropic, OpenAI, and SpaceX",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=mBtmTmCC0ZM",
+      "status": "ok",
+      "word_count": 16297,
+      "summary_bullets": [
+        "Dan Sundheim on AI investing and LLM business models",
+        "Private vs public market dynamics and inefficiencies",
+        "GameStop drawdown and resilience lessons",
+        "SpaceX, Rivian, and hyperscaler thesis",
+        "Semiconductor supply chain and Taiwan risk"
+      ],
+      "composite": 76.56,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "Inside Dan Sundheim's Bets on Anthropic, OpenAI, and SpaceX",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260224",
+      "duration_seconds": 5211,
+      "composite_base": 82.25,
+      "like_adjustment": 0,
+      "length_adjustment": -5.69,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "hFIvttHf0oo",
+      "title": "How to bet on yourself (without venture capital)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=hFIvttHf0oo",
+      "status": "ok",
+      "word_count": 16952,
+      "summary_bullets": [
+        "Self-funded fintech without venture capital",
+        "Built Column by buying a bank with debt",
+        "Silicon Valley is too consensus-driven",
+        "US dollar dominance is a national security asset",
+        "AI benefits large incumbents with distribution"
+      ],
+      "composite": 76.28,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "How to bet on yourself (without venture capital)",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260317",
+      "duration_seconds": 4633,
+      "composite_base": 81,
+      "like_adjustment": 0,
+      "length_adjustment": -4.72,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "JUsb1FYOstA",
+      "title": "He Built The Revenue Engines for Google, Facebook & Square",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=JUsb1FYOstA",
+      "status": "ok",
+      "word_count": 16101,
+      "summary_bullets": [
+        "Judgment is the most future-proof skill.",
+        "Product development shifts from deterministic to non-deterministic.",
+        "AI agents enable rapid prototyping and bottoms-up building.",
+        "Durable AI companies need network effects or financial flows.",
+        "Advertising success requires first-party inventory or outcome delivery."
+      ],
+      "composite": 76.15,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "He Built The Revenue Engines for Google, Facebook & Square",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260129",
+      "duration_seconds": 4590,
+      "composite_base": 80.8,
+      "like_adjustment": 0,
+      "length_adjustment": -4.65,
+      "rank": 8,
       "tags": [
         {
           "label": "Substance",
@@ -95,6 +375,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=5RnPko2HviQ",
       "status": "ok",
+      "word_count": 12836,
       "summary_bullets": [
         "Glass-Steagall separated commercial and investment banks.",
         "System 1 (1933–1999) stable but not growth-optimized.",
@@ -116,7 +397,7 @@
       "composite_base": 79.8,
       "like_adjustment": 0,
       "length_adjustment": -3.66,
-      "rank": 3,
+      "rank": 9,
       "tags": [
         {
           "label": "Substance",
@@ -134,6 +415,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=QVSP8bGm2KQ",
       "status": "ok",
+      "word_count": 18452,
       "summary_bullets": [
         "GLP-1s exceed expectations, signal trillion-dollar health revolution",
         "Existing drugs can prevent heart disease, Alzheimer’s, cancer",
@@ -154,7 +436,7 @@
       "composite_base": 82.75,
       "like_adjustment": 0,
       "length_adjustment": -6.83,
-      "rank": 4,
+      "rank": 10,
       "tags": [
         {
           "label": "Substance",
@@ -180,6 +462,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=wEEZPpx8qow",
       "status": "ok",
+      "word_count": 17027,
       "summary_bullets": [
         "Compute is fungible across training, inference, internal use.",
         "Anthropic uses three chip platforms (TPU, GPU, Trainium) flexibly.",
@@ -201,7 +484,7 @@
       "composite_base": 79.5,
       "like_adjustment": 0,
       "length_adjustment": -5.21,
-      "rank": 5,
+      "rank": 11,
       "tags": [
         {
           "label": "Substance",
@@ -219,6 +502,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=eURcW5_uS60",
       "status": "ok",
+      "word_count": 17540,
       "summary_bullets": [
         "Founder mode: hands-on, not over-delegating.",
         "Pandemic forced Chesky to take control.",
@@ -240,7 +524,7 @@
       "composite_base": 79.5,
       "like_adjustment": 0,
       "length_adjustment": -5.35,
-      "rank": 6,
+      "rank": 12,
       "tags": [
         {
           "label": "Substance",
@@ -258,6 +542,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Mmj_G9RlW-I",
       "status": "ok",
+      "word_count": 14366,
       "summary_bullets": [
         "AI revenue growth unprecedented in capitalism history.",
         "Anthropic added $11B ARR in one month.",
@@ -279,7 +564,7 @@
       "composite_base": 78.8,
       "like_adjustment": 0,
       "length_adjustment": -5.22,
-      "rank": 7,
+      "rank": 13,
       "tags": [
         {
           "label": "Substance",
@@ -297,6 +582,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=OxHWFmFHnoc",
       "status": "ok",
+      "word_count": 13857,
       "summary_bullets": [
         "$120B insurance balance sheet, no outside investors.",
         "Permanent capital enables long-term, flexible investing.",
@@ -318,7 +604,7 @@
       "composite_base": 78,
       "like_adjustment": 0,
       "length_adjustment": -4.65,
-      "rank": 8,
+      "rank": 14,
       "tags": [
         {
           "label": "Substance",
@@ -335,11 +621,53 @@
       ]
     },
     {
+      "id": "qAEuCfgU6-I",
+      "title": "World's Top Researcher on AI, LLMs, and Robot Intelligence",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=qAEuCfgU6-I",
+      "status": "ok",
+      "word_count": 16317,
+      "summary_bullets": [
+        "Robotics foundation models aim for general physical intelligence.",
+        "General approach may be easier than narrow specialization.",
+        "Common sense injected via chain-of-thought from LLMs.",
+        "Dexterity and embodiment generalization surprised researchers.",
+        "Coaching robots with language improves performance."
+      ],
+      "composite": 71.27,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "World's Top Researcher on AI, LLMs, and Robot Intelligence",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260331",
+      "duration_seconds": 4516,
+      "composite_base": 75.8,
+      "like_adjustment": 0,
+      "length_adjustment": -4.53,
+      "rank": 15,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
       "id": "m7H42MCzBCQ",
       "title": "From SpaceX to Founders Fund to Solving America's Nuclear Fuel Problem",
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=m7H42MCzBCQ",
       "status": "ok",
+      "word_count": 16147,
       "summary_bullets": [
         "Scott Nolan was employee #35 at SpaceX.",
         "He invested at Founders Fund for over a decade.",
@@ -361,7 +689,7 @@
       "composite_base": 75.5,
       "like_adjustment": 0,
       "length_adjustment": -5.44,
-      "rank": 9,
+      "rank": 16,
       "tags": [
         {
           "label": "Substance",
@@ -374,11 +702,89 @@
       ]
     },
     {
+      "id": "ID27juNvAfc",
+      "title": "Why The Laws of Startup Physics Have Changed | Ben Horowitz Interview",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ID27juNvAfc",
+      "status": "ok",
+      "word_count": 11392,
+      "summary_bullets": [
+        "AI changes startup physics: money can now catch up",
+        "Las Vegas police crime down 50% with tech",
+        "Culture is defined by actions, not ideas",
+        "Venture firms must scale to support later-stage companies",
+        "Inequality is a feature, AI is an equalizer"
+      ],
+      "composite": 69.58,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Why The Laws of Startup Physics Have Changed | Ben Horowitz Interview",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260203",
+      "duration_seconds": 3729,
+      "composite_base": 72.8,
+      "like_adjustment": 0,
+      "length_adjustment": -3.22,
+      "rank": 17,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "oB1nMi7t-uo",
+      "title": "The World's Greatest Energy Trader on Markets, China, and AI",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=oB1nMi7t-uo",
+      "status": "ok",
+      "word_count": 14041,
+      "summary_bullets": [
+        "China’s manufacturing speed and scale",
+        "Building the “best seat” in trading",
+        "US energy system and permitting reform",
+        "Philanthropy across multiple systems",
+        "Innovation as source of optimism"
+      ],
+      "composite": 68.95,
+      "audience_level": "general",
+      "display_title": "The World's Greatest Energy Trader on Markets, China, and AI",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260304",
+      "duration_seconds": 4979,
+      "composite_base": 74.25,
+      "like_adjustment": 0,
+      "length_adjustment": -5.3,
+      "rank": 18,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
       "id": "BagWrgPww1o",
       "title": "The Two Harvard Dropouts Who raised $800M to take on NVIDIA",
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=BagWrgPww1o",
       "status": "ok",
+      "word_count": 20027,
       "summary_bullets": [
         "Two Harvard dropouts founded Etched to build AI inference chips.",
         "Raised $800M to compete with NVIDIA.",
@@ -401,7 +807,7 @@
       "composite_base": 74.8,
       "like_adjustment": 0,
       "length_adjustment": -6.25,
-      "rank": 10,
+      "rank": 19,
       "tags": [
         {
           "label": "Substance",
@@ -414,11 +820,89 @@
       ]
     },
     {
+      "id": "EB9V8d3ZYbc",
+      "title": "How AI Is Changing Warfare | Palantir CTO",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=EB9V8d3ZYbc",
+      "status": "ok",
+      "word_count": 18863,
+      "summary_bullets": [
+        "Palantir CTO defines \"heretics\" as founders who defy bureaucracy.",
+        "US lost deterrence; needs re-industrialization and heretics.",
+        "Forward deployed engineering builds software through back-propagation.",
+        "AI value accrues at chips and ontology layers.",
+        "Culture of \"irradiating\" employees with high-stakes projects."
+      ],
+      "composite": 67.88,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "How AI Is Changing Warfare | Palantir CTO",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260310",
+      "duration_seconds": 5350,
+      "composite_base": 73.8,
+      "like_adjustment": 0,
+      "length_adjustment": -5.92,
+      "rank": 20,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "0G1st54tRBI",
+      "title": "Why Now is the Best Time to Buy Public Software Companies",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=0G1st54tRBI",
+      "status": "ok",
+      "word_count": 12636,
+      "summary_bullets": [
+        "Lead Edge Capital uses a systematic investment machine.",
+        "They cold-call 9,000 companies yearly, apply eight criteria.",
+        "LP base of 800 executives provides sourcing and diligence help.",
+        "They aim for consistent 2–5x returns, rarely lose money.",
+        "They sell early, often via secondaries, to lock in returns."
+      ],
+      "composite": 66.43,
+      "audience_level": "practitioner",
+      "display_title": "Why Now is the Best Time to Buy Public Software Companies",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 7,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260324",
+      "duration_seconds": 3639,
+      "composite_base": 69.5,
+      "like_adjustment": 0,
+      "length_adjustment": -3.07,
+      "rank": 21,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
       "id": "S31J5ACsOqU",
       "title": "Legendary Trader Paul Tudor Jones on AI Risk, Bubbles and Buffett",
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=S31J5ACsOqU",
       "status": "ok",
+      "word_count": 11514,
       "summary_bullets": [
         "Kindness story inspired philanthropy",
         "Trader vs investor: alpha vs beta",
@@ -440,7 +924,7 @@
       "composite_base": 68.25,
       "like_adjustment": 0,
       "length_adjustment": -4.13,
-      "rank": 11,
+      "rank": 22,
       "tags": [
         {
           "label": "Specificity",
@@ -454,6 +938,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ThMtheE5eO0",
       "status": "ok",
+      "word_count": 13728,
       "summary_bullets": [
         "Dara took Uber CEO job after Expedia.",
         "Uber uses AI for predictions and operations.",
@@ -474,7 +959,7 @@
       "composite_base": 67,
       "like_adjustment": 0,
       "length_adjustment": -4.13,
-      "rank": 12,
+      "rank": 23,
       "tags": []
     },
     {
@@ -483,6 +968,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=DZt1DDmMNGk",
       "status": "ok",
+      "word_count": 13692,
       "summary_bullets": [
         "AI enterprise penetration under 1%.",
         "S-curve framework predicts exponential growth.",
@@ -503,7 +989,7 @@
       "composite_base": 67.5,
       "like_adjustment": 0,
       "length_adjustment": -5.02,
-      "rank": 13,
+      "rank": 24,
       "tags": [
         {
           "label": "Specificity",
@@ -517,6 +1003,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=vhTi_8QwXjg",
       "status": "ok",
+      "word_count": 12199,
       "summary_bullets": [
         "Tech investing is now mandatory",
         "Evolution from event-driven to quality investing",
@@ -537,7 +1024,7 @@
       "composite_base": 65.75,
       "like_adjustment": 0,
       "length_adjustment": -4.32,
-      "rank": 14,
+      "rank": 25,
       "tags": []
     },
     {
@@ -546,6 +1033,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=3bKLiUU2cb8",
       "status": "ok",
+      "word_count": 11811,
       "summary_bullets": [
         "Founder defines real risk as unknown outcome with shame potential.",
         "Clay started with ambition to democratize programming for non-engineers.",
@@ -566,7 +1054,7 @@
       "composite_base": 59.8,
       "like_adjustment": 0,
       "length_adjustment": -3.02,
-      "rank": 15,
+      "rank": 26,
       "tags": []
     }
   ],

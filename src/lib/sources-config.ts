@@ -11,7 +11,7 @@ export interface DateRange {
 
 export type FetchKind = "youtube" | "essay";
 
-export type EssayFetchAdapter = "paul-graham" | "rss-readability";
+export type EssayFetchAdapter = "paul-graham" | "rss-readability" | "podcast-rss-audio";
 
 export type EssayListingKind =
   | "feed"
@@ -20,7 +20,9 @@ export type EssayListingKind =
   | "openai-blog"
   | "hamel-index"
   | "machine-theory-journal"
-  | "semianalysis-archives";
+  | "semianalysis-archives"
+  | "asterisk-issues"
+  | "collabfund-author";
 
 export interface SourceConfig {
   id: string;
@@ -38,8 +40,6 @@ export interface SourceConfig {
   coverImage: string;
   itemLabel: string;
   pageTitle: string;
-  period?: string;
-  location?: string;
   dateRange?: DateRange;
   fetchWindow?: { days?: number; months?: number };
   maxVideos?: number;
@@ -57,9 +57,7 @@ export const SOURCES: Record<string, SourceConfig> = {
     contentKind: "conference",
     coverImage: "/images/covers/ai-engineer-worlds-fair-2026.jpg",
     itemLabel: "videos",
-    pageTitle: "AI Engineer World's Fair 2026 talks",
-    period: "Jun 2026",
-    location: "San Francisco",
+    pageTitle: "AI Engineer World's Fair 2026",
     fetchWindow: { days: 10 },
     maxDisplayAgeDays: 10,
   },
@@ -136,7 +134,6 @@ export const SOURCES: Record<string, SourceConfig> = {
     catalogUrl: "https://paulgraham.com/articles.html",
     coverImage: "/images/covers/paul-graham.png",
     dateRange: { since: "20200101", until: "20291231" },
-    period: "2020s",
     fetchAdapter: "paul-graham",
     channelName: "Paul Graham",
   }),
@@ -147,7 +144,6 @@ export const SOURCES: Record<string, SourceConfig> = {
     feedUrl: "https://swyx.io/rss.xml",
     coverImage: "/images/covers/swyx-io.png",
     dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
     listingKind: "feed",
     channelName: "swyx.io",
   }),
@@ -157,7 +153,6 @@ export const SOURCES: Record<string, SourceConfig> = {
     catalogUrl: "https://gwern.net/blog/index",
     coverImage: "/images/covers/gwern.png",
     dateRange: { since: "20250101", until: "20261231" },
-    period: "2025–2026",
     listingKind: "gwern-index",
     channelName: "Gwern",
   }),
@@ -168,7 +163,6 @@ export const SOURCES: Record<string, SourceConfig> = {
     feedUrl: "https://simonwillison.net/atom/everything/",
     coverImage: "/images/covers/simon-willison.png",
     dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
     listingKind: "feed",
     channelName: "Simon Willison",
   }),
@@ -178,7 +172,6 @@ export const SOURCES: Record<string, SourceConfig> = {
     catalogUrl: "https://www.anthropic.com/engineering",
     coverImage: "/images/covers/anthropic-engineering.png",
     dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
     listingKind: "anthropic-engineering",
     channelName: "Anthropic Engineering",
   }),
@@ -188,7 +181,6 @@ export const SOURCES: Record<string, SourceConfig> = {
     catalogUrl: "https://developers.openai.com/blog",
     coverImage: "/images/covers/openai-developer-blog.png",
     dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
     listingKind: "openai-blog",
     channelName: "OpenAI Developer Blog",
   }),
@@ -199,7 +191,6 @@ export const SOURCES: Record<string, SourceConfig> = {
     feedUrl: "https://stratechery.com/feed/",
     coverImage: "/images/covers/stratechery.png",
     dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
     listingKind: "feed",
     channelName: "Stratechery",
   }),
@@ -210,7 +201,6 @@ export const SOURCES: Record<string, SourceConfig> = {
     feedUrl: "https://importai.substack.com/feed",
     coverImage: "/images/covers/import-ai.png",
     dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
     listingKind: "feed",
     channelName: "Import AI",
   }),
@@ -220,19 +210,8 @@ export const SOURCES: Record<string, SourceConfig> = {
     catalogUrl: "https://hamel.dev/",
     coverImage: "/images/covers/hamel-dev.png",
     dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
     listingKind: "hamel-index",
     channelName: "Hamel Husain",
-  }),
-  "machine-theory-journal-h1-2026": essaySource({
-    id: "machine-theory-journal-h1-2026",
-    name: "Machine Theory Journal",
-    catalogUrl: "https://machine-theory.com/journal/",
-    coverImage: "/images/covers/machine-theory.png",
-    dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
-    listingKind: "machine-theory-journal",
-    channelName: "kwindla",
   }),
   "semianalysis-q2-2026": essaySource({
     id: "semianalysis-q2-2026",
@@ -241,7 +220,6 @@ export const SOURCES: Record<string, SourceConfig> = {
     feedUrl: "https://newsletter.semianalysis.com/feed",
     coverImage: "/images/covers/semianalysis.png",
     dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
     listingKind: "feed",
     channelName: "SemiAnalysis",
   }),
@@ -252,7 +230,6 @@ export const SOURCES: Record<string, SourceConfig> = {
     feedUrl: "https://www.bensbites.com/feed",
     coverImage: "/images/covers/bens-bites.png",
     dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
     listingKind: "feed",
     channelName: "Ben's Bites",
   }),
@@ -263,7 +240,6 @@ export const SOURCES: Record<string, SourceConfig> = {
     feedUrl: "https://blog.pragmaticengineer.com/rss/",
     coverImage: "/images/covers/pragmatic-engineer.png",
     dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
     listingKind: "feed",
     channelName: "The Pragmatic Engineer",
   }),
@@ -274,22 +250,17 @@ export const SOURCES: Record<string, SourceConfig> = {
     feedUrl: "https://www.construction-physics.com/feed",
     coverImage: "/images/covers/construction-physics.png",
     dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
     listingKind: "feed",
     channelName: "Construction Physics",
   }),
   "asterisk-issue-14-latest": essaySource({
     id: "asterisk-issue-14-latest",
-    name: "Asterisk — Issue 14",
-    catalogUrl: "https://asteriskmag.com/feed",
-    feedUrl: "https://asteriskmag.com/feed",
+    name: "Asterisk",
+    catalogUrl: "https://asteriskmag.com/issues",
     coverImage: "/images/covers/asterisk.png",
     dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
-    listingKind: "feed",
+    listingKind: "asterisk-issues",
     channelName: "Asterisk",
-    maxItems: 5,
-    urlIncludes: "/issues/14/",
   }),
   "odd-lots-q2-2026": quarterlyPodcastSource({
     id: "odd-lots-q2-2026",
@@ -331,9 +302,11 @@ export const SOURCES: Record<string, SourceConfig> = {
     feedUrl: "https://rss.art19.com/how-i-built-this",
     coverImage: "/images/covers/how-i-built-this.png",
     dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
     listingKind: "feed",
     channelName: "How I Built This",
+    fetchAdapter: "podcast-rss-audio",
+    contentKind: "podcast",
+    itemLabel: "episodes",
   }),
   "lennys-podcast-q2-2026": quarterlyPodcastSource({
     id: "lennys-podcast-q2-2026",
@@ -342,17 +315,6 @@ export const SOURCES: Record<string, SourceConfig> = {
     coverImage: "/images/covers/lennys-podcast.png",
     year: 2026,
     quarter: 2,
-  }),
-  "nateliason-q2-2026": essaySource({
-    id: "nateliason-q2-2026",
-    name: "Nat Eliason",
-    catalogUrl: "https://blog.nateliason.com/",
-    feedUrl: "https://blog.nateliason.com/feed",
-    coverImage: "/images/covers/nateliason.png",
-    dateRange: { since: "20260101", until: "20261231" },
-    period: "2026",
-    listingKind: "feed",
-    channelName: "Nat Eliason",
   }),
   "founders-podcast-q2-2026": quarterlyPodcastSource({
     id: "founders-podcast-q2-2026",
@@ -394,6 +356,113 @@ export const SOURCES: Record<string, SourceConfig> = {
     coverImage: "/images/covers/iltb-podcast.png",
     year: 2026,
     quarter: 2,
+  }),
+  "cal-newport-2026": quarterlyPodcastSource({
+    id: "cal-newport-2026",
+    name: "Deep Questions with Cal Newport",
+    channelUrl: "https://www.youtube.com/channel/UCIhJnsJ0IHlVNnYfp-gw_5Q/videos",
+    coverImage: "/images/covers/cal-newport.png",
+    year: 2026,
+    quarter: 2,
+  }),
+  "kenji-lopez-alt-2026": quarterlyPodcastSource({
+    id: "kenji-lopez-alt-2026",
+    name: "J. Kenji López-Alt",
+    channelUrl: "https://www.youtube.com/channel/UCqqJQ_cXSat0KIAVfIfKkVA/videos",
+    coverImage: "/images/covers/kenji-lopez-alt.png",
+    year: 2026,
+    quarter: 2,
+    contentKind: "channel",
+  }),
+  "morgan-housel-2026": essaySource({
+    id: "morgan-housel-2026",
+    name: "Morgan Housel",
+    catalogUrl: "https://collabfund.com/blog/authors/morgan/",
+    coverImage: "/images/covers/morgan-housel.png",
+    dateRange: { since: "20260101", until: "20261231" },
+    listingKind: "collabfund-author",
+    channelName: "Morgan Housel",
+  }),
+  "ramit-sethi-2026": quarterlyPodcastSource({
+    id: "ramit-sethi-2026",
+    name: "I Will Teach You To Be Rich",
+    channelUrl: "https://www.youtube.com/channel/UC7ZddA__ewP3AtDefjl_tWg/videos",
+    coverImage: "/images/covers/ramit-sethi.png",
+    year: 2026,
+    quarter: 2,
+  }),
+  "ten-percent-happier-2026": quarterlyPodcastSource({
+    id: "ten-percent-happier-2026",
+    name: "Ten Percent Happier",
+    channelUrl: "https://www.youtube.com/channel/UCb3AWCFuxotrXmgqUHQdwyg/videos",
+    coverImage: "/images/covers/ten-percent-happier.png",
+    year: 2026,
+    quarter: 2,
+  }),
+  "happiness-lab-2026": quarterlyPodcastSource({
+    id: "happiness-lab-2026",
+    name: "The Happiness Lab",
+    channelUrl: "https://www.youtube.com/channel/UCFfUSTVKFCfXl6PVyG08zxg/videos",
+    coverImage: "/images/covers/happiness-lab.png",
+    year: 2026,
+    quarter: 2,
+  }),
+  "good-inside-2026": quarterlyPodcastSource({
+    id: "good-inside-2026",
+    name: "Good Inside",
+    channelUrl: "https://www.youtube.com/channel/UCQcifo_12x84Uji6h1TVmKg/videos",
+    coverImage: "/images/covers/good-inside.png",
+    year: 2026,
+    quarter: 2,
+  }),
+  "raising-good-humans-2026": quarterlyPodcastSource({
+    id: "raising-good-humans-2026",
+    name: "Raising Good Humans",
+    channelUrl: "https://www.youtube.com/channel/UCnvXghklCyl2wAmv450OLDg/videos",
+    coverImage: "/images/covers/raising-good-humans.png",
+    year: 2026,
+    quarter: 2,
+  }),
+  "emily-oster-2026": quarterlyPodcastSource({
+    id: "emily-oster-2026",
+    name: "ParentData",
+    channelUrl: "https://www.youtube.com/channel/UCbZpfvf0BfHBvEuH8d9Fk9Q/videos",
+    coverImage: "/images/covers/emily-oster.png",
+    year: 2026,
+    quarter: 2,
+  }),
+  "barbell-medicine-2026": quarterlyPodcastSource({
+    id: "barbell-medicine-2026",
+    name: "Barbell Medicine",
+    channelUrl: "https://www.youtube.com/channel/UCMcGFPjX2aQy31KYdEvT2-Q/videos",
+    coverImage: "/images/covers/barbell-medicine.png",
+    year: 2026,
+    quarter: 2,
+  }),
+  "david-burns-2026": quarterlyPodcastSource({
+    id: "david-burns-2026",
+    name: "Feeling Great",
+    channelUrl: "https://www.youtube.com/channel/UCX9nw7Y0FJcDb-QfYWSjwIQ/videos",
+    coverImage: "/images/covers/david-burns.png",
+    year: 2026,
+    quarter: 2,
+  }),
+  "tim-ferriss-2026": quarterlyPodcastSource({
+    id: "tim-ferriss-2026",
+    name: "The Tim Ferriss Show",
+    channelUrl: "https://www.youtube.com/channel/UCznv7Vf9nBdJYvBagFdAHWw/videos",
+    coverImage: "/images/covers/tim-ferriss.png",
+    year: 2026,
+    quarter: 2,
+  }),
+  "ali-abdaal-2026": quarterlyPodcastSource({
+    id: "ali-abdaal-2026",
+    name: "Ali Abdaal",
+    channelUrl: "https://www.youtube.com/channel/UCoOae5nYA7VqaXzerajD0lg/videos",
+    coverImage: "/images/covers/ali-abdaal.png",
+    year: 2026,
+    quarter: 2,
+    contentKind: "channel",
   }),
 };
 

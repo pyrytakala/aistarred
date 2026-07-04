@@ -3,7 +3,6 @@ import { CONTENT_KIND_LABELS } from "./lib/content-kind.js";
 import { contentKindIconSvg } from "./lib/content-kind-icon.js";
 import { loadSourcesManifest } from "./lib/sources-manifest.js";
 import { sourcePagePath } from "./lib/source-urls.js";
-import { sourceSubtitle } from "./lib/public-source.js";
 import type { PublicSource } from "./lib/public-source.js";
 
 function renderCover(source: PublicSource): HTMLElement {
@@ -55,14 +54,6 @@ function renderCard(source: PublicSource): HTMLLIElement {
   }
 
   body.appendChild(titleRow);
-
-  const subtitle = sourceSubtitle(source);
-  if (subtitle) {
-    const meta = document.createElement("span");
-    meta.className = "source-card-meta";
-    meta.textContent = subtitle;
-    body.appendChild(meta);
-  }
 
   link.appendChild(body);
   item.appendChild(link);

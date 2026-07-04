@@ -10,8 +10,6 @@ export interface PublicSource {
   contentKind: SourceConfig["contentKind"];
   itemLabel: string;
   coverImage: string;
-  period?: string;
-  location?: string;
   dateRange?: SourceConfig["dateRange"];
   maxDisplayAgeDays: number | null;
   rankedCount?: number;
@@ -32,24 +30,11 @@ export function toPublicSource(source: SourceConfig): PublicSource {
     contentKind: source.contentKind,
     itemLabel: source.itemLabel,
     coverImage: source.coverImage,
-    period: source.period,
-    location: source.location,
     dateRange: source.dateRange,
     maxDisplayAgeDays: source.maxDisplayAgeDays,
     primaryCategory: primaryCategoryForSource(source.id),
     categories: categoriesForSource(source.id),
   };
-}
-
-export function sourceSubtitle(source: PublicSource): string {
-  const parts: string[] = [];
-  if (source.period) {
-    parts.push(source.period);
-  }
-  if (source.location) {
-    parts.push(source.location);
-  }
-  return parts.join(" · ");
 }
 
 export function topPicksHeading(source: PublicSource): string {

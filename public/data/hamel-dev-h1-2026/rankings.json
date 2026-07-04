@@ -10,6 +10,7 @@
       "speakers": "Hamel Husain",
       "url": "https://hamel.dev/blog/posts/eval-smell/index.html",
       "status": "ok",
+      "word_count": 3339,
       "summary_bullets": [
         "\"Hard to eval\" signals product design flaw.",
         "Design outputs for user verification first.",
@@ -53,6 +54,7 @@
       "speakers": "Hamel Husain",
       "url": "https://hamel.dev/blog/posts/revenge/index.html",
       "status": "ok",
+      "word_count": 1606,
       "summary_bullets": [
         "Data scientists still needed for LLM evaluation.",
         "Five common eval pitfalls identified.",
@@ -95,6 +97,7 @@
       "speakers": "Hamel Husain",
       "url": "https://hamel.dev/blog/posts/evals-faq/index.html",
       "status": "ok",
+      "word_count": 10790,
       "summary_bullets": [
         "Error analysis is the most important eval activity.",
         "Binary pass/fail evals beat Likert scales.",
@@ -138,6 +141,7 @@
       "speakers": "Hamel Husain",
       "url": "https://hamel.dev/blog/posts/ai-stack/index.html",
       "status": "ok",
+      "word_count": 877,
       "summary_bullets": [
         "Author stopped using nbdev due to AI tools.",
         "AI struggles with idiosyncratic notebook workflows.",

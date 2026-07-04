@@ -6,6 +6,9 @@ import type { DateRange } from "./sources.js";
 import { isWithinDateRange } from "./date-range.js";
 import { isEligibleForScoring, MIN_SCORED_DURATION_SECONDS } from "./scoring-limits.js";
 import { pipelineLogSync } from "./pipeline-log.js";
+import { stageLog } from "./stage-log.js";
+
+const UPLOAD_DATE_BATCH_SIZE = 25;
 
 function resolveYtDlpCommand(): string[] | null {
   return resolveYtDlpCommandFrom();
@@ -62,28 +65,45 @@ export function listChannelVideosWithYtDlp(
 }
 
 function fetchUploadDateWithYtDlp(ytDlp: string[], videoId: string): string | null {
+  const dates = fetchUploadDatesBatch(ytDlp, [videoId]);
+  return dates.get(videoId) ?? null;
+}
+
+function fetchUploadDatesBatch(ytDlp: string[], videoIds: string[]): Map<string, string | null> {
+  const dates = new Map<string, string | null>();
+  if (!videoIds.length) {
+    return dates;
+  }
+
   const result = spawnSync(
     ytDlp[0],
     [
       ...ytDlp.slice(1),
+      "--ignore-errors",
       "--no-warnings",
       "--print",
-      "%(upload_date)s",
-      `https://www.youtube.com/watch?v=${videoId}`,
+      "%(id)s\t%(upload_date)s",
+      ...videoIds.map((videoId) => `https://www.youtube.com/watch?v=${videoId}`),
     ],
-    { encoding: "utf8" },
+    { encoding: "utf8", maxBuffer: 32 * 1024 * 1024 },
   );
 
-  if (result.status !== 0) {
-    return null;
+  for (const line of result.stdout.split(/\r?\n/)) {
+    if (!line.trim()) {
+      continue;
+    }
+    const [videoId, uploadDate] = line.split("\t");
+    if (!videoId) {
+      continue;
+    }
+    if (!uploadDate || uploadDate === "NA" || uploadDate.length !== 8) {
+      dates.set(videoId, null);
+      continue;
+    }
+    dates.set(videoId, uploadDate);
   }
 
-  const uploadDate = result.stdout.trim();
-  if (!uploadDate || uploadDate === "NA" || uploadDate.length !== 8) {
-    return null;
-  }
-
-  return uploadDate;
+  return dates;
 }
 
 function listFlatPlaylistEntries(
@@ -148,47 +168,89 @@ function listChannelVideosWithDateProbe(
     dateRange: DateRange;
     maxVideos?: number | null;
     titleIncludes?: string;
+    sourceId?: string;
   },
 ): Array<[string, Record<string, unknown>]> {
   const flatEntries = filterFlatEntriesByTitle(
     listFlatPlaylistEntries(ytDlp, channelUrl),
     options.titleIncludes,
   );
+  const eligibleEntries = flatEntries.filter((entry) => isEligibleForScoring(entry.durationSeconds));
   const videos: Array<[string, Record<string, unknown>]> = [];
+  let probesRun = 0;
 
-  for (const entry of flatEntries) {
-    if (!isEligibleForScoring(entry.durationSeconds)) {
-      continue;
-    }
+  stageLog("yt-fetch", "probing upload dates", {
+    sourceId: options.sourceId ?? null,
+    flatEntries: flatEntries.length,
+    eligibleEntries: eligibleEntries.length,
+    batchSize: UPLOAD_DATE_BATCH_SIZE,
+  });
 
-    const uploadDate = fetchUploadDateWithYtDlp(ytDlp, entry.videoId);
-    if (!uploadDate) {
-      continue;
-    }
+  for (let offset = 0; offset < eligibleEntries.length; offset += UPLOAD_DATE_BATCH_SIZE) {
+    const batch = eligibleEntries.slice(offset, offset + UPLOAD_DATE_BATCH_SIZE);
+    const dates = fetchUploadDatesBatch(
+      ytDlp,
+      batch.map((entry) => entry.videoId),
+    );
+    probesRun += batch.length;
 
-    if (!isWithinDateRange(uploadDate, options.dateRange)) {
-      if (uploadDate < options.dateRange.since) {
-        break;
+    let reachedBeforeRange = false;
+    for (const entry of batch) {
+      const uploadDate = dates.get(entry.videoId) ?? null;
+      if (!uploadDate) {
+        continue;
       }
-      continue;
+
+      if (!isWithinDateRange(uploadDate, options.dateRange)) {
+        if (uploadDate < options.dateRange.since) {
+          reachedBeforeRange = true;
+          break;
+        }
+        continue;
+      }
+
+      videos.push([
+        entry.videoId,
+        {
+          videoId: entry.videoId,
+          title: entry.title,
+          published: uploadDateToIso(uploadDate),
+          upload_date: uploadDate,
+          lengthText: formatSecondsAsLengthText(entry.durationSeconds),
+          duration_seconds: entry.durationSeconds,
+        },
+      ]);
+
+      if (options.maxVideos != null && videos.length >= options.maxVideos) {
+        stageLog("yt-fetch", "date probe finished", {
+          sourceId: options.sourceId ?? null,
+          matched: videos.length,
+          probesRun,
+          reason: "maxVideos",
+        });
+        return videos;
+      }
     }
 
-    videos.push([
-      entry.videoId,
-      {
-        videoId: entry.videoId,
-        title: entry.title,
-        published: uploadDateToIso(uploadDate),
-        upload_date: uploadDate,
-        lengthText: formatSecondsAsLengthText(entry.durationSeconds),
-        duration_seconds: entry.durationSeconds,
-      },
-    ]);
-
-    if (options.maxVideos != null && videos.length >= options.maxVideos) {
+    if (reachedBeforeRange) {
       break;
     }
+
+    if (probesRun % 50 === 0 || offset + UPLOAD_DATE_BATCH_SIZE >= eligibleEntries.length) {
+      stageLog("yt-fetch", "date probe progress", {
+        sourceId: options.sourceId ?? null,
+        matched: videos.length,
+        probesRun,
+        eligibleEntries: eligibleEntries.length,
+      });
+    }
   }
+
+  stageLog("yt-fetch", "date probe finished", {
+    sourceId: options.sourceId ?? null,
+    matched: videos.length,
+    probesRun,
+  });
 
   return videos;
 }
@@ -212,6 +274,7 @@ function listChannelVideosWithYtDlpInner(
       dateRange: options.dateRange,
       maxVideos: options.maxVideos,
       titleIncludes: options.titleIncludes,
+      sourceId: options.sourceId,
     });
   }
 

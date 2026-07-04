@@ -1,8 +1,8 @@
 {
   "source_id": "pmf-show-q2-2026",
-  "video_count": 20,
-  "scored_count": 20,
-  "ranked_count": 20,
+  "video_count": 37,
+  "scored_count": 37,
+  "ranked_count": 37,
   "rankings": [
     {
       "id": "eptnp4zu_2o",
@@ -10,24 +10,30 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=eptnp4zu_2o",
       "status": "ok",
+      "word_count": 1912,
       "summary_bullets": [
-        "VCs earn 2% annual management fees.",
-        "Fund stacking creates guaranteed income.",
-        "Top 2 investments drive most returns.",
-        "Carried interest only after fund return."
+        "VCs earn guaranteed fees from management.",
+        "Funds charge 2% annual fee, 20% profits.",
+        "VCs need “fund returners” to succeed.",
+        "Most VC returns come from top investments.",
+        "VCs prioritize raising larger funds for fees."
       ],
-      "composite": 87.75,
+      "composite": 84,
       "confidence": "High",
-      "audience_level": "general",
+      "audience_level": "practitioner",
+      "display_title": "How Venture Capitalists Actually Make Money (Explained by a VC)",
       "substance": 8.5,
-      "evidence": 7.5,
+      "evidence": 6.5,
       "specificity": 9,
-      "insight_density": 9.5,
-      "non_promotion": 10,
+      "insight_density": 9,
+      "non_promotion": 9.5,
+      "practical_utility": 8.5,
       "like_count": null,
       "upload_date": "20260611",
       "duration_seconds": 559,
-      "composite_base": 87.75,
+      "composite_base": 84,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -45,10 +51,12 @@
         {
           "label": "Non-promo",
           "tone": "positive"
+        },
+        {
+          "label": "Utility",
+          "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "CYlBl8IRvZk",
@@ -56,6 +64,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=CYlBl8IRvZk",
       "status": "ok",
+      "word_count": 4667,
       "summary_bullets": [
         "Build list of 50 qualified VCs.",
         "Engineer intros through trusted sources.",
@@ -75,6 +84,8 @@
       "upload_date": "20260507",
       "duration_seconds": 1282,
       "composite_base": 78.25,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
       "rank": 2,
       "tags": [
         {
@@ -89,9 +100,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": 0
+      ]
     },
     {
       "id": "yM0q581LZbQ",
@@ -99,6 +108,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=yM0q581LZbQ",
       "status": "ok",
+      "word_count": 11713,
       "summary_bullets": [
         "Pivoted from failed YC idea to voice AI.",
         "180 VCs rejected him in 2023.",
@@ -117,6 +127,8 @@
       "upload_date": "20260420",
       "duration_seconds": 3143,
       "composite_base": 78,
+      "like_adjustment": 0,
+      "length_adjustment": -2.24,
       "rank": 3,
       "tags": [
         {
@@ -131,9 +143,52 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "uPc7IY-Q33U",
+      "title": "He raised $41M in one year to replace enterprise accountants with AI. | Yogi Goel, Founder of Maxima",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=uPc7IY-Q33U",
+      "status": "ok",
+      "word_count": 8613,
+      "summary_bullets": [
+        "Maxima uses AI agents for enterprise accounting.",
+        "Raised $41M in one year from top VCs.",
+        "Replaces manual accounting with deterministic AI.",
+        "Customers include Scale AI, Rippling, Carta.",
+        "Founder spent 20 years in accounting, saw pain point."
       ],
+      "composite": 75.62,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "He raised $41M in one year to replace enterprise accountants with AI. | Yogi Goel, Founder of Maxima",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260326",
+      "duration_seconds": 2630,
+      "composite_base": 77,
       "like_adjustment": 0,
-      "length_adjustment": -2.24
+      "length_adjustment": -1.38,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "YBdZxP-xObk",
@@ -141,6 +196,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=YBdZxP-xObk",
       "status": "ok",
+      "word_count": 8770,
       "summary_bullets": [
         "Series A valuations nearly doubled in 3 years.",
         "Median Series A ARR now ~$3.5M.",
@@ -160,7 +216,9 @@
       "upload_date": "20260525",
       "duration_seconds": 2309,
       "composite_base": 75.5,
-      "rank": 4,
+      "like_adjustment": 0,
+      "length_adjustment": -0.85,
+      "rank": 5,
       "tags": [
         {
           "label": "Substance",
@@ -170,9 +228,7 @@
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.85
+      ]
     },
     {
       "id": "ehYLupfD3Ro",
@@ -180,6 +236,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=ehYLupfD3Ro",
       "status": "ok",
+      "word_count": 12632,
       "summary_bullets": [
         "Validation requires real money, not just feedback.",
         "Churned 100% of revenue to pivot to healthcare.",
@@ -193,10 +250,10 @@
       "upload_date": "20260608",
       "duration_seconds": 3181,
       "composite_base": 76,
-      "rank": 5,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.3
+      "length_adjustment": -2.3,
+      "rank": 6,
+      "tags": []
     },
     {
       "id": "lIuphzLwIFA",
@@ -204,6 +261,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=lIuphzLwIFA",
       "status": "ok",
+      "word_count": 12250,
       "summary_bullets": [
         "First-time founder built AI for supply chain back office.",
         "Started with Slack bot for 3PLs, then rebuilt for enterprise.",
@@ -223,7 +281,9 @@
       "upload_date": "20260504",
       "duration_seconds": 3347,
       "composite_base": 76,
-      "rank": 6,
+      "like_adjustment": 0,
+      "length_adjustment": -2.58,
+      "rank": 7,
       "tags": [
         {
           "label": "Substance",
@@ -237,9 +297,88 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "oRgMPDBvBl4",
+      "title": "His startup powers OpenAI's Voice Mode. Last month, they became a unicorn. | Russ d’Sa, Co-Founde...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=oRgMPDBvBl4",
+      "status": "ok",
+      "word_count": 12116,
+      "summary_bullets": [
+        "LiveKit provides real-time audio/video infrastructure.",
+        "OpenAI uses LiveKit for ChatGPT voice mode.",
+        "Russ sold previous startup Eevee to Medium.",
+        "LiveKit pivoted from video conferencing to voice AI.",
+        "Product-market fit realized after OpenAI partnership."
       ],
+      "composite": 73.27,
+      "audience_level": "practitioner",
+      "display_title": "His startup powers OpenAI's Voice Mode. Last month, they became a unicorn. | Russ d’Sa, Co-Founder of LiveKit",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260223",
+      "duration_seconds": 3319,
+      "composite_base": 75.8,
       "like_adjustment": 0,
-      "length_adjustment": -2.58
+      "length_adjustment": -2.53,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "K1KXbQVEx4Q",
+      "title": "How he grew his AI startup from $2M to $20M ARR in 12 months. | Omar Haroun, Co-Founder of Eudia",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=K1KXbQVEx4Q",
+      "status": "ok",
+      "word_count": 11089,
+      "summary_bullets": [
+        "AI is future of labor, not software.",
+        "In-house legal teams are core customers.",
+        "Data platform before AI is key.",
+        "Bought a legal services company to accelerate.",
+        "Grew from $2M to $20M ARR in 12 months."
+      ],
+      "composite": 72.85,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "How he grew his AI startup from $2M to $20M ARR in 12 months. | Omar Haroun, Co-Founder of Eudia",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260319",
+      "duration_seconds": 2970,
+      "composite_base": 74.8,
+      "like_adjustment": 0,
+      "length_adjustment": -1.95,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "c3_IgIWv16Y",
@@ -247,6 +386,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=c3_IgIWv16Y",
       "status": "ok",
+      "word_count": 4775,
       "summary_bullets": [
         "Build list of 50+ qualified VCs.",
         "Engineer warm intros through network.",
@@ -266,15 +406,56 @@
       "upload_date": "20260518",
       "duration_seconds": 1308,
       "composite_base": 71.75,
-      "rank": 7,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 10,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "TVQQ3EbMLFU",
+      "title": "How I grew to $3M ARR in 6 months—& to a $1B valuation in 2 years. | Jay, Founder of Eve Legal",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=TVQQ3EbMLFU",
+      "status": "ok",
+      "word_count": 10978,
+      "summary_bullets": [
+        "Pivoted from horizontal NLP to legal AI for plaintiffs.",
+        "Saw 40% cold outreach to demo conversion rate.",
+        "Users bypassed restrictions to invite colleagues.",
+        "Hit $1M ARR in first quarter after GA.",
+        "Take away product to test PMF by seeing who complains."
       ],
+      "composite": 71.02,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "How I grew to $3M ARR in 6 months—& to a $1B valuation in 2 years. | Jay, Founder of Eve Legal",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260210",
+      "duration_seconds": 3137,
+      "composite_base": 73.25,
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": -2.23,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "RmtykXhqwAo",
@@ -282,6 +463,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=RmtykXhqwAo",
       "status": "ok",
+      "word_count": 9973,
       "summary_bullets": [
         "Founder describes product-market fit moment.",
         "Cold email: 500k emails, 5k replies.",
@@ -301,7 +483,9 @@
       "upload_date": "20260601",
       "duration_seconds": 2573,
       "composite_base": 72,
-      "rank": 8,
+      "like_adjustment": 0,
+      "length_adjustment": -1.29,
+      "rank": 12,
       "tags": [
         {
           "label": "Specificity",
@@ -311,9 +495,7 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.29
+      ]
     },
     {
       "id": "5Nnt-LLfqRc",
@@ -321,6 +503,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=5Nnt-LLfqRc",
       "status": "ok",
+      "word_count": 10955,
       "summary_bullets": [
         "Launched V1 within a week of YC.",
         "Found ICP is working professionals, not students.",
@@ -340,15 +523,51 @@
       "upload_date": "20260416",
       "duration_seconds": 3141,
       "composite_base": 72.8,
-      "rank": 9,
+      "like_adjustment": 0,
+      "length_adjustment": -2.24,
+      "rank": 13,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "ezzkocs-huY",
+      "title": "He failed for 5 years. Then hit $20M ARR with 100% outbound. | Didi Gurfinkel, Founder of Datarails",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ezzkocs-huY",
+      "status": "ok",
+      "word_count": 6346,
+      "summary_bullets": [
+        "Founder spent 5 years before product-market fit.",
+        "Pivoted to FP&A (financial planning) vertical.",
+        "Used outbound sales to reach $20M ARR.",
+        "Removed barriers like low price ($800/month) to test PMF.",
+        "Hired native English speaker for sales due to accent."
       ],
+      "composite": 69.4,
+      "audience_level": "practitioner",
+      "display_title": "He failed for 5 years. Then hit $20M ARR with 100% outbound. | Didi Gurfinkel, Founder of Datarails",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260226",
+      "duration_seconds": 2309,
+      "composite_base": 70.25,
       "like_adjustment": 0,
-      "length_adjustment": -2.24
+      "length_adjustment": -0.85,
+      "rank": 14,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "792_m7oqWRE",
@@ -356,6 +575,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=792_m7oqWRE",
       "status": "ok",
+      "word_count": 2358,
       "summary_bullets": [
         "95% of founders fail to reach product-market fit.",
         "Research mode must come before startup mode.",
@@ -374,7 +594,9 @@
       "upload_date": "20260529",
       "duration_seconds": 737,
       "composite_base": 69,
-      "rank": 10,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 15,
       "tags": [
         {
           "label": "Specificity",
@@ -388,9 +610,44 @@
           "label": "Non-promo",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "6BjCzEmqfvY",
+      "title": "He launched a free product for enterprise customers—then grew to $12M ARR in 2 years. | Bhaskar S...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=6BjCzEmqfvY",
+      "status": "ok",
+      "word_count": 9610,
+      "summary_bullets": [
+        "AppDynamics disrupted APM with \"business transactions\" (e.g., login, checkout).",
+        "Free product (AppDynamics Light) generated 60%+ of leads.",
+        "Production proof-of-concepts in hours, not weeks.",
+        "Sold to ops leads, not developers.",
+        "Grew from $2M to $12M ARR in second year."
       ],
+      "composite": 68.8,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "He launched a free product for enterprise customers—then grew to $12M ARR in 2 years. | Bhaskar S...",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260330",
+      "duration_seconds": 2700,
+      "composite_base": 70.3,
       "like_adjustment": 0,
-      "length_adjustment": 0
+      "length_adjustment": -1.5,
+      "rank": 16,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "Sp1KDfLXHhU",
@@ -398,6 +655,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Sp1KDfLXHhU",
       "status": "ok",
+      "word_count": 6808,
       "summary_bullets": [
         "AI agents automate \"human glue\" between enterprise systems.",
         "Emma started before ChatGPT, now closing 7-figure deals.",
@@ -416,15 +674,15 @@
       "upload_date": "20260511",
       "duration_seconds": 2248,
       "composite_base": 69.5,
-      "rank": 11,
+      "like_adjustment": 0,
+      "length_adjustment": -0.75,
+      "rank": 17,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -0.75
+      ]
     },
     {
       "id": "s1USTsediXw",
@@ -432,6 +690,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=s1USTsediXw",
       "status": "ok",
+      "word_count": 9363,
       "summary_bullets": [
         "Quit Stripe, founded Render.",
         "$10M ARR in ~4 years.",
@@ -450,15 +709,15 @@
       "upload_date": "20260629",
       "duration_seconds": 2864,
       "composite_base": 69.8,
-      "rank": 12,
+      "like_adjustment": 0,
+      "length_adjustment": -1.77,
+      "rank": 18,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ],
-      "like_adjustment": 0,
-      "length_adjustment": -1.77
+      ]
     },
     {
       "id": "xswW6KYqpS4",
@@ -466,6 +725,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=xswW6KYqpS4",
       "status": "ok",
+      "word_count": 11853,
       "summary_bullets": [
         "Amanda founded Six Sense, a $5B startup.",
         "One Mind uses AI to replace salespeople.",
@@ -485,7 +745,9 @@
       "upload_date": "20260423",
       "duration_seconds": 3080,
       "composite_base": 70,
-      "rank": 13,
+      "like_adjustment": 0,
+      "length_adjustment": -2.13,
+      "rank": 19,
       "tags": [
         {
           "label": "Specificity",
@@ -495,9 +757,44 @@
           "label": "Insight",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "_u1XynQTm0Y",
+      "title": "He made 0 sales for the first 8 months. Now he does $200M+ ARR. | Ryan Anderson, Founder of Filevine",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=_u1XynQTm0Y",
+      "status": "ok",
+      "word_count": 13018,
+      "summary_bullets": [
+        "Lawyer built task management tool for himself",
+        "Zero sales for eight months after launch",
+        "Instagram ads unexpectedly drove first growth",
+        "Competed with Salesforce-based rival and won",
+        "AI now generates more revenue than core product"
       ],
+      "composite": 67.83,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "He made 0 sales for the first 8 months. Now he does $200M+ ARR. | Ryan Anderson, Founder of Filevine",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260309",
+      "duration_seconds": 3404,
+      "composite_base": 70.5,
       "like_adjustment": 0,
-      "length_adjustment": -2.13
+      "length_adjustment": -2.67,
+      "rank": 20,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "6JnjoTUjSoc",
@@ -505,6 +802,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=6JnjoTUjSoc",
       "status": "ok",
+      "word_count": 8054,
       "summary_bullets": [
         "Raised $10M seed with zero revenue.",
         "Grew from $1M to $30M GMV in year two.",
@@ -518,10 +816,10 @@
       "upload_date": "20260413",
       "duration_seconds": 2365,
       "composite_base": 67.8,
-      "rank": 14,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -0.94
+      "length_adjustment": -0.94,
+      "rank": 21,
+      "tags": []
     },
     {
       "id": "hWdac2gyngg",
@@ -529,6 +827,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=hWdac2gyngg",
       "status": "ok",
+      "word_count": 10559,
       "summary_bullets": [
         "Shut down startup, returned money due to small market",
         "Hit $1M ARR in 6 months with new company",
@@ -548,15 +847,89 @@
       "upload_date": "20260622",
       "duration_seconds": 2766,
       "composite_base": 68,
-      "rank": 15,
+      "like_adjustment": 0,
+      "length_adjustment": -1.61,
+      "rank": 22,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "4g62tQKkAw4",
+      "title": "He moved to the US with nothing. Now he does $750M ARR. | Mateo Marietti, Founder of CookUnity",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=4g62tQKkAw4",
+      "status": "ok",
+      "word_count": 11403,
+      "summary_bullets": [
+        "Second-time entrepreneur moved from Argentina to US.",
+        "Pivoted from on-demand to weekly meal plan subscription.",
+        "Found product-market fit through customer ordering patterns.",
+        "COVID brought famous chefs, driving PR-led growth.",
+        "Reached $750M ARR with 2-month payback unit economics."
       ],
+      "composite": 66.36,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "He moved to the US with nothing. Now he does $750M ARR. | Mateo Marietti, Founder of CookUnity",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 6.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260316",
+      "duration_seconds": 3385,
+      "composite_base": 69,
       "like_adjustment": 0,
-      "length_adjustment": -1.61
+      "length_adjustment": -2.64,
+      "rank": 23,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "SyQ_Qgu1rKI",
+      "title": "He built heads down for a year. Then landed a $1M contract. | Sam Jones, Co-Founder of Method Sec...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=SyQ_Qgu1rKI",
+      "status": "ok",
+      "word_count": 9440,
+      "summary_bullets": [
+        "Built security startup from Air Force/Palantir experience.",
+        "Raised $5.5M seed, $20M Series A.",
+        "Sold $1M+ contract to government customer.",
+        "Maintains lean 19-person team, 16 engineers.",
+        "Enterprise sales require understanding budgeting cycles."
+      ],
+      "composite": 66.28,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "He built heads down for a year. Then landed a $1M contract. | Sam Jones, Co-Founder of Method Security",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260305",
+      "duration_seconds": 2714,
+      "composite_base": 67.8,
+      "like_adjustment": 0,
+      "length_adjustment": -1.52,
+      "rank": 24,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
     },
     {
       "id": "P-Nse7c9gS4",
@@ -564,6 +937,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=P-Nse7c9gS4",
       "status": "ok",
+      "word_count": 11104,
       "summary_bullets": [
         "Stout automates accounts receivable with AI agents.",
         "Founder pre-sold $65k contracts before product existed.",
@@ -582,15 +956,184 @@
       "upload_date": "20260402",
       "duration_seconds": 2837,
       "composite_base": 68,
-      "rank": 16,
+      "like_adjustment": 0,
+      "length_adjustment": -1.73,
+      "rank": 25,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "6FSRplFq6gI",
+      "title": "She raised $20M from Accel to replace QuickBooks with AI. | Helen Hastings, Founder of Quanta",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=6FSRplFq6gI",
+      "status": "ok",
+      "word_count": 11686,
+      "summary_bullets": [
+        "User research: 200+ conversations before building.",
+        "Started with services, not pure software.",
+        "Grew 20–60% month-over-month in 2025.",
+        "Had to pause onboarding due to too many customers.",
+        "Raised $4.7M seed pre-product, $15M series A."
       ],
+      "composite": 66.13,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "She raised $20M from Accel to replace QuickBooks with AI. | Helen Hastings, Founder of Quanta",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260319",
+      "duration_seconds": 3400,
+      "composite_base": 68.8,
       "like_adjustment": 0,
-      "length_adjustment": -1.73
+      "length_adjustment": -2.67,
+      "rank": 26,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "13xEgQPZrGY",
+      "title": "He exited for $100M+. Then raised $250M in 18 months. | Dileep Thazhmon, Founder of Jeeves",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=13xEgQPZrGY",
+      "status": "ok",
+      "word_count": 13483,
+      "summary_bullets": [
+        "Exited previous startup for $106M",
+        "Raised $250M in 18 months for Jeeves",
+        "Focus on one KPI like “monkey with hammer”",
+        "Started with US cards, ate FX to prove demand",
+        "Turned off customers in 2023 to achieve sustainability"
+      ],
+      "composite": 65.91,
+      "audience_level": "practitioner",
+      "display_title": "He exited for $100M+. Then raised $250M in 18 months. | Dileep Thazhmon, Founder of Jeeves",
+      "like_count": null,
+      "upload_date": "20260216",
+      "duration_seconds": 3355,
+      "composite_base": 68.5,
+      "like_adjustment": 0,
+      "length_adjustment": -2.59,
+      "rank": 27,
+      "tags": []
+    },
+    {
+      "id": "p2gjTaHv-50",
+      "title": "He raised $150M with $0 revenue. Then hit $1M ARR in 4 months. | Michel Tricot, Co-Founder of Air...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=p2gjTaHv-50",
+      "status": "ok",
+      "word_count": 9136,
+      "summary_bullets": [
+        "Raised $150M before any revenue.",
+        "Hit $1M ARR in 4 months after cloud launch.",
+        "Pivoted from marketing attribution to open-source data pipes.",
+        "PMF signal: users adopt incomplete product for hard problems.",
+        "Open-source community built via Slack, Hacker News, and CDK."
+      ],
+      "composite": 65.7,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "He raised $150M with $0 revenue. Then hit $1M ARR in 4 months. | Michel Tricot, Co-Founder of Airbyte",
+      "substance": 7,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260302",
+      "duration_seconds": 2580,
+      "composite_base": 67,
+      "like_adjustment": 0,
+      "length_adjustment": -1.3,
+      "rank": 28,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "MJWZ6nADEGw",
+      "title": "It took him 4 years to launch—then he hit $1M ARR in 30 days. | Siqi Chen, Founder of Runway",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=MJWZ6nADEGw",
+      "status": "ok",
+      "word_count": 11077,
+      "summary_bullets": [
+        "4 years to launch, then $1M ARR in 30 days",
+        "Finance tools are broken; Runway aims to fix them",
+        "Product-market fit is a continuum, not a single event",
+        "Taste and stamina matter more than intelligence",
+        "Launch campaign used time-locked mystery bags"
+      ],
+      "composite": 65.08,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "It took him 4 years to launch—then he hit $1M ARR in 30 days. | Siqi Chen, Founder of Runway",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260105",
+      "duration_seconds": 3399,
+      "composite_base": 67.75,
+      "like_adjustment": 0,
+      "length_adjustment": -2.67,
+      "rank": 29,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "_C-BjEiLzBk",
+      "title": "He wrote the book on Account Based Marketing. Here are his GTM secrets for enterprise. | Bassem H...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=_C-BjEiLzBk",
+      "status": "ok",
+      "word_count": 8235,
+      "summary_bullets": [
+        "Construction data automation via bots and AI.",
+        "Account-based marketing with specific ICP signals.",
+        "Product-market fit is a daily workout.",
+        "Identify champion, economic buyer, and challenger.",
+        "GenAI inflection point for AI orchestration."
+      ],
+      "composite": 65.07,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "He wrote the book on Account Based Marketing. Here are his GTM secrets for enterprise. | Bassem H...",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260210",
+      "duration_seconds": 2358,
+      "composite_base": 66,
+      "like_adjustment": 0,
+      "length_adjustment": -0.93,
+      "rank": 30,
+      "tags": []
     },
     {
       "id": "33po5FjcnZM",
@@ -598,6 +1141,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=33po5FjcnZM",
       "status": "ok",
+      "word_count": 9570,
       "summary_bullets": [
         "Left $50M ARR startup for legal tech.",
         "Worked as paralegal for 2 months.",
@@ -617,15 +1161,79 @@
       "upload_date": "20260615",
       "duration_seconds": 2558,
       "composite_base": 64.5,
-      "rank": 17,
+      "like_adjustment": 0,
+      "length_adjustment": -1.26,
+      "rank": 31,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
+      ]
+    },
+    {
+      "id": "Ivvvn4xjMa8",
+      "title": "This 3x founder hit $1M ARR in 5 months. Here's his playbook. | Roy Moussa, Founder of GetVocal",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Ivvvn4xjMa8",
+      "status": "ok",
+      "word_count": 8117,
+      "summary_bullets": [
+        "3x founder built GetVocal for customer service AI.",
+        "Uses deterministic context graphs, not just LLM wrappers.",
+        "Hit $1M ARR in 5 months with one salesperson.",
+        "Product-market fit came from contagious internal adoption.",
+        "Emphasizes merging process automation with conversation."
       ],
+      "composite": 61.08,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "This 3x founder hit $1M ARR in 5 months. Here's his playbook. | Roy Moussa, Founder of GetVocal",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 6,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260312",
+      "duration_seconds": 2654,
+      "composite_base": 62.5,
       "like_adjustment": 0,
-      "length_adjustment": -1.26
+      "length_adjustment": -1.42,
+      "rank": 32,
+      "tags": []
+    },
+    {
+      "id": "1dvzUmjOmGI",
+      "title": "He pivoted at $1M ARR—then raised $120M. | Kevin Tian, Co-Founder of Doppel",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=1dvzUmjOmGI",
+      "status": "ok",
+      "word_count": 7821,
+      "summary_bullets": [
+        "Co-founder met at Uber, started Doppel.",
+        "Pivoted from NFT fraud to cybersecurity.",
+        "Raised $120M from top VCs.",
+        "Product market fit is continuous, not one moment.",
+        "Action produces insights: move fast."
+      ],
+      "composite": 60.66,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "He pivoted at $1M ARR—then raised $120M. | Kevin Tian, Co-Founder of Doppel",
+      "substance": 6.5,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 5.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260219",
+      "duration_seconds": 2182,
+      "composite_base": 61.3,
+      "like_adjustment": 0,
+      "length_adjustment": -0.64,
+      "rank": 33,
+      "tags": []
     },
     {
       "id": "YaH6Wv-Jih4",
@@ -633,6 +1241,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=YaH6Wv-Jih4",
       "status": "ok",
+      "word_count": 12067,
       "summary_bullets": [
         "Rejected by 22 VCs for lacking technical co-founder.",
         "Built 6sense from services business to $100M+ revenue.",
@@ -651,10 +1260,10 @@
       "upload_date": "20260406",
       "duration_seconds": 3134,
       "composite_base": 61,
-      "rank": 18,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -2.22
+      "length_adjustment": -2.22,
+      "rank": 34,
+      "tags": []
     },
     {
       "id": "EJOYUq6O_VE",
@@ -662,6 +1271,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=EJOYUq6O_VE",
       "status": "ok",
+      "word_count": 8204,
       "summary_bullets": [
         "Former Amazon VP runs Prime fulfillment.",
         "Raised $20M for AI e-commerce startup Spangle.",
@@ -681,10 +1291,42 @@
       "upload_date": "20260409",
       "duration_seconds": 2522,
       "composite_base": 59.75,
-      "rank": 19,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.2
+      "length_adjustment": -1.2,
+      "rank": 35,
+      "tags": []
+    },
+    {
+      "id": "4znMesbPrTU",
+      "title": "How I grew my AI startup to $3M ARR in 3 months. | Chaz Englander, Founder of ModelML",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=4znMesbPrTU",
+      "status": "ok",
+      "word_count": 10768,
+      "summary_bullets": [
+        "Raised first £100k by cold LinkedIn pitching.",
+        "Built Fancy MVP as a WhatsApp group.",
+        "ModelML started as internal investment tool.",
+        "Achieved $3M ARR in 3 months.",
+        "Product-market fit can change overnight."
+      ],
+      "composite": 55.32,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "display_title": "How I grew my AI startup to $3M ARR in 3 months. | Chaz Englander, Founder of ModelML",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 7.5,
+      "insight_density": 5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260212",
+      "duration_seconds": 2985,
+      "composite_base": 57.3,
+      "like_adjustment": 0,
+      "length_adjustment": -1.98,
+      "rank": 36,
+      "tags": []
     },
     {
       "id": "AMx6IHeRWDc",
@@ -692,6 +1334,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=AMx6IHeRWDc",
       "status": "ok",
+      "word_count": 8743,
       "composite": 51.92,
       "audience_level": "practitioner",
       "substance": 6,
@@ -703,10 +1346,10 @@
       "upload_date": "20260427",
       "duration_seconds": 2446,
       "composite_base": 53,
-      "rank": 20,
-      "tags": [],
       "like_adjustment": 0,
-      "length_adjustment": -1.08
+      "length_adjustment": -1.08,
+      "rank": 37,
+      "tags": []
     }
   ],
   "too_long": [],

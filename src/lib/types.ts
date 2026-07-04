@@ -22,6 +22,7 @@ export interface VideoIndexEntry {
   transcript_provider?: string;
   transcript_path?: string;
   line_count?: number;
+  word_count?: number;
   language_code?: string | null;
   available_langs?: string[];
   error?: string;
@@ -50,12 +51,14 @@ export interface RankedVideo {
   like_count?: number | null;
   upload_date?: string | null;
   duration_seconds?: number | null;
+  word_count?: number | null;
   summary_bullets?: string[];
   substance?: number;
   evidence?: number;
   specificity?: number;
   insight_density?: number;
   non_promotion?: number;
+  practical_utility?: number;
   confidence?: string;
   audience_level?: AudienceLevel;
   central_claims?: string;

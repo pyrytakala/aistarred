@@ -10,6 +10,7 @@
       "speakers": "OpenAI Developer Blog",
       "url": "https://developers.openai.com/blog/15-lessons-building-chatgpt-apps",
       "status": "ok",
+      "word_count": 2768,
       "summary_bullets": [
         "Context asymmetry between user, UI, model.",
         "Front-load data instead of lazy-loading.",
@@ -53,6 +54,7 @@
       "speakers": "OpenAI Developer Blog",
       "url": "https://developers.openai.com/blog/realtime-perplexity-computer",
       "status": "ok",
+      "word_count": 1275,
       "summary_bullets": [
         "Perplexity used Realtime-1.5 for voice.",
         "Context management: small 2k-token chunks.",
@@ -92,6 +94,7 @@
       "speakers": "OpenAI Developer Blog",
       "url": "https://developers.openai.com/blog/skills-agents-sdk",
       "status": "ok",
+      "word_count": 3887,
       "summary_bullets": [
         "Codex automates recurring maintenance workflows.",
         "AGENTS.md enforces mandatory skill usage.",
@@ -131,6 +134,7 @@
       "speakers": "OpenAI Developer Blog",
       "url": "https://developers.openai.com/blog/eval-skills",
       "status": "ok",
+      "word_count": 2728,
       "summary_bullets": [
         "Define success before writing the skill.",
         "Use small prompt sets (10–20) for regressions.",
@@ -166,6 +170,7 @@
       "speakers": "OpenAI Developer Blog",
       "url": "https://developers.openai.com/blog/skills-shell-tips",
       "status": "ok",
+      "word_count": 1684,
       "summary_bullets": [
         "Skills bundle reusable instructions for agents.",
         "Shell tool provides terminal execution environment.",
@@ -200,6 +205,7 @@
       "speakers": "OpenAI Developer Blog",
       "url": "https://developers.openai.com/blog/mastering-codex-remote-for-engineering",
       "status": "ok",
+      "word_count": 2186,
       "summary_bullets": [
         "Phone becomes control plane for coding agents.",
         "Choose execution context before starting tasks.",
@@ -235,6 +241,7 @@
       "speakers": "OpenAI Developer Blog",
       "url": "https://developers.openai.com/blog/connect-private-mcp-servers-to-openai-products",
       "status": "ok",
+      "word_count": 1622,
       "summary_bullets": [
         "Private MCP servers connect via outbound-only tunnel.",
         "Tunnel client runs inside customer network.",
@@ -265,6 +272,7 @@
       "speakers": "OpenAI Developer Blog",
       "url": "https://developers.openai.com/blog/run-long-horizon-tasks-with-codex",
       "status": "ok",
+      "word_count": 1423,
       "summary_bullets": [
         "Codex ran 25 hours building a design tool.",
         "Used durable project memory via markdown files.",
@@ -300,6 +308,7 @@
       "speakers": "OpenAI Developer Blog",
       "url": "https://developers.openai.com/blog/skyscanner-codex-jetbrains-mcp",
       "status": "ok",
+      "word_count": 963,
       "summary_bullets": [
         "Codex uses JetBrains MCP for IDE context.",
         "AI catches compile errors instantly.",
@@ -329,6 +338,7 @@
       "speakers": "OpenAI Developer Blog",
       "url": "https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4",
       "status": "ok",
+      "word_count": 2833,
       "summary_bullets": [
         "GPT-5.4 improves UI generation with image understanding.",
         "Guide provides detailed design rules and a frontend skill.",
@@ -363,6 +373,7 @@
       "speakers": "OpenAI Developer Blog",
       "url": "https://developers.openai.com/blog/building-frontend-uis-with-codex-and-figma",
       "status": "ok",
+      "word_count": 859,
       "summary_bullets": [
         "Codex generates Figma designs from code.",
         "Two-way sync between code and Figma.",
@@ -393,6 +404,7 @@
       "speakers": "OpenAI Developer Blog",
       "url": "https://developers.openai.com/blog/one-year-of-responses",
       "status": "ok",
+      "word_count": 2267,
       "summary_bullets": [
         "Responses API launched one year ago.",
         "Five developer case studies featured.",

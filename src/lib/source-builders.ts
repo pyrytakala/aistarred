@@ -1,13 +1,6 @@
 import type { DateRange, SourceConfig } from "./sources-config.js";
 import { halfYearDateRange } from "./half-year.js";
 
-const QUARTER_PERIODS: Record<1 | 2 | 3 | 4, string> = {
-  1: "Jan–Mar",
-  2: "Apr–Jun",
-  3: "Jul–Sep",
-  4: "Oct–Dec",
-};
-
 export function quarterDateRange(year: number, quarter: 1 | 2 | 3 | 4): DateRange {
   const ranges: Record<1 | 2 | 3 | 4, DateRange> = {
     1: { since: `${year}0101`, until: `${year}0331` },
@@ -47,13 +40,14 @@ export interface EssaySourceOptions {
   catalogUrl: string;
   coverImage: string;
   dateRange: DateRange;
-  period: string;
   fetchAdapter?: SourceConfig["fetchAdapter"];
   feedUrl?: string;
   listingKind?: SourceConfig["essayListingKind"];
   channelName?: string;
   maxItems?: number;
   urlIncludes?: string;
+  contentKind?: SourceConfig["contentKind"];
+  itemLabel?: string;
 }
 
 export function essaySource(options: EssaySourceOptions): SourceConfig {
@@ -63,13 +57,14 @@ export function essaySource(options: EssaySourceOptions): SourceConfig {
     catalogUrl,
     coverImage,
     dateRange,
-    period,
     fetchAdapter = "rss-readability",
     feedUrl,
     listingKind = feedUrl ? "feed" : undefined,
     channelName,
     maxItems,
     urlIncludes,
+    contentKind = "essay",
+    itemLabel = "posts",
   } = options;
 
   return {
@@ -84,11 +79,10 @@ export function essaySource(options: EssaySourceOptions): SourceConfig {
     essayChannelName: channelName ?? name,
     essayMaxItems: maxItems,
     essayUrlIncludes: urlIncludes,
-    contentKind: "essay",
+    contentKind,
     coverImage,
-    itemLabel: "posts",
-    pageTitle: `${name} posts`,
-    period,
+    itemLabel,
+    pageTitle: name,
     dateRange,
     maxDisplayAgeDays: null,
   };
@@ -109,17 +103,9 @@ export function quarterlyPodcastSource(
     maxVideos,
     youtubeTitleIncludes,
   } = options;
-  const title = `${name} — ${year}`;
-  const pageTitles: Record<SourceConfig["contentKind"], string> = {
-    conference: `${title} talks`,
-    podcast: `${title} episodes`,
-    channel: `${title} videos`,
-    essay: `${title} posts`,
-  };
-
   return {
     id,
-    title,
+    title: name,
     slug: id,
     channelUrl:
       channelUrl ??
@@ -132,8 +118,7 @@ export function quarterlyPodcastSource(
     contentKind,
     coverImage,
     itemLabel: "videos",
-    pageTitle: pageTitles[contentKind],
-    period: `${year}`,
+    pageTitle: name,
     dateRange: calendarYearDateRange(year),
     fetchWindow: { months: 12 },
     maxVideos,

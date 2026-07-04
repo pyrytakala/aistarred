@@ -16,7 +16,6 @@ SOURCES=(
   iltb-podcast-q2-2026
   import-ai-h1-2026
   lennys-podcast-q2-2026
-  machine-theory-journal-h1-2026
   modern-wisdom-q2-2026
   my-first-million-q2-2026
   odd-lots-q2-2026

@@ -1,0 +1,45 @@
+{
+  "source_id": "ali-abdaal-2026",
+  "model": "accounts/fireworks/models/deepseek-v4-flash",
+  "video_count": 1,
+  "scored_count": 1,
+  "ranked_count": 1,
+  "rankings": [
+    {
+      "id": "Ig2zcKJQWig",
+      "title": "The Dark Side Of Getting Rich On Youtube w/ @Matt D'Avella",
+      "speakers": "Ali Abdaal",
+      "url": "https://www.youtube.com/watch?v=Ig2zcKJQWig",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 26892,
+      "summary_bullets": [
+        "YouTube success can trap creators in a hamster wheel.",
+        "Scaling a team often backfires, reducing joy and freedom.",
+        "Both speakers downsized to rediscover creative purpose.",
+        "Parenting reshapes priorities away from hustle culture.",
+        "Hiring slow and focusing on unique strengths is key."
+      ],
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Dark Side Of Getting Rich On Youtube w/ @Matt D'Avella",
+      "substance": 5.5,
+      "evidence": 4,
+      "specificity": 6,
+      "insight_density": 4.5,
+      "non_promotion": 6,
+      "practical_utility": 5,
+      "composite": 41.43,
+      "like_count": null,
+      "upload_date": "20260629",
+      "duration_seconds": 7094,
+      "composite_base": 50.25,
+      "rank": 1,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -8.82
+    }
+  ],
+  "too_long": [],
+  "other": []
+}

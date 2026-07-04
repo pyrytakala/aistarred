@@ -1,9 +1,45 @@
 {
   "source_id": "how-i-built-this-q2-2026",
-  "video_count": 0,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
+  "model": "accounts/fireworks/models/deepseek-v4-flash",
+  "video_count": 1,
+  "scored_count": 1,
+  "ranked_count": 1,
+  "rankings": [
+    {
+      "id": "849",
+      "title": "Advice Line with Ronnen Harary of Spin Master/PAW Patrol",
+      "speakers": "How I Built This",
+      "url": "https://art19.com/shows/how-i-built-this/episodes/3894a69a-a4de-4bd8-b5f5-d3bc195994d5",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 9278,
+      "summary_bullets": [
+        "Jewelry business advice on gold price surges.",
+        "Honey/skincare scaling debate: B2B vs DTC.",
+        "Craft beer founder on work-life separation.",
+        "Ronnen Harary shares Spin Master scaling lessons.",
+        "Practical tips on pricing, channels, and compartmentalization."
+      ],
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Advice Line with Ronnen Harary of Spin Master/PAW Patrol",
+      "substance": 5.5,
+      "evidence": 4,
+      "specificity": 6,
+      "insight_density": 5,
+      "non_promotion": 7,
+      "practical_utility": 3,
+      "composite": 45.41,
+      "like_count": null,
+      "upload_date": "20260702",
+      "duration_seconds": 2606,
+      "composite_base": 46.75,
+      "rank": 1,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.34
+    }
+  ],
   "too_long": [],
   "other": []
 }

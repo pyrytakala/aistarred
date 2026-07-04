@@ -5,165 +5,12 @@
   "ranked_count": 14,
   "rankings": [
     {
-      "id": "converting-coal-plants-to-natural",
-      "title": "Converting Coal Plants to Natural Gas",
-      "speakers": "Construction Physics",
-      "url": "https://www.construction-physics.com/p/converting-coal-plants-to-natural",
-      "status": "ok",
-      "summary_bullets": [
-        "Coal-to-gas conversions surged after 2008.",
-        "Two drivers: stricter EPA mercury rules and cheap shale gas.",
-        "Conversion methods range from simple boiler swap to full replacement.",
-        "Older, smaller, inefficient plants were prime candidates.",
-        "Trend likely over due to fewer coal plants and battery competition."
-      ],
-      "composite": 88.3,
-      "confidence": "High",
-      "audience_level": "general",
-      "substance": 8.5,
-      "evidence": 9,
-      "specificity": 9,
-      "insight_density": 8.5,
-      "non_promotion": 10,
-      "like_count": null,
-      "upload_date": "20260619",
-      "duration_seconds": null,
-      "composite_base": 88.3,
-      "like_adjustment": 0,
-      "length_adjustment": 0,
-      "rank": 1,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Evidence",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
-      "id": "where-are-the-economies-of-scale",
-      "title": "Where Are the Economies of Scale in Homebuilding?",
-      "speakers": "Construction Physics",
-      "url": "https://www.construction-physics.com/p/where-are-the-economies-of-scale",
-      "status": "ok",
-      "summary_bullets": [
-        "Homebuilding has few economies of scale.",
-        "Output-to-input cost ratio is already low.",
-        "Large builders don't have lower costs.",
-        "Manufactured homes also show limited scale.",
-        "Transportation costs limit factory size."
-      ],
-      "composite": 87.8,
-      "confidence": "High",
-      "audience_level": "general",
-      "substance": 8.5,
-      "evidence": 9,
-      "specificity": 9.5,
-      "insight_density": 8,
-      "non_promotion": 10,
-      "like_count": null,
-      "upload_date": "20260528",
-      "duration_seconds": null,
-      "composite_base": 87.8,
-      "like_adjustment": 0,
-      "length_adjustment": 0,
-      "rank": 2,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Evidence",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
-      "id": "the-fall-and-rise-of-screwworm",
-      "title": "The Fall and Rise of Screwworm",
-      "speakers": "Construction Physics",
-      "url": "https://www.construction-physics.com/p/the-fall-and-rise-of-screwworm",
-      "status": "ok",
-      "summary_bullets": [
-        "Screwworm larvae eat living flesh.",
-        "Sterile male technique eradicated screwworm.",
-        "Barrier at Panama failed recently.",
-        "Screwworm now spreading north again.",
-        "Eradication requires sustained effort."
-      ],
-      "composite": 87.75,
-      "confidence": "High",
-      "audience_level": "general",
-      "display_title": "The Fall and Rise of Screwworm",
-      "substance": 8.5,
-      "evidence": 9,
-      "specificity": 9.5,
-      "insight_density": 8,
-      "non_promotion": 10,
-      "like_count": null,
-      "upload_date": "20260703",
-      "duration_seconds": null,
-      "composite_base": 87.75,
-      "like_adjustment": 0,
-      "length_adjustment": 0,
-      "rank": 3,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Evidence",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
       "id": "how-long-do-we-wait-for-new-inventions",
       "title": "How long do we wait for new inventions?",
       "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/how-long-do-we-wait-for-new-inventions",
       "status": "ok",
+      "word_count": 3741,
       "summary_bullets": [
         "AI estimates invention delays.",
         "Most inventions appear within decades.",
@@ -185,7 +32,7 @@
       "composite_base": 86.25,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 4,
+      "rank": 1,
       "tags": [
         {
           "label": "Substance",
@@ -215,6 +62,7 @@
       "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/the-rise-of-build-to-rent-housing",
       "status": "ok",
+      "word_count": 3394,
       "summary_bullets": [
         "BTR homes rising from 2% to 7% of starts.",
         "2008 crisis created rental demand and cheap homes.",
@@ -236,7 +84,7 @@
       "composite_base": 84.5,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 5,
+      "rank": 2,
       "tags": [
         {
           "label": "Substance",
@@ -266,6 +114,7 @@
       "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/biological-evolution-and-information",
       "status": "ok",
+      "word_count": 2808,
       "summary_bullets": [
         "Sexual reproduction speeds evolution.",
         "Modularity reduces search space.",
@@ -287,7 +136,7 @@
       "composite_base": 78,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 6,
+      "rank": 3,
       "tags": [
         {
           "label": "Specificity",
@@ -305,6 +154,7 @@
       "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/how-long-does-it-take-to-plan-a-bridge",
       "status": "ok",
+      "word_count": 1812,
       "summary_bullets": [
         "Analyzes 67 US bridge planning times.",
         "Construction times rose after 1960s.",
@@ -326,7 +176,7 @@
       "composite_base": 78,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 7,
+      "rank": 4,
       "tags": [
         {
           "label": "Specificity",
@@ -344,6 +194,7 @@
       "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/us-subways-build-too-many-cross-passages",
       "status": "ok",
+      "word_count": 1815,
       "summary_bullets": [
         "US subway cross-passages required every 800 feet.",
         "European standards allow spacing over 1,600 feet.",
@@ -365,7 +216,7 @@
       "composite_base": 76,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 8,
+      "rank": 5,
       "tags": [
         {
           "label": "Specificity",
@@ -378,11 +229,119 @@
       ]
     },
     {
+      "id": "converting-coal-plants-to-natural",
+      "title": "Converting Coal Plants to Natural Gas",
+      "speakers": "Construction Physics",
+      "url": "https://www.construction-physics.com/p/converting-coal-plants-to-natural",
+      "status": "ok",
+      "word_count": 1686,
+      "summary_bullets": [
+        "Coal-to-gas conversions surged after 2008.",
+        "Driven by stricter EPA mercury rules (MATS).",
+        "Shale gas boom made natural gas cheap.",
+        "Three conversion methods: boiler swap, repowering, full replacement.",
+        "Few future conversions expected; most candidates already converted."
+      ],
+      "composite": 74,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Converting Coal Plants to Natural Gas",
+      "substance": 8.5,
+      "evidence": 8.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "practical_utility": 4,
+      "like_count": null,
+      "upload_date": "20260619",
+      "duration_seconds": null,
+      "composite_base": 74,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "where-are-the-economies-of-scale",
+      "title": "Where Are the Economies of Scale in Homebuilding?",
+      "speakers": "Construction Physics",
+      "url": "https://www.construction-physics.com/p/where-are-the-economies-of-scale",
+      "status": "ok",
+      "word_count": 4389,
+      "summary_bullets": [
+        "Homebuilding lacks significant economies of scale.",
+        "Output cost is only double material cost.",
+        "Large homebuilders have similar margins to small ones.",
+        "Factory-built homes also show modest scale effects."
+      ],
+      "composite": 73.8,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Where Are the Economies of Scale in Homebuilding?",
+      "substance": 8,
+      "evidence": 9,
+      "specificity": 9.5,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "practical_utility": 3.5,
+      "like_count": null,
+      "upload_date": "20260528",
+      "duration_seconds": null,
+      "composite_base": 73.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
       "id": "how-an-oil-refinery-works",
       "title": "How an Oil Refinery Works",
       "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/how-an-oil-refinery-works",
       "status": "ok",
+      "word_count": 2852,
       "summary_bullets": [
         "Oil refineries separate crude into useful fractions.",
         "Distillation is the primary separation method.",
@@ -404,10 +363,60 @@
       "composite_base": 73.8,
       "like_adjustment": 0,
       "length_adjustment": 0,
-      "rank": 9,
+      "rank": 8,
       "tags": [
         {
           "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "the-fall-and-rise-of-screwworm",
+      "title": "The Fall and Rise of Screwworm",
+      "speakers": "Construction Physics",
+      "url": "https://www.construction-physics.com/p/the-fall-and-rise-of-screwworm",
+      "status": "ok",
+      "word_count": 5935,
+      "summary_bullets": [
+        "Screwworm larvae eat living flesh.",
+        "Sterile male technique eradicated screwworm.",
+        "Barrier at Panama failed recently.",
+        "Screwworm now spreading north again.",
+        "Eradication requires sustained effort."
+      ],
+      "composite": 71.5,
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "The Fall and Rise of Screwworm",
+      "substance": 7.5,
+      "evidence": 8.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "practical_utility": 4,
+      "like_count": null,
+      "upload_date": "20260703",
+      "duration_seconds": null,
+      "composite_base": 71.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
           "tone": "positive"
         },
         {
@@ -422,6 +431,7 @@
       "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/reading-list-062026",
       "status": "ok",
+      "word_count": 768,
       "summary_bullets": [
         "Housing bill deal reached in US.",
         "Grocery anchor helps fight NIMBYs.",
@@ -452,6 +462,7 @@
       "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/reading-list-05022026",
       "status": "ok",
+      "word_count": 752,
       "summary_bullets": [
         "War disrupts PCB resin supply, prices up 40%.",
         "Jet fuel costs threaten Indian airlines, US airlines.",
@@ -482,6 +493,7 @@
       "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/reading-list-052326",
       "status": "ok",
+      "word_count": 835,
       "summary_bullets": [
         "Iran charges tech firms for cables.",
         "Apple reuses defective chips in cheaper devices.",
@@ -512,6 +524,7 @@
       "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/reading-list-062726",
       "status": "ok",
+      "word_count": 795,
       "summary_bullets": [
         "Trump blocks housing bill for leverage.",
         "US-made doors cost 8x more.",
@@ -542,6 +555,7 @@
       "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/reading-list-05092026",
       "status": "ok",
+      "word_count": 852,
       "summary_bullets": [
         "Safety pin invented 3000 years ago.",
         "Home micro-data centers proposed.",

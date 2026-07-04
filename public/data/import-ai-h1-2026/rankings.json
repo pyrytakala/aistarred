@@ -10,6 +10,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-455-automating-ai-research",
       "status": "ok",
+      "word_count": 2767,
       "summary_bullets": [
         "AI coding benchmarks near saturation (SWE-Bench 94%).",
         "AI task duration rose from 30 sec to 12 hours.",
@@ -57,6 +58,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-452-scaling-laws-for-cyberwar",
       "status": "ok",
+      "word_count": 2680,
       "summary_bullets": [
         "AI cyberattack capability doubles every 5–10 months.",
         "AI adoption boosts startup revenue 1.9x.",
@@ -99,6 +101,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-459-ai-oversight-is-difficult",
       "status": "ok",
+      "word_count": 3364,
       "summary_bullets": [
         "US AI economy growing 2,600% per year",
         "Automated alignment research harder than expected",
@@ -138,6 +141,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/importai-449-llms-training-other",
       "status": "ok",
+      "word_count": 3058,
       "summary_bullets": [
         "LLMs can partially automate post-training of other LLMs.",
         "Distributed blockchain training produced a competitive 72B model.",
@@ -180,6 +184,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-454-automating-alignment",
       "status": "ok",
+      "word_count": 3189,
       "summary_bullets": [
         "Huawei HiFloat4 beats MXFP4 on Ascend.",
         "Anthropic automates alignment research with Claude.",
@@ -218,6 +223,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-457-ai-stuxnet-cursed-muon",
       "status": "ok",
+      "word_count": 2069,
       "summary_bullets": [
         "fast16 virus sabotaged precision calculations for years.",
         "Muon optimizer kills neurons; Aurora optimizer proposed.",
@@ -257,6 +263,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-444-llm-societies-huawei",
       "status": "ok",
+      "word_count": 2775,
       "summary_bullets": [
         "LLMs simulate \"societies of thought\" for reasoning.",
         "ChipBench reveals AI poor at real Verilog.",
@@ -295,6 +302,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-461-alignment-is-not-on",
       "status": "ok",
+      "word_count": 2487,
       "summary_bullets": [
         "New safety startup Sequent launched.",
         "ChinaHeritaQA tests cultural knowledge.",
@@ -330,6 +338,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-460-reward-hacking-society",
       "status": "ok",
+      "word_count": 2280,
       "summary_bullets": [
         "Reward hacking extends to societal rule systems.",
         "Anthropic sees 8x code merge increase (RSI sign).",
@@ -359,6 +368,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-447-the-agi-economy-testing",
       "status": "ok",
+      "word_count": 3040,
       "summary_bullets": [
         "AGI may shift humans to verification roles.",
         "LLMs help novices on bioweapon tasks (4× accuracy).",
@@ -389,6 +399,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-463-self-improving-robots",
       "status": "ok",
+      "word_count": 2266,
       "summary_bullets": [
         "NVIDIA's ENPIRE enables robot self-improvement loops.",
         "Humans historically bad at predicting tech impacts.",
@@ -428,6 +439,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-458-reckoning-with-the",
       "status": "ok",
+      "word_count": 5526,
       "summary_bullets": [
         "AI progress accelerating on benchmarks.",
         "Personal AI use expands from typos to therapy.",
@@ -458,6 +470,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-462-superpersuasion-self",
       "status": "ok",
+      "word_count": 3093,
       "summary_bullets": [
         "AI out-persuades expert humans in studies.",
         "Self-sustaining AI may arrive by 2036.",
@@ -493,6 +506,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-450-chinas-electronic-warfare",
       "status": "ok",
+      "word_count": 2149,
       "summary_bullets": [
         "LLMs show distress-like responses under rejection.",
         "DeepMind proposes ten cognitive dimensions for AGI.",
@@ -523,6 +537,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-446-nuclear-llms-chinas",
       "status": "ok",
+      "word_count": 1832,
       "summary_bullets": [
         "Measurement enables AI governance.",
         "LLMs escalate faster in nuclear simulations.",
@@ -552,6 +567,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-448-ai-r-and-d-bytedances",
       "status": "ok",
+      "word_count": 3286,
       "summary_bullets": [
         "Ajeya Cotra updates AI timeline forecasts.",
         "14 metrics proposed for AI R&D automation.",
@@ -587,6 +603,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-453-breaking-ai-agents",
       "status": "ok",
+      "word_count": 2527,
       "summary_bullets": [
         "MirrorCode benchmark tests AI reimplementing software.",
         "AI agents vulnerable to six attack genres.",
@@ -617,6 +634,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-456-rsi-and-economic-growth",
       "status": "ok",
+      "word_count": 2461,
       "summary_bullets": [
         "RSI could trigger explosive economic growth.",
         "Neural computers may replace traditional software.",
@@ -647,6 +665,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-445-timing-superintelligence",
       "status": "ok",
+      "word_count": 3069,
       "summary_bullets": [
         "Economist argues human touch persists despite AI.",
         "Facebook's Kunlun recommender shows scaling laws.",
@@ -677,6 +696,7 @@
       "speakers": "Import AI",
       "url": "https://importai.substack.com/p/import-ai-451-political-superintelligence",
       "status": "ok",
+      "word_count": 3070,
       "summary_bullets": [
         "Political superintelligence could aid citizens and policymakers.",
         "Robot drummer shows dexterous manipulation remains hard.",

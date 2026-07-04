@@ -5,6 +5,8 @@ import { parseUploadDate } from "./video-age.js";
 import type { ContentKind } from "./content-kind.js";
 import { CONTENT_KIND_LABELS } from "./content-kind.js";
 import { contentKindIconSvg } from "./content-kind-icon.js";
+import { computeCompositeFromDimensions, SCORE_DIMENSIONS, SCORE_WEIGHT_TOTAL } from "./score-composite.js";
+import { formatReadingTimeLabel } from "./reading-time.js";
 
 export interface RankedCardOptions {
   useYoutubeThumbs: boolean;
@@ -82,8 +84,8 @@ function formatRelativeDate(uploadDate: string | null | undefined): string | nul
   const startOfDate = new Date(date.getFullYear(), date.getMonth(), date.getDate());
   const diffDays = Math.round((startOfToday.getTime() - startOfDate.getTime()) / (24 * 60 * 60 * 1000));
 
-  if (diffDays <= 0) return "today";
-  if (diffDays === 1) return "yesterday";
+  if (diffDays <= 0) return "Today";
+  if (diffDays === 1) return "Yesterday";
   if (diffDays < 7) return `${diffDays} days ago`;
   if (diffDays < 30) {
     const weeks = Math.floor(diffDays / 7);
@@ -105,15 +107,7 @@ export function formatScore(value: number | null | undefined): string {
   return (Number(value) / 10).toFixed(1);
 }
 
-const SCORE_COMPONENTS = [
-  { key: "substance", label: "Substance", weight: 3 },
-  { key: "evidence", label: "Evidence", weight: 2 },
-  { key: "specificity", label: "Specificity", weight: 1.5 },
-  { key: "insight_density", label: "Insight", weight: 2.5 },
-  { key: "non_promotion", label: "Non-promo", weight: 1 },
-] as const;
-
-const SCORE_WEIGHT_TOTAL = SCORE_COMPONENTS.reduce((sum, component) => sum + component.weight, 0);
+const SCORE_COMPONENTS = SCORE_DIMENSIONS;
 
 function formatWeightPercent(weight: number): string {
   return `${Math.round((weight / SCORE_WEIGHT_TOTAL) * 100)}%`;
@@ -138,6 +132,14 @@ function formatDuration(seconds: number | null | undefined): string | null {
   }
 
   return `${minutes}:${String(secs).padStart(2, "0")}`;
+}
+
+function formatCardLengthLabel(video: RankedVideo): string | null {
+  const durationLabel = formatDuration(video.duration_seconds);
+  if (durationLabel) {
+    return durationLabel;
+  }
+  return formatReadingTimeLabel(video.word_count);
 }
 
 let openScoreCard: HTMLElement | null = null;
@@ -183,6 +185,7 @@ function renderScoreBreakdown(breakdown: HTMLElement, video: RankedVideo): void 
   breakdown.appendChild(title);
 
   let subtotal = 0;
+  let presentWeightTotal = 0;
   for (const component of SCORE_COMPONENTS) {
     const value = video[component.key];
     const row = document.createElement("div");
@@ -206,6 +209,7 @@ function renderScoreBreakdown(breakdown: HTMLElement, video: RankedVideo): void 
     } else {
       const contribution = Number(value) * component.weight;
       subtotal += contribution;
+      presentWeightTotal += component.weight;
       score.textContent = Number(value).toFixed(1);
       weight.textContent = formatWeightLabel(component.weight);
       product.textContent = `= ${formatScore(contribution)}`;
@@ -214,6 +218,12 @@ function renderScoreBreakdown(breakdown: HTMLElement, video: RankedVideo): void 
     row.append(label, score, weight, product);
     breakdown.appendChild(row);
   }
+
+  const dimensionComposite = computeCompositeFromDimensions(video);
+  const baseComposite = dimensionComposite ?? video.composite_base ?? null;
+
+  const likeAdjustment = Number(video.like_adjustment ?? 0);
+  const lengthAdjustment = Number(video.length_adjustment ?? 0);
 
   const appendAdjustRow = (label: string, value: number, formatted: string): void => {
     const adjust = document.createElement("div");
@@ -224,8 +234,16 @@ function renderScoreBreakdown(breakdown: HTMLElement, video: RankedVideo): void 
     breakdown.appendChild(adjust);
   };
 
-  const likeAdjustment = Number(video.like_adjustment ?? 0);
-  const lengthAdjustment = Number(video.length_adjustment ?? 0);
+  if (baseComposite != null) {
+    const normalized = document.createElement("div");
+    normalized.className = "score-breakdown-adjust score-breakdown-adjust--base";
+    const label =
+      presentWeightTotal > 0 && presentWeightTotal < SCORE_WEIGHT_TOTAL
+        ? "Weighted score (normalized)"
+        : "Weighted score";
+    normalized.innerHTML = `<span>${label}</span><span>${formatScore(baseComposite)}</span>`;
+    breakdown.appendChild(normalized);
+  }
 
   if (Math.abs(likeAdjustment) >= 0.5) {
     appendAdjustRow("Like adjustment", likeAdjustment, formatScore(likeAdjustment));
@@ -234,7 +252,11 @@ function renderScoreBreakdown(breakdown: HTMLElement, video: RankedVideo): void 
     appendAdjustRow("Length penalty", lengthAdjustment, formatScore(lengthAdjustment));
   }
 
-  const finalComposite = video.composite ?? video.composite_base ?? subtotal;
+  const finalComposite =
+    video.composite ??
+    (baseComposite != null
+      ? baseComposite + likeAdjustment + lengthAdjustment
+      : null);
   const total = document.createElement("div");
   total.className = "score-breakdown-total";
   total.innerHTML = `<span>Total</span><span>${formatScore(finalComposite)}</span>`;
@@ -288,10 +310,12 @@ const LEGACY_TAG_LABELS: Record<string, string> = {
   "Strong evidence": "Evidence",
   "Strong specificity": "Specificity",
   "Strong insight": "Insight",
+  "Strong utility": "Utility",
   substance: "Substance",
   evidence: "Evidence",
   specificity: "Specificity",
   insight: "Insight",
+  utility: "Utility",
 };
 
 function tagDisplayLabel(label: string): string {
@@ -314,6 +338,8 @@ const TAG_ICON_SVGS: Record<string, string> = {
     '<circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>',
   insight:
     '<path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13.5 11H20a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 10.5 14z"/>',
+  utility:
+    '<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>',
   neutral:
     '<path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/>',
 };
@@ -570,7 +596,7 @@ export function populateRankedCard(
   renderContentKindBadge(contentKindBadge, options.contentKind);
   thumbLink.href = video.url;
 
-  const durationLabel = formatDuration(video.duration_seconds);
+  const durationLabel = formatCardLengthLabel(video);
   if (durationLabel) {
     duration.textContent = durationLabel;
     duration.hidden = false;
@@ -624,7 +650,7 @@ export function populateExcludedCard(
   applyThumbnail(thumbLink, thumb, video, options.useYoutubeThumbs, options.coverImageFallback);
   thumbLink.href = video.url;
 
-  const durationLabel = formatDuration(video.duration_seconds);
+  const durationLabel = formatCardLengthLabel(video);
   if (durationLabel) {
     duration.textContent = durationLabel;
     duration.hidden = false;

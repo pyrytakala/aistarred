@@ -1,6 +1,7 @@
 import { writeFileSync } from "node:fs";
 import { join } from "node:path";
 
+import { countWords } from "../content-length.js";
 import { isWithinDateRange } from "../date-range.js";
 import { pipelineLog, withPipelineTiming } from "../pipeline-log.js";
 import { titleToFilename, sleep } from "../utils.js";
@@ -260,6 +261,7 @@ export const paulGrahamFetcher: ContentFetcher = {
       result.transcript_provider = "paul-graham-html";
       result.transcript_path = textPath;
       result.line_count = text.split(/\r?\n/).length;
+      result.word_count = countWords(text);
       result.language_code = "en";
       result.available_langs = ["en"];
     } catch (error) {

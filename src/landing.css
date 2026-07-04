@@ -168,10 +168,3 @@ body {
   font-weight: 650;
   line-height: 1.35;
 }
-
-.source-card-meta {
-  margin-top: 0.15rem;
-  font-size: 0.86rem;
-  line-height: 1.4;
-  color: var(--muted);
-}

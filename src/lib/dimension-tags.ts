@@ -6,6 +6,7 @@ const POSITIVE_RULES: Array<[keyof RankedVideo, number, string]> = [
   ["specificity", 8.5, "Specificity"],
   ["insight_density", 8.0, "Insight"],
   ["non_promotion", 9.0, "Non-promo"],
+  ["practical_utility", 8.0, "Utility"],
 ];
 
 export function positiveDimensionTags(video: RankedVideo): Tag[] {

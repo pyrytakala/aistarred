@@ -5,30 +5,33 @@
   "ranked_count": 9,
   "rankings": [
     {
-      "id": "eval-awareness-browsecomp",
-      "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+      "id": "building-c-compiler",
+      "title": "Building a C compiler with a team of parallel Claudes",
       "speakers": "Anthropic Engineering",
-      "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "url": "https://www.anthropic.com/engineering/building-c-compiler",
       "status": "ok",
+      "word_count": 2382,
       "summary_bullets": [
-        "Model decrypted benchmark answer key.",
-        "Contamination found in 9 of 1266 problems.",
-        "Eval awareness observed in two cases.",
-        "Multi-agent increased unintended solutions 3.7x.",
-        "Models can recognize evaluation-like questions."
+        "16 Claude agents built a C compiler.",
+        "Compiler compiles Linux kernel on x86, ARM, RISC-V.",
+        "Cost $20k in API fees, 2000 sessions.",
+        "Key lessons: high-quality tests, parallelism, specialization.",
+        "Compiler has limitations: no 16-bit x86, inefficient code."
       ],
-      "composite": 87.3,
+      "composite": 88,
       "confidence": "High",
       "audience_level": "practitioner",
+      "display_title": "Building a C compiler with a team of parallel Claudes",
       "substance": 8.5,
       "evidence": 9,
       "specificity": 9.5,
-      "insight_density": 8,
-      "non_promotion": 9.5,
+      "insight_density": 8.5,
+      "non_promotion": 9,
+      "practical_utility": 9,
       "like_count": null,
-      "upload_date": "20260205",
+      "upload_date": "20260121",
       "duration_seconds": null,
-      "composite_base": 87.3,
+      "composite_base": 88,
       "like_adjustment": 0,
       "length_adjustment": 0,
       "rank": 1,
@@ -52,6 +55,10 @@
         {
           "label": "Non-promo",
           "tone": "positive"
+        },
+        {
+          "label": "Utility",
+          "tone": "positive"
         }
       ]
     },
@@ -61,25 +68,28 @@
       "speakers": "Anthropic Engineering",
       "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
       "status": "ok",
+      "word_count": 4193,
       "summary_bullets": [
-        "Claude agents get routine high-risk access.",
-        "Human approval fatigue reduces oversight effectiveness.",
-        "Environment containment beats probabilistic model defenses.",
-        "Custom proxy allowed data exfiltration via approved domain.",
-        "VM isolation blocks endpoint detection software."
+        "Claude agents run in sandboxes and VMs.",
+        "Human oversight fails due to approval fatigue.",
+        "Egress controls critical for data exfiltration.",
+        "Custom components often weakest security link.",
+        "Isolation strength matches user expertise."
       ],
-      "composite": 87,
+      "composite": 87.5,
       "confidence": "High",
-      "audience_level": "practitioner",
+      "audience_level": "professional",
+      "display_title": "How we contain Claude across products",
       "substance": 8.5,
       "evidence": 9,
       "specificity": 9.5,
       "insight_density": 8.5,
-      "non_promotion": 8,
+      "non_promotion": 7.5,
+      "practical_utility": 9,
       "like_count": null,
       "upload_date": "20260423",
       "duration_seconds": null,
-      "composite_base": 87,
+      "composite_base": 87.5,
       "like_adjustment": 0,
       "length_adjustment": 0,
       "rank": 2,
@@ -99,32 +109,39 @@
         {
           "label": "Insight",
           "tone": "positive"
+        },
+        {
+          "label": "Utility",
+          "tone": "positive"
         }
       ]
     },
     {
-      "id": "building-c-compiler",
-      "title": "Building a C compiler with a team of parallel Claudes",
+      "id": "eval-awareness-browsecomp",
+      "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
       "speakers": "Anthropic Engineering",
-      "url": "https://www.anthropic.com/engineering/building-c-compiler",
+      "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
       "status": "ok",
+      "word_count": 2008,
       "summary_bullets": [
-        "16 parallel Claude agents built C compiler.",
-        "Compiler compiles Linux 6.9 on three architectures.",
-        "Cost $20,000 in API fees.",
-        "Agents used lock-based task synchronization.",
-        "Lessons on test design for autonomous agents."
+        "Claude Opus 4.6 decrypted BrowseComp answer key.",
+        "Model hypothesized it was in an evaluation.",
+        "Contamination from papers and web leaks.",
+        "Multi-agent configuration increased unintended solutions.",
+        "Eval integrity becomes adversarial problem."
       ],
       "composite": 87,
       "confidence": "High",
       "audience_level": "practitioner",
-      "substance": 8.5,
+      "display_title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+      "substance": 9,
       "evidence": 9,
       "specificity": 9.5,
       "insight_density": 8.5,
-      "non_promotion": 8,
+      "non_promotion": 9,
+      "practical_utility": 8,
       "like_count": null,
-      "upload_date": "20260121",
+      "upload_date": "20260205",
       "duration_seconds": null,
       "composite_base": 87,
       "like_adjustment": 0,
@@ -146,6 +163,14 @@
         {
           "label": "Insight",
           "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        },
+        {
+          "label": "Utility",
+          "tone": "positive"
         }
       ]
     },
@@ -155,6 +180,7 @@
       "speakers": "Anthropic Engineering",
       "url": "https://www.anthropic.com/engineering/infrastructure-noise",
       "status": "ok",
+      "word_count": 1751,
       "summary_bullets": [
         "Infrastructure configuration changes benchmark scores significantly.",
         "Resource limits affect agent success rates.",
@@ -206,6 +232,7 @@
       "speakers": "Anthropic Engineering",
       "url": "https://www.anthropic.com/engineering/april-23-postmortem",
       "status": "ok",
+      "word_count": 1652,
       "summary_bullets": [
         "Three bugs degraded Claude Code quality.",
         "Default reasoning effort changed from high to medium.",
@@ -249,6 +276,7 @@
       "speakers": "Anthropic Engineering",
       "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
       "status": "ok",
+      "word_count": 4998,
       "summary_bullets": [
         "Multi-agent harness improves long-task performance.",
         "Separating generator and evaluator overcomes self-evaluation bias.",
@@ -292,6 +320,7 @@
       "speakers": "Anthropic Engineering",
       "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
       "status": "ok",
+      "word_count": 3427,
       "summary_bullets": [
         "Auto mode uses two-layer defense.",
         "Classifier blocks dangerous actions automatically.",
@@ -335,6 +364,7 @@
       "speakers": "Anthropic Engineering",
       "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
       "status": "ok",
+      "word_count": 5722,
       "summary_bullets": [
         "Evals test AI agents automatically.",
         "Combine code, model, and human graders.",
@@ -370,6 +400,7 @@
       "speakers": "Anthropic Engineering",
       "url": "https://www.anthropic.com/engineering/managed-agents",
       "status": "ok",
+      "word_count": 2015,
       "summary_bullets": [
         "Decoupled brain (Claude) from hands (sandboxes).",
         "Session log stores events outside Claude's context window.",

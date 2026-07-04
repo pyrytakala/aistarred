@@ -10,6 +10,7 @@
       "speakers": "Blaise Agüera y Arcas",
       "url": "https://www.youtube.com/watch?v=M2iX6HQOoLg",
       "status": "ok",
+      "word_count": 11521,
       "summary_bullets": [
         "Life is embodied autopoietic computation.",
         "Random code evolves self-replicating programs.",
@@ -56,6 +57,7 @@
       "speakers": "John Jumper",
       "url": "https://www.youtube.com/watch?v=e3gBwLWAerw",
       "status": "ok",
+      "word_count": 9607,
       "summary_bullets": [
         "AlphaFold solved protein structure prediction.",
         "Jumper critiques the \"bitter lesson\" in AI.",
@@ -102,6 +104,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=zSAGzfspuDE",
       "status": "ok",
+      "word_count": 21154,
       "composite": 77.65,
       "like_count": null,
       "upload_date": "20260504",
@@ -118,6 +121,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=TpyS50ifmX4",
       "status": "ok",
+      "word_count": 16232,
       "summary_bullets": [
         "Former Pentagon official warns on AI weapons.",
         "AI in war creates opaque, probabilistic targeting.",
@@ -164,6 +168,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=EInEmGaMRLc",
       "status": "ok",
+      "word_count": 14904,
       "summary_bullets": [
         "Evolutionary LLM search for scientific discovery",
         "Shinka Evolve achieves sample-efficient program optimization",
@@ -206,6 +211,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=yq318DIwPqw",
       "status": "ok",
+      "word_count": 8851,
       "summary_bullets": [
         "Abstraction in science ignores messy reality.",
         "Reflex theory as historical oversimplification case.",
@@ -248,6 +254,7 @@
       "speakers": "Jeremy Howard",
       "url": "https://www.youtube.com/watch?v=dHBEQ-Ryo24",
       "status": "ok",
+      "word_count": 15007,
       "summary_bullets": [
         "AI coding tools create illusion of control.",
         "Interactive notebooks beat terminal-based AI coding.",
@@ -272,6 +279,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=AREWYbVtX64",
       "status": "ok",
+      "word_count": 15341,
       "summary_bullets": [
         "Critiques AI hype as demoralizing to young researchers.",
         "Advocates for economic and statistical thinking in AI.",
@@ -318,6 +326,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=pO0WZsN8Oiw",
       "status": "ok",
+      "word_count": 7238,
       "summary_bullets": [
         "Brain metaphors mirror era's advanced tech.",
         "Free energy principle is elegant but limited.",
@@ -352,6 +361,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Ucqfb33GJJ4",
       "status": "ok",
+      "word_count": 9663,
       "summary_bullets": [
         "Geometric deep learning exploits physical symmetries.",
         "Agency is a continuum of policy sophistication.",
@@ -390,6 +400,7 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=5pieVHmlbyk",
       "status": "ok",
+      "word_count": 12635,
       "summary_bullets": [
         "Thermodynamic chip uses noise for computation.",
         "AI agents generated 500k lines of Verilog.",
@@ -424,6 +435,7 @@
       "speakers": "Millennia of minds, compressed into words.",
       "url": "https://www.youtube.com/watch?v=Vg6FBKTlfOw",
       "status": "ok",
+      "word_count": 17096,
       "summary_bullets": [
         "ARC-AGI-3 tests AI game-playing with action efficiency.",
         "LLMs with harnesses achieve 36% score but inefficiently.",

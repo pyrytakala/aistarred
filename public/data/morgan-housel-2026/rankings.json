@@ -1,0 +1,89 @@
+{
+  "source_id": "morgan-housel-2026",
+  "model": "accounts/fireworks/models/deepseek-v4-flash",
+  "video_count": 2,
+  "scored_count": 2,
+  "ranked_count": 2,
+  "rankings": [
+    {
+      "id": "long-term-money",
+      "title": "Long-Term Money",
+      "speakers": "Morgan Housel",
+      "url": "https://collabfund.com/blog/long-term-money/",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 946,
+      "summary_bullets": [
+        "Historical progress makes past hardships invisible.",
+        "Each generation solves different problems.",
+        "“Spoiled” is relative to previous standards.",
+        "Hard work aims to elevate future generations.",
+        "Higher-order worries replace basic survival."
+      ],
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "Why “Spoiled” Kids Are the Goal of Hard Work",
+      "substance": 6,
+      "evidence": 3,
+      "specificity": 5,
+      "insight_density": 6.5,
+      "non_promotion": 10,
+      "practical_utility": 3,
+      "composite": 50,
+      "like_count": null,
+      "upload_date": "20260402",
+      "duration_seconds": null,
+      "composite_base": 50,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "a-few-things-im-pretty-sure-about-2026",
+      "title": "A Few Things I’m Pretty Sure About",
+      "speakers": "Morgan Housel",
+      "url": "https://collabfund.com/blog/a-few-things-im-pretty-sure-about-2026/",
+      "status": "ok",
+      "cache_hit": false,
+      "word_count": 1033,
+      "summary_bullets": [
+        "Back pain taught empathy for jerks.",
+        "Most harm is unintentional, self-justified.",
+        "Housing affordability drives many social issues.",
+        "Internet has unique downsides vs past tech.",
+        "Political trust cycles historically."
+      ],
+      "confidence": "High",
+      "audience_level": "general",
+      "display_title": "A Few Things I’m Pretty Sure About",
+      "substance": 4.5,
+      "evidence": 3.5,
+      "specificity": 5,
+      "insight_density": 6,
+      "non_promotion": 10,
+      "practical_utility": 2,
+      "composite": 43.5,
+      "like_count": null,
+      "upload_date": "20260106",
+      "duration_seconds": null,
+      "composite_base": 43.5,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    }
+  ],
+  "too_long": [],
+  "other": []
+}

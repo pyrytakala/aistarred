@@ -3,6 +3,8 @@ import { join } from "node:path";
 
 import { applyLikeRankAdjustment, indexVideosById } from "../lib/ranking-adjustments.js";
 import { positiveDimensionTags } from "../lib/dimension-tags.js";
+import { computeCompositeFromDimensions } from "../lib/score-composite.js";
+import { resolveWordCount } from "../lib/content-length.js";
 import { isScoredRanking } from "../lib/score-bands.js";
 import { appliesDurationLimits, isTooLongForScoring, isTooShortForScoring } from "../lib/scoring-limits.js";
 import { shouldDisplayVideo } from "../lib/source-filter.js";
@@ -21,7 +23,7 @@ export function loadVideos(indexPath: string): IndexPayload["videos"] {
 export function buildRankingsFromScoreFiles(
   indexPath: string,
   outputDir: string,
-  source?: Pick<SourceConfig, "fetchKind" | "contentKind">,
+  source?: Pick<SourceConfig, "id" | "fetchKind" | "contentKind">,
 ): RankedVideo[] {
   const durationOpts = { applyLimits: source ? appliesDurationLimits(source) : true };
   const videos = loadVideos(indexPath);
@@ -66,6 +68,7 @@ export function buildRankingsFromScoreFiles(
       url: video.url,
       status: "ok",
       score_path: scorePath,
+      word_count: resolveWordCount(video, source?.id),
       ...fields,
     });
   }
@@ -117,7 +120,16 @@ export function finalizeRankings(
       continue;
     }
 
-    if (result.composite != null && result.status === "ok") {
+    if (result.status !== "ok") {
+      continue;
+    }
+
+    const dimensionComposite = computeCompositeFromDimensions(result);
+    if (dimensionComposite != null) {
+      result.composite = dimensionComposite;
+    }
+
+    if (result.composite != null) {
       scorableResults.push(result);
     }
   }
@@ -127,6 +139,8 @@ export function finalizeRankings(
   ranked.forEach((result, index) => {
     const metadata = indexById[result.id] ?? {};
     result.duration_seconds = metadata.duration_seconds ?? result.duration_seconds ?? null;
+    result.word_count =
+      result.word_count ?? resolveWordCount(metadata, options.source.id) ?? null;
     result.rank = index + 1;
     result.tags = positiveDimensionTags(result);
   });

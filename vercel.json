@@ -148,14 +148,6 @@
       "destination": "/source/index.html"
     },
     {
-      "source": "/sources/machine-theory-journal-h1-2026",
-      "destination": "/source/index.html"
-    },
-    {
-      "source": "/sources/machine-theory-journal-h1-2026/",
-      "destination": "/source/index.html"
-    },
-    {
       "source": "/sources/semianalysis-q2-2026",
       "destination": "/source/index.html"
     },
@@ -244,14 +236,6 @@
       "destination": "/source/index.html"
     },
     {
-      "source": "/sources/nateliason-q2-2026",
-      "destination": "/source/index.html"
-    },
-    {
-      "source": "/sources/nateliason-q2-2026/",
-      "destination": "/source/index.html"
-    },
-    {
       "source": "/sources/founders-podcast-q2-2026",
       "destination": "/source/index.html"
     },
@@ -289,6 +273,110 @@
     },
     {
       "source": "/sources/iltb-podcast-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/cal-newport-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/cal-newport-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/kenji-lopez-alt-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/kenji-lopez-alt-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/morgan-housel-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/morgan-housel-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/ramit-sethi-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/ramit-sethi-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/ten-percent-happier-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/ten-percent-happier-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/happiness-lab-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/happiness-lab-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/good-inside-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/good-inside-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/raising-good-humans-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/raising-good-humans-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/emily-oster-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/emily-oster-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/barbell-medicine-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/barbell-medicine-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/david-burns-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/david-burns-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/tim-ferriss-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/tim-ferriss-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/ali-abdaal-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/ali-abdaal-2026/",
       "destination": "/source/index.html"
     }
   ],
@@ -474,16 +562,6 @@
       "permanent": true
     },
     {
-      "source": "/machine-theory-journal-h1-2026",
-      "destination": "/sources/machine-theory-journal-h1-2026",
-      "permanent": true
-    },
-    {
-      "source": "/machine-theory-journal-h1-2026/",
-      "destination": "/sources/machine-theory-journal-h1-2026/",
-      "permanent": true
-    },
-    {
       "source": "/semianalysis-q2-2026",
       "destination": "/sources/semianalysis-q2-2026",
       "permanent": true
@@ -594,16 +672,6 @@
       "permanent": true
     },
     {
-      "source": "/nateliason-q2-2026",
-      "destination": "/sources/nateliason-q2-2026",
-      "permanent": true
-    },
-    {
-      "source": "/nateliason-q2-2026/",
-      "destination": "/sources/nateliason-q2-2026/",
-      "permanent": true
-    },
-    {
       "source": "/founders-podcast-q2-2026",
       "destination": "/sources/founders-podcast-q2-2026",
       "permanent": true
@@ -651,6 +719,136 @@
     {
       "source": "/iltb-podcast-q2-2026/",
       "destination": "/sources/iltb-podcast-q2-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/cal-newport-2026",
+      "destination": "/sources/cal-newport-2026",
+      "permanent": true
+    },
+    {
+      "source": "/cal-newport-2026/",
+      "destination": "/sources/cal-newport-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/kenji-lopez-alt-2026",
+      "destination": "/sources/kenji-lopez-alt-2026",
+      "permanent": true
+    },
+    {
+      "source": "/kenji-lopez-alt-2026/",
+      "destination": "/sources/kenji-lopez-alt-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/morgan-housel-2026",
+      "destination": "/sources/morgan-housel-2026",
+      "permanent": true
+    },
+    {
+      "source": "/morgan-housel-2026/",
+      "destination": "/sources/morgan-housel-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/ramit-sethi-2026",
+      "destination": "/sources/ramit-sethi-2026",
+      "permanent": true
+    },
+    {
+      "source": "/ramit-sethi-2026/",
+      "destination": "/sources/ramit-sethi-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/ten-percent-happier-2026",
+      "destination": "/sources/ten-percent-happier-2026",
+      "permanent": true
+    },
+    {
+      "source": "/ten-percent-happier-2026/",
+      "destination": "/sources/ten-percent-happier-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/happiness-lab-2026",
+      "destination": "/sources/happiness-lab-2026",
+      "permanent": true
+    },
+    {
+      "source": "/happiness-lab-2026/",
+      "destination": "/sources/happiness-lab-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/good-inside-2026",
+      "destination": "/sources/good-inside-2026",
+      "permanent": true
+    },
+    {
+      "source": "/good-inside-2026/",
+      "destination": "/sources/good-inside-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/raising-good-humans-2026",
+      "destination": "/sources/raising-good-humans-2026",
+      "permanent": true
+    },
+    {
+      "source": "/raising-good-humans-2026/",
+      "destination": "/sources/raising-good-humans-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/emily-oster-2026",
+      "destination": "/sources/emily-oster-2026",
+      "permanent": true
+    },
+    {
+      "source": "/emily-oster-2026/",
+      "destination": "/sources/emily-oster-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/barbell-medicine-2026",
+      "destination": "/sources/barbell-medicine-2026",
+      "permanent": true
+    },
+    {
+      "source": "/barbell-medicine-2026/",
+      "destination": "/sources/barbell-medicine-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/david-burns-2026",
+      "destination": "/sources/david-burns-2026",
+      "permanent": true
+    },
+    {
+      "source": "/david-burns-2026/",
+      "destination": "/sources/david-burns-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/tim-ferriss-2026",
+      "destination": "/sources/tim-ferriss-2026",
+      "permanent": true
+    },
+    {
+      "source": "/tim-ferriss-2026/",
+      "destination": "/sources/tim-ferriss-2026/",
+      "permanent": true
+    },
+    {
+      "source": "/ali-abdaal-2026",
+      "destination": "/sources/ali-abdaal-2026",
+      "permanent": true
+    },
+    {
+      "source": "/ali-abdaal-2026/",
+      "destination": "/sources/ali-abdaal-2026/",
       "permanent": true
     }
   ]
