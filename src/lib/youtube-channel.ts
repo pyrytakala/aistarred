@@ -60,6 +60,123 @@ export function listChannelVideosWithYtDlp(
   );
 }
 
+function fetchUploadDateWithYtDlp(ytDlp: string[], videoId: string): string | null {
+  const result = spawnSync(
+    ytDlp[0],
+    [
+      ...ytDlp.slice(1),
+      "--no-warnings",
+      "--print",
+      "%(upload_date)s",
+      `https://www.youtube.com/watch?v=${videoId}`,
+    ],
+    { encoding: "utf8" },
+  );
+
+  if (result.status !== 0) {
+    return null;
+  }
+
+  const uploadDate = result.stdout.trim();
+  if (!uploadDate || uploadDate === "NA" || uploadDate.length !== 8) {
+    return null;
+  }
+
+  return uploadDate;
+}
+
+function listFlatPlaylistEntries(
+  ytDlp: string[],
+  channelUrl: string,
+): Array<{ videoId: string; title: string; durationSeconds: number | null }> {
+  const result = spawnSync(
+    ytDlp[0],
+    [
+      ...ytDlp.slice(1),
+      "--ignore-errors",
+      "--no-warnings",
+      "--flat-playlist",
+      "--print",
+      "%(id)s\t%(title)s\t%(duration)s",
+      channelUrl,
+    ],
+    { encoding: "utf8", maxBuffer: 32 * 1024 * 1024 },
+  );
+
+  if (result.status !== 0) {
+    throw new Error(result.stderr?.trim() || "yt-dlp failed to list channel videos");
+  }
+
+  const entries: Array<{ videoId: string; title: string; durationSeconds: number | null }> = [];
+  for (const line of result.stdout.split(/\r?\n/)) {
+    if (!line.trim()) {
+      continue;
+    }
+
+    const [videoId, title, durationText] = line.split("\t");
+    if (!videoId) {
+      continue;
+    }
+
+    const durationSeconds = Number(durationText);
+    entries.push({
+      videoId,
+      title: title ?? videoId,
+      durationSeconds: Number.isFinite(durationSeconds) ? durationSeconds : null,
+    });
+  }
+
+  return entries;
+}
+
+function listChannelVideosWithDateProbe(
+  ytDlp: string[],
+  channelUrl: string,
+  options: {
+    dateRange: DateRange;
+    maxVideos?: number | null;
+  },
+): Array<[string, Record<string, unknown>]> {
+  const flatEntries = listFlatPlaylistEntries(ytDlp, channelUrl);
+  const videos: Array<[string, Record<string, unknown>]> = [];
+
+  for (const entry of flatEntries) {
+    if (!isEligibleForScoring(entry.durationSeconds)) {
+      continue;
+    }
+
+    const uploadDate = fetchUploadDateWithYtDlp(ytDlp, entry.videoId);
+    if (!uploadDate) {
+      continue;
+    }
+
+    if (!isWithinDateRange(uploadDate, options.dateRange)) {
+      if (uploadDate < options.dateRange.since) {
+        break;
+      }
+      continue;
+    }
+
+    videos.push([
+      entry.videoId,
+      {
+        videoId: entry.videoId,
+        title: entry.title,
+        published: uploadDateToIso(uploadDate),
+        upload_date: uploadDate,
+        lengthText: formatSecondsAsLengthText(entry.durationSeconds),
+        duration_seconds: entry.durationSeconds,
+      },
+    ]);
+
+    if (options.maxVideos != null && videos.length >= options.maxVideos) {
+      break;
+    }
+  }
+
+  return videos;
+}
+
 function listChannelVideosWithYtDlpInner(
   channelUrl: string,
   options: {
@@ -73,29 +190,23 @@ function listChannelVideosWithYtDlpInner(
     throw new Error("yt-dlp is required for calendar date-range channel listing");
   }
 
+  if (options.dateRange) {
+    return listChannelVideosWithDateProbe(ytDlp, channelUrl, {
+      dateRange: options.dateRange,
+      maxVideos: options.maxVideos,
+    });
+  }
+
   const args = [
     "--ignore-errors",
     "--no-warnings",
+    "--flat-playlist",
     "--print",
     "%(id)s\t%(upload_date)s\t%(title)s\t%(duration)s",
+    "--match-filter",
+    `duration > ${MIN_SCORED_DURATION_SECONDS}`,
     channelUrl,
   ];
-
-  if (options.dateRange) {
-    args.splice(
-      args.length - 1,
-      0,
-      "--match-filter",
-      `upload_date >= ${options.dateRange.since} & upload_date <= ${options.dateRange.until} & duration > ${MIN_SCORED_DURATION_SECONDS}`,
-    );
-  } else {
-    args.splice(
-      args.length - 1,
-      0,
-      "--match-filter",
-      `duration > ${MIN_SCORED_DURATION_SECONDS}`,
-    );
-  }
 
   const result = spawnSync(ytDlp[0], [...ytDlp.slice(1), ...args], {
     encoding: "utf8",
@@ -117,10 +228,6 @@ function listChannelVideosWithYtDlpInner(
       continue;
     }
 
-    if (options.dateRange && uploadDate && !isWithinDateRange(uploadDate, options.dateRange)) {
-      continue;
-    }
-
     const durationSeconds = Number(durationText);
     if (!isEligibleForScoring(Number.isFinite(durationSeconds) ? durationSeconds : null)) {
       continue;
@@ -132,7 +239,7 @@ function listChannelVideosWithYtDlpInner(
         videoId,
         title,
         published: uploadDateToIso(uploadDate),
-        upload_date: uploadDate,
+        upload_date: uploadDate !== "NA" ? uploadDate : null,
         lengthText: formatSecondsAsLengthText(
           Number.isFinite(durationSeconds) ? durationSeconds : null,
         ),
