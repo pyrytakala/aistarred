@@ -3,6 +3,7 @@ import {
   mountSingleSelectDropdown,
   type FilterDropdownHandle,
 } from "./filter-dropdown.js";
+import { filterSummary } from "./filter-summary.js";
 
 export type ScoreFilterMin = 7 | 8 | 9 | null;
 
@@ -78,12 +79,14 @@ export function scoreFilterLabel(min: ScoreFilterMin): string | null {
   return SCORE_FILTER_OPTIONS.find((option) => option.value === min)?.label ?? null;
 }
 
-function scoreFilterSummary(min: ScoreFilterMin): string {
+function scoreFilterSummary(min: ScoreFilterMin, context: ScoreFilterContext = "source") {
   const label = SCORE_FILTER_OPTIONS.find((option) => option.value === min)?.label ?? "All scores";
-  return `Score: ${label}`;
+  const defaultMin = context === "feed" ? 7 : null;
+  return filterSummary("Score", label, min !== defaultMin);
 }
 
 let scoreDropdownHandle: FilterDropdownHandle | null = null;
+let scoreFilterContext: ScoreFilterContext = "source";
 
 export function mountScoreFilter(
   container: HTMLElement,
@@ -91,9 +94,10 @@ export function mountScoreFilter(
   onChange: (min: ScoreFilterMin) => void,
   context: ScoreFilterContext = "source",
 ): void {
+  scoreFilterContext = context;
   scoreDropdownHandle = mountSingleSelectDropdown(container, {
     ariaLabel: "Filter by score",
-    summary: scoreFilterSummary(selected),
+    summary: scoreFilterSummary(selected, context),
     options: SCORE_FILTER_OPTIONS.map((option) => ({
       value: scoreFilterValue(option.value),
       label: option.label,
@@ -102,7 +106,7 @@ export function mountScoreFilter(
     onChange: (value) => {
       const min = scoreFilterFromValue(value);
       writeScoreFilter(min, context);
-      scoreDropdownHandle?.updateSummary(scoreFilterSummary(min));
+      scoreDropdownHandle?.updateSummary(scoreFilterSummary(min, context));
       scoreDropdownHandle?.updateSelection(new Set([value]));
       onChange(min);
     },
@@ -111,6 +115,6 @@ export function mountScoreFilter(
 
 export function syncScoreFilterButtons(container: HTMLElement, selected: ScoreFilterMin): void {
   void container;
-  scoreDropdownHandle?.updateSummary(scoreFilterSummary(selected));
+  scoreDropdownHandle?.updateSummary(scoreFilterSummary(selected, scoreFilterContext));
   scoreDropdownHandle?.updateSelection(new Set([scoreFilterValue(selected)]));
 }

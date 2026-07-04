@@ -38,15 +38,23 @@ function renderCard(source: PublicSource): HTMLLIElement {
   const body = document.createElement("div");
   body.className = "source-card-body";
 
-  const eyebrow = document.createElement("span");
-  eyebrow.className = "source-card-eyebrow";
-  eyebrow.textContent = CONTENT_KIND_LABELS[source.contentKind].topPicks;
-  body.appendChild(eyebrow);
+  const titleRow = document.createElement("div");
+  titleRow.className = "source-card-title-row";
 
   const title = document.createElement("span");
   title.className = "source-card-title";
   title.textContent = source.title;
-  body.appendChild(title);
+  titleRow.appendChild(title);
+
+  if (source.rankedCount != null && source.rankedCount > 0) {
+    const count = document.createElement("span");
+    count.className = "source-card-count";
+    count.textContent = String(source.rankedCount);
+    count.title = `${source.rankedCount} ranked items`;
+    titleRow.appendChild(count);
+  }
+
+  body.appendChild(titleRow);
 
   const subtitle = sourceSubtitle(source);
   if (subtitle) {

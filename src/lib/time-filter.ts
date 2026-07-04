@@ -1,5 +1,6 @@
 import { daysSinceUpload } from "./video-age.js";
 import { mountSingleSelectDropdown, type FilterDropdownHandle } from "./filter-dropdown.js";
+import { filterSummary } from "./filter-summary.js";
 
 export type TimeFilterDays = 7 | 30 | 90 | null;
 
@@ -57,10 +58,10 @@ export function meetsTimeFilter(
   return ageDays <= maxDays;
 }
 
-function timeFilterSummary(days: TimeFilterDays): string {
+function timeFilterSummary(days: TimeFilterDays) {
   const label =
     TIME_FILTER_OPTIONS.find((option) => option.value === days)?.label ?? "All time";
-  return `Time: ${label}`;
+  return filterSummary("Time", label, days != null);
 }
 
 let timeDropdownHandle: FilterDropdownHandle | null = null;

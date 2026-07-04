@@ -147,12 +147,20 @@ body {
   padding: 0.85rem 1rem 1rem;
 }
 
-.source-card-eyebrow {
+.source-card-title-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.source-card-count {
   font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
   color: var(--muted);
+  opacity: 0.65;
+  flex-shrink: 0;
 }
 
 .source-card-title {

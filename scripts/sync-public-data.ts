@@ -7,14 +7,32 @@ import { writePreviewRankingsIfMissing } from "../src/lib/preview-rankings.js";
 import { toPublicSource } from "../src/lib/public-source.js";
 import { listSources } from "../src/lib/sources.js";
 import { publishRankings } from "../src/pipeline/publish.js";
+import type { RankingsPayload } from "../src/lib/types.js";
+import { visibleScoredCount } from "../src/lib/visible-ranked.js";
 
 const ROOT = resolve(import.meta.dirname, "..");
 const MANIFEST_PATH = join(ROOT, "public", "data", "sources.json");
 const VERCEL_PATH = join(ROOT, "vercel.json");
 
+function rankedCountForSource(source: ReturnType<typeof listSources>[number]): number {
+  const rankingsPath = sourcePaths(source.id).publicRankingsPath;
+  if (!existsSync(rankingsPath)) {
+    return 0;
+  }
+
+  const payload = JSON.parse(readFileSync(rankingsPath, "utf8")) as RankingsPayload;
+  return visibleScoredCount(payload, {
+    maxDisplayAgeDays: source.maxDisplayAgeDays,
+    dateRange: source.dateRange,
+  });
+}
+
 function syncSourcesManifest(): void {
   const manifest = {
-    sources: listSources().map(toPublicSource),
+    sources: listSources().map((source) => ({
+      ...toPublicSource(source),
+      rankedCount: rankedCountForSource(source),
+    })),
   };
 
   mkdirSync(join(ROOT, "public", "data"), { recursive: true });

@@ -1,8 +1,10 @@
 import "./styles.css";
 import "./feed.css";
 import type { RankedVideo, RankingsPayload } from "./types";
-import { shouldDisplayVideo } from "./lib/source-filter.js";
-import { isScoredRanking } from "./lib/score-bands.js";
+import {
+  visibleScoredFromPayload,
+  type SourceDisplayFilter,
+} from "./lib/visible-ranked.js";
 import {
   meetsScoreFilter,
   mountScoreFilter,
@@ -30,11 +32,23 @@ import {
   type TimeFilterDays,
 } from "./lib/time-filter.js";
 import {
+  meetsAudienceLevelFilter,
+  mountAudienceLevelFilter,
+  readAudienceLevelFilter,
+  syncAudienceLevelFilter,
+} from "./lib/audience-level-filter.js";
+import {
+  meetsFeedSourceFilter,
+  mountFeedSourceFilter,
+  readFeedSourceFilter,
+  syncFeedSourceFilter,
+} from "./lib/feed-source-filter.js";
+import { mountFilterDropdownInteraction } from "./lib/filter-dropdown.js";
+import {
   closeScoreBreakdown,
   cloneRankedCard,
   mountRankedCardInteraction,
 } from "./lib/ranked-card.js";
-import { mountFilterDropdownInteraction } from "./lib/filter-dropdown.js";
 import {
   loadSourcesManifest,
   rankingsUrlForSource,
@@ -48,33 +62,20 @@ interface FeedItem {
 }
 
 let allFeedItems: FeedItem[] = [];
+let allSources: PublicSource[] = [];
 let scoreFilterMin: ScoreFilterMin = readScoreFilter("feed");
 let contentKindFilter = readContentKindFilter();
+let audienceLevelFilter = readAudienceLevelFilter();
+let sourceFilter = new Set<string>();
 let sortMode: SortMode = readSortMode();
 let timeFilterDays: TimeFilterDays = readTimeFilter();
 
 function visibleScoredItems(source: PublicSource, payload: RankingsPayload): RankedVideo[] {
-  const displayFilter = {
+  const displayFilter: SourceDisplayFilter = {
     maxDisplayAgeDays: source.maxDisplayAgeDays,
     dateRange: source.dateRange,
   };
-  const inRange = (videos: RankedVideo[]) =>
-    (videos || []).filter(
-      (video) => shouldDisplayVideo(video.upload_date, displayFilter) && isScoredRanking(video),
-    );
-
-  const primary = inRange(payload.rankings || []);
-  const seen = new Set(primary.map((video) => video.id));
-  const merged = [...primary];
-
-  for (const video of inRange(payload.other || [])) {
-    if (!seen.has(video.id)) {
-      merged.push(video);
-      seen.add(video.id);
-    }
-  }
-
-  return merged;
+  return visibleScoredFromPayload(payload, displayFilter);
 }
 
 function sortFeedItems(items: FeedItem[], mode: SortMode): FeedItem[] {
@@ -89,10 +90,9 @@ function sortFeedItems(items: FeedItem[], mode: SortMode): FeedItem[] {
   });
 }
 
-async function loadFeedItems(): Promise<FeedItem[]> {
-  const manifest = await loadSourcesManifest();
+async function loadFeedItems(sources: PublicSource[]): Promise<FeedItem[]> {
   const payloads = await Promise.all(
-    manifest.sources.map(async (source) => {
+    sources.map(async (source) => {
       const response = await fetch(rankingsUrlForSource(source.id));
       if (!response.ok) {
         return { source, payload: null as RankingsPayload | null };
@@ -116,7 +116,12 @@ async function loadFeedItems(): Promise<FeedItem[]> {
 }
 
 function hasActiveFilters(): boolean {
-  if (contentKindFilter.size > 0 || timeFilterDays != null) {
+  if (
+    contentKindFilter.size > 0 ||
+    audienceLevelFilter.size > 0 ||
+    timeFilterDays != null ||
+    sourceFilter.size > 0
+  ) {
     return true;
   }
   return scoreFilterMin !== 7;
@@ -127,6 +132,8 @@ function filteredFeedItems(items: FeedItem[]): FeedItem[] {
     (item) =>
       meetsScoreFilter(item.video.composite, scoreFilterMin) &&
       meetsContentKindFilter(item.source.contentKind, contentKindFilter) &&
+      meetsAudienceLevelFilter(item.video.audience_level, audienceLevelFilter) &&
+      meetsFeedSourceFilter(item.source.slug, sourceFilter) &&
       meetsTimeFilter(item.video.upload_date, timeFilterDays),
   );
 }
@@ -205,7 +212,11 @@ function rerenderFeed(): void {
 async function init(): Promise<void> {
   mountRankedCardInteraction();
   mountFilterDropdownInteraction();
-  allFeedItems = await loadFeedItems();
+
+  const manifest = await loadSourcesManifest();
+  allSources = manifest.sources;
+  sourceFilter = readFeedSourceFilter(new Set(allSources.map((source) => source.slug)));
+  allFeedItems = await loadFeedItems(allSources);
 
   const sortFilterContainer = document.getElementById("sort-filters");
   if (sortFilterContainer) {
@@ -221,6 +232,24 @@ async function init(): Promise<void> {
     mountContentKindFilter(kindFilterContainer, contentKindFilter, (selected) => {
       contentKindFilter = selected;
       syncContentKindFilterButtons(kindFilterContainer, contentKindFilter);
+      rerenderFeed();
+    });
+  }
+
+  const audienceLevelFilterContainer = document.getElementById("audience-level-filters");
+  if (audienceLevelFilterContainer) {
+    mountAudienceLevelFilter(audienceLevelFilterContainer, audienceLevelFilter, (selected) => {
+      audienceLevelFilter = selected;
+      syncAudienceLevelFilter(audienceLevelFilterContainer, audienceLevelFilter);
+      rerenderFeed();
+    });
+  }
+
+  const sourceFilterContainer = document.getElementById("source-filters");
+  if (sourceFilterContainer) {
+    mountFeedSourceFilter(sourceFilterContainer, allSources, sourceFilter, (selected) => {
+      sourceFilter = selected;
+      syncFeedSourceFilter(sourceFilterContainer, allSources, sourceFilter);
       rerenderFeed();
     });
   }

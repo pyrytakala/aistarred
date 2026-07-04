@@ -1,11 +1,29 @@
+import type { FilterDropdownSummary } from "./filter-summary.js";
+
+export type { FilterDropdownSummary };
+
 export interface FilterDropdownHandle {
-  updateSummary(summary: string): void;
+  updateSummary(summary: FilterDropdownSummary): void;
   updateSelection(selectedValues: Set<string>): void;
   close(): void;
 }
 
 let openDropdown: HTMLElement | null = null;
 let dropdownInteractionMounted = false;
+
+function summaryAriaLabel(summary: FilterDropdownSummary): string {
+  return `${summary.label}: ${summary.value}`;
+}
+
+function applySummary(
+  valueEl: HTMLElement,
+  trigger: HTMLButtonElement,
+  summary: FilterDropdownSummary,
+): void {
+  valueEl.textContent = summary.value;
+  trigger.setAttribute("aria-label", summaryAriaLabel(summary));
+  trigger.classList.toggle("filter-dropdown-trigger--active", summary.active === true);
+}
 
 function closeOpenDropdown(): void {
   if (!openDropdown) {
@@ -60,11 +78,12 @@ export function mountFilterDropdownInteraction(): void {
 function createDropdownShell(
   container: HTMLElement,
   ariaLabel: string,
-  summary: string,
+  summary: FilterDropdownSummary,
+  summaryIconHtml?: string,
 ): {
   dropdown: HTMLElement;
   trigger: HTMLButtonElement;
-  summaryEl: HTMLElement;
+  valueEl: HTMLElement;
   panel: HTMLElement;
   list: HTMLElement;
   handle: FilterDropdownHandle;
@@ -84,7 +103,19 @@ function createDropdownShell(
 
   const summaryEl = document.createElement("span");
   summaryEl.className = "filter-dropdown-summary";
-  summaryEl.textContent = summary;
+
+  const valueEl = document.createElement("span");
+  valueEl.className = "filter-dropdown-summary-value";
+  summaryEl.appendChild(valueEl);
+
+  if (summaryIconHtml) {
+    const icon = document.createElement("span");
+    icon.className = "filter-dropdown-trigger-icon";
+    icon.innerHTML = summaryIconHtml;
+    icon.setAttribute("aria-hidden", "true");
+    trigger.appendChild(icon);
+  }
+
   trigger.appendChild(summaryEl);
 
   const chevron = document.createElement("span");
@@ -92,6 +123,8 @@ function createDropdownShell(
   chevron.setAttribute("aria-hidden", "true");
   chevron.textContent = "▾";
   trigger.appendChild(chevron);
+
+  applySummary(valueEl, trigger, summary);
 
   const panel = document.createElement("div");
   panel.className = "filter-dropdown-panel";
@@ -115,8 +148,8 @@ function createDropdownShell(
   });
 
   const handle: FilterDropdownHandle = {
-    updateSummary(nextSummary: string) {
-      summaryEl.textContent = nextSummary;
+    updateSummary(nextSummary: FilterDropdownSummary) {
+      applySummary(valueEl, trigger, nextSummary);
     },
     updateSelection(selectedValues: Set<string>) {
       for (const option of list.querySelectorAll<HTMLElement>(".filter-dropdown-option")) {
@@ -140,7 +173,7 @@ function createDropdownShell(
     },
   };
 
-  return { dropdown, trigger, summaryEl, panel, list, handle };
+  return { dropdown, trigger, valueEl, panel, list, handle };
 }
 
 export interface SingleSelectDropdownOption {
@@ -152,14 +185,20 @@ export function mountSingleSelectDropdown(
   container: HTMLElement,
   config: {
     ariaLabel: string;
-    summary: string;
+    summary: FilterDropdownSummary;
+    summaryIconHtml?: string;
     options: SingleSelectDropdownOption[];
     selectedValue: string;
     onChange: (value: string) => void;
   },
 ): FilterDropdownHandle {
   let currentValue = config.selectedValue;
-  const { list, handle } = createDropdownShell(container, config.ariaLabel, config.summary);
+  const { list, handle } = createDropdownShell(
+    container,
+    config.ariaLabel,
+    config.summary,
+    config.summaryIconHtml,
+  );
 
   for (const option of config.options) {
     const button = document.createElement("button");
@@ -200,7 +239,7 @@ export function mountMultiSelectDropdown(
   container: HTMLElement,
   config: {
     ariaLabel: string;
-    summary: string;
+    summary: FilterDropdownSummary;
     options: MultiSelectDropdownOption[];
     selectedValues: Set<string>;
     onChange: (selected: Set<string>) => void;

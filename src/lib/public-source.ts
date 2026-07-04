@@ -13,6 +13,7 @@ export interface PublicSource {
   location?: string;
   dateRange?: SourceConfig["dateRange"];
   maxDisplayAgeDays: number | null;
+  rankedCount?: number;
 }
 
 export interface SourcesManifest {

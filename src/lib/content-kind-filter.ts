@@ -5,6 +5,7 @@ import {
   mountMultiSelectDropdown,
   type FilterDropdownHandle,
 } from "./filter-dropdown.js";
+import { multiSelectFilterSummary } from "./filter-summary.js";
 
 export const CONTENT_KIND_FILTER_OPTIONS: ContentKind[] = [
   "podcast",
@@ -12,6 +13,13 @@ export const CONTENT_KIND_FILTER_OPTIONS: ContentKind[] = [
   "channel",
   "conference",
 ];
+
+const CONTENT_KIND_ONLY_LABELS: Record<ContentKind, string> = {
+  podcast: "Podcasts only",
+  essay: "Essays only",
+  channel: "Channels only",
+  conference: "Conferences only",
+};
 
 const KIND_PARAM = "kind";
 
@@ -65,14 +73,19 @@ export function contentKindFilterLabel(selected: Set<ContentKind>): string | nul
     .join(", ");
 }
 
-function contentKindFilterSummary(selected: Set<ContentKind>): string {
-  if (selected.size === 0) {
-    return "Type: All types";
-  }
-  const labels = CONTENT_KIND_FILTER_OPTIONS.filter((kind) => selected.has(kind)).map(
-    (kind) => CONTENT_KIND_LABELS[kind].kind,
-  );
-  return `Type: ${labels.join(", ")}`;
+function contentKindFilterSummary(selected: Set<ContentKind>) {
+  const total = CONTENT_KIND_FILTER_OPTIONS.length;
+  const singleKind =
+    selected.size === 1 ? CONTENT_KIND_FILTER_OPTIONS.find((kind) => selected.has(kind)) : null;
+
+  return multiSelectFilterSummary({
+    label: "Type",
+    total,
+    selected: selected.size,
+    allValue: "All types",
+    singleValue: singleKind ? CONTENT_KIND_ONLY_LABELS[singleKind] : undefined,
+    partialValue: `${selected.size}/${total} types`,
+  });
 }
 
 let kindDropdownHandle: FilterDropdownHandle | null = null;

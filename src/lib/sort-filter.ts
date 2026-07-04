@@ -1,5 +1,7 @@
 import { mountSingleSelectDropdown, type FilterDropdownHandle } from "./filter-dropdown.js";
+import { filterSummary } from "./filter-summary.js";
 import type { SortMode } from "./ranked-list.js";
+import { sortIconSvg } from "./sort-icon.js";
 
 export const SORT_OPTIONS: Array<{ value: SortMode; label: string }> = [
   { value: "date", label: "Newest" },
@@ -26,9 +28,9 @@ export function writeSortMode(mode: SortMode): void {
   window.history.replaceState({}, "", url);
 }
 
-function sortFilterSummary(mode: SortMode): string {
+function sortFilterSummary(mode: SortMode) {
   const label = SORT_OPTIONS.find((option) => option.value === mode)?.label ?? "Newest";
-  return `Sort: ${label}`;
+  return filterSummary("Sort", label, mode !== "date");
 }
 
 let sortDropdownHandle: FilterDropdownHandle | null = null;
@@ -41,6 +43,7 @@ export function mountSortFilter(
   sortDropdownHandle = mountSingleSelectDropdown(container, {
     ariaLabel: "Sort by",
     summary: sortFilterSummary(selected),
+    summaryIconHtml: sortIconSvg(),
     options: SORT_OPTIONS.map((option) => ({
       value: option.value,
       label: option.label,

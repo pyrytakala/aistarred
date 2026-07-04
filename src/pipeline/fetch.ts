@@ -1,10 +1,14 @@
 import { mkdirSync, readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
-import { join } from "node:path";
+import { basename, join } from "node:path";
 
 import { applyContentLengthGate } from "../lib/content-length.js";
 import { isWithinDateRange } from "../lib/date-range.js";
 import { getContentFetcher, usesEssayFetch } from "../lib/content-fetchers/index.js";
-import { halfYearDateRange, isQ2DateRange, shouldExpandToHalfYear } from "../lib/half-year.js";
+import {
+  loadExistingIndexVideos,
+  mergeIndexVideos,
+  shouldSkipItemFetch,
+} from "../lib/fetch-delta.js";
 import { pipelineLog, withPipelineTiming } from "../lib/pipeline-log.js";
 import { appliesDurationLimits, isEligibleForScoring } from "../lib/scoring-limits.js";
 import { loadEnv } from "../lib/env.js";
@@ -25,6 +29,23 @@ import {
 import { defaultProviderName, getProvider } from "../providers/index.js";
 import { TranscriptProviderError, type TranscriptProvider } from "../providers/types.js";
 import type { IndexPayload, VideoIndexEntry } from "../lib/types.js";
+
+function seedUsedNamesFromIndex(entries: Iterable<VideoIndexEntry>): Set<string> {
+  const usedNames = new Set<string>();
+  for (const entry of entries) {
+    if (entry.transcript_path) {
+      usedNames.add(basename(entry.transcript_path));
+    }
+  }
+  return usedNames;
+}
+
+function writeIndexPayload(
+  indexPath: string,
+  payload: Record<string, unknown> & { videos: VideoIndexEntry[] },
+): void {
+  writeFileSync(indexPath, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+}
 
 function saveTranscript(
   outputDir: string,
@@ -229,6 +250,20 @@ async function runEssayFetch(
   const maxItems = limitArg ? Number(limitArg) : (source.essayMaxItems ?? null);
   const catalogUrl =
     argv.find((arg, index) => argv[index - 1] === "--channel-url") ?? source.channelUrl;
+  const indexPath = paths.indexPath;
+  const existingById = loadExistingIndexVideos(indexPath);
+  const forceRefresh = argv.includes("--refresh-transcripts");
+
+  const writeEssayIndex = (sessionUpdates: VideoIndexEntry[]) => {
+    writeIndexPayload(indexPath, {
+      source_id: source.id,
+      provider: fetcher.kind,
+      channel_url: catalogUrl,
+      date_range: source.dateRange ?? null,
+      video_count: mergeIndexVideos(existingById, sessionUpdates).length,
+      videos: mergeIndexVideos(existingById, sessionUpdates),
+    });
+  };
 
   const windowLabel = source.dateRange
     ? `${source.dateRange.since}–${source.dateRange.until}`
@@ -266,11 +301,22 @@ async function runEssayFetch(
 
   console.log(`Found ${items.length} essays in window. Fetching text...\n`);
 
-  const results: VideoIndexEntry[] = [];
-  const usedNames = new Set<string>();
+  const sessionUpdates: VideoIndexEntry[] = [];
+  const usedNames = seedUsedNamesFromIndex(existingById.values());
+  let skipped = 0;
 
   for (const [index, item] of items.entries()) {
     console.log(`[${index + 1}/${items.length}] ${item.title} (${item.id})`);
+    const existing = existingById.get(item.id);
+    if (shouldSkipItemFetch(existing, source.id, { forceRefresh })) {
+      const kept = applyContentLengthGate(existing!, source.id);
+      sessionUpdates.push(kept);
+      writeEssayIndex(sessionUpdates);
+      skipped += 1;
+      console.log(`  -> skip (cached), upload_date: ${kept.upload_date}`);
+      continue;
+    }
+
     const result = applyContentLengthGate(
       await withPipelineTiming(
         "essay-fetch",
@@ -280,42 +326,30 @@ async function runEssayFetch(
       ),
       source.id,
     );
-    results.push(result);
+    sessionUpdates.push(result);
+    writeEssayIndex(sessionUpdates);
     console.log(
       `  -> transcript: ${result.transcript_status}, upload_date: ${result.upload_date}${result.error ? ` (${result.error})` : ""}`,
     );
     if (requestDelay > 0 && index < items.length - 1) {
-      await sleep(requestDelay * 1000);
+      await sleep(requestDelay);
     }
   }
 
-  const indexPath = paths.indexPath;
-  writeFileSync(
-    indexPath,
-    `${JSON.stringify(
-      {
-        source_id: source.id,
-        provider: fetcher.kind,
-        channel_url: catalogUrl,
-        date_range: source.dateRange ?? null,
-        video_count: results.length,
-        videos: results,
-      },
-      null,
-      2,
-    )}\n`,
-    "utf8",
-  );
+  const results = mergeIndexVideos(existingById, sessionUpdates);
 
   pipelineLog("essay-fetch", "fetch-complete", {
     sourceId: source.id,
     essayCount: results.length,
     okCount: results.filter((result) => result.transcript_status === "ok").length,
+    skippedCount: skipped,
     dateRange: source.dateRange ?? null,
   });
 
   const okCount = results.filter((result) => result.transcript_status === "ok").length;
-  console.log(`\nDone. Saved ${okCount}/${results.length} essays to ${outputDir}/`);
+  console.log(
+    `\nDone. Saved ${okCount}/${results.length} essays to ${outputDir}/ (${skipped} skipped, cached)`,
+  );
   console.log(`Metadata: ${indexPath}`);
   return okCount ? 0 : 1;
 }
@@ -444,36 +478,6 @@ export async function runFetch(argv: string[]): Promise<number> {
         titleIncludes: source.youtubeTitleIncludes,
       });
       videoIds = filterVideosBySource(videoIds, provider, source);
-
-      if (
-        shouldExpandToHalfYear(videoIds.length, source.dateRange) ||
-        (videoIds.length === 0 &&
-          source.dateRange &&
-          isQ2DateRange(source.dateRange))
-      ) {
-        const h1Range = halfYearDateRange(Number(source.dateRange.since.slice(0, 4)));
-        const reason =
-          videoIds.length === 0
-            ? "No videos in Q2"
-            : `Only ${videoIds.length} videos in Q2`;
-        console.log(`${reason} — expanding to H1 (${h1Range.since}–${h1Range.until}).`);
-        pipelineLog("yt-fetch", "expand-to-half-year", {
-          sourceId: source.id,
-          q2Count: videoIds.length,
-          dateRange: h1Range,
-        });
-        effectiveDateRange = h1Range;
-        videoIds = listChannelVideosWithYtDlp(channelUrl, {
-          dateRange: h1Range,
-          maxVideos,
-          sourceId: source.id,
-          titleIncludes: source.youtubeTitleIncludes,
-        });
-        videoIds = filterVideosBySource(videoIds, provider, {
-          ...source,
-          dateRange: h1Range,
-        });
-      }
     } else {
       videoIds = await provider.listChannelVideosSince(channelUrl, {
         ...listWindow,
@@ -495,11 +499,40 @@ export async function runFetch(argv: string[]): Promise<number> {
 
   console.log(`Found ${videoIds.length} videos in window. Fetching transcripts...\n`);
 
-  const results: VideoIndexEntry[] = [];
-  const usedNames = new Set<string>();
+  const indexPath = paths.indexPath;
+  const existingById = loadExistingIndexVideos(indexPath);
+  const forceRefresh = argv.includes("--refresh-transcripts");
+  const sessionUpdates: VideoIndexEntry[] = [];
+  const usedNames = seedUsedNamesFromIndex(existingById.values());
+  let skipped = 0;
+
+  const writeYoutubeIndex = () => {
+    const merged = mergeIndexVideos(existingById, sessionUpdates);
+    writeIndexPayload(indexPath, {
+      source_id: source.id,
+      provider: provider.name,
+      channel_url: channelUrl,
+      date_range: effectiveDateRange ?? source.dateRange ?? null,
+      ...listWindow,
+      video_count: merged.length,
+      videos: merged,
+    });
+  };
 
   for (const [index, [videoId, metadataPayload]] of videoIds.entries()) {
     console.log(`[${index + 1}/${videoIds.length}] ${videoId}`);
+    const existing = existingById.get(videoId);
+    if (shouldSkipItemFetch(existing, source.id, { forceRefresh })) {
+      const kept = applyContentLengthGate(existing!, source.id);
+      sessionUpdates.push(kept);
+      writeYoutubeIndex();
+      skipped += 1;
+      console.log(
+        `  -> skip (cached): ${kept.title}\n     transcript: ok, upload_date: ${kept.upload_date}`,
+      );
+      continue;
+    }
+
     const result = applyContentLengthGate(
       await withPipelineTiming(
         "yt-fetch",
@@ -517,40 +550,27 @@ export async function runFetch(argv: string[]): Promise<number> {
       ),
       source.id,
     );
-    results.push(result);
+    sessionUpdates.push(result);
+    writeYoutubeIndex();
     console.log(
       `  -> ${result.title}\n     transcript: ${result.transcript_status}, views: ${result.view_count}, upload_date: ${result.upload_date}${result.error ? ` (${result.error})` : ""}`,
     );
   }
 
-  const indexPath = paths.indexPath;
-  writeFileSync(
-    indexPath,
-    `${JSON.stringify(
-      {
-        source_id: source.id,
-        provider: provider.name,
-        channel_url: channelUrl,
-        date_range: effectiveDateRange ?? source.dateRange ?? null,
-        ...listWindow,
-        video_count: results.length,
-        videos: results,
-      },
-      null,
-      2,
-    )}\n`,
-    "utf8",
-  );
+  const results = mergeIndexVideos(existingById, sessionUpdates);
 
   pipelineLog("yt-fetch", "fetch-complete", {
     sourceId: source.id,
     videoCount: results.length,
     okCount: results.filter((result) => result.transcript_status === "ok").length,
+    skippedCount: skipped,
     dateRange: effectiveDateRange ?? source.dateRange ?? null,
   });
 
   const okCount = results.filter((result) => result.transcript_status === "ok").length;
-  console.log(`\nDone. Saved ${okCount}/${results.length} transcripts to ${outputDir}/`);
+  console.log(
+    `\nDone. Saved ${okCount}/${results.length} transcripts to ${outputDir}/ (${skipped} skipped, cached)`,
+  );
   console.log(`Metadata: ${indexPath}`);
   return okCount ? 0 : 1;
 }

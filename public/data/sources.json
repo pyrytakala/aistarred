@@ -10,7 +10,8 @@
       "coverImage": "/images/covers/ai-engineer-worlds-fair-2026.jpg",
       "period": "Jun 2026",
       "location": "San Francisco",
-      "maxDisplayAgeDays": 10
+      "maxDisplayAgeDays": 10,
+      "rankedCount": 35
     },
     {
       "id": "latent-space-pod-q2-2026",
@@ -25,7 +26,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 34
     },
     {
       "id": "no-priors-pod-q2-2026",
@@ -40,7 +42,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 13
     },
     {
       "id": "twiml-ai-pod-q2-2026",
@@ -55,7 +58,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 8
     },
     {
       "id": "cognitive-revolution-pod-q2-2026",
@@ -70,7 +74,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 23
     },
     {
       "id": "nvidia-q2-2026",
@@ -85,7 +90,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 20
     },
     {
       "id": "a16z-q2-2026",
@@ -100,7 +106,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 23
     },
     {
       "id": "ml-street-talk-q2-2026",
@@ -115,7 +122,8 @@
         "since": "20260101",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 10
     },
     {
       "id": "huberman-lab-h1-2026",
@@ -130,7 +138,8 @@
         "since": "20260101",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 49
     },
     {
       "id": "paul-graham-essays-2020s",
@@ -145,7 +154,8 @@
         "since": "20200101",
         "until": "20291231"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 1
     },
     {
       "id": "swyx-io-2026",
@@ -160,7 +170,8 @@
         "since": "20260101",
         "until": "20261231"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 3
     },
     {
       "id": "gwern-blog-2025-2026",
@@ -175,7 +186,8 @@
         "since": "20250101",
         "until": "20261231"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 18
     },
     {
       "id": "simon-willison-h1-2026",
@@ -190,7 +202,8 @@
         "since": "20260101",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 1
     },
     {
       "id": "anthropic-engineering-h1-2026",
@@ -205,7 +218,8 @@
         "since": "20260101",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 9
     },
     {
       "id": "openai-developer-blog-h1-2026",
@@ -220,7 +234,8 @@
         "since": "20260101",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 12
     },
     {
       "id": "stratechery-h1-2026",
@@ -235,7 +250,8 @@
         "since": "20260101",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 1
     },
     {
       "id": "import-ai-h1-2026",
@@ -250,7 +266,8 @@
         "since": "20260101",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 20
     },
     {
       "id": "hamel-dev-h1-2026",
@@ -265,7 +282,8 @@
         "since": "20260101",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 4
     },
     {
       "id": "machine-theory-journal-h1-2026",
@@ -280,7 +298,8 @@
         "since": "20260101",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 0
     },
     {
       "id": "semianalysis-q2-2026",
@@ -295,7 +314,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 0
     },
     {
       "id": "bens-bites-q2-2026",
@@ -310,7 +330,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 19
     },
     {
       "id": "pragmatic-engineer-2026",
@@ -325,7 +346,8 @@
         "since": "20260101",
         "until": "20261231"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 12
     },
     {
       "id": "construction-physics-q2-2026",
@@ -340,7 +362,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 12
     },
     {
       "id": "asterisk-issue-14-latest",
@@ -355,7 +378,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 5
     },
     {
       "id": "odd-lots-q2-2026",
@@ -370,7 +394,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 25
     },
     {
       "id": "yc-startup-pod-q2-2026",
@@ -385,7 +410,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 30
     },
     {
       "id": "my-first-million-q2-2026",
@@ -400,7 +426,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 24
     },
     {
       "id": "pmf-show-q2-2026",
@@ -415,7 +442,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 20
     },
     {
       "id": "how-i-built-this-q2-2026",
@@ -430,7 +458,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 0
     },
     {
       "id": "lennys-podcast-q2-2026",
@@ -445,7 +474,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 15
     },
     {
       "id": "nateliason-q2-2026",
@@ -460,7 +490,8 @@
         "since": "20260101",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 0
     },
     {
       "id": "founders-podcast-q2-2026",
@@ -475,7 +506,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 7
     },
     {
       "id": "peter-attia-q2-2026",
@@ -490,7 +522,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 3
     },
     {
       "id": "modern-wisdom-q2-2026",
@@ -505,7 +538,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 29
     },
     {
       "id": "greg-isenberg-q2-2026",
@@ -520,7 +554,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 22
     },
     {
       "id": "iltb-podcast-q2-2026",
@@ -535,7 +570,8 @@
         "since": "20260401",
         "until": "20260630"
       },
-      "maxDisplayAgeDays": null
+      "maxDisplayAgeDays": null,
+      "rankedCount": 15
     }
   ]
 }

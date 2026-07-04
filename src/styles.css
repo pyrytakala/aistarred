@@ -117,29 +117,57 @@ body {
 .filter-dropdown-trigger {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.35rem 0.65rem;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--surface);
-  color: var(--text);
+  gap: 0.35rem;
+  padding: 0.2rem 0.15rem;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: var(--muted);
   font: inherit;
   font-size: 0.82rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 1.2;
   cursor: pointer;
-  transition:
-    border-color 0.15s ease,
-    box-shadow 0.15s ease;
+  transition: color 0.15s ease;
 }
 
-.filter-dropdown-trigger:hover {
-  border-color: rgba(59, 111, 217, 0.45);
+.filter-dropdown-trigger:hover,
+.filter-dropdown-trigger:hover .filter-dropdown-summary-value,
+.filter-dropdown-trigger:hover .filter-dropdown-chevron,
+.filter-dropdown-trigger:hover .filter-dropdown-trigger-icon {
+  color: var(--text);
+}
+
+.filter-dropdown-trigger--active {
+  background: transparent;
+  box-shadow: none;
+}
+
+.filter-dropdown-trigger--active:hover,
+.filter-dropdown-trigger--active:hover .filter-dropdown-summary-value,
+.filter-dropdown-trigger--active:hover .filter-dropdown-chevron,
+.filter-dropdown-trigger--active:hover .filter-dropdown-trigger-icon {
+  color: var(--accent);
+}
+
+.filter-dropdown-trigger--active .filter-dropdown-summary-value {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.filter-dropdown-trigger--active .filter-dropdown-chevron {
+  color: var(--accent);
 }
 
 .filter-dropdown-trigger[aria-expanded="true"] {
-  border-color: rgba(59, 111, 217, 0.55);
-  box-shadow: 0 0 0 2px rgba(59, 111, 217, 0.12);
+  box-shadow: none;
+}
+
+.filter-dropdown-trigger[aria-expanded="true"] .filter-dropdown-summary-value,
+.filter-dropdown-trigger[aria-expanded="true"] .filter-dropdown-chevron,
+.filter-dropdown-trigger[aria-expanded="true"] .filter-dropdown-trigger-icon {
+  color: var(--text);
 }
 
 .filter-dropdown-trigger:focus-visible {
@@ -147,8 +175,36 @@ body {
   outline-offset: 2px;
 }
 
+.filter-dropdown-trigger-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.95rem;
+  height: 0.95rem;
+  color: var(--muted);
+  flex-shrink: 0;
+}
+
+.filter-dropdown-trigger-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.filter-dropdown-trigger--active .filter-dropdown-trigger-icon {
+  color: var(--accent);
+}
+
 .filter-dropdown-summary {
-  max-width: 14rem;
+  min-width: 0;
+  max-width: 11rem;
+}
+
+.filter-dropdown-summary-value {
+  display: block;
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: var(--muted);
+  line-height: 1.2;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -183,6 +239,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
+  max-height: min(16rem, calc(100vh - 8rem));
+  overflow-y: auto;
 }
 
 .filter-dropdown-option {

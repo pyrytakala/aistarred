@@ -18,6 +18,10 @@ export function quarterDateRange(year: number, quarter: 1 | 2 | 3 | 4): DateRang
   return ranges[quarter];
 }
 
+export function calendarYearDateRange(year: number): DateRange {
+  return { since: `${year}0101`, until: `${year}1231` };
+}
+
 export { halfYearDateRange } from "./half-year.js";
 
 export interface QuarterlyPodcastSourceOptions {
@@ -30,7 +34,7 @@ export interface QuarterlyPodcastSourceOptions {
   year: number;
   quarter: 1 | 2 | 3 | 4;
   contentKind?: SourceConfig["contentKind"];
-  /** Use Jan–Jun (Q1+Q2) instead of a single quarter. */
+  /** @deprecated Ignored — sources use the full calendar year. */
   halfYear?: boolean;
   maxVideos?: number;
   /** Keep only videos whose title contains this substring. */
@@ -102,11 +106,10 @@ export function quarterlyPodcastSource(
     year,
     quarter,
     contentKind = "podcast",
-    halfYear = false,
     maxVideos,
     youtubeTitleIncludes,
   } = options;
-  const title = halfYear ? `${name} — H1 ${year}` : `${name} — Q${quarter} ${year}`;
+  const title = `${name} — ${year}`;
   const pageTitles: Record<SourceConfig["contentKind"], string> = {
     conference: `${title} talks`,
     podcast: `${title} episodes`,
@@ -130,9 +133,9 @@ export function quarterlyPodcastSource(
     coverImage,
     itemLabel: "videos",
     pageTitle: pageTitles[contentKind],
-    period: halfYear ? `Jan–Jun ${year}` : `${QUARTER_PERIODS[quarter]} ${year}`,
-    dateRange: halfYear ? halfYearDateRange(year) : quarterDateRange(year, quarter),
-    fetchWindow: { months: halfYear ? 7 : 4 },
+    period: `${year}`,
+    dateRange: calendarYearDateRange(year),
+    fetchWindow: { months: 12 },
     maxVideos,
     youtubeTitleIncludes,
     maxDisplayAgeDays: null,

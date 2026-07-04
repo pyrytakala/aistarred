@@ -1,8 +1,739 @@
 {
   "source_id": "semianalysis-q2-2026",
-  "video_count": 0,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
+  "video_count": 18,
+  "scored_count": 18,
+  "ranked_count": 18,
+  "rankings": [
+    {
+      "id": "eda-market-primer",
+      "title": "EDA Market Primer - Market Dynamics, Cadence, Synopsys, Siemens, China EDA Rise",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/eda-market-primer",
+      "status": "ok",
+      "summary_bullets": [
+        "Three companies dominate EDA market.",
+        "EDA revenue grows faster than semiconductor R&D.",
+        "Synopsys acquired Ansys for $35B.",
+        "Cadence margins improved from -11% to 42.5%.",
+        "Siemens EDA relies on Calibre verification."
+      ],
+      "composite": 83.8,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 9,
+      "specificity": 9.5,
+      "insight_density": 8,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260521",
+      "duration_seconds": null,
+      "composite_base": 83.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "cerebras-faster-tokens-please",
+      "title": "Cerebras — Faster Tokens Please",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/cerebras-faster-tokens-please",
+      "status": "ok",
+      "summary_bullets": [
+        "Cerebras makes wafer-scale chips for fast inference.",
+        "High SRAM bandwidth, low memory capacity.",
+        "Limited network I/O due to wafer-scale design.",
+        "OpenAI committed $24.6B for Cerebras compute.",
+        "Fast tokens increasingly valued over raw intelligence."
+      ],
+      "composite": 83.5,
+      "confidence": "Med",
+      "audience_level": "professional",
+      "substance": 8.5,
+      "evidence": 9,
+      "specificity": 9.5,
+      "insight_density": 7.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260513",
+      "duration_seconds": null,
+      "composite_base": 83.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "finding-miscompiles-for-fun-not-profit",
+      "title": "Finding Miscompiles for Fun, Not Profit",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/finding-miscompiles-for-fun-not-profit",
+      "status": "ok",
+      "summary_bullets": [
+        "AI agents found 80+ compiler bugs in days.",
+        "Fuzzing cost $200/month; code-reading cost $10,000.",
+        "One bug turns atomic stores into non-atomic stores.",
+        "Budget determines access to new bug-finding capability."
+      ],
+      "composite": 82.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260528",
+      "duration_seconds": null,
+      "composite_base": 82.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "rl-systems-mind-the-gap-matching",
+      "title": "RL Systems Mind the Gap: Matching Trainer and Generator Throughput",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/rl-systems-mind-the-gap-matching",
+      "status": "ok",
+      "summary_bullets": [
+        "RL efficiency requires throughput matching.",
+        "Trainer-generator imbalance causes waste.",
+        "Policy staleness bounds async training.",
+        "Sandbox scaling limits concurrent rollouts.",
+        "Open-source frameworks compared via experiments."
+      ],
+      "composite": 79.75,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 8.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260616",
+      "duration_seconds": null,
+      "composite_base": 79.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "steel-smic-n3-teardown",
+      "title": "Is SMIC N+3’s Metal Pitch Smaller than Intel 18A’s?",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/steel-smic-n3-teardown",
+      "status": "ok",
+      "summary_bullets": [
+        "SMIC N+3 metal pitch is 32.5 nm.",
+        "N+3 matches TSMC N6 density via DUV.",
+        "Kirin 9030 performance trails current flagships.",
+        "SMIC uses aggressive multi-patterning without EUV.",
+        "Huawei plans LogicFolding 3D stacking for future."
+      ],
+      "composite": 78.3,
+      "confidence": "High",
+      "audience_level": "professional",
+      "substance": 8.5,
+      "evidence": 9,
+      "specificity": 9.5,
+      "insight_density": 7,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260614",
+      "duration_seconds": null,
+      "composite_base": 78.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "ai-dark-output-the-visible-cost-of",
+      "title": "AI Dark Output: The Visible Cost of Invisible Output",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/ai-dark-output-the-visible-cost-of",
+      "status": "ok",
+      "summary_bullets": [
+        "GDP misses AI's economic value.",
+        "AI creates invisible \"Dark Output.\"",
+        "Service sector measurement problems worsen.",
+        "Token spend visible, output not.",
+        "Job displacement tracked via monitor."
+      ],
+      "composite": 78,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260529",
+      "duration_seconds": null,
+      "composite_base": 78,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "stop-saying-half-of-2026-us-datacenter",
+      "title": "Stop Saying Half of 2026 US Datacenter Capacity Is Canceled",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter",
+      "status": "ok",
+      "summary_bullets": [
+        "Claim of 50% datacenter cancellation is wrong.",
+        "Flawed denominator and early-stage projects misclassified.",
+        "Real delays are rare; most projects progress.",
+        "SemiAnalysis model shows minimal forecast revision.",
+        "Equipment suppliers not at risk."
+      ],
+      "composite": 77.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9.5,
+      "insight_density": 7.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260618",
+      "duration_seconds": null,
+      "composite_base": 77.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "us-grid-constraints-towards-40gw",
+      "title": "US Grid Constraints: Towards 40GW+ of Behind-The-Meter Datacenter by 2028?",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/us-grid-constraints-towards-40gw",
+      "status": "ok",
+      "summary_bullets": [
+        "US grid headroom turns negative by 2027.",
+        "Behind-the-meter (BTM) power will dominate new datacenters.",
+        "Onsite gas equipment suppliers are key beneficiaries.",
+        "Hybrid co-location structures emerging in ERCOT.",
+        "Grid interconnection timelines slip to 2030+."
+      ],
+      "composite": 76.8,
+      "audience_level": "professional",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260625",
+      "duration_seconds": null,
+      "composite_base": 76.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "intel-should-raise-capital",
+      "title": "Intel Should Raise Capital",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/intel-should-raise-capital",
+      "status": "ok",
+      "summary_bullets": [
+        "Intel should issue equity to raise capital.",
+        "Current stock price is high, good for issuance.",
+        "Foundry expansion needs tens of billions.",
+        "Previous funding methods (SCIPs) were expensive.",
+        "New board supports strategic bets."
+      ],
+      "composite": 76,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260611",
+      "duration_seconds": null,
+      "composite_base": 76,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "inside-the-800vdc-revolution-part",
+      "title": "Inside the 800VDC Revolution – Part 1",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/inside-the-800vdc-revolution-part",
+      "status": "ok",
+      "summary_bullets": [
+        "800VDC reduces copper and resistive losses.",
+        "Transition has four phases, starting with retrofits.",
+        "Power racks replace traditional UPS systems.",
+        "Solid-state transformers (SSTs) are the end-state.",
+        "Regulatory and safety challenges remain significant."
+      ],
+      "composite": 75.8,
+      "confidence": "Med",
+      "audience_level": "professional",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260526",
+      "duration_seconds": null,
+      "composite_base": 75.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "ai-value-capture-the-shift-to-model",
+      "title": "AI Value Capture - The Shift To Model Labs",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/ai-value-capture-the-shift-to-model",
+      "status": "ok",
+      "summary_bullets": [
+        "AI labs capture value from token demand.",
+        "Nvidia and TSMC underprice despite bottlenecks.",
+        "Agentic AI increases token value and margins.",
+        "GPU rental pricing has floor and ceiling.",
+        "Memory pricing surge drives system costs."
+      ],
+      "composite": 75.8,
+      "audience_level": "professional",
+      "substance": 7.5,
+      "evidence": 8,
+      "specificity": 9.5,
+      "insight_density": 8,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260501",
+      "duration_seconds": null,
+      "composite_base": 75.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "to-boldly-go-the-case-for-space-datacenters",
+      "title": "To Boldly Go: The Case for Space Datacenters",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/to-boldly-go-the-case-for-space-datacenters",
+      "status": "ok",
+      "summary_bullets": [
+        "Space datacenters currently 4x more expensive.",
+        "Terrestrial power constraints may force space.",
+        "Chip manufacturing is the main bottleneck.",
+        "Cost parity expected around 2040.",
+        "Space cooling is not free; radiators costly."
+      ],
+      "composite": 75.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 8.5,
+      "specificity": 9.5,
+      "insight_density": 7.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260603",
+      "duration_seconds": null,
+      "composite_base": 75.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 12,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-growth-and-bedrock-mix",
+      "title": "Anthropic Growth and Bedrock Mix Drive AWS Margins Higher While Peers Lag",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/anthropic-growth-and-bedrock-mix",
+      "status": "ok",
+      "summary_bullets": [
+        "AWS margins rose via Anthropic/Bedrock spending.",
+        "Bedrock's token-as-a-service model boosts margins.",
+        "Amazon's capacity and vertical integration advantage.",
+        "Anthropic's revenue surged, benefiting AWS.",
+        "Other CSPs lag in margins."
+      ],
+      "composite": 75,
+      "confidence": "High",
+      "audience_level": "professional",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260527",
+      "duration_seconds": null,
+      "composite_base": 75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "chinas-unitree-will-dominate-global",
+      "title": "Unitree's Impossible Trajectory Is Still Overlooked",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/chinas-unitree-will-dominate-global",
+      "status": "ok",
+      "summary_bullets": [
+        "Unitree humanoids becoming economically viable.",
+        "QDD actuators cheaper, improving reliability.",
+        "Follows BYD/DJI vertical integration strategy.",
+        "G1 can now perform light warehouse tasks.",
+        "Cost advantage may disrupt Western makers."
+      ],
+      "composite": 73.5,
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260608",
+      "duration_seconds": null,
+      "composite_base": 73.5,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 14,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "chinas-cxmt-is-set-to-challenge-dram",
+      "title": "China’s CXMT Is Set to Challenge DRAM Incumbents",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/chinas-cxmt-is-set-to-challenge-dram",
+      "status": "ok",
+      "summary_bullets": [
+        "CXMT is China's leading DRAM maker.",
+        "Inherited Qimonda patents and engineers.",
+        "Hefei government provided patient capital.",
+        "Revenue surge driven by DRAM pricing cycle.",
+        "IPO reveals complex ownership structure."
+      ],
+      "composite": 72.3,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 6.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260623",
+      "duration_seconds": null,
+      "composite_base": 72.3,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 15,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "tokenbudgeting-our-conversations",
+      "title": "TokenBudgeting: Our Conversations with Enterprises on Token Spend",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/tokenbudgeting-our-conversations",
+      "status": "ok",
+      "summary_bullets": [
+        "Tokenmaxxing hype is overstated.",
+        "Enterprise AI budgets vary widely ($250–$20k/month).",
+        "Coding drives 70%+ of AI lab revenue.",
+        "Employees game budgets via free Copilot.",
+        "ROI examples: Amazon recruiter time halved."
+      ],
+      "composite": 70.8,
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260630",
+      "duration_seconds": null,
+      "composite_base": 70.8,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 16,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "deepseekv4-16t-day-0-to-day-43-performance",
+      "title": "DeepSeekV4 1.6T Day 0 to Day 43 Performance Over Time - Huawei, GB300 NVL72, MI355X, B200",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/deepseekv4-16t-day-0-to-day-43-performance",
+      "status": "ok",
+      "summary_bullets": [
+        "DeepSeek V4 performance tracked across hardware.",
+        "Day 0 results varied by chip and engine.",
+        "AMD MI355X improved 100x in a month.",
+        "Huawei Ascend had Day 0 support.",
+        "GB300 NVL72 dominates with MTP."
+      ],
+      "composite": 68.75,
+      "confidence": "Med",
+      "audience_level": "professional",
+      "substance": 7.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 5.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260609",
+      "duration_seconds": null,
+      "composite_base": 68.75,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 17,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    },
+    {
+      "id": "the-eda-primer-from-rtl-to-silicon",
+      "title": "The EDA Primer: From RTL to Silicon",
+      "speakers": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/the-eda-primer-from-rtl-to-silicon",
+      "status": "ok",
+      "summary_bullets": [
+        "Chip design complexity grows 50% yearly, productivity only 20%.",
+        "Verification consumes up to 70% of project effort.",
+        "EDA tools translate human intent into manufacturable silicon.",
+        "Three companies (Synopsys, Cadence, Siemens) dominate EDA.",
+        "PDKs are NDA-protected, tiered by customer relationship."
+      ],
+      "composite": 63,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 5.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 3.5,
+      "like_count": null,
+      "upload_date": "20260512",
+      "duration_seconds": null,
+      "composite_base": 63,
+      "like_adjustment": 0,
+      "length_adjustment": 0,
+      "rank": 18,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ]
+    }
+  ],
+  "too_long": [],
   "other": []
 }
