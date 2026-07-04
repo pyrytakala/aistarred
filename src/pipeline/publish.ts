@@ -212,7 +212,7 @@ export function publishRankings(options: {
   promptPath?: string;
   indexPath?: string;
   scoresDir?: string;
-} = {}): RankingsPayload {
+} = {}): RankingsPayload | null {
   const source = getSource(options.sourceId);
   const paths = sourcePaths(source.id);
   const sourcePath = options.sourcePath ?? paths.rankingsPath;
@@ -221,11 +221,14 @@ export function publishRankings(options: {
   const scoresDir = options.scoresDir ?? paths.scoresDir;
   const promptPath = options.promptPath ?? promptPathForSource(source);
 
+  if (!existsSync(indexPath)) {
+    return null;
+  }
   let payload: RankingsPayload;
   if (options.reparse || !existsSync(sourcePath)) {
     const results = buildRankingsFromScoreFiles(indexPath, scoresDir, source);
     const okCount = results.filter((result) => result.status === "ok").length;
-    if (okCount === 0 && existsSync(outputPath)) {
+    if (okCount === 0 && existsSync(outputPath) && !options.reparse) {
       const existing = JSON.parse(readFileSync(outputPath, "utf8")) as RankingsPayload;
       const published = sanitizePublishedPayload(existing, source);
       writeFileSync(outputPath, `${JSON.stringify(published, null, 2)}\n`, "utf8");
@@ -258,5 +261,7 @@ export function publishAllRankings(options: {
   reparse?: boolean;
   model?: string;
 } = {}): RankingsPayload[] {
-  return listSources().map((source) => publishRankings({ ...options, sourceId: source.id }));
+  return listSources()
+    .map((source) => publishRankings({ ...options, sourceId: source.id }))
+    .filter((payload): payload is RankingsPayload => payload != null);
 }

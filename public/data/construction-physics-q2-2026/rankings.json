@@ -1,171 +1,490 @@
 {
   "source_id": "construction-physics-q2-2026",
-  "video_count": 18,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
-    {
-      "id": "reading-list-062726",
-      "title": "Reading List 06/27/26",
-      "url": "https://www.construction-physics.com/p/reading-list-062726",
-      "upload_date": "20260627",
-      "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
-    },
-    {
-      "id": "us-subways-build-too-many-cross-passages",
-      "title": "US Subways Build Too Many Cross Passages",
-      "url": "https://www.construction-physics.com/p/us-subways-build-too-many-cross-passages",
-      "upload_date": "20260625",
-      "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
-    },
-    {
-      "id": "reading-list-062026",
-      "title": "Reading List 06/20/26",
-      "url": "https://www.construction-physics.com/p/reading-list-062026",
-      "upload_date": "20260620",
-      "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
-    },
+  "video_count": 12,
+  "scored_count": 12,
+  "ranked_count": 12,
+  "rankings": [
     {
       "id": "converting-coal-plants-to-natural",
       "title": "Converting Coal Plants to Natural Gas",
+      "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/converting-coal-plants-to-natural",
+      "status": "ok",
+      "summary_bullets": [
+        "Coal-to-gas conversions surged after 2008.",
+        "Two drivers: stricter EPA mercury rules and cheap shale gas.",
+        "Conversion methods range from simple boiler swap to full replacement.",
+        "Older, smaller, inefficient plants were prime candidates.",
+        "Trend likely over due to fewer coal plants and battery competition."
+      ],
+      "composite": 88.3,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 9,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20260619",
       "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
-    },
-    {
-      "id": "reading-list-06132026",
-      "title": "Reading List 06/13/2026",
-      "url": "https://www.construction-physics.com/p/reading-list-06132026",
-      "upload_date": "20260613",
-      "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
-    },
-    {
-      "id": "biological-evolution-and-information",
-      "title": "Biological Evolution and Information Acquisition",
-      "url": "https://www.construction-physics.com/p/biological-evolution-and-information",
-      "upload_date": "20260611",
-      "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
-    },
-    {
-      "id": "reading-list-060626",
-      "title": "Reading List 06/06/26",
-      "url": "https://www.construction-physics.com/p/reading-list-060626",
-      "upload_date": "20260606",
-      "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
-    },
-    {
-      "id": "how-long-does-it-take-to-plan-a-bridge",
-      "title": "How Long Does It Take to Plan a Bridge?",
-      "url": "https://www.construction-physics.com/p/how-long-does-it-take-to-plan-a-bridge",
-      "upload_date": "20260604",
-      "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
-    },
-    {
-      "id": "reading-list-053026",
-      "title": "Reading List 05/30/26",
-      "url": "https://www.construction-physics.com/p/reading-list-053026",
-      "upload_date": "20260530",
-      "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
+      "composite_base": 88.3,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "where-are-the-economies-of-scale",
       "title": "Where Are the Economies of Scale in Homebuilding?",
+      "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/where-are-the-economies-of-scale",
+      "status": "ok",
+      "summary_bullets": [
+        "Homebuilding has few economies of scale.",
+        "Output-to-input cost ratio is already low.",
+        "Large builders don't have lower costs.",
+        "Manufactured homes also show limited scale.",
+        "Transportation costs limit factory size."
+      ],
+      "composite": 87.8,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 9,
+      "specificity": 9.5,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20260528",
       "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
-    },
-    {
-      "id": "reading-list-052326",
-      "title": "Reading List 05/23/26",
-      "url": "https://www.construction-physics.com/p/reading-list-052326",
-      "upload_date": "20260523",
-      "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
-    },
-    {
-      "id": "the-rise-of-build-to-rent-housing",
-      "title": "The Rise of Build-to-Rent Housing",
-      "url": "https://www.construction-physics.com/p/the-rise-of-build-to-rent-housing",
-      "upload_date": "20260521",
-      "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
-    },
-    {
-      "id": "reading-list-051626",
-      "title": "Reading List 05/16/26",
-      "url": "https://www.construction-physics.com/p/reading-list-051626",
-      "upload_date": "20260516",
-      "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
-    },
-    {
-      "id": "reading-list-05092026",
-      "title": "Reading List 05/09/2026",
-      "url": "https://www.construction-physics.com/p/reading-list-05092026",
-      "upload_date": "20260509",
-      "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
+      "composite_base": 87.8,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "how-long-do-we-wait-for-new-inventions",
       "title": "How long do we wait for new inventions?",
+      "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/how-long-do-we-wait-for-new-inventions",
+      "status": "ok",
+      "summary_bullets": [
+        "AI estimates invention delays.",
+        "Most inventions appear within decades.",
+        "Medical inventions have longest waits.",
+        "Technology bottlenecks more than science.",
+        "Wait times have narrowed over time."
+      ],
+      "composite": 86.25,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20260507",
       "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
+      "composite_base": 86.25,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
-      "id": "reading-list-05022026",
-      "title": "Reading List 05/02/2026",
-      "url": "https://www.construction-physics.com/p/reading-list-05022026",
-      "upload_date": "20260502",
-      "duration_seconds": null,
+      "id": "the-rise-of-build-to-rent-housing",
+      "title": "The Rise of Build-to-Rent Housing",
       "speakers": "Construction Physics",
-      "status": "pending"
+      "url": "https://www.construction-physics.com/p/the-rise-of-build-to-rent-housing",
+      "status": "ok",
+      "summary_bullets": [
+        "BTR homes rising from 2% to 7% of starts.",
+        "2008 crisis created rental demand and cheap homes.",
+        "Institutional investors now own hundreds of thousands.",
+        "Policy bill threatens BTR business model.",
+        "BTR adds rental supply but raises house prices debate."
+      ],
+      "composite": 84.5,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8,
+      "evidence": 8.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260521",
+      "duration_seconds": null,
+      "composite_base": 84.5,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "biological-evolution-and-information",
+      "title": "Biological Evolution and Information Acquisition",
+      "speakers": "Construction Physics",
+      "url": "https://www.construction-physics.com/p/biological-evolution-and-information",
+      "status": "ok",
+      "summary_bullets": [
+        "Sexual reproduction speeds evolution.",
+        "Modularity reduces search space.",
+        "Asexual reproduction suffers clonal interference.",
+        "Information theory quantifies evolutionary progress.",
+        "Simulations compare reproductive strategies."
+      ],
+      "composite": 78,
+      "confidence": "Med",
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260611",
+      "duration_seconds": null,
+      "composite_base": 78,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "how-long-does-it-take-to-plan-a-bridge",
+      "title": "How Long Does It Take to Plan a Bridge?",
+      "speakers": "Construction Physics",
+      "url": "https://www.construction-physics.com/p/how-long-does-it-take-to-plan-a-bridge",
+      "status": "ok",
+      "summary_bullets": [
+        "Analyzes 67 US bridge planning times.",
+        "Construction times rose after 1960s.",
+        "Planning times show no clear increase.",
+        "Most modern bridges are replacements.",
+        "Urgency culture may speed projects."
+      ],
+      "composite": 78,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260604",
+      "duration_seconds": null,
+      "composite_base": 78,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "us-subways-build-too-many-cross-passages",
+      "title": "US Subways Build Too Many Cross Passages",
+      "speakers": "Construction Physics",
+      "url": "https://www.construction-physics.com/p/us-subways-build-too-many-cross-passages",
+      "status": "ok",
+      "summary_bullets": [
+        "US subway cross-passages required every 800 feet.",
+        "European standards allow spacing over 1,600 feet.",
+        "Cross-passages cost millions each to construct.",
+        "NFPA 130 lacks evidence for tight spacing.",
+        "Safety records similar despite different requirements."
+      ],
+      "composite": 76,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260625",
+      "duration_seconds": null,
+      "composite_base": 76,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "how-an-oil-refinery-works",
       "title": "How an Oil Refinery Works",
+      "speakers": "Construction Physics",
       "url": "https://www.construction-physics.com/p/how-an-oil-refinery-works",
+      "status": "ok",
+      "summary_bullets": [
+        "Oil refineries separate crude into useful fractions.",
+        "Distillation is the primary separation method.",
+        "Cracking breaks heavy molecules into lighter ones.",
+        "Refineries are massive industrial facilities.",
+        "US has 132 refineries, mostly on Gulf Coast."
+      ],
+      "composite": 73.8,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 5.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20260430",
       "duration_seconds": null,
-      "speakers": "Construction Physics",
-      "status": "pending"
+      "composite_base": 73.8,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
-      "id": "reading-list-042526",
-      "title": "Reading List 04/25/26",
-      "url": "https://www.construction-physics.com/p/reading-list-042526",
-      "upload_date": "20260425",
-      "duration_seconds": null,
+      "id": "reading-list-062026",
+      "title": "Reading List 06/20/26",
       "speakers": "Construction Physics",
-      "status": "pending"
+      "url": "https://www.construction-physics.com/p/reading-list-062026",
+      "status": "ok",
+      "summary_bullets": [
+        "Housing bill deal reached in US.",
+        "Grocery anchor helps fight NIMBYs.",
+        "Squamish Nation builds huge housing project.",
+        "China controls 70% of indium supply.",
+        "Phoenix Semiconductor replaces obsolete military chips."
+      ],
+      "composite": 34,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 2,
+      "evidence": 3,
+      "specificity": 5,
+      "insight_density": 3,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260620",
+      "duration_seconds": null,
+      "composite_base": 34,
+      "rank": 9,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "reading-list-052326",
+      "title": "Reading List 05/23/26",
+      "speakers": "Construction Physics",
+      "url": "https://www.construction-physics.com/p/reading-list-052326",
+      "status": "ok",
+      "summary_bullets": [
+        "Iran charges tech firms for cables.",
+        "Apple reuses defective chips in cheaper devices.",
+        "California landlords use katana against squatters.",
+        "Scissor stairs legalized in Washington.",
+        "India cooking oil shortage raises California gas prices."
+      ],
+      "composite": 28,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 1,
+      "evidence": 2,
+      "specificity": 6,
+      "insight_density": 2,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260523",
+      "duration_seconds": null,
+      "composite_base": 28,
+      "rank": 10,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "reading-list-062726",
+      "title": "Reading List 06/27/26",
+      "speakers": "Construction Physics",
+      "url": "https://www.construction-physics.com/p/reading-list-062726",
+      "status": "ok",
+      "summary_bullets": [
+        "Trump blocks housing bill for leverage.",
+        "US-made doors cost 8x more.",
+        "Surfside collapse due to code violations.",
+        "Homebuilder defect costs rising.",
+        "Mexican government plans cheap EV."
+      ],
+      "composite": 26.5,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 2,
+      "evidence": 2.5,
+      "specificity": 5,
+      "insight_density": 2,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260627",
+      "duration_seconds": null,
+      "composite_base": 26.5,
+      "rank": 11,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "reading-list-05092026",
+      "title": "Reading List 05/09/2026",
+      "speakers": "Construction Physics",
+      "url": "https://www.construction-physics.com/p/reading-list-05092026",
+      "status": "ok",
+      "summary_bullets": [
+        "Safety pin invented 3000 years ago.",
+        "Home micro-data centers proposed.",
+        "Ford redesigns EV truck assembly.",
+        "AGI economy could double yearly.",
+        "Geely surpasses BYD in sales."
+      ],
+      "composite": 26,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 2.5,
+      "evidence": 1.5,
+      "specificity": 4,
+      "insight_density": 3,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260509",
+      "duration_seconds": null,
+      "composite_base": 26,
+      "rank": 12,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

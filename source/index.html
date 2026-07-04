@@ -14,6 +14,10 @@
         <a class="site-logo" href="/" aria-label="AI starred home">
           <img src="/icons/logo-28.png" srcset="/icons/logo-72.png 2x" alt="" width="36" height="36" decoding="async" />
         </a>
+        <div class="site-nav">
+          <a class="site-nav-link" href="/">Feed</a>
+          <a class="site-nav-link" href="/sources/">Sources</a>
+        </div>
       </div>
     </nav>
     <header class="header">
@@ -39,9 +43,7 @@
       <article class="card card-excluded">
         <a class="thumb-link" target="_blank" rel="noopener noreferrer">
           <img class="thumb" alt="" loading="lazy" />
-          <div class="thumb-footer">
-            <span class="duration" hidden></span>
-          </div>
+          <span class="duration" hidden></span>
         </a>
         <div class="body">
           <div class="talk-heading">
@@ -54,46 +56,39 @@
             </div>
           </div>
           <div class="summary-wrap">
-            <div class="summary-panel">
-              <ul class="summary"></ul>
-              <button type="button" class="summary-toggle summary-more">...more</button>
-            </div>
+            <ul class="summary"></ul>
           </div>
         </div>
-        <button type="button" class="summary-toggle summary-less" hidden>Show less</button>
       </article>
     </template>
 
     <template id="card-template">
       <article class="card">
-        <div class="rank"></div>
-        <button type="button" class="score" aria-expanded="false" aria-label="Show score breakdown"></button>
-        <div class="score-breakdown" hidden></div>
         <a class="thumb-link" target="_blank" rel="noopener noreferrer">
           <img class="thumb" alt="" loading="lazy" />
-          <div class="thumb-footer">
-            <div class="thumb-tags tags" hidden></div>
-            <span class="duration" hidden></span>
-          </div>
+          <span class="duration" hidden></span>
         </a>
         <div class="body">
-          <div class="talk-heading">
-            <a class="title-link" target="_blank" rel="noopener noreferrer"></a>
-            <div class="talk-meta">
-              <time class="published"></time>
-              <span class="audience-level-wrap" hidden>
-                <span class="audience-level" tabindex="0"></span>
-              </span>
+          <div class="card-header">
+            <div class="talk-heading">
+              <a class="title-link" target="_blank" rel="noopener noreferrer"></a>
+              <div class="talk-meta">
+                <time class="published"></time>
+                <span class="audience-level-wrap" hidden>
+                  <span class="audience-level" tabindex="0"></span>
+                </span>
+                <div class="card-tags tags" hidden></div>
+              </div>
+            </div>
+            <div class="score-wrap">
+              <button type="button" class="score" aria-expanded="false" aria-label="Show score breakdown"></button>
+              <div class="score-breakdown" hidden></div>
             </div>
           </div>
           <div class="summary-wrap">
-            <div class="summary-panel">
-              <ul class="summary"></ul>
-              <button type="button" class="summary-toggle summary-more">...more</button>
-            </div>
+            <ul class="summary"></ul>
           </div>
         </div>
-        <button type="button" class="summary-toggle summary-less" hidden>Show less</button>
       </article>
     </template>
 

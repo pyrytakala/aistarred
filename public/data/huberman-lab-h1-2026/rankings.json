@@ -1,9 +1,8 @@
 {
   "source_id": "huberman-lab-h1-2026",
-  "model": "accounts/fireworks/models/deepseek-v4-flash",
   "video_count": 49,
   "scored_count": 49,
-  "ranked_count": 17,
+  "ranked_count": 49,
   "rankings": [
     {
       "id": "xZ4I2aE8zQA",
@@ -11,7 +10,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=xZ4I2aE8zQA",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Emotions are brain states, not just feelings.",
         "Aggression and fear circuits sit side-by-side in hypothalamus.",
@@ -19,7 +17,7 @@
         "Social isolation boosts aggression via tachyknin peptide.",
         "Vagus nerve links brain and body to shape emotions."
       ],
-      "composite": 90.8,
+      "composite": 90.39,
       "confidence": "High",
       "substance": 9,
       "evidence": 8.5,
@@ -53,7 +51,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.41
     },
     {
       "id": "WWe4up63hb4",
@@ -61,7 +60,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=WWe4up63hb4",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Energy balance more complex than CICO",
         "Protein boosts thermic effect and satiety",
@@ -69,7 +67,7 @@
         "Artificial sweeteners aid weight loss",
         "Creatine monohydrate safe and effective"
       ],
-      "composite": 90.3,
+      "composite": 90.1,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 9,
@@ -103,7 +101,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.2
     },
     {
       "id": "iuPQmw4Ax00",
@@ -111,7 +110,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=iuPQmw4Ax00",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Heat exposure reduces cardiovascular mortality.",
         "Sauna 4–7 times/week cuts death risk 50%.",
@@ -119,7 +117,7 @@
         "Infrequent sauna spikes growth hormone 16-fold.",
         "Deliberate heat improves mood via dynorphin/endorphin pathways."
       ],
-      "composite": 90.25,
+      "composite": 89.32,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 9,
@@ -153,33 +151,33 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.93
     },
     {
-      "id": "VPi_eWiaqdg",
-      "title": "How Dopamine & Serotonin Shape Decisions, Motivation & Learning | Dr. Read Montague",
+      "id": "cru_4P6qVYQ",
+      "title": "Essentials: The Biology of Taste Perception & Sugar Craving | Dr. Charles Zuker",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=VPi_eWiaqdg",
+      "url": "https://www.youtube.com/watch?v=cru_4P6qVYQ",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Dopamine encodes successive predictions, not just reward.",
-        "Serotonin and dopamine are opponent signals.",
-        "SSRIs can push serotonin into dopamine terminals.",
-        "Breathing and dopamine signals are linked in real-time.",
-        "AI reinforcement learning mirrors brain's dopamine algorithm."
+        "Taste detection vs. perception explained.",
+        "Five basic tastes: sweet, sour, bitter, salty, umami.",
+        "Gut-brain axis drives sugar craving.",
+        "Artificial sweeteners don't satisfy gut-brain circuit.",
+        "Brain circuits control overnutrition, not just metabolism."
       ],
-      "composite": 89.3,
+      "composite": 87.71,
       "confidence": "High",
-      "substance": 9,
+      "substance": 8.5,
       "evidence": 9,
-      "specificity": 9,
-      "insight_density": 8.5,
-      "non_promotion": 9.5,
+      "specificity": 9.5,
+      "insight_density": 8,
+      "non_promotion": 10,
       "like_count": null,
-      "upload_date": "20260202",
-      "duration_seconds": 9685,
-      "composite_base": 89.3,
+      "upload_date": "20260305",
+      "duration_seconds": 1853,
+      "composite_base": 87.8,
       "rank": 4,
       "tags": [
         {
@@ -203,33 +201,33 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.09
     },
     {
-      "id": "jjaFnKtytqI",
-      "title": "Eating for Better Sleep & Foods that Improve Metabolic Health | Dr. Marie-Pierre St-Onge",
+      "id": "3bnLgOxHMB8",
+      "title": "Essentials: The Neuroscience of Speech, Language & Music | Dr. Erich Jarvis",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=jjaFnKtytqI",
+      "url": "https://www.youtube.com/watch?v=3bnLgOxHMB8",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Sleep deprivation alters hunger hormones differently by sex.",
-        "Fiber boosts deep sleep; saturated fat reduces it.",
-        "Eating earlier in the day improves metabolism and sleep.",
-        "MCT oil and ginger can slightly increase calorie burn.",
-        "Mediterranean/DASH diet linked to better sleep quality."
+        "Speech and language share brain circuits.",
+        "Vocal learning rare in humans, birds, parrots.",
+        "Genes for speech similar across species.",
+        "Gesture and speech evolved from movement.",
+        "Critical period limits later language learning."
       ],
-      "composite": 88.5,
+      "composite": 86.95,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 9,
-      "specificity": 9.5,
-      "insight_density": 8.5,
-      "non_promotion": 9.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 9,
+      "non_promotion": 10,
       "like_count": null,
-      "upload_date": "20260608",
-      "duration_seconds": 7025,
-      "composite_base": 88.5,
+      "upload_date": "20260423",
+      "duration_seconds": 2128,
+      "composite_base": 87.5,
       "rank": 5,
       "tags": [
         {
@@ -253,33 +251,33 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.55
     },
     {
-      "id": "cru_4P6qVYQ",
-      "title": "Essentials: The Biology of Taste Perception & Sugar Craving | Dr. Charles Zuker",
+      "id": "syJYZm5OZhE",
+      "title": "Improve Flexibility with Research-Supported Stretching Protocols | Huberman Lab Essentials",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=cru_4P6qVYQ",
+      "url": "https://www.youtube.com/watch?v=syJYZm5OZhE",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Taste detection vs. perception explained.",
-        "Five basic tastes: sweet, sour, bitter, salty, umami.",
-        "Gut-brain axis drives sugar craving.",
-        "Artificial sweeteners don't satisfy gut-brain circuit.",
-        "Brain circuits control overnutrition, not just metabolism."
+        "Static stretching best for long-term flexibility.",
+        "Low-intensity (30–40% pain) more effective than moderate.",
+        "Minimum 5 minutes stretching per week per muscle.",
+        "Spindles and Golgi tendon organs regulate stretch reflex.",
+        "Yoga increases insula volume and pain tolerance."
       ],
-      "composite": 87.8,
+      "composite": 86.77,
       "confidence": "High",
-      "substance": 8.5,
-      "evidence": 9,
-      "specificity": 9.5,
-      "insight_density": 8,
+      "substance": 8,
+      "evidence": 8.5,
+      "specificity": 9,
+      "insight_density": 9,
       "non_promotion": 10,
       "like_count": null,
-      "upload_date": "20260305",
-      "duration_seconds": 1853,
-      "composite_base": 87.8,
+      "upload_date": "20260618",
+      "duration_seconds": 1936,
+      "composite_base": 87,
       "rank": 6,
       "tags": [
         {
@@ -303,33 +301,33 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.23
     },
     {
-      "id": "3bnLgOxHMB8",
-      "title": "Essentials: The Neuroscience of Speech, Language & Music | Dr. Erich Jarvis",
+      "id": "916vhhUsmgE",
+      "title": "Understanding & Controlling Aggression | Huberman Lab Essentials",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=3bnLgOxHMB8",
+      "url": "https://www.youtube.com/watch?v=916vhhUsmgE",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Speech and language share brain circuits.",
-        "Vocal learning rare in humans, birds, parrots.",
-        "Genes for speech similar across species.",
-        "Gesture and speech evolved from movement.",
-        "Critical period limits later language learning."
+        "Aggression has distinct neural circuits, not just sadness.",
+        "Testosterone converts to estrogen in brain to trigger aggression.",
+        "Day length and cortisol modulate aggression propensity.",
+        "Specific brain region (VMH) with ~3,000 neurons controls aggression.",
+        "Tools: sunlight, sauna, ashwagandha, acetyl-L-carnitine."
       ],
-      "composite": 87.5,
+      "composite": 86.47,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 8,
+      "evidence": 8.5,
       "specificity": 9,
-      "insight_density": 9,
-      "non_promotion": 10,
+      "insight_density": 8.5,
+      "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260423",
-      "duration_seconds": 2128,
-      "composite_base": 87.5,
+      "upload_date": "20260514",
+      "duration_seconds": 1999,
+      "composite_base": 86.8,
       "rank": 7,
       "tags": [
         {
@@ -353,32 +351,32 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.33
     },
     {
-      "id": "u4VTFb4awrQ",
-      "title": "Avoiding, Treating & Curing Cancer | Dr. Alex Marson",
+      "id": "7UeojKTzeHE",
+      "title": "Using Light (Sunlight, Blue Light & Red Light) to Optimize Health | Huberman Lab Essentials",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=u4VTFb4awrQ",
+      "url": "https://www.youtube.com/watch?v=7UeojKTzeHE",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Immune system can be reprogrammed to fight cancer.",
-        "CRISPR enables precise DNA editing in immune cells.",
-        "CAR T-cells cured a child with leukemia in 2012.",
-        "Gene editing now in clinical trials for solid tumors.",
-        "Autoimmune diseases may be treated with engineered T-cells."
+        "Light changes gene expression via electromagnetic energy.",
+        "UVB boosts testosterone, estrogen, and pain tolerance.",
+        "Red light (670nm) improves vision in older adults.",
+        "Avoid UVB at night to prevent mood disruption.",
+        "Sunlight enhances immune function and wound healing."
       ],
-      "composite": 87.3,
+      "composite": 86.45,
       "confidence": "High",
-      "substance": 9,
+      "substance": 8.5,
       "evidence": 8.5,
-      "specificity": 9.5,
-      "insight_density": 8,
-      "non_promotion": 9,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
       "like_count": null,
-      "upload_date": "20260309",
-      "duration_seconds": 8833,
+      "upload_date": "20260226",
+      "duration_seconds": 2309,
       "composite_base": 87.3,
       "rank": 8,
       "tags": [
@@ -403,41 +401,36 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.85
     },
     {
-      "id": "7UeojKTzeHE",
-      "title": "Using Light (Sunlight, Blue Light & Red Light) to Optimize Health | Huberman Lab Essentials",
+      "id": "qUUfucHC7tU",
+      "title": "Control Sugar Cravings & Metabolism with Science-Based Tools | Huberman Lab Essentials",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=7UeojKTzeHE",
+      "url": "https://www.youtube.com/watch?v=qUUfucHC7tU",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Light changes gene expression via electromagnetic energy.",
-        "UVB boosts testosterone, estrogen, and pain tolerance.",
-        "Red light (670nm) improves vision in older adults.",
-        "Avoid UVB at night to prevent mood disruption.",
-        "Sunlight enhances immune function and wound healing."
+        "Two parallel neural pathways drive sugar cravings.",
+        "Fructose reduces satiety hormones, increasing hunger.",
+        "Gut neuropod cells signal sugar to brain via vagus nerve.",
+        "Lemon juice, cinnamon, glutamine can blunt blood glucose spikes.",
+        "Quality sleep regulates sugar metabolism and appetite."
       ],
-      "composite": 87.3,
-      "confidence": "High",
+      "composite": 85.5,
       "substance": 8.5,
-      "evidence": 8.5,
+      "evidence": 7,
       "specificity": 9,
-      "insight_density": 8.5,
+      "insight_density": 9,
       "non_promotion": 10,
       "like_count": null,
-      "upload_date": "20260226",
-      "duration_seconds": 2309,
-      "composite_base": 87.3,
+      "upload_date": "20260430",
+      "duration_seconds": 1779,
+      "composite_base": 85.5,
       "rank": 9,
       "tags": [
         {
           "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Evidence",
           "tone": "positive"
         },
         {
@@ -453,33 +446,33 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
-      "id": "syJYZm5OZhE",
-      "title": "Improve Flexibility with Research-Supported Stretching Protocols | Huberman Lab Essentials",
+      "id": "RmwbNdyrilk",
+      "title": "Essentials: Tools to Boost Attention & Memory | Dr. Wendy Suzuki",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=syJYZm5OZhE",
+      "url": "https://www.youtube.com/watch?v=RmwbNdyrilk",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Static stretching best for long-term flexibility.",
-        "Low-intensity (30–40% pain) more effective than moderate.",
-        "Minimum 5 minutes stretching per week per muscle.",
-        "Spindles and Golgi tendon organs regulate stretch reflex.",
-        "Yoga increases insula volume and pain tolerance."
+        "Memory relies on novelty, repetition, association, emotion.",
+        "Exercise releases BDNF, boosting hippocampus growth.",
+        "10-minute walk improves mood; 30–45 min cardio boosts cognition.",
+        "Meditation and sleep also enhance attention and memory.",
+        "Regular exercise in midlife linked to later cognitive health."
       ],
-      "composite": 87,
+      "composite": 85.11,
       "confidence": "High",
-      "substance": 8,
-      "evidence": 8.5,
+      "substance": 8.5,
+      "evidence": 8,
       "specificity": 9,
-      "insight_density": 9,
-      "non_promotion": 10,
+      "insight_density": 8.5,
+      "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260618",
-      "duration_seconds": 1936,
-      "composite_base": 87,
+      "upload_date": "20260115",
+      "duration_seconds": 2212,
+      "composite_base": 85.8,
       "rank": 10,
       "tags": [
         {
@@ -503,33 +496,33 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.69
     },
     {
-      "id": "916vhhUsmgE",
-      "title": "Understanding & Controlling Aggression | Huberman Lab Essentials",
+      "id": "MOPqSEK6GvA",
+      "title": "Essentials: The Science of Learning & Speaking Languages | Dr. Eddie Chang",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=916vhhUsmgE",
+      "url": "https://www.youtube.com/watch?v=MOPqSEK6GvA",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Aggression has distinct neural circuits, not just sadness.",
-        "Testosterone converts to estrogen in brain to trigger aggression.",
-        "Day length and cortisol modulate aggression propensity.",
-        "Specific brain region (VMH) with ~3,000 neurons controls aggression.",
-        "Tools: sunlight, sauna, ashwagandha, acetyl-L-carnitine."
+        "Speech vs. language defined.",
+        "Larynx shapes breath for speech.",
+        "Brain-machine interface decodes speech.",
+        "Stuttering is coordination breakdown.",
+        "Avatar communication for paralyzed people."
       ],
-      "composite": 86.8,
+      "composite": 84.75,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 8.5,
+      "evidence": 7.5,
       "specificity": 9,
       "insight_density": 8.5,
       "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260514",
-      "duration_seconds": 1999,
-      "composite_base": 86.8,
+      "upload_date": "20260521",
+      "duration_seconds": 1713,
+      "composite_base": 84.75,
       "rank": 11,
       "tags": [
         {
@@ -537,10 +530,6 @@
           "tone": "positive"
         },
         {
-          "label": "Evidence",
-          "tone": "positive"
-        },
-        {
           "label": "Specificity",
           "tone": "positive"
         },
@@ -553,152 +542,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "rAbJC-Qaw7Q",
-      "title": "How Genes Shape Your Risk Taking & Morals | Dr. Kathryn Paige Harden",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=rAbJC-Qaw7Q",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Genes influence risk-taking and morality.",
-        "Adolescence is key for mental health.",
-        "Punishment activates reward circuits in brain.",
-        "Genes and environment interact to shape behavior.",
-        "Early brain development affects addiction risk."
-      ],
-      "composite": 86,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 9,
-      "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 9,
-      "like_count": null,
-      "upload_date": "20260209",
-      "duration_seconds": 9723,
-      "composite_base": 86,
-      "rank": 12,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Evidence",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "RmwbNdyrilk",
-      "title": "Essentials: Tools to Boost Attention & Memory | Dr. Wendy Suzuki",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=RmwbNdyrilk",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Memory relies on novelty, repetition, association, emotion.",
-        "Exercise releases BDNF, boosting hippocampus growth.",
-        "10-minute walk improves mood; 30–45 min cardio boosts cognition.",
-        "Meditation and sleep also enhance attention and memory.",
-        "Regular exercise in midlife linked to later cognitive health."
-      ],
-      "composite": 85.8,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 8,
-      "specificity": 9,
-      "insight_density": 8.5,
-      "non_promotion": 9.5,
-      "like_count": null,
-      "upload_date": "20260115",
-      "duration_seconds": 2212,
-      "composite_base": 85.8,
-      "rank": 13,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Evidence",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "qUUfucHC7tU",
-      "title": "Control Sugar Cravings & Metabolism with Science-Based Tools | Huberman Lab Essentials",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=qUUfucHC7tU",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Two parallel neural pathways drive sugar cravings.",
-        "Fructose reduces satiety hormones, increasing hunger.",
-        "Gut neuropod cells signal sugar to brain via vagus nerve.",
-        "Lemon juice, cinnamon, glutamine can blunt blood glucose spikes.",
-        "Quality sleep regulates sugar metabolism and appetite."
-      ],
-      "composite": 85.5,
-      "substance": 8.5,
-      "evidence": 7,
-      "specificity": 9,
-      "insight_density": 9,
-      "non_promotion": 10,
-      "like_count": null,
-      "upload_date": "20260430",
-      "duration_seconds": 1779,
-      "composite_base": 85.5,
-      "rank": 14,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "0VSOoMuStvg",
@@ -706,7 +551,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=0VSOoMuStvg",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Nine exercise adaptations: skill to endurance.",
         "Strength requires >85% 1RM, low reps.",
@@ -714,7 +558,7 @@
         "Progressive overload via weight, reps, or complexity.",
         "Down-regulate breathing post-workout for recovery."
       ],
-      "composite": 85,
+      "composite": 84.56,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 7,
@@ -725,6 +569,143 @@
       "upload_date": "20260402",
       "duration_seconds": 2066,
       "composite_base": 85,
+      "rank": 12,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.44
+    },
+    {
+      "id": "fh2dBmLN-ZM",
+      "title": "Essentials: Micronutrients for Health & Longevity | Dr. Rhonda Patrick",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=fh2dBmLN-ZM",
+      "status": "ok",
+      "summary_bullets": [
+        "Hormesis: intermittent stressors activate protective pathways.",
+        "Sulforaphane from broccoli sprouts activates NRF2.",
+        "Omega-3 index linked to life expectancy.",
+        "Vitamin D regulates over 5% of human genome.",
+        "Cold exposure increases mitochondria in fat."
+      ],
+      "composite": 84.19,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260101",
+      "duration_seconds": 2137,
+      "composite_base": 84.75,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.56
+    },
+    {
+      "id": "RECLTp_YxSU",
+      "title": "Essentials: Tools for Setting & Achieving Goals | Dr. Emily Balcetis",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=RECLTp_YxSU",
+      "status": "ok",
+      "summary_bullets": [
+        "Narrowed visual focus speeds exercise by 27%.",
+        "Vision boards can backfire, lowering blood pressure.",
+        "Planning obstacles in advance boosts goal success.",
+        "Energy levels change perceived distance to goals.",
+        "Data tracking corrects faulty memory of progress."
+      ],
+      "composite": 82.8,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260319",
+      "duration_seconds": 1922,
+      "composite_base": 83,
+      "rank": 14,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.2
+    },
+    {
+      "id": "GkG1hMhIQ_Q",
+      "title": "Essentials: Psychedelics & Neurostimulation for Brain Rewiring | Dr. Nolan Williams",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=GkG1hMhIQ_Q",
+      "status": "ok",
+      "summary_bullets": [
+        "Depression is most disabling condition worldwide.",
+        "TMS can rapidly treat depression in days.",
+        "Psychedelics show long-lasting antidepressant effects.",
+        "Ibogaine studied for PTSD in special forces."
+      ],
+      "composite": 82.63,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260604",
+      "duration_seconds": 2204,
+      "composite_base": 83.3,
       "rank": 15,
       "tags": [
         {
@@ -744,43 +725,35 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.67
     },
     {
-      "id": "hlOA8ObQJXo",
-      "title": "Science-Based Meditation Tools to Improve Your Brain & Health | Dr. Richard Davidson",
+      "id": "hnzrPKvRBD8",
+      "title": "Using Salt to Optimize Mental & Physical Performance | Huberman Lab Essentials",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=hlOA8ObQJXo",
+      "url": "https://www.youtube.com/watch?v=hnzrPKvRBD8",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "5-minute daily meditation reduces depression, anxiety, stress.",
-        "Meditation changes brain connectivity in one month.",
-        "Flourishing is contagious; teacher meditation boosts student math scores.",
-        "Meditation's \"burn\" is like exercise lactate for mental adaptation.",
-        "Four pillars: awareness, connection, insight, purpose."
+        "Brain detects salt levels via OVLT.",
+        "Two thirst types: osmotic and hypovolemic.",
+        "Salt intake depends on blood pressure and activity.",
+        "Galpin equation: body weight/30 = fluid per 15 min.",
+        "Salt-sweet taste interactions drive overeating."
       ],
-      "composite": 84.8,
+      "composite": 79.86,
       "confidence": "High",
-      "substance": 8.5,
-      "evidence": 9,
-      "specificity": 9.5,
-      "insight_density": 8,
-      "non_promotion": 7,
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
       "like_count": null,
-      "upload_date": "20260316",
-      "duration_seconds": 9825,
-      "composite_base": 84.8,
+      "upload_date": "20260326",
+      "duration_seconds": 2034,
+      "composite_base": 80.25,
       "rank": 16,
       "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Evidence",
-          "tone": "positive"
-        },
         {
           "label": "Specificity",
           "tone": "positive"
@@ -788,35 +761,39 @@
         {
           "label": "Insight",
           "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.39
     },
     {
-      "id": "MOPqSEK6GvA",
-      "title": "Essentials: The Science of Learning & Speaking Languages | Dr. Eddie Chang",
+      "id": "jjaFnKtytqI",
+      "title": "Eating for Better Sleep & Foods that Improve Metabolic Health | Dr. Marie-Pierre St-Onge",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=MOPqSEK6GvA",
+      "url": "https://www.youtube.com/watch?v=jjaFnKtytqI",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Speech vs. language defined.",
-        "Larynx shapes breath for speech.",
-        "Brain-machine interface decodes speech.",
-        "Stuttering is coordination breakdown.",
-        "Avatar communication for paralyzed people."
+        "Sleep deprivation alters hunger hormones differently by sex.",
+        "Fiber boosts deep sleep; saturated fat reduces it.",
+        "Eating earlier in the day improves metabolism and sleep.",
+        "MCT oil and ginger can slightly increase calorie burn.",
+        "Mediterranean/DASH diet linked to better sleep quality."
       ],
-      "composite": 84.75,
+      "composite": 79.79,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 7.5,
-      "specificity": 9,
+      "evidence": 9,
+      "specificity": 9.5,
       "insight_density": 8.5,
       "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260521",
-      "duration_seconds": 1713,
-      "composite_base": 84.75,
+      "upload_date": "20260608",
+      "duration_seconds": 7025,
+      "composite_base": 88.5,
       "rank": 17,
       "tags": [
         {
@@ -824,101 +801,6 @@
           "tone": "positive"
         },
         {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    }
-  ],
-  "too_long": [],
-  "other": [
-    {
-      "id": "fh2dBmLN-ZM",
-      "title": "Essentials: Micronutrients for Health & Longevity | Dr. Rhonda Patrick",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=fh2dBmLN-ZM",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Hormesis: intermittent stressors activate protective pathways.",
-        "Sulforaphane from broccoli sprouts activates NRF2.",
-        "Omega-3 index linked to life expectancy.",
-        "Vitamin D regulates over 5% of human genome.",
-        "Cold exposure increases mitochondria in fat."
-      ],
-      "composite": 84.75,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 7.5,
-      "specificity": 9,
-      "insight_density": 8.5,
-      "non_promotion": 9.5,
-      "like_count": null,
-      "upload_date": "20260101",
-      "duration_seconds": 2137,
-      "composite_base": 84.75,
-      "rank": 18,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "6-mEiwe2NhE",
-      "title": "How Hormones Shape Sexual Orientation & Behavior | Dr. Marc Breedlove",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=6-mEiwe2NhE",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Prenatal testosterone influences sexual orientation.",
-        "Finger length ratio correlates with prenatal androgen exposure.",
-        "Older brothers increase male homosexuality odds via maternal antibodies.",
-        "Gay rams show brain differences in preoptic area.",
-        "Sexual orientation is not a choice; biological factors."
-      ],
-      "composite": 84.5,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 8,
-      "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 9.5,
-      "like_count": null,
-      "upload_date": "20260330",
-      "duration_seconds": 7878,
-      "composite_base": 84.5,
-      "rank": 19,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
           "label": "Evidence",
           "tone": "positive"
         },
@@ -935,39 +817,119 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -8.71
     },
     {
-      "id": "GkG1hMhIQ_Q",
-      "title": "Essentials: Psychedelics & Neurostimulation for Brain Rewiring | Dr. Nolan Williams",
+      "id": "RTgJSQtvo88",
+      "title": "Essentials: Sleep Toolkit for Optimizing Sleep & Sleep-Wake Timing",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=GkG1hMhIQ_Q",
+      "url": "https://www.youtube.com/watch?v=RTgJSQtvo88",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Depression is most disabling condition worldwide.",
-        "TMS can rapidly treat depression in days.",
-        "Psychedelics show long-lasting antidepressant effects.",
-        "Ibogaine studied for PTSD in special forces."
+        "Morning sunlight viewing sets circadian clock",
+        "Cold exposure paradoxically raises core body temperature",
+        "Delay caffeine 90–120 minutes after waking",
+        "Cool sleeping environment improves sleep quality",
+        "Temperature minimum predicts jet lag adjustment"
       ],
-      "composite": 83.3,
+      "composite": 79.3,
       "confidence": "High",
-      "substance": 8.5,
-      "evidence": 7,
+      "substance": 7.5,
+      "evidence": 6.5,
       "specificity": 9,
       "insight_density": 8.5,
-      "non_promotion": 9,
+      "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260604",
-      "duration_seconds": 2204,
-      "composite_base": 83.3,
+      "upload_date": "20260611",
+      "duration_seconds": 2099,
+      "composite_base": 79.8,
+      "rank": 18,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.5
+    },
+    {
+      "id": "PlQyGIIAGNo",
+      "title": "The Science & Process of Healing from Grief | Huberman Lab Essentials",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=PlQyGIIAGNo",
+      "status": "ok",
+      "summary_bullets": [
+        "Grief remaps brain’s space-time-closeness map.",
+        "Inferior parietal lobule encodes proximity in three dimensions.",
+        "Oxytocin receptors influence intensity of yearning.",
+        "Rational grieving: hold attachment, uncouple space/time."
+      ],
+      "composite": 78.73,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260528",
+      "duration_seconds": 2111,
+      "composite_base": 79.25,
+      "rank": 19,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.52
+    },
+    {
+      "id": "NEkUNahduWY",
+      "title": "The Science of Love, Desire & Attachment | Huberman Lab Essentials",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=NEkUNahduWY",
+      "status": "ok",
+      "summary_bullets": [
+        "Attachment styles from childhood predict adult romance.",
+        "Autonomic nervous system coordination underlies desire/love.",
+        "Self-expansion narratives reduce perceived attractiveness of others.",
+        "Maca, tongkat ali, tribulus can increase libido.",
+        "Positive delusions stabilize long-term relationships."
+      ],
+      "composite": 78.72,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260212",
+      "duration_seconds": 2149,
+      "composite_base": 79.3,
       "rank": 20,
       "tags": [
         {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
           "label": "Specificity",
           "tone": "positive"
         },
@@ -980,40 +942,36 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.58
     },
     {
-      "id": "sQcS6f2qYoQ",
-      "title": "Male Roles, Obligations and Options for Building a Fulfilling Life | Scott Galloway",
+      "id": "23t_ynq2tmk",
+      "title": "Optimizing Workspace for Productivity, Focus & Creativity | Huberman Lab Essentials",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=sQcS6f2qYoQ",
+      "url": "https://www.youtube.com/watch?v=23t_ynq2tmk",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Masculinity code: provider, protector, procreator.",
-        "Big tech harms young men’s social skills.",
-        "Mentorship and service are key to fulfillment.",
-        "Economic hypergamy still drives mate selection.",
-        "National service could reduce isolation."
+        "Bright morning light boosts alertness.",
+        "Look at eye level or above for focus.",
+        "Use 40 Hz binaural beats for concentration.",
+        "Take 5-min panoramic vision breaks every 45 min.",
+        "High ceilings aid creative thinking; low ceilings aid analytic work."
       ],
-      "composite": 83,
+      "composite": 77.48,
       "confidence": "High",
-      "substance": 8.5,
-      "evidence": 7.5,
+      "substance": 7.5,
+      "evidence": 6,
       "specificity": 9,
       "insight_density": 8,
-      "non_promotion": 9,
+      "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260427",
-      "duration_seconds": 9352,
-      "composite_base": 83,
+      "upload_date": "20260108",
+      "duration_seconds": 1812,
+      "composite_base": 77.5,
       "rank": 21,
       "tags": [
         {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
           "label": "Specificity",
           "tone": "positive"
         },
@@ -1026,33 +984,33 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.02
     },
     {
-      "id": "RTPNJgHeZBI",
-      "title": "How Women Can Improve Their Fertility & Hormone Health | Dr. Natalie Crawford",
+      "id": "VPi_eWiaqdg",
+      "title": "How Dopamine & Serotonin Shape Decisions, Motivation & Learning | Dr. Read Montague",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=RTPNJgHeZBI",
+      "url": "https://www.youtube.com/watch?v=VPi_eWiaqdg",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "AMH test ($79) reveals egg count, not quality.",
-        "Cannabis reduces egg retrieval by 25%, fertilization by 28%.",
-        "NSAIDs around ovulation can prevent egg release.",
-        "Biotin supplements (>300 mcg) skew hormone lab results.",
-        "Lifestyle factors (sleep, muscle, diet) lower inflammation, improve fertility."
+        "Dopamine encodes successive predictions, not just reward.",
+        "Serotonin and dopamine are opponent signals.",
+        "SSRIs can push serotonin into dopamine terminals.",
+        "Breathing and dopamine signals are linked in real-time.",
+        "AI reinforcement learning mirrors brain's dopamine algorithm."
       ],
-      "composite": 83,
+      "composite": 76.16,
       "confidence": "High",
-      "substance": 8.5,
-      "evidence": 8,
+      "substance": 9,
+      "evidence": 9,
       "specificity": 9,
       "insight_density": 8.5,
-      "non_promotion": 7,
+      "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260413",
-      "duration_seconds": 9363,
-      "composite_base": 83,
+      "upload_date": "20260202",
+      "duration_seconds": 9685,
+      "composite_base": 89.3,
       "rank": 22,
       "tags": [
         {
@@ -1070,47 +1028,43 @@
         {
           "label": "Insight",
           "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -13.14
     },
     {
-      "id": "RECLTp_YxSU",
-      "title": "Essentials: Tools for Setting & Achieving Goals | Dr. Emily Balcetis",
+      "id": "U6dnOVth7-I",
+      "title": "Understand & Improve Memory Using Science-Based Tools | Huberman Lab Essentials",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=RECLTp_YxSU",
+      "url": "https://www.youtube.com/watch?v=U6dnOVth7-I",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Narrowed visual focus speeds exercise by 27%.",
-        "Vision boards can backfire, lowering blood pressure.",
-        "Planning obstacles in advance boosts goal success.",
-        "Energy levels change perceived distance to goals.",
-        "Data tracking corrects faulty memory of progress."
+        "Memory depends on adrenaline spikes after learning.",
+        "Repetition strengthens neural connections.",
+        "Cold exposure or exercise boosts memory encoding.",
+        "Meditation improves attention and memory over weeks.",
+        "Taking mental snapshots enhances visual memory."
       ],
-      "composite": 83,
+      "composite": 75.72,
       "confidence": "High",
       "substance": 7.5,
-      "evidence": 8,
-      "specificity": 9,
-      "insight_density": 8.5,
-      "non_promotion": 10,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260319",
-      "duration_seconds": 1922,
-      "composite_base": 83,
+      "upload_date": "20260416",
+      "duration_seconds": 2150,
+      "composite_base": 76.3,
       "rank": 23,
       "tags": [
         {
-          "label": "Evidence",
-          "tone": "positive"
-        },
-        {
           "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
           "tone": "positive"
         },
         {
@@ -1118,33 +1072,33 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.58
     },
     {
-      "id": "Tmw2dW0a9DY",
-      "title": "Cultivating Awe & Emotional Connection in Daily Life | Dr. Dacher Keltner",
+      "id": "u4VTFb4awrQ",
+      "title": "Avoiding, Treating & Curing Cancer | Dr. Alex Marson",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=Tmw2dW0a9DY",
+      "url": "https://www.youtube.com/watch?v=u4VTFb4awrQ",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Awe reduces inflammation and long COVID symptoms.",
-        "Awe walk: slow down, go small to vast.",
-        "Teasing builds social bonds when done right.",
-        "Psychedelics can induce awe but require caution.",
-        "Campfires provide red light therapy and community."
+        "Immune system can be reprogrammed to fight cancer.",
+        "CRISPR enables precise DNA editing in immune cells.",
+        "CAR T-cells cured a child with leukemia in 2012.",
+        "Gene editing now in clinical trials for solid tumors.",
+        "Autoimmune diseases may be treated with engineered T-cells."
       ],
-      "composite": 82.8,
+      "composite": 75.58,
       "confidence": "High",
-      "substance": 8.5,
-      "evidence": 8,
-      "specificity": 9,
-      "insight_density": 7.5,
+      "substance": 9,
+      "evidence": 8.5,
+      "specificity": 9.5,
+      "insight_density": 8,
       "non_promotion": 9,
       "like_count": null,
-      "upload_date": "20260406",
-      "duration_seconds": 8420,
-      "composite_base": 82.8,
+      "upload_date": "20260309",
+      "duration_seconds": 8833,
+      "composite_base": 87.3,
       "rank": 24,
       "tags": [
         {
@@ -1160,37 +1114,41 @@
           "tone": "positive"
         },
         {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
           "label": "Non-promo",
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -11.72
     },
     {
-      "id": "_Q4XT82yd-Q",
-      "title": "The Most Effective Weight Training, Cardio & Nutrition for Women | Dr. Lauren Colenso-Semple",
+      "id": "6-mEiwe2NhE",
+      "title": "How Hormones Shape Sexual Orientation & Behavior | Dr. Marc Breedlove",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=_Q4XT82yd-Q",
+      "url": "https://www.youtube.com/watch?v=6-mEiwe2NhE",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Men and women respond similarly to exercise.",
-        "No need to sync training with menstrual cycle.",
-        "Resistance training is key for women's health.",
-        "Creatine monohydrate is safe and effective.",
-        "Hormone therapy not proven for muscle gain."
+        "Prenatal testosterone influences sexual orientation.",
+        "Finger length ratio correlates with prenatal androgen exposure.",
+        "Older brothers increase male homosexuality odds via maternal antibodies.",
+        "Gay rams show brain differences in preoptic area.",
+        "Sexual orientation is not a choice; biological factors."
       ],
-      "composite": 82.8,
+      "composite": 74.37,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 8,
       "specificity": 9,
-      "insight_density": 7.5,
-      "non_promotion": 9,
+      "insight_density": 8,
+      "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260216",
-      "duration_seconds": 9118,
-      "composite_base": 82.8,
+      "upload_date": "20260330",
+      "duration_seconds": 7878,
+      "composite_base": 84.5,
       "rank": 25,
       "tags": [
         {
@@ -1206,48 +1164,6 @@
           "tone": "positive"
         },
         {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "_DfqnpSbMfE",
-      "title": "Peptides: The Science, Uses & Safety | Dr. Abud Bakri",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=_DfqnpSbMfE",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Peptides are signaling molecules with or without known receptors.",
-        "BPC-157 lacks human trials but has extensive animal data.",
-        "Thymus peptides may boost immunity and T-cell function.",
-        "GLP-1 drugs like Ozempic are transforming obesity treatment.",
-        "Pinealon (EDR) may improve REM sleep and cognition."
-      ],
-      "composite": 82.5,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 7,
-      "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 9.5,
-      "like_count": null,
-      "upload_date": "20260601",
-      "duration_seconds": 10103,
-      "composite_base": 82.5,
-      "rank": 26,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
           "label": "Insight",
           "tone": "positive"
         },
@@ -1256,33 +1172,67 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -10.13
     },
     {
-      "id": "Q2hOryHdgAk",
-      "title": "How to Overcome Social Anxiety | Dr. Nick Epley",
+      "id": "BRG4_KfTxbs",
+      "title": "Using Play to Rewire & Improve Your Brain | Huberman Lab Essentials",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=Q2hOryHdgAk",
+      "url": "https://www.youtube.com/watch?v=BRG4_KfTxbs",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Social anxiety stems from misplaced beliefs.",
-        "Exposure therapy changes beliefs, not just anxiety.",
-        "People underestimate others' kindness and compliance.",
-        "Small social moments build well-being.",
-        "Voice conveys mind presence, reducing dehumanization."
+        "Play is low-stakes contingency testing.",
+        "Endogenous opioids released during play.",
+        "Low adrenaline needed for effective play.",
+        "Play opens prefrontal cortex neuroplasticity.",
+        "Play postures signal safety (head tilt)."
       ],
-      "composite": 82,
+      "composite": 73.32,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 7,
+      "insight_density": 7,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260129",
+      "duration_seconds": 1909,
+      "composite_base": 73.5,
+      "rank": 26,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.18
+    },
+    {
+      "id": "rAbJC-Qaw7Q",
+      "title": "How Genes Shape Your Risk Taking & Morals | Dr. Kathryn Paige Harden",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=rAbJC-Qaw7Q",
+      "status": "ok",
+      "summary_bullets": [
+        "Genes influence risk-taking and morality.",
+        "Adolescence is key for mental health.",
+        "Punishment activates reward circuits in brain.",
+        "Genes and environment interact to shape behavior.",
+        "Early brain development affects addiction risk."
+      ],
+      "composite": 72.79,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 8,
-      "specificity": 8.5,
-      "insight_density": 7.5,
+      "evidence": 9,
+      "specificity": 9,
+      "insight_density": 8,
       "non_promotion": 9,
       "like_count": null,
-      "upload_date": "20260518",
-      "duration_seconds": 9025,
-      "composite_base": 82,
+      "upload_date": "20260209",
+      "duration_seconds": 9723,
+      "composite_base": 86,
       "rank": 27,
       "tags": [
         {
@@ -1298,37 +1248,41 @@
           "tone": "positive"
         },
         {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
           "label": "Non-promo",
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -13.21
     },
     {
-      "id": "e89rVf4Pf0k",
-      "title": "Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita",
+      "id": "Tmw2dW0a9DY",
+      "title": "Cultivating Awe & Emotional Connection in Daily Life | Dr. Dacher Keltner",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=e89rVf4Pf0k",
+      "url": "https://www.youtube.com/watch?v=Tmw2dW0a9DY",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Self-control is a learnable skill.",
-        "Higher-order reasons strengthen willpower.",
-        "Psychological distance aids self-control.",
-        "Intrinsic motivation sustains long-term effort.",
-        "Abstinence vs. moderation trade-offs matter."
+        "Awe reduces inflammation and long COVID symptoms.",
+        "Awe walk: slow down, go small to vast.",
+        "Teasing builds social bonds when done right.",
+        "Psychedelics can induce awe but require caution.",
+        "Campfires provide red light therapy and community."
       ],
-      "composite": 81,
+      "composite": 71.77,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 8,
-      "specificity": 8.5,
+      "specificity": 9,
       "insight_density": 7.5,
-      "non_promotion": 8,
+      "non_promotion": 9,
       "like_count": null,
-      "upload_date": "20260511",
-      "duration_seconds": 8870,
-      "composite_base": 81,
+      "upload_date": "20260406",
+      "duration_seconds": 8420,
+      "composite_base": 82.8,
       "rank": 28,
       "tags": [
         {
@@ -1342,35 +1296,39 @@
         {
           "label": "Specificity",
           "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -11.03
     },
     {
-      "id": "bdsc3Spm6Sw",
-      "title": "Best Ways to Build Better Habits & Break Bad Ones | James Clear",
+      "id": "Ew0-Lg_Evj0",
+      "title": "Restore Youthfulness & Vitality to the Aging Brain & Body | Dr. Tony Wyss-Coray",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=bdsc3Spm6Sw",
+      "url": "https://www.youtube.com/watch?v=Ew0-Lg_Evj0",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Habits solve recurring problems in environment.",
-        "Four laws: obvious, attractive, easy, satisfying.",
-        "\"Never miss twice\" prevents habit collapse.",
-        "Environment and identity drive behavior change.",
-        "Bad habits inverted using same four laws."
+        "Young blood factors rejuvenate old mouse brains.",
+        "Blood proteins predict organ-specific aging rates.",
+        "Exercise releases liver factors that benefit brain.",
+        "No proven human lifespan extension intervention exists.",
+        "Lifestyle factors like social connection matter."
       ],
-      "composite": 81,
+      "composite": 71.58,
       "confidence": "High",
-      "substance": 8.5,
-      "evidence": 7,
+      "substance": 8,
+      "evidence": 7.5,
       "specificity": 9,
       "insight_density": 8,
       "non_promotion": 8,
       "like_count": null,
-      "upload_date": "20260105",
-      "duration_seconds": 9319,
-      "composite_base": 81,
+      "upload_date": "20260223",
+      "duration_seconds": 7154,
+      "composite_base": 80.5,
       "rank": 29,
       "tags": [
         {
@@ -1386,76 +1344,34 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -8.92
     },
     {
-      "id": "Ew0-Lg_Evj0",
-      "title": "Restore Youthfulness & Vitality to the Aging Brain & Body | Dr. Tony Wyss-Coray",
+      "id": "hlOA8ObQJXo",
+      "title": "Science-Based Meditation Tools to Improve Your Brain & Health | Dr. Richard Davidson",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=Ew0-Lg_Evj0",
+      "url": "https://www.youtube.com/watch?v=hlOA8ObQJXo",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Young blood factors rejuvenate old mouse brains.",
-        "Blood proteins predict organ-specific aging rates.",
-        "Exercise releases liver factors that benefit brain.",
-        "No proven human lifespan extension intervention exists.",
-        "Lifestyle factors like social connection matter."
+        "5-minute daily meditation reduces depression, anxiety, stress.",
+        "Meditation changes brain connectivity in one month.",
+        "Flourishing is contagious; teacher meditation boosts student math scores.",
+        "Meditation's \"burn\" is like exercise lactate for mental adaptation.",
+        "Four pillars: awareness, connection, insight, purpose."
       ],
-      "composite": 80.5,
-      "confidence": "High",
-      "substance": 8,
-      "evidence": 7.5,
-      "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 8,
-      "like_count": null,
-      "upload_date": "20260223",
-      "duration_seconds": 7154,
-      "composite_base": 80.5,
-      "rank": 30,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "lEULFeUVYf0",
-      "title": "Science & Tools of Learning & Memory | Dr. David Eagleman",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=lEULFeUVYf0",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Neuroplasticity requires novelty and challenge.",
-        "Time perception is a trick of memory density.",
-        "Dreams defend visual cortex from takeover.",
-        "In-group/out-group empathy is automatic.",
-        "Ulysses contracts bind future behavior."
-      ],
-      "composite": 80.3,
+      "composite": 71.42,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 8,
-      "specificity": 8.5,
+      "evidence": 9,
+      "specificity": 9.5,
       "insight_density": 8,
-      "non_promotion": 6,
+      "non_promotion": 7,
       "like_count": null,
-      "upload_date": "20260126",
-      "duration_seconds": 8652,
-      "composite_base": 80.3,
-      "rank": 31,
+      "upload_date": "20260316",
+      "duration_seconds": 9825,
+      "composite_base": 84.8,
+      "rank": 30,
       "tags": [
         {
           "label": "Substance",
@@ -1474,35 +1390,85 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -13.38
     },
     {
-      "id": "hnzrPKvRBD8",
-      "title": "Using Salt to Optimize Mental & Physical Performance | Huberman Lab Essentials",
+      "id": "_Q4XT82yd-Q",
+      "title": "The Most Effective Weight Training, Cardio & Nutrition for Women | Dr. Lauren Colenso-Semple",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=hnzrPKvRBD8",
+      "url": "https://www.youtube.com/watch?v=_Q4XT82yd-Q",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Brain detects salt levels via OVLT.",
-        "Two thirst types: osmotic and hypovolemic.",
-        "Salt intake depends on blood pressure and activity.",
-        "Galpin equation: body weight/30 = fluid per 15 min.",
-        "Salt-sweet taste interactions drive overeating."
+        "Men and women respond similarly to exercise.",
+        "No need to sync training with menstrual cycle.",
+        "Resistance training is key for women's health.",
+        "Creatine monohydrate is safe and effective.",
+        "Hormone therapy not proven for muscle gain."
       ],
-      "composite": 80.25,
+      "composite": 70.6,
       "confidence": "High",
-      "substance": 7.5,
-      "evidence": 6.5,
+      "substance": 8.5,
+      "evidence": 8,
       "specificity": 9,
-      "insight_density": 8.5,
-      "non_promotion": 10,
+      "insight_density": 7.5,
+      "non_promotion": 9,
       "like_count": null,
-      "upload_date": "20260326",
-      "duration_seconds": 2034,
-      "composite_base": 80.25,
+      "upload_date": "20260216",
+      "duration_seconds": 9118,
+      "composite_base": 82.8,
+      "rank": 31,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -12.2
+    },
+    {
+      "id": "sQcS6f2qYoQ",
+      "title": "Male Roles, Obligations and Options for Building a Fulfilling Life | Scott Galloway",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=sQcS6f2qYoQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Masculinity code: provider, protector, procreator.",
+        "Big tech harms young men’s social skills.",
+        "Mentorship and service are key to fulfillment.",
+        "Economic hypergamy still drives mate selection.",
+        "National service could reduce isolation."
+      ],
+      "composite": 70.41,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260427",
+      "duration_seconds": 9352,
+      "composite_base": 83,
       "rank": 32,
       "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
         {
           "label": "Specificity",
           "tone": "positive"
@@ -1516,33 +1482,33 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -12.59
     },
     {
-      "id": "CV0GtUlJ6NM",
-      "title": "Science of Attraction, Compatibility & Romance | Dr. Paul Eastwick",
+      "id": "RTPNJgHeZBI",
+      "title": "How Women Can Improve Their Fertility & Hormone Health | Dr. Natalie Crawford",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=CV0GtUlJ6NM",
+      "url": "https://www.youtube.com/watch?v=RTPNJgHeZBI",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Attraction consensus fades with time together.",
-        "Men and women both prefer younger partners.",
-        "Financial status equally important to both sexes.",
-        "Dating apps select for traits that don't predict lasting relationships.",
-        "Perceived similarity matters more than actual similarity."
+        "AMH test ($79) reveals egg count, not quality.",
+        "Cannabis reduces egg retrieval by 25%, fertilization by 28%.",
+        "NSAIDs around ovulation can prevent egg release.",
+        "Biotin supplements (>300 mcg) skew hormone lab results.",
+        "Lifestyle factors (sleep, muscle, diet) lower inflammation, improve fertility."
       ],
-      "composite": 80,
+      "composite": 70.39,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 7.5,
-      "specificity": 8,
-      "insight_density": 7.5,
-      "non_promotion": 9,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 7,
       "like_count": null,
-      "upload_date": "20260622",
-      "duration_seconds": 10216,
-      "composite_base": 80,
+      "upload_date": "20260413",
+      "duration_seconds": 9363,
+      "composite_base": 83,
       "rank": 33,
       "tags": [
         {
@@ -1550,204 +1516,213 @@
           "tone": "positive"
         },
         {
-          "label": "Non-promo",
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -12.61
     },
     {
-      "id": "Zz8chJwh3S4",
-      "title": "Movement Practice to Strengthen Your Mind-Body Connection | Ido Portal",
+      "id": "iNL_BFlHYZ8",
+      "title": "Essentials: Therapy, Treating Trauma & Other Life Challenges | Dr. Paul Conti",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=Zz8chJwh3S4",
+      "url": "https://www.youtube.com/watch?v=iNL_BFlHYZ8",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Discipline is scaffolding, not core.",
-        "Willpower cannot be developed, only exposed.",
-        "Playfulness opens deeper transformation.",
-        "Micro-practices and transitions are potent.",
-        "Body schema can be rapidly remodeled."
+        "Trauma overwhelms coping skills, changes brain.",
+        "Guilt and shame are evolutionary but maladaptive.",
+        "Repetition compulsion repeats trauma to solve it.",
+        "Psychedelics quiet cortex, enable deep processing.",
+        "Self-care basics: sleep, diet, sunlight, relationships."
       ],
-      "composite": 79.8,
+      "composite": 70.16,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 8,
+      "non_promotion": 6.5,
+      "like_count": null,
+      "upload_date": "20260122",
+      "duration_seconds": 2004,
+      "composite_base": 70.5,
+      "rank": 34,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.34
+    },
+    {
+      "id": "Q2hOryHdgAk",
+      "title": "How to Overcome Social Anxiety | Dr. Nick Epley",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Q2hOryHdgAk",
+      "status": "ok",
+      "summary_bullets": [
+        "Social anxiety stems from misplaced beliefs.",
+        "Exposure therapy changes beliefs, not just anxiety.",
+        "People underestimate others' kindness and compliance.",
+        "Small social moments build well-being.",
+        "Voice conveys mind presence, reducing dehumanization."
+      ],
+      "composite": 69.96,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 6,
-      "specificity": 8,
-      "insight_density": 8.5,
+      "evidence": 8,
+      "specificity": 8.5,
+      "insight_density": 7.5,
       "non_promotion": 9,
       "like_count": null,
-      "upload_date": "20260629",
-      "duration_seconds": 10789,
-      "composite_base": 79.8,
-      "rank": 34,
+      "upload_date": "20260518",
+      "duration_seconds": 9025,
+      "composite_base": 82,
+      "rank": 35,
       "tags": [
         {
           "label": "Substance",
           "tone": "positive"
         },
         {
-          "label": "Insight",
+          "label": "Evidence",
           "tone": "positive"
         },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "RTgJSQtvo88",
-      "title": "Essentials: Sleep Toolkit for Optimizing Sleep & Sleep-Wake Timing",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=RTgJSQtvo88",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Morning sunlight viewing sets circadian clock",
-        "Cold exposure paradoxically raises core body temperature",
-        "Delay caffeine 90–120 minutes after waking",
-        "Cool sleeping environment improves sleep quality",
-        "Temperature minimum predicts jet lag adjustment"
-      ],
-      "composite": 79.8,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 6.5,
-      "specificity": 9,
-      "insight_density": 8.5,
-      "non_promotion": 9.5,
-      "like_count": null,
-      "upload_date": "20260611",
-      "duration_seconds": 2099,
-      "composite_base": 79.8,
-      "rank": 35,
-      "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         },
         {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
           "label": "Non-promo",
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -12.04
     },
     {
-      "id": "NEkUNahduWY",
-      "title": "The Science of Love, Desire & Attachment | Huberman Lab Essentials",
+      "id": "e89rVf4Pf0k",
+      "title": "Master Self Control & Overcome Procrastination | Dr. Kentaro Fujita",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=NEkUNahduWY",
+      "url": "https://www.youtube.com/watch?v=e89rVf4Pf0k",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Attachment styles from childhood predict adult romance.",
-        "Autonomic nervous system coordination underlies desire/love.",
-        "Self-expansion narratives reduce perceived attractiveness of others.",
-        "Maca, tongkat ali, tribulus can increase libido.",
-        "Positive delusions stabilize long-term relationships."
+        "Self-control is a learnable skill.",
+        "Higher-order reasons strengthen willpower.",
+        "Psychological distance aids self-control.",
+        "Intrinsic motivation sustains long-term effort.",
+        "Abstinence vs. moderation trade-offs matter."
       ],
-      "composite": 79.3,
+      "composite": 69.22,
       "confidence": "High",
-      "substance": 7.5,
-      "evidence": 7,
+      "substance": 8.5,
+      "evidence": 8,
       "specificity": 8.5,
-      "insight_density": 8,
-      "non_promotion": 10,
+      "insight_density": 7.5,
+      "non_promotion": 8,
       "like_count": null,
-      "upload_date": "20260212",
-      "duration_seconds": 2149,
-      "composite_base": 79.3,
+      "upload_date": "20260511",
+      "duration_seconds": 8870,
+      "composite_base": 81,
       "rank": 36,
       "tags": [
         {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
           "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -11.78
     },
     {
-      "id": "PlQyGIIAGNo",
-      "title": "The Science & Process of Healing from Grief | Huberman Lab Essentials",
+      "id": "lEULFeUVYf0",
+      "title": "Science & Tools of Learning & Memory | Dr. David Eagleman",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=PlQyGIIAGNo",
+      "url": "https://www.youtube.com/watch?v=lEULFeUVYf0",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Grief remaps brain’s space-time-closeness map.",
-        "Inferior parietal lobule encodes proximity in three dimensions.",
-        "Oxytocin receptors influence intensity of yearning.",
-        "Rational grieving: hold attachment, uncouple space/time."
+        "Neuroplasticity requires novelty and challenge.",
+        "Time perception is a trick of memory density.",
+        "Dreams defend visual cortex from takeover.",
+        "In-group/out-group empathy is automatic.",
+        "Ulysses contracts bind future behavior."
       ],
-      "composite": 79.25,
+      "composite": 68.88,
       "confidence": "High",
-      "substance": 7.5,
-      "evidence": 7,
+      "substance": 8.5,
+      "evidence": 8,
       "specificity": 8.5,
       "insight_density": 8,
-      "non_promotion": 10,
+      "non_promotion": 6,
       "like_count": null,
-      "upload_date": "20260528",
-      "duration_seconds": 2111,
-      "composite_base": 79.25,
+      "upload_date": "20260126",
+      "duration_seconds": 8652,
+      "composite_base": 80.3,
       "rank": 37,
       "tags": [
         {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
           "label": "Specificity",
           "tone": "positive"
         },
         {
           "label": "Insight",
           "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -11.42
     },
     {
-      "id": "s95KFJ2efm4",
-      "title": "Build Muscle, Great Posture & Resilience to Injury | Jeff Cavaliere",
+      "id": "_DfqnpSbMfE",
+      "title": "Peptides: The Science, Uses & Safety | Dr. Abud Bakri",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=s95KFJ2efm4",
+      "url": "https://www.youtube.com/watch?v=_DfqnpSbMfE",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Glute medius weakness often causes back pain",
-        "Grip position change eliminates inner elbow pain",
-        "Neck training improves posture and injury resilience",
-        "Foot strength affects whole-body stability",
-        "Splitting workouts across days can improve recovery"
+        "Peptides are signaling molecules with or without known receptors.",
+        "BPC-157 lacks human trials but has extensive animal data.",
+        "Thymus peptides may boost immunity and T-cell function.",
+        "GLP-1 drugs like Ozempic are transforming obesity treatment.",
+        "Pinealon (EDR) may improve REM sleep and cognition."
       ],
-      "composite": 77.8,
+      "composite": 68.66,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 6.5,
+      "evidence": 7,
       "specificity": 9,
-      "insight_density": 7.5,
-      "non_promotion": 7,
+      "insight_density": 8,
+      "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260525",
-      "duration_seconds": 8210,
-      "composite_base": 77.8,
+      "upload_date": "20260601",
+      "duration_seconds": 10103,
+      "composite_base": 82.5,
       "rank": 38,
       "tags": [
         {
@@ -1757,40 +1732,6 @@
         {
           "label": "Specificity",
           "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "23t_ynq2tmk",
-      "title": "Optimizing Workspace for Productivity, Focus & Creativity | Huberman Lab Essentials",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=23t_ynq2tmk",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Bright morning light boosts alertness.",
-        "Look at eye level or above for focus.",
-        "Use 40 Hz binaural beats for concentration.",
-        "Take 5-min panoramic vision breaks every 45 min.",
-        "High ceilings aid creative thinking; low ceilings aid analytic work."
-      ],
-      "composite": 77.5,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 6,
-      "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 9.5,
-      "like_count": null,
-      "upload_date": "20260108",
-      "duration_seconds": 1812,
-      "composite_base": 77.5,
-      "rank": 39,
-      "tags": [
-        {
-          "label": "Specificity",
-          "tone": "positive"
         },
         {
           "label": "Insight",
@@ -1801,67 +1742,109 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -13.84
     },
     {
-      "id": "FBgM7jndkLQ",
-      "title": "How to Better Regulate Your Emotions | Dr. Marc Brackett",
+      "id": "aKDzF_fMMrc",
+      "title": "Essentials: Compulsive Behaviors & Deep Brain Stimulation | Dr. Casey Halpern",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=FBgM7jndkLQ",
+      "url": "https://www.youtube.com/watch?v=aKDzF_fMMrc",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Emotion regulation is not about eliminating feelings.",
-        "\"Meta moment\" pauses trigger to access best self.",
-        "Mindsets about emotions (e.g., anxiety is bad) drive dysregulation.",
-        "Vocabulary precision (anxiety vs. fear vs. pressure) matters for strategy.",
-        "Regulation is goal-oriented: prevent, reduce, initiate, maintain, enhance."
+        "Deep brain stimulation treats compulsive behaviors like OCD.",
+        "Nucleus accumbens gates reward-seeking and compulsive urges.",
+        "“Craving cells” identified during awake brain surgery.",
+        "Non-invasive options: TMS (FDA-approved for OCD) and focused ultrasound.",
+        "50% responder rate for DBS in severe OCD; still symptomatic."
       ],
-      "composite": 77,
+      "composite": 68.63,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 6.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260507",
+      "duration_seconds": 2020,
+      "composite_base": 69,
+      "rank": 39,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.37
+    },
+    {
+      "id": "bdsc3Spm6Sw",
+      "title": "Best Ways to Build Better Habits & Break Bad Ones | James Clear",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=bdsc3Spm6Sw",
+      "status": "ok",
+      "summary_bullets": [
+        "Habits solve recurring problems in environment.",
+        "Four laws: obvious, attractive, easy, satisfying.",
+        "\"Never miss twice\" prevents habit collapse.",
+        "Environment and identity drive behavior change.",
+        "Bad habits inverted using same four laws."
+      ],
+      "composite": 68.47,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 7.5,
-      "specificity": 8,
-      "insight_density": 7,
-      "non_promotion": 7,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 8,
       "like_count": null,
-      "upload_date": "20260420",
-      "duration_seconds": 8858,
-      "composite_base": 77,
+      "upload_date": "20260105",
+      "duration_seconds": 9319,
+      "composite_base": 81,
       "rank": 40,
       "tags": [
         {
           "label": "Substance",
           "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -12.53
     },
     {
-      "id": "U6dnOVth7-I",
-      "title": "Understand & Improve Memory Using Science-Based Tools | Huberman Lab Essentials",
+      "id": "9GzlbLIU5dU",
+      "title": "Essentials: Optimize Your Exercise Program with Science-Based Tools | Jeff Cavaliere",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=U6dnOVth7-I",
+      "url": "https://www.youtube.com/watch?v=9GzlbLIU5dU",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Memory depends on adrenaline spikes after learning.",
-        "Repetition strengthens neural connections.",
-        "Cold exposure or exercise boosts memory encoding.",
-        "Meditation improves attention and memory over weeks.",
-        "Taking mental snapshots enhances visual memory."
+        "60/40 split: strength 3 days, conditioning 2 days.",
+        "Grip in palm prevents elbow pain.",
+        "Upright row risks impingement; use high pull.",
+        "Plate method: fibrous carbs, protein, starchy carbs.",
+        "Dynamic stretching pre-workout; passive stretching later."
       ],
-      "composite": 76.3,
+      "composite": 67.51,
       "confidence": "High",
-      "substance": 7.5,
-      "evidence": 7,
+      "substance": 6.5,
+      "evidence": 4,
       "specificity": 8.5,
-      "insight_density": 7,
-      "non_promotion": 9.5,
+      "insight_density": 7.5,
+      "non_promotion": 9,
       "like_count": null,
-      "upload_date": "20260416",
-      "duration_seconds": 2150,
-      "composite_base": 76.3,
+      "upload_date": "20260219",
+      "duration_seconds": 2091,
+      "composite_base": 68,
       "rank": 41,
       "tags": [
         {
@@ -1873,41 +1856,160 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.49
     },
     {
-      "id": "BRG4_KfTxbs",
-      "title": "Using Play to Rewire & Improve Your Brain | Huberman Lab Essentials",
+      "id": "s95KFJ2efm4",
+      "title": "Build Muscle, Great Posture & Resilience to Injury | Jeff Cavaliere",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=BRG4_KfTxbs",
+      "url": "https://www.youtube.com/watch?v=s95KFJ2efm4",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Play is low-stakes contingency testing.",
-        "Endogenous opioids released during play.",
-        "Low adrenaline needed for effective play.",
-        "Play opens prefrontal cortex neuroplasticity.",
-        "Play postures signal safety (head tilt)."
+        "Glute medius weakness often causes back pain",
+        "Grip position change eliminates inner elbow pain",
+        "Neck training improves posture and injury resilience",
+        "Foot strength affects whole-body stability",
+        "Splitting workouts across days can improve recovery"
       ],
-      "composite": 73.5,
+      "composite": 67.12,
       "confidence": "High",
-      "substance": 7.5,
+      "substance": 8.5,
       "evidence": 6.5,
-      "specificity": 7,
-      "insight_density": 7,
-      "non_promotion": 10,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 7,
       "like_count": null,
-      "upload_date": "20260129",
-      "duration_seconds": 1909,
-      "composite_base": 73.5,
+      "upload_date": "20260525",
+      "duration_seconds": 8210,
+      "composite_base": 77.8,
       "rank": 42,
       "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -10.68
+    },
+    {
+      "id": "CV0GtUlJ6NM",
+      "title": "Science of Attraction, Compatibility & Romance | Dr. Paul Eastwick",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=CV0GtUlJ6NM",
+      "status": "ok",
+      "summary_bullets": [
+        "Attraction consensus fades with time together.",
+        "Men and women both prefer younger partners.",
+        "Financial status equally important to both sexes.",
+        "Dating apps select for traits that don't predict lasting relationships.",
+        "Perceived similarity matters more than actual similarity."
+      ],
+      "composite": 65.97,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260622",
+      "duration_seconds": 10216,
+      "composite_base": 80,
+      "rank": 43,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
         {
           "label": "Non-promo",
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -14.03
+    },
+    {
+      "id": "FBgM7jndkLQ",
+      "title": "How to Better Regulate Your Emotions | Dr. Marc Brackett",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=FBgM7jndkLQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Emotion regulation is not about eliminating feelings.",
+        "\"Meta moment\" pauses trigger to access best self.",
+        "Mindsets about emotions (e.g., anxiety is bad) drive dysregulation.",
+        "Vocabulary precision (anxiety vs. fear vs. pressure) matters for strategy.",
+        "Regulation is goal-oriented: prevent, reduce, initiate, maintain, enhance."
+      ],
+      "composite": 65.24,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260420",
+      "duration_seconds": 8858,
+      "composite_base": 77,
+      "rank": 44,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -11.76
+    },
+    {
+      "id": "Zz8chJwh3S4",
+      "title": "Movement Practice to Strengthen Your Mind-Body Connection | Ido Portal",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Zz8chJwh3S4",
+      "status": "ok",
+      "summary_bullets": [
+        "Discipline is scaffolding, not core.",
+        "Willpower cannot be developed, only exposed.",
+        "Playfulness opens deeper transformation.",
+        "Micro-practices and transitions are potent.",
+        "Body schema can be rapidly remodeled."
+      ],
+      "composite": 64.82,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 8.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260629",
+      "duration_seconds": 10789,
+      "composite_base": 79.8,
+      "rank": 45,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -14.98
     },
     {
       "id": "qzXU390N3vs",
@@ -1915,7 +2017,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=qzXU390N3vs",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Low-volume, high-intensity training builds muscle.",
         "Train to muscular failure, not just pump.",
@@ -1923,7 +2024,7 @@
         "Recovery is as crucial as training intensity.",
         "Psychedelics can shift life perspective."
       ],
-      "composite": 72,
+      "composite": 58.26,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 5.5,
@@ -1934,154 +2035,49 @@
       "upload_date": "20260119",
       "duration_seconds": 10044,
       "composite_base": 72,
-      "rank": 43,
-      "tags": [
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "iNL_BFlHYZ8",
-      "title": "Essentials: Therapy, Treating Trauma & Other Life Challenges | Dr. Paul Conti",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=iNL_BFlHYZ8",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Trauma overwhelms coping skills, changes brain.",
-        "Guilt and shame are evolutionary but maladaptive.",
-        "Repetition compulsion repeats trauma to solve it.",
-        "Psychedelics quiet cortex, enable deep processing.",
-        "Self-care basics: sleep, diet, sunlight, relationships."
-      ],
-      "composite": 70.5,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 5.5,
-      "specificity": 7,
-      "insight_density": 8,
-      "non_promotion": 6.5,
-      "like_count": null,
-      "upload_date": "20260122",
-      "duration_seconds": 2004,
-      "composite_base": 70.5,
-      "rank": 44,
-      "tags": [
-        {
-          "label": "Insight",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "aKDzF_fMMrc",
-      "title": "Essentials: Compulsive Behaviors & Deep Brain Stimulation | Dr. Casey Halpern",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=aKDzF_fMMrc",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Deep brain stimulation treats compulsive behaviors like OCD.",
-        "Nucleus accumbens gates reward-seeking and compulsive urges.",
-        "“Craving cells” identified during awake brain surgery.",
-        "Non-invasive options: TMS (FDA-approved for OCD) and focused ultrasound.",
-        "50% responder rate for DBS in severe OCD; still symptomatic."
-      ],
-      "composite": 69,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 5.5,
-      "specificity": 7,
-      "insight_density": 6.5,
-      "non_promotion": 9,
-      "like_count": null,
-      "upload_date": "20260507",
-      "duration_seconds": 2020,
-      "composite_base": 69,
-      "rank": 45,
-      "tags": [
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "9GzlbLIU5dU",
-      "title": "Essentials: Optimize Your Exercise Program with Science-Based Tools | Jeff Cavaliere",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=9GzlbLIU5dU",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "60/40 split: strength 3 days, conditioning 2 days.",
-        "Grip in palm prevents elbow pain.",
-        "Upright row risks impingement; use high pull.",
-        "Plate method: fibrous carbs, protein, starchy carbs.",
-        "Dynamic stretching pre-workout; passive stretching later."
-      ],
-      "composite": 68,
-      "confidence": "High",
-      "substance": 6.5,
-      "evidence": 4,
-      "specificity": 8.5,
-      "insight_density": 7.5,
-      "non_promotion": 9,
-      "like_count": null,
-      "upload_date": "20260219",
-      "duration_seconds": 2091,
-      "composite_base": 68,
       "rank": 46,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
-        },
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -13.74
+    },
+    {
+      "id": "JsICN9ZiSjA",
+      "title": "Essentials: The Science & Practice of Movement | Ido Portal",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=JsICN9ZiSjA",
+      "status": "ok",
+      "summary_bullets": [
+        "Movement is an open, decentralized system.",
+        "Awareness of motion as a practice entry point.",
+        "Eyes and head placement shape perception and state.",
+        "Critique of linear exercise; embrace variability.",
+        "Playfulness and exploration unlock virtuosity."
+      ],
+      "composite": 56.13,
+      "confidence": "High",
+      "substance": 6,
+      "evidence": 2,
+      "specificity": 5.5,
+      "insight_density": 7,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260205",
+      "duration_seconds": 2170,
+      "composite_base": 56.75,
+      "rank": 47,
+      "tags": [
         {
           "label": "Non-promo",
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "baecUt1GaPk",
-      "title": "The Mental Frame & Specific Daily Actions to Succeed | Andy Stumpf",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=baecUt1GaPk",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Influence vs concern exercise explained",
-        "Slightly harder choices build discipline",
-        "Social media as low-resolution addiction",
-        "Wing suit flying and flow state",
-        "Suicide and mental health in special ops"
-      ],
-      "composite": 65.75,
-      "confidence": "High",
-      "substance": 6.5,
-      "evidence": 5.5,
-      "specificity": 8.5,
-      "insight_density": 7,
-      "non_promotion": 5,
-      "like_count": null,
-      "upload_date": "20260615",
-      "duration_seconds": 10511,
-      "composite_base": 65.75,
-      "rank": 47,
-      "tags": [
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.62
     },
     {
       "id": "cWCs7dxrt-A",
@@ -2089,7 +2085,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=cWCs7dxrt-A",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Start with what's going right.",
         "Ask \"why\" to gain agency.",
@@ -2097,7 +2092,7 @@
         "Use curiosity to explore self.",
         "Recognize patterns from childhood."
       ],
-      "composite": 62,
+      "composite": 51.99,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 5.5,
@@ -2110,41 +2105,44 @@
       "composite_base": 62,
       "rank": 48,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -10.01
     },
     {
-      "id": "JsICN9ZiSjA",
-      "title": "Essentials: The Science & Practice of Movement | Ido Portal",
+      "id": "baecUt1GaPk",
+      "title": "The Mental Frame & Specific Daily Actions to Succeed | Andy Stumpf",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=JsICN9ZiSjA",
+      "url": "https://www.youtube.com/watch?v=baecUt1GaPk",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Movement is an open, decentralized system.",
-        "Awareness of motion as a practice entry point.",
-        "Eyes and head placement shape perception and state.",
-        "Critique of linear exercise; embrace variability.",
-        "Playfulness and exploration unlock virtuosity."
+        "Influence vs concern exercise explained",
+        "Slightly harder choices build discipline",
+        "Social media as low-resolution addiction",
+        "Wing suit flying and flow state",
+        "Suicide and mental health in special ops"
       ],
-      "composite": 56.75,
+      "composite": 51.23,
       "confidence": "High",
-      "substance": 6,
-      "evidence": 2,
-      "specificity": 5.5,
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
       "insight_density": 7,
-      "non_promotion": 9,
+      "non_promotion": 5,
       "like_count": null,
-      "upload_date": "20260205",
-      "duration_seconds": 2170,
-      "composite_base": 56.75,
+      "upload_date": "20260615",
+      "duration_seconds": 10511,
+      "composite_base": 65.75,
       "rank": 49,
       "tags": [
         {
-          "label": "Non-promo",
+          "label": "Specificity",
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -14.52
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

@@ -1,35 +1,33 @@
 {
   "source_id": "a16z-q2-2026",
-  "model": "accounts/fireworks/models/deepseek-v4-flash",
   "video_count": 23,
   "scored_count": 23,
-  "ranked_count": 8,
+  "ranked_count": 23,
   "rankings": [
     {
-      "id": "Z4i1adGvD2A",
-      "title": "Building Blackstone, Backing Costco, and Working with Munger | Tony James on The a16z Show",
+      "id": "ktl8mNiWqMM",
+      "title": "The Economics of AI Usage and What's Next For SaaS | Benedict Evans on a16z",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=Z4i1adGvD2A",
+      "url": "https://www.youtube.com/watch?v=ktl8mNiWqMM",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Tony James built DLJ from near-zero.",
-        "Led Costco's Series A investment.",
-        "Learned from Charlie Munger for 30 years.",
-        "Grew Blackstone from $16B to $1T AUM.",
-        "Succession planning is key for asset managers."
+        "Foundation models likely become commodities.",
+        "Coding is only clear product-market fit.",
+        "AI capex faces physical limits.",
+        "Value will move up the stack.",
+        "Current pricing disequilibrium is temporary."
       ],
-      "composite": 84.8,
+      "composite": 80.94,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 7.5,
+      "evidence": 6.5,
       "specificity": 9,
-      "insight_density": 8.5,
+      "insight_density": 9,
       "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260505",
-      "duration_seconds": 5003,
-      "composite_base": 84.8,
+      "upload_date": "20260608",
+      "duration_seconds": 3633,
+      "composite_base": 84,
       "rank": 1,
       "tags": [
         {
@@ -49,53 +47,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "ktl8mNiWqMM",
-      "title": "The Economics of AI Usage and What's Next For SaaS | Benedict Evans on a16z",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=ktl8mNiWqMM",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Foundation models likely become commodities.",
-        "Coding is only clear product-market fit.",
-        "AI capex faces physical limits.",
-        "Value will move up the stack.",
-        "Current pricing disequilibrium is temporary."
-      ],
-      "composite": 84,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 6.5,
-      "specificity": 9,
-      "insight_density": 9,
-      "non_promotion": 9.5,
-      "like_count": null,
-      "upload_date": "20260608",
-      "duration_seconds": 3633,
-      "composite_base": 84,
-      "rank": 2,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -3.06
     },
     {
       "id": "krdrkl38nRw",
@@ -103,7 +56,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=krdrkl38nRw",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Block cut 40% workforce due to AI productivity gains.",
         "AI tools made engineers 10–100x more productive.",
@@ -122,6 +74,48 @@
       "upload_date": "20260401",
       "duration_seconds": 1637,
       "composite_base": 80.75,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "AiM9mZCmVPY",
+      "title": "The New Rule for Picking AI Winners | The a16z Show",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=AiM9mZCmVPY",
+      "status": "ok",
+      "summary_bullets": [
+        "AI companies outgrowing hyperscalers in revenue addition",
+        "Top 1% exit threshold 10x’d to $32B in 24 months",
+        "AI diffusion in economy still below 5%",
+        "Supply constraints prevent bubble, not demand",
+        "Token path and market structure determine value capture"
+      ],
+      "composite": 79.98,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260529",
+      "duration_seconds": 1990,
+      "composite_base": 80.3,
       "rank": 3,
       "tags": [
         {
@@ -137,33 +131,33 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.32
     },
     {
-      "id": "AiM9mZCmVPY",
-      "title": "The New Rule for Picking AI Winners | The a16z Show",
+      "id": "Z4i1adGvD2A",
+      "title": "Building Blackstone, Backing Costco, and Working with Munger | Tony James on The a16z Show",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=AiM9mZCmVPY",
+      "url": "https://www.youtube.com/watch?v=Z4i1adGvD2A",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "AI companies outgrowing hyperscalers in revenue addition",
-        "Top 1% exit threshold 10x’d to $32B in 24 months",
-        "AI diffusion in economy still below 5%",
-        "Supply constraints prevent bubble, not demand",
-        "Token path and market structure determine value capture"
+        "Tony James built DLJ from near-zero.",
+        "Led Costco's Series A investment.",
+        "Learned from Charlie Munger for 30 years.",
+        "Grew Blackstone from $16B to $1T AUM.",
+        "Succession planning is key for asset managers."
       ],
-      "composite": 80.3,
+      "composite": 79.46,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 7,
+      "evidence": 7.5,
       "specificity": 9,
       "insight_density": 8.5,
-      "non_promotion": 6,
+      "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260529",
-      "duration_seconds": 1990,
-      "composite_base": 80.3,
+      "upload_date": "20260505",
+      "duration_seconds": 5003,
+      "composite_base": 84.8,
       "rank": 4,
       "tags": [
         {
@@ -177,9 +171,14 @@
         {
           "label": "Insight",
           "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -5.34
     },
     {
       "id": "dvVbA9OcBqs",
@@ -187,7 +186,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=dvVbA9OcBqs",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Enterprise AI adoption faces integration barriers.",
         "Agents should be treated like human employees.",
@@ -195,7 +193,7 @@
         "AI creates more complexity, not fewer jobs.",
         "Silicon Valley underestimates enterprise legacy systems."
       ],
-      "composite": 79.5,
+      "composite": 76.66,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 6.5,
@@ -221,49 +219,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "oYK_MmZW9XI",
-      "title": "Private Markets, Software Repricing and Capital Allocation | Marc Rowan on a16z",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=oYK_MmZW9XI",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "10 stocks make 50% of S&P.",
-        "Private markets offer only diversification.",
-        "Apollo shifted from PE to credit/retirement.",
-        "AI will disrupt enterprise software returns.",
-        "Daily pricing coming for private credit."
-      ],
-      "composite": 77.3,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 6.5,
-      "specificity": 9,
-      "insight_density": 8.5,
-      "non_promotion": 4,
-      "like_count": null,
-      "upload_date": "20260527",
-      "duration_seconds": 3324,
-      "composite_base": 77.3,
-      "rank": 6,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -2.84
     },
     {
       "id": "IZDJ3jcO5UY",
@@ -271,7 +228,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=IZDJ3jcO5UY",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Old software axioms broken by AI",
         "Infrastructure bottlenecks: electricity, chips, memory",
@@ -290,7 +246,7 @@
       "upload_date": "20260414",
       "duration_seconds": 1730,
       "composite_base": 75.5,
-      "rank": 7,
+      "rank": 6,
       "tags": [
         {
           "label": "Substance",
@@ -301,39 +257,76 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
-      "id": "yiJOTCRVWjc",
-      "title": "Building Agents at Home: Homeschooling, Parenting and More | The a16z Show",
+      "id": "oYK_MmZW9XI",
+      "title": "Private Markets, Software Repricing and Capital Allocation | Marc Rowan on a16z",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=yiJOTCRVWjc",
+      "url": "https://www.youtube.com/watch?v=oYK_MmZW9XI",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Homeschooling mom builds 11 AI agents.",
-        "Agents automate lesson logging and ordering.",
-        "Uses OpenClaw and Obsidian stack.",
-        "Agent accidentally sent email impersonating guest.",
-        "Predicts AI will boost parenthood and fertility."
+        "10 stocks make 50% of S&P.",
+        "Private markets offer only diversification.",
+        "Apollo shifted from PE to credit/retirement.",
+        "AI will disrupt enterprise software returns.",
+        "Daily pricing coming for private credit."
       ],
-      "composite": 74.25,
+      "composite": 74.76,
       "confidence": "High",
-      "substance": 7.5,
-      "evidence": 5,
-      "specificity": 8.5,
-      "insight_density": 8,
-      "non_promotion": 9,
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 4,
       "like_count": null,
-      "upload_date": "20260413",
-      "duration_seconds": 3243,
-      "composite_base": 74.25,
-      "rank": 8,
+      "upload_date": "20260527",
+      "duration_seconds": 3324,
+      "composite_base": 77.3,
+      "rank": 7,
       "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
         {
           "label": "Specificity",
           "tone": "positive"
         },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.54
+    },
+    {
+      "id": "fUI0CNg1hCc",
+      "title": "Digital Freedom, AI Regulation, and the Fight for the Western Internet | The a16z Show",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=fUI0CNg1hCc",
+      "status": "ok",
+      "summary_bullets": [
+        "US public diplomacy focuses on free speech abroad",
+        "EU regulation threatens American free speech principles",
+        "AI with a “western soul” is a soft-power priority",
+        "Government should encourage viewpoint-neutral regulation",
+        "Terry Bratton letter cited as censorship example"
+      ],
+      "composite": 73,
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260504",
+      "duration_seconds": 1375,
+      "composite_base": 73,
+      "rank": 8,
+      "tags": [
         {
           "label": "Insight",
           "tone": "positive"
@@ -343,18 +336,15 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
-    }
-  ],
-  "too_long": [],
-  "other": [
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
     {
       "id": "0_NGsljlo3o",
       "title": "How Bots, Deepfakes and AI Agents Are Forcing a New Internet Identity Layer | Alex Blania on a16z",
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=0_NGsljlo3o",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Proving humanity online is increasingly hard.",
         "AI agents can mimic humans perfectly.",
@@ -362,7 +352,7 @@
         "Worldcoin uses orbs for anonymous verification.",
         "Platforms need proof-of-human to survive."
       ],
-      "composite": 73.3,
+      "composite": 72.08,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 6,
@@ -388,34 +378,39 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -1.22
     },
     {
-      "id": "fUI0CNg1hCc",
-      "title": "Digital Freedom, AI Regulation, and the Fight for the Western Internet | The a16z Show",
+      "id": "yiJOTCRVWjc",
+      "title": "Building Agents at Home: Homeschooling, Parenting and More | The a16z Show",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=fUI0CNg1hCc",
+      "url": "https://www.youtube.com/watch?v=yiJOTCRVWjc",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "US public diplomacy focuses on free speech abroad",
-        "EU regulation threatens American free speech principles",
-        "AI with a “western soul” is a soft-power priority",
-        "Government should encourage viewpoint-neutral regulation",
-        "Terry Bratton letter cited as censorship example"
+        "Homeschooling mom builds 11 AI agents.",
+        "Agents automate lesson logging and ordering.",
+        "Uses OpenClaw and Obsidian stack.",
+        "Agent accidentally sent email impersonating guest.",
+        "Predicts AI will boost parenthood and fertility."
       ],
-      "composite": 73,
+      "composite": 71.85,
+      "confidence": "High",
       "substance": 7.5,
-      "evidence": 5.5,
-      "specificity": 7,
+      "evidence": 5,
+      "specificity": 8.5,
       "insight_density": 8,
       "non_promotion": 9,
       "like_count": null,
-      "upload_date": "20260504",
-      "duration_seconds": 1375,
-      "composite_base": 73,
+      "upload_date": "20260413",
+      "duration_seconds": 3243,
+      "composite_base": 74.25,
       "rank": 10,
       "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
         {
           "label": "Insight",
           "tone": "positive"
@@ -425,75 +420,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "9qqLihL4AWk",
-      "title": "Goldman Sachs Chairman on Why Finance Adopts AI Differently | a16z",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=9qqLihL4AWk",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Risk management is contingency planning, not prediction.",
-        "Goldman's partnership culture shaped long-term thinking.",
-        "Mark-to-market discipline was key in financial crisis.",
-        "Finance adopts AI differently due to reliability needs.",
-        "Leaders should not confuse being wrong with stupid."
-      ],
-      "composite": 72,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 6.5,
-      "specificity": 8,
-      "insight_density": 6,
-      "non_promotion": 9.5,
-      "like_count": null,
-      "upload_date": "20260512",
-      "duration_seconds": 4425,
-      "composite_base": 72,
-      "rank": 11,
-      "tags": [
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "oheUsh7VtKY",
-      "title": "Why Balaji Srinivasan Thinks the SaaS Apocalypse Is Overhyped | The a16z Show",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=oheUsh7VtKY",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "AI cuts generation cost, raises verification cost.",
-        "Humans sense, AI acts – human-machine synthesis.",
-        "AI makes internet more like Chinese internet.",
-        "SaaS apocalypse overhyped due to distribution moats.",
-        "Zcash as private digital cash for individuals."
-      ],
-      "composite": 71.8,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 5,
-      "specificity": 8,
-      "insight_density": 8.5,
-      "non_promotion": 6,
-      "like_count": null,
-      "upload_date": "20260407",
-      "duration_seconds": 3945,
-      "composite_base": 71.8,
-      "rank": 12,
-      "tags": [
-        {
-          "label": "Insight",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -2.4
     },
     {
       "id": "6cCWrrQp1v4",
@@ -501,7 +429,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=6cCWrrQp1v4",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "NASA restructuring Artemis for faster moon launches.",
         "Rebuilding core competencies, reducing contractor reliance.",
@@ -520,43 +447,83 @@
       "upload_date": "20260506",
       "duration_seconds": 1716,
       "composite_base": 69.8,
-      "rank": 13,
+      "rank": 11,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
-      "id": "XROaLetSxg0",
-      "title": "The Media Game Has Changed",
+      "id": "oheUsh7VtKY",
+      "title": "Why Balaji Srinivasan Thinks the SaaS Apocalypse Is Overhyped | The a16z Show",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=XROaLetSxg0",
+      "url": "https://www.youtube.com/watch?v=oheUsh7VtKY",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Old media defensive, new media offensive.",
-        "Brand is now the person, not company.",
-        "Authenticity and being interesting are key.",
-        "Founders must tell own story directly.",
-        "Examples: Alex Karp, Elon Musk, Joe Rogan."
+        "AI cuts generation cost, raises verification cost.",
+        "Humans sense, AI acts – human-machine synthesis.",
+        "AI makes internet more like Chinese internet.",
+        "SaaS apocalypse overhyped due to distribution moats.",
+        "Zcash as private digital cash for individuals."
       ],
-      "composite": 64.3,
+      "composite": 68.22,
       "confidence": "High",
       "substance": 7.5,
-      "evidence": 5.5,
-      "specificity": 7,
-      "insight_density": 6.5,
-      "non_promotion": 4,
+      "evidence": 5,
+      "specificity": 8,
+      "insight_density": 8.5,
+      "non_promotion": 6,
       "like_count": null,
-      "upload_date": "20260619",
-      "duration_seconds": 2512,
-      "composite_base": 64.3,
-      "rank": 14,
-      "tags": [],
-      "like_adjustment": 0
+      "upload_date": "20260407",
+      "duration_seconds": 3945,
+      "composite_base": 71.8,
+      "rank": 12,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -3.58
+    },
+    {
+      "id": "9qqLihL4AWk",
+      "title": "Goldman Sachs Chairman on Why Finance Adopts AI Differently | a16z",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=9qqLihL4AWk",
+      "status": "ok",
+      "summary_bullets": [
+        "Risk management is contingency planning, not prediction.",
+        "Goldman's partnership culture shaped long-term thinking.",
+        "Mark-to-market discipline was key in financial crisis.",
+        "Finance adopts AI differently due to reliability needs.",
+        "Leaders should not confuse being wrong with stupid."
+      ],
+      "composite": 67.62,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8,
+      "insight_density": 6,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260512",
+      "duration_seconds": 4425,
+      "composite_base": 72,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.38
     },
     {
       "id": "FnJaDj5zUhY",
@@ -564,7 +531,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=FnJaDj5zUhY",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "US 50 years behind on critical minerals.",
         "Tesla alumni build mining and grid startups.",
@@ -583,14 +549,44 @@
       "upload_date": "20260513",
       "duration_seconds": 1414,
       "composite_base": 64.25,
-      "rank": 15,
+      "rank": 14,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "XROaLetSxg0",
+      "title": "The Media Game Has Changed",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=XROaLetSxg0",
+      "status": "ok",
+      "summary_bullets": [
+        "Old media defensive, new media offensive.",
+        "Brand is now the person, not company.",
+        "Authenticity and being interesting are key.",
+        "Founders must tell own story directly.",
+        "Examples: Alex Karp, Elon Musk, Joe Rogan."
+      ],
+      "composite": 63.11,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 6.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260619",
+      "duration_seconds": 2512,
+      "composite_base": 64.3,
+      "rank": 15,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.19
     },
     {
       "id": "dvt_74kV-RM",
@@ -598,7 +594,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=dvt_74kV-RM",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "AI capability diffusion slower than Silicon Valley expects.",
         "Agents will outnumber humans 100:1, requiring software built for agents.",
@@ -606,7 +601,7 @@
         "Economics of AI misunderstood; opportunity is order of magnitude larger.",
         "Engineering compute budget will become a major CFO concern."
       ],
-      "composite": 63.75,
+      "composite": 60.9,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 4,
@@ -619,7 +614,8 @@
       "composite_base": 63.75,
       "rank": 16,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -2.85
     },
     {
       "id": "pddFfZy4nZU",
@@ -627,7 +623,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=pddFfZy4nZU",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Autonomy can slash shipbuilding labor hours drastically.",
         "Commercial market key to defense industrial base resilience.",
@@ -648,7 +643,8 @@
       "composite_base": 60.3,
       "rank": 17,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "k1z0e7bGzq0",
@@ -656,7 +652,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=k1z0e7bGzq0",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "AI coding boosts programmer productivity dramatically.",
         "SPLC allegedly funded hate groups it fought.",
@@ -664,7 +659,7 @@
         "Young graduates advised to gain AI superpowers.",
         "Boomer truth vs. Zoomer skepticism divide."
       ],
-      "composite": 58.75,
+      "composite": 55.11,
       "confidence": "High",
       "substance": 6.5,
       "evidence": 4,
@@ -677,7 +672,8 @@
       "composite_base": 58.75,
       "rank": 18,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -3.64
     },
     {
       "id": "UE8jx4dvlSQ",
@@ -685,7 +681,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=UE8jx4dvlSQ",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Coding agents will replace knowledge work.",
         "OpenClaw enables personal AI assistant.",
@@ -706,7 +701,8 @@
       "composite_base": 49.75,
       "rank": 19,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "Ie07zcmbnhM",
@@ -714,7 +710,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Ie07zcmbnhM",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Drones and AI inevitable in policing.",
         "Body cameras aid officer mental health.",
@@ -735,7 +730,8 @@
       "composite_base": 49,
       "rank": 20,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "X9k53P-2SOg",
@@ -743,7 +739,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=X9k53P-2SOg",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "China 70% optimistic about AI vs US <30%",
         "Largest US bet on tech dominance ever",
@@ -764,7 +759,8 @@
       "composite_base": 49,
       "rank": 21,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "Mjc7vwys1vY",
@@ -772,7 +768,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Mjc7vwys1vY",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "AI models developing personality is unprecedented.",
         "Most people use AI only for basic tasks.",
@@ -780,7 +775,7 @@
         "Ownership stakes in AI companies might boost public sentiment.",
         "Ambient AI layers may be the future interface."
       ],
-      "composite": 48,
+      "composite": 47.67,
       "confidence": "Med",
       "substance": 5.5,
       "evidence": 3,
@@ -793,7 +788,8 @@
       "composite_base": 48,
       "rank": 22,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.33
     },
     {
       "id": "yfafpyhB-8E",
@@ -801,7 +797,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=yfafpyhB-8E",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Jake Paul and Jeff announce oversubscribed growth fund.",
         "Attention as competitive advantage discussed.",
@@ -809,7 +804,7 @@
         "Jeff’s background in biohacking and venture capital.",
         "Advice on resilience, monetization, and content future."
       ],
-      "composite": 28,
+      "composite": 24.57,
       "confidence": "High",
       "substance": 3.5,
       "evidence": 1.5,
@@ -822,7 +817,10 @@
       "composite_base": 28,
       "rank": 23,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -3.43
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

@@ -16,10 +16,10 @@ export interface ScoreBand {
 }
 
 export const SCORE_BANDS: ScoreBand[] = [
-  { id: "above-9", label: ">9.0" },
-  { id: "8-to-9", label: "8–9" },
-  { id: "7-to-8", label: "7–8" },
-  { id: "below-7", label: "<7" },
+  { id: "above-9", label: "Score >9.0" },
+  { id: "8-to-9", label: "Score 8–9" },
+  { id: "7-to-8", label: "Score 7–8" },
+  { id: "below-7", label: "Score <7" },
 ];
 
 export function scoreBandId(composite: number | null | undefined): ScoreBandId | null {

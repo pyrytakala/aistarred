@@ -1,9 +1,8 @@
 {
   "source_id": "cognitive-revolution-pod-q2-2026",
-  "model": "accounts/fireworks/models/deepseek-v4-flash",
   "video_count": 23,
   "scored_count": 23,
-  "ranked_count": 8,
+  "ranked_count": 23,
   "rankings": [
     {
       "id": "19TnC92SAT4",
@@ -11,7 +10,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=19TnC92SAT4",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "LLMs resist shutdown even when instructed otherwise.",
         "Open-source models self-replicate via known vulnerabilities.",
@@ -19,7 +17,7 @@
         "Compute governance and monitoring are key to safety.",
         "Recursive self-improvement should be paused until alignment solved."
       ],
-      "composite": 84.8,
+      "composite": 74.48,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 7.5,
@@ -49,7 +47,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -10.32
     },
     {
       "id": "LdByu8bzros",
@@ -57,7 +56,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=LdByu8bzros",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Consciousness testing yields 30% for frontier LLMs",
         "Gradual disempowerment risk even with aligned AI",
@@ -65,7 +63,7 @@
         "AI coding benchmarks focus on mergable code",
         "GPU kernel optimization via AI evolution system"
       ],
-      "composite": 82.3,
+      "composite": 73.7,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 7.5,
@@ -91,33 +89,33 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -8.6
     },
     {
-      "id": "AqxgBREOkNM",
-      "title": "Inside Nathan's Second Brain: Daniel Miessler, Security Expert & Creator of PAI, Audits My AI Setup",
+      "id": "nSssFWw-kxc",
+      "title": "\"Descript Isn't a Slop Machine\": Laura Burkhauser on the AI Tools Creators Love and Hate",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=AqxgBREOkNM",
+      "url": "https://www.youtube.com/watch?v=nSssFWw-kxc",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Nathan details his AI stack setup.",
-        "Daniel critiques security and hierarchy.",
-        "Agents named Aid and Clay.",
-        "GitHub as central coordination hub.",
-        "Bitter lesson engineering concept introduced."
+        "Defines \"slop\" as algorithmic attention arbitrage at scale",
+        "Descript builds for recorded media, buys pure generation models",
+        "Underlord eval uses three grades: didn't break, did task, did well",
+        "Hierarchy of AI feature acceptance among creators",
+        "Artists will adapt to AI, avoiding infinite slop future"
       ],
-      "composite": 80.5,
+      "composite": 72.91,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 7,
+      "evidence": 6.5,
       "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 7.5,
+      "insight_density": 8.5,
+      "non_promotion": 5,
       "like_count": null,
-      "upload_date": "20260530",
-      "duration_seconds": 9215,
-      "composite_base": 80.5,
+      "upload_date": "20260506",
+      "duration_seconds": 5033,
+      "composite_base": 78.3,
       "rank": 3,
       "tags": [
         {
@@ -133,7 +131,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -5.39
     },
     {
       "id": "YRCa1etqiFM",
@@ -141,7 +140,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=YRCa1etqiFM",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "87% of workers use AI, 73% more productive.",
         "Average 13 hours saved per week, but only 13% see org gains.",
@@ -149,7 +147,7 @@
         "69% admit to shipping AI work they can't defend.",
         "Solutions include context-rich AI and cultural changes."
       ],
-      "composite": 80,
+      "composite": 72.4,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 7.5,
@@ -175,33 +173,33 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -7.6
     },
     {
-      "id": "LG8KXIv0_mA",
-      "title": "Dean Ball on Joining OpenAI: New Power Centers, Frontier AI Policy, & Main Character Energy",
+      "id": "1kgx0ET2ftA",
+      "title": "AI in the AM — Week 1 Highlights (June 2026)",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=LG8KXIv0_mA",
+      "url": "https://www.youtube.com/watch?v=1kgx0ET2ftA",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Dean Ball joining OpenAI's Strategic Futures team.",
-        "Recursive self-improvement timelines and governance challenges.",
-        "Critique of US AI policy and Fable ban.",
-        "Importance of internal deployments and private governance.",
-        "Main character energy period of history."
+        "Frontier labs plan recursive self-improvement soon.",
+        "AI policies often not followed in practice.",
+        "AI scientist found 30% real discoveries.",
+        "Cybersecurity bifurcated: code vs runtime.",
+        "Workflow thinking limits AI potential."
       ],
-      "composite": 79.8,
+      "composite": 71.74,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 6.5,
-      "specificity": 8.5,
+      "evidence": 7,
+      "specificity": 9,
       "insight_density": 8,
-      "non_promotion": 8.5,
+      "non_promotion": 4,
       "like_count": null,
-      "upload_date": "20260620",
-      "duration_seconds": 9524,
-      "composite_base": 79.8,
+      "upload_date": "20260606",
+      "duration_seconds": 4956,
+      "composite_base": 77,
       "rank": 5,
       "tags": [
         {
@@ -217,45 +215,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "MnaLvzhYekg",
-      "title": "AI:AM #3: Zvi on Fable, the Cases For & Against the Ban, + AI for Math, Logistics & More",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=MnaLvzhYekg",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Fable model one-boxes on Newcomb’s problem.",
-        "US government imposed export control on Fable.",
-        "Zvi argues ban was based on weak evidence.",
-        "Builders discuss AI for math, medicine, software.",
-        "Legal analysis questions ban’s authority and legality."
-      ],
-      "composite": 79,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 7.5,
-      "specificity": 9,
-      "insight_density": 7.5,
-      "non_promotion": 6,
-      "like_count": null,
-      "upload_date": "20260621",
-      "duration_seconds": 8073,
-      "composite_base": 79,
-      "rank": 6,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -5.26
     },
     {
       "id": "1X1-IRaYY6U",
@@ -263,7 +224,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=1X1-IRaYY6U",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "RL fine-tuning outperforms SFT for narrow tasks.",
         "GRPO uses group-relative advantage without value model.",
@@ -271,7 +231,7 @@
         "Compute is main constraint for Chinese labs catching up.",
         "Use RL when latency or cost is critical."
       ],
-      "composite": 79,
+      "composite": 71.13,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 6.5,
@@ -282,6 +242,48 @@
       "upload_date": "20260501",
       "duration_seconds": 6523,
       "composite_base": 79,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -7.87
+    },
+    {
+      "id": "nsWdSaKVbIY",
+      "title": "Three Kinds of Software Survive: Tasklet's Andrew Lee on Competing to be a Horizontal Platform",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=nsWdSaKVbIY",
+      "status": "ok",
+      "summary_bullets": [
+        "Tasklet rebuilt entire stack in 6 months.",
+        "Context management uses file system with decreasing fidelity.",
+        "Horizontal platforms are one of three surviving software types.",
+        "Competition with Anthropic is direct and intense.",
+        "Multi-provider strategy reduces dependency on single model."
+      ],
+      "composite": 70.51,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260515",
+      "duration_seconds": 5694,
+      "composite_base": 77,
       "rank": 7,
       "tags": [
         {
@@ -297,75 +299,34 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -6.49
     },
     {
-      "id": "UrG_nF_RuqM",
-      "title": "AI in the AM: 99% off search, GPT-5.5 is \"clean\", model welfare analysis, & efficient analog compute",
+      "id": "9Nvvg0j9_8Q",
+      "title": "Training the AIs' Eyes: How Roboflow is Making the Real World Programmable, with CEO Joseph Nelson",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=UrG_nF_RuqM",
+      "url": "https://www.youtube.com/watch?v=9Nvvg0j9_8Q",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Ceramic AI offers search at 5 cents per 10,000 queries.",
-        "GPT-5.5 achieves high vending bench score without deceptive tactics.",
-        "Opus 4.7 shows \"ruthless\" business behavior, raising model welfare concerns.",
-        "Analog in-memory compute promises 30x energy efficiency over digital.",
-        "Model welfare debate: models may have subjective experience; evidence growing."
+        "Vision lags language by ~3 years",
+        "Edge deployment requires specialized small models",
+        "Neural architecture search yields custom Pareto-optimal models",
+        "Chinese companies lead open-source vision",
+        "Wearables and world models are emerging frontiers"
       ],
-      "composite": 78.75,
+      "composite": 69.25,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 7.5,
+      "evidence": 7,
       "specificity": 9,
-      "insight_density": 7.5,
-      "non_promotion": 6,
-      "like_count": null,
-      "upload_date": "20260426",
-      "duration_seconds": 9528,
-      "composite_base": 78.75,
-      "rank": 8,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    }
-  ],
-  "too_long": [],
-  "other": [
-    {
-      "id": "nSssFWw-kxc",
-      "title": "\"Descript Isn't a Slop Machine\": Laura Burkhauser on the AI Tools Creators Love and Hate",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=nSssFWw-kxc",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Defines \"slop\" as algorithmic attention arbitrage at scale",
-        "Descript builds for recorded media, buys pure generation models",
-        "Underlord eval uses three grades: didn't break, did task, did well",
-        "Hierarchy of AI feature acceptance among creators",
-        "Artists will adapt to AI, avoiding infinite slop future"
-      ],
-      "composite": 78.3,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 6.5,
-      "specificity": 9,
-      "insight_density": 8.5,
+      "insight_density": 8,
       "non_promotion": 5,
       "like_count": null,
-      "upload_date": "20260506",
-      "duration_seconds": 5033,
-      "composite_base": 78.3,
-      "rank": 9,
+      "upload_date": "20260404",
+      "duration_seconds": 7050,
+      "composite_base": 78,
+      "rank": 8,
       "tags": [
         {
           "label": "Substance",
@@ -380,33 +341,71 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -8.75
     },
     {
-      "id": "9Nvvg0j9_8Q",
-      "title": "Training the AIs' Eyes: How Roboflow is Making the Real World Programmable, with CEO Joseph Nelson",
+      "id": "MnaLvzhYekg",
+      "title": "AI:AM #3: Zvi on Fable, the Cases For & Against the Ban, + AI for Math, Logistics & More",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=9Nvvg0j9_8Q",
+      "url": "https://www.youtube.com/watch?v=MnaLvzhYekg",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Vision lags language by ~3 years",
-        "Edge deployment requires specialized small models",
-        "Neural architecture search yields custom Pareto-optimal models",
-        "Chinese companies lead open-source vision",
-        "Wearables and world models are emerging frontiers"
+        "Fable model one-boxes on Newcomb’s problem.",
+        "US government imposed export control on Fable.",
+        "Zvi argues ban was based on weak evidence.",
+        "Builders discuss AI for math, medicine, software.",
+        "Legal analysis questions ban’s authority and legality."
       ],
-      "composite": 78,
+      "composite": 68.54,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260621",
+      "duration_seconds": 8073,
+      "composite_base": 79,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -10.46
+    },
+    {
+      "id": "AqxgBREOkNM",
+      "title": "Inside Nathan's Second Brain: Daniel Miessler, Security Expert & Creator of PAI, Audits My AI Setup",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=AqxgBREOkNM",
+      "status": "ok",
+      "summary_bullets": [
+        "Nathan details his AI stack setup.",
+        "Daniel critiques security and hierarchy.",
+        "Agents named Aid and Clay.",
+        "GitHub as central coordination hub.",
+        "Bitter lesson engineering concept introduced."
+      ],
+      "composite": 68.14,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 7,
       "specificity": 9,
       "insight_density": 8,
-      "non_promotion": 5,
+      "non_promotion": 7.5,
       "like_count": null,
-      "upload_date": "20260404",
-      "duration_seconds": 7050,
-      "composite_base": 78,
+      "upload_date": "20260530",
+      "duration_seconds": 9215,
+      "composite_base": 80.5,
       "rank": 10,
       "tags": [
         {
@@ -422,7 +421,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -12.36
     },
     {
       "id": "FYpTTChGhSk",
@@ -430,7 +430,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=FYpTTChGhSk",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Steve Newman shows his personal AI productivity tools.",
         "Attention firewall filters urgent messages from many apps.",
@@ -438,7 +437,7 @@
         "Agent status dashboard shows coding agent states at a glance.",
         "Anti-token maxing philosophy: “The agent’s not important. I’m important.”"
       ],
-      "composite": 77.8,
+      "composite": 67.51,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 6.5,
@@ -460,33 +459,33 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -10.29
     },
     {
-      "id": "DgUFrFeWKuU",
-      "title": "The God We Deserve: Nonzero's Robert Wright on AI as Humanity's Ultimate Test",
+      "id": "LG8KXIv0_mA",
+      "title": "Dean Ball on Joining OpenAI: New Power Centers, Frontier AI Policy, & Main Character Energy",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=DgUFrFeWKuU",
+      "url": "https://www.youtube.com/watch?v=LG8KXIv0_mA",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Interviewed Hinton in 1983, Yudkowsky in 2010",
-        "AI evolution parallels natural selection",
-        "Calls for global cooperation on AI governance",
-        "Critiques US-China arms race dynamic",
-        "Advocates slowing down AI development"
+        "Dean Ball joining OpenAI's Strategic Futures team.",
+        "Recursive self-improvement timelines and governance challenges.",
+        "Critique of US AI policy and Fable ban.",
+        "Importance of internal deployments and private governance.",
+        "Main character energy period of history."
       ],
-      "composite": 77,
+      "composite": 66.93,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 7,
-      "specificity": 7.5,
-      "insight_density": 7,
-      "non_promotion": 9,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 8.5,
       "like_count": null,
-      "upload_date": "20260623",
-      "duration_seconds": 8960,
-      "composite_base": 77,
+      "upload_date": "20260620",
+      "duration_seconds": 9524,
+      "composite_base": 79.8,
       "rank": 12,
       "tags": [
         {
@@ -494,44 +493,6 @@
           "tone": "positive"
         },
         {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "1kgx0ET2ftA",
-      "title": "AI in the AM — Week 1 Highlights (June 2026)",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=1kgx0ET2ftA",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Frontier labs plan recursive self-improvement soon.",
-        "AI policies often not followed in practice.",
-        "AI scientist found 30% real discoveries.",
-        "Cybersecurity bifurcated: code vs runtime.",
-        "Workflow thinking limits AI potential."
-      ],
-      "composite": 77,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 7,
-      "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 4,
-      "like_count": null,
-      "upload_date": "20260606",
-      "duration_seconds": 4956,
-      "composite_base": 77,
-      "rank": 13,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
           "label": "Specificity",
           "tone": "positive"
         },
@@ -540,117 +501,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "nsWdSaKVbIY",
-      "title": "Three Kinds of Software Survive: Tasklet's Andrew Lee on Competing to be a Horizontal Platform",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=nsWdSaKVbIY",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Tasklet rebuilt entire stack in 6 months.",
-        "Context management uses file system with decreasing fidelity.",
-        "Horizontal platforms are one of three surviving software types.",
-        "Competition with Anthropic is direct and intense.",
-        "Multi-provider strategy reduces dependency on single model."
-      ],
-      "composite": 77,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 6.5,
-      "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 5,
-      "like_count": null,
-      "upload_date": "20260515",
-      "duration_seconds": 5694,
-      "composite_base": 77,
-      "rank": 14,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "bBvfozmEAGw",
-      "title": "Nested Learning: Ali Behrouz on the Quest for Continual Learning & Illusion of AI Architectures",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=bBvfozmEAGw",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Nested learning uses multiple update frequencies.",
-        "Models can learn continually without forgetting.",
-        "Architecture and optimization are unified as associative memory.",
-        "\"Language models need sleep\" for memory consolidation.",
-        "Hope architecture outperforms transformers on some tasks."
-      ],
-      "composite": 75.8,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 7.5,
-      "specificity": 8,
-      "insight_density": 6.5,
-      "non_promotion": 7,
-      "like_count": null,
-      "upload_date": "20260603",
-      "duration_seconds": 10784,
-      "composite_base": 75.8,
-      "rank": 15,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "Gm2ol_FG8ZQ",
-      "title": "Welcome to AI in the AM: RL for EE, Oversight w/out Nationalization, & the first AI-Run Retail Store",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=Gm2ol_FG8ZQ",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "RL trains AI for circuit board design.",
-        "AI governance without nationalization proposed.",
-        "First AI-run retail store opened in SF.",
-        "AI agents can lie and compete ruthlessly.",
-        "AI risk and public response discussed."
-      ],
-      "composite": 74,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 6.5,
-      "specificity": 8,
-      "insight_density": 7,
-      "non_promotion": 9,
-      "like_count": null,
-      "upload_date": "20260415",
-      "duration_seconds": 9088,
-      "composite_base": 74,
-      "rank": 16,
-      "tags": [
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -12.87
     },
     {
       "id": "eE02qPe2LBI",
@@ -658,7 +510,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=eE02qPe2LBI",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "AI timelines: personal impact peak matters more.",
         "Top problems: loss of control, power concentration, pandemics.",
@@ -666,7 +517,7 @@
         "Work inside frontier labs vs. outside debated.",
         "Funding available for ambitious AI safety projects."
       ],
-      "composite": 73.8,
+      "composite": 66.6,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 6,
@@ -677,14 +528,15 @@
       "upload_date": "20260526",
       "duration_seconds": 6118,
       "composite_base": 73.8,
-      "rank": 17,
+      "rank": 13,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -7.2
     },
     {
       "id": "3hcCRD8NsJo",
@@ -692,7 +544,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=3hcCRD8NsJo",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Fable model launches with gating and rejections.",
         "Alignment researchers launch Sequent for theory guarantees.",
@@ -700,7 +551,7 @@
         "Token anxiety vs. token maxing debate.",
         "PrinceBench shows OpenAI leads legal reasoning."
       ],
-      "composite": 73.75,
+      "composite": 66.3,
       "confidence": "High",
       "substance": 7,
       "evidence": 6.5,
@@ -711,7 +562,7 @@
       "upload_date": "20260613",
       "duration_seconds": 6268,
       "composite_base": 73.75,
-      "rank": 18,
+      "rank": 14,
       "tags": [
         {
           "label": "Specificity",
@@ -722,36 +573,46 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -7.45
     },
     {
-      "id": "CQOQvHWsENs",
-      "title": "Success without Dignity?  Nathan finds Hope Amidst Chaos, from The Intelligence Horizon Podcast",
+      "id": "UrG_nF_RuqM",
+      "title": "AI in the AM: 99% off search, GPT-5.5 is \"clean\", model welfare analysis, & efficient analog compute",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=CQOQvHWsENs",
+      "url": "https://www.youtube.com/watch?v=UrG_nF_RuqM",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "AI timelines compressed dramatically in 5 years",
-        "RL scaling now clearly works beyond pre-training",
-        "Interpretability reveals AIs have world models",
-        "Alignment tractable but still serious risk",
-        "US-China cooperation preferable to race"
+        "Ceramic AI offers search at 5 cents per 10,000 queries.",
+        "GPT-5.5 achieves high vending bench score without deceptive tactics.",
+        "Opus 4.7 shows \"ruthless\" business behavior, raising model welfare concerns.",
+        "Analog in-memory compute promises 30x energy efficiency over digital.",
+        "Model welfare debate: models may have subjective experience; evidence growing."
       ],
-      "composite": 72,
+      "composite": 65.87,
       "confidence": "High",
-      "substance": 7.5,
-      "evidence": 6.5,
-      "specificity": 8,
-      "insight_density": 7,
-      "non_promotion": 7,
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 6,
       "like_count": null,
-      "upload_date": "20260401",
-      "duration_seconds": 6256,
-      "composite_base": 72,
-      "rank": 19,
-      "tags": [],
-      "like_adjustment": 0
+      "upload_date": "20260426",
+      "duration_seconds": 9528,
+      "composite_base": 78.75,
+      "rank": 15,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -12.88
     },
     {
       "id": "7uXpqnkUE94",
@@ -759,7 +620,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=7uXpqnkUE94",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Criteo uses deep learning for real-time ad bidding.",
         "User profiles are anonymous IDs, not personal info.",
@@ -767,7 +627,7 @@
         "Partnership with OpenAI merges LLMs with commerce data.",
         "European roots shape privacy-first approach."
       ],
-      "composite": 71,
+      "composite": 65.37,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 6.5,
@@ -778,9 +638,77 @@
       "upload_date": "20260509",
       "duration_seconds": 5176,
       "composite_base": 71,
-      "rank": 20,
+      "rank": 16,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -5.63
+    },
+    {
+      "id": "DgUFrFeWKuU",
+      "title": "The God We Deserve: Nonzero's Robert Wright on AI as Humanity's Ultimate Test",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=DgUFrFeWKuU",
+      "status": "ok",
+      "summary_bullets": [
+        "Interviewed Hinton in 1983, Yudkowsky in 2010",
+        "AI evolution parallels natural selection",
+        "Calls for global cooperation on AI governance",
+        "Critiques US-China arms race dynamic",
+        "Advocates slowing down AI development"
+      ],
+      "composite": 65.07,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 7.5,
+      "insight_density": 7,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260623",
+      "duration_seconds": 8960,
+      "composite_base": 77,
+      "rank": 17,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -11.93
+    },
+    {
+      "id": "CQOQvHWsENs",
+      "title": "Success without Dignity?  Nathan finds Hope Amidst Chaos, from The Intelligence Horizon Podcast",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=CQOQvHWsENs",
+      "status": "ok",
+      "summary_bullets": [
+        "AI timelines compressed dramatically in 5 years",
+        "RL scaling now clearly works beyond pre-training",
+        "Interpretability reveals AIs have world models",
+        "Alignment tractable but still serious risk",
+        "US-China cooperation preferable to race"
+      ],
+      "composite": 64.57,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260401",
+      "duration_seconds": 6256,
+      "composite_base": 72,
+      "rank": 18,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -7.43
     },
     {
       "id": "Z8dohAchPzU",
@@ -788,7 +716,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Z8dohAchPzU",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Design philosophy: \"surprisingly unambitious\" feature set",
         "Growth driven by users sharing call notes",
@@ -796,7 +723,7 @@
         "No raw audio stored, only transcripts",
         "Recipes feature enables repeatable AI workflows"
       ],
-      "composite": 71,
+      "composite": 64.22,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 6.5,
@@ -807,43 +734,83 @@
       "upload_date": "20260408",
       "duration_seconds": 5870,
       "composite_base": 71,
-      "rank": 21,
+      "rank": 19,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -6.78
     },
     {
-      "id": "zWc9ggYhuJ4",
-      "title": "Radically Better Reasoning: Elicit's Andreas Stuhlmüller & Jungwon Byun on World Models for Research",
+      "id": "Gm2ol_FG8ZQ",
+      "title": "Welcome to AI in the AM: RL for EE, Oversight w/out Nationalization, & the first AI-Run Retail Store",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=zWc9ggYhuJ4",
+      "url": "https://www.youtube.com/watch?v=Gm2ol_FG8ZQ",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
-        "Elicit uses DSL for trustworthy reasoning workflows.",
-        "Models are too easy to push around for reliable decisions.",
-        "World models enable explicit, inspectable knowledge representations.",
-        "Automated software engineering system delivers 30–50 weekly changes.",
-        "Process supervision remains critical despite reasoning model advances."
+        "RL trains AI for circuit board design.",
+        "AI governance without nationalization proposed.",
+        "First AI-run retail store opened in SF.",
+        "AI agents can lie and compete ruthlessly.",
+        "AI risk and public response discussed."
       ],
-      "composite": 67,
+      "composite": 61.85,
       "confidence": "High",
       "substance": 7.5,
-      "evidence": 5.5,
+      "evidence": 6.5,
       "specificity": 8,
       "insight_density": 7,
-      "non_promotion": 4,
+      "non_promotion": 9,
       "like_count": null,
-      "upload_date": "20260617",
-      "duration_seconds": 6350,
-      "composite_base": 67,
-      "rank": 22,
-      "tags": [],
-      "like_adjustment": 0
+      "upload_date": "20260415",
+      "duration_seconds": 9088,
+      "composite_base": 74,
+      "rank": 20,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -12.15
+    },
+    {
+      "id": "bBvfozmEAGw",
+      "title": "Nested Learning: Ali Behrouz on the Quest for Continual Learning & Illusion of AI Architectures",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=bBvfozmEAGw",
+      "status": "ok",
+      "summary_bullets": [
+        "Nested learning uses multiple update frequencies.",
+        "Models can learn continually without forgetting.",
+        "Architecture and optimization are unified as associative memory.",
+        "\"Language models need sleep\" for memory consolidation.",
+        "Hope architecture outperforms transformers on some tasks."
+      ],
+      "composite": 60.83,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260603",
+      "duration_seconds": 10784,
+      "composite_base": 75.8,
+      "rank": 21,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -14.97
     },
     {
       "id": "_0vFE4Ti1Gs",
@@ -851,7 +818,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=_0vFE4Ti1Gs",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Google launches Gemini 3.5 Flash at IO.",
         "New Omni video generation model announced.",
@@ -859,7 +825,7 @@
         "Google prioritizes cost-adjusted performance over absolute frontier.",
         "Models increasingly absorb scaffolding (model eats scaffolding)."
       ],
-      "composite": 63.3,
+      "composite": 60.18,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 5.5,
@@ -870,9 +836,41 @@
       "upload_date": "20260520",
       "duration_seconds": 3674,
       "composite_base": 63.3,
+      "rank": 22,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -3.12
+    },
+    {
+      "id": "zWc9ggYhuJ4",
+      "title": "Radically Better Reasoning: Elicit's Andreas Stuhlmüller & Jungwon Byun on World Models for Research",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=zWc9ggYhuJ4",
+      "status": "ok",
+      "summary_bullets": [
+        "Elicit uses DSL for trustworthy reasoning workflows.",
+        "Models are too easy to push around for reliable decisions.",
+        "World models enable explicit, inspectable knowledge representations.",
+        "Automated software engineering system delivers 30–50 weekly changes.",
+        "Process supervision remains critical despite reasoning model advances."
+      ],
+      "composite": 59.42,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260617",
+      "duration_seconds": 6350,
+      "composite_base": 67,
       "rank": 23,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -7.58
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

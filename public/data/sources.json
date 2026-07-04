@@ -450,14 +450,14 @@
     {
       "id": "nateliason-q2-2026",
       "slug": "nateliason-q2-2026",
-      "title": "Nat Eliason — Q2 2026",
-      "pageTitle": "Nat Eliason — Q2 2026 videos",
-      "contentKind": "channel",
-      "itemLabel": "videos",
+      "title": "Nat Eliason",
+      "pageTitle": "Nat Eliason posts",
+      "contentKind": "essay",
+      "itemLabel": "posts",
       "coverImage": "/images/covers/nateliason.png",
-      "period": "Apr–Jun 2026",
+      "period": "H1 2026",
       "dateRange": {
-        "since": "20260401",
+        "since": "20260101",
         "until": "20260630"
       },
       "maxDisplayAgeDays": null

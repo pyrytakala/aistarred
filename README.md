@@ -43,11 +43,13 @@ The published site reads `public/data/<source-id>/rankings.json`. Local pipeline
 
 **Live site:** https://aistarred.com (Vercel)
 
-- `/` — landing page
+- `/` — feed (all ranked items, newest first)
+- `/sources/` — browse by source
+- `/sources/<slug>/` — individual source, sorted by score
 - `/how-it-works/` — methodology
 - `/disclaimer/` — disclaimer and contact
-- `/ai-engineer-worlds-fair-2026/` — AI Engineer World's Fair 2026 (live, 10-day window)
-- `/latent-space-pod-q2-2026/` — Latent Space Pod, Q2 2026
+
+Legacy root-level source URLs (e.g. `/latent-space-pod-q2-2026/`) redirect to `/sources/<slug>/`.
 
 Pushes to `main` deploy automatically via Vercel Git integration — `git push origin main` is enough.
 

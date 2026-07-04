@@ -8,24 +8,59 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
   </head>
-  <body class="page-home">
+  <body class="page-feed">
     <nav class="site-header">
       <div class="site-header-inner">
         <a class="site-logo" href="/" aria-label="AI starred home">
           <img src="/icons/logo-28.png" srcset="/icons/logo-72.png 2x" alt="" width="47" height="47" decoding="async" />
         </a>
+        <div class="site-nav">
+          <a class="site-nav-link" href="/" aria-current="page">Feed</a>
+          <a class="site-nav-link" href="/sources/">Sources</a>
+        </div>
       </div>
     </nav>
-    <main class="landing">
-      <header class="landing-header">
-        <p class="landing-lede">Find top content, curated by a friendly LLM</p>
+    <main class="feed">
+      <header class="feed-header">
+        <p class="feed-lede">Find top content, curated by a friendly LLM</p>
+        <p id="feed-meta" class="feed-meta">Loading…</p>
       </header>
-      <ul id="source-grid" class="source-grid"></ul>
+      <div id="feed-list" class="feed-list" aria-live="polite"></div>
     </main>
     <footer class="site-footer">
       <a href="/how-it-works/">How it works</a>
       <a href="/disclaimer/">Disclaimer</a>
     </footer>
-    <script type="module" src="/src/landing.ts"></script>
+
+    <template id="feed-card-template">
+      <article class="card">
+        <a class="thumb-link" target="_blank" rel="noopener noreferrer">
+          <img class="thumb" alt="" loading="lazy" />
+          <span class="duration" hidden></span>
+        </a>
+        <div class="body">
+          <div class="card-header">
+            <div class="talk-heading">
+              <a class="title-link" target="_blank" rel="noopener noreferrer"></a>
+              <div class="talk-meta">
+                <a class="feed-source-link"></a>
+                <time class="published"></time>
+                <span class="audience-level-wrap" hidden>
+                  <span class="audience-level"></span>
+                </span>
+              </div>
+            </div>
+            <div class="score-wrap">
+              <span class="score" aria-label="Score"></span>
+            </div>
+          </div>
+          <div class="summary-wrap">
+            <ul class="summary"></ul>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <script type="module" src="/src/feed.ts"></script>
   </body>
 </html>

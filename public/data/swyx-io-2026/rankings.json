@@ -1,54 +1,119 @@
 {
   "source_id": "swyx-io-2026",
-  "video_count": 5,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
-    {
-      "id": "aie-singapore-the-agentic-nation",
-      "title": "AIE Singapore: The Agentic Nation",
-      "url": "https://www.swyx.io/aie-singapore-the-agentic-nation",
-      "upload_date": "20260517",
-      "duration_seconds": null,
-      "speakers": "swyx.io",
-      "status": "pending"
-    },
-    {
-      "id": "decade",
-      "title": "What you can do in a decade",
-      "url": "https://www.swyx.io/decade",
-      "upload_date": "20260422",
-      "duration_seconds": null,
-      "speakers": "swyx.io",
-      "status": "pending"
-    },
+  "video_count": 3,
+  "scored_count": 3,
+  "ranked_count": 3,
+  "rankings": [
     {
       "id": "lead",
       "title": "How to Thought Lead (2026)",
+      "speakers": "swyx.io",
       "url": "https://www.swyx.io/lead",
+      "status": "ok",
+      "summary_bullets": [
+        "Framework with 6 ranked rules for thought leadership.",
+        "Credibility (being right, doing work) is most important.",
+        "Build assets that compound, not disposable content.",
+        "Aspiration drives sharing more than accuracy.",
+        "Be quotable with two-word names and formulas."
+      ],
+      "composite": 70.25,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 7,
+      "like_count": null,
       "upload_date": "20260314",
       "duration_seconds": null,
-      "speakers": "swyx.io",
-      "status": "pending"
-    },
-    {
-      "id": "scurves",
-      "title": "Constance Crozier: Forecasting s-curves is hard",
-      "url": "https://www.swyx.io/scurves",
-      "upload_date": "20260227",
-      "duration_seconds": null,
-      "speakers": "swyx.io",
-      "status": "pending"
+      "composite_base": 70.25,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "shorter",
       "title": "Take a hard game, and make it shorter",
+      "speakers": "swyx.io",
       "url": "https://www.swyx.io/shorter",
+      "status": "ok",
+      "summary_bullets": [
+        "Pickleball shortens tennis to 20-45 minutes.",
+        "Topgolf compresses golf into 1-2 hours.",
+        "Wave pools reduce surfing waiting time.",
+        "Shorter hobbies attract newcomers from legacy sports.",
+        "Pattern: remove barriers, increase social fun."
+      ],
+      "composite": 63,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 5.5,
+      "evidence": 5,
+      "specificity": 7.5,
+      "insight_density": 6.5,
+      "non_promotion": 9,
+      "like_count": null,
       "upload_date": "20260216",
       "duration_seconds": null,
+      "composite_base": 63,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "decade",
+      "title": "What you can do in a decade",
       "speakers": "swyx.io",
-      "status": "pending"
+      "url": "https://www.swyx.io/decade",
+      "status": "ok",
+      "summary_bullets": [
+        "Personal retrospective on turning 40",
+        "Lists decade of career reinventions",
+        "Emphasizes self-belief and long-term change",
+        "Mentions specific projects and milestones",
+        "Reflects on failures and relationships"
+      ],
+      "composite": 51.5,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 4.5,
+      "evidence": 3,
+      "specificity": 7,
+      "insight_density": 5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260422",
+      "duration_seconds": null,
+      "composite_base": 51.5,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

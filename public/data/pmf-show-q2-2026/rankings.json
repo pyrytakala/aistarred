@@ -1,169 +1,714 @@
 {
   "source_id": "pmf-show-q2-2026",
   "video_count": 20,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
-    {
-      "id": "s1USTsediXw",
-      "title": "He quit Stripe and hit $10M ARR in 4 years—with $0 marketing spend. | Anurag Goel, Founder of Render",
-      "url": "https://www.youtube.com/watch?v=s1USTsediXw",
-      "upload_date": "20260629",
-      "duration_seconds": 2864,
-      "status": "pending"
-    },
-    {
-      "id": "hWdac2gyngg",
-      "title": "He shut down his last startup and gave the money back—then hit $1M ARR in 6 months. | George, Fou...",
-      "url": "https://www.youtube.com/watch?v=hWdac2gyngg",
-      "upload_date": "20260622",
-      "duration_seconds": 2766,
-      "status": "pending"
-    },
-    {
-      "id": "33po5FjcnZM",
-      "title": "He quit his $50M ARR startup to work as a paralegal—then raised a $60M Series A. | Dan Mishin, Fo...",
-      "url": "https://www.youtube.com/watch?v=33po5FjcnZM",
-      "upload_date": "20260615",
-      "duration_seconds": 2558,
-      "status": "pending"
-    },
+  "scored_count": 20,
+  "ranked_count": 20,
+  "rankings": [
     {
       "id": "eptnp4zu_2o",
       "title": "How Venture Capitalists Actually Make Money (Explained by a VC)",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=eptnp4zu_2o",
+      "status": "ok",
+      "summary_bullets": [
+        "VCs earn 2% annual management fees.",
+        "Fund stacking creates guaranteed income.",
+        "Top 2 investments drive most returns.",
+        "Carried interest only after fund return."
+      ],
+      "composite": 87.75,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 9.5,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20260611",
       "duration_seconds": 559,
-      "status": "pending"
-    },
-    {
-      "id": "ehYLupfD3Ro",
-      "title": "He churned 100% of his revenue on purpose—then grew 10x to $2M ARR in under 12 months. | Ali Khok...",
-      "url": "https://www.youtube.com/watch?v=ehYLupfD3Ro",
-      "upload_date": "20260608",
-      "duration_seconds": 3181,
-      "status": "pending"
-    },
-    {
-      "id": "RmtykXhqwAo",
-      "title": "He hit $1M ARR by sending 500,000 cold emails—then raised a $25M Series A in 6 days. | Mark Hughe...",
-      "url": "https://www.youtube.com/watch?v=RmtykXhqwAo",
-      "upload_date": "20260601",
-      "duration_seconds": 2573,
-      "status": "pending"
-    },
-    {
-      "id": "792_m7oqWRE",
-      "title": "I Interviewed 200 Millionaire Founders... Here's What I Learned",
-      "url": "https://www.youtube.com/watch?v=792_m7oqWRE",
-      "upload_date": "20260529",
-      "duration_seconds": 737,
-      "status": "pending"
-    },
-    {
-      "id": "YBdZxP-xObk",
-      "title": "Q1 2026 w/Carta: What you need to raise a Series A. | Peter Walker, Head of Insights at Carta",
-      "url": "https://www.youtube.com/watch?v=YBdZxP-xObk",
-      "upload_date": "20260525",
-      "duration_seconds": 2309,
-      "status": "pending"
-    },
-    {
-      "id": "c3_IgIWv16Y",
-      "title": "How to get a VC (like me) to wire you $2M in under 2 weeks (the FOMO playbook) | Solo Episode",
-      "url": "https://www.youtube.com/watch?v=c3_IgIWv16Y",
-      "upload_date": "20260518",
-      "duration_seconds": 1308,
-      "status": "pending"
-    },
-    {
-      "id": "Sp1KDfLXHhU",
-      "title": "Coinbase's ex-CPO bet on AI agents before ChatGPT—now he's closing 7-figure Fortune 500 deals. | ...",
-      "url": "https://www.youtube.com/watch?v=Sp1KDfLXHhU",
-      "upload_date": "20260511",
-      "duration_seconds": 2248,
-      "status": "pending"
+      "composite_base": 87.75,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "CYlBl8IRvZk",
       "title": "How to get a VC (like me) to wire you $2M in under 2 weeks",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=CYlBl8IRvZk",
+      "status": "ok",
+      "summary_bullets": [
+        "Build list of 50 qualified VCs.",
+        "Engineer intros through trusted sources.",
+        "Compress timeline by scheduling all meetings same week.",
+        "Use FOMO tactics like “you’re not alone” hints.",
+        "Avoid setting valuation or fake deadlines."
+      ],
+      "composite": 78.25,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 8,
+      "like_count": null,
       "upload_date": "20260507",
       "duration_seconds": 1282,
-      "status": "pending"
-    },
-    {
-      "id": "lIuphzLwIFA",
-      "title": "How this 1st-time founder went from closing customers for $500 a month to $300,000 a year. | Sean...",
-      "url": "https://www.youtube.com/watch?v=lIuphzLwIFA",
-      "upload_date": "20260504",
-      "duration_seconds": 3347,
-      "status": "pending"
-    },
-    {
-      "id": "AMx6IHeRWDc",
-      "title": "He built for 2 years before raising a dollar—then hit $13M ARR and a $40M Series B. | Alex Hallid...",
-      "url": "https://www.youtube.com/watch?v=AMx6IHeRWDc",
-      "upload_date": "20260427",
-      "duration_seconds": 2446,
-      "status": "pending"
-    },
-    {
-      "id": "xswW6KYqpS4",
-      "title": "I Just Raised $30 Million To Replace Your Sales Team With AI",
-      "url": "https://www.youtube.com/watch?v=xswW6KYqpS4",
-      "upload_date": "20260423",
-      "duration_seconds": 3080,
-      "status": "pending"
+      "composite_base": 78.25,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "yM0q581LZbQ",
       "title": "180 VCs rejected him—then a $60K billboard got him to $2M ARR in 4 months. | Isaiah Granet, CEO o...",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=yM0q581LZbQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Pivoted from failed YC idea to voice AI.",
+        "180 VCs rejected him in 2023.",
+        "$60K billboard generated billion impressions.",
+        "Reached $2M ARR in 4 months.",
+        "Fired 50% of customers post-Series A."
+      ],
+      "composite": 75.76,
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 4,
+      "like_count": null,
       "upload_date": "20260420",
       "duration_seconds": 3143,
-      "status": "pending"
+      "composite_base": 78,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.24
+    },
+    {
+      "id": "YBdZxP-xObk",
+      "title": "Q1 2026 w/Carta: What you need to raise a Series A. | Peter Walker, Head of Insights at Carta",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=YBdZxP-xObk",
+      "status": "ok",
+      "summary_bullets": [
+        "Series A valuations nearly doubled in 3 years.",
+        "Median Series A ARR now ~$3.5M.",
+        "AI infrastructure seed rounds at $150M+ valuations.",
+        "Solo founder startups increased to 37% of new companies.",
+        "Bay Area valuations 30% higher than elsewhere."
+      ],
+      "composite": 74.65,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260525",
+      "duration_seconds": 2309,
+      "composite_base": 75.5,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.85
+    },
+    {
+      "id": "ehYLupfD3Ro",
+      "title": "He churned 100% of his revenue on purpose—then grew 10x to $2M ARR in under 12 months. | Ali Khok...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ehYLupfD3Ro",
+      "status": "ok",
+      "summary_bullets": [
+        "Validation requires real money, not just feedback.",
+        "Churned 100% of revenue to pivot to healthcare.",
+        "Raised pre-seed via 100 pitches in 10 days.",
+        "First $1M revenue came through paid communities.",
+        "Founder should personally sell first $2M."
+      ],
+      "composite": 73.7,
+      "audience_level": "practitioner",
+      "like_count": null,
+      "upload_date": "20260608",
+      "duration_seconds": 3181,
+      "composite_base": 76,
+      "rank": 5,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -2.3
+    },
+    {
+      "id": "lIuphzLwIFA",
+      "title": "How this 1st-time founder went from closing customers for $500 a month to $300,000 a year. | Sean...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=lIuphzLwIFA",
+      "status": "ok",
+      "summary_bullets": [
+        "First-time founder built AI for supply chain back office.",
+        "Started with Slack bot for 3PLs, then rebuilt for enterprise.",
+        "Raised $30M+ after talking to 85 warehouse owners.",
+        "Created SOP recorder to overcome customer inertia.",
+        "Won enterprise deals against large AI competitors."
+      ],
+      "composite": 73.42,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260504",
+      "duration_seconds": 3347,
+      "composite_base": 76,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.58
+    },
+    {
+      "id": "c3_IgIWv16Y",
+      "title": "How to get a VC (like me) to wire you $2M in under 2 weeks (the FOMO playbook) | Solo Episode",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=c3_IgIWv16Y",
+      "status": "ok",
+      "summary_bullets": [
+        "Build list of 50+ qualified VCs.",
+        "Engineer warm intros through network.",
+        "Compress all meetings into two weeks.",
+        "Use subtle FOMO signals in conversations.",
+        "Never set valuation; let market decide."
+      ],
+      "composite": 71.75,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260518",
+      "duration_seconds": 1308,
+      "composite_base": 71.75,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "RmtykXhqwAo",
+      "title": "He hit $1M ARR by sending 500,000 cold emails—then raised a $25M Series A in 6 days. | Mark Hughe...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=RmtykXhqwAo",
+      "status": "ok",
+      "summary_bullets": [
+        "Founder describes product-market fit moment.",
+        "Cold email: 500k emails, 5k replies.",
+        "Moved to San Francisco for luck.",
+        "Raised $25M Series A in 6 days.",
+        "Net revenue retention 186%."
+      ],
+      "composite": 70.71,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260601",
+      "duration_seconds": 2573,
+      "composite_base": 72,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.29
     },
     {
       "id": "5Nnt-LLfqRc",
       "title": "She bet on a consumer app when every VC wanted B2B—then grew to $10M ARR. | Anada Lakra, Founder ...",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=5Nnt-LLfqRc",
+      "status": "ok",
+      "summary_bullets": [
+        "Launched V1 within a week of YC.",
+        "Found ICP is working professionals, not students.",
+        "Annual subscription ($150/yr) gives instant CAC payback.",
+        "Influencer ads on YouTube drove scalable growth.",
+        "Reached $10M ARR with B2C accent coaching app."
+      ],
+      "composite": 70.56,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 4,
+      "like_count": null,
       "upload_date": "20260416",
       "duration_seconds": 3141,
-      "status": "pending"
+      "composite_base": 72.8,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.24
+    },
+    {
+      "id": "792_m7oqWRE",
+      "title": "I Interviewed 200 Millionaire Founders... Here's What I Learned",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=792_m7oqWRE",
+      "status": "ok",
+      "summary_bullets": [
+        "95% of founders fail to reach product-market fit.",
+        "Research mode must come before startup mode.",
+        "Insane focus required for venture-grade success.",
+        "Pivot hard and fast until product-market fit.",
+        "Marty persisted 8 years before breakthrough."
+      ],
+      "composite": 69,
+      "audience_level": "general",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260529",
+      "duration_seconds": 737,
+      "composite_base": 69,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "Sp1KDfLXHhU",
+      "title": "Coinbase's ex-CPO bet on AI agents before ChatGPT—now he's closing 7-figure Fortune 500 deals. | ...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Sp1KDfLXHhU",
+      "status": "ok",
+      "summary_bullets": [
+        "AI agents automate \"human glue\" between enterprise systems.",
+        "Emma started before ChatGPT, now closing 7-figure deals.",
+        "Product-market fit: salesperson can sell without founder present.",
+        "Enterprise sales requires patience, certifications, and air-gapped deployment.",
+        "Tailor-made software (AI) can be cheaper than ready-made SaaS."
+      ],
+      "composite": 68.75,
+      "audience_level": "practitioner",
+      "substance": 7,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260511",
+      "duration_seconds": 2248,
+      "composite_base": 69.5,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.75
+    },
+    {
+      "id": "s1USTsediXw",
+      "title": "He quit Stripe and hit $10M ARR in 4 years—with $0 marketing spend. | Anurag Goel, Founder of Render",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=s1USTsediXw",
+      "status": "ok",
+      "summary_bullets": [
+        "Quit Stripe, founded Render.",
+        "$10M ARR in ~4 years.",
+        "Zero marketing spend, word-of-mouth.",
+        "Product-market fit = natural growth."
+      ],
+      "composite": 68.03,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260629",
+      "duration_seconds": 2864,
+      "composite_base": 69.8,
+      "rank": 12,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.77
+    },
+    {
+      "id": "xswW6KYqpS4",
+      "title": "I Just Raised $30 Million To Replace Your Sales Team With AI",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=xswW6KYqpS4",
+      "status": "ok",
+      "summary_bullets": [
+        "Amanda founded Six Sense, a $5B startup.",
+        "One Mind uses AI to replace salespeople.",
+        "She raised $30M Series A for One Mind.",
+        "AI sales agents give demos and close deals.",
+        "She cloned herself to pitch VCs."
+      ],
+      "composite": 67.87,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260423",
+      "duration_seconds": 3080,
+      "composite_base": 70,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.13
     },
     {
       "id": "6JnjoTUjSoc",
       "title": "He raised a $10M seed with no revenue—then grew 30x to $30M in year two. | Bobby Samuels, Founder...",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=6JnjoTUjSoc",
+      "status": "ok",
+      "summary_bullets": [
+        "Raised $10M seed with zero revenue.",
+        "Grew from $1M to $30M GMV in year two.",
+        "Provides real-world data to AI model builders.",
+        "Found product-market fit after iterating go-to-market.",
+        "Emphasizes in-person sales and ignoring rejections."
+      ],
+      "composite": 66.86,
+      "audience_level": "practitioner",
+      "like_count": null,
       "upload_date": "20260413",
       "duration_seconds": 2365,
-      "status": "pending"
+      "composite_base": 67.8,
+      "rank": 14,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -0.94
     },
     {
-      "id": "EJOYUq6O_VE",
-      "title": "He ran Prime fulfillment for Amazon—then raised $20M to replace e-commerce with AI. | Maju Kuruvi...",
-      "url": "https://www.youtube.com/watch?v=EJOYUq6O_VE",
-      "upload_date": "20260409",
-      "duration_seconds": 2522,
-      "status": "pending"
-    },
-    {
-      "id": "YaH6Wv-Jih4",
-      "title": "She got rejected by 22 VCs—then built 6sense to $100M+ in revenue. Now she's back for AI. | Amand...",
-      "url": "https://www.youtube.com/watch?v=YaH6Wv-Jih4",
-      "upload_date": "20260406",
-      "duration_seconds": 3134,
-      "status": "pending"
+      "id": "hWdac2gyngg",
+      "title": "He shut down his last startup and gave the money back—then hit $1M ARR in 6 months. | George, Fou...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=hWdac2gyngg",
+      "status": "ok",
+      "summary_bullets": [
+        "Shut down startup, returned money due to small market",
+        "Hit $1M ARR in 6 months with new company",
+        "Used cold outbound email as primary sales channel",
+        "Started with back-end-only service, added front-end later",
+        "Raised $25M Series A after running compressed process"
+      ],
+      "composite": 66.39,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260622",
+      "duration_seconds": 2766,
+      "composite_base": 68,
+      "rank": 15,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.61
     },
     {
       "id": "P-Nse7c9gS4",
       "title": "How this AI founder is on track to hit $50M ARR just 2 years after launch. | Tarek Alaruri, Co-Fo...",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=P-Nse7c9gS4",
+      "status": "ok",
+      "summary_bullets": [
+        "Stout automates accounts receivable with AI agents.",
+        "Founder pre-sold $65k contracts before product existed.",
+        "AI reduces overdue invoices by 40% in 6 months.",
+        "Company hit $1M ARR within months of launch."
+      ],
+      "composite": 66.27,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 3,
+      "like_count": null,
       "upload_date": "20260402",
       "duration_seconds": 2837,
-      "status": "pending"
+      "composite_base": 68,
+      "rank": 16,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.73
+    },
+    {
+      "id": "33po5FjcnZM",
+      "title": "He quit his $50M ARR startup to work as a paralegal—then raised a $60M Series A. | Dan Mishin, Fo...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=33po5FjcnZM",
+      "status": "ok",
+      "summary_bullets": [
+        "Left $50M ARR startup for legal tech.",
+        "Worked as paralegal for 2 months.",
+        "Raised $60M Series A for Manifesto OS.",
+        "Builds free communities for customer acquisition.",
+        "Believes value-led acquisition beats ads."
+      ],
+      "composite": 63.24,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 5,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260615",
+      "duration_seconds": 2558,
+      "composite_base": 64.5,
+      "rank": 17,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.26
+    },
+    {
+      "id": "YaH6Wv-Jih4",
+      "title": "She got rejected by 22 VCs—then built 6sense to $100M+ in revenue. Now she's back for AI. | Amand...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=YaH6Wv-Jih4",
+      "status": "ok",
+      "summary_bullets": [
+        "Rejected by 22 VCs for lacking technical co-founder.",
+        "Built 6sense from services business to $100M+ revenue.",
+        "Now building OneMind, an AI sales agent (“superhuman”).",
+        "Used her own AI to pitch VCs and raise $30M Series A.",
+        "Advises founders to question themselves and trust gut."
+      ],
+      "composite": 58.78,
+      "audience_level": "practitioner",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260406",
+      "duration_seconds": 3134,
+      "composite_base": 61,
+      "rank": 18,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -2.22
+    },
+    {
+      "id": "EJOYUq6O_VE",
+      "title": "He ran Prime fulfillment for Amazon—then raised $20M to replace e-commerce with AI. | Maju Kuruvi...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=EJOYUq6O_VE",
+      "status": "ok",
+      "summary_bullets": [
+        "Former Amazon VP runs Prime fulfillment.",
+        "Raised $20M for AI e-commerce startup Spangle.",
+        "Wedge product boosts conversion up to 50%.",
+        "40% of traffic loses marketing context.",
+        "Product-market fit is now a daily struggle."
+      ],
+      "composite": 58.55,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 4,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260409",
+      "duration_seconds": 2522,
+      "composite_base": 59.75,
+      "rank": 19,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.2
+    },
+    {
+      "id": "AMx6IHeRWDc",
+      "title": "He built for 2 years before raising a dollar—then hit $13M ARR and a $40M Series B. | Alex Hallid...",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=AMx6IHeRWDc",
+      "status": "ok",
+      "composite": 51.92,
+      "audience_level": "practitioner",
+      "substance": 6,
+      "evidence": 5,
+      "specificity": 7,
+      "insight_density": 5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260427",
+      "duration_seconds": 2446,
+      "composite_base": 53,
+      "rank": 20,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.08
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

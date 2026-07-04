@@ -16,6 +16,9 @@ export async function loadSourcesManifest(): Promise<SourcesManifest> {
 
 export function slugFromPathname(pathname = window.location.pathname): string {
   const segments = pathname.split("/").filter(Boolean);
+  if (segments[0] === "sources" && segments.length >= 2) {
+    return segments[1];
+  }
   if (segments[0] === "source") {
     return segments[1] ?? "";
   }

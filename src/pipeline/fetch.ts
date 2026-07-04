@@ -1,6 +1,7 @@
 import { mkdirSync, readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 
+import { applyContentLengthGate } from "../lib/content-length.js";
 import { isWithinDateRange } from "../lib/date-range.js";
 import { getContentFetcher, usesEssayFetch } from "../lib/content-fetchers/index.js";
 import { halfYearDateRange, isQ2DateRange, shouldExpandToHalfYear } from "../lib/half-year.js";
@@ -270,15 +271,18 @@ async function runEssayFetch(
 
   for (const [index, item] of items.entries()) {
     console.log(`[${index + 1}/${items.length}] ${item.title} (${item.id})`);
-    const result = await withPipelineTiming(
-      "essay-fetch",
-      "fetch-item",
-      { sourceId: source.id, essayId: item.id, index: index + 1, total: items.length },
-      () => fetcher.fetchItem(item, context, usedNames),
+    const result = applyContentLengthGate(
+      await withPipelineTiming(
+        "essay-fetch",
+        "fetch-item",
+        { sourceId: source.id, essayId: item.id, index: index + 1, total: items.length },
+        () => fetcher.fetchItem(item, context, usedNames),
+      ),
+      source.id,
     );
     results.push(result);
     console.log(
-      `  -> transcript: ${result.transcript_status}, upload_date: ${result.upload_date}`,
+      `  -> transcript: ${result.transcript_status}, upload_date: ${result.upload_date}${result.error ? ` (${result.error})` : ""}`,
     );
     if (requestDelay > 0 && index < items.length - 1) {
       await sleep(requestDelay * 1000);
@@ -496,23 +500,26 @@ export async function runFetch(argv: string[]): Promise<number> {
 
   for (const [index, [videoId, metadataPayload]] of videoIds.entries()) {
     console.log(`[${index + 1}/${videoIds.length}] ${videoId}`);
-    const result = await withPipelineTiming(
-      "yt-fetch",
-      "transcript",
-      { sourceId: source.id, videoId, index: index + 1, total: videoIds.length },
-      () =>
-        processVideo(
-          provider,
-          videoId,
-          outputDir,
-          usedNames,
-          requestDelay > 0 && index < videoIds.length - 1 ? requestDelay : 0,
-          metadataPayload,
-        ),
+    const result = applyContentLengthGate(
+      await withPipelineTiming(
+        "yt-fetch",
+        "transcript",
+        { sourceId: source.id, videoId, index: index + 1, total: videoIds.length },
+        () =>
+          processVideo(
+            provider,
+            videoId,
+            outputDir,
+            usedNames,
+            requestDelay > 0 && index < videoIds.length - 1 ? requestDelay : 0,
+            metadataPayload,
+          ),
+      ),
+      source.id,
     );
     results.push(result);
     console.log(
-      `  -> ${result.title}\n     transcript: ${result.transcript_status}, views: ${result.view_count}, upload_date: ${result.upload_date}`,
+      `  -> ${result.title}\n     transcript: ${result.transcript_status}, views: ${result.view_count}, upload_date: ${result.upload_date}${result.error ? ` (${result.error})` : ""}`,
     );
   }
 

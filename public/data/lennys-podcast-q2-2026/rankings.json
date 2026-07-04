@@ -1,129 +1,622 @@
 {
   "source_id": "lennys-podcast-q2-2026",
   "video_count": 15,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
+  "scored_count": 15,
+  "ranked_count": 15,
+  "rankings": [
     {
-      "id": "P3KDebPTUrw",
-      "title": "Why OpenAI is merging Codex and ChatGPT and the future of knowledge work | Andrew Ambrosino",
-      "url": "https://www.youtube.com/watch?v=P3KDebPTUrw",
-      "upload_date": "20260628",
-      "duration_seconds": 4197,
-      "status": "pending"
-    },
-    {
-      "id": "Ybrl4FYM57c",
-      "title": "What happens after coding is solved? | Fiona Fung (Claude Code & Cowork)",
-      "url": "https://www.youtube.com/watch?v=Ybrl4FYM57c",
-      "upload_date": "20260621",
-      "duration_seconds": 5925,
-      "status": "pending"
-    },
-    {
-      "id": "7eh9C3TUotc",
-      "title": "The hidden pattern behind successful products | Mark Pincus (FarmVille, Words with Friends, & more)",
-      "url": "https://www.youtube.com/watch?v=7eh9C3TUotc",
-      "upload_date": "20260614",
-      "duration_seconds": 5963,
-      "status": "pending"
+      "id": "xCd9ykretlg",
+      "title": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=xCd9ykretlg",
+      "status": "ok",
+      "summary_bullets": [
+        "Hiring is the most important company-building skill.",
+        "\"Barrels\" drive initiatives; \"ammunition\" supports them.",
+        "Avoid talking to customers for consumer products.",
+        "Criticize in public, not private.",
+        "Speed of execution is a key early signal."
+      ],
+      "composite": 76.73,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260412",
+      "duration_seconds": 4960,
+      "composite_base": 82,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -5.27
     },
     {
       "id": "RJjl1TwyfWM",
       "title": "Tony Fadell: How to build real taste (and why AI makes it matter more)",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=RJjl1TwyfWM",
+      "status": "ok",
+      "summary_bullets": [
+        "Build from pain, not technology.",
+        "Three generations to make a product succeed.",
+        "Marketing and storytelling are as critical as engineering.",
+        "AI enables fast prototypes but needs human taste.",
+        "Micromanage key decisions, not operations."
+      ],
+      "composite": 76.49,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
       "upload_date": "20260607",
       "duration_seconds": 5708,
-      "status": "pending"
+      "composite_base": 83,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -6.51
     },
     {
       "id": "BD3vLtWhT5A",
       "title": "The most rational take on AI you’ll hear this year",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=BD3vLtWhT5A",
+      "status": "ok",
+      "summary_bullets": [
+        "AI is as big as internet/mobile, not more.",
+        "Job automation history shows new jobs emerge.",
+        "Model labs may become commodity infrastructure.",
+        "Distribution matters more than model quality.",
+        "Dive into AI rather than resist it."
+      ],
+      "composite": 76.31,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
       "upload_date": "20260531",
       "duration_seconds": 4791,
-      "status": "pending"
-    },
-    {
-      "id": "4D3hDmGhFhA",
-      "title": "AI predictions: Job markets, Codex beats Claude, and the death of org charts | Dan Shipper",
-      "url": "https://www.youtube.com/watch?v=4D3hDmGhFhA",
-      "upload_date": "20260524",
-      "duration_seconds": 5647,
-      "status": "pending"
-    },
-    {
-      "id": "G5WTgB87rYQ",
-      "title": "Why the next AI boom is physical AI | Caitlin Kalinowski (ex-OpenAI, Meta, Apple)",
-      "url": "https://www.youtube.com/watch?v=G5WTgB87rYQ",
-      "upload_date": "20260517",
-      "duration_seconds": 5951,
-      "status": "pending"
-    },
-    {
-      "id": "PoJ1vTdHpks",
-      "title": "How Anthropic, Costco, and Patagonia all build incorruptible companies  | Eric Ries",
-      "url": "https://www.youtube.com/watch?v=PoJ1vTdHpks",
-      "upload_date": "20260510",
-      "duration_seconds": 5963,
-      "status": "pending"
-    },
-    {
-      "id": "mCO-D3pkviM",
-      "title": "AI era skills: Why cultivating agency matters more than job titles | Max Schoening (Notion)",
-      "url": "https://www.youtube.com/watch?v=mCO-D3pkviM",
-      "upload_date": "20260502",
-      "duration_seconds": 5243,
-      "status": "pending"
-    },
-    {
-      "id": "-7Yol5vX5xw",
-      "title": "How to win when software is not a moat | Evan Spiegel (Snapchat CEO)",
-      "url": "https://www.youtube.com/watch?v=-7Yol5vX5xw",
-      "upload_date": "20260426",
-      "duration_seconds": 4225,
-      "status": "pending"
-    },
-    {
-      "id": "PplmzlgE0kg",
-      "title": "How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)",
-      "url": "https://www.youtube.com/watch?v=PplmzlgE0kg",
-      "upload_date": "20260423",
-      "duration_seconds": 5135,
-      "status": "pending"
-    },
-    {
-      "id": "yUohoaC8_Hs",
-      "title": "Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)",
-      "url": "https://www.youtube.com/watch?v=yUohoaC8_Hs",
-      "upload_date": "20260419",
-      "duration_seconds": 5711,
-      "status": "pending"
-    },
-    {
-      "id": "xCd9ykretlg",
-      "title": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
-      "url": "https://www.youtube.com/watch?v=xCd9ykretlg",
-      "upload_date": "20260412",
-      "duration_seconds": 4960,
-      "status": "pending"
-    },
-    {
-      "id": "k-H4nsOTuxU",
-      "title": "Head of Growth (Anthropic): Anthropic is automating its own growth",
-      "url": "https://www.youtube.com/watch?v=k-H4nsOTuxU",
-      "upload_date": "20260405",
-      "duration_seconds": 6769,
-      "status": "pending"
+      "composite_base": 81.3,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.99
     },
     {
       "id": "wc8FBhQtdsA",
       "title": "An AI state of the union: We’ve passed the inflection point & dark factories are coming",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=wc8FBhQtdsA",
+      "status": "ok",
+      "summary_bullets": [
+        "AI coding agents reached inflection point in Nov 2025",
+        "Dark factories automate software without human code review",
+        "Prompt injection remains unsolved security risk",
+        "Experienced engineers amplified, mid-career at risk",
+        "Pelican-on-bicycle benchmark correlates with model quality"
+      ],
+      "composite": 75.51,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
       "upload_date": "20260402",
       "duration_seconds": 5991,
-      "status": "pending"
+      "composite_base": 82.5,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -6.99
+    },
+    {
+      "id": "mCO-D3pkviM",
+      "title": "AI era skills: Why cultivating agency matters more than job titles | Max Schoening (Notion)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=mCO-D3pkviM",
+      "status": "ok",
+      "summary_bullets": [
+        "First 10% of projects now free with AI",
+        "Agency matters more than skill gaps",
+        "Taste is predicting in-group reactions",
+        "Great products have a tiny core superpower",
+        "Knowledge work is already universal basic income"
+      ],
+      "composite": 73.26,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260502",
+      "duration_seconds": 5243,
+      "composite_base": 79,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -5.74
+    },
+    {
+      "id": "G5WTgB87rYQ",
+      "title": "Why the next AI boom is physical AI | Caitlin Kalinowski (ex-OpenAI, Meta, Apple)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=G5WTgB87rYQ",
+      "status": "ok",
+      "summary_bullets": [
+        "VR tech now used in robotics.",
+        "Hardware design: few “compiles”, start with hardest part.",
+        "Supply chain fragile: magnets, actuators, memory.",
+        "Humanoids not only robot form factor.",
+        "AI not yet capable of real CAD."
+      ],
+      "composite": 72.58,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 7,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260517",
+      "duration_seconds": 5951,
+      "composite_base": 79.5,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -6.92
+    },
+    {
+      "id": "PoJ1vTdHpks",
+      "title": "How Anthropic, Costco, and Patagonia all build incorruptible companies  | Eric Ries",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=PoJ1vTdHpks",
+      "status": "ok",
+      "summary_bullets": [
+        "Success often leads to company corruption, not competition.",
+        "Structural governance protects mission from financial pressure.",
+        "Public benefit corporation is a simple first step.",
+        "\"Harder is easier\" principle builds trust and alignment.",
+        "Anthropic's long-term benefit trust as example."
+      ],
+      "composite": 70.81,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260510",
+      "duration_seconds": 5963,
+      "composite_base": 77.75,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -6.94
+    },
+    {
+      "id": "k-H4nsOTuxU",
+      "title": "Head of Growth (Anthropic): Anthropic is automating its own growth",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=k-H4nsOTuxU",
+      "status": "ok",
+      "summary_bullets": [
+        "Anthropic grew from $1B to $19B ARR in 14 months.",
+        "Growth team uses Claude to automate experimentation (CASH project).",
+        "Cold emailing CPO Mike Krieger got Amole the job.",
+        "Brain injury recovery shaped his product management approach.",
+        "Focus on coding and B2B drove Anthropic's success."
+      ],
+      "composite": 69.72,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260405",
+      "duration_seconds": 6769,
+      "composite_base": 78,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -8.28
+    },
+    {
+      "id": "7eh9C3TUotc",
+      "title": "The hidden pattern behind successful products | Mark Pincus (FarmVille, Words with Friends, & more)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=7eh9C3TUotc",
+      "status": "ok",
+      "summary_bullets": [
+        "Proven Better New framework for product ideas.",
+        "Instincts right 95%, ideas wrong 75%.",
+        "Kill hope before hope kills you.",
+        "Copying is moral arbitrage for innovation.",
+        "Social cocktail party as opportunity."
+      ],
+      "composite": 68.06,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260614",
+      "duration_seconds": 5963,
+      "composite_base": 75,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -6.94
+    },
+    {
+      "id": "Ybrl4FYM57c",
+      "title": "What happens after coding is solved? | Fiona Fung (Claude Code & Cowork)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Ybrl4FYM57c",
+      "status": "ok",
+      "summary_bullets": [
+        "Anthropic engineers ship 8x more code per quarter.",
+        "Coding is no longer bottleneck; verification is key.",
+        "New hiring profiles: creative builders and deep experts.",
+        "Managers use AI routines to stay on top of output.",
+        "Loneliness from solo agent work; pair programming lunches help."
+      ],
+      "composite": 67.87,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260621",
+      "duration_seconds": 5925,
+      "composite_base": 74.75,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -6.88
+    },
+    {
+      "id": "yUohoaC8_Hs",
+      "title": "Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=yUohoaC8_Hs",
+      "status": "ok",
+      "summary_bullets": [
+        "PM skills shifting from information moving to building.",
+        "Half of PMs risk obsolescence if not builders.",
+        "AI enables faster building, but requires judgment.",
+        "Companies will shed staff, rehire AI-first builders.",
+        "Embrace reinvention and find joy in building."
+      ],
+      "composite": 67.78,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260419",
+      "duration_seconds": 5711,
+      "composite_base": 74.3,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -6.52
+    },
+    {
+      "id": "-7Yol5vX5xw",
+      "title": "How to win when software is not a moat | Evan Spiegel (Snapchat CEO)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=-7Yol5vX5xw",
+      "status": "ok",
+      "summary_bullets": [
+        "Software is easy to copy, not a moat.",
+        "Distribution harder than product-market fit.",
+        "Snap’s design team innovates with high velocity.",
+        "AR glasses aim to make computing more human.",
+        "AI will face societal pushback."
+      ],
+      "composite": 67.76,
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260426",
+      "duration_seconds": 4225,
+      "composite_base": 71.8,
+      "rank": 12,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.04
+    },
+    {
+      "id": "4D3hDmGhFhA",
+      "title": "AI predictions: Job markets, Codex beats Claude, and the death of org charts | Dan Shipper",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=4D3hDmGhFhA",
+      "status": "ok",
+      "summary_bullets": [
+        "AI job apocalypse not happening.",
+        "Agents need humans; automation is a lie.",
+        "SaaS will thrive, not die.",
+        "Codex/Claude Code become primary work surface.",
+        "PMs and designers will thrive."
+      ],
+      "composite": 66.59,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260524",
+      "duration_seconds": 5647,
+      "composite_base": 73,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -6.41
+    },
+    {
+      "id": "P3KDebPTUrw",
+      "title": "Why OpenAI is merging Codex and ChatGPT and the future of knowledge work | Andrew Ambrosino",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=P3KDebPTUrw",
+      "status": "ok",
+      "summary_bullets": [
+        "Implementation cost is now near zero; taste is scarce.",
+        "Product teams invert: many prototypes, curation replaces planning.",
+        "Codex usage grew 6x to 5M weekly active users.",
+        "Build features that don't work yet; wait for model improvements.",
+        "Future is a single home-base app connecting to specialized tools."
+      ],
+      "composite": 65,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 4197,
+      "composite_base": 69,
+      "rank": 14,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4
+    },
+    {
+      "id": "PplmzlgE0kg",
+      "title": "How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=PplmzlgE0kg",
+      "status": "ok",
+      "summary_bullets": [
+        "Anthropic PMs ship features in days.",
+        "Product taste matters more than coding.",
+        "AI models make product harnesses obsolete.",
+        "PMs must remove barriers to shipping.",
+        "Use AI to automate repetitive tasks."
+      ],
+      "composite": 64.44,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260423",
+      "duration_seconds": 5135,
+      "composite_base": 70,
+      "rank": 15,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -5.56
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

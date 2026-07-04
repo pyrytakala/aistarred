@@ -3,6 +3,10 @@ import { basename, join } from "node:path";
 
 import { AdaptiveConcurrency } from "../lib/adaptive-concurrency.js";
 import { ApiCache, fetchCachedText, fireworksCacheKey } from "../lib/api-cache.js";
+import {
+  formatMinimumContentLength,
+  isContentLongEnough,
+} from "../lib/content-length.js";
 import { pipelineLog, withPipelineTiming } from "../lib/pipeline-log.js";
 import { loadEnv } from "../lib/env.js";
 import { sourcePaths } from "../lib/paths.js";
@@ -223,6 +227,18 @@ async function scoreVideoJob(options: {
     };
   }
 
+  const transcript = readFileSync(transcriptPath, "utf8");
+  if (!isContentLongEnough(transcript)) {
+    console.log(`  -> skipped: below ${formatMinimumContentLength()}`);
+    return {
+      id: videoId,
+      title,
+      url: video.url,
+      status: "skipped",
+      error: "below minimum content length",
+    };
+  }
+
   if (existsSync(scorePath) && !forceRescore) {
     const parsed = parseScoreResponse(readFileSync(scorePath, "utf8"));
     const { raw_response: _raw, ...fields } = parsed;
@@ -240,7 +256,6 @@ async function scoreVideoJob(options: {
     };
   }
 
-  const transcript = readFileSync(transcriptPath, "utf8");
   const speakers = video.channel ?? extractSpeakers(title, video.description);
   const prompt = buildPrompt(template, title, speakers, transcript);
 
@@ -394,5 +409,16 @@ export async function runScoreCli(argv: string[]): Promise<number> {
   const forceRescore = argv.includes("--force-rescore");
   const noCache = argv.includes("--no-cache");
   const sourceId = resolveSourceIdFromArgv(argv);
-  return runScore({ sourceId, reparse, forceRescore, useCache: !noCache });
+  const workersArg = argv.find((arg, index) => argv[index - 1] === "--workers");
+  const maxWorkersArg = argv.find((arg, index) => argv[index - 1] === "--max-workers");
+  const workers = workersArg ? Number(workersArg) : undefined;
+  const maxWorkers = maxWorkersArg ? Number(maxWorkersArg) : undefined;
+  return runScore({
+    sourceId,
+    reparse,
+    forceRescore,
+    useCache: !noCache,
+    workers: Number.isFinite(workers) ? workers : undefined,
+    maxWorkers: Number.isFinite(maxWorkers) ? maxWorkers : undefined,
+  });
 }

@@ -1,225 +1,722 @@
 {
   "source_id": "gwern-blog-2025-2026",
-  "video_count": 24,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
-    {
-      "id": "face-training",
-      "title": "Face Recognition Training App",
-      "url": "https://gwern.net/blog/2026/face-training",
-      "upload_date": "20260620",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "llm-retcon",
-      "title": "Better Fiction via Retcon Planning",
-      "url": "https://gwern.net/blog/2026/llm-retcon",
-      "upload_date": "20260602",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "questions-moravec",
-      "title": "30 Questions for Hans Moravec",
-      "url": "https://gwern.net/blog/2026/questions-moravec",
-      "upload_date": "20260422",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "questions-young",
-      "title": "25 Questions for Alexander Young",
-      "url": "https://gwern.net/blog/2026/questions-young",
-      "upload_date": "20260410",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "rabbit",
-      "title": "Jacky Rabbit and the Empty Jam Pot",
-      "url": "https://gwern.net/blog/2026/rabbit",
-      "upload_date": "20260309",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "make-me-care",
-      "title": "First, Make Me Care",
-      "url": "https://gwern.net/blog/2026/make-me-care",
-      "upload_date": "20260114",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "conference-size",
-      "title": "Conference Fermi Problems",
-      "url": "https://gwern.net/blog/2025/conference-size",
-      "upload_date": "20250706",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "perfume",
-      "title": "Perfume Reviews",
-      "url": "https://gwern.net/blog/2025/perfume",
-      "upload_date": "20250705",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "bot-location",
-      "title": "Tracking Phishing Bots Via Locations",
-      "url": "https://gwern.net/blog/2025/bot-location",
-      "upload_date": "20250604",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "better-llm-writing",
-      "title": "Towards Better LLM Creative Writing",
-      "url": "https://gwern.net/blog/2025/better-llm-writing",
-      "upload_date": "20250529",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "conference",
-      "title": "Conferences As D&D Tabletops",
-      "url": "https://gwern.net/blog/2025/conference",
-      "upload_date": "20250528",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "pinball-hacking",
-      "title": "Hacking Pinball High Scores",
-      "url": "https://gwern.net/blog/2025/pinball-hacking",
-      "upload_date": "20250528",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "bell-crow-moon",
-      "title": "Bell, Crow, Moon: 11 Variations",
-      "url": "https://gwern.net/blog/2025/bell-crow-moon",
-      "upload_date": "20250525",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "you-could-have-invented-transformers",
-      "title": "You Could’ve Invented Transformers",
-      "url": "https://gwern.net/blog/2025/you-could-have-invented-transformers",
-      "upload_date": "20250525",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "human-cannibalism",
-      "title": "Human Cannibalism Alignment Chart",
-      "url": "https://gwern.net/blog/2025/human-cannibalism",
-      "upload_date": "20250512",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "meta-doomsday",
-      "title": "The Meta-LW Doomsday Argument",
-      "url": "https://gwern.net/blog/2025/meta-doomsday",
-      "upload_date": "20250429",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
+  "model": "accounts/fireworks/models/deepseek-v4-flash",
+  "video_count": 18,
+  "scored_count": 18,
+  "ranked_count": 18,
+  "rankings": [
     {
       "id": "ai-cannibalism",
       "title": "AI Cannibalism Can Be Good",
+      "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/ai-cannibalism",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Old LLM outputs provide historical and proprietary data.",
+        "Human-selected outputs add information beyond raw text.",
+        "Synthetic data can amortize computation into models.",
+        "Training on old outputs is not self-defeating.",
+        "Benefits include access to deleted or private data."
+      ],
+      "composite": 79.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20250427",
       "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "area-man",
-      "title": "Area Man Angry AI Not Silver Bullet",
-      "url": "https://gwern.net/blog/2025/area-man",
-      "upload_date": "20250419",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "parliament",
-      "title": "Parliament of Rag & Bone",
-      "url": "https://gwern.net/blog/2025/parliament",
-      "upload_date": "20250419",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "good-ai-samples",
-      "title": "Adding Bits Beats AI Slop",
-      "url": "https://gwern.net/blog/2025/good-ai-samples",
-      "upload_date": "20250323",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "questions-henrich",
-      "title": "10 Questions for Joseph Henrich",
-      "url": "https://gwern.net/blog/2026/questions-henrich",
-      "upload_date": "20250315",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
-    },
-    {
-      "id": "large-files",
-      "title": "Gwern.net Large File Support",
-      "url": "https://gwern.net/blog/2025/large-files",
-      "upload_date": "20250309",
-      "duration_seconds": null,
-      "speakers": "Gwern",
-      "status": "pending"
+      "composite_base": 79.5,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "llms-can-be-faster",
       "title": "LLMs Can Be Faster Than You Think",
+      "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/llms-can-be-faster",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "LLM inference can be far faster than today.",
+        "Many optimization routes exist: hardware, algorithms, distillation.",
+        "Sub-millisecond program generation may be possible.",
+        "Speed could give AI a strategic edge in adversarial settings."
+      ],
+      "composite": 76.3,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 4.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20250207",
       "duration_seconds": null,
+      "composite_base": 76.3,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "good-ai-samples",
+      "title": "Adding Bits Beats AI Slop",
       "speakers": "Gwern",
-      "status": "pending"
+      "url": "https://gwern.net/blog/2025/good-ai-samples",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "AI slop lacks genuine information.",
+        "Satisfying outputs require dense information.",
+        "Quantify information as bits added.",
+        "Personalization and curation add value.",
+        "Better models could reduce wasted effort."
+      ],
+      "composite": 75,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20250323",
+      "duration_seconds": null,
+      "composite_base": 75,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "make-me-care",
+      "title": "First, Make Me Care",
+      "speakers": "Gwern",
+      "url": "https://gwern.net/blog/2026/make-me-care",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Nonfiction must hook readers immediately.",
+        "Lead with anomaly, not background.",
+        "Venice example: empire without farms.",
+        "Create curiosity gap to retain readers.",
+        "Structure: promise then payoff."
+      ],
+      "composite": 73.8,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260114",
+      "duration_seconds": null,
+      "composite_base": 73.8,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "face-training",
+      "title": "Face Recognition Training App",
+      "speakers": "Gwern",
+      "url": "https://gwern.net/blog/2026/face-training",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Proposes triplet-loss training for human face recognition.",
+        "Uses neural net embeddings to select difficulty.",
+        "Suggests web app with adaptive difficulty.",
+        "Considers memory training with delays.",
+        "Cites prior research on face recognition training."
+      ],
+      "composite": 72.25,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 3.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260620",
+      "duration_seconds": null,
+      "composite_base": 72.25,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "conference-size",
+      "title": "Conference Fermi Problems",
+      "speakers": "Gwern",
+      "url": "https://gwern.net/blog/2025/conference-size",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Survey of methods to estimate conference attendance.",
+        "Uses Little's law, capture-recapture, and more.",
+        "Includes worked examples and failure modes.",
+        "Speculative techniques like anthropic reasoning."
+      ],
+      "composite": 71.75,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 6,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20250706",
+      "duration_seconds": null,
+      "composite_base": 71.75,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "conference",
+      "title": "Conferences As D&D Tabletops",
+      "speakers": "Gwern",
+      "url": "https://gwern.net/blog/2025/conference",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Proposes using a virtual tabletop (VTT) map for conference organization.",
+        "Attendees collaboratively drag tokens and scribble on a 2D map.",
+        "Time-scrolling handles past, present, and future scheduling.",
+        "Many tasks emerge naturally from simple drawing primitives.",
+        "No one currently runs conferences this way."
+      ],
+      "composite": 70.3,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 2.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20250528",
+      "duration_seconds": null,
+      "composite_base": 70.3,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "llm-retcon",
+      "title": "Better Fiction via Retcon Planning",
+      "speakers": "Gwern",
+      "url": "https://gwern.net/blog/2026/llm-retcon",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Retcon planning rewrites hidden world state.",
+        "LLM fiction suffers from early hardening.",
+        "Backward planning avoids railroading.",
+        "Periodic resampling of plot from observed canon.",
+        "Uses world-state card as information bottleneck."
+      ],
+      "composite": 70.25,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 2.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260602",
+      "duration_seconds": null,
+      "composite_base": 70.25,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "bot-location",
+      "title": "Tracking Phishing Bots Via Locations",
+      "speakers": "Gwern",
+      "url": "https://gwern.net/blog/2025/bot-location",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Catfishing bots reveal targets via location metadata.",
+        "Location changes expose attack timing and tempo.",
+        "Side-channel enables retrospective and real-time monitoring.",
+        "Patterns infer botnet size, automation, and human involvement.",
+        "Absence of location metadata is itself a fingerprint."
+      ],
+      "composite": 68.75,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 1.5,
+      "specificity": 8,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20250604",
+      "duration_seconds": null,
+      "composite_base": 68.75,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "you-could-have-invented-transformers",
+      "title": "You Could’ve Invented Transformers",
+      "speakers": "Gwern",
+      "url": "https://gwern.net/blog/2025/you-could-have-invented-transformers",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Proposes a \"discovery fiction\" tutorial for Transformers.",
+        "Traces evolution from n-grams to self-attention.",
+        "Argues each component solves a concrete prior limitation.",
+        "Emphasizes understanding over historical accuracy.",
+        "Aims to demystify Transformer design choices."
+      ],
+      "composite": 66.3,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 5.5,
+      "evidence": 3.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20250525",
+      "duration_seconds": null,
+      "composite_base": 66.3,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "plumbing-vs-internet",
       "title": "Plumbing vs Internet, Revisited",
+      "speakers": "Gwern",
       "url": "https://gwern.net/blog/2025/plumbing-vs-internet",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Internet now more essential than plumbing.",
+        "Author's view shifted from plumbing to internet.",
+        "Poor farmers choose cell phones over toilets.",
+        "COVID-19 made internet indispensable.",
+        "By 2025, Gordon's question forgotten."
+      ],
+      "composite": 53.75,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 4.5,
+      "evidence": 2.5,
+      "specificity": 6,
+      "insight_density": 6.5,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20250102",
       "duration_seconds": null,
+      "composite_base": 53.75,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "perfume",
+      "title": "Perfume Reviews",
       "speakers": "Gwern",
-      "status": "pending"
+      "url": "https://gwern.net/blog/2025/perfume",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Explores avant-garde perfume samples.",
+        "Bought Acqua di Sale and Kyoto Incense.",
+        "Perfume can be art, not just craft.",
+        "Sampling is cheap via LuckyScent.",
+        "Describes reactions to unusual scents."
+      ],
+      "composite": 51.5,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 4,
+      "evidence": 3,
+      "specificity": 8,
+      "insight_density": 5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20250705",
+      "duration_seconds": null,
+      "composite_base": 51.5,
+      "rank": 12,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "better-llm-writing",
+      "title": "Towards Better LLM Creative Writing",
+      "speakers": "Gwern",
+      "url": "https://gwern.net/blog/2025/better-llm-writing",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Techniques to improve LLM creative writing",
+        "Anti-examples reverse ChatGPT-style edits",
+        "Intensive search + personalization avoids slop",
+        "Style manuals extracted from own writing",
+        "Superficial learning hinders finetuning gains"
+      ],
+      "composite": 51,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 5.5,
+      "evidence": 3,
+      "specificity": 6,
+      "insight_density": 5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20250529",
+      "duration_seconds": null,
+      "composite_base": 51,
+      "rank": 13,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "pinball-hacking",
+      "title": "Hacking Pinball High Scores",
+      "speakers": "Gwern",
+      "url": "https://gwern.net/blog/2025/pinball-hacking",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Taxonomy of pinball high-score cheating methods.",
+        "Applies security mindset to reward-hacking.",
+        "Covers identity, machine, display, and evidence tampering.",
+        "Includes physical, digital, and social engineering attacks.",
+        "No central argument; pure enumeration."
+      ],
+      "composite": 46.5,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 2,
+      "evidence": 1,
+      "specificity": 9,
+      "insight_density": 6,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20250528",
+      "duration_seconds": null,
+      "composite_base": 46.5,
+      "rank": 14,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "area-man",
+      "title": "Area Man Angry AI Not Silver Bullet",
+      "speakers": "Gwern",
+      "url": "https://gwern.net/blog/2025/area-man",
+      "status": "ok",
+      "cache_hit": false,
+      "summary_bullets": [
+        "Satire of tech-optimist complaining about slow automation.",
+        "Man rants at construction site, proposes unrealistic AI solutions.",
+        "Expert dismisses his vision as “5 years off.”",
+        "Parodies jargon-filled overconfidence and hype."
+      ],
+      "composite": 40.75,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 1,
+      "evidence": 0,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20250419",
+      "duration_seconds": null,
+      "composite_base": 40.75,
+      "rank": 15,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "questions-moravec",
+      "title": "30 Questions for Hans Moravec",
+      "speakers": "Gwern",
+      "url": "https://gwern.net/blog/2026/questions-moravec",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "List of interview questions for Hans Moravec",
+        "Covers forecasting, robotics, morality, succession",
+        "Includes original and GPT-5.5 revised question sets",
+        "Context: Gwern wrote after “The Scaling Hypothesis”",
+        "See Also section with related links"
+      ],
+      "composite": 38.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 1,
+      "evidence": 0,
+      "specificity": 7,
+      "insight_density": 6,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260422",
+      "duration_seconds": null,
+      "composite_base": 38.5,
+      "rank": 16,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "rabbit",
+      "title": "Jacky Rabbit and the Empty Jam Pot",
+      "speakers": "Gwern",
+      "url": "https://gwern.net/blog/2026/rabbit",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Author writes children's story in 30 minutes.",
+        "Rabbit seeks blueberry jam, confronts dragon.",
+        "Dragon's leaky pipe causes crop destruction.",
+        "Rabbit fixes pipe, dragon apologizes with jam.",
+        "Moral: fix small problems before they escalate."
+      ],
+      "composite": 28.5,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 1.5,
+      "evidence": 0,
+      "specificity": 6,
+      "insight_density": 2,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260309",
+      "duration_seconds": null,
+      "composite_base": 28.5,
+      "rank": 17,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "questions-young",
+      "title": "25 Questions for Alexander Young",
+      "speakers": "Gwern",
+      "url": "https://gwern.net/blog/2026/questions-young",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "List of interview questions for geneticist Alexander Young.",
+        "Biographical brief on Young's career and contributions.",
+        "Covers family-based GWAS, direct vs indirect effects.",
+        "Includes questions on missing heritability, embryo screening.",
+        "Also includes anonymous questions on suppression and politics."
+      ],
+      "composite": 19.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 1,
+      "evidence": 0,
+      "specificity": 3,
+      "insight_density": 2,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260410",
+      "duration_seconds": null,
+      "composite_base": 19.5,
+      "rank": 18,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

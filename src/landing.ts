@@ -1,6 +1,8 @@
 import "./landing.css";
 import { CONTENT_KIND_LABELS } from "./lib/content-kind.js";
+import { contentKindIconSvg } from "./lib/content-kind-icon.js";
 import { loadSourcesManifest } from "./lib/sources-manifest.js";
+import { sourcePagePath } from "./lib/source-urls.js";
 import { sourceSubtitle } from "./lib/public-source.js";
 import type { PublicSource } from "./lib/public-source.js";
 
@@ -16,7 +18,10 @@ function renderCover(source: PublicSource): HTMLElement {
 
   const kind = document.createElement("span");
   kind.className = "source-card-kind";
-  kind.textContent = CONTENT_KIND_LABELS[source.contentKind].kind;
+  const kindLabel = CONTENT_KIND_LABELS[source.contentKind].kind;
+  kind.innerHTML = contentKindIconSvg(source.contentKind);
+  kind.title = kindLabel;
+  kind.setAttribute("aria-label", kindLabel);
   cover.appendChild(kind);
 
   return cover;
@@ -26,7 +31,7 @@ function renderCard(source: PublicSource): HTMLLIElement {
   const item = document.createElement("li");
   const link = document.createElement("a");
   link.className = "source-card";
-  link.href = `/${source.slug}/`;
+  link.href = sourcePagePath(source.slug);
 
   link.appendChild(renderCover(source));
 

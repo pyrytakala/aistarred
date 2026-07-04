@@ -1,129 +1,223 @@
 {
   "source_id": "founders-podcast-q2-2026",
-  "video_count": 15,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
-    {
-      "id": "oA_FT515VFM",
-      "title": "How Honda Works",
-      "url": "https://www.youtube.com/watch?v=oA_FT515VFM",
-      "upload_date": "20260628",
-      "duration_seconds": 2885,
-      "status": "pending"
-    },
+  "model": "accounts/fireworks/models/deepseek-v4-flash",
+  "video_count": 7,
+  "scored_count": 7,
+  "ranked_count": 7,
+  "rankings": [
     {
       "id": "CdIMFZk1OJA",
       "title": "Joseph Pulitzer: The Inventor of Mass Media",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=CdIMFZk1OJA",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Pulitzer rose from homeless immigrant to media mogul.",
+        "He pioneered mass-circulation journalism with sensationalism.",
+        "His blindness and isolation marked his later years.",
+        "He used aggressive promotion and cost control.",
+        "His life story is both inspiring and cautionary."
+      ],
+      "composite": 61.51,
+      "audience_level": "general",
+      "substance": 6,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 7,
+      "like_count": null,
       "upload_date": "20260620",
       "duration_seconds": 3145,
-      "status": "pending"
+      "composite_base": 63.75,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.24
     },
     {
-      "id": "AXYbyl-5-2U",
-      "title": "The Simple Genius of Jony Ive",
-      "url": "https://www.youtube.com/watch?v=AXYbyl-5-2U",
-      "upload_date": "20260610",
-      "duration_seconds": 3151,
-      "status": "pending"
+      "id": "oA_FT515VFM",
+      "title": "How Honda Works",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=oA_FT515VFM",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Biography of Soichiro Honda’s life and philosophy",
+        "Honda’s obsession with engines and improvement",
+        "Partnership with Fujisawa for business side",
+        "Super Cub became best-selling motor vehicle",
+        "Racing used as R&D to drive innovation"
+      ],
+      "composite": 60.19,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 6.5,
+      "evidence": 5,
+      "specificity": 7,
+      "insight_density": 5.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 2885,
+      "composite_base": 62,
+      "rank": 2,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.81
     },
     {
       "id": "JjV1uikElgs",
       "title": "Steve Jobs in Exile",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=JjV1uikElgs",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Steve Jobs’ 12-year exile at NeXT",
+        "Book chronicles his mistakes and transformation",
+        "NeXT nearly bankrupt multiple times",
+        "Jobs learned to lead and sell software",
+        "Acquisition by Apple in 1997"
+      ],
+      "composite": 56.9,
+      "audience_level": "general",
+      "like_count": null,
       "upload_date": "20260604",
       "duration_seconds": 3212,
-      "status": "pending"
-    },
-    {
-      "id": "wu5SsVzcfx0",
-      "title": "Phil Knight: Founder of Nike",
-      "url": "https://www.youtube.com/watch?v=wu5SsVzcfx0",
-      "upload_date": "20260507",
-      "duration_seconds": 3781,
-      "status": "pending"
+      "composite_base": 59.25,
+      "rank": 3,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -2.35
     },
     {
       "id": "-dh-QNlX12k",
       "title": "How Arnold Schwarzenegger Won",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=-dh-QNlX12k",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Arnold discovered bodybuilding at age 15",
+        "He idolized Reg Park and studied him obsessively",
+        "Trained twice daily, even in freezing conditions",
+        "Used positive affirmations and visualization daily",
+        "Applied bodybuilding discipline to acting and business"
+      ],
+      "composite": 56.15,
+      "audience_level": "general",
+      "substance": 6,
+      "evidence": 4,
+      "specificity": 8,
+      "insight_density": 5,
+      "non_promotion": 7,
+      "like_count": null,
       "upload_date": "20260419",
       "duration_seconds": 2609,
-      "status": "pending"
+      "composite_base": 57.5,
+      "rank": 4,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.35
+    },
+    {
+      "id": "wu5SsVzcfx0",
+      "title": "Phil Knight: Founder of Nike",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=wu5SsVzcfx0",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Phil Knight's early life and inspiration",
+        "Founding Nike from a crazy idea",
+        "Bill Bowerman as mentor and co-founder",
+        "Financial struggles and relentless growth",
+        "Going public and personal regrets"
+      ],
+      "composite": 50.7,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 5,
+      "evidence": 4,
+      "specificity": 8,
+      "insight_density": 5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260507",
+      "duration_seconds": 3781,
+      "composite_base": 54,
+      "rank": 5,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -3.3
     },
     {
       "id": "mHE37R0aBUA",
       "title": "The Relentless Missionary Creating AGI: Demis Hassabis",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=mHE37R0aBUA",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Chess prodigy founded DeepMind for AGI.",
+        "Sold to Google to avoid fundraising distractions.",
+        "AlphaGo defeated world champion at Go.",
+        "AlphaFold solved protein folding, won Nobel.",
+        "Demis is a missionary, not mercenary."
+      ],
+      "composite": 49.28,
+      "audience_level": "general",
+      "substance": 6,
+      "evidence": 4,
+      "specificity": 7.5,
+      "insight_density": 5,
+      "non_promotion": 2,
+      "like_count": null,
       "upload_date": "20260401",
       "duration_seconds": 3280,
-      "status": "pending"
+      "composite_base": 51.75,
+      "rank": 6,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -2.47
     },
     {
-      "id": "nqiuSshC9GA",
-      "title": "How Elon Thinks",
-      "url": "https://www.youtube.com/watch?v=nqiuSshC9GA",
-      "upload_date": "20260324",
-      "duration_seconds": 3071,
-      "status": "pending"
-    },
-    {
-      "id": "owZ6xh_gOdY",
-      "title": "How SpaceX Works",
-      "url": "https://www.youtube.com/watch?v=owZ6xh_gOdY",
-      "upload_date": "20260308",
-      "duration_seconds": 2452,
-      "status": "pending"
-    },
-    {
-      "id": "eSZ4Xep1sJU",
-      "title": "How To Run Down A Dream",
-      "url": "https://www.youtube.com/watch?v=eSZ4Xep1sJU",
-      "upload_date": "20260303",
-      "duration_seconds": 1871,
-      "status": "pending"
-    },
-    {
-      "id": "g2-duG1-Jxc",
-      "title": "How Roger Federer Works.",
-      "url": "https://www.youtube.com/watch?v=g2-duG1-Jxc",
-      "upload_date": "20260219",
-      "duration_seconds": 2906,
-      "status": "pending"
-    },
-    {
-      "id": "d_Bv59Rxo6w",
-      "title": "Tortured Into Greatness: The Life of Andre Agassi",
-      "url": "https://www.youtube.com/watch?v=d_Bv59Rxo6w",
-      "upload_date": "20260204",
-      "duration_seconds": 3664,
-      "status": "pending"
-    },
-    {
-      "id": "RUKafK3xCfY",
-      "title": "Excellent Advice For Living: 79 Maxims from a Wise Old Man",
-      "url": "https://www.youtube.com/watch?v=RUKafK3xCfY",
-      "upload_date": "20260125",
-      "duration_seconds": 2246,
-      "status": "pending"
-    },
-    {
-      "id": "AmkAH6MzRgM",
-      "title": "How Rick Rubin Works",
-      "url": "https://www.youtube.com/watch?v=AmkAH6MzRgM",
-      "upload_date": "20260116",
-      "duration_seconds": 4830,
-      "status": "pending"
-    },
-    {
-      "id": "wYi4emYR89I",
-      "title": "The Creative Genius of Rick Rubin",
-      "url": "https://www.youtube.com/watch?v=wYi4emYR89I",
-      "upload_date": "20260108",
-      "duration_seconds": 2573,
-      "status": "pending"
+      "id": "AXYbyl-5-2U",
+      "title": "The Simple Genius of Jony Ive",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=AXYbyl-5-2U",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Jony Ive’s design philosophy: simplify, remove, reduce.",
+        "His father nurtured his early design curiosity.",
+        "Partnership with Steve Jobs reversed Apple’s engineering-led culture.",
+        "iMac handle made technology approachable.",
+        "iPod and iPhone built on obsessive attention to detail."
+      ],
+      "composite": 37.75,
+      "audience_level": "general",
+      "substance": 4,
+      "evidence": 4,
+      "specificity": 7,
+      "insight_density": 3,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260610",
+      "duration_seconds": 3151,
+      "composite_base": 40,
+      "rank": 7,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -2.25
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

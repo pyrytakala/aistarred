@@ -25,16 +25,22 @@ function syncSourcesManifest(): void {
 function syncVercelRewrites(): void {
   const vercel = JSON.parse(readFileSync(VERCEL_PATH, "utf8")) as Record<string, unknown>;
   const rewrites = listSources().flatMap((source) => [
-    { source: `/${source.slug}`, destination: "/source/index.html" },
-    { source: `/${source.slug}/`, destination: "/source/index.html" },
+    { source: `/sources/${source.slug}`, destination: "/source/index.html" },
+    { source: `/sources/${source.slug}/`, destination: "/source/index.html" },
+  ]);
+  const redirects = listSources().flatMap((source) => [
+    { source: `/${source.slug}`, destination: `/sources/${source.slug}`, permanent: true },
+    { source: `/${source.slug}/`, destination: `/sources/${source.slug}/`, permanent: true },
   ]);
 
   writeFileSync(
     VERCEL_PATH,
-    `${JSON.stringify({ ...vercel, rewrites }, null, 2)}\n`,
+    `${JSON.stringify({ ...vercel, rewrites, redirects }, null, 2)}\n`,
     "utf8",
   );
-  console.log(`Updated ${VERCEL_PATH} (${rewrites.length} source rewrites)`);
+  console.log(
+    `Updated ${VERCEL_PATH} (${rewrites.length} source rewrites, ${redirects.length} legacy redirects)`,
+  );
 }
 
 function syncRankingsFiles(): void {

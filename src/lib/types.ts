@@ -45,6 +45,7 @@ export interface RankedVideo {
   composite?: number;
   composite_base?: number;
   like_adjustment?: number;
+  length_adjustment?: number;
   like_count?: number | null;
   upload_date?: string | null;
   duration_seconds?: number | null;

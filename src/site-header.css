@@ -3,7 +3,30 @@
 }
 
 .site-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
   padding: 1rem 1.5rem 0.25rem 1rem;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.site-nav-link {
+  color: var(--muted, #5f6b7c);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.site-nav-link:hover,
+.site-nav-link[aria-current="page"] {
+  color: var(--text, #1a2233);
 }
 
 .site-logo {

@@ -1,90 +1,409 @@
 {
   "source_id": "anthropic-engineering-h1-2026",
   "video_count": 9,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
-    {
-      "id": "how-we-contain-claude",
-      "title": "How we contain Claude across products",
-      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
-      "upload_date": "20260423",
-      "duration_seconds": null,
-      "speakers": "Anthropic Engineering",
-      "status": "pending"
-    },
-    {
-      "id": "april-23-postmortem",
-      "title": "An update on recent Claude Code quality reports",
-      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
-      "upload_date": "20260408",
-      "duration_seconds": null,
-      "speakers": "Anthropic Engineering",
-      "status": "pending"
-    },
-    {
-      "id": "managed-agents",
-      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
-      "url": "https://www.anthropic.com/engineering/managed-agents",
-      "upload_date": "20260325",
-      "duration_seconds": null,
-      "speakers": "Anthropic Engineering",
-      "status": "pending"
-    },
-    {
-      "id": "claude-code-auto-mode",
-      "title": "How we built Claude Code auto mode: a safer way to skip permissions",
-      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
-      "upload_date": "20260324",
-      "duration_seconds": null,
-      "speakers": "Anthropic Engineering",
-      "status": "pending"
-    },
-    {
-      "id": "harness-design-long-running-apps",
-      "title": "Harness design for long-running application development",
-      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
-      "upload_date": "20260306",
-      "duration_seconds": null,
-      "speakers": "Anthropic Engineering",
-      "status": "pending"
-    },
+  "scored_count": 9,
+  "ranked_count": 9,
+  "rankings": [
     {
       "id": "eval-awareness-browsecomp",
       "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+      "speakers": "Anthropic Engineering",
       "url": "https://www.anthropic.com/engineering/eval-awareness-browsecomp",
+      "status": "ok",
+      "summary_bullets": [
+        "Model decrypted benchmark answer key.",
+        "Contamination found in 9 of 1266 problems.",
+        "Eval awareness observed in two cases.",
+        "Multi-agent increased unintended solutions 3.7x.",
+        "Models can recognize evaluation-like questions."
+      ],
+      "composite": 87.3,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 9,
+      "specificity": 9.5,
+      "insight_density": 8,
+      "non_promotion": 9.5,
+      "like_count": null,
       "upload_date": "20260205",
       "duration_seconds": null,
-      "speakers": "Anthropic Engineering",
-      "status": "pending"
+      "composite_base": 87.3,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
-      "id": "infrastructure-noise",
-      "title": "Quantifying infrastructure noise in agentic coding evals",
-      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
-      "upload_date": "20260205",
-      "duration_seconds": null,
+      "id": "how-we-contain-claude",
+      "title": "How we contain Claude across products",
       "speakers": "Anthropic Engineering",
-      "status": "pending"
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "status": "ok",
+      "summary_bullets": [
+        "Claude agents get routine high-risk access.",
+        "Human approval fatigue reduces oversight effectiveness.",
+        "Environment containment beats probabilistic model defenses.",
+        "Custom proxy allowed data exfiltration via approved domain.",
+        "VM isolation blocks endpoint detection software."
+      ],
+      "composite": 87,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 9,
+      "specificity": 9.5,
+      "insight_density": 8.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260423",
+      "duration_seconds": null,
+      "composite_base": 87,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "building-c-compiler",
       "title": "Building a C compiler with a team of parallel Claudes",
+      "speakers": "Anthropic Engineering",
       "url": "https://www.anthropic.com/engineering/building-c-compiler",
+      "status": "ok",
+      "summary_bullets": [
+        "16 parallel Claude agents built C compiler.",
+        "Compiler compiles Linux 6.9 on three architectures.",
+        "Cost $20,000 in API fees.",
+        "Agents used lock-based task synchronization.",
+        "Lessons on test design for autonomous agents."
+      ],
+      "composite": 87,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 9,
+      "specificity": 9.5,
+      "insight_density": 8.5,
+      "non_promotion": 8,
+      "like_count": null,
       "upload_date": "20260121",
       "duration_seconds": null,
+      "composite_base": 87,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "infrastructure-noise",
+      "title": "Quantifying infrastructure noise in agentic coding evals",
       "speakers": "Anthropic Engineering",
-      "status": "pending"
+      "url": "https://www.anthropic.com/engineering/infrastructure-noise",
+      "status": "ok",
+      "summary_bullets": [
+        "Infrastructure configuration changes benchmark scores significantly.",
+        "Resource limits affect agent success rates.",
+        "Terminal-Bench scores vary up to 6 percentage points.",
+        "Recommend separating resource floor and ceiling.",
+        "Small leaderboard differences may be noise."
+      ],
+      "composite": 84.75,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9.5,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260205",
+      "duration_seconds": null,
+      "composite_base": 84.75,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "april-23-postmortem",
+      "title": "An update on recent Claude Code quality reports",
+      "speakers": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering/april-23-postmortem",
+      "status": "ok",
+      "summary_bullets": [
+        "Three bugs degraded Claude Code quality.",
+        "Default reasoning effort changed from high to medium.",
+        "Caching bug caused forgetfulness in sessions.",
+        "System prompt change reduced verbosity but hurt quality.",
+        "All issues fixed by April 20."
+      ],
+      "composite": 82.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 8.5,
+      "like_count": null,
+      "upload_date": "20260408",
+      "duration_seconds": null,
+      "composite_base": 82.5,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "harness-design-long-running-apps",
+      "title": "Harness design for long-running application development",
+      "speakers": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "status": "ok",
+      "summary_bullets": [
+        "Multi-agent harness improves long-task performance.",
+        "Separating generator and evaluator overcomes self-evaluation bias.",
+        "Context resets address context anxiety in older models.",
+        "Evaluator uses Playwright to test live applications.",
+        "Harness cost 20x more but produced functional apps."
+      ],
+      "composite": 79,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260306",
+      "duration_seconds": null,
+      "composite_base": 79,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "claude-code-auto-mode",
+      "title": "How we built Claude Code auto mode: a safer way to skip permissions",
+      "speakers": "Anthropic Engineering",
+      "url": "https://www.anthropic.com/engineering/claude-code-auto-mode",
+      "status": "ok",
+      "summary_bullets": [
+        "Auto mode uses two-layer defense.",
+        "Classifier blocks dangerous actions automatically.",
+        "0.4% false positive rate on real traffic.",
+        "17% false negative on overeager actions.",
+        "Designed to replace --dangerously-skip-permissions."
+      ],
+      "composite": 77,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260324",
+      "duration_seconds": null,
+      "composite_base": 77,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "demystifying-evals-for-ai-agents",
       "title": "Demystifying evals for AI agents",
+      "speakers": "Anthropic Engineering",
       "url": "https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents",
+      "status": "ok",
+      "summary_bullets": [
+        "Evals test AI agents automatically.",
+        "Combine code, model, and human graders.",
+        "Start with 20–50 tasks from real failures.",
+        "Use pass@k and pass^k for non-determinism.",
+        "Read transcripts to verify graders."
+      ],
+      "composite": 74.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 7,
+      "non_promotion": 8,
+      "like_count": null,
       "upload_date": "20260109",
       "duration_seconds": null,
+      "composite_base": 74.5,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "managed-agents",
+      "title": "Scaling Managed Agents: Decoupling the brain from the hands",
       "speakers": "Anthropic Engineering",
-      "status": "pending"
+      "url": "https://www.anthropic.com/engineering/managed-agents",
+      "status": "ok",
+      "summary_bullets": [
+        "Decoupled brain (Claude) from hands (sandboxes).",
+        "Session log stores events outside Claude's context window.",
+        "Decoupling cut time-to-first-token by 60–90%.",
+        "Harness and sandbox can fail independently.",
+        "Security tokens stay outside sandbox."
+      ],
+      "composite": 72,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260325",
+      "duration_seconds": null,
+      "composite_base": 72,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

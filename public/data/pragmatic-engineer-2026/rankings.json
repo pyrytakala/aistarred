@@ -1,144 +1,430 @@
 {
   "source_id": "pragmatic-engineer-2026",
-  "video_count": 15,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
-    {
-      "id": "the-pulse-a-new-trend-smart-model-routing",
-      "title": "The Pulse: a new trend, smart model routing",
-      "url": "https://blog.pragmaticengineer.com/the-pulse-a-new-trend-smart-model-routing/",
-      "upload_date": "20260702",
-      "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
-    },
-    {
-      "id": "pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it",
-      "title": "Pollen tried to remove my article about CEO Callum Negus-Fancey and CTO Bradley Wright, and Google is assisting with it",
-      "url": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/",
-      "upload_date": "20260628",
-      "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
-    },
-    {
-      "id": "coinbase-fail",
-      "title": "Reliability fail: No automated zone failover for Coinbase’s global trading service",
-      "url": "https://blog.pragmaticengineer.com/coinbase-fail/",
-      "upload_date": "20260623",
-      "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
-    },
-    {
-      "id": "the-pulse-a-trend-of-trying-to-cut-back-on-ai-spend-within-eng-departments",
-      "title": "The Pulse: a trend of trying to cut back on AI spend within eng departments?",
-      "url": "https://blog.pragmaticengineer.com/the-pulse-a-trend-of-trying-to-cut-back-on-ai-spend-within-eng-departments/",
-      "upload_date": "20260611",
-      "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
-    },
-    {
-      "id": "the-pulse-antigravity-2-0-takes-ide-out-of-its-new-ide",
-      "title": "The Pulse: Antigravity 2.0 takes ‘IDE’ out of its new IDE",
-      "url": "https://blog.pragmaticengineer.com/the-pulse-antigravity-2-0-takes-ide-out-of-its-new-ide/",
-      "upload_date": "20260611",
-      "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
-    },
-    {
-      "id": "the-pulse-forward-deployed-engineering-heats-up-again",
-      "title": "The Pulse: Forward deployed engineering heats up again",
-      "url": "https://blog.pragmaticengineer.com/the-pulse-forward-deployed-engineering-heats-up-again/",
-      "upload_date": "20260524",
-      "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
-    },
-    {
-      "id": "google-cloud-deletes-australian-trading-funds-infra",
-      "title": "Google Cloud deletes Australian trading fund’s infra",
-      "url": "https://blog.pragmaticengineer.com/google-cloud-deletes-australian-trading-funds-infra/",
-      "upload_date": "20260520",
-      "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
-    },
-    {
-      "id": "the-pulse-did-capacity-shortages-turn-anthropic-hostile-to-devs",
-      "title": "The Pulse: Did capacity shortages turn Anthropic hostile to devs?",
-      "url": "https://blog.pragmaticengineer.com/the-pulse-did-capacity-shortages-turn-anthropic-hostile-to-devs/",
-      "upload_date": "20260514",
-      "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
-    },
-    {
-      "id": "techpays-has-been-acquired-levels-fyi",
-      "title": "TechPays has been acquired by Levels.fyi",
-      "url": "https://blog.pragmaticengineer.com/techpays-has-been-acquired-levels-fyi/",
-      "upload_date": "20260512",
-      "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
-    },
+  "video_count": 12,
+  "scored_count": 12,
+  "ranked_count": 12,
+  "rankings": [
     {
       "id": "the-pulse-ai-load-breaks-github",
       "title": "The Pulse: AI load breaks GitHub – why not other vendors?",
+      "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/the-pulse-ai-load-breaks-github/",
+      "status": "ok",
+      "summary_bullets": [
+        "GitHub suffered data integrity bug affecting 2,092 pull requests.",
+        "Reliability dropped to 86% uptime; outages lasted hours daily.",
+        "CTO blamed AI agent load spike; other vendors handle similar load.",
+        "HashiCorp founder quit GitHub citing unproductivity from outages.",
+        "GitHub only began 10x capacity planning in October 2025."
+      ],
+      "composite": 81,
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
       "upload_date": "20260507",
       "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
-    },
-    {
-      "id": "the-pulse-token-spend-breaks-budgets-what-next",
-      "title": "The Pulse: token spend breaks budgets – what next?",
-      "url": "https://blog.pragmaticengineer.com/the-pulse-token-spend-breaks-budgets-what-next/",
-      "upload_date": "20260430",
-      "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
-    },
-    {
-      "id": "the-pulse-tokenmaxxing-as-a-weird-new-trend",
-      "title": "The Pulse: ‘Tokenmaxxing’ as a weird new trend",
-      "url": "https://blog.pragmaticengineer.com/the-pulse-tokenmaxxing-as-a-weird-new-trend/",
-      "upload_date": "20260423",
-      "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
-    },
-    {
-      "id": "the-pulse-is-github-still-best-for-ai-native-development",
-      "title": "The Pulse: is GitHub still best for AI-native development?",
-      "url": "https://blog.pragmaticengineer.com/the-pulse-is-github-still-best-for-ai-native-development/",
-      "upload_date": "20260403",
-      "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
-    },
-    {
-      "id": "is-the-fde-role-becoming-less-desirable",
-      "title": "Is the FDE role becoming less desirable?",
-      "url": "https://blog.pragmaticengineer.com/is-the-fde-role-becoming-less-desirable/",
-      "upload_date": "20260327",
-      "duration_seconds": null,
-      "speakers": "The Pragmatic Engineer",
-      "status": "pending"
+      "composite_base": 81,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "the-pulse-cloudflare-rewrites-next-js-as-ai-rewrites-commercial-open-source",
       "title": "The Pulse: Cloudflare rewrites Next.js as AI rewrites commercial open source",
+      "speakers": "The Pragmatic Engineer",
       "url": "https://blog.pragmaticengineer.com/the-pulse-cloudflare-rewrites-next-js-as-ai-rewrites-commercial-open-source/",
+      "status": "ok",
+      "summary_bullets": [
+        "Cloudflare rewrote Next.js in one week using AI.",
+        "Cost only $1,100 in tokens; one engineer did it.",
+        "New version (vinext) uses Vite instead of Turbopack.",
+        "AI makes rewriting open source projects ~100x cheaper.",
+        "Threatens commercial open source business models."
+      ],
+      "composite": 80.25,
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
       "upload_date": "20260305",
       "duration_seconds": null,
+      "composite_base": 80.25,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "coinbase-fail",
+      "title": "Reliability fail: No automated zone failover for Coinbase’s global trading service",
       "speakers": "The Pragmatic Engineer",
-      "status": "pending"
+      "url": "https://blog.pragmaticengineer.com/coinbase-fail/",
+      "status": "ok",
+      "summary_bullets": [
+        "Coinbase outage lasted 10 hours.",
+        "Single AWS availability zone dependency.",
+        "No automated cross-zone failover existed.",
+        "Emergency code change required for recovery.",
+        "CEO boasts AI code while basics fail."
+      ],
+      "composite": 80,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260623",
+      "duration_seconds": null,
+      "composite_base": 80,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "the-pulse-tokenmaxxing-as-a-weird-new-trend",
+      "title": "The Pulse: ‘Tokenmaxxing’ as a weird new trend",
+      "speakers": "The Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-tokenmaxxing-as-a-weird-new-trend/",
+      "status": "ok",
+      "summary_bullets": [
+        "Meta employees compete on token usage leaderboard.",
+        "Tokenmaxxing wastes money and encourages gaming.",
+        "Microsoft and Salesforce also incentivize token burning.",
+        "Shopify uses circuit breakers to avoid waste.",
+        "Tokenmaxxing resembles lines-of-code metric pitfalls."
+      ],
+      "composite": 69.75,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260423",
+      "duration_seconds": null,
+      "composite_base": 69.75,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "the-pulse-antigravity-2-0-takes-ide-out-of-its-new-ide",
+      "title": "The Pulse: Antigravity 2.0 takes ‘IDE’ out of its new IDE",
+      "speakers": "The Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-antigravity-2-0-takes-ide-out-of-its-new-ide/",
+      "status": "ok",
+      "summary_bullets": [
+        "Google launches Antigravity 2.0, confusing naming.",
+        "New version removes IDE, adds conversational interface.",
+        "Product feels rushed, buggy, poorly tested.",
+        "Google deprecates Gemini CLI, forces migration.",
+        "Antigravity lacks support for top AI models."
+      ],
+      "composite": 68.8,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260611",
+      "duration_seconds": null,
+      "composite_base": 68.8,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "the-pulse-is-github-still-best-for-ai-native-development",
+      "title": "The Pulse: is GitHub still best for AI-native development?",
+      "speakers": "The Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-is-github-still-best-for-ai-native-development/",
+      "status": "ok",
+      "summary_bullets": [
+        "GitHub availability dropped to 90%.",
+        "AI agent load surged 6x in 3 months.",
+        "Startup Pierre claims 15,000 repos per minute.",
+        "GitHub lacks CEO and strategic focus.",
+        "Mitchell Hashimoto advises drastic changes."
+      ],
+      "composite": 66.3,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7,
+      "evidence": 6.5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260403",
+      "duration_seconds": null,
+      "composite_base": 66.3,
+      "rank": 6,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "the-pulse-forward-deployed-engineering-heats-up-again",
+      "title": "The Pulse: Forward deployed engineering heats up again",
+      "speakers": "The Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-forward-deployed-engineering-heats-up-again/",
+      "status": "ok",
+      "summary_bullets": [
+        "Google simplifies FDE hiring process.",
+        "OpenAI outsources FDEs to new company.",
+        "Anthropic plans similar outsourced FDE unit.",
+        "FDE role resembles consultant/solutions architect.",
+        "Demand rising but unattractive to experienced devs."
+      ],
+      "composite": 65.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260524",
+      "duration_seconds": null,
+      "composite_base": 65.5,
+      "rank": 7,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "the-pulse-token-spend-breaks-budgets-what-next",
+      "title": "The Pulse: token spend breaks budgets – what next?",
+      "speakers": "The Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-token-spend-breaks-budgets-what-next/",
+      "status": "ok",
+      "summary_bullets": [
+        "Token costs up ~10x in six months at many firms",
+        "Two strategies: let rip & measure, or curb spend",
+        "Some devs spend $500/day on Claude Code",
+        "Companies negotiate discounts at >$1M spend",
+        "Cheaper models cut costs 30% via model routing"
+      ],
+      "composite": 63.75,
+      "audience_level": "practitioner",
+      "substance": 6.5,
+      "evidence": 5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 6.5,
+      "like_count": null,
+      "upload_date": "20260430",
+      "duration_seconds": null,
+      "composite_base": 63.75,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it",
+      "title": "Pollen tried to remove my article about CEO Callum Negus-Fancey and CTO Bradley Wright, and Google is assisting with it",
+      "speakers": "The Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/pollen-tried-to-remove-my-article-about-callum-negus-fancey-and-google-is-assisting-to-it/",
+      "status": "ok",
+      "summary_bullets": [
+        "Pollen collapsed after fraud and mismanagement.",
+        "Bogus DMCA takedown removed article from Google.",
+        "Fake claimant from uninhabited Bouvet Island.",
+        "Author appeals; Google's system abused.",
+        "Lawsuit against Pollen executives ongoing."
+      ],
+      "composite": 62,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": null,
+      "composite_base": 62,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "google-cloud-deletes-australian-trading-funds-infra",
+      "title": "Google Cloud deletes Australian trading fund’s infra",
+      "speakers": "The Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/google-cloud-deletes-australian-trading-funds-infra/",
+      "status": "ok",
+      "summary_bullets": [
+        "Google Cloud deleted UniSuper's subscription.",
+        "UniSuper avoided data loss via third-party backup.",
+        "Two-week outage for 615,000 Australian members.",
+        "Google Cloud CEO publicly took blame.",
+        "Lesson: backup outside your cloud provider."
+      ],
+      "composite": 61.75,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 6,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260520",
+      "duration_seconds": null,
+      "composite_base": 61.75,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "the-pulse-did-capacity-shortages-turn-anthropic-hostile-to-devs",
+      "title": "The Pulse: Did capacity shortages turn Anthropic hostile to devs?",
+      "speakers": "The Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-did-capacity-shortages-turn-anthropic-hostile-to-devs/",
+      "status": "ok",
+      "summary_bullets": [
+        "Anthropic faced capacity shortages, nerfed Claude Code.",
+        "SpaceX/xAI renting data center to Anthropic.",
+        "CEO reported 80x growth vs planned 10x.",
+        "xAI banned from Claude, now leasing capacity.",
+        "Capacity issues may explain hostile developer policies."
+      ],
+      "composite": 60.75,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 7.5,
+      "insight_density": 6,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260514",
+      "duration_seconds": null,
+      "composite_base": 60.75,
+      "rank": 11,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "the-pulse-a-trend-of-trying-to-cut-back-on-ai-spend-within-eng-departments",
+      "title": "The Pulse: a trend of trying to cut back on AI spend within eng departments?",
+      "speakers": "The Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-a-trend-of-trying-to-cut-back-on-ai-spend-within-eng-departments/",
+      "status": "ok",
+      "summary_bullets": [
+        "Uber president questions AI productivity link.",
+        "Companies blow through AI budgets early.",
+        "Engineers seek cheaper models and routing.",
+        "Knowledge-sharing sessions on AI efficiency.",
+        "Performance reviews may reward token savings."
+      ],
+      "composite": 55.75,
+      "audience_level": "practitioner",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 7.5,
+      "insight_density": 6,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260611",
+      "duration_seconds": null,
+      "composite_base": 55.75,
+      "rank": 12,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

@@ -2,7 +2,7 @@
   "source_id": "latent-space-pod-q2-2026",
   "video_count": 34,
   "scored_count": 34,
-  "ranked_count": 12,
+  "ranked_count": 34,
   "rankings": [
     {
       "id": "T8u7wOXhDb0",
@@ -17,7 +17,7 @@
         "Models struggle with long-horizon tasks and social awareness.",
         "Butterbench tests robot social intelligence."
       ],
-      "composite": 83.25,
+      "composite": 78.45,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 7,
@@ -29,156 +29,26 @@
       "duration_seconds": 4677,
       "composite_base": 83.25,
       "rank": 1,
-      "like_adjustment": 0,
       "tags": [
         {
-          "label": "Strong substance",
+          "label": "Substance",
           "tone": "positive"
         },
         {
-          "label": "Strong specificity",
+          "label": "Specificity",
           "tone": "positive"
         },
         {
-          "label": "Strong insight",
+          "label": "Insight",
           "tone": "positive"
         },
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ]
-    },
-    {
-      "id": "9d899Ram9Bs",
-      "title": "🔬How GPT‑5 derived new results in theoretical physics and quantum gravity — Alex Lupsasca, OpenAI",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=9d899Ram9Bs",
-      "status": "ok",
-      "summary_bullets": [
-        "AI solved open physics problem stumping experts for a year.",
-        "Single‑minus gluon amplitudes are non‑zero, have simple formula.",
-        "GPT‑5.2 Pro conjectured and proved the result.",
-        "Same method extended to graviton amplitudes.",
-        "AI accelerates research but verification remains a bottleneck."
       ],
-      "composite": 83.25,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 8,
-      "specificity": 9,
-      "insight_density": 8.5,
-      "non_promotion": 7,
-      "like_count": null,
-      "upload_date": "20260505",
-      "duration_seconds": 5511,
-      "composite_base": 83.25,
-      "rank": 2,
       "like_adjustment": 0,
-      "tags": [
-        {
-          "label": "Strong substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong evidence",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong insight",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
-      "id": "UmCZBwsibgs",
-      "title": "FPV Drones -The Next War Is Already Here — Yaroslav Azhnyuk, The Fourth Law & Noah Smith, Noahpinion",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=UmCZBwsibgs",
-      "status": "ok",
-      "summary_bullets": [
-        "Ukraine produced 4 million FPV drones last year.",
-        "Drones cause 70–80% of frontline casualties.",
-        "Five levels of drone autonomy defined.",
-        "China could produce 4 billion FPV drones.",
-        "Fiber optic cable costs surged due to AI data centers."
-      ],
-      "composite": 82.3,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 7.5,
-      "specificity": 9,
-      "insight_density": 8.5,
-      "non_promotion": 7,
-      "like_count": null,
-      "upload_date": "20260518",
-      "duration_seconds": 7168,
-      "composite_base": 82.3,
-      "rank": 3,
-      "like_adjustment": 0,
-      "tags": [
-        {
-          "label": "Strong substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong insight",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
-      "id": "jPtQlILfkhA",
-      "title": "Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and Video Agents— Ethan He",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=jPtQlILfkhA",
-      "status": "ok",
-      "summary_bullets": [
-        "Built Grok Imagine in 3 months from scratch.",
-        "Video model gains come from language models, not diffusion.",
-        "Video agents combine LLM reasoning with generative tools.",
-        "World models require real-time, interactive, long-horizon video.",
-        "Left xAI to focus on language model research."
-      ],
-      "composite": 82,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 7,
-      "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 9,
-      "like_count": null,
-      "upload_date": "20260601",
-      "duration_seconds": 6282,
-      "composite_base": 82,
-      "rank": 4,
-      "like_adjustment": 0,
-      "tags": [
-        {
-          "label": "Strong substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ]
+      "length_adjustment": -4.8
     },
     {
       "id": "knx2wrILP1M",
@@ -193,7 +63,7 @@
         "Scaling laws continue but supply constraints persist.",
         "Future may eliminate programming languages for humans."
       ],
-      "composite": 82,
+      "composite": 77.37,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 7,
@@ -204,205 +74,73 @@
       "upload_date": "20260403",
       "duration_seconds": 4580,
       "composite_base": 82,
-      "rank": 5,
-      "like_adjustment": 0,
+      "rank": 2,
       "tags": [
         {
-          "label": "Strong substance",
+          "label": "Substance",
           "tone": "positive"
         },
         {
-          "label": "Strong specificity",
+          "label": "Specificity",
           "tone": "positive"
         },
         {
-          "label": "Strong insight",
+          "label": "Insight",
           "tone": "positive"
         },
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.63
     },
     {
-      "id": "ATt7QJgt-2k",
-      "title": "Notion’s Sarah Sachs & Simon Last on Custom Agents, Evals, and the Future of Work",
+      "id": "9d899Ram9Bs",
+      "title": "🔬How GPT‑5 derived new results in theoretical physics and quantum gravity — Alex Lupsasca, OpenAI",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=ATt7QJgt-2k",
+      "url": "https://www.youtube.com/watch?v=9d899Ram9Bs",
       "status": "ok",
       "summary_bullets": [
-        "Notion rebuilt agent harness five times.",
-        "Custom agents use usage-based pricing.",
-        "Model behavior engineers are a new role.",
-        "MCP good for narrow agents, CLI for bootstrapping.",
-        "Notion’s agentic find rethinks retrieval for agents."
+        "AI solved open physics problem stumping experts for a year.",
+        "Single‑minus gluon amplitudes are non‑zero, have simple formula.",
+        "GPT‑5.2 Pro conjectured and proved the result.",
+        "Same method extended to graviton amplitudes.",
+        "AI accelerates research but verification remains a bottleneck."
       ],
-      "composite": 81,
+      "composite": 77.06,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 7,
+      "evidence": 8,
       "specificity": 9,
       "insight_density": 8.5,
       "non_promotion": 7,
       "like_count": null,
-      "upload_date": "20260415",
-      "duration_seconds": 5137,
-      "composite_base": 81,
-      "rank": 6,
-      "like_adjustment": 0,
+      "upload_date": "20260505",
+      "duration_seconds": 5511,
+      "composite_base": 83.25,
+      "rank": 3,
       "tags": [
         {
-          "label": "Strong substance",
+          "label": "Substance",
           "tone": "positive"
         },
         {
-          "label": "Strong specificity",
+          "label": "Evidence",
           "tone": "positive"
         },
         {
-          "label": "Strong insight",
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
           "tone": "positive"
         }
-      ]
-    },
-    {
-      "id": "RrkGoX3Cw7o",
-      "title": "AI-Native Engineering: 100% adoption, 5x search throughput, unlimited tokens — Mikhail Parakhin",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=RrkGoX3Cw7o",
-      "status": "ok",
-      "summary_bullets": [
-        "Shopify AI tool adoption nears 100%.",
-        "Token consumption grows exponentially, distribution skews.",
-        "Auto-research loops (Tangent) optimize code/ML pipelines.",
-        "Customer simulation uses historical data for conversions.",
-        "Liquid AI models used for low-latency search."
       ],
-      "composite": 80.25,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 7,
-      "specificity": 9,
-      "insight_density": 8.5,
-      "non_promotion": 6,
-      "like_count": null,
-      "upload_date": "20260422",
-      "duration_seconds": 4469,
-      "composite_base": 80.25,
-      "rank": 7,
       "like_adjustment": 0,
-      "tags": [
-        {
-          "label": "Strong substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong insight",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
-      "id": "CeOXx-XTYek",
-      "title": "Extreme Harness Engineering: 1M LOC, 1B toks/day, 0% human code or review — Ryan Lopopolo, OpenAI",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=CeOXx-XTYek",
-      "status": "ok",
-      "summary_bullets": [
-        "Team built 1M LOC codebase with zero human-written code.",
-        "Used OpenAI's Codex agents for all coding and review.",
-        "Achieved 10x faster development after initial slow phase.",
-        "Created Symphony orchestrator for multi-agent coordination.",
-        "Humans now only review code post-merge."
-      ],
-      "composite": 79,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 7,
-      "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 6,
-      "like_count": null,
-      "upload_date": "20260407",
-      "duration_seconds": 4673,
-      "composite_base": 79,
-      "rank": 8,
-      "like_adjustment": 0,
-      "tags": [
-        {
-          "label": "Strong substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong insight",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
-      "id": "4-sWFytOfRw",
-      "title": "🔬 The Limits of AI in Science - Why We Need Self-Driving Labs — Joseph Krause, Radical AI",
-      "speakers": "Why We Need Self-Driving Labs — Joseph Krause, Radical AI",
-      "url": "https://www.youtube.com/watch?v=4-sWFytOfRw",
-      "status": "ok",
-      "summary_bullets": [
-        "Materials science lacks simple text representations like SMILES.",
-        "Self-driving labs needed for experimental data loop.",
-        "Radical AI made 1,200 alloys, 300 novel.",
-        "Qualification takes 10 years; AI can't solve alone.",
-        "Open-source models because experiments are the moat."
-      ],
-      "composite": 78.5,
-      "confidence": "High",
-      "substance": 8,
-      "evidence": 7,
-      "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 7,
-      "like_count": null,
-      "upload_date": "20260617",
-      "duration_seconds": 4610,
-      "composite_base": 78.5,
-      "rank": 9,
-      "like_adjustment": 0,
-      "tags": [
-        {
-          "label": "Strong substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong insight",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
-      "id": "CSYWbbP_OkY",
-      "title": "⚡️ Competing with ChatGPT and Sierra, building a $10M ARR company — Yasser Elsaid, Founder, Chatbase",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=CSYWbbP_OkY",
-      "status": "ok",
-      "composite": 78.3,
-      "like_count": null,
-      "upload_date": "20260502",
-      "duration_seconds": 3625,
-      "composite_base": 78.3,
-      "rank": 10,
-      "like_adjustment": 0,
-      "tags": []
+      "length_adjustment": -6.19
     },
     {
       "id": "cFNI2FORAc0",
@@ -417,7 +155,7 @@
         "AI buildout must benefit communities.",
         "Work IQ exposes M365 as database for agents."
       ],
-      "composite": 77,
+      "composite": 75.86,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 6.5,
@@ -428,89 +166,194 @@
       "upload_date": "20260603",
       "duration_seconds": 2486,
       "composite_base": 77,
-      "rank": 11,
-      "like_adjustment": 0,
+      "rank": 4,
       "tags": [
         {
-          "label": "Strong substance",
+          "label": "Substance",
           "tone": "positive"
         },
         {
-          "label": "Strong specificity",
+          "label": "Specificity",
           "tone": "positive"
         },
         {
-          "label": "Strong insight",
+          "label": "Insight",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.14
     },
     {
-      "id": "XdevS0GSuiQ",
-      "title": "🔬 The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
-      "speakers": "Alex Rives, BioHub",
-      "url": "https://www.youtube.com/watch?v=XdevS0GSuiQ",
-      "status": "ok",
-      "summary_bullets": [
-        "Scaling protein language models with metagenomic data",
-        "ESMC predicts structure without multiple sequence alignments",
-        "Model designs antibodies and mini-protein binders",
-        "Mechanistic interpretability reveals emergent biological features",
-        "Vision for virtual cell via data scaling and feedback"
-      ],
-      "composite": 76.5,
-      "confidence": "High",
-      "like_count": null,
-      "upload_date": "20260527",
-      "duration_seconds": 4212,
-      "composite_base": 76.5,
-      "rank": 12,
-      "like_adjustment": 0,
-      "tags": []
-    }
-  ],
-  "too_long": [],
-  "other": [
-    {
-      "id": "Yp_u1NpbkJg",
-      "title": "The Agent Cloud: Databricks’ Bet on the Future of AI — Matei Zaharia and Reynold Xin",
+      "id": "RrkGoX3Cw7o",
+      "title": "AI-Native Engineering: 100% adoption, 5x search throughput, unlimited tokens — Mikhail Parakhin",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=Yp_u1NpbkJg",
+      "url": "https://www.youtube.com/watch?v=RrkGoX3Cw7o",
       "status": "ok",
       "summary_bullets": [
-        "Omnigents: open-source agent platform with unified API and security policies.",
-        "L-Tap: unifies storage for OLTP and analytics, eliminating CDC pipelines.",
-        "Dream Engine: new database engine using ML to choose algorithms.",
-        "Databricks culture: incremental innovation, customer-driven, open-source strategy.",
-        "Competition with Snowflake: open vs proprietary, upstream vs downstream."
+        "Shopify AI tool adoption nears 100%.",
+        "Token consumption grows exponentially, distribution skews.",
+        "Auto-research loops (Tangent) optimize code/ML pipelines.",
+        "Customer simulation uses historical data for conversions.",
+        "Liquid AI models used for low-latency search."
       ],
-      "composite": 75,
+      "composite": 75.8,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 6,
+      "evidence": 7,
       "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 4,
+      "insight_density": 8.5,
+      "non_promotion": 6,
       "like_count": null,
-      "upload_date": "20260624",
-      "duration_seconds": 4205,
-      "composite_base": 75,
-      "rank": 13,
-      "like_adjustment": 0,
+      "upload_date": "20260422",
+      "duration_seconds": 4469,
+      "composite_base": 80.25,
+      "rank": 5,
       "tags": [
         {
-          "label": "Strong substance",
+          "label": "Substance",
           "tone": "positive"
         },
         {
-          "label": "Strong specificity",
+          "label": "Specificity",
           "tone": "positive"
         },
         {
-          "label": "Strong insight",
+          "label": "Insight",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.45
+    },
+    {
+      "id": "ATt7QJgt-2k",
+      "title": "Notion’s Sarah Sachs & Simon Last on Custom Agents, Evals, and the Future of Work",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ATt7QJgt-2k",
+      "status": "ok",
+      "summary_bullets": [
+        "Notion rebuilt agent harness five times.",
+        "Custom agents use usage-based pricing.",
+        "Model behavior engineers are a new role.",
+        "MCP good for narrow agents, CLI for bootstrapping.",
+        "Notion’s agentic find rethinks retrieval for agents."
+      ],
+      "composite": 75.44,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260415",
+      "duration_seconds": 5137,
+      "composite_base": 81,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -5.56
+    },
+    {
+      "id": "CSYWbbP_OkY",
+      "title": "⚡️ Competing with ChatGPT and Sierra, building a $10M ARR company — Yasser Elsaid, Founder, Chatbase",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=CSYWbbP_OkY",
+      "status": "ok",
+      "summary_bullets": [
+        "Bootstrapped Chatbase to $10M ARR",
+        "Started before ChatGPT with GPT-3",
+        "Used self-serve PLG and content marketing",
+        "Competes with VC-backed rivals like Sierra",
+        "Moving to SF, hiring aggressively"
+      ],
+      "composite": 75.26,
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260502",
+      "duration_seconds": 3625,
+      "composite_base": 78.3,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -3.04
+    },
+    {
+      "id": "jPtQlILfkhA",
+      "title": "Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and Video Agents— Ethan He",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=jPtQlILfkhA",
+      "status": "ok",
+      "summary_bullets": [
+        "Built Grok Imagine in 3 months from scratch.",
+        "Video model gains come from language models, not diffusion.",
+        "Video agents combine LLM reasoning with generative tools.",
+        "World models require real-time, interactive, long-horizon video.",
+        "Left xAI to focus on language model research."
+      ],
+      "composite": 74.53,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260601",
+      "duration_seconds": 6282,
+      "composite_base": 82,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -7.47
     },
     {
       "id": "rlM_fAKxB3Q",
@@ -536,18 +379,211 @@
       "upload_date": "20260507",
       "duration_seconds": 1322,
       "composite_base": 74.3,
-      "rank": 14,
-      "like_adjustment": 0,
+      "rank": 9,
       "tags": [
         {
-          "label": "Strong insight",
+          "label": "Insight",
           "tone": "positive"
         },
         {
           "label": "Non-promo",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "CeOXx-XTYek",
+      "title": "Extreme Harness Engineering: 1M LOC, 1B toks/day, 0% human code or review — Ryan Lopopolo, OpenAI",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=CeOXx-XTYek",
+      "status": "ok",
+      "summary_bullets": [
+        "Team built 1M LOC codebase with zero human-written code.",
+        "Used OpenAI's Codex agents for all coding and review.",
+        "Achieved 10x faster development after initial slow phase.",
+        "Created Symphony orchestrator for multi-agent coordination.",
+        "Humans now only review code post-merge."
+      ],
+      "composite": 74.21,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260407",
+      "duration_seconds": 4673,
+      "composite_base": 79,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.79
+    },
+    {
+      "id": "4-sWFytOfRw",
+      "title": "🔬 The Limits of AI in Science - Why We Need Self-Driving Labs — Joseph Krause, Radical AI",
+      "speakers": "Why We Need Self-Driving Labs — Joseph Krause, Radical AI",
+      "url": "https://www.youtube.com/watch?v=4-sWFytOfRw",
+      "status": "ok",
+      "summary_bullets": [
+        "Materials science lacks simple text representations like SMILES.",
+        "Self-driving labs needed for experimental data loop.",
+        "Radical AI made 1,200 alloys, 300 novel.",
+        "Qualification takes 10 years; AI can't solve alone.",
+        "Open-source models because experiments are the moat."
+      ],
+      "composite": 73.82,
+      "confidence": "High",
+      "substance": 8,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260617",
+      "duration_seconds": 4610,
+      "composite_base": 78.5,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.68
+    },
+    {
+      "id": "UmCZBwsibgs",
+      "title": "FPV Drones -The Next War Is Already Here — Yaroslav Azhnyuk, The Fourth Law & Noah Smith, Noahpinion",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=UmCZBwsibgs",
+      "status": "ok",
+      "summary_bullets": [
+        "Ukraine produced 4 million FPV drones last year.",
+        "Drones cause 70–80% of frontline casualties.",
+        "Five levels of drone autonomy defined.",
+        "China could produce 4 billion FPV drones.",
+        "Fiber optic cable costs surged due to AI data centers."
+      ],
+      "composite": 73.35,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260518",
+      "duration_seconds": 7168,
+      "composite_base": 82.3,
+      "rank": 12,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -8.95
+    },
+    {
+      "id": "XdevS0GSuiQ",
+      "title": "🔬 The Bitter Lesson is Coming for Proteins - Alex Rives, BioHub",
+      "speakers": "Alex Rives, BioHub",
+      "url": "https://www.youtube.com/watch?v=XdevS0GSuiQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Scaling protein language models with metagenomic data",
+        "ESMC predicts structure without multiple sequence alignments",
+        "Model designs antibodies and mini-protein binders",
+        "Mechanistic interpretability reveals emergent biological features",
+        "Vision for virtual cell via data scaling and feedback"
+      ],
+      "composite": 72.48,
+      "confidence": "High",
+      "like_count": null,
+      "upload_date": "20260527",
+      "duration_seconds": 4212,
+      "composite_base": 76.5,
+      "rank": 13,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -4.02
+    },
+    {
+      "id": "Yp_u1NpbkJg",
+      "title": "The Agent Cloud: Databricks’ Bet on the Future of AI — Matei Zaharia and Reynold Xin",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Yp_u1NpbkJg",
+      "status": "ok",
+      "summary_bullets": [
+        "Omnigents: open-source agent platform with unified API and security policies.",
+        "L-Tap: unifies storage for OLTP and analytics, eliminating CDC pipelines.",
+        "Dream Engine: new database engine using ML to choose algorithms.",
+        "Databricks culture: incremental innovation, customer-driven, open-source strategy.",
+        "Competition with Snowflake: open vs proprietary, upstream vs downstream."
+      ],
+      "composite": 70.99,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260624",
+      "duration_seconds": 4205,
+      "composite_base": 75,
+      "rank": 14,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.01
     },
     {
       "id": "0fgJPhYcbVk",
@@ -562,7 +598,7 @@
         "Memory and knowledge bases remain unsolved.",
         "Codebases regress to worst engineer without review."
       ],
-      "composite": 74.25,
+      "composite": 70.3,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 6.5,
@@ -574,87 +610,18 @@
       "duration_seconds": 4172,
       "composite_base": 74.25,
       "rank": 15,
-      "like_adjustment": 0,
       "tags": [
         {
-          "label": "Strong specificity",
+          "label": "Specificity",
           "tone": "positive"
         },
         {
-          "label": "Strong insight",
+          "label": "Insight",
           "tone": "positive"
         }
-      ]
-    },
-    {
-      "id": "uqM8qjbLRHA",
-      "title": "🔬 Training Transformers to solve 95% failure rate of Cancer Trials — Ron Alfa & Daniel Bear, Noetik",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=uqM8qjbLRHA",
-      "status": "ok",
-      "summary_bullets": [
-        "95% cancer trial failure due to patient selection.",
-        "Noetik builds foundation models on patient tissue data.",
-        "Uses spatial transcriptomics (RNA location in tissue) and H&E stains.",
-        "Models predict drug response from patient biopsies.",
-        "GSK licensed their model for $50M."
       ],
-      "composite": 74.25,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 6,
-      "specificity": 9,
-      "insight_density": 8.5,
-      "non_promotion": 5,
-      "like_count": null,
-      "upload_date": "20260420",
-      "duration_seconds": 5121,
-      "composite_base": 74.25,
-      "rank": 16,
       "like_adjustment": 0,
-      "tags": [
-        {
-          "label": "Strong specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Strong insight",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
-      "id": "5KnCKadxSPY",
-      "title": "⚡️ The best engineers don't write the most code. They delete the most code. — Stay Sassy",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=5KnCKadxSPY",
-      "status": "ok",
-      "summary_bullets": [
-        "Anonymous blog grew via Hacker News and Substack.",
-        "AI token budgets create new per-employee cost challenges.",
-        "Build vs buy requires listing actual features first.",
-        "Code review culture must adapt to AI-generated code.",
-        "Human management problems persist across tech shifts."
-      ],
-      "composite": 70.8,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 5,
-      "specificity": 7,
-      "insight_density": 7.5,
-      "non_promotion": 9,
-      "like_count": null,
-      "upload_date": "20260413",
-      "duration_seconds": 3450,
-      "composite_base": 70.8,
-      "rank": 17,
-      "like_adjustment": 0,
-      "tags": [
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ]
+      "length_adjustment": -3.95
     },
     {
       "id": "DcvgPEApHT8",
@@ -669,7 +636,7 @@
         "They open-sourced Continuous LoRA for parallel training.",
         "SDPO algorithm uses privileged hints for better learning."
       ],
-      "composite": 70,
+      "composite": 69.6,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 5.5,
@@ -680,47 +647,87 @@
       "upload_date": "20260621",
       "duration_seconds": 2038,
       "composite_base": 70,
-      "rank": 18,
-      "like_adjustment": 0,
+      "rank": 16,
       "tags": [
         {
-          "label": "Strong insight",
+          "label": "Insight",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.4
     },
     {
-      "id": "LEwlSyR0cXA",
-      "title": "GitHub’s Agent Era: 14x Commits, 200M Developers, Copilot’s Next Act — Kyle Daigle",
+      "id": "uqM8qjbLRHA",
+      "title": "🔬 Training Transformers to solve 95% failure rate of Cancer Trials — Ron Alfa & Daniel Bear, Noetik",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=LEwlSyR0cXA",
+      "url": "https://www.youtube.com/watch?v=uqM8qjbLRHA",
       "status": "ok",
       "summary_bullets": [
-        "GitHub commits grow 14x year-over-year from AI agents.",
-        "Kyle Daigle uses agents for retrospection and planning.",
-        "Scaling challenges from exponential growth in PRs and repos.",
-        "Copilot evolves from code completion to agentic workflows.",
-        "Open source trust and star inflation discussed."
+        "95% cancer trial failure due to patient selection.",
+        "Noetik builds foundation models on patient tissue data.",
+        "Uses spatial transcriptomics (RNA location in tissue) and H&E stains.",
+        "Models predict drug response from patient biopsies.",
+        "GSK licensed their model for $50M."
       ],
-      "composite": 69.75,
+      "composite": 68.71,
       "confidence": "High",
       "substance": 7.5,
-      "evidence": 6.5,
-      "specificity": 8.5,
-      "insight_density": 7,
-      "non_promotion": 4,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 5,
       "like_count": null,
-      "upload_date": "20260602",
-      "duration_seconds": 5084,
-      "composite_base": 69.75,
-      "rank": 19,
-      "like_adjustment": 0,
+      "upload_date": "20260420",
+      "duration_seconds": 5121,
+      "composite_base": 74.25,
+      "rank": 17,
       "tags": [
         {
-          "label": "Strong specificity",
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -5.54
+    },
+    {
+      "id": "5KnCKadxSPY",
+      "title": "⚡️ The best engineers don't write the most code. They delete the most code. — Stay Sassy",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=5KnCKadxSPY",
+      "status": "ok",
+      "summary_bullets": [
+        "Anonymous blog grew via Hacker News and Substack.",
+        "AI token budgets create new per-employee cost challenges.",
+        "Build vs buy requires listing actual features first.",
+        "Code review culture must adapt to AI-generated code.",
+        "Human management problems persist across tech shifts."
+      ],
+      "composite": 68.05,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5,
+      "specificity": 7,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260413",
+      "duration_seconds": 3450,
+      "composite_base": 70.8,
+      "rank": 18,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.75
     },
     {
       "id": "yyuVR-ML9X8",
@@ -735,7 +742,7 @@
         "Four data source quadrants for agents defined.",
         "Text-to-Cypher now often default over specialized functions."
       ],
-      "composite": 69.3,
+      "composite": 67.41,
       "substance": 7.5,
       "evidence": 5,
       "specificity": 8.5,
@@ -745,145 +752,19 @@
       "upload_date": "20260418",
       "duration_seconds": 2933,
       "composite_base": 69.3,
-      "rank": 20,
-      "like_adjustment": 0,
+      "rank": 19,
       "tags": [
         {
-          "label": "Strong specificity",
+          "label": "Specificity",
           "tone": "positive"
         },
         {
-          "label": "Strong insight",
+          "label": "Insight",
           "tone": "positive"
         }
-      ]
-    },
-    {
-      "id": "LzCUYNP5UTI",
-      "title": "The Agent-Native Cloud: 3M Users, 100K Signups/Wk, Data Centers, & Death PRs — Jake Cooper, Railway",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=LzCUYNP5UTI",
-      "status": "ok",
-      "summary_bullets": [
-        "Bare metal data centers pay back in 3 months vs cloud.",
-        "Railway runs 35 people serving 3M users.",
-        "Agents need versioned environments and feature flags.",
-        "Coding agents should review, not write, code by hand.",
-        "Future is agent-native infrastructure with fast iteration loops."
       ],
-      "composite": 69,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 6,
-      "specificity": 8.5,
-      "insight_density": 7,
-      "non_promotion": 4,
-      "like_count": null,
-      "upload_date": "20260520",
-      "duration_seconds": 5394,
-      "composite_base": 69,
-      "rank": 21,
       "like_adjustment": 0,
-      "tags": [
-        {
-          "label": "Strong specificity",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
-      "id": "rv23_KcHt4s",
-      "title": "The $15B Physical AI Company: Simulation, Autonomy OS, Neural Sim, & 1K Engineers—Applied Intuition",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=rv23_KcHt4s",
-      "status": "ok",
-      "summary_bullets": [
-        "Physical AI for vehicles and machines",
-        "Fragmented OS market like pre-Android phones",
-        "Simulation, OS, and autonomy models",
-        "1,000 engineers, 30+ products",
-        "Safety-critical AI deployment challenges"
-      ],
-      "composite": 69,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 6,
-      "specificity": 8,
-      "insight_density": 7.5,
-      "non_promotion": 4,
-      "like_count": null,
-      "upload_date": "20260427",
-      "duration_seconds": 4447,
-      "composite_base": 69,
-      "rank": 22,
-      "like_adjustment": 0,
-      "tags": []
-    },
-    {
-      "id": "kaX43RRRUKY",
-      "title": "AI Agents Need Computers: 74% MoM Growth, 850K/Day Runs, & New Agent Cloud — Ivan Burazin, Daytona",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=kaX43RRRUKY",
-      "status": "ok",
-      "summary_bullets": [
-        "Daytona provides composable computers for AI agents.",
-        "Pivoted from human dev environments to agent sandboxes.",
-        "74% month-over-month growth, 850K runs per day.",
-        "Bare metal architecture enables 60ms spin-up time.",
-        "New workload: reinforcement learning and evals now 50%."
-      ],
-      "composite": 68.8,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 7,
-      "specificity": 8.5,
-      "insight_density": 7,
-      "non_promotion": 2,
-      "like_count": null,
-      "upload_date": "20260521",
-      "duration_seconds": 4300,
-      "composite_base": 68.8,
-      "rank": 23,
-      "like_adjustment": 0,
-      "tags": [
-        {
-          "label": "Strong specificity",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
-      "id": "abYcV5LHMG4",
-      "title": "Scaling Past Informal AI - Carina Hong, Axiom Math",
-      "speakers": "Carina Hong, Axiom Math",
-      "url": "https://www.youtube.com/watch?v=abYcV5LHMG4",
-      "status": "ok",
-      "summary_bullets": [
-        "Axiom Math uses formal verification for AI reasoning.",
-        "Lean proof assistant enables verified math and code.",
-        "Company raised $200M series A for verified AI.",
-        "Formal verification scales brilliance, not just correctness.",
-        "Axiom's system achieved perfect score on Putnam exam."
-      ],
-      "composite": 68.75,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 6,
-      "specificity": 8.5,
-      "insight_density": 7,
-      "non_promotion": 4,
-      "like_count": null,
-      "upload_date": "20260603",
-      "duration_seconds": 5584,
-      "composite_base": 68.75,
-      "rank": 24,
-      "like_adjustment": 0,
-      "tags": [
-        {
-          "label": "Strong specificity",
-          "tone": "positive"
-        }
-      ]
+      "length_adjustment": -1.89
     },
     {
       "id": "hLUGXO5DSpo",
@@ -909,103 +790,73 @@
       "upload_date": "20260629",
       "duration_seconds": 1395,
       "composite_base": 66,
-      "rank": 25,
+      "rank": 20,
+      "tags": [],
       "like_adjustment": 0,
-      "tags": []
+      "length_adjustment": 0
     },
     {
-      "id": "vUARtyOvh5U",
-      "title": "Inside Abridge: The AI Listening to 100 Million Doctor Visits — Abridge's Janie Lee & Chai Asawa",
+      "id": "kaX43RRRUKY",
+      "title": "AI Agents Need Computers: 74% MoM Growth, 850K/Day Runs, & New Agent Cloud — Ivan Burazin, Daytona",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=vUARtyOvh5U",
+      "url": "https://www.youtube.com/watch?v=kaX43RRRUKY",
       "status": "ok",
       "summary_bullets": [
-        "Abridge uses AI to document doctor visits.",
-        "Aims to reduce clinician burnout and save time.",
-        "Real-time clinical decision support is key.",
-        "Context and data integration are major challenges.",
-        "Scale of 100M conversations enables optimization."
+        "Daytona provides composable computers for AI agents.",
+        "Pivoted from human dev environments to agent sandboxes.",
+        "74% month-over-month growth, 850K runs per day.",
+        "Bare metal architecture enables 60ms spin-up time.",
+        "New workload: reinforcement learning and evals now 50%."
       ],
-      "composite": 66,
+      "composite": 64.63,
       "confidence": "High",
       "substance": 7.5,
-      "evidence": 5.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260521",
+      "duration_seconds": 4300,
+      "composite_base": 68.8,
+      "rank": 21,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.17
+    },
+    {
+      "id": "rv23_KcHt4s",
+      "title": "The $15B Physical AI Company: Simulation, Autonomy OS, Neural Sim, & 1K Engineers—Applied Intuition",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=rv23_KcHt4s",
+      "status": "ok",
+      "summary_bullets": [
+        "Physical AI for vehicles and machines",
+        "Fragmented OS market like pre-Android phones",
+        "Simulation, OS, and autonomy models",
+        "1,000 engineers, 30+ products",
+        "Safety-critical AI deployment challenges"
+      ],
+      "composite": 64.59,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 6,
       "specificity": 8,
-      "insight_density": 7,
-      "non_promotion": 3,
+      "insight_density": 7.5,
+      "non_promotion": 4,
       "like_count": null,
-      "upload_date": "20260514",
-      "duration_seconds": 3998,
-      "composite_base": 66,
-      "rank": 26,
+      "upload_date": "20260427",
+      "duration_seconds": 4447,
+      "composite_base": 69,
+      "rank": 22,
+      "tags": [],
       "like_adjustment": 0,
-      "tags": []
-    },
-    {
-      "id": "h5dlIPM0X18",
-      "title": "Why AI Labs With Unlimited GPUs Still Fail — Anjney Midha, AMP",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=h5dlIPM0X18",
-      "status": "ok",
-      "summary_bullets": [
-        "AI labs fail due to culture, not compute.",
-        "Compute utilization metrics: node and MFU.",
-        "AMP acts as independent system operator for compute.",
-        "End-of-life prediction AI faces regulatory hurdles.",
-        "Culture requires daily actions, not just beliefs."
-      ],
-      "composite": 65.75,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 5,
-      "specificity": 8.5,
-      "insight_density": 7,
-      "non_promotion": 3,
-      "like_count": null,
-      "upload_date": "20260618",
-      "duration_seconds": 3637,
-      "composite_base": 65.75,
-      "rank": 27,
-      "like_adjustment": 0,
-      "tags": [
-        {
-          "label": "Strong specificity",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
-      "id": "YQWXxnkK4dw",
-      "title": "🔬 \"The Most Innovative Diffusion Research Is Happening in Drug Discovery, Not Image Generation\"",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=YQWXxnkK4dw",
-      "status": "ok",
-      "summary_bullets": [
-        "Diffusion models now used for 3D protein structures.",
-        "Genesis Pearl predicts protein-ligand binding poses.",
-        "Sub-angstrom accuracy needed for drug design.",
-        "Synthetic data and physics priors improve generalization.",
-        "Partnership with Insight enables rapid design-make-test cycles."
-      ],
-      "composite": 65.5,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 5.5,
-      "specificity": 8.5,
-      "insight_density": 6.5,
-      "non_promotion": 3,
-      "like_count": null,
-      "upload_date": "20260630",
-      "duration_seconds": 6519,
-      "composite_base": 65.5,
-      "rank": 28,
-      "like_adjustment": 0,
-      "tags": [
-        {
-          "label": "Strong specificity",
-          "tone": "positive"
-        }
-      ]
+      "length_adjustment": -4.41
     },
     {
       "id": "Hxlayqs-IAs",
@@ -1031,9 +882,175 @@
       "upload_date": "20260524",
       "duration_seconds": 1798,
       "composite_base": 64.3,
-      "rank": 29,
+      "rank": 23,
+      "tags": [],
       "like_adjustment": 0,
-      "tags": []
+      "length_adjustment": 0
+    },
+    {
+      "id": "LEwlSyR0cXA",
+      "title": "GitHub’s Agent Era: 14x Commits, 200M Developers, Copilot’s Next Act — Kyle Daigle",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=LEwlSyR0cXA",
+      "status": "ok",
+      "summary_bullets": [
+        "GitHub commits grow 14x year-over-year from AI agents.",
+        "Kyle Daigle uses agents for retrospection and planning.",
+        "Scaling challenges from exponential growth in PRs and repos.",
+        "Copilot evolves from code completion to agentic workflows.",
+        "Open source trust and star inflation discussed."
+      ],
+      "composite": 64.28,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260602",
+      "duration_seconds": 5084,
+      "composite_base": 69.75,
+      "rank": 24,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -5.47
+    },
+    {
+      "id": "LzCUYNP5UTI",
+      "title": "The Agent-Native Cloud: 3M Users, 100K Signups/Wk, Data Centers, & Death PRs — Jake Cooper, Railway",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=LzCUYNP5UTI",
+      "status": "ok",
+      "summary_bullets": [
+        "Bare metal data centers pay back in 3 months vs cloud.",
+        "Railway runs 35 people serving 3M users.",
+        "Agents need versioned environments and feature flags.",
+        "Coding agents should review, not write, code by hand.",
+        "Future is agent-native infrastructure with fast iteration loops."
+      ],
+      "composite": 63.01,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260520",
+      "duration_seconds": 5394,
+      "composite_base": 69,
+      "rank": 25,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -5.99
+    },
+    {
+      "id": "h5dlIPM0X18",
+      "title": "Why AI Labs With Unlimited GPUs Still Fail — Anjney Midha, AMP",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=h5dlIPM0X18",
+      "status": "ok",
+      "summary_bullets": [
+        "AI labs fail due to culture, not compute.",
+        "Compute utilization metrics: node and MFU.",
+        "AMP acts as independent system operator for compute.",
+        "End-of-life prediction AI faces regulatory hurdles.",
+        "Culture requires daily actions, not just beliefs."
+      ],
+      "composite": 62.69,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260618",
+      "duration_seconds": 3637,
+      "composite_base": 65.75,
+      "rank": 26,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -3.06
+    },
+    {
+      "id": "abYcV5LHMG4",
+      "title": "Scaling Past Informal AI - Carina Hong, Axiom Math",
+      "speakers": "Carina Hong, Axiom Math",
+      "url": "https://www.youtube.com/watch?v=abYcV5LHMG4",
+      "status": "ok",
+      "summary_bullets": [
+        "Axiom Math uses formal verification for AI reasoning.",
+        "Lean proof assistant enables verified math and code.",
+        "Company raised $200M series A for verified AI.",
+        "Formal verification scales brilliance, not just correctness.",
+        "Axiom's system achieved perfect score on Putnam exam."
+      ],
+      "composite": 62.44,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260603",
+      "duration_seconds": 5584,
+      "composite_base": 68.75,
+      "rank": 27,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -6.31
+    },
+    {
+      "id": "vUARtyOvh5U",
+      "title": "Inside Abridge: The AI Listening to 100 Million Doctor Visits — Abridge's Janie Lee & Chai Asawa",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=vUARtyOvh5U",
+      "status": "ok",
+      "summary_bullets": [
+        "Abridge uses AI to document doctor visits.",
+        "Aims to reduce clinician burnout and save time.",
+        "Real-time clinical decision support is key.",
+        "Context and data integration are major challenges.",
+        "Scale of 100M conversations enables optimization."
+      ],
+      "composite": 62.34,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260514",
+      "duration_seconds": 3998,
+      "composite_base": 66,
+      "rank": 28,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -3.66
     },
     {
       "id": "-rIAVuaRjOg",
@@ -1048,7 +1065,7 @@
         "Same repair approach fixes AI \"design slop\" patterns.",
         "CommandCode will open-source soon."
       ],
-      "composite": 62,
+      "composite": 60.93,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 4,
@@ -1059,14 +1076,49 @@
       "upload_date": "20260606",
       "duration_seconds": 2441,
       "composite_base": 62,
-      "rank": 30,
-      "like_adjustment": 0,
+      "rank": 29,
       "tags": [
         {
-          "label": "Strong specificity",
+          "label": "Specificity",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.07
+    },
+    {
+      "id": "YQWXxnkK4dw",
+      "title": "🔬 \"The Most Innovative Diffusion Research Is Happening in Drug Discovery, Not Image Generation\"",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=YQWXxnkK4dw",
+      "status": "ok",
+      "summary_bullets": [
+        "Diffusion models now used for 3D protein structures.",
+        "Genesis Pearl predicts protein-ligand binding poses.",
+        "Sub-angstrom accuracy needed for drug design.",
+        "Synthetic data and physics priors improve generalization.",
+        "Partnership with Insight enables rapid design-make-test cycles."
+      ],
+      "composite": 57.63,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260630",
+      "duration_seconds": 6519,
+      "composite_base": 65.5,
+      "rank": 30,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -7.87
     },
     {
       "id": "oBWRHnggscM",
@@ -1081,7 +1133,7 @@
         "Aims to replace game rendering pipelines.",
         "Focus on action-conditioned world models."
       ],
-      "composite": 61.3,
+      "composite": 57.62,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 4,
@@ -1093,36 +1145,9 @@
       "duration_seconds": 4007,
       "composite_base": 61.3,
       "rank": 31,
+      "tags": [],
       "like_adjustment": 0,
-      "tags": []
-    },
-    {
-      "id": "j8BAficRjEc",
-      "title": "AI Security After Codex and Claude Code — Zico Kolter & Matt Fredrikson, Gray Swan",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=j8BAficRjEc",
-      "status": "ok",
-      "summary_bullets": [
-        "Gray Swan provides AI security for agents.",
-        "Automated red teaming model Shade beats humans.",
-        "Signal guardrail filters prompt injections.",
-        "AI vulnerabilities differ from traditional software.",
-        "Frontier labs outsource red teaming to Gray Swan."
-      ],
-      "composite": 54.3,
-      "confidence": "Med",
-      "substance": 6.5,
-      "evidence": 4.5,
-      "specificity": 6,
-      "insight_density": 5.5,
-      "non_promotion": 3,
-      "like_count": null,
-      "upload_date": "20260622",
-      "duration_seconds": 4050,
-      "composite_base": 54.3,
-      "rank": 32,
-      "like_adjustment": 0,
-      "tags": []
+      "length_adjustment": -3.68
     },
     {
       "id": "287Q-bs_pEU",
@@ -1147,9 +1172,39 @@
       "upload_date": "20260524",
       "duration_seconds": 887,
       "composite_base": 51,
-      "rank": 33,
+      "rank": 32,
+      "tags": [],
       "like_adjustment": 0,
-      "tags": []
+      "length_adjustment": 0
+    },
+    {
+      "id": "j8BAficRjEc",
+      "title": "AI Security After Codex and Claude Code — Zico Kolter & Matt Fredrikson, Gray Swan",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=j8BAficRjEc",
+      "status": "ok",
+      "summary_bullets": [
+        "Gray Swan provides AI security for agents.",
+        "Automated red teaming model Shade beats humans.",
+        "Signal guardrail filters prompt injections.",
+        "AI vulnerabilities differ from traditional software.",
+        "Frontier labs outsource red teaming to Gray Swan."
+      ],
+      "composite": 50.55,
+      "confidence": "Med",
+      "substance": 6.5,
+      "evidence": 4.5,
+      "specificity": 6,
+      "insight_density": 5.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260622",
+      "duration_seconds": 4050,
+      "composite_base": 54.3,
+      "rank": 33,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -3.75
     },
     {
       "id": "fpAthTtha8c",
@@ -1164,7 +1219,7 @@
         "RL works best in objective, gradable domains.",
         "Evals are in crisis; need new benchmarks."
       ],
-      "composite": 50,
+      "composite": 48.87,
       "confidence": "Med",
       "substance": 6,
       "evidence": 4,
@@ -1176,8 +1231,11 @@
       "duration_seconds": 2477,
       "composite_base": 50,
       "rank": 34,
+      "tags": [],
       "like_adjustment": 0,
-      "tags": []
+      "length_adjustment": -1.13
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

@@ -1,8 +1,8 @@
 {
   "source_id": "ml-street-talk-q2-2026",
-  "video_count": 11,
+  "video_count": 10,
   "scored_count": 10,
-  "ranked_count": 4,
+  "ranked_count": 10,
   "rankings": [
     {
       "id": "M2iX6HQOoLg",
@@ -17,7 +17,7 @@
         "Phase transition from non-life to life observed.",
         "Intelligence is inherent in life's computation."
       ],
-      "composite": 88.75,
+      "composite": 86.17,
       "confidence": "High",
       "substance": 9,
       "evidence": 8.5,
@@ -28,7 +28,6 @@
       "upload_date": "20260216",
       "duration_seconds": 3348,
       "composite_base": 88.75,
-      "like_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -47,52 +46,9 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ]
-    },
-    {
-      "id": "TpyS50ifmX4",
-      "title": "The Ex-Pentagon Chief Sounding the Alarm on AI Weapons — Brad Carson",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=TpyS50ifmX4",
-      "status": "ok",
-      "summary_bullets": [
-        "Former Pentagon official warns on AI weapons.",
-        "AI in war creates opaque, probabilistic targeting.",
-        "Congress has only 17 minutes daily for learning.",
-        "US can control AI via chip supply chain.",
-        "Anthropomorphizing AI is dangerous for regulation."
       ],
-      "composite": 82.5,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 7,
-      "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 9.5,
-      "like_count": null,
-      "upload_date": "20260531",
-      "duration_seconds": 4852,
-      "composite_base": 82.5,
       "like_adjustment": 0,
-      "rank": 2,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ]
+      "length_adjustment": -2.58
     },
     {
       "id": "e3gBwLWAerw",
@@ -107,7 +63,7 @@
         "Equivariance contributed only ~2.5 of 30 points.",
         "Departure to Anthropic announced."
       ],
-      "composite": 82,
+      "composite": 79.69,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 8,
@@ -118,8 +74,7 @@
       "upload_date": "20260622",
       "duration_seconds": 3186,
       "composite_base": 82,
-      "like_adjustment": 0,
-      "rank": 3,
+      "rank": 2,
       "tags": [
         {
           "label": "Substance",
@@ -137,101 +92,35 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.31
     },
     {
-      "id": "dHBEQ-Ryo24",
-      "title": "The Dangerous Illusion of AI Coding? - Jeremy Howard",
-      "speakers": "Jeremy Howard",
-      "url": "https://www.youtube.com/watch?v=dHBEQ-Ryo24",
-      "status": "ok",
-      "summary_bullets": [
-        "AI coding tools create illusion of control.",
-        "Interactive notebooks beat terminal-based AI coding.",
-        "ULM fit pioneered transfer learning for NLP.",
-        "Software engineering ≠ typing code; AI fails at novel design.",
-        "Centralizing AI power risks societal harm."
-      ],
-      "composite": 82,
-      "confidence": "High",
-      "like_count": null,
-      "upload_date": "20260303",
-      "duration_seconds": 5200,
-      "composite_base": 82,
-      "like_adjustment": 0,
-      "rank": 4,
-      "tags": []
-    }
-  ],
-  "too_long": [],
-  "other": [
-    {
-      "id": "EInEmGaMRLc",
-      "title": "When AI Discovers the Next Transformer — Robert Lange",
+      "id": "TpyS50ifmX4",
+      "title": "The Ex-Pentagon Chief Sounding the Alarm on AI Weapons — Brad Carson",
       "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=EInEmGaMRLc",
+      "url": "https://www.youtube.com/watch?v=TpyS50ifmX4",
       "status": "ok",
       "summary_bullets": [
-        "Evolutionary LLM search for scientific discovery",
-        "Shinka Evolve achieves sample-efficient program optimization",
-        "Co-evolution of problems and solutions needed",
-        "AI Scientist v2 passes workshop acceptance threshold",
-        "Open-endedness key to future AI research"
+        "Former Pentagon official warns on AI weapons.",
+        "AI in war creates opaque, probabilistic targeting.",
+        "Congress has only 17 minutes daily for learning.",
+        "US can control AI via chip supply chain.",
+        "Anthropomorphizing AI is dangerous for regulation."
       ],
-      "composite": 81.5,
+      "composite": 77.41,
       "confidence": "High",
       "substance": 8.5,
-      "evidence": 7.5,
+      "evidence": 7,
       "specificity": 9,
       "insight_density": 8,
-      "non_promotion": 7.5,
+      "non_promotion": 9.5,
       "like_count": null,
-      "upload_date": "20260313",
-      "duration_seconds": 4687,
-      "composite_base": 81.5,
-      "like_adjustment": 0,
-      "rank": 5,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        }
-      ]
-    },
-    {
-      "id": "AREWYbVtX64",
-      "title": "Intelligence is collective, not artificial — Prof. Michael I. Jordan (UC Berkeley / Inria)",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=AREWYbVtX64",
-      "status": "ok",
-      "summary_bullets": [
-        "Critiques AI hype as demoralizing to young researchers.",
-        "Advocates for economic and statistical thinking in AI.",
-        "Proposes three-layer data market model with incentives.",
-        "Distinguishes machine learning from AI/AGI buzzwords.",
-        "Emphasizes uncertainty quantification and collective intelligence."
-      ],
-      "composite": 81,
-      "confidence": "High",
-      "substance": 8.5,
-      "evidence": 6.5,
-      "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 9,
-      "like_count": null,
-      "upload_date": "20260520",
-      "duration_seconds": 4630,
-      "composite_base": 81,
-      "like_adjustment": 0,
-      "rank": 6,
+      "upload_date": "20260531",
+      "duration_seconds": 4852,
+      "composite_base": 82.5,
+      "rank": 3,
       "tags": [
         {
           "label": "Substance",
@@ -249,7 +138,51 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -5.09
+    },
+    {
+      "id": "EInEmGaMRLc",
+      "title": "When AI Discovers the Next Transformer — Robert Lange",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=EInEmGaMRLc",
+      "status": "ok",
+      "summary_bullets": [
+        "Evolutionary LLM search for scientific discovery",
+        "Shinka Evolve achieves sample-efficient program optimization",
+        "Co-evolution of problems and solutions needed",
+        "AI Scientist v2 passes workshop acceptance threshold",
+        "Open-endedness key to future AI research"
+      ],
+      "composite": 76.69,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 7.5,
+      "like_count": null,
+      "upload_date": "20260313",
+      "duration_seconds": 4687,
+      "composite_base": 81.5,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.81
     },
     {
       "id": "yq318DIwPqw",
@@ -264,7 +197,7 @@
         "Knowledge is interactive, not passive observation.",
         "AI’s Plato problem: assuming neat underlying forms."
       ],
-      "composite": 79,
+      "composite": 76.64,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 6.5,
@@ -275,8 +208,7 @@
       "upload_date": "20260123",
       "duration_seconds": 3218,
       "composite_base": 79,
-      "like_adjustment": 0,
-      "rank": 7,
+      "rank": 5,
       "tags": [
         {
           "label": "Substance",
@@ -290,7 +222,79 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.36
+    },
+    {
+      "id": "dHBEQ-Ryo24",
+      "title": "The Dangerous Illusion of AI Coding? - Jeremy Howard",
+      "speakers": "Jeremy Howard",
+      "url": "https://www.youtube.com/watch?v=dHBEQ-Ryo24",
+      "status": "ok",
+      "summary_bullets": [
+        "AI coding tools create illusion of control.",
+        "Interactive notebooks beat terminal-based AI coding.",
+        "ULM fit pioneered transfer learning for NLP.",
+        "Software engineering ≠ typing code; AI fails at novel design.",
+        "Centralizing AI power risks societal harm."
+      ],
+      "composite": 76.33,
+      "confidence": "High",
+      "like_count": null,
+      "upload_date": "20260303",
+      "duration_seconds": 5200,
+      "composite_base": 82,
+      "rank": 6,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -5.67
+    },
+    {
+      "id": "AREWYbVtX64",
+      "title": "Intelligence is collective, not artificial — Prof. Michael I. Jordan (UC Berkeley / Inria)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=AREWYbVtX64",
+      "status": "ok",
+      "summary_bullets": [
+        "Critiques AI hype as demoralizing to young researchers.",
+        "Advocates for economic and statistical thinking in AI.",
+        "Proposes three-layer data market model with incentives.",
+        "Distinguishes machine learning from AI/AGI buzzwords.",
+        "Emphasizes uncertainty quantification and collective intelligence."
+      ],
+      "composite": 76.28,
+      "confidence": "High",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260520",
+      "duration_seconds": 4630,
+      "composite_base": 81,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.72
     },
     {
       "id": "pO0WZsN8Oiw",
@@ -305,7 +309,7 @@
         "Models are useful fictions, not literal truth.",
         "Mistaking abstraction for reality is common error."
       ],
-      "composite": 74.8,
+      "composite": 73.59,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 6,
@@ -316,14 +320,15 @@
       "upload_date": "20260118",
       "duration_seconds": 2524,
       "composite_base": 74.8,
-      "like_adjustment": 0,
       "rank": 8,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.21
     },
     {
       "id": "Ucqfb33GJJ4",
@@ -338,7 +343,7 @@
         "Non-contrastive learning prevents representation collapse.",
         "AI safety requires careful reward specification."
       ],
-      "composite": 74,
+      "composite": 72.3,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 5.5,
@@ -349,7 +354,6 @@
       "upload_date": "20260125",
       "duration_seconds": 2817,
       "composite_base": 74,
-      "like_adjustment": 0,
       "rank": 9,
       "tags": [
         {
@@ -360,7 +364,9 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.7
     },
     {
       "id": "5pieVHmlbyk",
@@ -375,7 +381,7 @@
         "Autoformalization converts specs to formal proofs.",
         "AI code risks “understanding debt” and spaghetti."
       ],
-      "composite": 72.75,
+      "composite": 69.45,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 5.5,
@@ -386,14 +392,17 @@
       "upload_date": "20260628",
       "duration_seconds": 3779,
       "composite_base": 72.75,
-      "like_adjustment": 0,
       "rank": 10,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -3.3
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

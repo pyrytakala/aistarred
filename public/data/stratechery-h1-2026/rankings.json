@@ -1,99 +1,53 @@
 {
   "source_id": "stratechery-h1-2026",
-  "video_count": 10,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
-    {
-      "id": "summer-break-week-of-june-29",
-      "title": "Summer Break: Week of June 29",
-      "url": "https://stratechery.com/2026/summer-break-week-of-june-29/",
-      "upload_date": "20260629",
-      "duration_seconds": null,
-      "speakers": "Stratechery",
-      "status": "pending"
-    },
-    {
-      "id": "summer-vibes",
-      "title": "2026.26: Summer Vibes",
-      "url": "https://stratechery.com/2026/summer-vibes/",
-      "upload_date": "20260626",
-      "duration_seconds": null,
-      "speakers": "Stratechery",
-      "status": "pending"
-    },
+  "video_count": 1,
+  "scored_count": 1,
+  "ranked_count": 1,
+  "rankings": [
     {
       "id": "an-interview-with-figma-ceo-dylan-field-about-design-and-ai",
       "title": "An Interview with Figma CEO Dylan Field About Design and AI",
+      "speakers": "Stratechery",
       "url": "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
+      "status": "ok",
+      "summary_bullets": [
+        "Figma started with WebGL browser breakthrough.",
+        "Adobe acquisition failed due to regulatory resistance.",
+        "Field sees AI as tailwind, market sees headwind.",
+        "Design differs from art; problem-solving vs expression.",
+        "Figma's Canvas integrates code and design."
+      ],
+      "composite": 77,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 5.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 7,
+      "like_count": null,
       "upload_date": "20260625",
       "duration_seconds": null,
-      "speakers": "Stratechery",
-      "status": "pending"
-    },
-    {
-      "id": "my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways",
-      "title": "My Vibe Coding Adventure, The App and the Experience, Ten Takeaways",
-      "url": "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/",
-      "upload_date": "20260624",
-      "duration_seconds": null,
-      "speakers": "Stratechery",
-      "status": "pending"
-    },
-    {
-      "id": "memory-chips-and-china-microsoft-and-chinese-models",
-      "title": "Memory Chips and China, Microsoft and Chinese Models",
-      "url": "https://stratechery.com/2026/memory-chips-and-china-microsoft-and-chinese-models/",
-      "upload_date": "20260623",
-      "duration_seconds": null,
-      "speakers": "Stratechery",
-      "status": "pending"
-    },
-    {
-      "id": "apple-price-increases-apple-intelligence-and-the-e-u",
-      "title": "Apple Price Increases, Apple Intelligence and the E.U.",
-      "url": "https://stratechery.com/2026/apple-price-increases-apple-intelligence-and-the-e-u/",
-      "upload_date": "20260622",
-      "duration_seconds": null,
-      "speakers": "Stratechery",
-      "status": "pending"
-    },
-    {
-      "id": "the-stuff-of-mythos",
-      "title": "2026.25: The Stuff of Myth(os)",
-      "url": "https://stratechery.com/2026/the-stuff-of-mythos/",
-      "upload_date": "20260619",
-      "duration_seconds": null,
-      "speakers": "Stratechery",
-      "status": "pending"
-    },
-    {
-      "id": "an-interview-with-michael-morton-about-e-commerce-in-the-age-of-ai",
-      "title": "An Interview with Michael Morton About E-Commerce in the Age of AI",
-      "url": "https://stratechery.com/2026/an-interview-with-michael-morton-about-e-commerce-in-the-age-of-ai/",
-      "upload_date": "20260618",
-      "duration_seconds": null,
-      "speakers": "Stratechery",
-      "status": "pending"
-    },
-    {
-      "id": "the-state-of-fable-the-jailbreak-problem-spacex-acquires-cursor",
-      "title": "The State of Fable, The Jailbreak Problem, SpaceX Acquires Cursor",
-      "url": "https://stratechery.com/2026/the-state-of-fable-the-jailbreak-problem-spacex-acquires-cursor/",
-      "upload_date": "20260617",
-      "duration_seconds": null,
-      "speakers": "Stratechery",
-      "status": "pending"
-    },
-    {
-      "id": "fox-buys-roku-the-problem-with-foxs-smart-strategy-streaming-that-works",
-      "title": "Fox Buys Roku, The Problem With Fox’s Smart Strategy, Streaming That Works",
-      "url": "https://stratechery.com/2026/fox-buys-roku-the-problem-with-foxs-smart-strategy-streaming-that-works/",
-      "upload_date": "20260616",
-      "duration_seconds": null,
-      "speakers": "Stratechery",
-      "status": "pending"
+      "composite_base": 77,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

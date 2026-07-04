@@ -1,54 +1,173 @@
 {
   "source_id": "hamel-dev-h1-2026",
-  "video_count": 5,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
+  "video_count": 4,
+  "scored_count": 4,
+  "ranked_count": 4,
+  "rankings": [
     {
       "id": "eval-smell",
       "title": "“It’s Hard to Eval” Is a Product Smell – Hamel’s Blog",
+      "speakers": "Hamel Husain",
       "url": "https://hamel.dev/blog/posts/eval-smell/index.html",
+      "status": "ok",
+      "summary_bullets": [
+        "\"Hard to eval\" signals product design flaw.",
+        "Design outputs for user verification first.",
+        "Three product examples with redesign sketches.",
+        "Verification reduces eval difficulty and improves product.",
+        "Provenance and progressive disclosure aid trust."
+      ],
+      "composite": 80,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 7,
+      "like_count": null,
       "upload_date": "20260629",
       "duration_seconds": null,
-      "speakers": "Hamel Husain",
-      "status": "pending"
+      "composite_base": 80,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "revenge",
       "title": "The Revenge of the Data Scientist – Hamel’s Blog",
+      "speakers": "Hamel Husain",
       "url": "https://hamel.dev/blog/posts/revenge/index.html",
+      "status": "ok",
+      "summary_bullets": [
+        "Data scientists still needed for LLM evaluation.",
+        "Five common eval pitfalls identified.",
+        "Look at data, not generic metrics.",
+        "Treat LLM judges like classifiers.",
+        "Domain experts must label data."
+      ],
+      "composite": 79.75,
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 9.5,
+      "like_count": null,
       "upload_date": "20260326",
       "duration_seconds": null,
-      "speakers": "Hamel Husain",
-      "status": "pending"
-    },
-    {
-      "id": "evals-skills",
-      "title": "Evals Skills for Coding Agents – Hamel’s Blog",
-      "url": "https://hamel.dev/blog/posts/evals-skills/index.html",
-      "upload_date": "20260302",
-      "duration_seconds": null,
-      "speakers": "Hamel Husain",
-      "status": "pending"
-    },
-    {
-      "id": "ai-stack",
-      "title": "Why I Stopped Using nbdev – Hamel’s Blog",
-      "url": "https://hamel.dev/blog/posts/ai-stack/index.html",
-      "upload_date": "20260118",
-      "duration_seconds": null,
-      "speakers": "Hamel Husain",
-      "status": "pending"
+      "composite_base": 79.75,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "evals-faq",
       "title": "LLM Evals: Everything You Need to Know – Hamel’s Blog",
+      "speakers": "Hamel Husain",
       "url": "https://hamel.dev/blog/posts/evals-faq/index.html",
+      "status": "ok",
+      "summary_bullets": [
+        "Error analysis is the most important eval activity.",
+        "Binary pass/fail evals beat Likert scales.",
+        "Build custom annotation tools for faster iteration.",
+        "Synthetic data needs structured dimensions.",
+        "Don’t outsource error analysis to third parties."
+      ],
+      "composite": 78,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 5,
+      "like_count": null,
       "upload_date": "20260115",
       "duration_seconds": null,
+      "composite_base": 78,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "ai-stack",
+      "title": "Why I Stopped Using nbdev – Hamel’s Blog",
       "speakers": "Hamel Husain",
-      "status": "pending"
+      "url": "https://hamel.dev/blog/posts/ai-stack/index.html",
+      "status": "ok",
+      "summary_bullets": [
+        "Author stopped using nbdev due to AI tools.",
+        "AI struggles with idiosyncratic notebook workflows.",
+        "Documentation tooling less compelling with AI.",
+        "Idiosyncratic tools hinder collaboration with AI.",
+        "Now uses conventional stacks like Next.js."
+      ],
+      "composite": 74,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260118",
+      "duration_seconds": null,
+      "composite_base": 74,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

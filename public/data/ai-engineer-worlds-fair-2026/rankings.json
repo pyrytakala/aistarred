@@ -1,64 +1,15 @@
 {
   "source_id": "ai-engineer-worlds-fair-2026",
-  "model": "accounts/fireworks/models/deepseek-v4-flash",
   "video_count": 38,
   "scored_count": 35,
-  "ranked_count": 12,
+  "ranked_count": 35,
   "rankings": [
-    {
-      "id": "IJXjTLPzvAU",
-      "title": "The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=IJXjTLPzvAU",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Why persona evals miss anachronistic compositing",
-        "Hamilton musical distorts AI historical personas",
-        "Pre-registered Lincoln evaluation protocol",
-        "Context window vs fine-tuning for fidelity",
-        "Domain experts as eval requirement"
-      ],
-      "composite": 84,
-      "confidence": "High",
-      "audience_level": "practitioner",
-      "substance": 8.5,
-      "evidence": 6.5,
-      "specificity": 9,
-      "insight_density": 9,
-      "non_promotion": 9.5,
-      "like_count": null,
-      "upload_date": "20260625",
-      "duration_seconds": 3497,
-      "composite_base": 84,
-      "rank": 1,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
     {
       "id": "LrGCT7G_rU8",
       "title": "Using RL Agent to Detect and Remediate ETL Pipeline Failures - Anna Marie Benzon",
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=LrGCT7G_rU8",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "RL agent selects bounded remediation actions",
         "Safety constraints outside learned policy",
@@ -78,7 +29,7 @@
       "upload_date": "20260629",
       "duration_seconds": 881,
       "composite_base": 83.75,
-      "rank": 2,
+      "rank": 1,
       "tags": [
         {
           "label": "Evidence",
@@ -97,7 +48,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "whue9_YquGA",
@@ -105,7 +57,6 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=whue9_YquGA",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Maturity model for agentic engineering",
         "Scaling AI via 1% champions program",
@@ -125,7 +76,7 @@
       "upload_date": "20260628",
       "duration_seconds": 1056,
       "composite_base": 83.3,
-      "rank": 3,
+      "rank": 2,
       "tags": [
         {
           "label": "Substance",
@@ -144,7 +95,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "ij-AU9dpJjc",
@@ -152,7 +104,6 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=ij-AU9dpJjc",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Four-layer prompt architecture for brand voice",
         "Why single system prompts fail on turn 21",
@@ -172,6 +123,53 @@
       "upload_date": "20260626",
       "duration_seconds": 1257,
       "composite_base": 81.3,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "IJXjTLPzvAU",
+      "title": "The Miranda Hypothesis: How Hamilton Poisoned Persona Evals - Jacob E. Thomas, Results Gen",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=IJXjTLPzvAU",
+      "status": "ok",
+      "summary_bullets": [
+        "Why persona evals miss anachronistic compositing",
+        "Hamilton musical distorts AI historical personas",
+        "Pre-registered Lincoln evaluation protocol",
+        "Context window vs fine-tuning for fidelity",
+        "Domain experts as eval requirement"
+      ],
+      "composite": 81.17,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 9,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260625",
+      "duration_seconds": 3497,
+      "composite_base": 84,
       "rank": 4,
       "tags": [
         {
@@ -191,7 +189,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -2.83
     },
     {
       "id": "vh2VGuQ3zhY",
@@ -199,7 +198,6 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=vh2VGuQ3zhY",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Fat agent accuracy collapses beyond 50 tools.",
         "Semantic routing cuts tokens 99%.",
@@ -230,7 +228,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "UNzCG3lw6O0",
@@ -238,7 +237,6 @@
       "speakers": "AI Engineer and Matt Pocock",
       "url": "https://www.youtube.com/watch?v=UNzCG3lw6O0",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Skill hell: inability to distinguish good from bad skills.",
         "Checklist: trigger, structure, steering, pruning.",
@@ -273,7 +271,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "aHhB3sjGjkI",
@@ -281,7 +280,6 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=aHhB3sjGjkI",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Presents a method using coding agents to iteratively improve AI agent performance on evals.",
         "Introduces AutoAgent, a loop that runs evals and updates agent code autonomously.",
@@ -289,7 +287,7 @@
         "Reports results: 18%→83% eval pass rate on a naive agent, 10% improvement on a production agent.",
         "Emphasizes harness engineering: specs, quality gates, observability for reliable agent improvement."
       ],
-      "composite": 73,
+      "composite": 72.98,
       "substance": 7.5,
       "evidence": 5.5,
       "specificity": 8.5,
@@ -306,7 +304,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.02
     },
     {
       "id": "ZD9-4fW2HhM",
@@ -314,7 +313,6 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=ZD9-4fW2HhM",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Agentic systems need engineering discipline.",
         "Decompose giant prompts into separate components.",
@@ -349,41 +347,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "fWXJM-J0ZB8",
-      "title": "Frontier results, on device - RL Nabors, Arize",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=fWXJM-J0ZB8",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Advocates replacing large cloud LLMs with on-device small models for cost, security, latency.",
-        "Presents a framework: prototype big, deploy small; test from small to large.",
-        "Demonstrates evaluation using Arize's Phoenix to compare models on summarization task.",
-        "Shows prompt engineering (few-shot) can close accuracy gap between small and large models.",
-        "Encourages developers to audit LLM usage and convert features to local models."
-      ],
-      "composite": 72.3,
-      "confidence": "High",
-      "substance": 7,
-      "evidence": 6.5,
-      "specificity": 9,
-      "insight_density": 7.5,
-      "non_promotion": 6,
-      "like_count": null,
-      "upload_date": "20260629",
-      "duration_seconds": 1852,
-      "composite_base": 72.3,
-      "rank": 9,
-      "tags": [
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "Lc8zRh9muoY",
@@ -391,7 +356,6 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=Lc8zRh9muoY",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Explains why temperature zero fails to guarantee deterministic agent behavior due to GPU non-determinism and batching.",
         "Argues for replayability via recording input/output at node boundaries instead of chasing bitwise determinism.",
@@ -410,7 +374,7 @@
       "upload_date": "20260629",
       "duration_seconds": 850,
       "composite_base": 72.3,
-      "rank": 10,
+      "rank": 9,
       "tags": [
         {
           "label": "Specificity",
@@ -421,7 +385,42 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "fWXJM-J0ZB8",
+      "title": "Frontier results, on device - RL Nabors, Arize",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=fWXJM-J0ZB8",
+      "status": "ok",
+      "summary_bullets": [
+        "Advocates replacing large cloud LLMs with on-device small models for cost, security, latency.",
+        "Presents a framework: prototype big, deploy small; test from small to large.",
+        "Demonstrates evaluation using Arize's Phoenix to compare models on summarization task.",
+        "Shows prompt engineering (few-shot) can close accuracy gap between small and large models.",
+        "Encourages developers to audit LLM usage and convert features to local models."
+      ],
+      "composite": 72.21,
+      "confidence": "High",
+      "substance": 7,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260629",
+      "duration_seconds": 1852,
+      "composite_base": 72.3,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.09
     },
     {
       "id": "Iwe_RY-fYgI",
@@ -429,7 +428,6 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=Iwe_RY-fYgI",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Fraud patterns span multiple documents.",
         "Graph engine links entities across systems.",
@@ -451,7 +449,8 @@
       "composite_base": 72,
       "rank": 11,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "dRmWYHuIJxM",
@@ -459,7 +458,6 @@
       "speakers": "AI Engineer",
       "url": "https://www.youtube.com/watch?v=dRmWYHuIJxM",
       "status": "ok",
-      "cache_hit": true,
       "summary_bullets": [
         "Problem: AI coding tools send excessive context, causing high token costs.",
         "Solution: Local code index retrieves only relevant code snippets.",
@@ -489,7 +487,731 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "DqtmZE6Hl0g",
+      "title": "The Prompt is the Platform - Dominik Tornow, Resonate HQ",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=DqtmZE6Hl0g",
+      "status": "ok",
+      "summary_bullets": [
+        "Describes using deterministic simulation to help agents design distributed systems from abstract specs.",
+        "Shows agents moving from implementation to design via simulation and concrete specs.",
+        "Uses Resonate on NATS case study, highlighting stale reads and versioned key-value store.",
+        "Claims minimalism and simplicity enable agent-driven design and specification reuse."
+      ],
+      "composite": 70,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260629",
+      "duration_seconds": 1053,
+      "composite_base": 70,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "T0HhO4YtTfE",
+      "title": "AI System Design: From Idea to Production - Apoorva Joshi, MongoDB",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=T0HhO4YtTfE",
+      "status": "ok",
+      "summary_bullets": [
+        "Four-phase framework for AI system design",
+        "Real-world claims review case study",
+        "How to define success metrics and constraints",
+        "Evaluation and monitoring strategies",
+        "Optimization techniques for cost and latency"
+      ],
+      "composite": 69.8,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 8,
+      "insight_density": 8.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 1733,
+      "composite_base": 69.8,
+      "rank": 14,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "hVJOnuhFmTA",
+      "title": "The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=hVJOnuhFmTA",
+      "status": "ok",
+      "summary_bullets": [
+        "Argues that prompting is a batch protocol like punch cards, not truly interactive.",
+        "Introduces three concepts: channel, expression, protocol to analyze AI interfaces.",
+        "Shows examples of voice mode failures and real-time conversational AI demos.",
+        "Calls for designing AI that meets humans mid-thought rather than requiring pre-packaged intent."
+      ],
+      "composite": 69,
+      "confidence": "High",
+      "substance": 8,
+      "evidence": 4,
+      "specificity": 7.5,
+      "insight_density": 8,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260702",
+      "duration_seconds": 1213,
+      "composite_base": 69,
+      "rank": 15,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "APh1Vx0oLmQ",
+      "title": "Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=APh1Vx0oLmQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Identifies mismatch between probabilistic AI agents and deterministic cloud infrastructure.",
+        "Lists failure modes: recursive loops, retry amplification, cost explosions.",
+        "Proposes architecture: model proposes, infrastructure validates, policy enforces.",
+        "Argues reliability, not intelligence, is the key production challenge.",
+        "Emphasizes observability, memory consistency, layered safety, human supervision."
+      ],
+      "composite": 68.75,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 4,
+      "specificity": 7,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260629",
+      "duration_seconds": 434,
+      "composite_base": 68.75,
+      "rank": 16,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "65X0pQ6Lmbg",
+      "title": "Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=65X0pQ6Lmbg",
+      "status": "ok",
+      "summary_bullets": [
+        "Argues voice input + visual output is a promising AI interaction paradigm.",
+        "Identifies latency as key challenge: <1s for visual, <200ms for voice conversation.",
+        "Recommends fast models (e.g., Haiku), eager inference during speech, and prefix caching.",
+        "Shares experience building a voice agent that files Linear issues during calls.",
+        "Emphasizes voice conveys more bandwidth than typing, but latency is the barrier."
+      ],
+      "composite": 68.75,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 4.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 785,
+      "composite_base": 68.75,
+      "rank": 17,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "Akm1sqvWG4A",
+      "title": "Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=Akm1sqvWG4A",
+      "status": "ok",
+      "summary_bullets": [
+        "Demonstrates a framework-free hybrid RAG using Docling, PostgreSQL, and local LLMs.",
+        "Covers four chunking strategies: heading-based, paragraph, fixed 512-char, sentence-based.",
+        "Implements hybrid search combining vector embeddings and BM25 keyword search with reranking.",
+        "Uses LangFuse for observability and Python-based guardrails to block off-topic queries.",
+        "Shows that a small 0.5B model suffices when data is well-structured."
+      ],
+      "composite": 68.42,
+      "confidence": "Med",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 2748,
+      "composite_base": 70,
+      "rank": 18,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.58
+    },
+    {
+      "id": "4uFVSLgD2Q4",
+      "title": "Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=4uFVSLgD2Q4",
+      "status": "ok",
+      "summary_bullets": [
+        "Describes OpenGov's OG Assist AI agent for government ERP software.",
+        "Explains migration from LangGraph to custom Effect-based agent loop.",
+        "Covers use of Google's A2A protocol for agent communication and schema alignment.",
+        "Details feedback collection, automated evals, sandboxing, and long context management.",
+        "Highlights tracing/observability via Effect and internal AI for developer velocity."
+      ],
+      "composite": 68,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260626",
+      "duration_seconds": 1110,
+      "composite_base": 68,
+      "rank": 19,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "OXMMN-XbxwA",
+      "title": "Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=OXMMN-XbxwA",
+      "status": "ok",
+      "summary_bullets": [
+        "Describes three focus areas for bridging ML research to production.",
+        "Covers research legibility via taxonomy documents.",
+        "Details monorepo with decoupled microservices architecture.",
+        "Explains decomposition and PR review strategies using Graphite.",
+        "Offers diagnostic questions to evaluate team velocity."
+      ],
+      "composite": 64.8,
+      "confidence": "High",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 897,
+      "composite_base": 64.8,
+      "rank": 20,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "6bmM45jkMDY",
+      "title": "You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=6bmM45jkMDY",
+      "status": "ok",
+      "summary_bullets": [
+        "Argues AI makes coding cheap, shifting bottleneck to deciding what to build.",
+        "Recommends story mapping, VAD framework, and four questions for requirements.",
+        "Warns against building wrong things: low adoption, demo-as-deliverable, no real testing.",
+        "Suggests moving smartest people to customer-facing roles and auditing metrics."
+      ],
+      "composite": 63.5,
+      "confidence": "High",
+      "substance": 7,
+      "evidence": 3,
+      "specificity": 7.5,
+      "insight_density": 6.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260629",
+      "duration_seconds": 945,
+      "composite_base": 63.5,
+      "rank": 21,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "jVjt-2g8NMY",
+      "title": "A Genius With Amnesia - Victor Savkin, Nx",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=jVjt-2g8NMY",
+      "status": "ok",
+      "summary_bullets": [
+        "Identifies two agent limitations: repo-bound scope and lack of episodic memory.",
+        "Uses a multi-repo change example requiring seven re-explanations to illustrate the problem.",
+        "Presents Polygraph, a meta-harness that gives agents cross-repo awareness and session persistence.",
+        "Demonstrates features: multi-repo sessions, shared memory across developers, and session resumption."
+      ],
+      "composite": 61.5,
+      "confidence": "Med",
+      "substance": 7,
+      "evidence": 4,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260626",
+      "duration_seconds": 1200,
+      "composite_base": 61.5,
+      "rank": 22,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "akk6KRlcwW4",
+      "title": "OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=akk6KRlcwW4",
+      "status": "ok",
+      "summary_bullets": [
+        "Builds a physical AI terminal with dual OLED/e-paper displays for LLM interaction.",
+        "Uses ESP32 microcontroller, backend with TensorRT serving a 120B-parameter model.",
+        "Includes four modes: shell, assist, OpenClaw agent, and text-based RPG game.",
+        "Documents specific hardware failures: I2C issues, power regulator damage, encoder noise.",
+        "Powered by a single lithium polymer cell; firmware is small and fast."
+      ],
+      "composite": 60,
+      "substance": 5.5,
+      "evidence": 4.5,
+      "specificity": 7.5,
+      "insight_density": 6,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 1476,
+      "composite_base": 60,
+      "rank": 23,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "spNAUEgq_A8",
+      "title": "The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=spNAUEgq_A8",
+      "status": "ok",
+      "summary_bullets": [
+        "Argues that monolithic agents with large context (inheritance) are flawed.",
+        "Proposes composition via small, specialized domain-specific agents coordinated by a larger agent.",
+        "Claims 80%+ token efficiency and 137x cost savings using smaller models.",
+        "Predicts rapid adoption of domain-specific agents and multi-agent orchestration by 2027.",
+        "Includes a partial product pitch for StandardAgents’ early-access ecosystem."
+      ],
+      "composite": 59.24,
+      "confidence": "High",
+      "substance": 7,
+      "evidence": 3,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260629",
+      "duration_seconds": 1838,
+      "composite_base": 59.3,
+      "rank": 24,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -0.06
+    },
+    {
+      "id": "UPwGaM2MKHY",
+      "title": "The Log Is The Agent - Ishaan Sehgal, Omnara",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=UPwGaM2MKHY",
+      "status": "ok",
+      "summary_bullets": [
+        "Argues agent identity is its append-only event log, not model or runtime.",
+        "Compares to video game save files: agent is data, not execution environment.",
+        "Discusses compaction, external state, and system properties (reliability, scalability, forking, migration).",
+        "Critiques current agent infrastructure for treating log as afterthought.",
+        "Promotes Omnara's open-source managed agents platform built around session log."
+      ],
+      "composite": 58.3,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 3.5,
+      "specificity": 6.5,
+      "insight_density": 6,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260625",
+      "duration_seconds": 911,
+      "composite_base": 58.3,
+      "rank": 25,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "3hXJI2q0Jz8",
+      "title": "Recursive Coding Agents - Raymond Weitekamp, OpenProse",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=3hXJI2q0Jz8",
+      "status": "ok",
+      "summary_bullets": [
+        "Defines recursive language models (RLMs) as unifying reasoning and tool calling via a read-evaluate-print loop.",
+        "Argues current AI agents are \"mismanaged geniuses\" – intelligence sufficient but orchestration/reliability missing.",
+        "Shows RLMs can process huge contexts and beat frontier models on long reasoning benchmarks (e.g., Long CoT).",
+        "Demonstrates recursive coding agents via CLI wrappers, forked Pi agent, and OpenProse language.",
+        "Discusses dynamic workflows in Claude Code and OpenProse as ways to make coding agents recursive and reliable."
+      ],
+      "composite": 58.3,
+      "confidence": "High",
+      "substance": 6,
+      "evidence": 4.5,
+      "specificity": 6.5,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260625",
+      "duration_seconds": 1428,
+      "composite_base": 58.3,
+      "rank": 26,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "uiP88SpCi1Q",
+      "title": "Your Agent Is Wasting Tokens and You Don't Know It - Erik Hanchett, AWS",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=uiP88SpCi1Q",
+      "status": "ok",
+      "summary_bullets": [
+        "Five practical tips to reduce token costs in agent systems.",
+        "Caching system prompts, routing by difficulty, offloading tool results.",
+        "Capping tool loops and trimming conversation history.",
+        "Uses AWS Strands agents as example but applies broadly."
+      ],
+      "composite": 56.5,
+      "confidence": "High",
+      "substance": 6,
+      "evidence": 3,
+      "specificity": 7,
+      "insight_density": 6,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 355,
+      "composite_base": 56.5,
+      "rank": 27,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "XovaGv4f39A",
+      "title": "When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=XovaGv4f39A",
+      "status": "ok",
+      "summary_bullets": [
+        "Proposes parallel CAG with multiple KV caches for dense, rapidly changing document collections.",
+        "Contrasts simple RAG and GraphRAG limitations for fully relevant, frequently replaced documents.",
+        "Describes distributing documents randomly across buckets, supervisor model interrogates buckets.",
+        "Mentions cost optimization for KV cache lifetimes."
+      ],
+      "composite": 56.5,
+      "confidence": "High",
+      "substance": 6.5,
+      "evidence": 2,
+      "specificity": 6,
+      "insight_density": 6,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 352,
+      "composite_base": 56.5,
+      "rank": 28,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "ZRM_TfEZcIo",
+      "title": "Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=ZRM_TfEZcIo",
+      "status": "ok",
+      "summary_bullets": [
+        "Describes a three-version AI research OS for personal knowledge management.",
+        "Uses deep research algorithm with query rounds, ranking, and file-based index.",
+        "Ingests notes from Obsidian, Readwise, NotebookLM, GitHub, etc.",
+        "Builds a wiki layer with concepts, comparisons, entities from raw sources.",
+        "Aims to make research persistent and queryable without vector databases."
+      ],
+      "composite": 56.3,
+      "confidence": "High",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260626",
+      "duration_seconds": 2372,
+      "composite_base": 57.25,
+      "rank": 29,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.95
+    },
+    {
+      "id": "tB9RKTrU-Ig",
+      "title": "Turbocharge Your Agent's Retrieval with TurboQuant - Shashi Jagtap, Superagentic AI",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=tB9RKTrU-Ig",
+      "status": "ok",
+      "summary_bullets": [
+        "TurboQuant compresses embeddings/KV cache to 3–4 bits, cutting memory 5×.",
+        "Uses two-stage algorithm: Polar Quant + QJL to preserve search quality.",
+        "Demo shows same retrieval results with 8 KB → 1.6 KB index memory.",
+        "TurboQuant is being adopted by llama.cpp, MLX, Ollama, LM Studio.",
+        "Talk presents Turbo Agent library to swap retrieval layer without changing framework."
+      ],
+      "composite": 55,
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 7,
+      "insight_density": 5.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 888,
+      "composite_base": 55,
+      "rank": 30,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "-x5GEVnkuRw",
+      "title": "Structuring the Unstructured - Cedric Clyburn, Red Hat",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=-x5GEVnkuRw",
+      "status": "ok",
+      "summary_bullets": [
+        "Introduces Docling, an open-source tool for converting unstructured documents (PDFs, images) to markdown/JSON.",
+        "Demonstrates extraction of text, tables, images, and layout using OCR and vision models, all locally.",
+        "Shows applications: RAG, chunkless retrieval, agentic systems, and scaling via REST API/MCP server.",
+        "Highlights real-world failure: AI misinterpretation of scanned PDFs causing nonsensical terms in scientific papers."
+      ],
+      "composite": 52.3,
+      "substance": 5.5,
+      "evidence": 4,
+      "specificity": 7.5,
+      "insight_density": 5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 1241,
+      "composite_base": 52.3,
+      "rank": 31,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "JRTAtZ5iBkU",
+      "title": "HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=JRTAtZ5iBkU",
+      "status": "ok",
+      "summary_bullets": [
+        "Argues agents fail at graphics due to medium mismatch, not model limits.",
+        "Proposes HTML as agent-native language for layout and visuals.",
+        "Demonstrates HTML-generated slides, docs, and videos.",
+        "Promotes Nori product that automates deck creation using this approach."
+      ],
+      "composite": 51.3,
+      "confidence": "Med",
+      "substance": 6.5,
+      "evidence": 3.5,
+      "specificity": 6,
+      "insight_density": 5.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 420,
+      "composite_base": 51.3,
+      "rank": 32,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "Jx4ZFEAq6bY",
+      "title": "User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=Jx4ZFEAq6bY",
+      "status": "ok",
+      "summary_bullets": [
+        "Identifies static retrieval as main cause of agent failures (73% of pipeline failures).",
+        "Proposes utility score: similarity weighted by historical outcome usefulness.",
+        "Introduces Agent RX runtime layer that learns from eval signals without retraining.",
+        "Benchmarks show improvement on Towel Bench (66%→80%) and agentic tasks (35.7%→61.3%).",
+        "Demo illustrates a product SQL agent adapting after failure feedback."
+      ],
+      "composite": 49,
+      "confidence": "Low",
+      "substance": 5.5,
+      "evidence": 5,
+      "specificity": 6,
+      "insight_density": 4.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 937,
+      "composite_base": 49,
+      "rank": 33,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "IddXPepIAS4",
+      "title": "Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=IddXPepIAS4",
+      "status": "ok",
+      "summary_bullets": [
+        "Defines spec-driven development: writing specs before code.",
+        "Argues it improves AI coding assistant output quality.",
+        "Demonstrates workflow with AWS Q Developer (Kiro) spec mode.",
+        "Covers manual approach and use of MCP for requirements.",
+        "Emphasizes human-in-the-loop code review and Goldilocks context."
+      ],
+      "composite": 48.5,
+      "confidence": "Med",
+      "substance": 5.5,
+      "evidence": 3,
+      "specificity": 7,
+      "insight_density": 5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260628",
+      "duration_seconds": 1067,
+      "composite_base": 48.5,
+      "rank": 34,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "pSto5YaNGUo",
+      "title": "The Agentic AI Engineer - Benedikt Sanftl, Mutagent",
+      "speakers": "AI Engineer",
+      "url": "https://www.youtube.com/watch?v=pSto5YaNGUo",
+      "status": "ok",
+      "summary_bullets": [
+        "Describes an agentic loop (offline build/test/evaluate, online monitor/diagnose/optimize) for AI agent development.",
+        "Advocates spec-driven development to capture agent requirements decoupled from implementation frameworks.",
+        "Introduces eval-driven development with binary evals and LLM-as-judge calibration to reduce noise.",
+        "Presents a diagnostics agent that clusters failure modes from traces and suggests remedies.",
+        "Showcases Mutagent’s product: evaluator and diagnostics agents integrated into coding environments."
+      ],
+      "composite": 41.82,
+      "confidence": "High",
+      "substance": 4.5,
+      "evidence": 2,
+      "specificity": 6,
+      "insight_density": 5.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260629",
+      "duration_seconds": 2090,
+      "composite_base": 42.3,
+      "rank": 35,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -0.48
     }
   ],
   "too_long": [
@@ -524,729 +1246,5 @@
       "error": "exceeds scoring duration limit"
     }
   ],
-  "other": [
-    {
-      "id": "DqtmZE6Hl0g",
-      "title": "The Prompt is the Platform - Dominik Tornow, Resonate HQ",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=DqtmZE6Hl0g",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Describes using deterministic simulation to help agents design distributed systems from abstract specs.",
-        "Shows agents moving from implementation to design via simulation and concrete specs.",
-        "Uses Resonate on NATS case study, highlighting stale reads and versioned key-value store.",
-        "Claims minimalism and simplicity enable agent-driven design and specification reuse."
-      ],
-      "composite": 70,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 5,
-      "specificity": 9,
-      "insight_density": 8,
-      "non_promotion": 4,
-      "like_count": null,
-      "upload_date": "20260629",
-      "duration_seconds": 1053,
-      "composite_base": 70,
-      "rank": 13,
-      "tags": [
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "Akm1sqvWG4A",
-      "title": "Bypassing the Multimodal Tax: Hybrid RAG, SQL RRF & UI Telemetry - Abed Matini, Ogilvy",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=Akm1sqvWG4A",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Demonstrates a framework-free hybrid RAG using Docling, PostgreSQL, and local LLMs.",
-        "Covers four chunking strategies: heading-based, paragraph, fixed 512-char, sentence-based.",
-        "Implements hybrid search combining vector embeddings and BM25 keyword search with reranking.",
-        "Uses LangFuse for observability and Python-based guardrails to block off-topic queries.",
-        "Shows that a small 0.5B model suffices when data is well-structured."
-      ],
-      "composite": 70,
-      "confidence": "Med",
-      "substance": 7.5,
-      "evidence": 5.5,
-      "specificity": 8.5,
-      "insight_density": 6,
-      "non_promotion": 9,
-      "like_count": null,
-      "upload_date": "20260628",
-      "duration_seconds": 2748,
-      "composite_base": 70,
-      "rank": 14,
-      "tags": [
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "T0HhO4YtTfE",
-      "title": "AI System Design: From Idea to Production - Apoorva Joshi, MongoDB",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=T0HhO4YtTfE",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Four-phase framework for AI system design",
-        "Real-world claims review case study",
-        "How to define success metrics and constraints",
-        "Evaluation and monitoring strategies",
-        "Optimization techniques for cost and latency"
-      ],
-      "composite": 69.8,
-      "confidence": "High",
-      "audience_level": "practitioner",
-      "substance": 6.5,
-      "evidence": 4,
-      "specificity": 8,
-      "insight_density": 8.5,
-      "non_promotion": 9,
-      "like_count": null,
-      "upload_date": "20260628",
-      "duration_seconds": 1733,
-      "composite_base": 69.8,
-      "rank": 15,
-      "tags": [
-        {
-          "label": "Insight",
-          "tone": "positive"
-        },
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "hVJOnuhFmTA",
-      "title": "The Prompt Is Still a Punch Card - Ted Johnson, JoinIn AI",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=hVJOnuhFmTA",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Argues that prompting is a batch protocol like punch cards, not truly interactive.",
-        "Introduces three concepts: channel, expression, protocol to analyze AI interfaces.",
-        "Shows examples of voice mode failures and real-time conversational AI demos.",
-        "Calls for designing AI that meets humans mid-thought rather than requiring pre-packaged intent."
-      ],
-      "composite": 69,
-      "confidence": "High",
-      "substance": 8,
-      "evidence": 4,
-      "specificity": 7.5,
-      "insight_density": 8,
-      "non_promotion": 6,
-      "like_count": null,
-      "upload_date": "20260702",
-      "duration_seconds": 1213,
-      "composite_base": 69,
-      "rank": 16,
-      "tags": [
-        {
-          "label": "Substance",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "APh1Vx0oLmQ",
-      "title": "Deterministic Infra for Non-Deterministic AI Agents - Nishant Gupta, Meta Superintelligence Labs",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=APh1Vx0oLmQ",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Identifies mismatch between probabilistic AI agents and deterministic cloud infrastructure.",
-        "Lists failure modes: recursive loops, retry amplification, cost explosions.",
-        "Proposes architecture: model proposes, infrastructure validates, policy enforces.",
-        "Argues reliability, not intelligence, is the key production challenge.",
-        "Emphasizes observability, memory consistency, layered safety, human supervision."
-      ],
-      "composite": 68.75,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 4,
-      "specificity": 7,
-      "insight_density": 7.5,
-      "non_promotion": 9,
-      "like_count": null,
-      "upload_date": "20260629",
-      "duration_seconds": 434,
-      "composite_base": 68.75,
-      "rank": 17,
-      "tags": [
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "65X0pQ6Lmbg",
-      "title": "Voice In, Visuals Out: The Agony and the Ecstasy - Allen Pike, Forestwalk Labs",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=65X0pQ6Lmbg",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Argues voice input + visual output is a promising AI interaction paradigm.",
-        "Identifies latency as key challenge: <1s for visual, <200ms for voice conversation.",
-        "Recommends fast models (e.g., Haiku), eager inference during speech, and prefix caching.",
-        "Shares experience building a voice agent that files Linear issues during calls.",
-        "Emphasizes voice conveys more bandwidth than typing, but latency is the barrier."
-      ],
-      "composite": 68.75,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 4.5,
-      "specificity": 8.5,
-      "insight_density": 7,
-      "non_promotion": 7,
-      "like_count": null,
-      "upload_date": "20260628",
-      "duration_seconds": 785,
-      "composite_base": 68.75,
-      "rank": 18,
-      "tags": [
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "4uFVSLgD2Q4",
-      "title": "Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa, OpenGov",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=4uFVSLgD2Q4",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Describes OpenGov's OG Assist AI agent for government ERP software.",
-        "Explains migration from LangGraph to custom Effect-based agent loop.",
-        "Covers use of Google's A2A protocol for agent communication and schema alignment.",
-        "Details feedback collection, automated evals, sandboxing, and long context management.",
-        "Highlights tracing/observability via Effect and internal AI for developer velocity."
-      ],
-      "composite": 68,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 5.5,
-      "specificity": 8,
-      "insight_density": 6.5,
-      "non_promotion": 6,
-      "like_count": null,
-      "upload_date": "20260626",
-      "duration_seconds": 1110,
-      "composite_base": 68,
-      "rank": 19,
-      "tags": [],
-      "like_adjustment": 0
-    },
-    {
-      "id": "OXMMN-XbxwA",
-      "title": "Research to Reality: Bringing Frontier ML Research to Production - Vaidas Razgaitis, Higharc",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=OXMMN-XbxwA",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Describes three focus areas for bridging ML research to production.",
-        "Covers research legibility via taxonomy documents.",
-        "Details monorepo with decoupled microservices architecture.",
-        "Explains decomposition and PR review strategies using Graphite.",
-        "Offers diagnostic questions to evaluate team velocity."
-      ],
-      "composite": 64.8,
-      "confidence": "High",
-      "substance": 6.5,
-      "evidence": 4,
-      "specificity": 8,
-      "insight_density": 6.5,
-      "non_promotion": 9,
-      "like_count": null,
-      "upload_date": "20260628",
-      "duration_seconds": 897,
-      "composite_base": 64.8,
-      "rank": 20,
-      "tags": [
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "6bmM45jkMDY",
-      "title": "You Can't Prompt the Room: The Last Skill AI Won't Replace - Balázs Horváth, VisualLabs",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=6bmM45jkMDY",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Argues AI makes coding cheap, shifting bottleneck to deciding what to build.",
-        "Recommends story mapping, VAD framework, and four questions for requirements.",
-        "Warns against building wrong things: low adoption, demo-as-deliverable, no real testing.",
-        "Suggests moving smartest people to customer-facing roles and auditing metrics."
-      ],
-      "composite": 63.5,
-      "confidence": "High",
-      "substance": 7,
-      "evidence": 3,
-      "specificity": 7.5,
-      "insight_density": 6.5,
-      "non_promotion": 9,
-      "like_count": null,
-      "upload_date": "20260629",
-      "duration_seconds": 945,
-      "composite_base": 63.5,
-      "rank": 21,
-      "tags": [
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "jVjt-2g8NMY",
-      "title": "A Genius With Amnesia - Victor Savkin, Nx",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=jVjt-2g8NMY",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Identifies two agent limitations: repo-bound scope and lack of episodic memory.",
-        "Uses a multi-repo change example requiring seven re-explanations to illustrate the problem.",
-        "Presents Polygraph, a meta-harness that gives agents cross-repo awareness and session persistence.",
-        "Demonstrates features: multi-repo sessions, shared memory across developers, and session resumption."
-      ],
-      "composite": 61.5,
-      "confidence": "Med",
-      "substance": 7,
-      "evidence": 4,
-      "specificity": 8,
-      "insight_density": 7,
-      "non_promotion": 3,
-      "like_count": null,
-      "upload_date": "20260626",
-      "duration_seconds": 1200,
-      "composite_base": 61.5,
-      "rank": 22,
-      "tags": [],
-      "like_adjustment": 0
-    },
-    {
-      "id": "akk6KRlcwW4",
-      "title": "OpenClaw in Your Hand: Building a Physical AI Terminal - Lech Kalinowski, Callstack",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=akk6KRlcwW4",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Builds a physical AI terminal with dual OLED/e-paper displays for LLM interaction.",
-        "Uses ESP32 microcontroller, backend with TensorRT serving a 120B-parameter model.",
-        "Includes four modes: shell, assist, OpenClaw agent, and text-based RPG game.",
-        "Documents specific hardware failures: I2C issues, power regulator damage, encoder noise.",
-        "Powered by a single lithium polymer cell; firmware is small and fast."
-      ],
-      "composite": 60,
-      "substance": 5.5,
-      "evidence": 4.5,
-      "specificity": 7.5,
-      "insight_density": 6,
-      "non_promotion": 8,
-      "like_count": null,
-      "upload_date": "20260628",
-      "duration_seconds": 1476,
-      "composite_base": 60,
-      "rank": 23,
-      "tags": [],
-      "like_adjustment": 0
-    },
-    {
-      "id": "spNAUEgq_A8",
-      "title": "The Future Is Domain-Specific Agents - Justin Schroeder, StandardAgents",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=spNAUEgq_A8",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Argues that monolithic agents with large context (inheritance) are flawed.",
-        "Proposes composition via small, specialized domain-specific agents coordinated by a larger agent.",
-        "Claims 80%+ token efficiency and 137x cost savings using smaller models.",
-        "Predicts rapid adoption of domain-specific agents and multi-agent orchestration by 2027.",
-        "Includes a partial product pitch for StandardAgents’ early-access ecosystem."
-      ],
-      "composite": 59.3,
-      "confidence": "High",
-      "substance": 7,
-      "evidence": 3,
-      "specificity": 8,
-      "insight_density": 6.5,
-      "non_promotion": 4,
-      "like_count": null,
-      "upload_date": "20260629",
-      "duration_seconds": 1838,
-      "composite_base": 59.3,
-      "rank": 24,
-      "tags": [],
-      "like_adjustment": 0
-    },
-    {
-      "id": "UPwGaM2MKHY",
-      "title": "The Log Is The Agent - Ishaan Sehgal, Omnara",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=UPwGaM2MKHY",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Argues agent identity is its append-only event log, not model or runtime.",
-        "Compares to video game save files: agent is data, not execution environment.",
-        "Discusses compaction, external state, and system properties (reliability, scalability, forking, migration).",
-        "Critiques current agent infrastructure for treating log as afterthought.",
-        "Promotes Omnara's open-source managed agents platform built around session log."
-      ],
-      "composite": 58.3,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 3.5,
-      "specificity": 6.5,
-      "insight_density": 6,
-      "non_promotion": 4,
-      "like_count": null,
-      "upload_date": "20260625",
-      "duration_seconds": 911,
-      "composite_base": 58.3,
-      "rank": 25,
-      "tags": [],
-      "like_adjustment": 0
-    },
-    {
-      "id": "3hXJI2q0Jz8",
-      "title": "Recursive Coding Agents - Raymond Weitekamp, OpenProse",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=3hXJI2q0Jz8",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Defines recursive language models (RLMs) as unifying reasoning and tool calling via a read-evaluate-print loop.",
-        "Argues current AI agents are \"mismanaged geniuses\" – intelligence sufficient but orchestration/reliability missing.",
-        "Shows RLMs can process huge contexts and beat frontier models on long reasoning benchmarks (e.g., Long CoT).",
-        "Demonstrates recursive coding agents via CLI wrappers, forked Pi agent, and OpenProse language.",
-        "Discusses dynamic workflows in Claude Code and OpenProse as ways to make coding agents recursive and reliable."
-      ],
-      "composite": 58.3,
-      "confidence": "High",
-      "substance": 6,
-      "evidence": 4.5,
-      "specificity": 6.5,
-      "insight_density": 7,
-      "non_promotion": 4,
-      "like_count": null,
-      "upload_date": "20260625",
-      "duration_seconds": 1428,
-      "composite_base": 58.3,
-      "rank": 26,
-      "tags": [],
-      "like_adjustment": 0
-    },
-    {
-      "id": "ZRM_TfEZcIo",
-      "title": "Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-François Bouchard, Towards AI",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=ZRM_TfEZcIo",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Describes a three-version AI research OS for personal knowledge management.",
-        "Uses deep research algorithm with query rounds, ranking, and file-based index.",
-        "Ingests notes from Obsidian, Readwise, NotebookLM, GitHub, etc.",
-        "Builds a wiki layer with concepts, comparisons, entities from raw sources.",
-        "Aims to make research persistent and queryable without vector databases."
-      ],
-      "composite": 57.25,
-      "confidence": "High",
-      "substance": 6.5,
-      "evidence": 4,
-      "specificity": 8.5,
-      "insight_density": 6,
-      "non_promotion": 2,
-      "like_count": null,
-      "upload_date": "20260626",
-      "duration_seconds": 2372,
-      "composite_base": 57.25,
-      "rank": 27,
-      "tags": [
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "uiP88SpCi1Q",
-      "title": "Your Agent Is Wasting Tokens and You Don't Know It - Erik Hanchett, AWS",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=uiP88SpCi1Q",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Five practical tips to reduce token costs in agent systems.",
-        "Caching system prompts, routing by difficulty, offloading tool results.",
-        "Capping tool loops and trimming conversation history.",
-        "Uses AWS Strands agents as example but applies broadly."
-      ],
-      "composite": 56.5,
-      "confidence": "High",
-      "substance": 6,
-      "evidence": 3,
-      "specificity": 7,
-      "insight_density": 6,
-      "non_promotion": 7,
-      "like_count": null,
-      "upload_date": "20260628",
-      "duration_seconds": 355,
-      "composite_base": 56.5,
-      "rank": 28,
-      "tags": [],
-      "like_adjustment": 0
-    },
-    {
-      "id": "XovaGv4f39A",
-      "title": "When All Context Matters: Extended Cache Augmented Generation - Luis Romero-Sevilla, Orbis",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=XovaGv4f39A",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Proposes parallel CAG with multiple KV caches for dense, rapidly changing document collections.",
-        "Contrasts simple RAG and GraphRAG limitations for fully relevant, frequently replaced documents.",
-        "Describes distributing documents randomly across buckets, supervisor model interrogates buckets.",
-        "Mentions cost optimization for KV cache lifetimes."
-      ],
-      "composite": 56.5,
-      "confidence": "High",
-      "substance": 6.5,
-      "evidence": 2,
-      "specificity": 6,
-      "insight_density": 6,
-      "non_promotion": 9,
-      "like_count": null,
-      "upload_date": "20260628",
-      "duration_seconds": 352,
-      "composite_base": 56.5,
-      "rank": 29,
-      "tags": [
-        {
-          "label": "Non-promo",
-          "tone": "positive"
-        }
-      ],
-      "like_adjustment": 0
-    },
-    {
-      "id": "tB9RKTrU-Ig",
-      "title": "Turbocharge Your Agent's Retrieval with TurboQuant - Shashi Jagtap, Superagentic AI",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=tB9RKTrU-Ig",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "TurboQuant compresses embeddings/KV cache to 3–4 bits, cutting memory 5×.",
-        "Uses two-stage algorithm: Polar Quant + QJL to preserve search quality.",
-        "Demo shows same retrieval results with 8 KB → 1.6 KB index memory.",
-        "TurboQuant is being adopted by llama.cpp, MLX, Ollama, LM Studio.",
-        "Talk presents Turbo Agent library to swap retrieval layer without changing framework."
-      ],
-      "composite": 55,
-      "substance": 6.5,
-      "evidence": 4,
-      "specificity": 7,
-      "insight_density": 5.5,
-      "non_promotion": 3,
-      "like_count": null,
-      "upload_date": "20260628",
-      "duration_seconds": 888,
-      "composite_base": 55,
-      "rank": 30,
-      "tags": [],
-      "like_adjustment": 0
-    },
-    {
-      "id": "-x5GEVnkuRw",
-      "title": "Structuring the Unstructured - Cedric Clyburn, Red Hat",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=-x5GEVnkuRw",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Introduces Docling, an open-source tool for converting unstructured documents (PDFs, images) to markdown/JSON.",
-        "Demonstrates extraction of text, tables, images, and layout using OCR and vision models, all locally.",
-        "Shows applications: RAG, chunkless retrieval, agentic systems, and scaling via REST API/MCP server.",
-        "Highlights real-world failure: AI misinterpretation of scanned PDFs causing nonsensical terms in scientific papers."
-      ],
-      "composite": 52.3,
-      "substance": 5.5,
-      "evidence": 4,
-      "specificity": 7.5,
-      "insight_density": 5,
-      "non_promotion": 4,
-      "like_count": null,
-      "upload_date": "20260628",
-      "duration_seconds": 1241,
-      "composite_base": 52.3,
-      "rank": 31,
-      "tags": [],
-      "like_adjustment": 0
-    },
-    {
-      "id": "JRTAtZ5iBkU",
-      "title": "HTML is All You Need (for Agents to Make Graphics) - Amol Kapoor, Nori",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=JRTAtZ5iBkU",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Argues agents fail at graphics due to medium mismatch, not model limits.",
-        "Proposes HTML as agent-native language for layout and visuals.",
-        "Demonstrates HTML-generated slides, docs, and videos.",
-        "Promotes Nori product that automates deck creation using this approach."
-      ],
-      "composite": 51.3,
-      "confidence": "Med",
-      "substance": 6.5,
-      "evidence": 3.5,
-      "specificity": 6,
-      "insight_density": 5.5,
-      "non_promotion": 2,
-      "like_count": null,
-      "upload_date": "20260628",
-      "duration_seconds": 420,
-      "composite_base": 51.3,
-      "rank": 32,
-      "tags": [],
-      "like_adjustment": 0
-    },
-    {
-      "id": "Jx4ZFEAq6bY",
-      "title": "User Signal Dies at the Retrieval Boundary - Sonam Pankaj, StarlightSearch",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=Jx4ZFEAq6bY",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Identifies static retrieval as main cause of agent failures (73% of pipeline failures).",
-        "Proposes utility score: similarity weighted by historical outcome usefulness.",
-        "Introduces Agent RX runtime layer that learns from eval signals without retraining.",
-        "Benchmarks show improvement on Towel Bench (66%→80%) and agentic tasks (35.7%→61.3%).",
-        "Demo illustrates a product SQL agent adapting after failure feedback."
-      ],
-      "composite": 49,
-      "confidence": "Low",
-      "substance": 5.5,
-      "evidence": 5,
-      "specificity": 6,
-      "insight_density": 4.5,
-      "non_promotion": 2,
-      "like_count": null,
-      "upload_date": "20260628",
-      "duration_seconds": 937,
-      "composite_base": 49,
-      "rank": 33,
-      "tags": [],
-      "like_adjustment": 0
-    },
-    {
-      "id": "IddXPepIAS4",
-      "title": "Using Spec-Driven Development for Production Workflows - Erik Hanchett, AWS",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=IddXPepIAS4",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Defines spec-driven development: writing specs before code.",
-        "Argues it improves AI coding assistant output quality.",
-        "Demonstrates workflow with AWS Q Developer (Kiro) spec mode.",
-        "Covers manual approach and use of MCP for requirements.",
-        "Emphasizes human-in-the-loop code review and Goldilocks context."
-      ],
-      "composite": 48.5,
-      "confidence": "Med",
-      "substance": 5.5,
-      "evidence": 3,
-      "specificity": 7,
-      "insight_density": 5,
-      "non_promotion": 3,
-      "like_count": null,
-      "upload_date": "20260628",
-      "duration_seconds": 1067,
-      "composite_base": 48.5,
-      "rank": 34,
-      "tags": [],
-      "like_adjustment": 0
-    },
-    {
-      "id": "pSto5YaNGUo",
-      "title": "The Agentic AI Engineer - Benedikt Sanftl, Mutagent",
-      "speakers": "AI Engineer",
-      "url": "https://www.youtube.com/watch?v=pSto5YaNGUo",
-      "status": "ok",
-      "cache_hit": true,
-      "summary_bullets": [
-        "Describes an agentic loop (offline build/test/evaluate, online monitor/diagnose/optimize) for AI agent development.",
-        "Advocates spec-driven development to capture agent requirements decoupled from implementation frameworks.",
-        "Introduces eval-driven development with binary evals and LLM-as-judge calibration to reduce noise.",
-        "Presents a diagnostics agent that clusters failure modes from traces and suggests remedies.",
-        "Showcases Mutagent’s product: evaluator and diagnostics agents integrated into coding environments."
-      ],
-      "composite": 42.3,
-      "confidence": "High",
-      "substance": 4.5,
-      "evidence": 2,
-      "specificity": 6,
-      "insight_density": 5.5,
-      "non_promotion": 2,
-      "like_count": null,
-      "upload_date": "20260629",
-      "duration_seconds": 2090,
-      "composite_base": 42.3,
-      "rank": 35,
-      "tags": [],
-      "like_adjustment": 0
-    }
-  ]
+  "other": []
 }

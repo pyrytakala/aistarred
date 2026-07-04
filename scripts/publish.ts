@@ -18,6 +18,10 @@ if (argv.includes("--all-sources")) {
 
 for (const sourceId of sourceIds) {
   const payload = publishRankings({ reparse, sourceId });
+  if (!payload) {
+    console.log(`Skipped ${sourceId}: missing transcripts/index.json`);
+    continue;
+  }
   console.log(
     `Published ${payload.ranked_count ?? 0} rankings to public/data/${sourceId}/rankings.json`,
   );

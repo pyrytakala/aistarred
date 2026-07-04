@@ -11,6 +11,7 @@
     "fetch": "tsx scripts/fetch.ts",
     "score": "tsx scripts/score.ts",
     "publish": "tsx scripts/publish.ts",
+    "reapply-content-length": "tsx scripts/reapply-content-length.ts",
     "pipeline": "tsx scripts/pipeline.ts",
     "setup-dns": "node scripts/setup-aistarred-dns.mjs",
     "generate-icons": "bash scripts/generate-icons.sh",

@@ -1,9 +1,8 @@
 {
   "source_id": "nvidia-q2-2026",
-  "model": "accounts/fireworks/models/deepseek-v4-flash",
   "video_count": 20,
   "scored_count": 20,
-  "ranked_count": 7,
+  "ranked_count": 20,
   "rankings": [
     {
       "id": "glT-zO8B_qk",
@@ -11,7 +10,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=glT-zO8B_qk",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Processes 10+ petabytes daily for experiments.",
         "Migrated Spark jobs to GPUs with zero code changes.",
@@ -37,7 +35,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "zNuOOMM20Tk",
@@ -45,7 +44,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=zNuOOMM20Tk",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Token value depends on intelligence and speed.",
         "Demand forecasting uses users, requests, tokens per request.",
@@ -53,7 +51,7 @@
         "Blackwell delivers 50x more tokens per watt than Hopper.",
         "Extreme co-design spans compute, memory, networking, software."
       ],
-      "composite": 71,
+      "composite": 70.66,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 6.5,
@@ -71,7 +69,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.34
     },
     {
       "id": "Alz-bhXqyXM",
@@ -79,7 +78,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Alz-bhXqyXM",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Caper Cart uses NVIDIA Jetson for edge AI.",
         "Sensor fusion combines cameras, weight, location.",
@@ -87,7 +85,7 @@
         "AI recommendations drive double-digit sales lift.",
         "Vision: unified online/in-store shopping in 5-10 years."
       ],
-      "composite": 62.8,
+      "composite": 61.81,
       "confidence": "High",
       "substance": 6.5,
       "evidence": 5.5,
@@ -105,7 +103,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.99
     },
     {
       "id": "HyicRmHu17w",
@@ -113,7 +112,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=HyicRmHu17w",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "AI PC becomes personal AI assistant",
         "RTX Spark: petaflop, 128GB, 200B-parameter models",
@@ -139,7 +137,8 @@
           "tone": "positive"
         }
       ],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "TCOU1imv09U",
@@ -147,7 +146,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=TCOU1imv09U",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "AI agents and open models for healthcare.",
         "Protein design reasoning model Protina Complexa announced.",
@@ -155,7 +153,7 @@
         "Surgical robotics dataset OpenH and model Groot-H.",
         "Project Rio for hospital automation with digital twins."
       ],
-      "composite": 58,
+      "composite": 56.9,
       "confidence": "Med",
       "substance": 6.5,
       "evidence": 5.5,
@@ -168,7 +166,8 @@
       "composite_base": 58,
       "rank": 5,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -1.1
     },
     {
       "id": "gsbi7FS8Q30",
@@ -176,7 +175,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=gsbi7FS8Q30",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "AI grounded in physics, not just data.",
         "Virtual Twins serve as training gyms.",
@@ -197,7 +195,8 @@
       "composite_base": 54.3,
       "rank": 6,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "uv8va8bIqus",
@@ -205,7 +204,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=uv8va8bIqus",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "AI reshaping higher education and research.",
         "Public-private partnerships for AI infrastructure.",
@@ -213,7 +211,7 @@
         "NSF investing in regional AI innovation.",
         "Need for AI literacy across all disciplines."
       ],
-      "composite": 52.5,
+      "composite": 50.2,
       "confidence": "Med",
       "substance": 6.5,
       "evidence": 4.5,
@@ -226,18 +224,15 @@
       "composite_base": 52.5,
       "rank": 7,
       "tags": [],
-      "like_adjustment": 0
-    }
-  ],
-  "too_long": [],
-  "other": [
+      "like_adjustment": 0,
+      "length_adjustment": -2.3
+    },
     {
       "id": "FS1l8iN7PVo",
       "title": "Why Cost Per Token Is the Only Metric You Need for AI TCO",
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=FS1l8iN7PVo",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Cost per token measures AI factory output.",
         "Power efficiency directly affects token cost.",
@@ -245,7 +240,7 @@
         "Token demand grows faster than compute supply.",
         "GPU-hour metric ignores inefficiencies."
       ],
-      "composite": 49.75,
+      "composite": 49.08,
       "confidence": "Med",
       "substance": 6,
       "evidence": 4,
@@ -258,7 +253,8 @@
       "composite_base": 49.75,
       "rank": 8,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.67
     },
     {
       "id": "mYQR-xfqOPY",
@@ -266,7 +262,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=mYQR-xfqOPY",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Mistral co-founder and CTO interviewed",
         "Open-source frontier model with NVIDIA",
@@ -287,7 +282,8 @@
       "composite_base": 49,
       "rank": 9,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "9YyS1R4xZ0M",
@@ -295,7 +291,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=9YyS1R4xZ0M",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Robotics is a data problem with scarce data.",
         "Building a universal brain for any robot form factor.",
@@ -316,7 +311,8 @@
       "composite_base": 49,
       "rank": 10,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "c-fsL0gsmo0",
@@ -324,7 +320,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=c-fsL0gsmo0",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Deep Agents is a general-purpose agent harness.",
         "LangSmith provides observability and evaluation for agents.",
@@ -345,36 +340,8 @@
       "composite_base": 48.5,
       "rank": 11,
       "tags": [],
-      "like_adjustment": 0
-    },
-    {
-      "id": "BAhI87RS-DQ",
-      "title": "AI Literacy at Scale: K-to-Career Access That Delivers Real Student Outcomes",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=BAhI87RS-DQ",
-      "status": "ok",
-      "cache_hit": false,
-      "summary_bullets": [
-        "Panel discusses AI literacy from K to career.",
-        "Mississippi offers statewide no-cost AI resources.",
-        "Study Fetch reports 92% user grade improvement.",
-        "Mid Pacific uses student AI advisory council.",
-        "Emphasis on human connection and inquiry."
-      ],
-      "composite": 48,
-      "confidence": "High",
-      "substance": 4.5,
-      "evidence": 4,
-      "specificity": 5.5,
-      "insight_density": 5,
-      "non_promotion": 6,
-      "like_count": null,
-      "upload_date": "20260409",
-      "duration_seconds": 2404,
-      "composite_base": 48,
-      "rank": 12,
-      "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "OFEY5-52ru0",
@@ -382,7 +349,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=OFEY5-52ru0",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Quantum computing uses qubits, not bits.",
         "Error correction is key challenge; AI helps decode.",
@@ -390,7 +356,7 @@
         "AI may discover new quantum applications.",
         "Quantum and AI can generate training data together."
       ],
-      "composite": 47.3,
+      "composite": 47.15,
       "confidence": "High",
       "substance": 5.5,
       "evidence": 3,
@@ -401,9 +367,39 @@
       "upload_date": "20260414",
       "duration_seconds": 1889,
       "composite_base": 47.3,
+      "rank": 12,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -0.15
+    },
+    {
+      "id": "BAhI87RS-DQ",
+      "title": "AI Literacy at Scale: K-to-Career Access That Delivers Real Student Outcomes",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=BAhI87RS-DQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Panel discusses AI literacy from K to career.",
+        "Mississippi offers statewide no-cost AI resources.",
+        "Study Fetch reports 92% user grade improvement.",
+        "Mid Pacific uses student AI advisory council.",
+        "Emphasis on human connection and inquiry."
+      ],
+      "composite": 46.99,
+      "confidence": "High",
+      "substance": 4.5,
+      "evidence": 4,
+      "specificity": 5.5,
+      "insight_density": 5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260409",
+      "duration_seconds": 2404,
+      "composite_base": 48,
       "rank": 13,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -1.01
     },
     {
       "id": "C3lcadfxTio",
@@ -411,7 +407,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=C3lcadfxTio",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Seeed Studio makes open source robotics hardware",
         "$200 robot arm (SO-ARM) with Hugging Face",
@@ -432,7 +427,8 @@
       "composite_base": 44,
       "rank": 14,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "_BE4NSst6yA",
@@ -440,7 +436,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=_BE4NSst6yA",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "AI agents need 100x–1000x more compute.",
         "New CPUs optimized for token generation, not core renting.",
@@ -460,7 +455,8 @@
       "composite_base": 39.8,
       "rank": 15,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "11Y3B33oCLE",
@@ -468,7 +464,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=11Y3B33oCLE",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "NVIDIA and Microsoft reinvent PC for AI agents.",
         "RTX Spark chip: Blackwell GPU, Grace CPU, 128GB memory.",
@@ -489,7 +484,8 @@
       "composite_base": 33,
       "rank": 16,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "DIIteghPGx4",
@@ -497,7 +493,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=DIIteghPGx4",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "DLI offers 6–8 hour instructor-led and self-paced courses.",
         "Ambassador program certifies faculty to teach workshops.",
@@ -505,7 +500,7 @@
         "Certification exams are proctored online with a fee.",
         "ECPI University runs workshops as extracurricular, high demand."
       ],
-      "composite": 32.3,
+      "composite": 31.62,
       "confidence": "High",
       "substance": 2.5,
       "evidence": 3,
@@ -518,7 +513,8 @@
       "composite_base": 32.3,
       "rank": 17,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.68
     },
     {
       "id": "Pkh0dqLCsrs",
@@ -526,7 +522,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=Pkh0dqLCsrs",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "Enterprise reference architectures (ERAs) are blueprints for AI factories.",
         "ERAs are tested end-to-end in NVIDIA labs.",
@@ -547,7 +542,8 @@
       "composite_base": 23,
       "rank": 18,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "D1x8ewtJAa0",
@@ -555,7 +551,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=D1x8ewtJAa0",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "25 startups using AI in physical world.",
         "Covers agriculture, disaster, environment, grid, health, science.",
@@ -563,7 +558,7 @@
         "Part of NVIDIA Inception program pitch.",
         "No deep dives, just brief overviews."
       ],
-      "composite": 21.5,
+      "composite": 20.89,
       "confidence": "High",
       "substance": 2.5,
       "evidence": 1,
@@ -576,7 +571,8 @@
       "composite_base": 21.5,
       "rank": 19,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": -0.61
     },
     {
       "id": "GsqW5MPFajw",
@@ -584,7 +580,6 @@
       "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=GsqW5MPFajw",
       "status": "ok",
-      "cache_hit": false,
       "summary_bullets": [
         "AI requires optical connectivity.",
         "Coherent expands indium phosphide fab.",
@@ -605,7 +600,10 @@
       "composite_base": 17.3,
       "rank": 20,
       "tags": [],
-      "like_adjustment": 0
+      "like_adjustment": 0,
+      "length_adjustment": 0
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

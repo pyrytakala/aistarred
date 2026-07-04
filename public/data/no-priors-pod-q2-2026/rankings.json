@@ -2,7 +2,7 @@
   "source_id": "no-priors-pod-q2-2026",
   "video_count": 13,
   "scored_count": 13,
-  "ranked_count": 5,
+  "ranked_count": 13,
   "rankings": [
     {
       "id": "XAbKflCncDo",
@@ -16,7 +16,7 @@
         "Capacity crunch is worse than perceived.",
         "Software layer makes inference sticky."
       ],
-      "composite": 81.25,
+      "composite": 79.95,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 8,
@@ -27,7 +27,6 @@
       "upload_date": "20260501",
       "duration_seconds": 2577,
       "composite_base": 81.25,
-      "like_adjustment": 0,
       "rank": 1,
       "tags": [
         {
@@ -46,7 +45,9 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.3
     },
     {
       "id": "AZrU6y3pUcU",
@@ -61,7 +62,7 @@
         "Safety policies ignore inference budget.",
         "Advocate plotting performance vs. compute."
       ],
-      "composite": 79.5,
+      "composite": 78.87,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 6.5,
@@ -72,7 +73,6 @@
       "upload_date": "20260626",
       "duration_seconds": 2179,
       "composite_base": 79.5,
-      "like_adjustment": 0,
       "rank": 2,
       "tags": [
         {
@@ -87,7 +87,9 @@
           "label": "Non-promo",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.63
     },
     {
       "id": "5u7AjPardvo",
@@ -102,7 +104,7 @@
         "SAP moving from seat-based to consumption pricing.",
         "Agentic coding requires writing evals, not just code."
       ],
-      "composite": 78,
+      "composite": 77.02,
       "confidence": "High",
       "substance": 8.5,
       "evidence": 6.5,
@@ -113,7 +115,6 @@
       "upload_date": "20260423",
       "duration_seconds": 2388,
       "composite_base": 78,
-      "like_adjustment": 0,
       "rank": 3,
       "tags": [
         {
@@ -128,7 +129,9 @@
           "label": "Insight",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.98
     },
     {
       "id": "QDsbFLEt9ro",
@@ -143,7 +146,7 @@
         "Existing security tools lack agent-intent context.",
         "Israeli ecosystem combines cyber and AI talent."
       ],
-      "composite": 72.75,
+      "composite": 71.63,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 5.5,
@@ -154,86 +157,15 @@
       "upload_date": "20260528",
       "duration_seconds": 2469,
       "composite_base": 72.75,
-      "like_adjustment": 0,
       "rank": 4,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
-      ]
-    },
-    {
-      "id": "asCgCv2XB4s",
-      "title": "Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=asCgCv2XB4s",
-      "status": "ok",
-      "summary_bullets": [
-        "Intel CEO Lip Bu Tan discusses turnaround plan.",
-        "US government becomes major shareholder in Intel.",
-        "AI demand boosts CPU importance, not just GPU.",
-        "Foundry business requires trust, yield, and IP.",
-        "Venture investing focuses on bottlenecks and applications."
       ],
-      "composite": 72.25,
-      "confidence": "High",
-      "substance": 7.5,
-      "evidence": 5.5,
-      "specificity": 8.5,
-      "insight_density": 8,
-      "non_promotion": 6,
-      "like_count": null,
-      "upload_date": "20260618",
-      "duration_seconds": 2700,
-      "composite_base": 72.25,
       "like_adjustment": 0,
-      "rank": 5,
-      "tags": [
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        },
-        {
-          "label": "Insight",
-          "tone": "positive"
-        }
-      ]
-    }
-  ],
-  "too_long": [],
-  "other": [
-    {
-      "id": "xjlYpGaxIPA",
-      "title": "Pax Silica: Inside the Trump Administration’s Tech Strategy with Jacob Helberg",
-      "speakers": "Unknown",
-      "url": "https://www.youtube.com/watch?v=xjlYpGaxIPA",
-      "status": "ok",
-      "summary_bullets": [
-        "Pax Silica coalition secures AI supply chain with allies.",
-        "Philippines grants 4,000 acres for industrial base.",
-        "Contrasts with China’s Belt and Road debt-trap model.",
-        "Focus on private-sector-led, commercially viable platforms.",
-        "Covers rare earths, robotics, and semiconductor supply chains."
-      ],
-      "composite": 71.5,
-      "substance": 7.5,
-      "evidence": 5.5,
-      "specificity": 8.5,
-      "insight_density": 7.5,
-      "non_promotion": 6.5,
-      "like_count": null,
-      "upload_date": "20260514",
-      "duration_seconds": 2281,
-      "composite_base": 71.5,
-      "like_adjustment": 0,
-      "rank": 6,
-      "tags": [
-        {
-          "label": "Specificity",
-          "tone": "positive"
-        }
-      ]
+      "length_adjustment": -1.12
     },
     {
       "id": "jeop9wfb9jU",
@@ -248,7 +180,7 @@
         "Persevered through years of market indifference",
         "Signed $20B+ deal with OpenAI in 2025"
       ],
-      "composite": 71,
+      "composite": 70.94,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 6.5,
@@ -259,14 +191,86 @@
       "upload_date": "20260521",
       "duration_seconds": 1834,
       "composite_base": 71,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
       "like_adjustment": 0,
+      "length_adjustment": -0.06
+    },
+    {
+      "id": "asCgCv2XB4s",
+      "title": "Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=asCgCv2XB4s",
+      "status": "ok",
+      "summary_bullets": [
+        "Intel CEO Lip Bu Tan discusses turnaround plan.",
+        "US government becomes major shareholder in Intel.",
+        "AI demand boosts CPU importance, not just GPU.",
+        "Foundry business requires trust, yield, and IP.",
+        "Venture investing focuses on bottlenecks and applications."
+      ],
+      "composite": 70.75,
+      "confidence": "High",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260618",
+      "duration_seconds": 2700,
+      "composite_base": 72.25,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.5
+    },
+    {
+      "id": "xjlYpGaxIPA",
+      "title": "Pax Silica: Inside the Trump Administration’s Tech Strategy with Jacob Helberg",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=xjlYpGaxIPA",
+      "status": "ok",
+      "summary_bullets": [
+        "Pax Silica coalition secures AI supply chain with allies.",
+        "Philippines grants 4,000 acres for industrial base.",
+        "Contrasts with China’s Belt and Road debt-trap model.",
+        "Focus on private-sector-led, commercially viable platforms.",
+        "Covers rare earths, robotics, and semiconductor supply chains."
+      ],
+      "composite": 70.7,
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 6.5,
+      "like_count": null,
+      "upload_date": "20260514",
+      "duration_seconds": 2281,
+      "composite_base": 71.5,
       "rank": 7,
       "tags": [
         {
           "label": "Specificity",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.8
     },
     {
       "id": "eyobeqMdbeI",
@@ -281,7 +285,7 @@
         "Tokenization of stocks and treasuries is already happening.",
         "AI diffusion will force new social and economic contracts."
       ],
-      "composite": 69.3,
+      "composite": 67.9,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 6,
@@ -292,9 +296,10 @@
       "upload_date": "20260409",
       "duration_seconds": 2641,
       "composite_base": 69.3,
-      "like_adjustment": 0,
       "rank": 8,
-      "tags": []
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.4
     },
     {
       "id": "RQE8OS392dU",
@@ -309,7 +314,7 @@
         "Need tangible community benefits for AI.",
         "Agentic systems reconceptualize work."
       ],
-      "composite": 68,
+      "composite": 66.75,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 5.5,
@@ -320,14 +325,15 @@
       "upload_date": "20260604",
       "duration_seconds": 2547,
       "composite_base": 68,
-      "like_adjustment": 0,
       "rank": 9,
       "tags": [
         {
           "label": "Insight",
           "tone": "positive"
         }
-      ]
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.25
     },
     {
       "id": "tNNFJa5pUEg",
@@ -342,7 +348,7 @@
         "AI agents will reduce headcount growth.",
         "Software must be deterministic; humans forgive mistakes, software not."
       ],
-      "composite": 65.75,
+      "composite": 63,
       "confidence": "High",
       "substance": 7.5,
       "evidence": 6,
@@ -353,9 +359,10 @@
       "upload_date": "20260417",
       "duration_seconds": 3448,
       "composite_base": 65.75,
-      "like_adjustment": 0,
       "rank": 10,
-      "tags": []
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -2.75
     },
     {
       "id": "Oru2Jxr1xHU",
@@ -381,9 +388,10 @@
       "upload_date": "20260403",
       "duration_seconds": 1766,
       "composite_base": 61.3,
-      "like_adjustment": 0,
       "rank": 11,
-      "tags": []
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "u8cYwaLzN-k",
@@ -398,7 +406,7 @@
         "Treat individuals by understanding genetics and mechanisms.",
         "AI aims to turn biology into engineering science."
       ],
-      "composite": 57,
+      "composite": 54.37,
       "confidence": "High",
       "substance": 6.5,
       "evidence": 5.5,
@@ -409,9 +417,10 @@
       "upload_date": "20260610",
       "duration_seconds": 3380,
       "composite_base": 57,
-      "like_adjustment": 0,
       "rank": 12,
-      "tags": []
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -2.63
     },
     {
       "id": "g5TWnUjbeFM",
@@ -436,9 +445,12 @@
       "upload_date": "20260511",
       "duration_seconds": 1321,
       "composite_base": 53.8,
-      "like_adjustment": 0,
       "rank": 13,
-      "tags": []
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

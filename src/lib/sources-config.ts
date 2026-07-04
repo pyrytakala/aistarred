@@ -237,11 +237,12 @@ export const SOURCES: Record<string, SourceConfig> = {
   "semianalysis-q2-2026": essaySource({
     id: "semianalysis-q2-2026",
     name: "SemiAnalysis",
-    catalogUrl: "https://semianalysis.com/archives/",
+    catalogUrl: "https://newsletter.semianalysis.com/",
+    feedUrl: "https://newsletter.semianalysis.com/feed",
     coverImage: "/images/covers/semianalysis.png",
     dateRange: { since: "20260401", until: "20260630" },
     period: "Q2 2026",
-    listingKind: "semianalysis-archives",
+    listingKind: "feed",
     channelName: "SemiAnalysis",
   }),
   "bens-bites-q2-2026": essaySource({
@@ -348,15 +349,16 @@ export const SOURCES: Record<string, SourceConfig> = {
     quarter: 2,
     maxVideos: 30,
   }),
-  "nateliason-q2-2026": quarterlyPodcastSource({
+  "nateliason-q2-2026": essaySource({
     id: "nateliason-q2-2026",
     name: "Nat Eliason",
-    channelHandle: "nateliason",
+    catalogUrl: "https://blog.nateliason.com/",
+    feedUrl: "https://blog.nateliason.com/feed",
     coverImage: "/images/covers/nateliason.png",
-    year: 2026,
-    quarter: 2,
-    contentKind: "channel",
-    maxVideos: 30,
+    dateRange: { since: "20260101", until: "20260630" },
+    period: "H1 2026",
+    listingKind: "feed",
+    channelName: "Nat Eliason",
   }),
   "founders-podcast-q2-2026": quarterlyPodcastSource({
     id: "founders-podcast-q2-2026",

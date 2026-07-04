@@ -4,292 +4,654 @@
   "installCommand": "npm install",
   "rewrites": [
     {
-      "source": "/ai-engineer-worlds-fair-2026",
+      "source": "/sources/ai-engineer-worlds-fair-2026",
       "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/ai-engineer-worlds-fair-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/latent-space-pod-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/latent-space-pod-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/no-priors-pod-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/no-priors-pod-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/twiml-ai-pod-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/twiml-ai-pod-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/cognitive-revolution-pod-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/cognitive-revolution-pod-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/nvidia-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/nvidia-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/a16z-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/a16z-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/ml-street-talk-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/ml-street-talk-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/huberman-lab-h1-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/huberman-lab-h1-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/paul-graham-essays-2020s",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/paul-graham-essays-2020s/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/swyx-io-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/swyx-io-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/gwern-blog-2025-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/gwern-blog-2025-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/simon-willison-h1-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/simon-willison-h1-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/anthropic-engineering-h1-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/anthropic-engineering-h1-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/openai-developer-blog-h1-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/openai-developer-blog-h1-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/stratechery-h1-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/stratechery-h1-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/import-ai-h1-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/import-ai-h1-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/hamel-dev-h1-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/hamel-dev-h1-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/machine-theory-journal-h1-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/machine-theory-journal-h1-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/semianalysis-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/semianalysis-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/bens-bites-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/bens-bites-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/pragmatic-engineer-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/pragmatic-engineer-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/construction-physics-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/construction-physics-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/asterisk-issue-14-latest",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/asterisk-issue-14-latest/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/odd-lots-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/odd-lots-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/yc-startup-pod-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/yc-startup-pod-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/my-first-million-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/my-first-million-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/pmf-show-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/pmf-show-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/how-i-built-this-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/how-i-built-this-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/lennys-podcast-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/lennys-podcast-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/nateliason-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/nateliason-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/founders-podcast-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/founders-podcast-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/peter-attia-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/peter-attia-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/modern-wisdom-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/modern-wisdom-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/greg-isenberg-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/greg-isenberg-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/iltb-podcast-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/sources/iltb-podcast-q2-2026/",
+      "destination": "/source/index.html"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/ai-engineer-worlds-fair-2026",
+      "destination": "/sources/ai-engineer-worlds-fair-2026",
+      "permanent": true
     },
     {
       "source": "/ai-engineer-worlds-fair-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/ai-engineer-worlds-fair-2026/",
+      "permanent": true
     },
     {
       "source": "/latent-space-pod-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/latent-space-pod-q2-2026",
+      "permanent": true
     },
     {
       "source": "/latent-space-pod-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/latent-space-pod-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/no-priors-pod-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/no-priors-pod-q2-2026",
+      "permanent": true
     },
     {
       "source": "/no-priors-pod-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/no-priors-pod-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/twiml-ai-pod-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/twiml-ai-pod-q2-2026",
+      "permanent": true
     },
     {
       "source": "/twiml-ai-pod-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/twiml-ai-pod-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/cognitive-revolution-pod-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/cognitive-revolution-pod-q2-2026",
+      "permanent": true
     },
     {
       "source": "/cognitive-revolution-pod-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/cognitive-revolution-pod-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/nvidia-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/nvidia-q2-2026",
+      "permanent": true
     },
     {
       "source": "/nvidia-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/nvidia-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/a16z-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/a16z-q2-2026",
+      "permanent": true
     },
     {
       "source": "/a16z-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/a16z-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/ml-street-talk-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/ml-street-talk-q2-2026",
+      "permanent": true
     },
     {
       "source": "/ml-street-talk-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/ml-street-talk-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/huberman-lab-h1-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/huberman-lab-h1-2026",
+      "permanent": true
     },
     {
       "source": "/huberman-lab-h1-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/huberman-lab-h1-2026/",
+      "permanent": true
     },
     {
       "source": "/paul-graham-essays-2020s",
-      "destination": "/source/index.html"
+      "destination": "/sources/paul-graham-essays-2020s",
+      "permanent": true
     },
     {
       "source": "/paul-graham-essays-2020s/",
-      "destination": "/source/index.html"
+      "destination": "/sources/paul-graham-essays-2020s/",
+      "permanent": true
     },
     {
       "source": "/swyx-io-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/swyx-io-2026",
+      "permanent": true
     },
     {
       "source": "/swyx-io-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/swyx-io-2026/",
+      "permanent": true
     },
     {
       "source": "/gwern-blog-2025-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/gwern-blog-2025-2026",
+      "permanent": true
     },
     {
       "source": "/gwern-blog-2025-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/gwern-blog-2025-2026/",
+      "permanent": true
     },
     {
       "source": "/simon-willison-h1-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/simon-willison-h1-2026",
+      "permanent": true
     },
     {
       "source": "/simon-willison-h1-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/simon-willison-h1-2026/",
+      "permanent": true
     },
     {
       "source": "/anthropic-engineering-h1-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/anthropic-engineering-h1-2026",
+      "permanent": true
     },
     {
       "source": "/anthropic-engineering-h1-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/anthropic-engineering-h1-2026/",
+      "permanent": true
     },
     {
       "source": "/openai-developer-blog-h1-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/openai-developer-blog-h1-2026",
+      "permanent": true
     },
     {
       "source": "/openai-developer-blog-h1-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/openai-developer-blog-h1-2026/",
+      "permanent": true
     },
     {
       "source": "/stratechery-h1-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/stratechery-h1-2026",
+      "permanent": true
     },
     {
       "source": "/stratechery-h1-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/stratechery-h1-2026/",
+      "permanent": true
     },
     {
       "source": "/import-ai-h1-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/import-ai-h1-2026",
+      "permanent": true
     },
     {
       "source": "/import-ai-h1-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/import-ai-h1-2026/",
+      "permanent": true
     },
     {
       "source": "/hamel-dev-h1-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/hamel-dev-h1-2026",
+      "permanent": true
     },
     {
       "source": "/hamel-dev-h1-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/hamel-dev-h1-2026/",
+      "permanent": true
     },
     {
       "source": "/machine-theory-journal-h1-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/machine-theory-journal-h1-2026",
+      "permanent": true
     },
     {
       "source": "/machine-theory-journal-h1-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/machine-theory-journal-h1-2026/",
+      "permanent": true
     },
     {
       "source": "/semianalysis-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/semianalysis-q2-2026",
+      "permanent": true
     },
     {
       "source": "/semianalysis-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/semianalysis-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/bens-bites-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/bens-bites-q2-2026",
+      "permanent": true
     },
     {
       "source": "/bens-bites-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/bens-bites-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/pragmatic-engineer-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/pragmatic-engineer-2026",
+      "permanent": true
     },
     {
       "source": "/pragmatic-engineer-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/pragmatic-engineer-2026/",
+      "permanent": true
     },
     {
       "source": "/construction-physics-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/construction-physics-q2-2026",
+      "permanent": true
     },
     {
       "source": "/construction-physics-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/construction-physics-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/asterisk-issue-14-latest",
-      "destination": "/source/index.html"
+      "destination": "/sources/asterisk-issue-14-latest",
+      "permanent": true
     },
     {
       "source": "/asterisk-issue-14-latest/",
-      "destination": "/source/index.html"
+      "destination": "/sources/asterisk-issue-14-latest/",
+      "permanent": true
     },
     {
       "source": "/odd-lots-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/odd-lots-q2-2026",
+      "permanent": true
     },
     {
       "source": "/odd-lots-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/odd-lots-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/yc-startup-pod-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/yc-startup-pod-q2-2026",
+      "permanent": true
     },
     {
       "source": "/yc-startup-pod-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/yc-startup-pod-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/my-first-million-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/my-first-million-q2-2026",
+      "permanent": true
     },
     {
       "source": "/my-first-million-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/my-first-million-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/pmf-show-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/pmf-show-q2-2026",
+      "permanent": true
     },
     {
       "source": "/pmf-show-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/pmf-show-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/how-i-built-this-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/how-i-built-this-q2-2026",
+      "permanent": true
     },
     {
       "source": "/how-i-built-this-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/how-i-built-this-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/lennys-podcast-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/lennys-podcast-q2-2026",
+      "permanent": true
     },
     {
       "source": "/lennys-podcast-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/lennys-podcast-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/nateliason-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/nateliason-q2-2026",
+      "permanent": true
     },
     {
       "source": "/nateliason-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/nateliason-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/founders-podcast-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/founders-podcast-q2-2026",
+      "permanent": true
     },
     {
       "source": "/founders-podcast-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/founders-podcast-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/peter-attia-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/peter-attia-q2-2026",
+      "permanent": true
     },
     {
       "source": "/peter-attia-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/peter-attia-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/modern-wisdom-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/modern-wisdom-q2-2026",
+      "permanent": true
     },
     {
       "source": "/modern-wisdom-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/modern-wisdom-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/greg-isenberg-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/greg-isenberg-q2-2026",
+      "permanent": true
     },
     {
       "source": "/greg-isenberg-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/greg-isenberg-q2-2026/",
+      "permanent": true
     },
     {
       "source": "/iltb-podcast-q2-2026",
-      "destination": "/source/index.html"
+      "destination": "/sources/iltb-podcast-q2-2026",
+      "permanent": true
     },
     {
       "source": "/iltb-podcast-q2-2026/",
-      "destination": "/source/index.html"
+      "destination": "/sources/iltb-podcast-q2-2026/",
+      "permanent": true
     }
   ]
 }

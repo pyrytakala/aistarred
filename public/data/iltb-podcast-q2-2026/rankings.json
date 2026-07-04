@@ -1,129 +1,574 @@
 {
   "source_id": "iltb-podcast-q2-2026",
   "video_count": 15,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
+  "scored_count": 15,
+  "ranked_count": 15,
+  "rankings": [
     {
-      "id": "BagWrgPww1o",
-      "title": "The Two Harvard Dropouts Who raised $800M to take on NVIDIA",
-      "url": "https://www.youtube.com/watch?v=BagWrgPww1o",
-      "upload_date": "20260630",
-      "duration_seconds": 5552,
-      "status": "pending"
-    },
-    {
-      "id": "OxHWFmFHnoc",
-      "title": "Investing a $120 Billion Balance Sheet with No Outside Investors",
-      "url": "https://www.youtube.com/watch?v=OxHWFmFHnoc",
-      "upload_date": "20260623",
-      "duration_seconds": 4589,
-      "status": "pending"
-    },
-    {
-      "id": "3bKLiUU2cb8",
-      "title": "Clay’s Unusual Path to Building a Multi-Billion Dollar Company",
-      "url": "https://www.youtube.com/watch?v=3bKLiUU2cb8",
-      "upload_date": "20260616",
-      "duration_seconds": 3611,
-      "status": "pending"
-    },
-    {
-      "id": "DZt1DDmMNGk",
-      "title": "Why the AI Boom Is Just Getting Started",
-      "url": "https://www.youtube.com/watch?v=DZt1DDmMNGk",
-      "upload_date": "20260609",
-      "duration_seconds": 4810,
-      "status": "pending"
-    },
-    {
-      "id": "ThMtheE5eO0",
-      "title": "Uber CEO on AI, Autonomous Vehicles, and the Future of Transportation",
-      "url": "https://www.youtube.com/watch?v=ThMtheE5eO0",
-      "upload_date": "20260603",
-      "duration_seconds": 4278,
-      "status": "pending"
-    },
-    {
-      "id": "vhTi_8QwXjg",
-      "title": "Legendary Investor Dan Loeb on AI, Credit, & Third Point’s $25B Strategy",
-      "url": "https://www.youtube.com/watch?v=vhTi_8QwXjg",
-      "upload_date": "20260528",
-      "duration_seconds": 4389,
-      "status": "pending"
+      "id": "LF3aUIM57uw",
+      "title": "The Supply and Demand of AI Tokens | Dylan Patel Interview",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=LF3aUIM57uw",
+      "status": "ok",
+      "summary_bullets": [
+        "SemiAnalysis token spend rose to $7M/year.",
+        "AI model capability jumped from L4 to L6 engineer.",
+        "Token demand outstrips compute supply, margins expand.",
+        "Supply bottlenecks: memory, logic, CPUs, copper foil.",
+        "AI less popular than politicians; protests expected."
+      ],
+      "composite": 78.24,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260423",
+      "duration_seconds": 2734,
+      "composite_base": 79.8,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.56
     },
     {
       "id": "7-HmjiXKlvg",
       "title": "Former DoD Advisor on Iran, China and AI Warfare",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=7-HmjiXKlvg",
+      "status": "ok",
+      "summary_bullets": [
+        "Dictators are both strong and weak due to illegitimacy.",
+        "Winning is politically defined, not purely military.",
+        "Martyrdom cultures (e.g., red Shiaism) resist conventional defeat.",
+        "US needs multi-year contracts and industrial mobilization.",
+        "AI models can be co-opted via fake academic papers."
+      ],
+      "composite": 77.88,
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 8.5,
+      "insight_density": 7.5,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20260526",
       "duration_seconds": 3072,
-      "status": "pending"
-    },
-    {
-      "id": "Mmj_G9RlW-I",
-      "title": "Watts, Wafers, and the Future of AI Infra | Gavin Baker",
-      "url": "https://www.youtube.com/watch?v=Mmj_G9RlW-I",
-      "upload_date": "20260520",
-      "duration_seconds": 4931,
-      "status": "pending"
-    },
-    {
-      "id": "wEEZPpx8qow",
-      "title": "Inside Anthropic's $100 Billion Al Compute Commitment | CFO Krishna Rao",
-      "url": "https://www.youtube.com/watch?v=wEEZPpx8qow",
-      "upload_date": "20260513",
-      "duration_seconds": 4924,
-      "status": "pending"
-    },
-    {
-      "id": "eURcW5_uS60",
-      "title": "How Brian Chesky Is Redesigning Airbnb for the AI Era",
-      "url": "https://www.youtube.com/watch?v=eURcW5_uS60",
-      "upload_date": "20260505",
-      "duration_seconds": 5008,
-      "status": "pending"
-    },
-    {
-      "id": "S31J5ACsOqU",
-      "title": "Legendary Trader Paul Tudor Jones on AI Risk, Bubbles and Buffett",
-      "url": "https://www.youtube.com/watch?v=S31J5ACsOqU",
-      "upload_date": "20260428",
-      "duration_seconds": 4276,
-      "status": "pending"
-    },
-    {
-      "id": "LF3aUIM57uw",
-      "title": "The Supply and Demand of AI Tokens | Dylan Patel Interview",
-      "url": "https://www.youtube.com/watch?v=LF3aUIM57uw",
-      "upload_date": "20260423",
-      "duration_seconds": 2734,
-      "status": "pending"
-    },
-    {
-      "id": "QVSP8bGm2KQ",
-      "title": "GLP-1s, Peptides, and The Trillion-Dollar Health Revolution",
-      "url": "https://www.youtube.com/watch?v=QVSP8bGm2KQ",
-      "upload_date": "20260421",
-      "duration_seconds": 5897,
-      "status": "pending"
-    },
-    {
-      "id": "m7H42MCzBCQ",
-      "title": "From SpaceX to Founders Fund to Solving America's Nuclear Fuel Problem",
-      "url": "https://www.youtube.com/watch?v=m7H42MCzBCQ",
-      "upload_date": "20260414",
-      "duration_seconds": 5062,
-      "status": "pending"
+      "composite_base": 80,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.12
     },
     {
       "id": "5RnPko2HviQ",
       "title": "What 100 Years of American Finance Tells Us About Today",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=5RnPko2HviQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Glass-Steagall separated commercial and investment banks.",
+        "System 1 (1933–1999) stable but not growth-optimized.",
+        "System 2 (1999–2008) deregulation led to leverage and GFC.",
+        "System 3 post-2010: private capital fills gap, factory model emerges.",
+        "Factory model: industrialization of fundraising and investing causes mismatches."
+      ],
+      "composite": 76.14,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 8,
+      "like_count": null,
       "upload_date": "20260408",
       "duration_seconds": 3995,
-      "status": "pending"
+      "composite_base": 79.8,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -3.66
+    },
+    {
+      "id": "QVSP8bGm2KQ",
+      "title": "GLP-1s, Peptides, and The Trillion-Dollar Health Revolution",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=QVSP8bGm2KQ",
+      "status": "ok",
+      "summary_bullets": [
+        "GLP-1s exceed expectations, signal trillion-dollar health revolution",
+        "Existing drugs can prevent heart disease, Alzheimer’s, cancer",
+        "AI and automation will accelerate drug discovery dramatically",
+        "System friction (cost, convenience, complexity) blocks impact"
+      ],
+      "composite": 75.92,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260421",
+      "duration_seconds": 5897,
+      "composite_base": 82.75,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -6.83
+    },
+    {
+      "id": "wEEZPpx8qow",
+      "title": "Inside Anthropic's $100 Billion Al Compute Commitment | CFO Krishna Rao",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=wEEZPpx8qow",
+      "status": "ok",
+      "summary_bullets": [
+        "Compute is fungible across training, inference, internal use.",
+        "Anthropic uses three chip platforms (TPU, GPU, Trainium) flexibly.",
+        "Scaling laws not slowing down; returns to frontier intelligence high.",
+        "Revenue run rate grew from $9B to $30B in one quarter.",
+        "Internal Claude use automates 90%+ of code and finance reports."
+      ],
+      "composite": 74.29,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260513",
+      "duration_seconds": 4924,
+      "composite_base": 79.5,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -5.21
+    },
+    {
+      "id": "eURcW5_uS60",
+      "title": "How Brian Chesky Is Redesigning Airbnb for the AI Era",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=eURcW5_uS60",
+      "status": "ok",
+      "summary_bullets": [
+        "Founder mode: hands-on, not over-delegating.",
+        "Pandemic forced Chesky to take control.",
+        "AI will eliminate pure people managers.",
+        "Industrial design taught product management.",
+        "Hiring is CEO's most important job."
+      ],
+      "composite": 74.15,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260505",
+      "duration_seconds": 5008,
+      "composite_base": 79.5,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -5.35
+    },
+    {
+      "id": "Mmj_G9RlW-I",
+      "title": "Watts, Wafers, and the Future of AI Infra | Gavin Baker",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Mmj_G9RlW-I",
+      "status": "ok",
+      "summary_bullets": [
+        "AI revenue growth unprecedented in capitalism history.",
+        "Anthropic added $11B ARR in one month.",
+        "TSMC capacity decisions may prevent AI bubble.",
+        "Orbital compute: racks in space, not giant data centers.",
+        "Frontier tokens capture most economic value surprisingly."
+      ],
+      "composite": 73.58,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260520",
+      "duration_seconds": 4931,
+      "composite_base": 78.8,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -5.22
+    },
+    {
+      "id": "OxHWFmFHnoc",
+      "title": "Investing a $120 Billion Balance Sheet with No Outside Investors",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=OxHWFmFHnoc",
+      "status": "ok",
+      "summary_bullets": [
+        "$120B insurance balance sheet, no outside investors.",
+        "Permanent capital enables long-term, flexible investing.",
+        "Focus on investment hygiene, not predicting future.",
+        "Immigrant background drives pragmatic optimism.",
+        "AI and geopolitics reshape valuation frameworks."
+      ],
+      "composite": 73.35,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 7,
+      "non_promotion": 9.5,
+      "like_count": null,
+      "upload_date": "20260623",
+      "duration_seconds": 4589,
+      "composite_base": 78,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.65
+    },
+    {
+      "id": "m7H42MCzBCQ",
+      "title": "From SpaceX to Founders Fund to Solving America's Nuclear Fuel Problem",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=m7H42MCzBCQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Scott Nolan was employee #35 at SpaceX.",
+        "He invested at Founders Fund for over a decade.",
+        "He founded General Matter for uranium enrichment.",
+        "US lacks domestic enrichment capacity.",
+        "Nuclear fuel supply chain has three upcoming cliffs."
+      ],
+      "composite": 70.06,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260414",
+      "duration_seconds": 5062,
+      "composite_base": 75.5,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -5.44
+    },
+    {
+      "id": "BagWrgPww1o",
+      "title": "The Two Harvard Dropouts Who raised $800M to take on NVIDIA",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=BagWrgPww1o",
+      "status": "ok",
+      "summary_bullets": [
+        "Etched builds AI inference chips and racks.",
+        "Founders dropped out of Harvard to start.",
+        "Raised $800M to challenge NVIDIA.",
+        "Chip uses low voltage and cluster memory.",
+        "Claims 10x performance for inference workloads."
+      ],
+      "composite": 65.55,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260630",
+      "duration_seconds": 5552,
+      "composite_base": 71.8,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -6.25
+    },
+    {
+      "id": "S31J5ACsOqU",
+      "title": "Legendary Trader Paul Tudor Jones on AI Risk, Bubbles and Buffett",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=S31J5ACsOqU",
+      "status": "ok",
+      "summary_bullets": [
+        "Kindness story inspired philanthropy",
+        "Trader vs investor: alpha vs beta",
+        "AI risk: catastrophic tail events",
+        "Market overvaluation and leverage",
+        "Importance of communication skills"
+      ],
+      "composite": 64.12,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260428",
+      "duration_seconds": 4276,
+      "composite_base": 68.25,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.13
+    },
+    {
+      "id": "ThMtheE5eO0",
+      "title": "Uber CEO on AI, Autonomous Vehicles, and the Future of Transportation",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ThMtheE5eO0",
+      "status": "ok",
+      "summary_bullets": [
+        "Dara took Uber CEO job after Expedia.",
+        "Uber uses AI for predictions and operations.",
+        "Autonomous vehicles are early but partnerships growing.",
+        "Uber One membership has 50 million members."
+      ],
+      "composite": 62.87,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7,
+      "evidence": 6,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260603",
+      "duration_seconds": 4278,
+      "composite_base": 67,
+      "rank": 12,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -4.13
+    },
+    {
+      "id": "DZt1DDmMNGk",
+      "title": "Why the AI Boom Is Just Getting Started",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=DZt1DDmMNGk",
+      "status": "ok",
+      "summary_bullets": [
+        "AI enterprise penetration under 1%.",
+        "S-curve framework predicts exponential growth.",
+        "Anthropic highest conviction investment.",
+        "Chips infrastructure decommoditizing rapidly.",
+        "Software incumbents face disruption risk."
+      ],
+      "composite": 62.48,
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260609",
+      "duration_seconds": 4810,
+      "composite_base": 67.5,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -5.02
+    },
+    {
+      "id": "vhTi_8QwXjg",
+      "title": "Legendary Investor Dan Loeb on AI, Credit, & Third Point’s $25B Strategy",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=vhTi_8QwXjg",
+      "status": "ok",
+      "summary_bullets": [
+        "Tech investing is now mandatory",
+        "Evolution from event-driven to quality investing",
+        "AI acceleration is logarithmic, not linear",
+        "Credit expertise provides downside optionality",
+        "Governance activism requires social pressure"
+      ],
+      "composite": 61.43,
+      "audience_level": "practitioner",
+      "substance": 7,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 6.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260528",
+      "duration_seconds": 4389,
+      "composite_base": 65.75,
+      "rank": 14,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -4.32
+    },
+    {
+      "id": "3bKLiUU2cb8",
+      "title": "Clay’s Unusual Path to Building a Multi-Billion Dollar Company",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=3bKLiUU2cb8",
+      "status": "ok",
+      "summary_bullets": [
+        "Founder defines real risk as unknown outcome with shame potential.",
+        "Clay started with ambition to democratize programming for non-engineers.",
+        "Three core decisions: powerful tool for creative users, usage pricing, target revops.",
+        "Introspection and self-respect are key to taking genuine risks.",
+        "Company grew from 1 to 100 in two years after LLM boost."
+      ],
+      "composite": 56.78,
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 4,
+      "specificity": 6.5,
+      "insight_density": 5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260616",
+      "duration_seconds": 3611,
+      "composite_base": 59.8,
+      "rank": 15,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -3.02
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

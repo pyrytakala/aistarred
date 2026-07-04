@@ -2,6 +2,35 @@ import type { IndexPayload, RankedVideo } from "./types.js";
 
 export const DEFAULT_MAX_LIKE_ADJUSTMENT = 3.0;
 
+/** Length penalty kicks in only past this many minutes of runtime. */
+export const LENGTH_PENALTY_THRESHOLD_MINUTES = 30;
+/**
+ * Penalty per 10 minutes of runtime beyond the threshold, expressed on the
+ * displayed 0–10 score (0.1 = one tenth of a point). Internally the composite
+ * is on a 0–100 scale, so the per-10-minute deduction is ×10.
+ */
+export const LENGTH_PENALTY_PER_10_MIN_DISPLAY = 0.1;
+
+/**
+ * Deduction applied to the composite (0–100 scale) for long runtimes: it drops
+ * the score by {@link LENGTH_PENALTY_PER_10_MIN_DISPLAY} displayed points for
+ * every 10 minutes beyond {@link LENGTH_PENALTY_THRESHOLD_MINUTES}. Content with
+ * no known duration (e.g. essays) is never penalized. Returns a value ≤ 0.
+ */
+export function lengthAdjustment(durationSeconds: number | null | undefined): number {
+  if (durationSeconds == null || Number.isNaN(durationSeconds)) {
+    return 0;
+  }
+  const thresholdSeconds = LENGTH_PENALTY_THRESHOLD_MINUTES * 60;
+  const overSeconds = durationSeconds - thresholdSeconds;
+  if (overSeconds <= 0) {
+    return 0;
+  }
+  const per10MinComposite = LENGTH_PENALTY_PER_10_MIN_DISPLAY * 10;
+  const penalty = (overSeconds / 600) * per10MinComposite;
+  return -Math.round(penalty * 100) / 100;
+}
+
 export function indexVideosById(indexPayload: IndexPayload): Record<string, IndexPayload["videos"][number]> {
   const map: Record<string, IndexPayload["videos"][number]> = {};
   for (const video of indexPayload.videos ?? []) {
@@ -48,9 +77,13 @@ export function applyLikeRankAdjustment(
     result.like_count = metadata.like_count ?? null;
     result.upload_date = metadata.upload_date ?? null;
     result.duration_seconds = metadata.duration_seconds ?? null;
-    result.composite_base = result.composite;
+    // Preserve the raw LLM composite as the base so re-running finalize is
+    // idempotent — otherwise each pass would re-base off an already-adjusted
+    // score and compound the like/length adjustments.
+    result.composite_base = result.composite_base ?? result.composite;
     delete result.like_rank;
     delete result.like_adjustment;
+    delete result.length_adjustment;
   }
 
   assignLikeRanks(scorable);
@@ -61,13 +94,12 @@ export function applyLikeRankAdjustment(
 
   for (const result of scorable) {
     const likeRank = result.like_rank;
-    if (likeRank == null) {
-      result.like_adjustment = 0;
-      continue;
-    }
-    const adjustment = likeRankAdjustment(likeRank, maxRank, maxAdjustment);
-    result.like_adjustment = adjustment;
-    result.composite = Math.round(((result.composite_base ?? result.composite ?? 0) + adjustment) * 100) / 100;
+    const likeAdj = likeRank == null ? 0 : likeRankAdjustment(likeRank, maxRank, maxAdjustment);
+    const lengthAdj = lengthAdjustment(result.duration_seconds);
+    result.like_adjustment = likeAdj;
+    result.length_adjustment = lengthAdj;
+    const base = result.composite_base ?? result.composite ?? 0;
+    result.composite = Math.round((base + likeAdj + lengthAdj) * 100) / 100;
   }
 
   return [...scorable].sort((a, b) => (b.composite ?? 0) - (a.composite ?? 0));

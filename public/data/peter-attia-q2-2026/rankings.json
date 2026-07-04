@@ -1,97 +1,147 @@
 {
   "source_id": "peter-attia-q2-2026",
-  "video_count": 11,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
+  "model": "accounts/fireworks/models/deepseek-v4-flash",
+  "video_count": 3,
+  "scored_count": 3,
+  "ranked_count": 3,
+  "rankings": [
     {
       "id": "IxHRYDM64dQ",
       "title": "397 - Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging, & emerging treatments",
+      "speakers": "Endometriosis and adenomyosis: diagnosis, fertility, reproductive aging, & emerging treatments",
       "url": "https://www.youtube.com/watch?v=IxHRYDM64dQ",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Endometriosis affects 10% of reproductive women.",
+        "Diagnosis delay averages 5–12 years.",
+        "Adenomyosis is endometrial tissue in uterine muscle.",
+        "Progesterone resistance complicates treatment.",
+        "Early diagnosis improves outcomes and preserves fertility."
+      ],
+      "composite": 81.76,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 9,
+      "evidence": 8.5,
+      "specificity": 9.5,
+      "insight_density": 9,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20260622",
       "duration_seconds": 7226,
-      "status": "pending"
-    },
-    {
-      "id": "_9mBlZXA1Lk",
-      "title": "396 – Breast cancer screening: understanding risk, deciding when to start, and more",
-      "url": "https://www.youtube.com/watch?v=_9mBlZXA1Lk",
-      "upload_date": "20260615",
-      "duration_seconds": 3044,
-      "status": "pending"
+      "composite_base": 90.8,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -9.04
     },
     {
       "id": "KWNgAyurXFY",
       "title": "395 – Brain lipidology: understanding APOE, cholesterol homeostasis, Alzheimer’s disease, & more",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=KWNgAyurXFY",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Brain cholesterol is independent from blood cholesterol.",
+        "APOE4 impairs cholesterol transport in brain.",
+        "Statins may reduce Alzheimer’s risk.",
+        "Omega-3s enter brain via lysophospholipids.",
+        "CETP inhibitors show promise for brain health."
+      ],
+      "composite": 80.08,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 9,
+      "evidence": 7.5,
+      "specificity": 9.5,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20260609",
       "duration_seconds": 6250,
-      "status": "pending"
+      "composite_base": 87.5,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -7.42
     },
     {
-      "id": "Tsqzx3L6UWs",
-      "title": "Is Industrial Processing the Real Problem With Seed Oils? | Layne Norton, Ph.D.",
-      "url": "https://www.youtube.com/watch?v=Tsqzx3L6UWs",
-      "upload_date": "20260123",
-      "duration_seconds": 530,
-      "status": "pending"
-    },
-    {
-      "id": "7_cbaDXAWYM",
-      "title": "Cooking with Lard vs Seed Oils | Layne Norton, Ph.D.",
-      "url": "https://www.youtube.com/watch?v=7_cbaDXAWYM",
-      "upload_date": "20260121",
-      "duration_seconds": 734,
-      "status": "pending"
-    },
-    {
-      "id": "iB49uq-t1UM",
-      "title": "380 ‒ The seed oil debate: are they uniquely harmful relative to other dietary fats?",
-      "url": "https://www.youtube.com/watch?v=iB49uq-t1UM",
-      "upload_date": "20260119",
-      "duration_seconds": 8759,
-      "status": "pending"
-    },
-    {
-      "id": "yisfGtcV5xk",
-      "title": "A guide to cardiorespiratory training at any fitness level to improve longevity (AMA 79 sneak peek)",
-      "url": "https://www.youtube.com/watch?v=yisfGtcV5xk",
-      "upload_date": "20260112",
-      "duration_seconds": 2302,
-      "status": "pending"
-    },
-    {
-      "id": "bsw0pKcWf5c",
-      "title": "How Early Training Choices Shape Women’s Health for Life | Abbie Smith-Ryan, Ph.D.",
-      "url": "https://www.youtube.com/watch?v=bsw0pKcWf5c",
-      "upload_date": "20260109",
-      "duration_seconds": 407,
-      "status": "pending"
-    },
-    {
-      "id": "9Rxp2a0m8wM",
-      "title": "How Busy Moms Can Build Strength and Cardio Fitness | Abbie Smith-Ryan, Ph.D.",
-      "url": "https://www.youtube.com/watch?v=9Rxp2a0m8wM",
-      "upload_date": "20260107",
-      "duration_seconds": 417,
-      "status": "pending"
-    },
-    {
-      "id": "CDsH60jt34o",
-      "title": "378 ‒ Women’s health & performance: how training, nutrition, & hormones interact across life stages",
-      "url": "https://www.youtube.com/watch?v=CDsH60jt34o",
-      "upload_date": "20260105",
-      "duration_seconds": 8661,
-      "status": "pending"
-    },
-    {
-      "id": "6F-DnF37n_E",
-      "title": "How to Actually Start a Habit | James Clear",
-      "url": "https://www.youtube.com/watch?v=6F-DnF37n_E",
-      "upload_date": "20260102",
-      "duration_seconds": 463,
-      "status": "pending"
+      "id": "_9mBlZXA1Lk",
+      "title": "396 – Breast cancer screening: understanding risk, deciding when to start, and more",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=_9mBlZXA1Lk",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Breast cancer kills 42,000 US women yearly.",
+        "Screening reduces mortality up to 40%.",
+        "Risk assessment should start by age 25.",
+        "Annual mammography better than biennial for individuals.",
+        "MRI underutilized for high-risk women."
+      ],
+      "composite": 68.23,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 6,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260615",
+      "duration_seconds": 3044,
+      "composite_base": 70.3,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.07
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

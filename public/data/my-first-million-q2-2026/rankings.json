@@ -1,217 +1,834 @@
 {
   "source_id": "my-first-million-q2-2026",
-  "video_count": 26,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
+  "model": "accounts/fireworks/models/deepseek-v4-flash",
+  "video_count": 24,
+  "scored_count": 24,
+  "ranked_count": 24,
+  "rankings": [
     {
-      "id": "OXgqzF382o8",
-      "title": "3 strangers showed us how they make $10M, $20M, and $30M/year",
-      "url": "https://www.youtube.com/watch?v=OXgqzF382o8",
-      "upload_date": "20260630",
-      "duration_seconds": 4084,
-      "status": "pending"
-    },
-    {
-      "id": "6WAfCgjlcqU",
-      "title": "This guy made billions from just 3 stocks (Here's how)",
-      "url": "https://www.youtube.com/watch?v=6WAfCgjlcqU",
-      "upload_date": "20260624",
-      "duration_seconds": 3368,
-      "status": "pending"
-    },
-    {
-      "id": "P0ju8XGsYwA",
-      "title": "How to completely reinvent yourself in 2026",
-      "url": "https://www.youtube.com/watch?v=P0ju8XGsYwA",
-      "upload_date": "20260618",
-      "duration_seconds": 3324,
-      "status": "pending"
-    },
-    {
-      "id": "Jk9ENZywY4A",
-      "title": "3 places Ex-Goldman CEO is putting his money right now",
-      "url": "https://www.youtube.com/watch?v=Jk9ENZywY4A",
-      "upload_date": "20260616",
-      "duration_seconds": 3483,
-      "status": "pending"
-    },
-    {
-      "id": "Iy-O4-4w43Q",
-      "title": "How the SpaceX IPO is creating 4000+ workers into millionaires",
-      "url": "https://www.youtube.com/watch?v=Iy-O4-4w43Q",
-      "upload_date": "20260612",
-      "duration_seconds": 3961,
-      "status": "pending"
+      "id": "FjWY1-gZ0Cs",
+      "title": "12 Brutal Truths about Investing - Mohnish Pabrai",
+      "speakers": "Mohnish Pabrai",
+      "url": "https://www.youtube.com/watch?v=FjWY1-gZ0Cs",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Under 1% of stock pickers are good.",
+        "Wealth transfers from active to inactive.",
+        "Patience and temperament beat IQ.",
+        "Clone successful models instead of innovating.",
+        "Live an aligned life; find your calling."
+      ],
+      "composite": 79.98,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 9,
+      "evidence": 8,
+      "specificity": 9.5,
+      "insight_density": 8.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260522",
+      "duration_seconds": 6313,
+      "composite_base": 87.5,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -7.52
     },
     {
       "id": "RP9uwr_WrQY",
       "title": "$8B manager exposes the fake financial \"Gurus\" destroying your net worth",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=RP9uwr_WrQY",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Stop trading; use broad index funds as core.",
+        "Only 1–2% of stocks generate all market returns.",
+        "Panic sellers often never return to equities.",
+        "Hedge fund sells are worse than random by 150–200 bps.",
+        "Direct indexing can harvest 400+ bps in losses."
+      ],
+      "composite": 76.5,
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "like_count": null,
       "upload_date": "20260610",
       "duration_seconds": 3180,
-      "status": "pending"
-    },
-    {
-      "id": "t3HWIey2lh8",
-      "title": "The one calculation Elon runs everything on (it made him trillions)",
-      "url": "https://www.youtube.com/watch?v=t3HWIey2lh8",
-      "upload_date": "20260604",
-      "duration_seconds": 3684,
-      "status": "pending"
-    },
-    {
-      "id": "5P6k92gr96c",
-      "title": "7 killer startups that the internet has not caught up to yet",
-      "url": "https://www.youtube.com/watch?v=5P6k92gr96c",
-      "upload_date": "20260602",
-      "duration_seconds": 2770,
-      "status": "pending"
-    },
-    {
-      "id": "7_65wOSC0Cw",
-      "title": "This guy owned MTV & Comedy Central (but fumbled Facebook)",
-      "url": "https://www.youtube.com/watch?v=7_65wOSC0Cw",
-      "upload_date": "20260529",
-      "duration_seconds": 3587,
-      "status": "pending"
-    },
-    {
-      "id": "GaXsABG1_GM",
-      "title": "The 50 richest families in America are betting on this trend",
-      "url": "https://www.youtube.com/watch?v=GaXsABG1_GM",
-      "upload_date": "20260527",
-      "duration_seconds": 3755,
-      "status": "pending"
-    },
-    {
-      "id": "FjWY1-gZ0Cs",
-      "title": "12 Brutal Truths about Investing - Mohnish Pabrai",
-      "url": "https://www.youtube.com/watch?v=FjWY1-gZ0Cs",
-      "upload_date": "20260522",
-      "duration_seconds": 6313,
-      "status": "pending"
-    },
-    {
-      "id": "byAExsTL4g0",
-      "title": "The $460M business empire Gary Vee built while you were watching his content",
-      "url": "https://www.youtube.com/watch?v=byAExsTL4g0",
-      "upload_date": "20260519",
-      "duration_seconds": 2924,
-      "status": "pending"
-    },
-    {
-      "id": "D8pkn3dRO34",
-      "title": "A look inside how we actually run My First Million",
-      "url": "https://www.youtube.com/watch?v=D8pkn3dRO34",
-      "upload_date": "20260515",
-      "duration_seconds": 2802,
-      "status": "pending"
-    },
-    {
-      "id": "Kpd7XKjODbQ",
-      "title": "What Palmer Luckey does when he's not building billion-dollar companies",
-      "url": "https://www.youtube.com/watch?v=Kpd7XKjODbQ",
-      "upload_date": "20260513",
-      "duration_seconds": 2912,
-      "status": "pending"
-    },
-    {
-      "id": "5459w3HFgfY",
-      "title": "I put 80% of my money in the S&P after a billionaire investor told me not to",
-      "url": "https://www.youtube.com/watch?v=5459w3HFgfY",
-      "upload_date": "20260511",
-      "duration_seconds": 3854,
-      "status": "pending"
-    },
-    {
-      "id": "ddSucXf0CuY",
-      "title": "I made $250M in one year. Here's what it actually cost me",
-      "url": "https://www.youtube.com/watch?v=ddSucXf0CuY",
-      "upload_date": "20260507",
-      "duration_seconds": 4642,
-      "status": "pending"
-    },
-    {
-      "id": "bH2lYWlQPgo",
-      "title": "I Bought A Drink Nobody Wanted (And Sold It For $2 Billion)",
-      "url": "https://www.youtube.com/watch?v=bH2lYWlQPgo",
-      "upload_date": "20260505",
-      "duration_seconds": 3807,
-      "status": "pending"
-    },
-    {
-      "id": "wwy0hXK8hQI",
-      "title": "GTA 6 Goldrush, TBPN's $100M OpenAI Deal, The OG Clickbait King Who Burned $4B/Year",
-      "url": "https://www.youtube.com/watch?v=wwy0hXK8hQI",
-      "upload_date": "20260429",
-      "duration_seconds": 4297,
-      "status": "pending"
-    },
-    {
-      "id": "_cA9WEcBLH0",
-      "title": "How to find your thing",
-      "url": "https://www.youtube.com/watch?v=_cA9WEcBLH0",
-      "upload_date": "20260427",
-      "duration_seconds": 2478,
-      "status": "pending"
-    },
-    {
-      "id": "I8j_yBfAepY",
-      "title": "This guy sold his company to Unilever for $1.2B after just 3 years",
-      "url": "https://www.youtube.com/watch?v=I8j_yBfAepY",
-      "upload_date": "20260424",
-      "duration_seconds": 3766,
-      "status": "pending"
-    },
-    {
-      "id": "t5qtlDh3C8c",
-      "title": "25% Of My Portfolio Is Tesla Stock, Here's Why",
-      "url": "https://www.youtube.com/watch?v=t5qtlDh3C8c",
-      "upload_date": "20260422",
-      "duration_seconds": 3320,
-      "status": "pending"
-    },
-    {
-      "id": "dck_MBRg-Do",
-      "title": "#1 Habit Expert: Why Your To Do List Is Making You Less Productive",
-      "url": "https://www.youtube.com/watch?v=dck_MBRg-Do",
-      "upload_date": "20260416",
-      "duration_seconds": 3459,
-      "status": "pending"
-    },
-    {
-      "id": "aozthyS67EM",
-      "title": "9 Killer Business Ideas The Internet Hasn't Caught Up To in 2026",
-      "url": "https://www.youtube.com/watch?v=aozthyS67EM",
-      "upload_date": "20260414",
-      "duration_seconds": 2314,
-      "status": "pending"
+      "composite_base": 78.8,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.3
     },
     {
       "id": "GG4TwQEYdBY",
       "title": "Ex-Tesla President reveals EVERYTHING Elon does to win",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=GG4TwQEYdBY",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Elon sets order-of-magnitude goals.",
+        "Hiring: deep problem interrogation.",
+        "Tesla cut car configs from 360k to 2.",
+        "Auto repair: 18-day cycle, 6-hour touch.",
+        "Communicate with CEO in three sentences."
+      ],
+      "composite": 74.72,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 5,
+      "like_count": null,
       "upload_date": "20260409",
       "duration_seconds": 3765,
-      "status": "pending"
+      "composite_base": 78,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -3.28
     },
     {
       "id": "IUCavD-RxN8",
       "title": "We asked a $18.9B Investor how to survive the AI bubble",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=IUCavD-RxN8",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Private equity fund with $18.9B AUM",
+        "AI app layer is overhyped, many will go to zero",
+        "Services roll-ups (plumbing, HVAC) outperform tech",
+        "Talent strategy: Navy Seals run portfolio companies",
+        "14 years to first million in bank"
+      ],
+      "composite": 73.41,
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "like_count": null,
       "upload_date": "20260407",
       "duration_seconds": 3831,
-      "status": "pending"
+      "composite_base": 76.8,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -3.39
     },
     {
-      "id": "SUYBggpA3ZU",
-      "title": "5 Simple business Ideas Even Your Mother Can Start (and make $120/hr)",
-      "url": "https://www.youtube.com/watch?v=SUYBggpA3ZU",
-      "upload_date": "20260401",
-      "duration_seconds": 3222,
-      "status": "pending"
+      "id": "bH2lYWlQPgo",
+      "title": "I Bought A Drink Nobody Wanted (And Sold It For $2 Billion)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=bH2lYWlQPgo",
+      "status": "ok",
+      "cache_hit": false,
+      "summary_bullets": [
+        "Brand investor shares Poppi’s $2B exit story.",
+        "Three mantras: influence influencers, live brand, sell.",
+        "Importance of big TAM and gross margins.",
+        "Hustle and relationships key to retail success.",
+        "Learned from Coke, Mars, and failures."
+      ],
+      "composite": 68.4,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260505",
+      "duration_seconds": 3807,
+      "composite_base": 71.75,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -3.35
+    },
+    {
+      "id": "dck_MBRg-Do",
+      "title": "#1 Habit Expert: Why Your To Do List Is Making You Less Productive",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=dck_MBRg-Do",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Habit loop: cue, routine, reward.",
+        "Replace habits, don't extinguish them.",
+        "Keystone habits trigger broader change.",
+        "Super communicators ask deep questions.",
+        "Match conversation type (practical/emotional/social)."
+      ],
+      "composite": 66.98,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260416",
+      "duration_seconds": 3459,
+      "composite_base": 69.75,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.77
+    },
+    {
+      "id": "_cA9WEcBLH0",
+      "title": "How to find your thing",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=_cA9WEcBLH0",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "\"Follow your passion\" is bad advice.",
+        "Use enthusiasm and blisters as guides.",
+        "Find a \"loop\" you love doing repeatedly.",
+        "Name the blisters (sufferings) you’ll endure.",
+        "Others may notice your hidden enthusiasm."
+      ],
+      "composite": 66.37,
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 6,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260427",
+      "duration_seconds": 2478,
+      "composite_base": 67.5,
+      "rank": 7,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.13
+    },
+    {
+      "id": "I8j_yBfAepY",
+      "title": "This guy sold his company to Unilever for $1.2B after just 3 years",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=I8j_yBfAepY",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Founder sold supplement company for $1.2B in 32 months.",
+        "Product: greens powder replaced with gummy format.",
+        "Key metric: LTV/CAC ratio of 3x or higher.",
+        "Marketing: hundreds of ads per month, tailored landing pages.",
+        "Philosophy: \"access is everything\" earned through good work."
+      ],
+      "composite": 65.02,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7,
+      "evidence": 5.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260424",
+      "duration_seconds": 3766,
+      "composite_base": 68.3,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -3.28
+    },
+    {
+      "id": "7_65wOSC0Cw",
+      "title": "This guy owned MTV & Comedy Central (but fumbled Facebook)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=7_65wOSC0Cw",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Co-founded MTV, grew to billions.",
+        "Missed buying Facebook for $800M.",
+        "Built creative culture at MTV Networks.",
+        "Learned from failure in India.",
+        "Advice on spotting talent."
+      ],
+      "composite": 64.77,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260529",
+      "duration_seconds": 3587,
+      "composite_base": 67.75,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.98
+    },
+    {
+      "id": "GaXsABG1_GM",
+      "title": "The 50 richest families in America are betting on this trend",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=GaXsABG1_GM",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Joe Lonsdale built Trilogy, an AI configurator company.",
+        "He dropped out of Stanford to start Trilogy.",
+        "Alpha School uses AI for 2-hour learning days.",
+        "Kids climb 40ft rock walls and run 5Ks.",
+        "Lonsdale aims to scale Alpha to a billion kids."
+      ],
+      "composite": 63.49,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260527",
+      "duration_seconds": 3755,
+      "composite_base": 66.75,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -3.26
+    },
+    {
+      "id": "ddSucXf0CuY",
+      "title": "I made $250M in one year. Here's what it actually cost me",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ddSucXf0CuY",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Replit grew from $2.5M to $250M in one year.",
+        "Founder describes dark moments before product-market fit.",
+        "AI coding agent launched via early preview went viral.",
+        "Discussion on singularity and AI entrepreneurship trends.",
+        "Founder’s visualization and networking led to Joe Rogan appearance."
+      ],
+      "composite": 62.56,
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 6,
+      "specificity": 9,
+      "insight_density": 6.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260507",
+      "duration_seconds": 4642,
+      "composite_base": 67.3,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.74
+    },
+    {
+      "id": "OXgqzF382o8",
+      "title": "3 strangers showed us how they make $10M, $20M, and $30M/year",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=OXgqzF382o8",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Magazine junk mail business $10M revenue",
+        "Campground acquisition roll-up $20M revenue",
+        "Stock copy-trading platform $30M revenue",
+        "Hosts discuss unconventional business models",
+        "Entrepreneurs share operational and growth insights"
+      ],
+      "composite": 56.19,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 8.5,
+      "insight_density": 5.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260630",
+      "duration_seconds": 4084,
+      "composite_base": 60,
+      "rank": 12,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -3.81
+    },
+    {
+      "id": "5459w3HFgfY",
+      "title": "I put 80% of my money in the S&P after a billionaire investor told me not to",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=5459w3HFgfY",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Genetics explain 45% of investing behavior.",
+        "Know your personality to choose the right game.",
+        "AI may become the company brain, not assistant.",
+        "Aesthetic data centers could solve NIMBY issues.",
+        "AI can personalize health using genetic data."
+      ],
+      "composite": 54.58,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 6,
+      "evidence": 4,
+      "specificity": 7.5,
+      "insight_density": 5.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260511",
+      "duration_seconds": 3854,
+      "composite_base": 58,
+      "rank": 13,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -3.42
+    },
+    {
+      "id": "Kpd7XKjODbQ",
+      "title": "What Palmer Luckey does when he's not building billion-dollar companies",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Kpd7XKjODbQ",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Jim Ratcliffe's leveraged buyout of BP chemical unit.",
+        "Palmer Luckey's side quests: aliens, retro gaming.",
+        "Childhood obsessions predict adult success.",
+        "Social commerce via TikTok affiliate creators.",
+        "Native deodorant's scrappy origin story."
+      ],
+      "composite": 52.9,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 5.5,
+      "evidence": 4,
+      "specificity": 6.5,
+      "insight_density": 5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260513",
+      "duration_seconds": 2912,
+      "composite_base": 54.75,
+      "rank": 14,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.85
+    },
+    {
+      "id": "P0ju8XGsYwA",
+      "title": "How to completely reinvent yourself in 2026",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=P0ju8XGsYwA",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Reinvention through lifestyle branding",
+        "Ballerina Farms as trad-wife empire",
+        "“Man on a mission” content strategy",
+        "Anti-mimetic authenticity vs. “game of more”",
+        "Examples: World Cup dad, ghost town living"
+      ],
+      "composite": 52.46,
+      "audience_level": "general",
+      "substance": 6.5,
+      "evidence": 3.5,
+      "specificity": 6,
+      "insight_density": 5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260618",
+      "duration_seconds": 3324,
+      "composite_base": 55,
+      "rank": 15,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -2.54
+    },
+    {
+      "id": "D8pkn3dRO34",
+      "title": "A look inside how we actually run My First Million",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=D8pkn3dRO34",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Recording private strategy meeting publicly",
+        "Clipper army proposed for social media growth",
+        "Curated events preferred over live tours",
+        "Want more diverse guests (high-profile and unknown)",
+        "Newsletter and meetups planned for community"
+      ],
+      "composite": 52.33,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 5.5,
+      "evidence": 4,
+      "specificity": 6.5,
+      "insight_density": 5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260515",
+      "duration_seconds": 2802,
+      "composite_base": 54,
+      "rank": 16,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.67
+    },
+    {
+      "id": "Iy-O4-4w43Q",
+      "title": "How the SpaceX IPO is creating 4000+ workers into millionaires",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Iy-O4-4w43Q",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "SpaceX IPO valued at $1.75 trillion.",
+        "Starlink has 10M subscribers, $11B revenue.",
+        "Starship rocket key to future growth.",
+        "Elon’s pay tied to Mars colony.",
+        "Data centers in space proposed."
+      ],
+      "composite": 51.7,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 4.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260612",
+      "duration_seconds": 3961,
+      "composite_base": 55.3,
+      "rank": 17,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -3.6
+    },
+    {
+      "id": "Jk9ENZywY4A",
+      "title": "3 places Ex-Goldman CEO is putting his money right now",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Jk9ENZywY4A",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Blankfein invests 98% in risky assets, mostly tech.",
+        "Luck and small margins separate success from failure.",
+        "He day trades as a hobby, not for income.",
+        "Warren Buffett invested $5B in Goldman on a handshake.",
+        "History teaches that crises are survivable."
+      ],
+      "composite": 51.19,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 6,
+      "evidence": 4,
+      "specificity": 6,
+      "insight_density": 5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260616",
+      "duration_seconds": 3483,
+      "composite_base": 54,
+      "rank": 18,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -2.81
+    },
+    {
+      "id": "6WAfCgjlcqU",
+      "title": "This guy made billions from just 3 stocks (Here's how)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=6WAfCgjlcqU",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "South Korean fake shopping apps trend.",
+        "Kevin Ryan's \"start shitty, improve\" strategy.",
+        "Nick Sleep's shared scale economies investing.",
+        "David Rubenstein's path from tax scheme to PE.",
+        "PSA grading business as trust tax on collectibles."
+      ],
+      "composite": 51.14,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 5.5,
+      "evidence": 5,
+      "specificity": 6,
+      "insight_density": 4.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260624",
+      "duration_seconds": 3368,
+      "composite_base": 53.75,
+      "rank": 19,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -2.61
+    },
+    {
+      "id": "byAExsTL4g0",
+      "title": "The $460M business empire Gary Vee built while you were watching his content",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=byAExsTL4g0",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Gary Vee didn’t own a laptop for four years (2015–2019).",
+        "He has a “VP of Relationships” who hosts dinners on his behalf.",
+        "He runs seven eight-figure businesses simultaneously.",
+        "His 15-minute meetings replace hour-long ones for efficiency.",
+        "He invested in Liquid Death only to support a former employee."
+      ],
+      "composite": 49.13,
+      "audience_level": "general",
+      "substance": 5.5,
+      "evidence": 3.5,
+      "specificity": 7.5,
+      "insight_density": 5.5,
+      "non_promotion": 2.5,
+      "like_count": null,
+      "upload_date": "20260519",
+      "duration_seconds": 2924,
+      "composite_base": 51,
+      "rank": 20,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.87
+    },
+    {
+      "id": "aozthyS67EM",
+      "title": "9 Killer Business Ideas The Internet Hasn't Caught Up To in 2026",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=aozthyS67EM",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Aging population boosts nursing home demand.",
+        "Air quality monitor market growing rapidly.",
+        "Posture correction products (nerd neck) trending.",
+        "Breakup economy: $15k spent per split.",
+        "Nature-inspired design for product innovation."
+      ],
+      "composite": 47.64,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 4.5,
+      "evidence": 5.5,
+      "specificity": 6,
+      "insight_density": 5,
+      "non_promotion": 2.5,
+      "like_count": null,
+      "upload_date": "20260414",
+      "duration_seconds": 2314,
+      "composite_base": 48.5,
+      "rank": 21,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -0.86
+    },
+    {
+      "id": "5P6k92gr96c",
+      "title": "7 killer startups that the internet has not caught up to yet",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=5P6k92gr96c",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Seven startup ideas rated “good crazy” vs “bad crazy”",
+        "PetChat: AI dog collar translating barks",
+        "Superbrain: AI memorial for deceased loved ones",
+        "VR training for HVAC, welding via Meta Quest",
+        "Endpoint Arena: prediction markets for clinical trials"
+      ],
+      "composite": 34.88,
+      "confidence": "Med",
+      "audience_level": "general",
+      "substance": 3.5,
+      "evidence": 2,
+      "specificity": 5,
+      "insight_density": 3,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260602",
+      "duration_seconds": 2770,
+      "composite_base": 36.5,
+      "rank": 22,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.62
+    },
+    {
+      "id": "t3HWIey2lh8",
+      "title": "The one calculation Elon runs everything on (it made him trillions)",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=t3HWIey2lh8",
+      "status": "ok",
+      "cache_hit": true,
+      "summary_bullets": [
+        "Pat LaFrieda built a $270M butcher business.",
+        "\"Idiot index\" calculates raw material markup.",
+        "Creating awards can build a business network.",
+        "Teen outliers can be identified and mentored."
+      ],
+      "composite": 26.86,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 2.5,
+      "evidence": 2,
+      "specificity": 5,
+      "insight_density": 2,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260604",
+      "duration_seconds": 3684,
+      "composite_base": 30,
+      "rank": 23,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -3.14
+    },
+    {
+      "id": "t5qtlDh3C8c",
+      "title": "25% Of My Portfolio Is Tesla Stock, Here's Why",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=t5qtlDh3C8c",
+      "status": "ok",
+      "cache_hit": false,
+      "summary_bullets": [
+        "Cryogenics company Alcor explained.",
+        "AI predicted to cure aging within 15 years.",
+        "Host holds 25% portfolio in Tesla stock.",
+        "Executive coaching benefits and costs discussed.",
+        "Mentalist Oz Pearlman’s tricks analyzed."
+      ],
+      "composite": 12.47,
+      "audience_level": "general",
+      "substance": 1.5,
+      "evidence": 0.5,
+      "specificity": 2,
+      "insight_density": 1,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260422",
+      "duration_seconds": 3320,
+      "composite_base": 15,
+      "rank": 24,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -2.53
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

@@ -1,249 +1,1079 @@
 {
   "source_id": "yc-startup-pod-q2-2026",
   "video_count": 30,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
-    {
-      "id": "Ju8LVdvuxGM",
-      "title": "India Can Create The Largest AI Companies",
-      "url": "https://www.youtube.com/watch?v=Ju8LVdvuxGM",
-      "upload_date": "20260627",
-      "duration_seconds": 1930,
-      "status": "pending"
-    },
-    {
-      "id": "oHwUD9b9_pg",
-      "title": "Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It",
-      "url": "https://www.youtube.com/watch?v=oHwUD9b9_pg",
-      "upload_date": "20260625",
-      "duration_seconds": 2443,
-      "status": "pending"
-    },
+  "scored_count": 30,
+  "ranked_count": 30,
+  "rankings": [
     {
       "id": "_FBivfgOvuE",
       "title": "How to Get Your First 10 Customers",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=_FBivfgOvuE",
+      "status": "ok",
+      "summary_bullets": [
+        "First customers come from warm network.",
+        "Show up in person for early sales.",
+        "Use Reddit and conferences for outreach.",
+        "Outbound tools only after 10 customers.",
+        "Frame outreach as advice or feedback."
+      ],
+      "composite": 84.5,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 9,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20260622",
       "duration_seconds": 827,
-      "status": "pending"
-    },
-    {
-      "id": "8OOuCnZB-4o",
-      "title": "The Age Of The 40-Year-Old Solo Founder Is Here",
-      "url": "https://www.youtube.com/watch?v=8OOuCnZB-4o",
-      "upload_date": "20260619",
-      "duration_seconds": 2563,
-      "status": "pending"
-    },
-    {
-      "id": "R56RJFZBasQ",
-      "title": "Pick One Idea and Go Deep",
-      "url": "https://www.youtube.com/watch?v=R56RJFZBasQ",
-      "upload_date": "20260617",
-      "duration_seconds": 691,
-      "status": "pending"
-    },
-    {
-      "id": "ObBAxL2dFzw",
-      "title": "Groww: If Your Customers Don't Love It or Hate It, You've Already Lost",
-      "url": "https://www.youtube.com/watch?v=ObBAxL2dFzw",
-      "upload_date": "20260615",
-      "duration_seconds": 1811,
-      "status": "pending"
-    },
-    {
-      "id": "3rWSvrFahIY",
-      "title": "Self-Play for LLMs, AI for Biology, Formal Verification, and More | YC Paper Club",
-      "url": "https://www.youtube.com/watch?v=3rWSvrFahIY",
-      "upload_date": "20260612",
-      "duration_seconds": 4615,
-      "status": "pending"
-    },
-    {
-      "id": "49L8lVe_PVo",
-      "title": "How Meesho Became India’s Biggest Shopping App",
-      "url": "https://www.youtube.com/watch?v=49L8lVe_PVo",
-      "upload_date": "20260611",
-      "duration_seconds": 1821,
-      "status": "pending"
-    },
-    {
-      "id": "mPAHvz8kW24",
-      "title": "The Most AI-Pilled CEO We Know",
-      "url": "https://www.youtube.com/watch?v=mPAHvz8kW24",
-      "upload_date": "20260610",
-      "duration_seconds": 3247,
-      "status": "pending"
-    },
-    {
-      "id": "yyXCQHX55N4",
-      "title": "Emergent: How Six Months of Tinkering Led To A $100M ARR Company",
-      "url": "https://www.youtube.com/watch?v=yyXCQHX55N4",
-      "upload_date": "20260606",
-      "duration_seconds": 1745,
-      "status": "pending"
-    },
-    {
-      "id": "mjmswQurIU4",
-      "title": "How Legora Went From YC to $100M ARR in 18 Months",
-      "url": "https://www.youtube.com/watch?v=mjmswQurIU4",
-      "upload_date": "20260605",
-      "duration_seconds": 1367,
-      "status": "pending"
-    },
-    {
-      "id": "fQmlML9Lay4",
-      "title": "Conductor CEO Charlie Holtz Walks Us Through His AI Coding Setup",
-      "url": "https://www.youtube.com/watch?v=fQmlML9Lay4",
-      "upload_date": "20260604",
-      "duration_seconds": 995,
-      "status": "pending"
-    },
-    {
-      "id": "gSNFJbgoaHI",
-      "title": "How to Build an AI-Native Services Company",
-      "url": "https://www.youtube.com/watch?v=gSNFJbgoaHI",
-      "upload_date": "20260603",
-      "duration_seconds": 682,
-      "status": "pending"
-    },
-    {
-      "id": "2Ap1dnv-GXA",
-      "title": "Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup",
-      "url": "https://www.youtube.com/watch?v=2Ap1dnv-GXA",
-      "upload_date": "20260529",
-      "duration_seconds": 1470,
-      "status": "pending"
-    },
-    {
-      "id": "wE1ZgJdt4uM",
-      "title": "Inference, Diffusion, World Models, and More | YC Paper Club",
-      "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM",
-      "upload_date": "20260528",
-      "duration_seconds": 4039,
-      "status": "pending"
-    },
-    {
-      "id": "B246K_G7mHU",
-      "title": "Inside YC's AI Playbook",
-      "url": "https://www.youtube.com/watch?v=B246K_G7mHU",
-      "upload_date": "20260527",
-      "duration_seconds": 2790,
-      "status": "pending"
-    },
-    {
-      "id": "7VKliOQXQ9M",
-      "title": "How The Best Companies Defend Against Mediocrity And Rot",
-      "url": "https://www.youtube.com/watch?v=7VKliOQXQ9M",
-      "upload_date": "20260522",
-      "duration_seconds": 3005,
-      "status": "pending"
-    },
-    {
-      "id": "X_JsIHUfUjc",
-      "title": "How to Build a Self-Improving Company with AI",
-      "url": "https://www.youtube.com/watch?v=X_JsIHUfUjc",
-      "upload_date": "20260521",
-      "duration_seconds": 809,
-      "status": "pending"
-    },
-    {
-      "id": "YKZCU0ynEbs",
-      "title": "Zepto: How Two 17-Year-Olds Built India's Largest Seller Of Fruits and Vegetables",
-      "url": "https://www.youtube.com/watch?v=YKZCU0ynEbs",
-      "upload_date": "20260519",
-      "duration_seconds": 1738,
-      "status": "pending"
-    },
-    {
-      "id": "QHJkUw31YX8",
-      "title": "Paul Graham, Founder of Y Combinator, Live from Stockholm",
-      "url": "https://www.youtube.com/watch?v=QHJkUw31YX8",
-      "upload_date": "20260513",
-      "duration_seconds": 1318,
-      "status": "pending"
-    },
-    {
-      "id": "57lDpTwiW6g",
-      "title": "Tokenmaxxing: How Top Builders Use AI To Do The Work Of 400 Engineers",
-      "url": "https://www.youtube.com/watch?v=57lDpTwiW6g",
-      "upload_date": "20260508",
-      "duration_seconds": 2490,
-      "status": "pending"
-    },
-    {
-      "id": "X5bABLCuIHA",
-      "title": "Harshil Mathur: AI Is Compressing Every Moat",
-      "url": "https://www.youtube.com/watch?v=X5bABLCuIHA",
-      "upload_date": "20260506",
-      "duration_seconds": 1895,
-      "status": "pending"
+      "composite_base": 84.5,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "DGtUUMNYLcc",
       "title": "Recursion Is The Next Scaling Law In AI",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=DGtUUMNYLcc",
+      "status": "ok",
+      "summary_bullets": [
+        "Recursion improves AI reasoning at inference time.",
+        "HRM uses hierarchical recursion with three loops.",
+        "TRM simplifies HRM, uses one network, smaller.",
+        "Tiny recursive models beat large LLMs on ARC.",
+        "Backprop through time limits recursion training."
+      ],
+      "composite": 83.51,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20260501",
       "duration_seconds": 2273,
-      "status": "pending"
+      "composite_base": 84.3,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.79
+    },
+    {
+      "id": "X5bABLCuIHA",
+      "title": "Harshil Mathur: AI Is Compressing Every Moat",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=X5bABLCuIHA",
+      "status": "ok",
+      "summary_bullets": [
+        "Regulatory hurdles create deep moats in fintech.",
+        "Capital efficiency beat investor pressure for growth.",
+        "Early UPI bet gave Razorpay massive advantage.",
+        "AI compresses build time; speed of decision is new moat.",
+        "Founder mode beats manager mode for core decisions."
+      ],
+      "composite": 81.84,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260506",
+      "duration_seconds": 1895,
+      "composite_base": 82,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.16
+    },
+    {
+      "id": "B246K_G7mHU",
+      "title": "Inside YC's AI Playbook",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=B246K_G7mHU",
+      "status": "ok",
+      "summary_bullets": [
+        "YC built internal agent infrastructure for all teams.",
+        "Agents given read-only SQL access to unified database.",
+        "Tool registry grew from 20 to 350+ tools.",
+        "Agents improve skills by learning from meeting transcripts.",
+        "Open agent conversations broadcast internally for transparency."
+      ],
+      "composite": 79.35,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 9,
+      "insight_density": 8,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260527",
+      "duration_seconds": 2790,
+      "composite_base": 81,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.65
+    },
+    {
+      "id": "7VKliOQXQ9M",
+      "title": "How The Best Companies Defend Against Mediocrity And Rot",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=7VKliOQXQ9M",
+      "status": "ok",
+      "summary_bullets": [
+        "Shareholder primacy is a recent (1980s) invention, not natural law.",
+        "Mission-controlled companies (e.g., PBC, industrial foundations) outperform.",
+        "Best practices like independent directors often destroy value.",
+        "Founders can adopt legal shields (poison pills, PBC) early.",
+        "Novo Nordisk’s foundation structure saved its GLP-1 program."
+      ],
+      "composite": 78.99,
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 7.5,
+      "like_count": null,
+      "upload_date": "20260522",
+      "duration_seconds": 3005,
+      "composite_base": 81,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -2.01
+    },
+    {
+      "id": "49L8lVe_PVo",
+      "title": "How Meesho Became India’s Biggest Shopping App",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=49L8lVe_PVo",
+      "status": "ok",
+      "summary_bullets": [
+        "Meesho pivoted from local shop discovery to WhatsApp reseller platform.",
+        "Shifted to direct consumer app in 2021 after data costs dropped.",
+        "Now has 250M annual buyers, 1M sellers, 2.5B orders/year.",
+        "Uses AI voice agent to reach rural users who can’t read or type."
+      ],
+      "composite": 78.96,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260611",
+      "duration_seconds": 1821,
+      "composite_base": 79,
+      "rank": 6,
+      "tags": [
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -0.04
+    },
+    {
+      "id": "gSNFJbgoaHI",
+      "title": "How to Build an AI-Native Services Company",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=gSNFJbgoaHI",
+      "status": "ok",
+      "summary_bullets": [
+        "AI-native services replace outsourced human work.",
+        "Pick markets with low trust, low judgment tasks.",
+        "Founders need domain fluency and operational rigor.",
+        "Product is the operation; humans scale nonlinearly.",
+        "Avoid early demand trap; price per unit or outcome."
+      ],
+      "composite": 78.8,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 4,
+      "specificity": 9,
+      "insight_density": 9.5,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260603",
+      "duration_seconds": 682,
+      "composite_base": 78.8,
+      "rank": 7,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "X_JsIHUfUjc",
+      "title": "How to Build a Self-Improving Company with AI",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=X_JsIHUfUjc",
+      "status": "ok",
+      "summary_bullets": [
+        "Roman legion organization is outdated for AI era.",
+        "AI enables recursive self-improving loops in companies.",
+        "Record everything to make knowledge legible to AI.",
+        "Middle management obsolete; everyone becomes an IC.",
+        "Software is ephemeral; business context is valuable."
+      ],
+      "composite": 78.8,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8,
+      "evidence": 6.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 7,
+      "like_count": null,
+      "upload_date": "20260521",
+      "duration_seconds": 809,
+      "composite_base": 78.8,
+      "rank": 8,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "JNyuX1zoOgU",
       "title": "Demis Hassabis: Agents, AGI & The Next Big Scientific Breakthrough",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=JNyuX1zoOgU",
+      "status": "ok",
+      "summary_bullets": [
+        "AGI likely by 2030, says Hassabis.",
+        "Missing pieces: continual learning, long-term reasoning, memory.",
+        "AlphaFold-style breakthroughs need massive search space and clear objective.",
+        "Small models can be 95% as good at 1/10 cost.",
+        "AI for science requires deep tech, not just API wrappers."
+      ],
+      "composite": 74.2,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 6,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 5,
+      "like_count": null,
       "upload_date": "20260429",
       "duration_seconds": 2457,
-      "status": "pending"
-    },
-    {
-      "id": "kMYeTRqzAfc",
-      "title": "Replit's CEO On The Only Two Jobs Left In The Company Of The Future",
-      "url": "https://www.youtube.com/watch?v=kMYeTRqzAfc",
-      "upload_date": "20260425",
-      "duration_seconds": 2352,
-      "status": "pending"
-    },
-    {
-      "id": "EN7frwQIbKc",
-      "title": "How To Build A Company With AI From The Ground Up",
-      "url": "https://www.youtube.com/watch?v=EN7frwQIbKc",
-      "upload_date": "20260424",
-      "duration_seconds": 628,
-      "status": "pending"
-    },
-    {
-      "id": "wkv2ifxPpF8",
-      "title": "How to Make Claude Code Your AI Engineering Team",
-      "url": "https://www.youtube.com/watch?v=wkv2ifxPpF8",
-      "upload_date": "20260423",
-      "duration_seconds": 1310,
-      "status": "pending"
-    },
-    {
-      "id": "ypzNhwpmOD4",
-      "title": "How Stripe Built Their New Website",
-      "url": "https://www.youtube.com/watch?v=ypzNhwpmOD4",
-      "upload_date": "20260422",
-      "duration_seconds": 2617,
-      "status": "pending"
+      "composite_base": 75.3,
+      "rank": 9,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.1
     },
     {
       "id": "4EsUaur0nsQ",
       "title": "The GPT Moment for Robotics Is Here",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=4EsUaur0nsQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Robotics data scarcity is being addressed.",
+        "Cross-embodiment training improves robot control.",
+        "Cloud-hosted models enable real-time control.",
+        "Vertical robotics startups now cheaper to start.",
+        "PI open-sources its models to spur innovation."
+      ],
+      "composite": 73.3,
+      "confidence": "Med",
+      "audience_level": "practitioner",
+      "substance": 8.5,
+      "evidence": 7,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 5,
+      "like_count": null,
       "upload_date": "20260416",
       "duration_seconds": 2967,
-      "status": "pending"
+      "composite_base": 75.25,
+      "rank": 10,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.95
+    },
+    {
+      "id": "3rWSvrFahIY",
+      "title": "Self-Play for LLMs, AI for Biology, Formal Verification, and More | YC Paper Club",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=3rWSvrFahIY",
+      "status": "ok",
+      "summary_bullets": [
+        "Protein language models scale like LLMs.",
+        "Selfplay for LLMs plateaus without guidance.",
+        "Streaming RAG reduces voice AI latency.",
+        "Lean enables verified AI for math and code.",
+        "Agentic coding resembles real-time strategy games."
+      ],
+      "composite": 73.11,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 8.5,
+      "like_count": null,
+      "upload_date": "20260612",
+      "duration_seconds": 4615,
+      "composite_base": 77.8,
+      "rank": 11,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -4.69
+    },
+    {
+      "id": "YKZCU0ynEbs",
+      "title": "Zepto: How Two 17-Year-Olds Built India's Largest Seller Of Fruits and Vegetables",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=YKZCU0ynEbs",
+      "status": "ok",
+      "summary_bullets": [
+        "Two 17-year-olds started Zepto during pandemic.",
+        "Pivoted from WhatsApp delivery to dark stores.",
+        "10-minute delivery model from first principles.",
+        "Largest seller of fruits and vegetables in India.",
+        "Uses AI for supply chain and ads."
+      ],
+      "composite": 72.8,
+      "confidence": "High",
+      "audience_level": "general",
+      "like_count": null,
+      "upload_date": "20260519",
+      "duration_seconds": 1738,
+      "composite_base": 72.8,
+      "rank": 12,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "EN7frwQIbKc",
+      "title": "How To Build A Company With AI From The Ground Up",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=EN7frwQIbKc",
+      "status": "ok",
+      "summary_bullets": [
+        "AI should be company's operating system, not just tool.",
+        "Closed-loop systems capture and improve processes.",
+        "Queryable organization enables AI-driven insights.",
+        "Software factories: humans write specs, AI writes code.",
+        "Three new employee archetypes: IC, DRRI, AI founder."
+      ],
+      "composite": 71.3,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 4,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260424",
+      "duration_seconds": 628,
+      "composite_base": 71.3,
+      "rank": 13,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "57lDpTwiW6g",
+      "title": "Tokenmaxxing: How Top Builders Use AI To Do The Work Of 400 Engineers",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=57lDpTwiW6g",
+      "status": "ok",
+      "summary_bullets": [
+        "Gary Tan returned to coding after 13 years using AI agents.",
+        "He built Gary's List and GStack with Claude Code.",
+        "\"Token maxing\" means spending heavily on AI tokens for quality.",
+        "Advocates \"thin harness, fat skills\" for agentic engineering.",
+        "Shipped hundreds of thousands of lines of code in months."
+      ],
+      "composite": 70.6,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 9,
+      "insight_density": 7.5,
+      "non_promotion": 6,
+      "like_count": null,
+      "upload_date": "20260508",
+      "duration_seconds": 2490,
+      "composite_base": 71.75,
+      "rank": 14,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.15
+    },
+    {
+      "id": "wE1ZgJdt4uM",
+      "title": "Inference, Diffusion, World Models, and More | YC Paper Club",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=wE1ZgJdt4uM",
+      "status": "ok",
+      "summary_bullets": [
+        "Five research papers presented at YC Paper Club.",
+        "Speculative decoding parallelized via SSD algorithm.",
+        "Diffusion models used for model predictive control.",
+        "World model training avoids collapse with regularization.",
+        "Data-constrained pre-training benefits from ensembling."
+      ],
+      "composite": 70.02,
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 7,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260528",
+      "duration_seconds": 4039,
+      "composite_base": 73.75,
+      "rank": 15,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -3.73
+    },
+    {
+      "id": "ypzNhwpmOD4",
+      "title": "How Stripe Built Their New Website",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ypzNhwpmOD4",
+      "status": "ok",
+      "summary_bullets": [
+        "Stripe redesigned homepage after business evolved beyond old story.",
+        "Used custom tool to iterate wave gradient design.",
+        "Delayed launch to perfect animation quality.",
+        "AI speeds prototyping but doesn't replace craft.",
+        "“Walk the store” culture ensures user perspective."
+      ],
+      "composite": 68.89,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 7,
+      "evidence": 5,
+      "specificity": 8.5,
+      "insight_density": 8,
+      "non_promotion": 6.5,
+      "like_count": null,
+      "upload_date": "20260422",
+      "duration_seconds": 2617,
+      "composite_base": 70.25,
+      "rank": 16,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": -1.36
+    },
+    {
+      "id": "mPAHvz8kW24",
+      "title": "The Most AI-Pilled CEO We Know",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=mPAHvz8kW24",
+      "status": "ok",
+      "summary_bullets": [
+        "Pedro Franceschi, Brex CEO, deeply integrates AI.",
+        "Treats LLMs as cheap, not precious resources.",
+        "Built \"Crab Trap\" network proxy for agent security.",
+        "Advocates CEO as chief AI officer.",
+        "Uses OpenClaw for personal agent automation."
+      ],
+      "composite": 68.59,
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 7,
+      "non_promotion": 8,
+      "like_count": null,
+      "upload_date": "20260610",
+      "duration_seconds": 3247,
+      "composite_base": 71,
+      "rank": 17,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -2.41
+    },
+    {
+      "id": "QHJkUw31YX8",
+      "title": "Paul Graham, Founder of Y Combinator, Live from Stockholm",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=QHJkUw31YX8",
+      "status": "ok",
+      "summary_bullets": [
+        "Silicon Valley is current startup center.",
+        "Moving gives better peers and serendipity.",
+        "Valley investors decide faster than Europeans.",
+        "Going to Valley then returning helps Stockholm.",
+        "Y Combinator is optimal way to experience Valley."
+      ],
+      "composite": 68,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260513",
+      "duration_seconds": 1318,
+      "composite_base": 68,
+      "rank": 18,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "R56RJFZBasQ",
+      "title": "Pick One Idea and Go Deep",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=R56RJFZBasQ",
+      "status": "ok",
+      "summary_bullets": [
+        "Overthinking prevents startup commitment.",
+        "Pick one idea, burn other boats.",
+        "Go deep enough to run customer's business.",
+        "Validate by customer pull and verticalization.",
+        "Failure mode is indecision, not wrong choice."
+      ],
+      "composite": 67.75,
+      "confidence": "High",
+      "audience_level": "practitioner",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 7.5,
+      "insight_density": 8,
+      "non_promotion": 9,
+      "like_count": null,
+      "upload_date": "20260617",
+      "duration_seconds": 691,
+      "composite_base": 67.75,
+      "rank": 19,
+      "tags": [
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "kkv5rZhrLkc",
       "title": "BillionToOne Is Solving One of Biotech’s Hardest Problems",
+      "speakers": "Unknown",
       "url": "https://www.youtube.com/watch?v=kkv5rZhrLkc",
+      "status": "ok",
+      "summary_bullets": [
+        "Prenatal test for rare fetal DNA in maternal blood",
+        "Uses synthetic DNA to subtract amplification noise",
+        "Stepwise expansion: prenatal → late-stage cancer → early detection",
+        "Founded by two PhD students with $300k",
+        "Now public, processing 600,000+ tests/year"
+      ],
+      "composite": 65.25,
+      "audience_level": "general",
+      "substance": 7.5,
+      "evidence": 5,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 2,
+      "like_count": null,
       "upload_date": "20260406",
       "duration_seconds": 1250,
-      "status": "pending"
+      "composite_base": 65.25,
+      "rank": 20,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "2Ap1dnv-GXA",
+      "title": "Why Two IIT Engineers Turned Down $550K Jobs To Build A Startup",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=2Ap1dnv-GXA",
+      "status": "ok",
+      "summary_bullets": [
+        "IIT engineers rejected $550K quant jobs.",
+        "YC partner told them to pivot from edtech.",
+        "Won DoorDash contract with 8-person team.",
+        "AI agents for customer support.",
+        "Building \"AI forward deployed engineer\"."
+      ],
+      "composite": 64.3,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 6.5,
+      "evidence": 5.5,
+      "specificity": 8,
+      "insight_density": 7.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260529",
+      "duration_seconds": 1470,
+      "composite_base": 64.3,
+      "rank": 21,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "oHwUD9b9_pg",
+      "title": "Zynga Founder: Consumer Is Not Investible Right Now - Thats Why You Should Build It",
+      "speakers": "Thats Why You Should Build It",
+      "url": "https://www.youtube.com/watch?v=oHwUD9b9_pg",
+      "status": "ok",
+      "summary_bullets": [
+        "Consumer not investable now, but opportunity great.",
+        "Mark Pincus shares product playbook “Proven Better New”.",
+        "AI enables new internet treasures; cost still high.",
+        "Founder mode means trusting instincts, creating context.",
+        "Fish are running: rare moments of product-market fit."
+      ],
+      "composite": 64.18,
+      "audience_level": "practitioner",
+      "substance": 7.5,
+      "evidence": 5.5,
+      "specificity": 7,
+      "insight_density": 6.5,
+      "non_promotion": 5,
+      "like_count": null,
+      "upload_date": "20260625",
+      "duration_seconds": 2443,
+      "composite_base": 65.25,
+      "rank": 22,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.07
+    },
+    {
+      "id": "yyXCQHX55N4",
+      "title": "Emergent: How Six Months of Tinkering Led To A $100M ARR Company",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=yyXCQHX55N4",
+      "status": "ok",
+      "summary_bullets": [
+        "Emergent lets non-coders build software via AI.",
+        "Founder previously built Dunzo, a quick-commerce giant.",
+        "Reached $100M ARR in 9 months.",
+        "Uses multi-agent orchestration and custom infrastructure.",
+        "Advice: think global from day one, follow intuition."
+      ],
+      "composite": 62.3,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 6.5,
+      "evidence": 6,
+      "specificity": 7.5,
+      "insight_density": 7,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260606",
+      "duration_seconds": 1745,
+      "composite_base": 62.3,
+      "rank": 23,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "ObBAxL2dFzw",
+      "title": "Groww: If Your Customers Don't Love It or Hate It, You've Already Lost",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=ObBAxL2dFzw",
+      "status": "ok",
+      "summary_bullets": [
+        "Groww started as robo-advisor, failed.",
+        "Pivoted to transparent mutual fund platform.",
+        "Achieved 100% organic growth via word-of-mouth.",
+        "Zero revenue for first four years.",
+        "Co-founders aligned on value system document."
+      ],
+      "composite": 62.28,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 6.5,
+      "evidence": 5,
+      "specificity": 7.5,
+      "insight_density": 7,
+      "non_promotion": 4,
+      "like_count": null,
+      "upload_date": "20260615",
+      "duration_seconds": 1811,
+      "composite_base": 62.3,
+      "rank": 24,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -0.02
+    },
+    {
+      "id": "kMYeTRqzAfc",
+      "title": "Replit's CEO On The Only Two Jobs Left In The Company Of The Future",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=kMYeTRqzAfc",
+      "status": "ok",
+      "summary_bullets": [
+        "Replit abstracts coding entirely via AI agents.",
+        "Non-technical users build real software on Replit.",
+        "CEO predicts two job types: builders and salespeople.",
+        "AI capabilities double every six months."
+      ],
+      "composite": 57.83,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7,
+      "evidence": 3.5,
+      "specificity": 8,
+      "insight_density": 6.5,
+      "non_promotion": 2.5,
+      "like_count": null,
+      "upload_date": "20260425",
+      "duration_seconds": 2352,
+      "composite_base": 58.75,
+      "rank": 25,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -0.92
+    },
+    {
+      "id": "fQmlML9Lay4",
+      "title": "Conductor CEO Charlie Holtz Walks Us Through His AI Coding Setup",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=fQmlML9Lay4",
+      "status": "ok",
+      "summary_bullets": [
+        "Orchestrates multiple AI coding agents on Mac",
+        "Uses gooseeneck mic for voice commands",
+        "Enforces workflow: no direct file editing",
+        "Code is “sawdust” – prompts matter more",
+        "Spent $22k on tokens in one month"
+      ],
+      "composite": 54.75,
+      "audience_level": "practitioner",
+      "substance": 5.5,
+      "evidence": 3,
+      "specificity": 8.5,
+      "insight_density": 7,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260604",
+      "duration_seconds": 995,
+      "composite_base": 54.75,
+      "rank": 26,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "Ju8LVdvuxGM",
+      "title": "India Can Create The Largest AI Companies",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=Ju8LVdvuxGM",
+      "status": "ok",
+      "summary_bullets": [
+        "AI enables global companies from India.",
+        "Young founders gain advantage from AI coding.",
+        "YC values clarity, taste, agency in founders.",
+        "Open-source models lower building costs.",
+        "Projects (build + get users) generate ideas."
+      ],
+      "composite": 54.53,
+      "audience_level": "general",
+      "substance": 6.5,
+      "evidence": 4,
+      "specificity": 7,
+      "insight_density": 5.5,
+      "non_promotion": 3,
+      "like_count": null,
+      "upload_date": "20260627",
+      "duration_seconds": 1930,
+      "composite_base": 54.75,
+      "rank": 27,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -0.22
+    },
+    {
+      "id": "mjmswQurIU4",
+      "title": "How Legora Went From YC to $100M ARR in 18 Months",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=mjmswQurIU4",
+      "status": "ok",
+      "summary_bullets": [
+        "Legal tech startup Legora grew rapidly.",
+        "Used Jude Law in ad campaign.",
+        "YC batch helped fundraising and product.",
+        "Reached $100M ARR in 18 months.",
+        "Now building proactive AI agents for lawyers."
+      ],
+      "composite": 53.75,
+      "audience_level": "practitioner",
+      "substance": 5.5,
+      "evidence": 4.5,
+      "specificity": 7.5,
+      "insight_density": 6,
+      "non_promotion": 2,
+      "like_count": null,
+      "upload_date": "20260605",
+      "duration_seconds": 1367,
+      "composite_base": 53.75,
+      "rank": 28,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "wkv2ifxPpF8",
+      "title": "How to Make Claude Code Your AI Engineering Team",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=wkv2ifxPpF8",
+      "status": "ok",
+      "summary_bullets": [
+        "GStack wraps Claude Code into AI team.",
+        "Office hours skill reframes startup ideas.",
+        "Adversarial review catches code issues automatically.",
+        "Browser automation uses Playwright for testing.",
+        "Thin scaffolding approach for agent workflows."
+      ],
+      "composite": 53,
+      "audience_level": "practitioner",
+      "substance": 6.5,
+      "evidence": 3,
+      "specificity": 8.5,
+      "insight_density": 5.5,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260423",
+      "duration_seconds": 1310,
+      "composite_base": 53,
+      "rank": 29,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "8OOuCnZB-4o",
+      "title": "The Age Of The 40-Year-Old Solo Founder Is Here",
+      "speakers": "Unknown",
+      "url": "https://www.youtube.com/watch?v=8OOuCnZB-4o",
+      "status": "ok",
+      "summary_bullets": [
+        "Ploy rebuilds old websites into modern, AI-driven marketing platforms.",
+        "Guest Bryant Chou (Webflow co-founder) demos Ploy’s design and SEO features.",
+        "AI lets experienced founders build solo, leveraging decades of taste.",
+        "Ploy integrates analytics, CRM, and agent-friendly outputs.",
+        "Demo shows 2008 sites transformed into 2026 versions in minutes."
+      ],
+      "composite": 27.73,
+      "audience_level": "practitioner",
+      "substance": 3.5,
+      "evidence": 2,
+      "specificity": 4,
+      "insight_density": 3,
+      "non_promotion": 1,
+      "like_count": null,
+      "upload_date": "20260619",
+      "duration_seconds": 2563,
+      "composite_base": 29,
+      "rank": 30,
+      "tags": [],
+      "like_adjustment": 0,
+      "length_adjustment": -1.27
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

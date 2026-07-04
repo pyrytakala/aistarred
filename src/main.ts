@@ -37,11 +37,41 @@ function getPageState(): PageState {
 }
 
 function itemThumbnailUrl(videoId: string): string {
-  const { coverImage, useYoutubeThumbs } = getPageState();
-  if (!useYoutubeThumbs && coverImage) {
-    return coverImage;
-  }
   return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
+}
+
+const THUMB_PLACEHOLDER_ICON_SVG =
+  '<svg class="thumb-placeholder-icon" viewBox="0 0 24 24" aria-hidden="true">' +
+  '<path d="M14 3v4a1 1 0 0 0 1 1h4" />' +
+  '<path d="M17 21H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7l5 5v11a2 2 0 0 1-2 2z" />' +
+  '<path d="M9 13h6" /><path d="M9 17h4" />' +
+  "</svg>";
+
+function applyThumbnail(
+  thumbLink: HTMLAnchorElement,
+  thumb: HTMLImageElement,
+  video: RankedVideo,
+): void {
+  const { useYoutubeThumbs } = getPageState();
+
+  if (useYoutubeThumbs) {
+    thumbLink.classList.remove("thumb-link--placeholder");
+    thumbLink.querySelector(".thumb-placeholder")?.remove();
+    thumb.src = itemThumbnailUrl(video.id);
+    thumb.alt = video.title;
+    return;
+  }
+
+  thumb.removeAttribute("src");
+  thumb.alt = "";
+  thumbLink.classList.add("thumb-link--placeholder");
+  if (!thumbLink.querySelector(".thumb-placeholder")) {
+    const placeholder = document.createElement("span");
+    placeholder.className = "thumb-placeholder";
+    placeholder.setAttribute("aria-hidden", "true");
+    placeholder.innerHTML = THUMB_PLACEHOLDER_ICON_SVG;
+    thumbLink.insertBefore(placeholder, thumb);
+  }
 }
 
 function formatAbsoluteDate(date: Date): string {
@@ -85,7 +115,6 @@ function formatScore(value: number | null | undefined): string {
   }
   return (Number(value) / 10).toFixed(1);
 }
-
 const SCORE_COMPONENTS = [
   { key: "substance", label: "Substance", weight: 3 },
   { key: "evidence", label: "Evidence", weight: 2 },
@@ -197,26 +226,30 @@ function renderScoreBreakdown(breakdown: HTMLElement, video: RankedVideo): void 
     breakdown.appendChild(row);
   }
 
-  const base = video.composite_base ?? video.composite ?? subtotal;
-  const total = document.createElement("div");
-  total.className = "score-breakdown-total";
-  total.innerHTML = `<span>Total</span><span>${formatScore(base)}</span>`;
-  breakdown.appendChild(total);
-
-  const likeAdjustment = video.like_adjustment;
-  if (likeAdjustment != null && Math.abs(Number(likeAdjustment)) > 0.01) {
+  const appendAdjustRow = (label: string, value: number, formatted: string): void => {
     const adjust = document.createElement("div");
     adjust.className = "score-breakdown-adjust";
-    const formatted = formatScore(likeAdjustment);
-    const sign = Number(likeAdjustment) > 0 ? "+" : "";
-    adjust.innerHTML = `<span>Like adjustment</span><span>${sign}${formatted}</span>`;
+    const sign = value > 0 ? "+" : value < 0 ? "−" : "";
+    const magnitude = formatted.replace(/^-/, "");
+    adjust.innerHTML = `<span>${label}</span><span>${sign}${magnitude}</span>`;
     breakdown.appendChild(adjust);
+  };
 
-    const finalRow = document.createElement("div");
-    finalRow.className = "score-breakdown-total";
-    finalRow.innerHTML = `<span>Final</span><span>${formatScore(video.composite)}</span>`;
-    breakdown.appendChild(finalRow);
+  const likeAdjustment = Number(video.like_adjustment ?? 0);
+  const lengthAdjustment = Number(video.length_adjustment ?? 0);
+
+  if (Math.abs(likeAdjustment) >= 0.5) {
+    appendAdjustRow("Like adjustment", likeAdjustment, formatScore(likeAdjustment));
   }
+  if (Math.abs(lengthAdjustment) >= 0.5) {
+    appendAdjustRow("Length penalty", lengthAdjustment, formatScore(lengthAdjustment));
+  }
+
+  const finalComposite = video.composite ?? video.composite_base ?? subtotal;
+  const total = document.createElement("div");
+  total.className = "score-breakdown-total";
+  total.innerHTML = `<span>Total</span><span>${formatScore(finalComposite)}</span>`;
+  breakdown.appendChild(total);
 
   breakdown.hidden = true;
 }
@@ -319,146 +352,6 @@ function renderTags(container: HTMLElement, tags: Tag[]): void {
   }
 
   container.hidden = container.childElementCount === 0;
-}
-
-function groupCardsByRow(cards: HTMLElement[]): HTMLElement[][] {
-  const rows: HTMLElement[][] = [];
-  for (const card of cards) {
-    const top = card.offsetTop;
-    const row = rows.find((group) => Math.abs(group[0].offsetTop - top) < 2);
-    if (row) {
-      row.push(card);
-    } else {
-      rows.push([card]);
-    }
-  }
-  return rows;
-}
-
-function balanceCardRows(): void {
-  for (const grid of document.querySelectorAll<HTMLElement>(".grid")) {
-    const cards = [...grid.querySelectorAll<HTMLElement>(".card")];
-    cards.forEach((card) => {
-      card.style.height = "";
-    });
-
-    const collapsed = cards.filter((card) => !card.classList.contains("is-expanded"));
-    const expandedTops = new Set(
-      cards.filter((card) => card.classList.contains("is-expanded")).map((card) => card.offsetTop),
-    );
-
-    for (const row of groupCardsByRow(collapsed)) {
-      if (expandedTops.has(row[0]?.offsetTop ?? -1)) {
-        continue;
-      }
-
-      const tallest = Math.max(...row.map((card) => card.offsetHeight));
-      for (const card of row) {
-        card.style.height = `${tallest}px`;
-      }
-    }
-  }
-
-  refreshAllSummaryStates();
-}
-
-function refreshAllSummaryStates(): void {
-  for (const wrap of document.querySelectorAll<HTMLElement>(".summary-wrap:not([hidden])")) {
-    updateSummaryToggleState(wrap);
-  }
-}
-
-let expandedVideoId: string | null = null;
-
-function collapseExpandedCard(): void {
-  if (!expandedVideoId) {
-    return;
-  }
-
-  const card = document.querySelector<HTMLElement>(`.card[data-video-id="${expandedVideoId}"]`);
-  if (card) {
-    card.classList.remove("is-expanded");
-    card.style.height = "";
-    const wrap = card.querySelector<HTMLElement>(".summary-wrap");
-    if (wrap) {
-      updateSummaryToggleState(wrap);
-    }
-  }
-  expandedVideoId = null;
-  balanceCardRows();
-}
-
-function expandCard(card: HTMLElement, videoId: string): void {
-  collapseExpandedCard();
-  card.classList.add("is-expanded");
-  card.style.height = "";
-  expandedVideoId = videoId;
-  const wrap = card.querySelector<HTMLElement>(".summary-wrap");
-  if (wrap) {
-    updateSummaryToggleState(wrap);
-  }
-  balanceCardRows();
-}
-
-function updateSummaryToggleState(wrap: HTMLElement): void {
-  const card = wrap.closest<HTMLElement>(".card");
-  if (!card) {
-    return;
-  }
-
-  const panel = wrap.querySelector<HTMLElement>(".summary-panel");
-  const moreBtn = wrap.querySelector<HTMLButtonElement>(".summary-more");
-  const lessBtn = card.querySelector<HTMLButtonElement>(".summary-less");
-  const expanded = card.classList.contains("is-expanded");
-
-  if (!panel || !moreBtn || !lessBtn) {
-    return;
-  }
-
-  if (expanded) {
-    wrap.classList.add("has-overflow");
-    moreBtn.hidden = true;
-    lessBtn.hidden = false;
-    return;
-  }
-
-  const needsToggle = panel.scrollHeight > panel.clientHeight + 1;
-  wrap.classList.toggle("has-overflow", needsToggle);
-  moreBtn.hidden = !needsToggle;
-  lessBtn.hidden = true;
-}
-
-function setupSummaryInteractions(card: HTMLElement, wrap: HTMLElement, videoId: string): void {
-  const panel = wrap.querySelector<HTMLElement>(".summary-panel");
-  const moreBtn = wrap.querySelector<HTMLButtonElement>(".summary-more");
-  const lessBtn = card.querySelector<HTMLButtonElement>(".summary-less");
-  if (!panel || !moreBtn || !lessBtn) {
-    return;
-  }
-
-  const expand = (event: Event) => {
-    event.preventDefault();
-    event.stopPropagation();
-    if (card.classList.contains("is-expanded")) {
-      return;
-    }
-    expandCard(card, videoId);
-  };
-
-  const collapse = (event: Event) => {
-    event.preventDefault();
-    event.stopPropagation();
-    card.classList.remove("is-expanded");
-    if (expandedVideoId === videoId) {
-      expandedVideoId = null;
-    }
-    updateSummaryToggleState(wrap);
-    balanceCardRows();
-  };
-
-  panel.addEventListener("click", expand);
-  moreBtn.addEventListener("click", expand);
-  lessBtn.addEventListener("click", collapse);
 }
 
 function renderSummary(wrap: HTMLElement, bullets: string[] | undefined): void {
@@ -587,8 +480,7 @@ function populateExcludedCard(card: HTMLElement, video: RankedVideo): void {
 
   card.dataset.videoId = video.id;
 
-  thumb.src = itemThumbnailUrl(video.id);
-  thumb.alt = video.title;
+  applyThumbnail(thumbLink, thumb, video);
   thumbLink.href = video.url;
 
   const durationLabel = formatDuration(video.duration_seconds);
@@ -607,7 +499,6 @@ function populateExcludedCard(card: HTMLElement, video: RankedVideo): void {
   if (summaryWrap) {
     renderSummary(summaryWrap, video.summary_bullets);
     summaryWrap.hidden = !(video.summary_bullets || []).length;
-    setupSummaryInteractions(card, summaryWrap, video.id);
   }
 
   renderTalkMeta(video, audienceLevel, published);
@@ -674,8 +565,8 @@ function renderExcludedSection(
     section.appendChild(lede);
   }
 
-  const grid = document.createElement("div");
-  grid.className = "grid grid-excluded";
+  const list = document.createElement("div");
+  list.className = "card-list";
 
   for (const video of videos) {
     const node = template.content.cloneNode(true) as DocumentFragment;
@@ -684,21 +575,11 @@ function renderExcludedSection(
       continue;
     }
     populateExcludedCard(card, video);
-    grid.appendChild(node);
+    list.appendChild(node);
   }
 
-  section.appendChild(grid);
+  section.appendChild(list);
   container.appendChild(section);
-
-  requestAnimationFrame(() => {
-    requestAnimationFrame(balanceCardRows);
-  });
-
-  for (const img of grid.querySelectorAll<HTMLImageElement>(".thumb")) {
-    if (!img.complete) {
-      img.addEventListener("load", balanceCardRows, { once: true });
-    }
-  }
 }
 
 function renderExcludedSections(payload: RankingsPayload): void {
@@ -730,18 +611,11 @@ function renderExcludedSections(payload: RankingsPayload): void {
   );
 }
 
-function populateCard(
-  card: HTMLElement,
-  video: RankedVideo,
-  options: {
-    rank?: number;
-  },
-): void {
-  const rank = card.querySelector<HTMLElement>(".rank");
+function populateCard(card: HTMLElement, video: RankedVideo): void {
   const duration = card.querySelector<HTMLElement>(".duration");
   const thumbLink = card.querySelector<HTMLAnchorElement>(".thumb-link");
   const thumb = card.querySelector<HTMLImageElement>(".thumb");
-  const thumbTags = card.querySelector<HTMLElement>(".thumb-tags");
+  const cardTags = card.querySelector<HTMLElement>(".card-tags");
   const titleLink = card.querySelector<HTMLAnchorElement>(".title-link");
   const summaryWrap = card.querySelector<HTMLElement>(".summary-wrap");
   const audienceLevel = card.querySelector<HTMLElement>(".audience-level");
@@ -750,11 +624,10 @@ function populateCard(
   const scoreBreakdown = card.querySelector<HTMLElement>(".score-breakdown");
 
   if (
-    !rank ||
     !thumbLink ||
     !thumb ||
     !duration ||
-    !thumbTags ||
+    !cardTags ||
     !titleLink ||
     !summaryWrap ||
     !published ||
@@ -766,12 +639,10 @@ function populateCard(
   }
 
   card.dataset.videoId = video.id;
-  rank.textContent = `#${options.rank ?? video.rank}`;
-  renderTags(thumbTags, positiveTags(video));
+  renderTags(cardTags, positiveTags(video));
   setupScoreButton(card, score, scoreBreakdown, video);
 
-  thumb.src = itemThumbnailUrl(video.id);
-  thumb.alt = video.title;
+  applyThumbnail(thumbLink, thumb, video);
   thumbLink.href = video.url;
 
   const durationLabel = formatDuration(video.duration_seconds);
@@ -789,7 +660,6 @@ function populateCard(
 
   renderSummary(summaryWrap, video.summary_bullets);
   summaryWrap.hidden = !(video.summary_bullets || []).length;
-  setupSummaryInteractions(card, summaryWrap, video.id);
 
   renderTalkMeta(video, audienceLevel, published);
 }
@@ -861,32 +731,22 @@ function renderCards(payload: RankingsPayload): void {
     heading.textContent = band.label;
     section.appendChild(heading);
 
-    const grid = document.createElement("div");
-    grid.className = "grid";
+    const list = document.createElement("div");
+    list.className = "card-list";
 
-    videos.forEach((video, index) => {
+    for (const video of videos) {
       const node = template.content.cloneNode(true) as DocumentFragment;
       const card = node.querySelector<HTMLElement>(".card");
       if (!card) {
-        return;
+        continue;
       }
 
-      populateCard(card, video, { rank: index + 1 });
-      grid.appendChild(node);
-    });
-
-    section.appendChild(grid);
-    container.appendChild(section);
-  }
-
-  requestAnimationFrame(() => {
-    requestAnimationFrame(balanceCardRows);
-  });
-
-  for (const img of container.querySelectorAll<HTMLImageElement>(".thumb")) {
-    if (!img.complete) {
-      img.addEventListener("load", balanceCardRows, { once: true });
+      populateCard(card, video);
+      list.appendChild(node);
     }
+
+    section.appendChild(list);
+    container.appendChild(section);
   }
 }
 
@@ -941,10 +801,4 @@ initPage().catch((error: Error) => {
     meta.textContent = "Could not load source";
   }
   renderError(error.message);
-});
-
-let resizeTimer: ReturnType<typeof setTimeout> | undefined;
-window.addEventListener("resize", () => {
-  clearTimeout(resizeTimer);
-  resizeTimer = setTimeout(balanceCardRows, 100);
 });

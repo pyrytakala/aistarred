@@ -1,54 +1,217 @@
 {
   "source_id": "asterisk-issue-14-latest",
   "video_count": 5,
-  "scored_count": 0,
-  "ranked_count": 0,
-  "rankings": [],
-  "other": [
+  "scored_count": 5,
+  "ranked_count": 5,
+  "rankings": [
+    {
+      "id": "the-mystery-in-the-medicine-cabinet",
+      "title": "The Mystery in the Medicine Cabinet",
+      "speakers": "Asterisk",
+      "url": "https://asteriskmag.com/issues/14/the-mystery-in-the-medicine-cabinet",
+      "status": "ok",
+      "summary_bullets": [
+        "Acetaminophen safer than ibuprofen if used correctly.",
+        "Ibuprofen risks: stomach, heart, kidneys.",
+        "Acetaminophen overdose causes liver failure.",
+        "FDA labels are well-designed but don't compare drugs.",
+        "Body complexity makes drug safety non-obvious."
+      ],
+      "composite": 86.3,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 8,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260415",
+      "duration_seconds": null,
+      "composite_base": 86.3,
+      "rank": 1,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Evidence",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
     {
       "id": "chinas-last-bus",
       "title": "Boarding China’s Last Bus",
+      "speakers": "Asterisk",
       "url": "https://asteriskmag.com/issues/14/chinas-last-bus",
+      "status": "ok",
+      "summary_bullets": [
+        "Chinese AI \"enthusiasm\" masks fear of being left behind.",
+        "1990s state layoffs (xiagang) created a \"last bus\" mentality.",
+        "Polls conflate genuine optimism with perceived inevitability.",
+        "Historical trauma drives frenetic adoption of new technologies.",
+        "US-China AI binary oversimplifies complex public sentiment."
+      ],
+      "composite": 85.3,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 8.5,
+      "evidence": 7.5,
+      "specificity": 9,
+      "insight_density": 8.5,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20260520",
       "duration_seconds": null,
-      "speakers": "Asterisk",
-      "status": "pending"
+      "composite_base": 85.3,
+      "rank": 2,
+      "tags": [
+        {
+          "label": "Substance",
+          "tone": "positive"
+        },
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Insight",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "we-re-all-one-crisis-away-from-taking-unlicensed-research-peptides",
       "title": "We’re All One Crisis Away From Taking Unlicensed Research Peptides",
+      "speakers": "Asterisk",
       "url": "https://asteriskmag.com/issues/14/we-re-all-one-crisis-away-from-taking-unlicensed-research-peptides",
+      "status": "ok",
+      "summary_bullets": [
+        "Health hackers self-experiment when medicine fails.",
+        "Diabetics built their own closed-loop insulin system.",
+        "Trans women navigated HRT without doctor guidance.",
+        "Gray market GLP-1 users weigh risks vs. weight loss.",
+        "Internal locus of control literature is inconclusive."
+      ],
+      "composite": 68,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 7,
+      "evidence": 4,
+      "specificity": 8.5,
+      "insight_density": 6.5,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20260603",
       "duration_seconds": null,
-      "speakers": "Asterisk",
-      "status": "pending"
-    },
-    {
-      "id": "these-wild-young-people",
-      "title": "These Wild Young People",
-      "url": "https://asteriskmag.com/issues/14/these-wild-young-people",
-      "upload_date": "20260513",
-      "duration_seconds": null,
-      "speakers": "Asterisk",
-      "status": "pending"
-    },
-    {
-      "id": "the-mystery-in-the-medicine-cabinet",
-      "title": "The Mystery in the Medicine Cabinet",
-      "url": "https://asteriskmag.com/issues/14/the-mystery-in-the-medicine-cabinet",
-      "upload_date": "20260415",
-      "duration_seconds": null,
-      "speakers": "Asterisk",
-      "status": "pending"
+      "composite_base": 68,
+      "rank": 3,
+      "tags": [
+        {
+          "label": "Specificity",
+          "tone": "positive"
+        },
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     },
     {
       "id": "the-doomers-are-all-right",
       "title": "The Doomers Are All Right",
+      "speakers": "Asterisk",
       "url": "https://asteriskmag.com/issues/14/the-doomers-are-all-right",
+      "status": "ok",
+      "summary_bullets": [
+        "AI doomers expect extinction within 5–20 years.",
+        "They cope by focusing on controllable actions.",
+        "Ambiguous loss concept explains unresolved grief.",
+        "Many enjoy life more, spend money, travel.",
+        "Some find clarity and stop worrying about other problems."
+      ],
+      "composite": 56,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 4.5,
+      "evidence": 3,
+      "specificity": 7,
+      "insight_density": 6.5,
+      "non_promotion": 10,
+      "like_count": null,
       "upload_date": "20260623",
       "duration_seconds": null,
+      "composite_base": 56,
+      "rank": 4,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
+    },
+    {
+      "id": "these-wild-young-people",
+      "title": "These Wild Young People",
       "speakers": "Asterisk",
-      "status": "pending"
+      "url": "https://asteriskmag.com/issues/14/these-wild-young-people",
+      "status": "ok",
+      "summary_bullets": [
+        "Gen Z risk attitudes explored via interviews",
+        "Contrasts risk-averse and risk-seeking youth",
+        "Anecdotes from eight young people",
+        "Historical context of risk perception",
+        "No strong central thesis"
+      ],
+      "composite": 47.3,
+      "confidence": "High",
+      "audience_level": "general",
+      "substance": 4.5,
+      "evidence": 2,
+      "specificity": 6.5,
+      "insight_density": 4,
+      "non_promotion": 10,
+      "like_count": null,
+      "upload_date": "20260513",
+      "duration_seconds": null,
+      "composite_base": 47.3,
+      "rank": 5,
+      "tags": [
+        {
+          "label": "Non-promo",
+          "tone": "positive"
+        }
+      ],
+      "like_adjustment": 0,
+      "length_adjustment": 0
     }
-  ]
+  ],
+  "too_long": [],
+  "other": []
 }

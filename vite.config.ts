@@ -17,7 +17,7 @@ function rankingsPathForSource(sourceId: string): string | null {
 const SOURCE_SLUGS = new Set(listSources().map((source) => source.slug));
 
 function isSourceListingPath(pathname: string): boolean {
-  const match = pathname.match(/^\/([^/]+)\/?$/);
+  const match = pathname.match(/^\/sources\/([^/]+)\/?$/);
   return Boolean(match && SOURCE_SLUGS.has(match[1]));
 }
 
@@ -116,6 +116,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         home: resolve(__dirname, "index.html"),
+        sources: resolve(__dirname, "sources/index.html"),
         "how-it-works": resolve(__dirname, "how-it-works/index.html"),
         disclaimer: resolve(__dirname, "disclaimer/index.html"),
         source: resolve(__dirname, "source/index.html"),
