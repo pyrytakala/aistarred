@@ -1,4 +1,5 @@
 import type { RankedVideo } from "./types.js";
+import { normalizeAudienceLevel } from "./audience-level.js";
 
 const SUMMARY_BULLETS_SECTION_RE =
   /^(?:-\s*)?(?:\*\*)?Summary bullets:(?:\*\*)?\s*\n([\s\S]*?)(?=\n(?:-\s*)?(?:\*\*)?Central claim)/im;
@@ -6,6 +7,8 @@ const SUMMARY_BULLET_LINE_RE = /^\s*-\s+(.+)$/gm;
 const COMPOSITE_LINE_RE = /^(?:-\s*)?(?:\*\*)?COMPOSITE/im;
 const COMPOSITE_SCORE_RE = /([\d.]+)\s*\/\s*100/g;
 const CONFIDENCE_RE = /Confidence:\s*(?:\*\*)?(High|Med|Low)/i;
+const AUDIENCE_LEVEL_RE =
+  /Audience level:\*{0,2}\s*(General|Practitioner|Professional|Specialist)\*{0,2}(?:\s*[—–-]\s*(.+?))?(?:\n|$)/i;
 
 const DIMENSION_RES: Record<string, RegExp> = {
   substance: /^(?:-\s*)?(?:\*\*)?Substance:(?:\*\*)?\s*.+?(?:\*\*)?(\d+(?:\.\d+)?)(?:\*\*)?\s*$/im,
@@ -83,6 +86,14 @@ export function parseScoreResponse(text: string): Partial<RankedVideo> & { raw_r
   if (confidenceMatch) {
     const value = confidenceMatch[1].toLowerCase();
     result.confidence = value.charAt(0).toUpperCase() + value.slice(1);
+  }
+
+  const audienceMatch = AUDIENCE_LEVEL_RE.exec(text);
+  if (audienceMatch) {
+    const level = normalizeAudienceLevel(audienceMatch[1]);
+    if (level) {
+      result.audience_level = level;
+    }
   }
 
   for (const [name, pattern] of Object.entries(DIMENSION_RES)) {

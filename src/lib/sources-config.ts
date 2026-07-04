@@ -1,4 +1,4 @@
-import { quarterlyPodcastSource } from "./source-builders.js";
+import { quarterlyPodcastSource, essaySource } from "./source-builders.js";
 
 /**
  * Active sources shown on the site. For inclusion/exclusion notes, see source-registry.ts.
@@ -9,18 +9,21 @@ export interface DateRange {
   until: string;
 }
 
+export type FetchKind = "youtube" | "essay";
+
 export interface SourceConfig {
   id: string;
   title: string;
   slug: string;
   channelUrl: string;
-  contentKind: "conference" | "podcast" | "channel";
+  fetchKind: FetchKind;
+  fetchAdapter?: "paul-graham";
+  contentKind: "conference" | "podcast" | "channel" | "essay";
   coverImage: string;
   itemLabel: string;
   pageTitle: string;
   period?: string;
   location?: string;
-  promptFile: string;
   dateRange?: DateRange;
   fetchWindow?: { days?: number; months?: number };
   maxDisplayAgeDays: number | null;
@@ -32,13 +35,13 @@ export const SOURCES: Record<string, SourceConfig> = {
     title: "AI Engineer World's Fair 2026",
     slug: "ai-engineer-worlds-fair-2026",
     channelUrl: "https://www.youtube.com/@aiDotEngineer/videos",
+    fetchKind: "youtube",
     contentKind: "conference",
     coverImage: "/images/covers/ai-engineer-worlds-fair-2026.jpg",
     itemLabel: "videos",
     pageTitle: "AI Engineer World's Fair 2026 talks",
     period: "Jun 2026",
     location: "San Francisco",
-    promptFile: "scoring_prompt.txt",
     fetchWindow: { days: 10 },
     maxDisplayAgeDays: 10,
   },
@@ -99,6 +102,23 @@ export const SOURCES: Record<string, SourceConfig> = {
     year: 2026,
     quarter: 2,
     halfYear: true,
+  }),
+  "huberman-lab-h1-2026": quarterlyPodcastSource({
+    id: "huberman-lab-h1-2026",
+    name: "Huberman Lab",
+    channelHandle: "HubermanLab",
+    coverImage: "/images/covers/huberman-lab.png",
+    year: 2026,
+    quarter: 2,
+    halfYear: true,
+  }),
+  "paul-graham-essays-2020s": essaySource({
+    id: "paul-graham-essays-2020s",
+    name: "Paul Graham Essays",
+    catalogUrl: "https://paulgraham.com/articles.html",
+    coverImage: "/images/covers/paul-graham.png",
+    dateRange: { since: "20200101", until: "20291231" },
+    period: "2020s",
   }),
 };
 

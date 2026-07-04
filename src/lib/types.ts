@@ -1,3 +1,7 @@
+import type { AudienceLevel } from "./audience-level.js";
+
+export type { AudienceLevel };
+
 export interface Tag {
   label: string;
   tone: "positive" | "negative";
@@ -51,6 +55,7 @@ export interface RankedVideo {
   insight_density?: number;
   non_promotion?: number;
   confidence?: string;
+  audience_level?: AudienceLevel;
   central_claims?: string;
   tags?: Tag[];
   score_path?: string;

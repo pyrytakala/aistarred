@@ -1,19 +1,10 @@
 import "./landing.css";
 import { CONTENT_KIND_LABELS } from "./lib/content-kind.js";
-import { listSources, type SourceConfig } from "./lib/sources-config.js";
+import { loadSourcesManifest } from "./lib/sources-manifest.js";
+import { sourceSubtitle } from "./lib/public-source.js";
+import type { PublicSource } from "./lib/public-source.js";
 
-function sourceSubtitle(source: SourceConfig): string {
-  const parts: string[] = [];
-  if (source.period) {
-    parts.push(source.period);
-  }
-  if (source.location) {
-    parts.push(source.location);
-  }
-  return parts.join(" · ");
-}
-
-function renderCover(source: SourceConfig): HTMLElement {
+function renderCover(source: PublicSource): HTMLElement {
   const cover = document.createElement("div");
   cover.className = "source-card-cover";
 
@@ -31,7 +22,7 @@ function renderCover(source: SourceConfig): HTMLElement {
   return cover;
 }
 
-function renderCard(source: SourceConfig): HTMLLIElement {
+function renderCard(source: PublicSource): HTMLLIElement {
   const item = document.createElement("li");
   const link = document.createElement("a");
   link.className = "source-card";
@@ -65,16 +56,26 @@ function renderCard(source: SourceConfig): HTMLLIElement {
   return item;
 }
 
-function init(): void {
+async function init(): Promise<void> {
   const grid = document.getElementById("source-grid");
   if (!grid) {
     return;
   }
 
+  const manifest = await loadSourcesManifest();
   grid.replaceChildren();
-  for (const source of listSources()) {
+  for (const source of manifest.sources) {
     grid.appendChild(renderCard(source));
   }
 }
 
-init();
+init().catch((error: Error) => {
+  const grid = document.getElementById("source-grid");
+  if (grid) {
+    grid.replaceChildren();
+    const message = document.createElement("li");
+    message.className = "landing-error";
+    message.textContent = error.message;
+    grid.appendChild(message);
+  }
+});

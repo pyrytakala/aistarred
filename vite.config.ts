@@ -13,12 +13,59 @@ function rankingsPathForSource(sourceId: string): string | null {
   return candidates.find((path) => existsSync(path)) ?? null;
 }
 
+const SOURCE_SLUGS = new Set(listSources().map((source) => source.slug));
+
+function isSourceListingPath(pathname: string): boolean {
+  const match = pathname.match(/^\/([^/]+)\/?$/);
+  return Boolean(match && SOURCE_SLUGS.has(match[1]));
+}
+
+function rewriteSourceListingRequest(req: IncomingMessage): void {
+  const url = req.url ?? "/";
+  const [pathname, search = ""] = url.split("?");
+  if (isSourceListingPath(pathname)) {
+    req.url = `/source/index.html${search ? `?${search}` : ""}`;
+  }
+}
+
+function sourceListingRewritePlugin(): Plugin {
+  const attachRewrites = (
+    server: { middlewares: { use: (fn: (req: IncomingMessage, res: ServerResponse, next: () => void) => void) => void } },
+  ) => {
+    server.middlewares.use((req, _res, next) => {
+      rewriteSourceListingRequest(req);
+      next();
+    });
+  };
+
+  return {
+    name: "source-listing-rewrite",
+    configureServer: attachRewrites,
+    configurePreviewServer: attachRewrites,
+  };
+}
+
 function rankingsDevPlugin(): Plugin {
   return {
     name: "rankings-dev-api",
     configureServer(server) {
       server.middlewares.use(
         (req: IncomingMessage, res: ServerResponse, next: () => void) => {
+          const sourcesMatch = req.url === "/api/sources";
+          if (sourcesMatch) {
+            const manifestPath = resolve(process.cwd(), "public", "data", "sources.json");
+            if (!existsSync(manifestPath)) {
+              res.statusCode = 404;
+              res.setHeader("Content-Type", "application/json; charset=utf-8");
+              res.end(JSON.stringify({ error: "Missing public/data/sources.json. Run npm run sync-public-data." }));
+              return;
+            }
+            res.statusCode = 200;
+            res.setHeader("Content-Type", "application/json; charset=utf-8");
+            res.end(readFileSync(manifestPath, "utf8"));
+            return;
+          }
+
           const match = req.url?.match(/^\/api\/rankings\/([^/?]+)/);
           if (!match) {
             next();
@@ -46,21 +93,9 @@ function rankingsDevPlugin(): Plugin {
   };
 }
 
-const pageEntries = Object.fromEntries(
-  [
-    ["home", resolve(__dirname, "index.html")],
-    ["how-it-works", resolve(__dirname, "how-it-works/index.html")],
-    ["disclaimer", resolve(__dirname, "disclaimer/index.html")],
-    ...listSources().map((source) => [
-      source.slug,
-      resolve(__dirname, source.slug, "index.html"),
-    ]),
-  ],
-);
-
 export default defineConfig({
   base: process.env.VITE_BASE_PATH || "/",
-  plugins: [rankingsDevPlugin()],
+  plugins: [sourceListingRewritePlugin(), rankingsDevPlugin()],
   server: {
     port: 5173,
     strictPort: false,
@@ -69,7 +104,12 @@ export default defineConfig({
     outDir: "dist",
     emptyOutDir: true,
     rollupOptions: {
-      input: pageEntries,
+      input: {
+        home: resolve(__dirname, "index.html"),
+        "how-it-works": resolve(__dirname, "how-it-works/index.html"),
+        disclaimer: resolve(__dirname, "disclaimer/index.html"),
+        source: resolve(__dirname, "source/index.html"),
+      },
     },
   },
 });

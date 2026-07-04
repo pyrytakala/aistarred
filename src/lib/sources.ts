@@ -1,5 +1,3 @@
-import { resolve } from "node:path";
-
 export type { DateRange, SourceConfig } from "./sources-config.js";
 export {
   DEFAULT_SOURCE_ID,
@@ -10,6 +8,7 @@ export {
 
 import type { SourceConfig } from "./sources-config.js";
 import { DEFAULT_SOURCE_ID, listSources } from "./sources-config.js";
+import { loadScoringPromptTemplate, SCORING_PROMPT_FILE, scoringPromptPath } from "./scoring-prompt.js";
 
 export function resolveSourceIdFromArgv(argv: string[]): string {
   const allSources = argv.includes("--all-sources");
@@ -34,6 +33,12 @@ export function resolveSourceIdsFromArgv(argv: string[]): string[] {
   return listSources().map((source) => source.id);
 }
 
-export function promptPathForSource(source: SourceConfig): string {
-  return resolve(process.cwd(), source.promptFile);
+export function promptPathForSource(_source?: SourceConfig): string {
+  return scoringPromptPath();
 }
+
+export function loadScoringPromptForSource(source: Pick<SourceConfig, "contentKind">): string {
+  return loadScoringPromptTemplate(source.contentKind);
+}
+
+export { SCORING_PROMPT_FILE };

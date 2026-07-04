@@ -2,9 +2,10 @@ import { mkdirSync, readFileSync, writeFileSync, existsSync, readdirSync } from 
 import { join } from "node:path";
 
 import { isWithinDateRange } from "../lib/date-range.js";
+import { getContentFetcher, usesEssayFetch } from "../lib/content-fetchers/index.js";
 import { halfYearDateRange, shouldExpandToHalfYear } from "../lib/half-year.js";
 import { pipelineLog, withPipelineTiming } from "../lib/pipeline-log.js";
-import { isEligibleForScoring } from "../lib/scoring-limits.js";
+import { appliesDurationLimits, isEligibleForScoring } from "../lib/scoring-limits.js";
 import { loadEnv } from "../lib/env.js";
 import { sourcePaths } from "../lib/paths.js";
 import {
@@ -207,8 +208,107 @@ function filterVideosBySource(
     if (source.dateRange && !isWithinDateRange(uploadDate, source.dateRange)) {
       return false;
     }
-    return isEligibleForScoring(durationSeconds);
+    return isEligibleForScoring(durationSeconds, {
+      applyLimits: appliesDurationLimits(source),
+    });
   });
+}
+
+async function runEssayFetch(
+  source: SourceConfig,
+  paths: ReturnType<typeof sourcePaths>,
+  argv: string[],
+): Promise<number> {
+  const outputDir = paths.transcriptsDir;
+  const fetcher = getContentFetcher(source);
+  const requestDelay = Number(
+    argv.find((arg, index) => argv[index - 1] === "--request-delay") ?? 0.5,
+  );
+  const limitArg = argv.find((arg, index) => argv[index - 1] === "--limit");
+  const maxItems = limitArg ? Number(limitArg) : null;
+  const catalogUrl =
+    argv.find((arg, index) => argv[index - 1] === "--channel-url") ?? source.channelUrl;
+
+  const windowLabel = source.dateRange
+    ? `${source.dateRange.since}–${source.dateRange.until}`
+    : "all time";
+  console.log(
+    `Listing essays from ${catalogUrl} for ${source.title} (${windowLabel}) via ${fetcher.kind}...`,
+  );
+
+  const context = {
+    sourceId: source.id,
+    sourceUrl: catalogUrl,
+    dateRange: source.dateRange,
+    outputDir,
+    requestDelayMs: requestDelay * 1000,
+    maxItems,
+  };
+
+  let items;
+  try {
+    items = await fetcher.listItems(context);
+  } catch (error) {
+    console.error(error instanceof Error ? error.message : error);
+    return 1;
+  }
+
+  if (!items.length) {
+    console.error("No essays found in the requested date window.");
+    return 1;
+  }
+
+  console.log(`Found ${items.length} essays in window. Fetching text...\n`);
+
+  const results: VideoIndexEntry[] = [];
+  const usedNames = new Set<string>();
+
+  for (const [index, item] of items.entries()) {
+    console.log(`[${index + 1}/${items.length}] ${item.title} (${item.id})`);
+    const result = await withPipelineTiming(
+      "essay-fetch",
+      "fetch-item",
+      { sourceId: source.id, essayId: item.id, index: index + 1, total: items.length },
+      () => fetcher.fetchItem(item, context, usedNames),
+    );
+    results.push(result);
+    console.log(
+      `  -> transcript: ${result.transcript_status}, upload_date: ${result.upload_date}`,
+    );
+    if (requestDelay > 0 && index < items.length - 1) {
+      await sleep(requestDelay * 1000);
+    }
+  }
+
+  const indexPath = paths.indexPath;
+  writeFileSync(
+    indexPath,
+    `${JSON.stringify(
+      {
+        source_id: source.id,
+        provider: fetcher.kind,
+        channel_url: catalogUrl,
+        date_range: source.dateRange ?? null,
+        video_count: results.length,
+        videos: results,
+      },
+      null,
+      2,
+    )}\n`,
+    "utf8",
+  );
+
+  pipelineLog("essay-fetch", "fetch-complete", {
+    sourceId: source.id,
+    essayCount: results.length,
+    okCount: results.filter((result) => result.transcript_status === "ok").length,
+    dateRange: source.dateRange ?? null,
+  });
+
+  const okCount = results.filter((result) => result.transcript_status === "ok").length;
+  console.log(`\nDone. Saved ${okCount}/${results.length} essays to ${outputDir}/`);
+  console.log(`Metadata: ${indexPath}`);
+  return okCount ? 0 : 1;
 }
 
 export async function runFetch(argv: string[]): Promise<number> {
@@ -218,6 +318,10 @@ export async function runFetch(argv: string[]): Promise<number> {
   const paths = sourcePaths(source.id);
   const outputDir = paths.transcriptsDir;
   mkdirSync(outputDir, { recursive: true });
+
+  if (usesEssayFetch(source)) {
+    return runEssayFetch(source, paths, argv);
+  }
 
   if (argv.includes("--backfill-upload-dates")) {
     const delay = Number(argv.find((arg, index) => argv[index - 1] === "--request-delay") ?? 1);

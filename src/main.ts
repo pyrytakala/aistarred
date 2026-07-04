@@ -1,34 +1,46 @@
 import "./styles.css";
 import type { RankedVideo, RankingsPayload, Tag } from "./types";
-import { CONTENT_KIND_LABELS, type ContentKind } from "./lib/content-kind.js";
+import type { ContentKind } from "./lib/content-kind.js";
 import { shouldDisplayVideo } from "./lib/source-filter.js";
 import { parseUploadDate } from "./lib/video-age.js";
 import { isScoredRanking, selectTopPicks } from "./lib/top-picks.js";
 import { isTooLongForScoring } from "./lib/scoring-limits.js";
 import { positiveDimensionTags } from "./lib/dimension-tags.js";
+import { audienceLevelLabel, AUDIENCE_LEVEL_SCALE_HINT } from "./lib/audience-level.js";
+import { contentKindLabels, topPicksHeading, type PublicSource } from "./lib/public-source.js";
+import {
+  loadPublicSourceBySlug,
+  rankingsUrlForSource,
+  slugFromPathname,
+} from "./lib/sources-manifest.js";
 
-const SOURCE_ID = document.body.dataset.sourceId ?? "ai-engineer-worlds-fair-2026";
-const CONTENT_KIND = (document.body.dataset.contentKind ?? "conference") as ContentKind;
-const CONTENT_LABELS = CONTENT_KIND_LABELS[CONTENT_KIND];
-const ITEM_LABEL = document.body.dataset.itemLabel ?? "videos";
-const DISPLAY_FILTER = {
-  maxDisplayAgeDays: document.body.dataset.maxDisplayAgeDays
-    ? Number(document.body.dataset.maxDisplayAgeDays)
-    : null,
-  dateRange:
-    document.body.dataset.dateSince && document.body.dataset.dateUntil
-      ? {
-          since: document.body.dataset.dateSince,
-          until: document.body.dataset.dateUntil,
-        }
-      : undefined,
-};
+interface PageState {
+  source: PublicSource;
+  contentLabels: ReturnType<typeof contentKindLabels>;
+  itemLabel: string;
+  displayFilter: {
+    maxDisplayAgeDays: number | null;
+    dateRange?: { since: string; until: string };
+  };
+  coverImage: string | null;
+  useYoutubeThumbs: boolean;
+  rankingsUrl: string;
+}
 
-const RANKINGS_URL = import.meta.env.DEV
-  ? `/api/rankings/${SOURCE_ID}`
-  : `${import.meta.env.BASE_URL}data/${SOURCE_ID}/rankings.json`;
+let pageState: PageState | null = null;
 
-function thumbnailUrl(videoId: string): string {
+function getPageState(): PageState {
+  if (!pageState) {
+    throw new Error("Page state not initialized");
+  }
+  return pageState;
+}
+
+function itemThumbnailUrl(videoId: string): string {
+  const { coverImage, useYoutubeThumbs } = getPageState();
+  if (!useYoutubeThumbs && coverImage) {
+    return coverImage;
+  }
   return `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`;
 }
 
@@ -85,7 +97,7 @@ const SCORE_COMPONENTS = [
 const SCORE_WEIGHT_TOTAL = SCORE_COMPONENTS.reduce((sum, component) => sum + component.weight, 0);
 
 function shouldShowVideo(uploadDate: string | null | undefined): boolean {
-  return shouldDisplayVideo(uploadDate, DISPLAY_FILTER);
+  return shouldDisplayVideo(uploadDate, getPageState().displayFilter);
 }
 
 function formatWeightPercent(weight: number): string {
@@ -462,12 +474,111 @@ function renderSummary(wrap: HTMLElement, bullets: string[] | undefined): void {
   }
 }
 
+function ensureAudienceLevelTooltip(): HTMLDivElement {
+  let tooltip = document.getElementById("audience-level-tooltip") as HTMLDivElement | null;
+  if (!tooltip) {
+    tooltip = document.createElement("div");
+    tooltip.id = "audience-level-tooltip";
+    tooltip.hidden = true;
+    tooltip.textContent = AUDIENCE_LEVEL_SCALE_HINT;
+    document.body.appendChild(tooltip);
+  }
+  return tooltip;
+}
+
+function showAudienceLevelTooltip(wrap: HTMLElement): void {
+  const badge = wrap.querySelector<HTMLElement>(".audience-level");
+  if (!badge) {
+    return;
+  }
+
+  const tooltip = ensureAudienceLevelTooltip();
+  tooltip.hidden = false;
+  tooltip.style.visibility = "hidden";
+  tooltip.style.left = "0px";
+  tooltip.style.top = "0px";
+
+  const badgeRect = badge.getBoundingClientRect();
+  const tipRect = tooltip.getBoundingClientRect();
+  const margin = 8;
+  const gap = 6;
+
+  let top = badgeRect.bottom + gap;
+  let left = badgeRect.right - tipRect.width;
+
+  if (top + tipRect.height > window.innerHeight - margin) {
+    top = badgeRect.top - tipRect.height - gap;
+  }
+
+  left = Math.max(margin, Math.min(left, window.innerWidth - tipRect.width - margin));
+  top = Math.max(margin, Math.min(top, window.innerHeight - tipRect.height - margin));
+
+  tooltip.style.left = `${left}px`;
+  tooltip.style.top = `${top}px`;
+  tooltip.style.visibility = "visible";
+}
+
+function hideAudienceLevelTooltip(): void {
+  const tooltip = document.getElementById("audience-level-tooltip");
+  if (tooltip) {
+    tooltip.hidden = true;
+    tooltip.style.visibility = "";
+  }
+}
+
+function setupAudienceLevelTooltip(wrap: HTMLElement): void {
+  if (wrap.dataset.tooltipBound === "true") {
+    return;
+  }
+  wrap.dataset.tooltipBound = "true";
+
+  wrap.addEventListener("mouseenter", () => showAudienceLevelTooltip(wrap));
+  wrap.addEventListener("mouseleave", hideAudienceLevelTooltip);
+  wrap.addEventListener("focusin", () => showAudienceLevelTooltip(wrap));
+  wrap.addEventListener("focusout", (event) => {
+    if (!wrap.contains(event.relatedTarget as Node | null)) {
+      hideAudienceLevelTooltip();
+    }
+  });
+}
+
+function renderTalkMeta(video: RankedVideo, levelEl: HTMLElement | null, published: HTMLTimeElement | null): void {
+  const label = audienceLevelLabel(video.audience_level);
+  const wrap = levelEl?.closest<HTMLElement>(".audience-level-wrap");
+
+  if (levelEl && wrap) {
+    if (label) {
+      levelEl.textContent = label;
+      wrap.hidden = false;
+      setupAudienceLevelTooltip(wrap);
+    } else {
+      levelEl.textContent = "";
+      wrap.hidden = true;
+    }
+  }
+
+  if (!published) {
+    return;
+  }
+
+  const uploadDate = parseUploadDate(video.upload_date);
+  if (uploadDate) {
+    published.hidden = false;
+    published.dateTime = video.upload_date ?? "";
+    published.title = formatAbsoluteDate(uploadDate);
+    published.textContent = formatRelativeDate(video.upload_date);
+  } else {
+    published.hidden = true;
+  }
+}
+
 function populateExcludedCard(card: HTMLElement, video: RankedVideo): void {
   const duration = card.querySelector<HTMLElement>(".duration");
   const thumbLink = card.querySelector<HTMLAnchorElement>(".thumb-link");
   const thumb = card.querySelector<HTMLImageElement>(".thumb");
   const titleLink = card.querySelector<HTMLAnchorElement>(".title-link");
   const summaryWrap = card.querySelector<HTMLElement>(".summary-wrap");
+  const audienceLevel = card.querySelector<HTMLElement>(".audience-level");
   const published = card.querySelector<HTMLTimeElement>(".published");
 
   if (!thumbLink || !thumb || !duration || !titleLink || !published || !video.url) {
@@ -476,7 +587,7 @@ function populateExcludedCard(card: HTMLElement, video: RankedVideo): void {
 
   card.dataset.videoId = video.id;
 
-  thumb.src = thumbnailUrl(video.id);
+  thumb.src = itemThumbnailUrl(video.id);
   thumb.alt = video.title;
   thumbLink.href = video.url;
 
@@ -499,15 +610,7 @@ function populateExcludedCard(card: HTMLElement, video: RankedVideo): void {
     setupSummaryInteractions(card, summaryWrap, video.id);
   }
 
-  const uploadDate = parseUploadDate(video.upload_date);
-  if (uploadDate) {
-    published.hidden = false;
-    published.dateTime = video.upload_date ?? "";
-    published.title = formatAbsoluteDate(uploadDate);
-    published.textContent = formatRelativeDate(video.upload_date);
-  } else {
-    published.hidden = true;
-  }
+  renderTalkMeta(video, audienceLevel, published);
 }
 
 function excludedTalks(payload: RankingsPayload): {
@@ -527,7 +630,8 @@ function excludedTalks(payload: RankingsPayload): {
   const visible = inRange(payload.rankings || []);
   const picks = new Set(visiblePicks(payload).map((video) => video.id));
   const scored = visible.filter(isScoredRanking);
-  const tooLong = visible.filter((video) => isTooLongForScoring(video.duration_seconds));
+  const durationOpts = { applyLimits: getPageState().source.contentKind !== "essay" };
+  const tooLong = visible.filter((video) => isTooLongForScoring(video.duration_seconds, durationOpts));
 
   return {
     tooLong,
@@ -599,19 +703,21 @@ function renderExcludedSections(payload: RankingsPayload): void {
 
   const { tooLong, other } = excludedTalks(payload);
 
+  const { contentLabels } = getPageState();
+
   renderExcludedSection(
     container,
-    CONTENT_LABELS.veryLong,
+    contentLabels.veryLong,
     tooLong,
     template,
-    `These ${CONTENT_LABELS.veryLong.toLowerCase()} have not been scored.`,
+    `These ${contentLabels.veryLong.toLowerCase()} have not been scored.`,
   );
   renderExcludedSection(
     container,
-    CONTENT_LABELS.other,
+    contentLabels.other,
     other,
     template,
-    CONTENT_LABELS.otherLede,
+    contentLabels.otherLede,
   );
 }
 
@@ -629,6 +735,7 @@ function populateCard(
   const thumbTags = card.querySelector<HTMLElement>(".thumb-tags");
   const titleLink = card.querySelector<HTMLAnchorElement>(".title-link");
   const summaryWrap = card.querySelector<HTMLElement>(".summary-wrap");
+  const audienceLevel = card.querySelector<HTMLElement>(".audience-level");
   const published = card.querySelector<HTMLTimeElement>(".published");
   const score = card.querySelector<HTMLButtonElement>(".score");
   const scoreBreakdown = card.querySelector<HTMLElement>(".score-breakdown");
@@ -654,7 +761,7 @@ function populateCard(
   renderTags(thumbTags, positiveTags(video));
   setupScoreButton(card, score, scoreBreakdown, video);
 
-  thumb.src = thumbnailUrl(video.id);
+  thumb.src = itemThumbnailUrl(video.id);
   thumb.alt = video.title;
   thumbLink.href = video.url;
 
@@ -675,19 +782,11 @@ function populateCard(
   summaryWrap.hidden = !(video.summary_bullets || []).length;
   setupSummaryInteractions(card, summaryWrap, video.id);
 
-  const uploadDate = parseUploadDate(video.upload_date);
-  if (uploadDate) {
-    published.hidden = false;
-    published.dateTime = video.upload_date ?? "";
-    published.title = formatAbsoluteDate(uploadDate);
-    published.textContent = formatRelativeDate(video.upload_date);
-  } else {
-    published.hidden = true;
-  }
+  renderTalkMeta(video, audienceLevel, published);
 }
 
 async function loadRankings(): Promise<RankingsPayload> {
-  const response = await fetch(RANKINGS_URL);
+  const response = await fetch(getPageState().rankingsUrl);
   if (!response.ok) {
     throw new Error(`Failed to load rankings (${response.status})`);
   }
@@ -711,13 +810,14 @@ function renderMeta(payload: RankingsPayload): void {
     return;
   }
 
+  const { itemLabel } = getPageState();
   const picks = visiblePicks(payload);
   const scoredCount = payload.scored_count ?? picks.length;
 
   if (scoredCount > picks.length) {
-    meta.textContent = `${picks.length} top ${ITEM_LABEL} (from ${scoredCount} scored)`;
+    meta.textContent = `${picks.length} top ${itemLabel} (from ${scoredCount} scored)`;
   } else {
-    meta.textContent = `${picks.length} top ${ITEM_LABEL}`;
+    meta.textContent = `${picks.length} top ${itemLabel}`;
   }
 }
 
@@ -766,19 +866,51 @@ function renderError(message: string): void {
   grid.appendChild(error);
 }
 
-loadRankings()
-  .then((payload) => {
-    renderMeta(payload);
-    renderCards(payload);
-    renderExcludedSections(payload);
-  })
-  .catch((error: Error) => {
-    const meta = document.getElementById("meta");
-    if (meta) {
-      meta.textContent = "Could not load rankings";
-    }
-    renderError(error.message);
-  });
+async function initPage(): Promise<void> {
+  const slug = slugFromPathname();
+  if (!slug) {
+    throw new Error("Missing source slug in URL");
+  }
+
+  const source = await loadPublicSourceBySlug(slug);
+  pageState = {
+    source,
+    contentLabels: contentKindLabels(source),
+    itemLabel: source.itemLabel,
+    displayFilter: {
+      maxDisplayAgeDays: source.maxDisplayAgeDays,
+      dateRange: source.dateRange,
+    },
+    coverImage: source.coverImage,
+    useYoutubeThumbs: source.contentKind !== "essay",
+    rankingsUrl: rankingsUrlForSource(source.id),
+  };
+
+  document.title = `${source.pageTitle} — AI starred`;
+
+  const heading = document.getElementById("page-heading");
+  if (heading) {
+    heading.textContent = source.pageTitle;
+  }
+
+  const topPicks = document.getElementById("top-picks-heading");
+  if (topPicks) {
+    topPicks.textContent = topPicksHeading(source);
+  }
+
+  const payload = await loadRankings();
+  renderMeta(payload);
+  renderCards(payload);
+  renderExcludedSections(payload);
+}
+
+initPage().catch((error: Error) => {
+  const meta = document.getElementById("meta");
+  if (meta) {
+    meta.textContent = "Could not load source";
+  }
+  renderError(error.message);
+});
 
 let resizeTimer: ReturnType<typeof setTimeout> | undefined;
 window.addEventListener("resize", () => {

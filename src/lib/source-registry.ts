@@ -59,6 +59,16 @@ export const SOURCE_REGISTRY: SourceRegistryEntry[] = [
     note: "H1 2026 (Q2 had <10 episodes).",
   },
   {
+    status: "included",
+    id: "paul-graham-essays-2020s",
+    note: "Essay fetch via paulgraham.com HTML extractor.",
+  },
+  {
+    status: "included",
+    id: "huberman-lab-h1-2026",
+    note: "H1 2026 (~49 episodes; Q2 alone had 26).",
+  },
+  {
     status: "excluded",
     id: "lex-fridman-pod",
     label: "Lex Fridman Podcast",

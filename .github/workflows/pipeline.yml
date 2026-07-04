@@ -31,7 +31,7 @@ jobs:
             .cache
             scores
             transcripts
-          key: pipeline-data-v2-${{ hashFiles('package-lock.json', 'scoring_prompt.txt', 'scoring_prompt_podcast.txt', 'src/lib/sources-config.ts') }}
+          key: pipeline-data-v2-${{ hashFiles('package-lock.json', 'scoring_prompt.txt', 'src/lib/scoring-prompt.ts', 'src/lib/sources-config.ts') }}
           restore-keys: |
             pipeline-data-v2-
 

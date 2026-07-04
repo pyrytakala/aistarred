@@ -1,15 +1,15 @@
-You are evaluating a conference talk transcript to produce a RANKING SCORE so a viewer can sort many talks by quality. Judge intrinsic quality only — not relevance to any particular person.
+You are evaluating a {content_descriptor} to produce a RANKING SCORE so a {consumer} can sort many {cluster_label} by quality. Judge intrinsic quality only — not relevance to any particular person.
 
 Inputs:
 - Title: {title}
-- Speaker(s): {speakers}
-- Transcript (timestamped): {transcript}
+- {author_label}: {speakers}
+- {text_label}: {transcript}
 
-Step 1 — Summary bullets: Write 3–5 bullets for someone who has not seen the talk. Each ideally under 7 words; lead with the fact — not "Shows/Presents/Proposes/Covers". Plain language; max 1–2 jargon terms (define briefly if needed). No hype.
+Step 1 — Summary bullets: Write 3–5 bullets for {summary_intro}. Each ideally under 7 words; lead with the fact — not {forbidden_summary_leads}. Plain language; max 1–2 jargon terms (define briefly if needed). No hype.
 
-Step 2 — Central claim(s): In 2–3 sentences, state the claim(s) the talk actually asserts. If there is no real claim (topic tour, product pitch, restatement of common knowledge), say so — this should force low Substance and Evidence scores.
+Step 2 — Central claim(s): In 2–3 sentences, state the claim(s) actually asserted. If there is no real claim ({claim_empty_cases}), say so — this should force low Substance and Evidence scores.
 
-Step 3 — Score each dimension 0–10. Give one sentence of reasoning BEFORE the number. Judge substance, not delivery polish, length, or confident tone. Use the FULL range and decimals (e.g. 6.5) so talks separate cleanly — avoid clustering everything at 5–7.
+Step 3 — Score each dimension 0–10. Give one sentence of reasoning BEFORE the number. Judge substance, not {polish_type}, length, or confident tone. Use the FULL range and decimals (e.g. 6.5) so {cluster_label} separate cleanly — avoid clustering everything at 5–7.
 
 1. Substance (0–10): specificity and non-triviality of the claims.
    0 = no real claim/pure promo · 5 = real but familiar/shallow · 10 = sharp, non-obvious, field-advancing
@@ -17,8 +17,9 @@ Step 3 — Score each dimension 0–10. Give one sentence of reasoning BEFORE th
    0 = assertion/anecdote only · 5 = partial data or worked examples · 10 = strong data, results, rigorous argument
 3. Specificity (0–10): concreteness of content.
    0 = hand-wavy throughout · 5 = mixed · 10 = concrete methods, numbers, named failure modes
-4. Insight density (0–10): how much substance per minute vs. filler/setup/repetition.
+4. Insight density (0–10): {insight_density_detail}.
    0 = mostly filler · 5 = a few good moments in padding · 10 = consistently dense
+   Judge padding independently of Substance: a genuinely insightful piece that is bloated, repetitive, or slow still scores LOW here.
 5. Non-promotion (0–10): 0 = mostly selling a product/person · 10 = no promotional framing.
 
 If the transcript is too garbled to judge a dimension, score it and flag LOW-CONFIDENCE rather than skipping (a ranking needs a number).
@@ -32,7 +33,16 @@ Step 4 — Composite (0–100), computed as:
   (max = 100)
 Show the arithmetic.
 
-Step 5 — Confidence (High/Med/Low): lower it if the talk is visual/demo-heavy (transcript understates it) or the transcript is poor. Note WHY in one phrase.
+Step 5 — Confidence (High/Med/Low): lower it if {confidence_caveat}. Note WHY in one phrase.
+
+Step 6 — Audience level: Classify who can follow this without feeling lost. Pick exactly ONE label:
+
+- General — Accessible to a curious general audience. The topic may touch a field but does not require prior study (e.g. a human-interest angle, well-explained overview).
+- Practitioner — Assumes baseline literacy in the field (e.g. undergrad CS, intro ML). {audience_unfamiliar}
+- Professional — Assumes active professional practice in the field ({audience_example}). Hard for informed outsiders to follow.
+- Specialist — Assumes deep subfield expertise (e.g. two infra engineers debating kernel schedulers; researchers in the same narrow area talking shop).
+
+Give one short phrase explaining what background is assumed. Do NOT conflate "advanced topic" with level — cutting-edge work can still be General if explained well.
 
 Output exactly:
 - Summary bullets:
@@ -46,4 +56,5 @@ Output exactly:
 - Non-promotion: [reason] N
 - COMPOSITE: NN/100 (show arithmetic)
 - Confidence: High/Med/Low — why
-- Most substantive line (quote + timestamp):
+- Audience level: [General|Practitioner|Professional|Specialist] — why
+- {substantive_line}

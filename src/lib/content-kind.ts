@@ -36,4 +36,12 @@ export const CONTENT_KIND_LABELS: Record<
     otherLede:
       "These videos are part of the same group and can be strong too—they just didn't make the top picks this time.",
   },
+  essay: {
+    kind: "Essays",
+    topPicks: "Top essays",
+    veryLong: "Very long essays",
+    other: "Other essays",
+    otherLede:
+      "These essays are part of the same group and can be strong too—they just didn't make the top picks this time.",
+  },
 };

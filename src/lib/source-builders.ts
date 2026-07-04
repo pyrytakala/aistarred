@@ -32,6 +32,37 @@ export interface QuarterlyPodcastSourceOptions {
   halfYear?: boolean;
 }
 
+export interface EssaySourceOptions {
+  id: string;
+  name: string;
+  catalogUrl: string;
+  coverImage: string;
+  dateRange: DateRange;
+  period: string;
+  fetchAdapter?: "paul-graham";
+}
+
+export function essaySource(options: EssaySourceOptions): SourceConfig {
+  const { id, name, catalogUrl, coverImage, dateRange, period, fetchAdapter = "paul-graham" } =
+    options;
+
+  return {
+    id,
+    title: name,
+    slug: id,
+    channelUrl: catalogUrl,
+    fetchKind: "essay",
+    fetchAdapter,
+    contentKind: "essay",
+    coverImage,
+    itemLabel: "essays",
+    pageTitle: `${name} essays`,
+    period,
+    dateRange,
+    maxDisplayAgeDays: null,
+  };
+}
+
 export function quarterlyPodcastSource(
   options: QuarterlyPodcastSourceOptions,
 ): SourceConfig {
@@ -50,20 +81,20 @@ export function quarterlyPodcastSource(
     conference: `${title} talks`,
     podcast: `${title} episodes`,
     channel: `${title} videos`,
+    essay: `${title} essays`,
   };
-  const usesTalkPrompt = contentKind === "conference" || contentKind === "channel";
 
   return {
     id,
     title,
     slug: id,
     channelUrl: `https://www.youtube.com/@${channelHandle}/videos`,
+    fetchKind: "youtube",
     contentKind,
     coverImage,
     itemLabel: "videos",
     pageTitle: pageTitles[contentKind],
     period: halfYear ? `Jan–Jun ${year}` : `${QUARTER_PERIODS[quarter]} ${year}`,
-    promptFile: usesTalkPrompt ? "scoring_prompt.txt" : "scoring_prompt_podcast.txt",
     dateRange: halfYear ? halfYearDateRange(year) : quarterDateRange(year, quarter),
     fetchWindow: { months: halfYear ? 7 : 4 },
     maxDisplayAgeDays: null,

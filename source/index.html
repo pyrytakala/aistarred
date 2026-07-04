@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The TWIML AI Podcast — Q2 2026 episodes — AI starred</title>
+    <title>AI starred</title>
     <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
   </head>
-  <body data-source-id="twiml-ai-pod-q2-2026" data-content-kind="podcast" data-item-label="videos" data-date-since="20260401" data-date-until="20260630">
+  <body>
     <nav class="site-header">
       <div class="site-header-inner">
         <a class="site-logo" href="/" aria-label="AI starred home">
@@ -18,13 +18,13 @@
     </nav>
     <header class="header">
       <div class="header-copy">
-        <h1>The TWIML AI Podcast — Q2 2026 episodes</h1>
+        <h1 id="page-heading">Loading…</h1>
       </div>
     </header>
 
     <div class="page-main">
       <section class="content-section">
-        <h2 class="section-heading">Top episodes</h2>
+        <h2 id="top-picks-heading" class="section-heading">Top picks</h2>
         <p id="meta" class="section-meta">Loading…</p>
         <div id="grid" class="grid" aria-live="polite"></div>
       </section>
@@ -47,7 +47,12 @@
         <div class="body">
           <div class="talk-heading">
             <a class="title-link" target="_blank" rel="noopener noreferrer"></a>
-            <time class="published"></time>
+            <div class="talk-meta">
+              <time class="published"></time>
+              <span class="audience-level-wrap" hidden>
+                <span class="audience-level" tabindex="0"></span>
+              </span>
+            </div>
           </div>
           <div class="summary-wrap">
             <div class="summary-panel">
@@ -75,7 +80,12 @@
         <div class="body">
           <div class="talk-heading">
             <a class="title-link" target="_blank" rel="noopener noreferrer"></a>
-            <time class="published"></time>
+            <div class="talk-meta">
+              <time class="published"></time>
+              <span class="audience-level-wrap" hidden>
+                <span class="audience-level" tabindex="0"></span>
+              </span>
+            </div>
           </div>
           <div class="summary-wrap">
             <div class="summary-panel">

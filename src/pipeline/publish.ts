@@ -4,10 +4,11 @@ import { join } from "node:path";
 import { applyLikeRankAdjustment, indexVideosById } from "../lib/ranking-adjustments.js";
 import { positiveDimensionTags } from "../lib/dimension-tags.js";
 import { isScoredRanking, selectTopPicks } from "../lib/top-picks.js";
-import { isTooLongForScoring, isTooShortForScoring } from "../lib/scoring-limits.js";
+import { appliesDurationLimits, isTooLongForScoring, isTooShortForScoring } from "../lib/scoring-limits.js";
 import { shouldDisplayVideo } from "../lib/source-filter.js";
 import { sourcePaths } from "../lib/paths.js";
 import { getSource, listSources, promptPathForSource, type SourceConfig } from "../lib/sources.js";
+import { SCORING_PROMPT_FILE } from "../lib/scoring-prompt.js";
 import { extractSpeakers, parseScoreResponse } from "../lib/parse-score.js";
 import { safeFilename } from "../lib/utils.js";
 import type { IndexPayload, RankedVideo, RankingsPayload } from "../lib/types.js";
@@ -20,16 +21,18 @@ export function loadVideos(indexPath: string): IndexPayload["videos"] {
 export function buildRankingsFromScoreFiles(
   indexPath: string,
   outputDir: string,
+  source?: Pick<SourceConfig, "fetchKind" | "contentKind">,
 ): RankedVideo[] {
+  const durationOpts = { applyLimits: source ? appliesDurationLimits(source) : true };
   const videos = loadVideos(indexPath);
   const results: RankedVideo[] = [];
 
   for (const video of videos) {
-    if (isTooShortForScoring(video.duration_seconds)) {
+    if (isTooShortForScoring(video.duration_seconds, durationOpts)) {
       continue;
     }
 
-    if (isTooLongForScoring(video.duration_seconds)) {
+    if (isTooLongForScoring(video.duration_seconds, durationOpts)) {
       results.push({
         id: video.id,
         title: video.title,
@@ -59,7 +62,7 @@ export function buildRankingsFromScoreFiles(
     results.push({
       id: video.id,
       title: video.title,
-      speakers: extractSpeakers(video.title, video.description),
+      speakers: video.channel ?? extractSpeakers(video.title, video.description),
       url: video.url,
       status: "ok",
       score_path: scorePath,
@@ -76,12 +79,13 @@ export function finalizeRankings(
     model?: string;
     promptPath?: string;
     indexPath: string;
-    source: Pick<SourceConfig, "id" | "promptFile" | "maxDisplayAgeDays" | "dateRange">;
+    source: Pick<SourceConfig, "id" | "maxDisplayAgeDays" | "dateRange" | "fetchKind" | "contentKind">;
   },
 ): RankingsPayload {
   const indexPath = options.indexPath;
   const indexPayload = JSON.parse(readFileSync(indexPath, "utf8")) as IndexPayload;
   const indexById = indexVideosById(indexPayload);
+  const durationOpts = { applyLimits: appliesDurationLimits(options.source) };
 
   const scorableResults: RankedVideo[] = [];
   const tooLongResults: RankedVideo[] = [];
@@ -95,11 +99,11 @@ export function finalizeRankings(
       continue;
     }
 
-    if (isTooShortForScoring(durationSeconds)) {
+    if (isTooShortForScoring(durationSeconds, durationOpts)) {
       continue;
     }
 
-    if (isTooLongForScoring(durationSeconds)) {
+    if (isTooLongForScoring(durationSeconds, durationOpts)) {
       tooLongResults.push({
         id: result.id,
         title: result.title,
@@ -132,13 +136,14 @@ export function finalizeRankings(
   return {
     source_id: options.source.id,
     model: options.model,
-    prompt_path: options.source.promptFile,
+    prompt_path: SCORING_PROMPT_FILE,
     video_count: results.length,
     scored_count: ranked.length,
     ranked_count: ranked.length,
     rankings,
     failures: results.filter(
-      (result) => result.status !== "ok" && !isTooLongForScoring(result.duration_seconds),
+      (result) =>
+        result.status !== "ok" && !isTooLongForScoring(result.duration_seconds, durationOpts),
     ),
   };
 }
@@ -173,8 +178,9 @@ export function sanitizePublishedPayload(
     video.rank = index + 1;
   });
 
+  const durationOpts = { applyLimits: appliesDurationLimits(source) };
   const tooLong = payload.rankings
-    .filter((video) => isTooLongForScoring(video.duration_seconds))
+    .filter((video) => isTooLongForScoring(video.duration_seconds, durationOpts))
     .map(stripDevFields);
 
   const other = scored
@@ -218,7 +224,7 @@ export function publishRankings(options: {
 
   let payload: RankingsPayload;
   if (options.reparse || !existsSync(sourcePath)) {
-    const results = buildRankingsFromScoreFiles(indexPath, scoresDir);
+    const results = buildRankingsFromScoreFiles(indexPath, scoresDir, source);
     const okCount = results.filter((result) => result.status === "ok").length;
     if (okCount === 0 && existsSync(outputPath)) {
       const existing = JSON.parse(readFileSync(outputPath, "utf8")) as RankingsPayload;

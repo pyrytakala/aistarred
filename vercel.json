@@ -1,5 +1,87 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-  "installCommand": "npm install"
+  "installCommand": "npm install",
+  "rewrites": [
+    {
+      "source": "/ai-engineer-worlds-fair-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/ai-engineer-worlds-fair-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/latent-space-pod-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/latent-space-pod-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/no-priors-pod-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/no-priors-pod-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/twiml-ai-pod-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/twiml-ai-pod-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/cognitive-revolution-pod-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/cognitive-revolution-pod-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/nvidia-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/nvidia-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/a16z-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/a16z-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/ml-street-talk-q2-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/ml-street-talk-q2-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/huberman-lab-h1-2026",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/huberman-lab-h1-2026/",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/paul-graham-essays-2020s",
+      "destination": "/source/index.html"
+    },
+    {
+      "source": "/paul-graham-essays-2020s/",
+      "destination": "/source/index.html"
+    }
+  ]
 }

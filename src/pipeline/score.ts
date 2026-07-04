@@ -1,17 +1,18 @@
 import { mkdirSync, readFileSync, writeFileSync, existsSync } from "node:fs";
-import { join } from "node:path";
+import { basename, join } from "node:path";
 
 import { AdaptiveConcurrency } from "../lib/adaptive-concurrency.js";
 import { ApiCache, fetchCachedText, fireworksCacheKey } from "../lib/api-cache.js";
 import { pipelineLog, withPipelineTiming } from "../lib/pipeline-log.js";
 import { loadEnv } from "../lib/env.js";
 import { sourcePaths } from "../lib/paths.js";
-import { getSource, promptPathForSource, resolveSourceIdFromArgv } from "../lib/sources.js";
+import { getSource, loadScoringPromptForSource, promptPathForSource, resolveSourceIdFromArgv } from "../lib/sources.js";
 import { shouldDisplayVideo } from "../lib/source-filter.js";
 import { extractSpeakers, parseScoreResponse } from "../lib/parse-score.js";
 import { safeFilename, sleep } from "../lib/utils.js";
 import { finalizeRankings, loadVideos, writeRankingsPayload } from "./publish.js";
 import {
+  appliesDurationLimits,
   formatMinimumScoringDuration,
   formatScoringDurationLimit,
   isTooLongForScoring,
@@ -23,6 +24,26 @@ import type { SourceConfig } from "../lib/sources.js";
 const FIREWORKS_URL = "https://api.fireworks.ai/inference/v1/chat/completions";
 const DEFAULT_MODEL = "accounts/fireworks/models/deepseek-v4-flash";
 const MAX_SCORE_RETRIES = 5;
+
+function resolveTranscriptPath(
+  transcriptPath: string | undefined,
+  sourceId: string,
+): string | null {
+  if (!transcriptPath) {
+    return null;
+  }
+
+  if (existsSync(transcriptPath)) {
+    return transcriptPath;
+  }
+
+  const sourceTranscriptPath = join(sourcePaths(sourceId).transcriptsDir, basename(transcriptPath));
+  if (existsSync(sourceTranscriptPath)) {
+    return sourceTranscriptPath;
+  }
+
+  return transcriptPath;
+}
 
 class RateLimitError extends Error {
   constructor(
@@ -140,18 +161,19 @@ async function scoreVideoJob(options: {
   concurrency: AdaptiveConcurrency;
   useCache: boolean;
   forceRescore: boolean;
-  source: Pick<SourceConfig, "id" | "maxDisplayAgeDays" | "dateRange">;
+  source: Pick<SourceConfig, "id" | "maxDisplayAgeDays" | "dateRange" | "fetchKind" | "contentKind" | "itemLabel">;
 }): Promise<RankedVideo> {
-  const { video, template, apiKey, model, outputDir, cache, concurrency, useCache, forceRescore } =
+  const { video, template, apiKey, model, outputDir, cache, concurrency, useCache, forceRescore, source } =
     options;
+  const durationOpts = { applyLimits: appliesDurationLimits(source) };
   const title = video.title;
   const videoId = video.id;
-  const transcriptPath = video.transcript_path;
+  const transcriptPath = resolveTranscriptPath(video.transcript_path, options.source.id);
   const scorePath = join(outputDir, `${safeFilename(title, videoId)}.txt`);
 
   console.log(`[${options.index}/${options.total}] ${title}`);
 
-  if (isTooShortForScoring(video.duration_seconds)) {
+  if (isTooShortForScoring(video.duration_seconds, durationOpts)) {
     console.log(`  -> skipped: ${formatMinimumScoringDuration()} or shorter`);
     return {
       id: videoId,
@@ -163,7 +185,7 @@ async function scoreVideoJob(options: {
     };
   }
 
-  if (isTooLongForScoring(video.duration_seconds)) {
+  if (isTooLongForScoring(video.duration_seconds, durationOpts)) {
     console.log(`  -> skipped: longer than ${formatScoringDurationLimit()} scoring limit`);
     return {
       id: videoId,
@@ -209,7 +231,7 @@ async function scoreVideoJob(options: {
     return {
       id: videoId,
       title,
-      speakers: extractSpeakers(title, video.description),
+      speakers: video.channel ?? extractSpeakers(title, video.description),
       url: video.url,
       status: "ok",
       score_path: scorePath,
@@ -219,7 +241,7 @@ async function scoreVideoJob(options: {
   }
 
   const transcript = readFileSync(transcriptPath, "utf8");
-  const speakers = extractSpeakers(title, video.description);
+  const speakers = video.channel ?? extractSpeakers(title, video.description);
   const prompt = buildPrompt(template, title, speakers, transcript);
 
   try {
@@ -303,17 +325,18 @@ export async function runScore(options: {
     return 1;
   }
 
-  const template = readFileSync(promptPath, "utf8");
+  const template = loadScoringPromptForSource(source);
   const videos = loadVideos(indexPath);
   if (!videos.length) {
     console.error("No scored transcripts found in index.");
     return 1;
   }
 
+  const durationOpts = { applyLimits: appliesDurationLimits(source) };
   const scorableCount = videos.filter(
     (video) =>
-      !isTooShortForScoring(video.duration_seconds) &&
-      !isTooLongForScoring(video.duration_seconds) &&
+      !isTooShortForScoring(video.duration_seconds, durationOpts) &&
+      !isTooLongForScoring(video.duration_seconds, durationOpts) &&
       shouldDisplayVideo(video.upload_date, source),
   ).length;
   const skippedCount = videos.length - scorableCount;
