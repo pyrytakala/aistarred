@@ -28,6 +28,7 @@ body {
 .page-feed {
   display: flex;
   flex-direction: column;
+  overflow-x: clip;
 }
 
 .page-feed .feed {
@@ -102,7 +103,7 @@ body {
   color: #d64550;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .feed {
     padding-inline: 1rem;
   }
