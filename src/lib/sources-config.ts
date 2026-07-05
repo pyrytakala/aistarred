@@ -11,7 +11,7 @@ export interface DateRange {
 
 export type FetchKind = "youtube" | "essay";
 
-export type EssayFetchAdapter = "paul-graham" | "rss-readability" | "podcast-rss-audio";
+export type EssayFetchAdapter = "paul-graham" | "rss-readability";
 
 export type EssayListingKind =
   | "feed"
@@ -294,19 +294,6 @@ export const SOURCES: Record<string, SourceConfig> = {
     coverImage: "/images/covers/pmf-show.png",
     year: 2026,
     quarter: 2,
-  }),
-  "how-i-built-this-q2-2026": essaySource({
-    id: "how-i-built-this-q2-2026",
-    name: "How I Built This",
-    catalogUrl: "https://rss.art19.com/how-i-built-this",
-    feedUrl: "https://rss.art19.com/how-i-built-this",
-    coverImage: "/images/covers/how-i-built-this.png",
-    dateRange: { since: "20260101", until: "20261231" },
-    listingKind: "feed",
-    channelName: "How I Built This",
-    fetchAdapter: "podcast-rss-audio",
-    contentKind: "podcast",
-    itemLabel: "episodes",
   }),
   "lennys-podcast-q2-2026": quarterlyPodcastSource({
     id: "lennys-podcast-q2-2026",

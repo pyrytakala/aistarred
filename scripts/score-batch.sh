@@ -12,7 +12,6 @@ SOURCES=(
   greg-isenberg-q2-2026
   gwern-blog-2025-2026
   hamel-dev-h1-2026
-  how-i-built-this-q2-2026
   iltb-podcast-q2-2026
   import-ai-h1-2026
   lennys-podcast-q2-2026

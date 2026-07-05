@@ -516,25 +516,6 @@
       "rankedCount": 37
     },
     {
-      "id": "how-i-built-this-q2-2026",
-      "slug": "how-i-built-this-q2-2026",
-      "title": "How I Built This",
-      "pageTitle": "How I Built This",
-      "contentKind": "podcast",
-      "itemLabel": "episodes",
-      "coverImage": "/images/covers/how-i-built-this.png",
-      "dateRange": {
-        "since": "20260101",
-        "until": "20261231"
-      },
-      "maxDisplayAgeDays": null,
-      "primaryCategory": "startups",
-      "categories": [
-        "startups"
-      ],
-      "rankedCount": 1
-    },
-    {
       "id": "lennys-podcast-q2-2026",
       "slug": "lennys-podcast-q2-2026",
       "title": "Lenny's Podcast",

@@ -3,6 +3,10 @@
  * Not surfaced in the UI — update this when adding or declining a source.
  *
  * Runtime config lives in `sources-config.ts`; this file is the decision log.
+ *
+ * Policy — audio / Whisper: Do not add How I Built This, download podcast MP3s,
+ * or run local Whisper transcription unless the user explicitly requests it.
+ * Default pipeline is YouTube (or RSS essays) + TranscriptAPI / Readability only.
  */
 
 export type IncludedSourceEntry = {
@@ -91,7 +95,13 @@ export const SOURCE_REGISTRY: SourceRegistryEntry[] = [
   { status: "included", id: "yc-startup-pod-q2-2026" },
   { status: "included", id: "my-first-million-q2-2026" },
   { status: "included", id: "pmf-show-q2-2026" },
-  { status: "included", id: "how-i-built-this-q2-2026", note: "Podcast RSS audio transcribed via Whisper." },
+  {
+    status: "excluded",
+    id: "how-i-built-this-q2-2026",
+    label: "How I Built This",
+    reason:
+      "RSS show notes are too short; full episodes need MP3+Whisper (do not use unless user explicitly requests). No reliable YouTube feed for 2026.",
+  },
   { status: "included", id: "lennys-podcast-q2-2026" },
   {
     status: "excluded",
